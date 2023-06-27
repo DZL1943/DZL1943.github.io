@@ -1,0 +1,9 @@
+- [ ] pathogen.vim
+- [ ] packages: vim8 自带, 可替代 pathogen
+- [ ] Vundle.vim: 不支持异步、延迟加载
+- [x] vim-plug: 可替代 Vundle
+- [ ] coc.nvim
+- [ ] dein.vim: 停止维护
+- [ ] packer.nvim: 停止维护
+- [x] lazy.nvim
+- [ ] rocks.nvim

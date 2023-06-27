@@ -1,0 +1,46 @@
+---
+created: 2023-12-13T16:24
+modified: 2024-07-31T15:06
+---
+
+- Applications
+- Library
+- System
+    - Applications
+    - Cryptexes
+    - Developer
+    - DriverKit
+    - Library
+    - Volumes
+        - BaseSystem
+        - Data
+        - FieldService
+        - FieldServiceDiagnostic
+        - FieldServiceRepair
+        - Hardware
+        - Preboot
+        - Recovery
+        - Update
+        - VM
+        - iSCPreboot
+        - xarts
+    - iOSSupport
+- Users
+    - $user
+    - Shared
+- Volumes
+- bin
+- cores
+- dev
+- etc -> private/etc
+- home -> /System/Volumes/Data/home
+- opt
+    - homebrew
+- private
+    - etc
+    - tmp
+    - var
+- sbin
+- tmp -> private/tmp
+- usr
+- var -> private/var

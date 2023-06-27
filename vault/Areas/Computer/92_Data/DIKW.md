@@ -1,0 +1,5 @@
+
+- Data
+- Information
+- Knowledge
+- Wisdom

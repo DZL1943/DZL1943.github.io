@@ -1,0 +1,113 @@
+
+- 启动台与程序坞
+    - 切换隐藏程序坞 | `opt+cmd+D`
+    - 显示启动台
+- 显示器
+    - 降低亮度 | `F14`
+    - 提高亮度 | `F15`
+- 调度中心
+    - **调度中心** | `ctrl+up`
+    - 显示通知中心
+    - 切换勿扰模式
+    - **应用程序窗口** | `ctrl+down`
+    - **显示桌面** | `F11`
+    - 切换台前调度
+    - 调度中心
+        - 左移空间 | `ctrl+left`
+        - 右移空间 | `ctrl+right`
+        - 切换到桌面 1 | `ctrl+1`
+    - 快速备忘录 | `🌐+Q`
+- 窗口
+    - 通用
+        - 最小化 | `cmd+M`
+        - 缩放
+        - 填充 | `ctrl+🌐+F`
+        - 居中 | `ctrl+🌐+C`
+        - 恢复上一个大小 | `ctrl+🌐+R`
+    - 二等分
+        - 左 | `ctrl+🌐+left`
+        - 右 | `ctrl+🌐+right`
+        - 上 | `ctrl+🌐+up`
+        - 下 | `ctrl+🌐+down`
+    - 四等分
+        - 左上
+        - 右上
+        - 左下
+        - 右下
+    - 排列
+        - 左右 | `ctrl+shift+🌐+left`
+        - 右左 | `ctrl+shift+🌐+left`
+        - 上下 | `ctrl+shift+🌐+left`
+        - 下上 | `ctrl+shift+🌐+left`
+        - 四分
+    - 全屏幕拼贴
+        - 左
+        - 右
+- 键盘
+    - 更改 Tab 键移动焦点的方式 | `ctrl+F7`
+    - 切换键盘访问 | `ctrl+F1`
+    - 将焦点移到菜单栏 | `ctrl+F2`
+    - 将焦点移到程序坞 | `ctrl+F3`
+    - 将焦点移到活跃窗口或下一个窗口 | `ctrl+F4`
+    - 将焦点移到窗口工具栏 | `ctrl+F5`
+    - 将焦点移到浮动窗口 | `ctrl+F6`
+    - **将焦点移到下一个窗口** | `` cmd+` ``
+    - 将焦点移到状态菜单 | `ctrl+F8`
+    - 显示关联菜单 | `ctrl+return`
+- 输入法
+    - 选择上一个输入法 | `ctrl+space`
+    - 选择"输入法"菜单中的下一个输入法 | `ctrl+opt+space`
+- 截屏
+    - 将屏幕图片存储为文件 | `shift+cmd+3`
+    - 将屏幕图片拷贝到剪贴板 | `ctrl+shift+cmd+3`
+    - 将所选区域的图片存储为文件 | `shift+cmd+4`
+    - 将所选区域的图片拷贝到剪贴板 | `ctrl+shift+cmd+4`
+    - 截屏和录制选项 | `shift+cmd+5`
+- 演讲者前置
+- 服务
+    - 互联网
+    - 开发
+    - 搜索
+    - 通信
+    - 通用
+    - 图片
+    - 文本
+    - 文件和文件夹
+- 聚焦
+    - 显示"聚焦"搜索 | `cmd+space`
+    - 显示"访达"搜索 | `opt+cmd+space`
+- 辅助功能
+    - 对比度
+    - 反转颜色
+    - 实时语音
+    - **显示辅助功能控制** | `opt+cmd+F5`
+    - 切换朗读指针
+    - 切换朗读所选
+    - 切换键入反馈
+    - 切换旁白 | `cmd+F5`
+    - 缩放
+- App 快捷键
+    - *Safari 浏览器*
+        - 翻译为简体中文
+        - 显示原始网页
+- 功能键
+    - 用作标准功能键: 是
+- 修饰键
+    - Capslock
+    - Control
+    - Option
+    - Command
+    - 🌐
+
+补充:
+- page up/down `🌐+up/down`
+- home/end `🌐+left/right`
+- 表情 `ctrl+cmd+space`
+- 打开当前 app 设置 `cmd+,`
+- 锁屏 `ctrl+cmd+Q`
+- 移动到废纸篓 `cmd+delete`
+- 清空废纸篓 `shift+cmd+delete`
+- 切换显示隐藏文件 `shift+cmd+.`
+- 强制退出应用程序 `cmd+alt+esc`
+
+[Mac 键盘快捷键 - 官方 Apple 支持 (中国)](https://support.apple.com/zh-cn/102650)

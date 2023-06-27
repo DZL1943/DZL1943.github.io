@@ -1,0 +1,192 @@
+{
+	"metadata": {
+		"version": "1.0-1.0",
+		"frontmatter": {
+			"title": "个人-家庭-企业-政府"
+		}
+	},
+	"nodes": [
+		{
+			"id": "ff493f22b9323abd",
+			"type": "text",
+			"text": "个人\n\n- 生活\n    - 衣食住行\n    - 社交娱乐\n- 工作\n- 学习\n    - 自然科学\n    - 社会科学\n    - 人文艺术\n    - 应用技术\n- 思想",
+			"styleAttributes": {
+				"textAlign": "center"
+			},
+			"dynamicHeight": false,
+			"x": -440,
+			"y": -300,
+			"width": 300,
+			"height": 360,
+			"color": "5"
+		},
+		{
+			"id": "c3173771f819f84a",
+			"type": "text",
+			"text": "自然",
+			"styleAttributes": {
+				"textAlign": "center"
+			},
+			"x": -660,
+			"y": -300,
+			"width": 120,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"id": "54a0559b3c293e01",
+			"type": "text",
+			"text": "政府\n\n- 政治\n- 经济\n- 军事\n- 科技\n- 文化",
+			"styleAttributes": {
+				"textAlign": "center"
+			},
+			"dynamicHeight": false,
+			"x": 460,
+			"y": -300,
+			"width": 160,
+			"height": 240,
+			"color": "5"
+		},
+		{
+			"id": "2591b5b78f7a9ad5",
+			"type": "text",
+			"text": "社会",
+			"styleAttributes": {
+				"textAlign": "center"
+			},
+			"x": -80,
+			"y": -520,
+			"width": 120,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"id": "c13e64ca18dbdabc",
+			"type": "text",
+			"text": "家庭\n\n- 家务\n- 外事\n- 财经\n- 婚育\n- 养老",
+			"styleAttributes": {
+				"textAlign": "center"
+			},
+			"x": -20,
+			"y": -300,
+			"width": 160,
+			"height": 240,
+			"color": "5"
+		},
+		{
+			"id": "cc58190cc0e165c9",
+			"type": "text",
+			"text": "企业\n\n- 行政/运营\n- 组织/人事\n- 财务/会计\n- 法务/公关\n- 市场/营销\n- 信息/技术",
+			"styleAttributes": {
+				"textAlign": "center"
+			},
+			"x": 220,
+			"y": -300,
+			"width": 160,
+			"height": 260,
+			"color": "5"
+		},
+		{
+			"id": "394ce2bcc8de5428",
+			"type": "text",
+			"text": "自我\n\n- 身心健康管理\n- 时间任务管理\n- 资产财务管理\n- 人脉关系管理\n- 数据信息管理",
+			"styleAttributes": {
+				"textAlign": "center"
+			},
+			"x": -500,
+			"y": 140,
+			"width": 240,
+			"height": 240,
+			"color": "5"
+		},
+		{
+			"id": "6048316b9e802323",
+			"type": "text",
+			"text": "他人",
+			"styleAttributes": {
+				"textAlign": "center"
+			},
+			"x": -200,
+			"y": 140,
+			"width": 120,
+			"height": 60,
+			"color": "5"
+		}
+	],
+	"edges": [
+		{
+			"id": "0a96924c6d098b60",
+			"styleAttributes": {},
+			"toFloating": false,
+			"fromNode": "ff493f22b9323abd",
+			"fromSide": "bottom",
+			"toNode": "394ce2bcc8de5428",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "7694c1f7da1fc544",
+			"styleAttributes": {},
+			"toFloating": false,
+			"fromNode": "ff493f22b9323abd",
+			"fromSide": "bottom",
+			"toNode": "6048316b9e802323",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "afbee8afc20dd961",
+			"styleAttributes": {},
+			"toFloating": false,
+			"fromFloating": false,
+			"fromNode": "2591b5b78f7a9ad5",
+			"fromSide": "left",
+			"toNode": "c3173771f819f84a",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "7a373f3e5ab1872e",
+			"styleAttributes": {},
+			"toFloating": false,
+			"fromFloating": false,
+			"fromNode": "2591b5b78f7a9ad5",
+			"fromSide": "left",
+			"toNode": "ff493f22b9323abd",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "c6327b3c1fae62cb",
+			"styleAttributes": {},
+			"toFloating": false,
+			"fromNode": "2591b5b78f7a9ad5",
+			"fromSide": "bottom",
+			"toNode": "c13e64ca18dbdabc",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "b0fac2882e98da4f",
+			"styleAttributes": {},
+			"toFloating": false,
+			"fromFloating": false,
+			"fromNode": "2591b5b78f7a9ad5",
+			"fromSide": "right",
+			"toNode": "cc58190cc0e165c9",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "84b9a6c83bb3b92c",
+			"styleAttributes": {},
+			"toFloating": false,
+			"fromFloating": false,
+			"fromNode": "2591b5b78f7a9ad5",
+			"fromSide": "right",
+			"toNode": "54a0559b3c293e01",
+			"toSide": "top",
+			"color": "5"
+		}
+	]
+}

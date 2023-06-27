@@ -1,0 +1,341 @@
+---
+created: 2026-01-06T15:07
+modified: 2026-01-11T22:30
+aliases:
+  - 软件
+sidebar_position: 1
+---
+
+## 系统 System
+
+- 输入法 IME
+    - Rime
+    - Fcitx
+    - [Input Source Pro](https://inputsource.pro/)
+- 剪切板 Clipboard
+- 触控板 Trackpad
+    - [BetterAndBetter](https://www.better365.cn/bab2.html)
+- 鼠标 Mouse
+    - MacMouseFix
+    - [xGestures](https://briankendall.net/xGestures/)
+- 键盘 Keyboard
+    - Karabiner
+- 快捷启动 Quickstart
+    - Raycast
+- 窗口管理 Window
+    - AeroSpace
+    - DockDoor
+- 菜单栏 Menubar
+    - Ice
+- 显示 Display
+    - BetterDisplay
+- 声音 Voice
+    - Background Music
+- 电源 Power
+    - [AIDente](https://apphousekitchen.com)
+    - Amphetamine
+- 监控 Stat
+    - Stats
+- 优化 Tweak
+- 卸载清理 Clean
+    - Pearcleaner
+- 安全 Security
+    - [Vallum](https://www.vallumfirewall.com/)
+- 驱动
+    - OpenMTP
+    - [ntfstool](https://github.com/ntfstool/ntfstool)
+    - [FUSE-T](https://www.fuse-t.org/)
+
+## 工具 Utility
+
+- 压缩 Archiver
+    - Keka
+- 截屏 Screenshot
+    - PixPin
+    - Snipaste
+    - [Shottr](https://shottr.cc)
+- 录屏 Screen Recorder
+    - OBS
+- 播放器 Video Player
+    - IINA
+- 下载器 Downloader
+    - Free Download Manager
+    - Transmission
+- 格式转换 Converter
+- 文件传输 Transport
+    - LocalSend
+- 文件同步 Sync
+    - Syncthing
+    - FreeFileSync
+    - FolderSync
+- 文件备份 Backup
+    - Kopia
+- 加密 Crypto
+    - Cryptomator
+    - VeraCrypt
+- 代理 Proxy
+    - Clash Verge Rev
+    - Hiddify
+    - sing-box
+    - Tailscale
+    - ZeroTier
+- DNS
+    - SwitchHosts
+- 远程桌面 Remote Desktop
+    - RustDesk
+    - Scrcpy
+
+## 效率 Productivity
+
+- 消息 Message
+    - QQ
+    - 微信 WeChat
+    - Telegram
+- 邮件 Email
+    - Outlook
+    - Gmail
+    - 网易邮箱
+    - QQ邮箱
+- 待办 GTD
+    - DIDA
+    - Tasks.org
+    - Super Productivity
+- 笔记 Note
+    - Quarto
+    - [Obsidian](<Obsidian/Obsidian.md>)
+    - [Notion](<Notion.md>)
+- 文档 Document
+    - WPS
+    - PDFgear
+    - Stirling-PDF
+    - Zotero
+    - Xmind
+- 密码 Password
+    - KeePass
+- 财务 Finance
+    - Ledger
+    - Beancount
+    - GnuCash
+- 云存储 Cloud Storage
+    - Dropbox
+    - iCloud
+    - OneDrive
+    - Google Drive
+    - Synology Drive
+    - Nextcloud
+- 浏览器 Browser
+    - Firefox
+        - LibreWolf
+        - Zen
+    - Chrome
+    - Edge
+    - Safari
+- AI https://llm-stats.com/
+    - [ChatGPT](https://chatgpt.com)
+    - [Gemini](https://gemini.google.com)
+    - [Grok](https://grok.x.ai)
+    - [Claude](https://claude.ai)
+    - [Qwen](https://www.qianwen.com)
+    - [DeekSeek](https://chat.deepseek.com)
+    - [Doubao](https://www.doubao.com)
+    - [Kimi](https://www.kimi.com)
+    - [GLM](https://chatglm.cn)
+
+## 娱乐 Entertainment
+
+- 资讯 News
+    - 央视新闻
+    - 央视频
+- 社交媒体 Media
+    - 新浪微博
+    - 豆瓣
+    - 知乎
+    - 小红书
+    - 抖音 TickTok
+    - 哔哩哔哩 BiliBili
+    - YouTube
+- 音乐 Music
+    - Spotify
+    - Apple Music
+- 播客 Podcast
+    - 云听
+- 视频(点播) Video
+    - Netflix
+    - 爱奇艺
+    - 腾讯视频
+- 阅读 Books
+    - 微信读书
+- 游戏 Games
+    - Steam
+    - Epic
+
+## 生活 Living
+
+- 餐饮 Dining
+    - 美团
+    - 饿了么
+- 出行 Travel
+    - 高德地图
+    - 铁路12306
+    - 航旅纵横
+- 住宿 Hotel
+    - 携程
+    - 飞猪
+- 购物 Shopping
+    - 京东
+    - 淘宝
+    - 拼多多
+    - 闲鱼
+    - 转转
+- 金融支付 Payment
+    - 支付宝
+    - 银闪付
+- 市政 Civic
+    - 交管12123
+    - 网上国网
+    - 个人所得税
+    - 国家医保服务平台
+    - 电子社保卡
+- 求职 Jobs
+    - 前程无忧
+    - 智联
+    - BOSS
+    - 拉勾
+
+## 参考 Reference
+
+- 语文 Chinese
+    - 西窗烛
+- 英语 English
+    - GoldenDict
+    - 欧路词典
+    - 每日英语听力
+    - 每日英语阅读
+    - 多邻国
+- 历史 History
+    - 全历史
+- 地理 Geography
+- 天文 Astronomy
+- 艺术 Arts
+- 体育 Physical
+- 医学 Medicine
+    - MSD
+- 化学 Chemistry
+- 数学 Mathematics
+    - GeoGebra
+- 编程 Programming
+    - LeetCode
+- 金融 Finance
+- 法律 Law
+- 考公 Civil
+    - 华图
+    - 粉笔
+
+## 创意 Creative
+
+- 图像 Graphics
+    - GIMP
+    - Photoshop
+    - Affinity
+- 绘画 Painting
+- 3D Modeling
+    - Blender
+    - Maya
+    - 3ds Max
+- 摄影 Photography
+- 视频 Video
+    - Final Cut Pro
+    - Premiere Pro
+    - DaVinci Resolve
+- 音频 Audio
+    - Audition
+    - Audacity
+    - Logic Pro
+    - 库乐队 GarageBand
+
+## 工程 Engineering
+
+- 制图 CAD
+    - AutoCAD
+- 机械 Mechanical
+    - SolidWorks
+- 建筑 Architecture
+- 电气 Electrical
+- 仿真 Simulation
+    - ANSYS
+- 计算 Compute
+    - MATLAB
+    - GNU Octave
+    - Wolfram Mathematica
+
+## 开发 Development
+
+- Terminal
+    - Warp
+    - Ghostty
+    - Kitty
+    - tmux
+    - Zellij
+- Editor
+    - Helix
+    - Vim
+    - Neovim
+        - LazyVim
+    - Emacs
+        - Spacemacs
+    - [VSCode](<Dev/VSCode.md>)
+- IDE
+    - JetBrains 系列
+        - IntelliJ IDEA
+        - PyCharm 永久免费
+        - PhpStorm
+        - GoLand
+        - Rider 非商业用途免费
+        - CLion 非商业用途免费
+        - RustRover 非商业用途免费
+        - WebStorm 非商业用途免费
+        - RubyMine 非商业用途免费
+        - DataGrip 非商业用途免费
+        - DataSpell
+        - ReSharper
+    - Visual Studio
+    - Xcode
+    - 数据库类
+        - Navicat
+        - Beekeeper Studio
+        - Bytebase
+    - 设计建模类
+        - drawDB
+        - PowerDesigner
+        - Enterprise Architect
+    - 逆向类
+        - IDA
+        - Ghidra
+        - Radare2
+        - Cutter
+- AI
+    - Claude Code
+    - OpenCode
+    - Codex
+- VCS
+    - [Git](<Dev/Git.md>)
+    - GitHub
+- CI/CD
+- Automation
+    - Ansible
+- Virtualization & Containerization
+    - QEMU/VirtualBox/VMware
+    - Docker/Podman
+    - Kubernetes
+- Web Sever
+    - Nginx
+    - Caddy
+- HTTP
+    - WireShark
+    - HTTP Toolkit
+    - mitmproxy
+    - Whistle
+
+---
+
+- [国家标准|GB/T 36475-2018](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=CA2E81EBA0BCD778A6E7BA66D821CF13&refer=outter)

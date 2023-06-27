@@ -1,0 +1,40 @@
+---
+created: 2026-01-06T20:38
+modified: 2026-01-11T20:28
+---
+
+- DDL(Data Definition Language)
+    - CREATE
+    - DROP
+    - ALTER
+    - TRUNCATE
+    - RENAME
+- DQL(Data Query Language)
+    - SELECT
+        - WITH
+        - FROM
+        - WHERE
+        - GROUP BY
+        - HAVING
+        - WINDOW
+        - UNION, INTERSECT, EXCEPT
+        - ORDER BY
+        - LIMIT
+- DML(Data Manipulation Language)
+    - INSERT
+    - UPDATE
+    - DELETE
+    - MERGE
+    - LOCK
+    - CALL
+    - EXECUTE
+    - EXPLAIN
+- DCL(Data Control Language)
+    - GRANT
+    - REVOKE
+- TCL(Transaction Control Language)
+    - ABORT
+    - BEGIN
+    - COMMIT
+    - ROLLBACK
+    - SAVEPOINT

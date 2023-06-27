@@ -1,0 +1,24 @@
+// syncthing ignore
+
+(?d).DS_Store
+(?d).new
+.git
+.trash
+.zettel-notes
+
+(?i)/misc/
+(?i)local/*
+!(?i)/*inbox/*/
+(?i)/*inbox/*
+(?i)temp.*
+(?i)draft.*
+(?i)untitled*
+未命名*
+Drawing-*.md
+
+broken links output.md
+orphaned files output.md
+files without tags.md
+empty files.md
+
+.obsidian
