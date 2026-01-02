@@ -44,3 +44,7 @@ strong {
 em {
   color: var(--color-orange);
 }
+
+:not(pre) > code {
+  color: var(--color-pink);
+}
