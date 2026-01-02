@@ -1,0 +1,58 @@
+
+- [x] advanced-canvas
+- [x] any-block
+- [ ] better-export-pdf
+- [x] better-markdown-links
+- [x] better-plugins-manager
+- [x] cmdr
+- [x] codeblock-customizer
+- [x] css-editor
+- [x] custom-sort
+- [x] dataview
+- [X] easy-typing-obsidian
+- [x] editing-toolbar
+- [/] find-unlinked-files
+- [X] float-search
+- [ ] floating-toc
+- [x] fuzzy-chinese-pinyin
+- [/] heading-decorator
+- [x] image-converter
+- [/] janitor
+- [/] keyboard-analyzer
+- [ ] links
+- [/] multi-properties
+- [/] nldates-redux
+- [x] note-toolbar
+- [x] notebook-navigator
+- [x] obsidian-admonition
+- [ ] obsidian-advanced-uri
+- [x] obsidian-auto-hide
+- [x] obsidian-excalidraw-plugin
+- [ ] obsidian-export-image
+- [x] obsidian-front-matter-title-plugin
+- [x] obsidian-heading-shifter
+- [x] obsidian-hover-editor
+- [x] obsidian-image-toolkit
+- [/] obsidian-kanban
+- [x] obsidian-latex-suite
+- [X] obsidian-linter
+- [x] obsidian-outliner
+- [/] obsidian-plugin-proxy
+- [/] obsidian-plugin-update-tracker
+- [x] obsidian-style-settings
+- [x] obsidian-tasks-plugin
+- [/] obsidian-view-mode-by-frontmatter
+- [x] obsidian-zoom
+- [x] obsidian42-brat
+- [x] paste-link
+- [x] quick-explorer
+- [x] quickadd
+- [/] refresh-preview
+- [/] settings-search
+- [/] show-whitespace-cm6
+- [/] solve
+- [/] statusbar-organizer
+- [x] table-editor-obsidian
+- [x] templater-obsidian
+- [X] various-complements
+- [x] virtual-linker
