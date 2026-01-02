@@ -12,3 +12,10 @@ sidebar_position: 1
 - Git
 - RIME
 - Docusaurus
+
+## Dev
+
+- Rust
+- Scala
+- Python
+- JavaScript
