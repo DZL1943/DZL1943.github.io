@@ -20,6 +20,9 @@
 - Markdown Preview Enhanced
 - Markdown Shortcuts
 - markdownlint
+- Markdown Table
+- Markdown table prettifier
+- Excel to Markdown table
 
 ### Dev
 
