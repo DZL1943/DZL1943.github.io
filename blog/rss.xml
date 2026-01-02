@@ -1,20 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>My Site Blog</title>
+        <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
-        <description>My Site Blog</description>
-        <lastBuildDate>Wed, 28 Jun 2023 09:44:30 GMT</lastBuildDate>
+        <description>Welcome Blog</description>
+        <lastBuildDate>Fri, 02 Jan 2026 13:49:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>zh-Hans</language>
+        <language>en</language>
         <item>
-            <title><![CDATA[first-post]]></title>
-            <link>https://dzl1943.github.io/blog/first-post</link>
-            <guid>https://dzl1943.github.io/blog/first-post</guid>
-            <pubDate>Wed, 28 Jun 2023 09:44:30 GMT</pubDate>
-            <description><![CDATA[Hello docusaurus!]]></description>
-            <content:encoded><![CDATA[<p>Hello docusaurus!</p>]]></content:encoded>
+            <title><![CDATA[init]]></title>
+            <link>https://dzl1943.github.io/blog/init</link>
+            <guid>https://dzl1943.github.io/blog/init</guid>
+            <pubDate>Fri, 02 Jan 2026 13:49:00 GMT</pubDate>
+            <description><![CDATA[First blog.]]></description>
+            <content:encoded><![CDATA[<p>First blog.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Git Reset]]></title>
+            <link>https://dzl1943.github.io/blog/Git Reset</link>
+            <guid>https://dzl1943.github.io/blog/Git Reset</guid>
+            <pubDate>Sun, 21 Dec 2025 11:41:00 GMT</pubDate>
+            <description><![CDATA[先来梳理一下各个阶段的状态与操作]]></description>
+            <content:encoded><![CDATA[<p>先来梳理一下各个阶段的状态与操作</p>
+<p>当在 git 库中新建一个文件, 它的初始状态是 Untracked, 目前只存在于工作区(Working Directory), 如果它没有被 .gitignore 中的规则匹配, 那么它将在 <code>git status</code> 命令下显示.</p>
+<p>当执行 <code>git add</code> 命令, 该文件被添加到暂存区(Staging Area), 其状态为 Staged.<br>
+<!-- -->这个 add 相当于 GUI 下的勾选, 而所谓的暂存区就是存储这个勾选列表的一个 index 文件.</p>
+<p>当执行<code>git commit</code> 命令, git 会将暂存区的所有修改提交到版本库(Repository), 并且清空暂存区. 此时该文件的状态是 Unmodified.</p>
+<p>下次修改该文件时, 其状态为 Modified, 并且会显示相比上次修改的差异.</p>
+<p>重复上述 add、commit 的过程, 这一系列提交便构成了该文件的变更历史.<br>
+<!-- -->至此我们便有了版本管理.</p>
+<p>接下来分析一下不同阶段下的撤销方式</p>
+<ol>
+<li class="">撤销当前工作区的修改: <code>git restore</code> 或 <code>git checkout -- </code> 或 <code>git stash</code></li>
+<li class="">撤销 add: <code>git restore --staged</code> 或 <code>git reset HEAD</code></li>
+<li class="">撤销 commit: <code>git reset --soft HEAD~</code> 仅回退版本历史(恢复到 commit 之前)</li>
+<li class="">"撤销" push: <code>git revert HEAD</code> 将创建一个新的提交, 直接 push 就行</li>
+<li class="">撤销任意操作: 通过 <code>git reflog</code> 找到当时的状态 id, 再通过 reset 恢复, 例如 <code>git reset --hard HEAD@{1}</code></li>
+</ol>]]></content:encoded>
         </item>
     </channel>
 </rss>
