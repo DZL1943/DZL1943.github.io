@@ -125,48 +125,6 @@ const config = {
       //         },
       //       ],
       //     },
-      //     {
-      //       title: 'Obsidian',
-      //       items: [
-      //         {
-      //           label: 'Releases',
-      //           href: 'https://github.com/obsidianmd/obsidian-releases',
-      //         },
-      //         {
-      //           label: 'Help',
-      //           href: 'https://help.obsidian.md/',
-      //         },
-      //         {
-      //           label: 'Developer Docs',
-      //           href: 'https://docs.obsidian.md/'
-      //         },
-      //         {
-      //           label: 'Changelog',
-      //           href: 'https://obsidian.md/changelog'
-      //         },
-      //         {
-      //           label: 'Roadmap',
-      //           href: 'https://obsidian.md/roadmap'
-      //         },
-      //         {
-      //           label: 'Forum',
-      //           href: 'https://forum.obsidian.md/'
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: 'More',
-      //       items: [
-      //         {
-      //           label: 'Notion Help',
-      //           href: 'https://www.notion.com/help'
-      //         },
-      //         {
-      //           label: 'PKMer',
-      //           href: 'https://pkmer.cn/'
-      //         }
-      //       ]
-      //     },
       //   ],
       //   copyright: `Built with Docusaurus.`,
       // },

@@ -10,7 +10,7 @@ sidebar_position: 1
 - Vim
 - Emacs
 - Git
-- RIME
+- Rime
 - Docusaurus
 
 ## Dev
