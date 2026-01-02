@@ -7,3 +7,5 @@
 ![](/Attachments/vim-shortcuts-2.png)
 
 ## Config
+
+## Plugin
