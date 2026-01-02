@@ -1,5 +1,9 @@
 ## Settings
 
+```json
+{}
+```
+
 ## Themes
 
 - One Dark Pro
@@ -18,3 +22,6 @@
 - markdownlint
 
 ### Dev
+
+- Prettier
+- Code Runner
