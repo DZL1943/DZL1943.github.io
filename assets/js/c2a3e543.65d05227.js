@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[885],{2937(e){e.exports=JSON.parse('{"tags":[{"label":"Git","permalink":"/tags/git","count":1}]}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Git Reset","permalink":"/Git Reset","unlisted":false,"date":"2025-12-21T11:41:00.000Z"}]}')}}]);

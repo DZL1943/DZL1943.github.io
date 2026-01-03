@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Welcome Blog</title>
-        <link>https://dzl1943.github.io</link>
+        <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
         <lastBuildDate>Sun, 21 Dec 2025 11:41:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>zh</language>
         <item>
             <title><![CDATA[Git Reset]]></title>
-            <link>https://dzl1943.github.io/Git Reset</link>
-            <guid>https://dzl1943.github.io/Git Reset</guid>
+            <link>https://dzl1943.github.io/blog/Git Reset</link>
+            <guid>https://dzl1943.github.io/blog/Git Reset</guid>
             <pubDate>Sun, 21 Dec 2025 11:41:00 GMT</pubDate>
             <description><![CDATA[先来梳理一下各个阶段的状态与操作]]></description>
             <content:encoded><![CDATA[<p>先来梳理一下各个阶段的状态与操作</p>
