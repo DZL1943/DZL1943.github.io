@@ -8,6 +8,8 @@
 
 ## Links
 
+[learn Markdown in 10 minutes](https://commonmark.org/help/)
+
 ## Formats
 
 **bold**

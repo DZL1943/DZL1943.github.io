@@ -37,8 +37,28 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh',
+    locales: ['zh'],
+  },
+
+  markdown: {
+    parseFrontMatter: async (params) => {
+      // Reuse the default parser
+      const result = await params.defaultParseFrontMatter(params);
+      // Rename an unsupported front matter coming from another system
+      const fieldMap = {
+        created: 'date',
+        modified: 'last_update',
+        updated: 'last_update'
+      }
+      for (const [k, v] of Object.entries(fieldMap)) {
+        if (result.frontMatter[k]) {
+          result.frontMatter[v] = result.frontMatter[k];
+          delete result.frontMatter[k];
+        }
+      }
+      return result;
+    },
   },
 
   presets: [
@@ -133,6 +153,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['ini']
       },
     }),
 };
