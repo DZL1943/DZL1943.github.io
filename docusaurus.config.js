@@ -149,7 +149,8 @@ const config = {
       //       ],
       //     },
       //   ],
-        copyright: `Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DZL1943. Built with Docusaurus.`,
+
       },
       prism: {
         theme: prismThemes.github,
