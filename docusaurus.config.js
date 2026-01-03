@@ -76,7 +76,7 @@ const config = {
         blog: {
           // blogSidebarTitle: 'All posts',
           // blogSidebarCount: 'ALL',
-          routeBasePath: '/',
+          // routeBasePath: '/',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -124,7 +124,7 @@ const config = {
             position: 'left',
             label: 'Doc',
           },
-          {to: '/', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/DZL1943',
             label: 'GitHub',
