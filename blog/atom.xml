@@ -2,19 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-01-02T13:49:00.000Z</updated>
+    <updated>2025-12-21T11:41:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[init]]></title>
-        <id>https://dzl1943.github.io/blog/init</id>
-        <link href="https://dzl1943.github.io/blog/init"/>
-        <updated>2026-01-02T13:49:00.000Z</updated>
-        <summary type="html"><![CDATA[First blog.]]></summary>
-        <content type="html"><![CDATA[<p>First blog.</p>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Git Reset]]></title>
         <id>https://dzl1943.github.io/blog/Git Reset</id>
@@ -37,5 +29,6 @@
 <li class="">"撤销" push: <code>git revert HEAD</code> 将创建一个新的提交, 直接 push 就行</li>
 <li class="">撤销任意操作: 通过 <code>git reflog</code> 找到当时的状态 id, 再通过 reset 恢复, 例如 <code>git reset --hard HEAD@{1}</code></li>
 </ol>]]></content>
+        <category label="Git" term="Git"/>
     </entry>
 </feed>

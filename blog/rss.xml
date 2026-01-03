@@ -4,18 +4,10 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Fri, 02 Jan 2026 13:49:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Dec 2025 11:41:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[init]]></title>
-            <link>https://dzl1943.github.io/blog/init</link>
-            <guid>https://dzl1943.github.io/blog/init</guid>
-            <pubDate>Fri, 02 Jan 2026 13:49:00 GMT</pubDate>
-            <description><![CDATA[First blog.]]></description>
-            <content:encoded><![CDATA[<p>First blog.</p>]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[Git Reset]]></title>
             <link>https://dzl1943.github.io/blog/Git Reset</link>
@@ -38,6 +30,7 @@
 <li class="">"撤销" push: <code>git revert HEAD</code> 将创建一个新的提交, 直接 push 就行</li>
 <li class="">撤销任意操作: 通过 <code>git reflog</code> 找到当时的状态 id, 再通过 reset 恢复, 例如 <code>git reset --hard HEAD@{1}</code></li>
 </ol>]]></content:encoded>
+            <category>Git</category>
         </item>
     </channel>
 </rss>

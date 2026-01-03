@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"init","permalink":"/blog/init","unlisted":false,"date":"2026-01-02T13:49:00.000Z"},{"title":"Git Reset","permalink":"/blog/Git Reset","unlisted":false,"date":"2025-12-21T11:41:00.000Z"}]}')}}]);
