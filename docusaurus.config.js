@@ -122,9 +122,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'docSidebar',
             position: 'left',
-            label: 'Doc',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blogs', position: 'left'},
           {
             href: 'https://github.com/DZL1943',
             label: 'GitHub',
