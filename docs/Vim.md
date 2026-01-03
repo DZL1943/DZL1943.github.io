@@ -10,7 +10,7 @@
 
 ```vim
 set nocp
-
+set mouse=a
 colorscheme desert
 
 syntax enable
