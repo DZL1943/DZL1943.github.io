@@ -132,7 +132,7 @@ const config = {
           },
         ],
       },
-      // footer: {
+      footer: {
       //   style: 'dark',
       //   links: [
       //     {
@@ -149,8 +149,8 @@ const config = {
       //       ],
       //     },
       //   ],
-      //   copyright: `Built with Docusaurus.`,
-      // },
+        copyright: `Built with Docusaurus.`,
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

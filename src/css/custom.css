@@ -59,3 +59,10 @@ em {
 :not(pre) > code {
   color: var(--color-pink);
 }
+
+#__docusaurus {
+  height: 100%;
+}
+.hero {
+  height: 100%;
+}
