@@ -55,6 +55,7 @@ const config = {
         },
         blog: {
           // blogSidebarCount: 'ALL',
+          // blogSidebarTitle: 'All posts',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -86,6 +87,7 @@ const config = {
       docs: {
         sidebar: {
           hideable: true,
+          autoCollapseCategories: true
         },
       },
       navbar: {
