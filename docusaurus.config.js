@@ -67,15 +67,16 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          // routeBasePath: '/',
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/DZL1943/DZL1943.github.io/edit/main/website',
         },
         blog: {
-          // blogSidebarCount: 'ALL',
           // blogSidebarTitle: 'All posts',
+          // blogSidebarCount: 'ALL',
+          routeBasePath: '/',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -123,7 +124,7 @@ const config = {
             position: 'left',
             label: 'Doc',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/DZL1943',
             label: 'GitHub',

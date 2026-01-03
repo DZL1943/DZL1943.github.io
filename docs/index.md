@@ -4,7 +4,7 @@ sidebar_position: 1
 
 ## Tools
 
-- [Obsidian](./Obsidian)
+- [Obsidian](./Obsidian/Obsidian.md)
 - Notion
 - VSCode
 - Vim
