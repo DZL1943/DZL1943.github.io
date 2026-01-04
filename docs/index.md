@@ -49,17 +49,28 @@ sidebar_position: 1
 
 ### GTD
 
+- DIDA
+- Tasks.org
+- Super Productivity
+
 ### Password
 
 - KeePass
 
 ### Finance
 
+- Ledger
+- Beancount
+- GnuCash
+
 ### VCS
 
 - [Git](Git.md)
 
 ### Crypto
+
+- Cryptomator
+- VeraCrypt
 
 ### Transport
 
@@ -98,9 +109,15 @@ sidebar_position: 1
 - Edge
 - Safari
 
+### Message
+
+- Telegram
+- Element
+
 ### Remote Desktop
 
 - RustDesk
+- Scrcpy
 
 ### AI
 
