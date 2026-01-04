@@ -2,11 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2025-12-21T11:41:00.000Z</updated>
+    <updated>2026-01-04T08:55:10.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[D8S首页无法占满的问题]]></title>
+        <id>https://dzl1943.github.io/blog/20260104</id>
+        <link href="https://dzl1943.github.io/blog/20260104"/>
+        <updated>2026-01-04T08:55:10.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus 首页移除 HomepageFeatures 后, header 下面存在空白区域, 无法全部占满.]]></summary>
+        <content type="html"><![CDATA[<p>Docusaurus 首页移除 HomepageFeatures 后, header 下面存在空白区域, 无法全部占满.</p>
+<p>解决办法:</p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.hero</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">flex</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Git Reset]]></title>
         <id>https://dzl1943.github.io/blog/Git Reset</id>
