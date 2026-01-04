@@ -1,0 +1,17 @@
+
+- Debian
+    - Ubuntu
+        - Mint
+    - Kali
+    - Deepin
+- RHEL
+    - Fedora
+    - CentOS
+        - Rocky
+- Arch
+    - Manjaro
+    - EndeavourOS
+    - SteamOS
+- Slackware/SUSE
+- Gentoo
+- NixOS/Guix
