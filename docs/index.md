@@ -41,11 +41,10 @@ sidebar_position: 1
   - Spacemacs
 - [VSCode](VSCode.md)
 
-### Notes
+### Note
 
 - [Obsidian](Obsidian/Obsidian.md)
 - [Notion](Notion.md)
-- [Docusaurus](Docusaurus.md)
 
 ### GTD
 
