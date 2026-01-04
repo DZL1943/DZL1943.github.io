@@ -122,12 +122,12 @@ sidebar_position: 1
 
 - [ChatGPT](https://chatgpt.com)
 - [Gemini](https://gemini.google.com)
-- Grok
-- Claude
-- Qwen
-- DeekSeek
-- Doubao
-- Kimi
+- [Grok](https://grok.x.ai)
+- [Claude](https://claude.ai)
+- [Qwen](https://www.qianwen.com)
+- [DeekSeek](https://chat.deepseek.com)
+- [Doubao](https://www.doubao.com)
+- [Kimi](https://www.kimi.com)
 
 ## Dev
 
