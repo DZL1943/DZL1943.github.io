@@ -61,10 +61,10 @@ sidebar_position: 1
     - Kopia
 - Cloud Storage
     - Dropbox
-    - Synology Drive
-    - Google Drive
-    - OneDrive
     - iCloud
+    - OneDrive
+    - Google Drive
+    - Synology Drive
     - Nextcloud
 - Proxy
     - Clash Verge Rev
@@ -72,8 +72,8 @@ sidebar_position: 1
     - Hiddify
 - Browser
     - Firefox
-    - LibreWolf
-    - Zen
+        - LibreWolf
+        - Zen
     - Chrome
     - Edge
     - Safari
