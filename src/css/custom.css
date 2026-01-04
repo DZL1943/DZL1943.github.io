@@ -66,3 +66,20 @@ em {
 .hero {
   height: 100%;
 }
+
+article [href^="http://"]:not([href*="dzl1943.github.io"]),
+article a[href^="https://"]:not([href*="dzl1943.github.io"]) {
+  /* 外部链接样式 */
+  /* color: #e91e63; */
+  text-decoration: underline;
+  /* position: relative; */
+  /* padding-right: 18px; */
+}
+
+/* article a[href^="http://"]:not([href*="dzl1943.github.io"])::after,
+article a[href^="https://"]:not([href*="dzl1943.github.io"])::after {
+  content: "↗";
+  position: absolute;
+  font-size: 0.8em;
+  margin-left: 3px;
+} */
