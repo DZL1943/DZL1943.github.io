@@ -6,7 +6,8 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.fontSize": 18,
-    "editor.minimap.enabled": false,
+    "editor.minimap.autohide": "mouseover",
+    "editor.minimap.size": "fill",
     "editor.wordWrap": "on",
     "explorer.autoReveal": false,
     "explorer.confirmDelete": false,
@@ -18,12 +19,15 @@
     "prettier.tabWidth": 4,
     "update.mode": "manual",
     "window.autoDetectColorScheme": true,
+    "window.restoreWindows": "one",
     "workbench.colorTheme": "Dracula Theme",
     "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.pinnedTabSizing": "shrink",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
     "workbench.preferredLightColorTheme": "Dracula Theme",
-    "workbench.secondarySideBar.defaultVisibility": "hidden"
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
 }
 ```
 
