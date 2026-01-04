@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 ## Resources
 
 - [Docs](https://docusaurus.io/docs)
