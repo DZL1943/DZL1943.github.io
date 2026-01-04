@@ -112,6 +112,7 @@ const config = {
         },
       },
       navbar: {
+        // hideOnScroll: true,
         title: 'Home',
         // logo: {
         //   alt: 'My Site Logo',

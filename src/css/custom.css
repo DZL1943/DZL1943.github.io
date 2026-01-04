@@ -50,20 +50,21 @@
 }
 
 strong {
-  color: var(--color-red);
+  color: var(--ifm-color-danger);
 }
 em {
-  color: var(--color-orange);
+  color: var(--ifm-color-warning);
 }
 
 :not(pre) > code {
-  color: var(--color-pink);
+  color: var(--ifm-color-info);
 }
 
 #__docusaurus {
   height: 100%;
 }
-.hero {
+
+#__docusaurus_skipToContent_fallback > header {
   height: 100%;
 }
 
