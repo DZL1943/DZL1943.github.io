@@ -120,8 +120,8 @@ sidebar_position: 1
 
 ### AI
 
-- ChatGPT
-- Gemini
+- [ChatGPT](https://chatgpt.com)
+- [Gemini](https://gemini.google.com)
 - Grok
 - Claude
 - Qwen
