@@ -113,10 +113,10 @@ const config = {
       },
       navbar: {
         title: 'Home',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'docSidebar',
@@ -125,6 +125,11 @@ const config = {
             label: 'Docs',
           },
           {to: '/blog', label: 'Blogs', position: 'left'},
+          {
+            href: 'https://docusaurus.io',
+            label: 'Docusaurus',
+            position: 'right',
+          },
           {
             href: 'https://github.com/DZL1943',
             label: 'GitHub',
