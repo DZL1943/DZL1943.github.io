@@ -50,18 +50,22 @@
 }
 
 strong {
-  color: var(--ifm-color-danger);
+  color: var(--color-red);
 }
 em {
-  color: var(--ifm-color-warning);
+  color: var(--color-orange);
 }
 
 :not(pre) > code {
-  color: var(--ifm-color-info);
+  color: var(--color-pink);
 }
 
 .hero {
   flex: 1;
+}
+.hero--primary {
+  --ifm-hero-background-color: var(--ifm-background-color);
+  --ifm-hero-text-color: var(--ifm-font-color-base);
 }
 
 article [href^="http"] {
