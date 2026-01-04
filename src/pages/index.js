@@ -15,7 +15,8 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
+        <br></br>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -23,7 +24,7 @@ function HomepageHeader() {
             Docs →
           </Link>
         </div>
-        <p></p>
+        <br></br>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

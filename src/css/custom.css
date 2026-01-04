@@ -63,10 +63,10 @@ em {
 .hero {
   flex: 1;
 }
-.hero--primary {
+/* .hero--primary {
   --ifm-hero-background-color: var(--ifm-background-color);
   --ifm-hero-text-color: var(--ifm-font-color-base);
-}
+} */
 
 article [href^="http"] {
   /* 外部链接样式 */
