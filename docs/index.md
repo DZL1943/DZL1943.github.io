@@ -85,7 +85,7 @@ sidebar_position: 1
 
 - Kopia
 
-### Cloud
+### Cloud Storage
 
 - Dropbox
 - Synology Drive
