@@ -69,6 +69,7 @@ const config = {
         docs: {
           // routeBasePath: '/',
           sidebarPath: './sidebars.js',
+          showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/DZL1943/DZL1943.github.io/edit/main/website',
@@ -77,6 +78,7 @@ const config = {
           // blogSidebarTitle: 'All posts',
           // blogSidebarCount: 'ALL',
           // routeBasePath: '/',
+          showLastUpdateTime: true,
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
