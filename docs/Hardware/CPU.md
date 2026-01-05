@@ -8,8 +8,6 @@
     - 14
     - 13
     - 12
-    - 11
-    - 10
 - Pentium
 - Celeron
 - Atom
