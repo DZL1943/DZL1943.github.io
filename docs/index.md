@@ -41,7 +41,7 @@ created: 2026-01-02
     - Nushell
 - Terminal
     - Warp
-    - Ghosttty
+    - Ghostty
     - Kitty
     - tmux
     - Zellij
@@ -51,10 +51,10 @@ created: 2026-01-02
 - Editor
     - Helix
     - [Vim](Vim.md)
-    - Neovim
-    - LazyVim
+        - Neovim
+        - LazyVim
     - Emacs
-    - Spacemacs
+        - Spacemacs
     - [VSCode](VSCode.md)
 - Note
     - [Obsidian](Obsidian/Obsidian.md)
