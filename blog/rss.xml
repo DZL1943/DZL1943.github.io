@@ -34,8 +34,9 @@
             <link>https://dzl1943.github.io/blog/Git Reset</link>
             <guid>https://dzl1943.github.io/blog/Git Reset</guid>
             <pubDate>Sun, 21 Dec 2025 11:41:00 GMT</pubDate>
-            <description><![CDATA[先来梳理一下各个阶段的状态与操作]]></description>
-            <content:encoded><![CDATA[<p>先来梳理一下各个阶段的状态与操作</p>
+            <description><![CDATA[Git 是如何实现版本管理的? 分为哪些阶段? 每个阶段能做哪些操作? 如何撤销?]]></description>
+            <content:encoded><![CDATA[<p>Git 是如何实现版本管理的? 分为哪些阶段? 每个阶段能做哪些操作? 如何撤销?</p>
+<p>先来梳理一下各个阶段的状态与操作</p>
 <p>当在 git 库中新建一个文件, 它的初始状态是 Untracked, 目前只存在于工作区(Working Directory), 如果它没有被 .gitignore 中的规则匹配, 那么它将在 <code>git status</code> 命令下显示.</p>
 <p>当执行 <code>git add</code> 命令, 该文件被添加到暂存区(Staging Area), 其状态为 Staged.<br>
 <!-- -->这个 add 相当于 GUI 下的勾选, 而所谓的暂存区就是存储这个勾选列表的一个 index 文件.</p>
