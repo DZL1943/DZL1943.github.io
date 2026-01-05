@@ -3,6 +3,10 @@ created: 2025-12-21T11:41
 tags: [Git]
 ---
 
+Git 是如何实现版本管理的? 分为哪些阶段? 每个阶段能做哪些操作? 如何撤销?
+
+<!-- truncate -->
+
 先来梳理一下各个阶段的状态与操作
 
 当在 git 库中新建一个文件, 它的初始状态是 Untracked, 目前只存在于工作区(Working Directory), 如果它没有被 .gitignore 中的规则匹配, 那么它将在 `git status` 命令下显示.
