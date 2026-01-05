@@ -51,7 +51,7 @@ created: 2026-01-02
 - Editor
     - Helix
     - [Vim](Vim.md)
-        - Neovim
+    - Neovim
         - LazyVim
     - Emacs
         - Spacemacs
