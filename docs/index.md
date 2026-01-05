@@ -4,13 +4,34 @@ created: 2026-01-02
 # modified: 2026-01-05
 ---
 
-## OS
+## Hardware
+
+### Host
+
+- Mobile
+- Pad
+- Laptop
+- Desktop
+- Server
+
+### Peripheral
+
+- Display
+- Speaker
+- Camera
+- Keyboard
+- Mouse
+- Trackpad
+
+## Software
+
+### OS
 
 - [Linux](Linux/Linux.md)
 - macOS
 - Windows
 
-## Tools
+### Tools
 
 - Shell
     - Bash
@@ -95,13 +116,13 @@ created: 2026-01-02
     - [Doubao](https://www.doubao.com)
     - [Kimi](https://www.kimi.com)
 
-## Dev
+### Dev
 
 - Rust
 - Scala
 - Python
 - JavaScript
 
-## Ops
+### Ops
 
 - Docker
