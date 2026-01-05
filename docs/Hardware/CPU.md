@@ -1,0 +1,28 @@
+## Intel
+
+- Xeon
+- Core
+    - Ultra
+        - 2
+        - 1
+    - 14
+    - 13
+    - 12
+    - 11
+    - 10
+- Pentium
+- Celeron
+- Atom
+
+## AMD
+
+- Threadripper
+- Ryzen 桌面版
+    - 9000
+    - 8000G
+    - 7000
+- Ryzen 移动版
+    - AI 300
+    - 8000HX
+    - 8040
+    - 7040
