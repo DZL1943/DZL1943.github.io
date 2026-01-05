@@ -107,7 +107,7 @@
   "nativeMenus": true,
   "translucency": false,
   "theme": "system",
-  "cssTheme": "Custom",
+  "cssTheme": "",
   "enabledCssSnippets": [
   ],
 }
