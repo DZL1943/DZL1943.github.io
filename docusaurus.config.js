@@ -42,6 +42,7 @@ const config = {
   },
 
   markdown: {
+    mermaid: true,
     parseFrontMatter: async (params) => {
       // Reuse the default parser
       const result = await params.defaultParseFrontMatter(params);
@@ -60,6 +61,17 @@ const config = {
       return result;
     },
   },
+
+  // plugins: [
+  //   [
+  //     '@docusaurus/plugin-content-blog',
+  //     {
+  //       id: 'journals',
+  //       path: './journals',
+  //       routeBasePath: 'journals'
+  //     }
+  //   ]
+  // ],
 
   presets: [
     [
@@ -121,11 +133,17 @@ const config = {
         //   src: 'img/logo.svg',
         // },
         items: [
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'docSidebar',
+          //   position: 'left',
+          //   label: 'Docs',
+          // },
           {
             type: 'docSidebar',
-            sidebarId: 'docSidebar',
+            sidebarId: 'computerSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Computer',
           },
           {to: '/blog', label: 'Blogs', position: 'left'},
           {

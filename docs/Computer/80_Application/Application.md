@@ -1,0 +1,91 @@
+
+- Shell
+    - Bash
+    - Zsh
+    - Fish
+    - Xonsh
+    - Nushell
+- Commands
+- Terminal
+    - Warp
+    - Ghostty
+    - Kitty
+    - tmux
+    - Zellij
+- Input
+    - Rime
+    - Fcitx
+- Editor
+    - Helix
+    - [Vim](Vim.md)
+    - Neovim
+        - LazyVim
+    - Emacs
+        - Spacemacs
+    - [VSCode](VSCode.md)
+- Note
+    - Quarto
+    - [Obsidian](Obsidian/Obsidian.md)
+    - [Notion](Notion.md)
+- GTD
+    - DIDA
+    - Tasks.org
+    - Super Productivity
+- Password
+    - KeePass
+- Finance
+    - Ledger
+    - Beancount
+    - GnuCash
+- VCS
+    - [Git](Git.md)
+- Crypto
+    - Cryptomator
+    - VeraCrypt
+- Transport
+    - LocalSend
+- Sync
+    - FreeFileSync
+    - FolderSync
+    - Syncthing
+- Backup
+    - Kopia
+- Cloud Storage
+    - Dropbox
+    - iCloud
+    - OneDrive
+    - Google Drive
+    - Synology Drive
+    - Nextcloud
+- Proxy
+    - Clash Verge Rev
+    - sing-box
+    - Hiddify
+- Browser
+    - Firefox
+        - LibreWolf
+        - Zen
+    - Chrome
+    - Edge
+    - Safari
+- Message
+    - Telegram
+    - Element
+- AI
+    - [ChatGPT](https://chatgpt.com)
+    - [Gemini](https://gemini.google.com)
+    - [Grok](https://grok.x.ai)
+    - [Claude](https://claude.ai)
+    - [Qwen](https://www.qianwen.com)
+    - [DeekSeek](https://chat.deepseek.com)
+    - [Doubao](https://www.doubao.com)
+    - [Kimi](https://www.kimi.com)
+- Remote Desktop
+    - RustDesk
+    - Scrcpy
+- Virtualization
+    - Docker
+- SSG(static-site generator)
+    - [Docusaurus](Docusaurus.md)
+    - VitePress
+    - Hugo
