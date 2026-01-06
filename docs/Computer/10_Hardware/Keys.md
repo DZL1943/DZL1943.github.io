@@ -9,9 +9,9 @@
     - asdf gh jkl
     - zxcv bn m
 - 标点 punctuation
-    - [] {} \\|
-    - ;' :"
-    - ,. <> /?
+    - `[] {} \|`
+    - `;' :"`
+    - `,. <> /?`
 - 修饰 modifier
     - ctrl
     - alt
