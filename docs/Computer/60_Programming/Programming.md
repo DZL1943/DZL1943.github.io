@@ -1,0 +1,36 @@
+
+- C/C++
+- Rust
+    - rustup
+    - cargo
+    - rust-analyzer
+- Go
+- Java
+    - JDK
+        - openjdk
+        - [Liberica](https://bell-sw.com/pages/downloads/)
+        - [Temurin](https://adoptium.net/zh-CN/temurin/releases/)
+        - [Zulu](https://www.azul.com/downloads/?package=jdk#zulu)
+        - [Oracle](https://www.oracle.com/cn/java/technologies/downloads/)
+    - maven
+    - gradle
+- Kotlin
+- Scala
+- Clojure
+- Haskell
+- Elixir
+- Python
+    - pip
+    - conda/mamba/micromamba
+    - pixi, uv
+    - ruff
+    - pyright/basedpyright, ty
+    - jupyterlab/notebook
+- JavaScript
+    - node/deno/bun
+    - npm/yarn/pnpm
+- Lua
+- Lisp
+    - sbcl
+    - guile
+    - racket

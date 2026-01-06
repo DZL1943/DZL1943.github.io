@@ -1,0 +1,29 @@
+- 数字 number
+- 特殊字符 symbol
+    - \`~
+    - `!@#$%^&*()`
+    - -_
+    - =+
+- 字母 letter
+    - qwer ty uiop
+    - asdf gh jkl
+    - zxcv bn m
+- 标点 punctuation
+    - [] {} \\|
+    - ;' :"
+    - ,. <> /?
+- 修饰 modifier
+    - ctrl
+    - alt
+    - cmd
+    - fn
+    - shift
+    - capslock
+    - esc
+- 控制 control
+    - tab
+    - delete
+    - return
+    - ↑↓←→
+    - F1-12
+    - power

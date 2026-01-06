@@ -5,7 +5,7 @@
     - Fish
     - Xonsh
     - Nushell
-- [Commands](./Commands/Commands.md)
+- [Commands](Commands/Commands.md)
 - Terminal
     - Warp
     - Ghostty
@@ -61,6 +61,9 @@
     - Clash Verge Rev
     - sing-box
     - Hiddify
+- Remote Desktop
+    - RustDesk
+    - Scrcpy
 - Browser
     - Firefox
         - LibreWolf
@@ -80,11 +83,6 @@
     - [DeekSeek](https://chat.deepseek.com)
     - [Doubao](https://www.doubao.com)
     - [Kimi](https://www.kimi.com)
-- Remote Desktop
-    - RustDesk
-    - Scrcpy
-- Virtualization
-    - Docker
 - SSG(static-site generator)
     - [Docusaurus](Docusaurus.md)
     - VitePress
