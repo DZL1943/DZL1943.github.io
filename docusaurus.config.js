@@ -133,19 +133,13 @@ const config = {
         //   src: 'img/logo.svg',
         // },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'docSidebar',
-          //   position: 'left',
-          //   label: 'Docs',
-          // },
           {
             type: 'docSidebar',
             sidebarId: 'computerSidebar',
             position: 'left',
-            label: 'Computer',
+            label: 'Doc',
           },
-          {to: '/blog', label: 'Blogs', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://docusaurus.io',
             label: 'Docusaurus',
