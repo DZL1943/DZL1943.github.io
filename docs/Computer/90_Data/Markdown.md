@@ -1,3 +1,8 @@
+---
+created: 2026-01-03
+---
+
+# Markdown
 
 ## Headings
 
@@ -65,5 +70,7 @@ console.log('Hello World!');
 ## Tables
 
 | Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Data 1 | Data 2 | Data 3 |
+| -------- | -------- | -------- |
+| Data 1   | Data 2   | Data 3   |
+
+## Footnotes
