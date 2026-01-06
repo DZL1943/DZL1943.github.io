@@ -8,9 +8,9 @@ created: 2026-01-02
 
 ### Host
 
-- Mobile
+- [Mobile](Hardware/手机.md)
 - Pad
-- Laptop
+- [Laptop](Hardware/笔记本电脑.md)
 - Desktop
 - Server
 
@@ -27,8 +27,11 @@ created: 2026-01-02
 
 ### OS
 
+- Unix
+    - BSD
+        - macOS
+    - System V
 - [Linux](Linux/Linux.md)
-- macOS
 - Windows
 
 ### Tools
@@ -57,6 +60,7 @@ created: 2026-01-02
         - Spacemacs
     - [VSCode](VSCode.md)
 - Note
+    - Quarto
     - [Obsidian](Obsidian/Obsidian.md)
     - [Notion](Notion.md)
 - GTD
@@ -103,9 +107,6 @@ created: 2026-01-02
 - Message
     - Telegram
     - Element
-- Remote Desktop
-    - RustDesk
-    - Scrcpy
 - AI
     - [ChatGPT](https://chatgpt.com)
     - [Gemini](https://gemini.google.com)
@@ -116,8 +117,19 @@ created: 2026-01-02
     - [Doubao](https://www.doubao.com)
     - [Kimi](https://www.kimi.com)
 
+### Commands
+
+- Builtin
+- System
+- Shell
+- File
+- Text
+- Network
+- Package
+
 ### Dev
 
+- C
 - Rust
 - Scala
 - Python
@@ -125,4 +137,12 @@ created: 2026-01-02
 
 ### Ops
 
-- Docker
+- Remote Desktop
+    - RustDesk
+    - Scrcpy
+- Virtualization
+    - Docker
+- SSG(static-site generator)
+    - [Docusaurus](Docusaurus.md)
+    - VitePress
+    - Hugo
