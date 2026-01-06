@@ -1,10 +1,10 @@
 
-- [硬件](./10_Hardware/Hardware.md)
-- [系统](./20_OS/OS.md)
-- 网络
-- 存储
-- 算法
-- [编程](./60_Programming/Programming.md)
-- 工程
-- [应用](./80_Application/Application.md)
-- 数据
+- [硬件 Hardware](./10_Hardware/Hardware.md)
+- [系统 OS](./20_OS/OS.md)
+- 网络 Network
+- 存储 Storage
+- 算法 Algorithm
+- [编程 Programming](./60_Programming/Programming.md)
+- 工程 Engineering
+- [应用 Application](./80_Application/Application.md)
+- 数据 Data
