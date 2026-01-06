@@ -5,7 +5,7 @@
     - Fish
     - Xonsh
     - Nushell
-- Commands
+- [Commands](./Commands/Commands.md)
 - Terminal
     - Warp
     - Ghostty
