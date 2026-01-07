@@ -1,4 +1,6 @@
 
+## 系统 System
+
 - Shell
     - Bash
     - Zsh
@@ -12,6 +14,16 @@
     - Kitty
     - tmux
     - Zellij
+
+## 工具 Utility
+
+- Archiver
+- Screenshot
+- Screen Recorder
+- Video Player
+
+## 效率 Productivity
+
 - Input
     - Rime
     - Fcitx
@@ -83,6 +95,15 @@
     - [DeekSeek](https://chat.deepseek.com)
     - [Doubao](https://www.doubao.com)
     - [Kimi](https://www.kimi.com)
+
+## 娱乐 Entertainment
+
+## 生活 Living
+
+## 参考 Reference
+
+## 专业 Professional
+
 - SSG(static-site generator)
     - [Docusaurus](Docusaurus.md)
     - VitePress
