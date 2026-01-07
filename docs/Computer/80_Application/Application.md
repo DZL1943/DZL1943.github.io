@@ -85,6 +85,10 @@
     - Chrome
     - Edge
     - Safari
+- Message
+    - QQ
+    - WeChat
+    - Telegram
 - AI
     - [ChatGPT](https://chatgpt.com)
     - [Gemini](https://gemini.google.com)
@@ -97,20 +101,28 @@
 
 ## 娱乐 Entertainment
 
-- Social
 - Media
+    - TickTok
+    - BiliBili
+    - YouTube
 - Music
     - Spotify
     - Apple Music
-- Movies
+- Video
+    - Netflix
 - Books
 - Games
+    - Steam
+    - Epic
 
 ## 生活 Living
 
 - Dining
 - Travel
 - Shopping
+    - 京东
+    - 淘宝
+    - 拼多多
 - Civic
 - Jobs
 
