@@ -109,6 +109,11 @@
 
 ## 生活 Living
 
+- Food
+- Travel
+- Shopping
+- Civic
+
 ## 参考 Reference
 
 ## 专业 Professional
