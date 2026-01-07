@@ -132,7 +132,7 @@
 
 ## 参考 Reference
 
-## Creative
+## 创意 Creative
 
 - 图像 Graphics
     - GIMP
@@ -151,7 +151,7 @@
     - Logic Pro
     - Audacity
 
-## Engineering
+## 工程 Engineering
 
 - CAD
     - AutoCAD
@@ -163,4 +163,4 @@
     - MATLAB
     - ANSYS
 
-## Development
+## 开发 Development
