@@ -131,9 +131,18 @@
 ## 专业 Professional
 
 - 图像 Graphics
+    - GIMP
+    - Photoshop
+    - Affinity
 - 视频 Video
+    - Final Cut Pro
+    - Premiere Pro
+    - DaVinci Resolve
+    - Blender
 - 音频 Audio
 - 工程 Engineering
+    - AutoCAD
+    - SolidWorks
 - 财务 Finance
     - Ledger
     - Beancount
