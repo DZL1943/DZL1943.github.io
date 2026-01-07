@@ -68,10 +68,6 @@
     - Super Productivity
 - Password
     - KeePass
-- Finance
-    - Ledger
-    - Beancount
-    - GnuCash
 - Cloud Storage
     - Dropbox
     - iCloud
@@ -123,4 +119,8 @@
 - 视频 Video
 - 音频 Audio
 - 工程 Engineering
+- 财务 Finance
+    - Ledger
+    - Beancount
+    - GnuCash
 - 开发 Development
