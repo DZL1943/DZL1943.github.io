@@ -104,7 +104,8 @@
 
 ## 专业 Professional
 
-- SSG(static-site generator)
-    - [Docusaurus](Docusaurus.md)
-    - VitePress
-    - Hugo
+- 图像 Graphics
+- 视频 Video
+- 音频 Audio
+- 工程 Engineering
+- 开发 Development
