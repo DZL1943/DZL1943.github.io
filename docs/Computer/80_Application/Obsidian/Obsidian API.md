@@ -1,0 +1,12 @@
+
+- app
+    - commands
+    - customCss
+    - fileManager
+    - hotkeyManager
+    - internalPlugins
+    - **metadataCache**
+    - plugins
+    - **vault**
+    - **workspace**
+- obsidian
