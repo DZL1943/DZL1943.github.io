@@ -30,14 +30,6 @@
 
 ## 效率 Productivity
 
-- Editor
-    - Helix
-    - [Vim](Vim.md)
-    - Neovim
-        - LazyVim
-    - Emacs
-        - Spacemacs
-    - [VSCode](VSCode.md)
 - Note
     - Quarto
     - [Obsidian](Obsidian/Obsidian.md)
@@ -149,12 +141,19 @@
     - Kitty
     - tmux
     - Zellij
+- Editor
+    - Helix
+    - [Vim](Vim.md)
+    - Neovim
+        - LazyVim
+    - Emacs
+        - Spacemacs
+    - [VSCode](VSCode.md)
 - IDE
-- UML
 - VCS
     - [Git](Git.md)
-- Build
-- Test
-- Virtualization
+- CI/CD
+- Virtualization & Containerization
+    - QEMU/VirtualBox/VMware
     - Docker/Podman
-    - QEMU
+    - Kubernetes
