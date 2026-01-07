@@ -17,7 +17,10 @@
     - Fn
 - Controls
     - Tab
+    - Space
+    - Backspace
     - Delete
+    - Insert
     - Return
     - ↑↓←→
     - F1-12
