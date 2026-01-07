@@ -71,6 +71,10 @@
     - Super Productivity
 - Password
     - KeePass
+- 财务 Finance
+    - Ledger
+    - Beancount
+    - GnuCash
 - Cloud Storage
     - Dropbox
     - iCloud
@@ -128,23 +132,35 @@
 
 ## 参考 Reference
 
-## 专业 Professional
+## Creative
 
 - 图像 Graphics
     - GIMP
     - Photoshop
     - Affinity
+- 3D
+    - Blender
+    - Maya
+    - 3ds Max
 - 视频 Video
     - Final Cut Pro
     - Premiere Pro
     - DaVinci Resolve
-    - Blender
 - 音频 Audio
-- 工程 Engineering
+    - Audition
+    - Logic Pro
+    - Audacity
+
+## Engineering
+
+- CAD
     - AutoCAD
+- Mechanical
     - SolidWorks
-- 财务 Finance
-    - Ledger
-    - Beancount
-    - GnuCash
-- 开发 Development
+- Architecture
+- Electrical
+- Simulation
+    - MATLAB
+    - ANSYS
+
+## Development
