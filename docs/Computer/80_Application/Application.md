@@ -161,3 +161,4 @@
     - Ansible
 - Web Sever
     - Nginx
+    - Caddy
