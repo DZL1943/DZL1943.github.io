@@ -14,6 +14,8 @@
     "editor.wordWrap": "on",
     "explorer.autoReveal": false,
     "explorer.confirmDelete": false,
+    "files.autoSave": "onWindowChange",
+    "files.defaultLanguage": "${activeEditorLanguage}",
     //"javascript.suggest.enabled": false,
     "markdown.extension.list.indentationSize": "inherit",
     "markdown.updateLinksOnFileMove.enabled": "always",
