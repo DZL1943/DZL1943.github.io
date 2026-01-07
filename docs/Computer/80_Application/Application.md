@@ -14,6 +14,8 @@
     - Kitty
     - tmux
     - Zellij
+- Virtualization
+    - Docker
 
 ## 工具 Utility
 
@@ -59,6 +61,7 @@
     - Quarto
     - [Obsidian](Obsidian/Obsidian.md)
     - [Notion](Notion.md)
+- Document
 - GTD
     - DIDA
     - Tasks.org
@@ -83,9 +86,6 @@
     - Chrome
     - Edge
     - Safari
-- Message
-    - Telegram
-    - Element
 - AI
     - [ChatGPT](https://chatgpt.com)
     - [Gemini](https://gemini.google.com)
@@ -97,6 +97,15 @@
     - [Kimi](https://www.kimi.com)
 
 ## 娱乐 Entertainment
+
+- Social
+- Media
+- Music
+    - Spotify
+    - Apple Music
+- Movies
+- Books
+- Games
 
 ## 生活 Living
 
