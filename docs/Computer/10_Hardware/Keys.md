@@ -1,29 +1,24 @@
-- 数字 number
-- 特殊字符 symbol
-    - \`~
-    - `!@#$%^&*()`
-    - -_
-    - =+
-- 字母 letter
-    - qwer ty uiop
-    - asdf gh jkl
-    - zxcv bn m
-- 标点 punctuation
-    - `[] {} \|`
-    - `;' :"`
-    - `,. <> /?`
-- 修饰 modifier
-    - ctrl
-    - alt
-    - cmd
-    - fn
-    - shift
-    - capslock
-    - esc
-- 控制 control
-    - tab
-    - delete
-    - return
+- Letters
+    - QWER TY UIOP
+    - ASDF GH JKL
+    - ZXCV BN M
+- Numbers
+- Punctuations
+    - \` `~ ! @ # $ % ^ & * -_ +=`
+    - `() [] {} <>`
+    - `' " , . : ; ! ? / \ |`
+- Modifiers
+    - Shift
+    - Ctrl
+    - Alt
+    - Cmd
+    - Capslock
+    - Esc
+    - Fn
+- Controls
+    - Tab
+    - Delete
+    - Return
     - ↑↓←→
     - F1-12
-    - power
+    - Power

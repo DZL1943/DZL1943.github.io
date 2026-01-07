@@ -1,5 +1,7 @@
 
 - C/C++
+- C#
+- Swift
 - Rust
     - rustup
     - cargo
