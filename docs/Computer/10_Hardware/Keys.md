@@ -1,8 +1,8 @@
+- Numbers
 - Letters
     - QWER TY UIOP
     - ASDF GH JKL
     - ZXCV BN M
-- Numbers
 - Punctuations
     - \` `~ ! @ # $ % ^ & * -_ +=`
     - `() [] {} <>`
