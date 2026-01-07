@@ -16,6 +16,8 @@
     - Zellij
 - Virtualization
     - Docker
+- Security
+- Optimization
 
 ## 工具 Utility
 
@@ -26,6 +28,7 @@
 - Input
     - Rime
     - Fcitx
+- Clipboard
 - VCS
     - [Git](Git.md)
 - Crypto
