@@ -109,10 +109,11 @@
 
 ## 生活 Living
 
-- Food
+- Dining
 - Travel
 - Shopping
 - Civic
+- Jobs
 
 ## 参考 Reference
 
