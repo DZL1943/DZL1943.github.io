@@ -157,3 +157,7 @@
     - QEMU/VirtualBox/VMware
     - Docker/Podman
     - Kubernetes
+- Automation
+    - Ansible
+- Web Sever
+    - Nginx
