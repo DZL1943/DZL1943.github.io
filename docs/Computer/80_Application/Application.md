@@ -1,24 +1,4 @@
 
-## 系统 System
-
-- Shell
-    - Bash
-    - Zsh
-    - Fish
-    - Xonsh
-    - Nushell
-- [Commands](Commands/Commands.md)
-- Terminal
-    - Warp
-    - Ghostty
-    - Kitty
-    - tmux
-    - Zellij
-- Virtualization
-    - Docker
-- Security
-- Optimization
-
 ## 工具 Utility
 
 - Archiver
@@ -29,11 +9,6 @@
     - Rime
     - Fcitx
 - Clipboard
-- VCS
-    - [Git](Git.md)
-- Crypto
-    - Cryptomator
-    - VeraCrypt
 - Transport
     - LocalSend
 - Sync
@@ -42,6 +17,9 @@
     - Syncthing
 - Backup
     - Kopia
+- Crypto
+    - Cryptomator
+    - VeraCrypt
 - Proxy
     - Clash Verge Rev
     - sing-box
@@ -164,3 +142,19 @@
     - ANSYS
 
 ## 开发 Development
+
+- Terminal
+    - Warp
+    - Ghostty
+    - Kitty
+    - tmux
+    - Zellij
+- IDE
+- UML
+- VCS
+    - [Git](Git.md)
+- Build
+- Test
+- Virtualization
+    - Docker/Podman
+    - QEMU
