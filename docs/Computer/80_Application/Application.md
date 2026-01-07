@@ -21,12 +21,32 @@
 - Screenshot
 - Screen Recorder
 - Video Player
-
-## 效率 Productivity
-
 - Input
     - Rime
     - Fcitx
+- VCS
+    - [Git](Git.md)
+- Crypto
+    - Cryptomator
+    - VeraCrypt
+- Transport
+    - LocalSend
+- Sync
+    - FreeFileSync
+    - FolderSync
+    - Syncthing
+- Backup
+    - Kopia
+- Proxy
+    - Clash Verge Rev
+    - sing-box
+    - Hiddify
+- Remote Desktop
+    - RustDesk
+    - Scrcpy
+
+## 效率 Productivity
+
 - Editor
     - Helix
     - [Vim](Vim.md)
@@ -49,19 +69,6 @@
     - Ledger
     - Beancount
     - GnuCash
-- VCS
-    - [Git](Git.md)
-- Crypto
-    - Cryptomator
-    - VeraCrypt
-- Transport
-    - LocalSend
-- Sync
-    - FreeFileSync
-    - FolderSync
-    - Syncthing
-- Backup
-    - Kopia
 - Cloud Storage
     - Dropbox
     - iCloud
@@ -69,13 +76,6 @@
     - Google Drive
     - Synology Drive
     - Nextcloud
-- Proxy
-    - Clash Verge Rev
-    - sing-box
-    - Hiddify
-- Remote Desktop
-    - RustDesk
-    - Scrcpy
 - Browser
     - Firefox
         - LibreWolf
