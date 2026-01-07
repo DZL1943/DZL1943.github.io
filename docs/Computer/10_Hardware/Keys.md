@@ -12,7 +12,7 @@
     - Ctrl
     - Alt
     - Cmd
-    - Capslock
+    - CapsLock
     - Esc
     - Fn
 - Controls
