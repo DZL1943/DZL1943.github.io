@@ -117,7 +117,7 @@
 
 ## 娱乐 Entertainment
 
-- 资讯
+- 资讯 News
 - 社交媒体 Media
     - TickTok
     - BiliBili
