@@ -39,7 +39,7 @@
 
 - 压缩 Archiver
     - Keka
-- 截屏Screenshot
+- 截屏 Screenshot
     - PixPin
     - Shottr
 - 录屏 Screen Recorder
