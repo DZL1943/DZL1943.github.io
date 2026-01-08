@@ -85,6 +85,10 @@
     - [Obsidian](Obsidian/Obsidian.md)
     - [Notion](Notion.md)
 - 文档 Document
+    - WPS
+    - PDFgear
+    - Zotero
+    - Xmind
 - 密码 Password
     - KeePass
 - 财务 Finance
