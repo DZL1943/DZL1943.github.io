@@ -1,3 +1,6 @@
+---
+sidebar_position: 1.1
+---
 
 - [硬件 Hardware](./10_Hardware/Hardware.md)
 - [系统 OS](./20_OS/OS.md)
