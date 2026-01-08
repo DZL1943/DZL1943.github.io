@@ -6,9 +6,9 @@
     - Input Source Pro
 - 剪切板 Clipboard
 - 触控板 Trackpad
+    - BetterAndBetter
 - 鼠标 Mouse
     - MacMouseFix
-    - BetterAndBetter
     - xGestures
 - 键盘 Keyboard
     - Karabiner
@@ -18,6 +18,8 @@
 - 窗口管理 Window
     - AeroSpace
     - DockDoor
+- 菜单栏 Menubar
+    - Ice
 - 显示 Display
     - BetterDisplay
 - 声音 Voice
@@ -27,9 +29,7 @@
     - Amphetamine
 - 监控 Stat
     - Stats
-- 美化 Beautify
-    - Ice
-- 优化 Optimization
+- 优化 Tweak
 - 卸载清理 Clean
     - Pearcleaner
 - 安全 Security
