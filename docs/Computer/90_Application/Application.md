@@ -3,10 +3,12 @@
 - 输入法 Input
     - Rime
     - Fcitx
+    - Input Source Pro
 - 剪切板 Clipboard
 - 触控板 Trackpad
 - 鼠标 Mouse
     - MacMouseFix
+    - BetterAndBetter
     - xGestures
 - 键盘 Keyboard
     - Karabiner
