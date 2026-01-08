@@ -12,7 +12,6 @@
     - xGestures
 - 键盘 Keyboard
     - Karabiner
-- 快捷键 Shortcut
 - 快捷启动 Quickstart
     - Raycast
 - 窗口管理 Window
