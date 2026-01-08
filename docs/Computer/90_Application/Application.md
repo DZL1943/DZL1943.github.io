@@ -1,15 +1,49 @@
 ## 系统 System
 
-## 工具 Utility
-
-- 压缩 Archiver
-- 截屏Screenshot
-- 录屏 Screen Recorder
-- 播放器 Video Player
 - 输入法 Input
     - Rime
     - Fcitx
-- 剪贴板 Clipboard
+- 剪切板 Clipboard
+- 触控板 Trackpad
+- 鼠标 Mouse
+    - MacMouseFix
+    - xGestures
+- 键盘 Keyboard
+    - Karabiner
+- 快捷键 Shortcut
+- 快捷启动 Quickstart
+    - Raycast
+- 窗口管理 Window
+    - AeroSpace
+    - DockDoor
+- 显示 Display
+    - BetterDisplay
+- 声音 Voice
+    - Background Music
+- 电源 Power
+    - AIDente
+    - Amphetamine
+- 监控 Stat
+    - Stats
+- 美化 Beautify
+    - Ice
+- 优化 Optimization
+- 卸载清理 Clean
+    - Pearcleaner
+- 安全 Security
+    - Vallum
+
+## 工具 Utility
+
+- 压缩 Archiver
+    - Keka
+- 截屏Screenshot
+    - PixPin
+    - Shottr
+- 录屏 Screen Recorder
+    - OBS
+- 播放器 Video Player
+    - IINA
 - 文件传输 Transport
     - LocalSend
 - 文件同步 Sync
