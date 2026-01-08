@@ -4,10 +4,26 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Sun, 04 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jan 2026 03:30:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
+        <item>
+            <title><![CDATA[Docusaurus与Obsidian]]></title>
+            <link>https://dzl1943.github.io/blog/Docusaurus与Obsidian</link>
+            <guid>https://dzl1943.github.io/blog/Docusaurus与Obsidian</guid>
+            <pubDate>Tue, 06 Jan 2026 03:30:29 GMT</pubDate>
+            <description><![CDATA[如何将 Docusaurus 与 Obsidian 协同?]]></description>
+            <content:encoded><![CDATA[<p>如何将 Docusaurus 与 Obsidian 协同?</p>
+<p>如何同时处理 docs 和 blog 两种类型?</p>
+<p>如何处理附件和链接?</p>
+<p>在现有的目录结构下, 应该做不到兼容 docs、blog 两者吧.</p>
+<p>因为如果把整个 Docusaurus website 目录当作 vault, 会有很多不相干的东西, 比如 build、node_modules.</p>
+<p>可以通过多实例, 把外部内容包含进来.
+但我还是想基于现有目录结构.</p>
+<p>那就只能分库处理了.<br>
+<!-- -->并且附件应统一存放, 用相对链接. 后续调整为静态资源也更加方便.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Docusaurus首页调整]]></title>
             <link>https://dzl1943.github.io/blog/Docusaurus首页调整</link>

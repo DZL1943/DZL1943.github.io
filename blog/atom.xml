@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-01-04T00:00:00.000Z</updated>
+    <updated>2026-01-06T03:30:29.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Docusaurus与Obsidian]]></title>
+        <id>https://dzl1943.github.io/blog/Docusaurus与Obsidian</id>
+        <link href="https://dzl1943.github.io/blog/Docusaurus与Obsidian"/>
+        <updated>2026-01-06T03:30:29.000Z</updated>
+        <summary type="html"><![CDATA[如何将 Docusaurus 与 Obsidian 协同?]]></summary>
+        <content type="html"><![CDATA[<p>如何将 Docusaurus 与 Obsidian 协同?</p>
+<p>如何同时处理 docs 和 blog 两种类型?</p>
+<p>如何处理附件和链接?</p>
+<p>在现有的目录结构下, 应该做不到兼容 docs、blog 两者吧.</p>
+<p>因为如果把整个 Docusaurus website 目录当作 vault, 会有很多不相干的东西, 比如 build、node_modules.</p>
+<p>可以通过多实例, 把外部内容包含进来.
+但我还是想基于现有目录结构.</p>
+<p>那就只能分库处理了.<br>
+<!-- -->并且附件应统一存放, 用相对链接. 后续调整为静态资源也更加方便.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus首页调整]]></title>
         <id>https://dzl1943.github.io/blog/Docusaurus首页调整</id>
