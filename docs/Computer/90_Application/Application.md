@@ -44,6 +44,9 @@
     - OBS
 - 播放器 Video Player
     - IINA
+- 下载器 Downloader
+    - Free Download Manager
+    - Transmission
 - 文件传输 Transport
     - LocalSend
 - 文件同步 Sync
@@ -59,21 +62,27 @@
     - Clash Verge Rev
     - sing-box
     - Hiddify
+    - Tailscale/ZeroTier
 - 远程桌面 Remote Desktop
     - RustDesk
     - Scrcpy
 
 ## 效率 Productivity
 
+- 消息 Message
+    - QQ
+    - WeChat
+    - Telegram
+- 邮件 Email
+- 待办 GTD
+    - DIDA
+    - Tasks.org
+    - Super Productivity
 - 笔记 Note
     - Quarto
     - [Obsidian](Obsidian/Obsidian.md)
     - [Notion](Notion.md)
 - 文档 Document
-- 待办 GTD
-    - DIDA
-    - Tasks.org
-    - Super Productivity
 - 密码 Password
     - KeePass
 - 财务 Finance
@@ -94,10 +103,6 @@
     - Chrome
     - Edge
     - Safari
-- 消息 Message
-    - QQ
-    - WeChat
-    - Telegram
 - AI
     - [ChatGPT](https://chatgpt.com)
     - [Gemini](https://gemini.google.com)
