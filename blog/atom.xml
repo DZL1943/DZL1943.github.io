@@ -8,9 +8,9 @@
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Docusaurus与Obsidian]]></title>
-        <id>https://dzl1943.github.io/blog/Docusaurus与Obsidian</id>
-        <link href="https://dzl1943.github.io/blog/Docusaurus与Obsidian"/>
+        <title type="html"><![CDATA[Docusaurus with Obsidian]]></title>
+        <id>https://dzl1943.github.io/blog/Docusaurus with Obsidian</id>
+        <link href="https://dzl1943.github.io/blog/Docusaurus with Obsidian"/>
         <updated>2026-01-06T03:30:29.000Z</updated>
         <summary type="html"><![CDATA[如何将 Docusaurus 与 Obsidian 协同?]]></summary>
         <content type="html"><![CDATA[<p>如何将 Docusaurus 与 Obsidian 协同?</p>
