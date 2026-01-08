@@ -62,8 +62,8 @@
     - VeraCrypt
 - 代理 Proxy
     - Clash Verge Rev
-    - sing-box
     - Hiddify
+    - sing-box
     - Tailscale/ZeroTier
 - 远程桌面 Remote Desktop
     - RustDesk
@@ -73,9 +73,13 @@
 
 - 消息 Message
     - QQ
-    - WeChat
+    - 微信 WeChat
     - Telegram
 - 邮件 Email
+    - Outlook
+    - Gmail
+    - 网易邮箱
+    - QQ邮箱
 - 待办 GTD
     - DIDA
     - Tasks.org
@@ -122,16 +126,27 @@
 ## 娱乐 Entertainment
 
 - 资讯 News
+    - 央视新闻
+    - 央视频
 - 社交媒体 Media
-    - TickTok
-    - BiliBili
+    - 新浪微博
+    - 豆瓣
+    - 知乎
+    - 小红书
+    - 抖音 TickTok
+    - 哔哩哔哩 BiliBili
     - YouTube
 - 音乐 Music
     - Spotify
     - Apple Music
+- 播客 Podcast
+    - 云听
 - 视频(点播) Video
     - Netflix
+    - 爱奇艺
+    - 腾讯视频
 - 阅读 Books
+    - 微信读书
 - 游戏 Games
     - Steam
     - Epic
@@ -139,15 +154,62 @@
 ## 生活 Living
 
 - 饮食 Dining
+    - 美团
+    - 饿了么
 - 出行 Travel
+    - 高德地图
+    - 铁路12306
+    - 航旅纵横
+- 住宿 Hotel
+    - 携程
+    - 飞猪
 - 购物 Shopping
     - 京东
     - 淘宝
     - 拼多多
+    - 闲鱼
+    - 转转
+- 金融支付 Payment
+    - 支付宝
+    - 银闪付
 - 市政 Civic
+    - 个人所得税
+    - 交管12123
+    - 网上国网
+    - 国家医保服务平台
+    - 电子社保卡
 - 求职 Jobs
+    - 前程无忧
+    - 智联
+    - BOSS
+    - 拉勾
 
 ## 参考 Reference
+
+- 语文 Chinese
+    - 西窗烛
+- 英语 English
+    - 欧路词典
+    - 每日英语阅读
+    - 多邻国
+- 历史 History
+    - 全历史
+- 地理 Geography
+- 天文 Astronomy
+- 艺术 Arts
+- 体育 Physical
+- 医学 Medicine
+    - MSD
+- 化学 Chemistry
+- 数学 Mathematics
+    - GeoGebra
+- 编程 Programming
+    - LeetCode
+- 金融 Finance
+- 法律 Law
+- 考公 Civil
+    - 华图
+    - 粉笔
 
 ## 创意 Creative
 
@@ -155,18 +217,21 @@
     - GIMP
     - Photoshop
     - Affinity
-- 3D
+- 绘画 Painting
+- 3D Modeling
     - Blender
     - Maya
     - 3ds Max
+- 摄影 Photography
 - 视频 Video
     - Final Cut Pro
     - Premiere Pro
     - DaVinci Resolve
 - 音频 Audio
     - Audition
-    - Logic Pro
     - Audacity
+    - Logic Pro
+    - 库乐队 GarageBand
 
 ## 工程 Engineering
 
