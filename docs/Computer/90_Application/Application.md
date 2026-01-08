@@ -242,8 +242,11 @@
 - 建筑 Architecture
 - 电气 Electrical
 - 仿真 Simulation
-    - MATLAB
     - ANSYS
+- 计算 Compute
+    - MATLAB
+    - GNU Octave
+    - Wolfram Mathematica
 
 ## 开发 Development
 
