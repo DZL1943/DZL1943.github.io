@@ -1,65 +1,66 @@
+## 系统 System
 
 ## 工具 Utility
 
-- Archiver
-- Screenshot
-- Screen Recorder
-- Video Player
-- Input
+- 压缩 Archiver
+- 截屏Screenshot
+- 录屏 Screen Recorder
+- 播放器 Video Player
+- 输入法 Input
     - Rime
     - Fcitx
-- Clipboard
-- Transport
+- 剪贴板 Clipboard
+- 文件传输 Transport
     - LocalSend
-- Sync
+- 文件同步 Sync
     - FreeFileSync
     - FolderSync
     - Syncthing
-- Backup
+- 文件备份 Backup
     - Kopia
-- Crypto
+- 加密 Crypto
     - Cryptomator
     - VeraCrypt
-- Proxy
+- 代理 Proxy
     - Clash Verge Rev
     - sing-box
     - Hiddify
-- Remote Desktop
+- 远程桌面 Remote Desktop
     - RustDesk
     - Scrcpy
 
 ## 效率 Productivity
 
-- Note
+- 笔记 Note
     - Quarto
     - [Obsidian](Obsidian/Obsidian.md)
     - [Notion](Notion.md)
-- Document
-- GTD
+- 文档 Document
+- 待办 GTD
     - DIDA
     - Tasks.org
     - Super Productivity
-- Password
+- 密码 Password
     - KeePass
 - 财务 Finance
     - Ledger
     - Beancount
     - GnuCash
-- Cloud Storage
+- 云存储 Cloud Storage
     - Dropbox
     - iCloud
     - OneDrive
     - Google Drive
     - Synology Drive
     - Nextcloud
-- Browser
+- 浏览器 Browser
     - Firefox
         - LibreWolf
         - Zen
     - Chrome
     - Edge
     - Safari
-- Message
+- 消息 Message
     - QQ
     - WeChat
     - Telegram
@@ -75,30 +76,31 @@
 
 ## 娱乐 Entertainment
 
-- Media
+- 资讯
+- 社交媒体 Media
     - TickTok
     - BiliBili
     - YouTube
-- Music
+- 音乐 Music
     - Spotify
     - Apple Music
-- Video
+- 视频(点播) Video
     - Netflix
-- Books
-- Games
+- 阅读 Books
+- 游戏 Games
     - Steam
     - Epic
 
 ## 生活 Living
 
-- Dining
-- Travel
-- Shopping
+- 饮食 Dining
+- 出行 Travel
+- 购物 Shopping
     - 京东
     - 淘宝
     - 拼多多
-- Civic
-- Jobs
+- 市政 Civic
+- 求职 Jobs
 
 ## 参考 Reference
 
@@ -123,13 +125,13 @@
 
 ## 工程 Engineering
 
-- CAD
+- 制图 CAD
     - AutoCAD
-- Mechanical
+- 机械 Mechanical
     - SolidWorks
-- Architecture
-- Electrical
-- Simulation
+- 建筑 Architecture
+- 电气 Electrical
+- 仿真 Simulation
     - MATLAB
     - ANSYS
 
@@ -162,3 +164,4 @@
 - Web Sever
     - Nginx
     - Caddy
+- Database
