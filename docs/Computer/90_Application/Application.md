@@ -153,7 +153,7 @@
 
 ## 生活 Living
 
-- 饮食 Dining
+- 餐饮 Dining
     - 美团
     - 饿了么
 - 出行 Travel
