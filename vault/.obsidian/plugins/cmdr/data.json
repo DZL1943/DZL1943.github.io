@@ -16,7 +16,9 @@
       "backlink",
       "properties"
     ],
-    "leftRibbon": []
+    "leftRibbon": [
+      "FuzzySearch"
+    ]
   },
   "spacing": 8,
   "advancedToolbar": {
