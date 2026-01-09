@@ -42,11 +42,11 @@ yarn-error.log*
 NSFW/
 
 # Obsidian
-.obsidian/bookmarks.json
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/plugins/obsidian-auto-hide/data.json
-.obsidian/plugins/various-complements/histories.json
-.obsidian/plugins/float-search/data.json
-.obsidian/plugins/recent-files-obsidian/data.json
-.obsidian/plugins/image-converter/image-converter-image-alignments.json
+**/.obsidian/bookmarks.json
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/plugins/obsidian-auto-hide/data.json
+**/.obsidian/plugins/various-complements/histories.json
+**/.obsidian/plugins/float-search/data.json
+**/.obsidian/plugins/recent-files-obsidian/data.json
+**/.obsidian/plugins/image-converter/image-converter-image-alignments.json
