@@ -4,4 +4,4 @@ created: 2026-01-02
 # modified: 2026-01-05
 ---
 
-- [Computer](./Computer/Computer.md)
+- [Computer](<Computer/Computer.md>)

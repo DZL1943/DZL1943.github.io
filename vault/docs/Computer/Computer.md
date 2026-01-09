@@ -2,13 +2,13 @@
 sidebar_position: 1.1
 ---
 
-- [硬件 Hardware](./10_Hardware/Hardware.md)
-- [系统 OS](./20_OS/OS.md)
+- [硬件 Hardware](<10_Hardware/Hardware.md>)
+- [系统 OS](<20_OS/OS.md>)
 - 网络 Network
 - 存储 Storage
 - 算法 Algorithm
-- [编程 Programming](./60_Programming/Programming.md)
+- [编程 Programming](<60_Programming/Programming.md>)
 - 工程 Engineering
-- [前端 Frontend](./80_Frontend/Frontend.md)
-- [应用 Application](./90_Application/Application.md)
-- [数据 Data](./92_Data/Data.md)
+- [前端 Frontend](<80_Frontend/Frontend.md>)
+- [应用 Application](<90_Application/Application.md>)
+- [数据 Data](<92_Data/Data.md>)
