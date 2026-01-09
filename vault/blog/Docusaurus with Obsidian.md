@@ -10,3 +10,9 @@
 更改 path 即可.
 
 附件用相对路径.
+
+例如:
+- vault
+    - docs
+    - blog
+    - assets
