@@ -49,8 +49,8 @@ const config = {
       // Rename an unsupported front matter coming from another system
       const fieldMap = {
         created: 'date',
-        modified: 'last_update',
-        updated: 'last_update'
+        // modified: 'last_update',
+        // updated: 'last_update'
       }
       for (const [k, v] of Object.entries(fieldMap)) {
         if (result.frontMatter[k]) {
