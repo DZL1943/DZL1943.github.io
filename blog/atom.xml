@@ -17,7 +17,17 @@
 <p>如何同时处理 docs 和 blog 两种类型?</p>
 <p>如何处理附件和链接?</p>
 <p>更改 path 即可.</p>
-<p>附件用相对路径.</p>]]></content>
+<p>附件用相对路径.</p>
+<p>例如:</p>
+<ul>
+<li class="">vault<!-- -->
+<ul>
+<li class="">docs</li>
+<li class="">blog</li>
+<li class="">assets</li>
+</ul>
+</li>
+</ul>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus首页调整]]></title>
