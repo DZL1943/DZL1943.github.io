@@ -1,0 +1,6 @@
+{
+  "overridePasteHandler": true,
+  "fetchPageTitle": true,
+  "fetchPageTitleTimeout": 5000,
+  "pageTitleRegexes": []
+}

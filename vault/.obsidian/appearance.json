@@ -1,0 +1,14 @@
+{
+  "interfaceFontFamily": "Monaco",
+  "textFontFamily": "Monaco",
+  "monospaceFontFamily": "Monaco",
+  "baseFontSize": 18,
+  "showViewHeader": false,
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "basic",
+    "code",
+    "list",
+    "table"
+  ]
+}

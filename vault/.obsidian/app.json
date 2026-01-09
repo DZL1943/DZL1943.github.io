@@ -1,0 +1,15 @@
+{
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "strictLineBreaks": true,
+  "useTab": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "assets",
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "promptDelete": false,
+  "trashOption": "system",
+  "uriCallbacks": false,
+  "showInlineTitle": false
+}
