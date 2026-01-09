@@ -2,9 +2,9 @@
 
 ### Normal
 
-![](../../assets/vim-shortcuts-1.png)
+![](../../../assets/vim-shortcuts-1.png)
 
-![](../../assets/vim-shortcuts-2.png)
+![](../../../assets/vim-shortcuts-2.png)
 
 ## Config
 

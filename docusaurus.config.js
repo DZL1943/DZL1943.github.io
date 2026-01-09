@@ -80,6 +80,7 @@ const config = {
       ({
         docs: {
           // routeBasePath: '/',
+          path: 'vault/docs',
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           // Please change this to your repo.
@@ -90,6 +91,7 @@ const config = {
           // blogSidebarTitle: 'All posts',
           // blogSidebarCount: 'ALL',
           // routeBasePath: '/',
+          path: 'vault/blog',
           showLastUpdateTime: true,
           showReadingTime: true,
           feedOptions: {
