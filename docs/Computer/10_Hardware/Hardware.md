@@ -15,6 +15,7 @@
 - Keyboard
 - Mouse
 - Trackpad
+- Printer
 
 ## Wearable
 
