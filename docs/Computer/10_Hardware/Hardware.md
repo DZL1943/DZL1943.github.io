@@ -15,3 +15,9 @@
 - Keyboard
 - Mouse
 - Trackpad
+
+## Wearable
+
+- Glasses
+- Watch
+- Headset
