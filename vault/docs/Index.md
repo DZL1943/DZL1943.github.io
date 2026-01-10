@@ -33,12 +33,12 @@ created: 2026-01-02
 
 - 农林 Agronomy
 - 医药 Medicine
-- 食品 Food
-- 纺织 Textile Engineering
-- 水利 Hydraulic Engineering
+- 环境 Environment
+- 水利 Hydraulic
 - 土建 Architecture
-- 化工 Chemical Engineering
-- 机械 Mechanical Engineering
-- 电气 Electrical Engineering
+- 交通 Transportation
+- 化工 Chemical
+- 机械 Mechanical
+- 电气 Electrical
 - 电子 Electronics
 - [计算机 Computer](<Computer/Computer.md>)
