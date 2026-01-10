@@ -192,7 +192,6 @@ article [href^="http"] {
 ```js
 const config = {
     markdown: {
-        mermaid: true,
         parseFrontMatter: async (params) => {
             const result = await params.defaultParseFrontMatter(params);
     
