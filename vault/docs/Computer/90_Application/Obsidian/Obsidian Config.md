@@ -1,4 +1,5 @@
-## app.json
+
+## app.json | 核心配置
 
 ```json
 {
@@ -92,7 +93,7 @@
 }
 ```
 
-## appearance.json
+## appearance.json | 外观
 
 ```json
 {
@@ -113,7 +114,77 @@
 }
 ```
 
-## core-plugins.json
+## bookmarks.json | 书签
+
+```json
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1762169468554,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1762169444029,
+          "path": "Index.md"
+        }
+      ],
+      "title": "Default"
+    }
+  ]
+}
+```
+
+## canvas.json | 白板
+
+```json
+{
+  "snapToObjects": true,
+  "snapToGrid": true,
+  "newFileLocation": "current"
+}
+```
+
+## command-palette.json | 命令面板
+
+```json
+{
+  "pinned": [
+    "app:open-settings",
+    "app:toggle-ribbon",
+    "workspaces:open-modal",
+    "daily-notes",
+    "zk-prefixer"
+  ]
+}
+```
+
+## community-plugins.json | 社区插件
+
+```json
+[
+  "better-markdown-links",
+  "better-plugins-manager",
+  "custom-sort",
+  "easy-typing-obsidian",
+  "float-search",
+  "fuzzy-chinese-pinyin",
+  "legacy-vault-switcher",
+  "obsidian-admonition",
+  "obsidian-auto-hide",
+  "obsidian-front-matter-title-plugin",
+  "obsidian-heading-shifter",
+  "obsidian-image-toolkit",
+  "obsidian-linter",
+  "obsidian-outliner",
+  "paste-link",
+  "various-complements",
+  "virtual-linker"
+]
+```
+
+## ~~core-plugins-migration.json~~ | 内容同上
+## core-plugins.json | 核心插件
 
 ```json
 {
@@ -150,5 +221,157 @@
   "sync": false,
   "bases": true,
   "webviewer": false
+}
+```
+
+## daily-notes.json | 日记
+
+```json
+{
+  "folder": "Journals",
+  "template": "",
+  "format": "YYYY-MM-DD",
+  "autorun": false
+}
+```
+
+## file-recovery.json | 文件恢复
+
+```json
+{
+  "intervalMinutes": 10,
+  "keepDays": 10
+}
+```
+
+## graph.json | 图谱
+
+```json
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}
+```
+
+## hotkeys.json | 快捷键
+
+```json
+{
+  "fuzzy-chinese-pinyin:open-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "fuzzy-chinese-pinyin:execute-command": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "float-search:search-obsidian-globally-state": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ]
+}
+
+```
+
+## note-composer.json | 笔记重组
+## page-preview.json | 页面预览
+## switcher.json | 快速切换
+
+```json
+{
+  "showExistingOnly": true,
+  "showAttachments": true,
+  "showAllFileTypes": false
+}
+```
+
+## templates.json | 模板
+
+```json
+{
+  "folder": "Templates"
+}
+```
+
+## types.json | 属性
+
+```json
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "created": "datetime",
+    "modified": "datetime"
+  }
+}
+```
+
+## webviewer.json | 浏览器
+
+```json
+{
+  "openExternalURLs": true,
+  "enableAdblocking": true,
+  "searchEngine": "bing",
+  "markdownPath": "Clippings"
+}
+```
+
+## workspace.json | 桌面端工作区
+## workspace-mobile.json | 移动端工作区
+## workspaces.json | 工作区
+## zk-prefixer.json | 时间戳笔记
+
+```json
+{
+  "folder": "Inbox"
 }
 ```
