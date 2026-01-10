@@ -10,5 +10,6 @@
   "useMarkdownLinks": true,
   "promptDelete": false,
   "trashOption": "system",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "readableLineLength": false
 }
