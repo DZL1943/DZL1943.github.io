@@ -11,5 +11,6 @@
   "promptDelete": false,
   "trashOption": "system",
   "showInlineTitle": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "showLineNumber": false
 }
