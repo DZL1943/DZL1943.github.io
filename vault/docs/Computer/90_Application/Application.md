@@ -267,7 +267,7 @@
     - Zellij
 - Editor
     - Helix
-    - [Vim](<Vim.md>)
+    - Vim
     - Neovim
         - LazyVim
     - Emacs

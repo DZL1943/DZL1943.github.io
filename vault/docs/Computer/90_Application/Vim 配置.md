@@ -1,13 +1,3 @@
-## Hotkey
-
-### Normal
-
-![](../../../assets/vim-shortcuts-1.png)
-
-![](../../../assets/vim-shortcuts-2.png)
-
-## Config
-
 ```vim
 set nocp
 set mouse=a
@@ -24,5 +14,3 @@ set hls is scs
 
 set clipboard^=unnamed,unnamedplus
 ```
-
-## Plugin

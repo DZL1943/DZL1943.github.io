@@ -1,25 +1,19 @@
 {
-  "advancedSettings": true,
+  "advancedSettings": false,
   "linkerActivated": true,
-  "matchAnyPartsOfWords": true,
-  "matchEndOfWords": false,
-  "matchBeginningOfWords": false,
+  "matchAnyPartsOfWords": false,
+  "matchEndOfWords": true,
+  "matchBeginningOfWords": true,
   "suppressSuffixForSubWords": false,
   "includeAllFiles": true,
   "linkerDirectories": [
     "Glossary"
   ],
-  "excludedDirectories": [
-    "Inbox",
-    "Archives",
-    "Misc",
-  ],
-  "excludedDirectoriesForLinking": [
-    "Archives"
-  ],
+  "excludedDirectories": [],
+  "excludedDirectoriesForLinking": [],
   "virtualLinkSuffix": "🔗",
   "virtualLinkAliasSuffix": "🔗",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "linkFormat": "shortest",
   "defaultUseMarkdownLinks": true,
   "defaultLinkFormat": "relative",
@@ -35,12 +29,10 @@
   "tagToExcludeFile": "linker-exclude",
   "tagToIncludeFile": "linker-include",
   "excludeLinksToOwnNote": true,
-  "fixIMEProblem": true,
-  "excludeLinksInCurrentLine": true,
+  "fixIMEProblem": false,
+  "excludeLinksInCurrentLine": false,
   "onlyLinkOnce": true,
   "excludeLinksToRealLinkedFiles": true,
   "includeAliases": true,
-  "alwaysShowMultipleReferences": false,
-  "matchOnlyWholeWords": true,
-  "glossarySuffix": "🔗"
+  "alwaysShowMultipleReferences": false
 }
