@@ -10,6 +10,5 @@
   "useMarkdownLinks": true,
   "promptDelete": false,
   "trashOption": "system",
-  "uriCallbacks": false,
   "showInlineTitle": false
 }
