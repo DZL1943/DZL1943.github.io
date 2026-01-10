@@ -85,8 +85,8 @@
     - Super Productivity
 - 笔记 Note
     - Quarto
-    - [Obsidian](Obsidian/Obsidian.md)
-    - [Notion](Notion.md)
+    - [Obsidian](<Obsidian/Obsidian.md>)
+    - [Notion](<Notion.md>)
 - 文档 Document
     - WPS
     - PDFgear
@@ -188,6 +188,7 @@
 - 语文 Chinese
     - 西窗烛
 - 英语 English
+    - GoldenDict
     - 欧路词典
     - 每日英语阅读
     - 多邻国
@@ -257,15 +258,15 @@
     - Zellij
 - Editor
     - Helix
-    - [Vim](Vim.md)
+    - [Vim](<Vim.md>)
     - Neovim
         - LazyVim
     - Emacs
         - Spacemacs
-    - [VSCode](VSCode.md)
+    - [VSCode](<VSCode.md>)
 - IDE
 - VCS
-    - [Git](Git.md)
+    - [Git](<Git.md>)
 - CI/CD
 - Virtualization & Containerization
     - QEMU/VirtualBox/VMware
