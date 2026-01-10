@@ -4,48 +4,10 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Sat, 10 Jan 2026 12:27:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Jan 2026 11:03:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
-        <item>
-            <title><![CDATA[IT公司]]></title>
-            <link>https://dzl1943.github.io/blog/IT公司</link>
-            <guid>https://dzl1943.github.io/blog/IT公司</guid>
-            <pubDate>Sat, 10 Jan 2026 12:27:28 GMT</pubDate>
-            <description><![CDATA[国内]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="国内">国内<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%9B%BD%E5%86%85" class="hash-link" aria-label="国内的直接链接" title="国内的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">阿里</li>
-<li class="">腾讯</li>
-<li class="">百度</li>
-<li class="">京东</li>
-<li class="">网易</li>
-<li class="">美团</li>
-<li class="">字节跳动</li>
-<li class="">360</li>
-<li class="">新浪</li>
-<li class="">拼多多</li>
-<li class="">华为</li>
-<li class="">小米</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="国外">国外<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%9B%BD%E5%A4%96" class="hash-link" aria-label="国外的直接链接" title="国外的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">Microsoft</li>
-<li class="">Google</li>
-<li class="">Apple</li>
-<li class="">Facebook</li>
-<li class="">Amazon</li>
-<li class="">Nvidia</li>
-<li class="">TSMC</li>
-<li class="">Intel</li>
-<li class="">IBM</li>
-<li class="">Cisco</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考">参考<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%8F%82%E8%80%83" class="hash-link" aria-label="参考的直接链接" title="参考的直接链接" translate="no">​</a></h2>
-<p><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E4%BC%81%E4%B8%9A100%E5%BC%BA/9835904#4-4" target="_blank" rel="noopener noreferrer" class="">中国互联网企业100强_百度百科</a><br>
-<a href="https://www.qcc.com/bd/3382252b2422bc02625ac8277c243e75.html" target="_blank" rel="noopener noreferrer" class="">2023年度软件和信息技术服务竞争力前百家企业(百强企业)名单-企查查</a></p>]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[Docusaurus with Obsidian]]></title>
             <link>https://dzl1943.github.io/blog/Docusaurus with Obsidian</link>
@@ -113,6 +75,44 @@
 <li class="">撤销任意操作: 通过 <code>git reflog</code> 找到当时的状态 id, 再通过 reset 恢复, 例如 <code>git reset --hard HEAD@{1}</code></li>
 </ol>]]></content:encoded>
             <category>Git</category>
+        </item>
+        <item>
+            <title><![CDATA[IT公司]]></title>
+            <link>https://dzl1943.github.io/blog/IT公司</link>
+            <guid>https://dzl1943.github.io/blog/IT公司</guid>
+            <pubDate>Fri, 24 Oct 2025 06:39:00 GMT</pubDate>
+            <description><![CDATA[国内]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="国内">国内<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%9B%BD%E5%86%85" class="hash-link" aria-label="国内的直接链接" title="国内的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">阿里</li>
+<li class="">腾讯</li>
+<li class="">百度</li>
+<li class="">京东</li>
+<li class="">网易</li>
+<li class="">美团</li>
+<li class="">字节跳动</li>
+<li class="">360</li>
+<li class="">新浪</li>
+<li class="">拼多多</li>
+<li class="">华为</li>
+<li class="">小米</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="国外">国外<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%9B%BD%E5%A4%96" class="hash-link" aria-label="国外的直接链接" title="国外的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">Microsoft</li>
+<li class="">Google</li>
+<li class="">Apple</li>
+<li class="">Facebook</li>
+<li class="">Amazon</li>
+<li class="">Nvidia</li>
+<li class="">TSMC</li>
+<li class="">Intel</li>
+<li class="">IBM</li>
+<li class="">Cisco</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考">参考<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%8F%82%E8%80%83" class="hash-link" aria-label="参考的直接链接" title="参考的直接链接" translate="no">​</a></h2>
+<p><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E4%BC%81%E4%B8%9A100%E5%BC%BA/9835904#4-4" target="_blank" rel="noopener noreferrer" class="">中国互联网企业100强_百度百科</a><br>
+<a href="https://www.qcc.com/bd/3382252b2422bc02625ac8277c243e75.html" target="_blank" rel="noopener noreferrer" class="">2023年度软件和信息技术服务竞争力前百家企业(百强企业)名单-企查查</a></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[命令行和开发环境配置]]></title>
