@@ -24,6 +24,7 @@ yarn-error.log*
 .trash/
 
 # local
+Archive?/
 *[iI]nbox/
 [lL]ocal/
 [tT]est
