@@ -3,13 +3,13 @@
 - 输入法 Input
     - Rime
     - Fcitx
-    - Input Source Pro
+    - [Input Source Pro](https://inputsource.pro/)
 - 剪切板 Clipboard
 - 触控板 Trackpad
-    - BetterAndBetter
+    - [BetterAndBetter](https://www.better365.cn/bab2.html)
 - 鼠标 Mouse
     - MacMouseFix
-    - xGestures
+    - [xGestures](https://briankendall.net/xGestures/)
 - 键盘 Keyboard
     - Karabiner
 - 快捷启动 Quickstart
@@ -24,7 +24,7 @@
 - 声音 Voice
     - Background Music
 - 电源 Power
-    - AIDente
+    - [AIDente](https://apphousekitchen.com)
     - Amphetamine
 - 监控 Stat
     - Stats
@@ -32,7 +32,11 @@
 - 卸载清理 Clean
     - Pearcleaner
 - 安全 Security
-    - Vallum
+    - [Vallum](https://www.vallumfirewall.com/)
+- 驱动
+    - OpenMTP
+    - ntfstool
+    - [FUSE-T](https://www.fuse-t.org/)
 
 ## 工具 Utility
 
@@ -40,7 +44,7 @@
     - Keka
 - 截屏 Screenshot
     - PixPin
-    - Shottr
+    - [Shottr](https://shottr.cc)
 - 录屏 Screen Recorder
     - OBS
 - 播放器 Video Player
@@ -48,12 +52,13 @@
 - 下载器 Downloader
     - Free Download Manager
     - Transmission
+- 格式转换 Converter
 - 文件传输 Transport
     - LocalSend
 - 文件同步 Sync
+    - Syncthing
     - FreeFileSync
     - FolderSync
-    - Syncthing
 - 文件备份 Backup
     - Kopia
 - 加密 Crypto
@@ -63,7 +68,10 @@
     - Clash Verge Rev
     - Hiddify
     - sing-box
-    - Tailscale/ZeroTier
+    - Tailscale
+    - ZeroTier
+- DNS
+    - SwitchHosts
 - 远程桌面 Remote Desktop
     - RustDesk
     - Scrcpy
@@ -172,9 +180,9 @@
     - 支付宝
     - 银闪付
 - 市政 Civic
-    - 个人所得税
     - 交管12123
     - 网上国网
+    - 个人所得税
     - 国家医保服务平台
     - 电子社保卡
 - 求职 Jobs
@@ -190,6 +198,7 @@
 - 英语 English
     - GoldenDict
     - 欧路词典
+    - 每日英语听力
     - 每日英语阅读
     - 多邻国
 - 历史 History
@@ -267,6 +276,7 @@
 - IDE
 - VCS
     - [Git](<Git.md>)
+    - GitHub
 - CI/CD
 - Virtualization & Containerization
     - QEMU/VirtualBox/VMware
