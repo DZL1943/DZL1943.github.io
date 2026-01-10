@@ -74,8 +74,10 @@ const config = {
     - autoCollapseCategories
 - navbar %% type: default、dropdown、doc、docSidebar、docsVersionDropdown、docsVersion、localeDropdown、search、html %%
 - footer
-- prism https://github.com/FormidableLabs/prism-react-renderer/tree/master/packages/prism-react-renderer/src/themes
-    - additionalLanguages
+- prism
+    - theme https://docusaurus.io/docs/api/themes/configuration#theme
+    - darkTheme
+    - additionalLanguages https://docusaurus.io/docs/markdown-features/code-blocks#supported-languages
     - defaultLanguage
 
 ### sidebars
