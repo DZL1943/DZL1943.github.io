@@ -9,7 +9,9 @@
   "linkerDirectories": [
     "Glossary"
   ],
-  "excludedDirectories": [],
+  "excludedDirectories": [
+    "Archives"
+  ],
   "excludedDirectoriesForLinking": [],
   "virtualLinkSuffix": "🔗",
   "virtualLinkAliasSuffix": "🔗",
