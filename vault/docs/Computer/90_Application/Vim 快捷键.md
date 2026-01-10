@@ -218,40 +218,40 @@ operator[number]motion
 ### 终端作业模式
 ### Ex 命令
 
-- :buffers
-- :cd
-- :chd[ir]
-- :clo[se]
-- :colo[rscheme]
-- :di[splay] 显示寄存器
-- :e[dit]
-- :files
-- :h[elp]
-- :his[tory]
-- :ls 列出所有的缓冲区
-- :new
-- :o[pen]
-- :q[uit]
-- :qa[ll]
-- :r[ead]
-- :reg[isters]
-- :res[ize]
-- :ret[ab]
-- :s[ubstitute] 查找和替代文本
-- :se[t]
-- :sp[lit]
-- :tabnew
-- :tabs
-- :tab
-- :ta[g]
-- :tags
-- :vs[plit]
-- :w[rite]
-- :wa[ll]
-- :wq
-- :wqa[ll]
-- :x[it]
-- :xa[ll] 同 ":wqall"
+- `:buffers`
+- `:cd`
+- `:chd[ir]`
+- `:clo[se]`
+- `:colo[rscheme]`
+- `:di[splay]` 显示寄存器
+- `:e[dit]`
+- `:files`
+- `:h[elp]`
+- `:his[tory]`
+- `:ls` 列出所有的缓冲区
+- `:new`
+- `:o[pen]`
+- `:q[uit]`
+- `:qa[ll]`
+- `:r[ead]`
+- `:reg[isters]`
+- `:res[ize]`
+- `:ret[ab]`
+- `:s[ubstitute]` 查找和替代文本
+- `:se[t]`
+- `:sp[lit]`
+- `:tabnew`
+- `:tabs`
+- `:tab`
+- `:ta[g]`
+- `:tags`
+- `:vs[plit]`
+- `:w[rite]`
+- `:wa[ll]`
+- `:wq`
+- `:wqa[ll]`
+- `:x[it]`
+- `:xa[ll]` 同 `:wqall`
 
 ## map
 
