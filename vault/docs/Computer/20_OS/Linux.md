@@ -11,6 +11,7 @@
 - Arch
     - Manjaro
     - EndeavourOS
+    - CachyOS
     - SteamOS
 - Slackware/SUSE
 - Gentoo
