@@ -747,5 +747,41 @@
 </li>
 </ul>]]></content:encoded>
         </item>
+        <item>
+            <title><![CDATA[iPad]]></title>
+            <link>https://dzl1943.github.io/blog/iPad</link>
+            <guid>https://dzl1943.github.io/blog/iPad</guid>
+            <pubDate>Fri, 28 Jul 2023 15:36:00 GMT</pubDate>
+            <description><![CDATA[型号]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="型号">型号<a href="https://dzl1943.github.io/blog/iPad#%E5%9E%8B%E5%8F%B7" class="hash-link" aria-label="型号的直接链接" title="型号的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">iPad Pro 12.9 - v6 (m2)</li>
+<li class="">iPad Pro - v4 (m2)</li>
+<li class="">iPad Air - 5 (m1 8g)</li>
+<li class="">iPad - 10 (a14, 不支持 ap2 和妙控键盘, 支持 usbc, 屏幕外观类似 air 但有阉割)</li>
+<li class="">iPad mini - v6 (a15)</li>
+</ul>
+<blockquote>
+<p>[!note]+ 小结</p>
+<ul>
+<li class="">首先排除 mini, 除了游戏几乎没有其他用途, 并且据报道有果冻屏问题</li>
+<li class="">其次对于非专业用户, 排除 12.9</li>
+<li class="">对于绝大多数价格敏感的用户, 优先建议目前的数字系列而非 air (性价比也不太行)</li>
+<li class="">有绘画需求建议 air (因为数字系列不支持二代笔)</li>
+<li class="">有游戏或其他高性能需求建议 pro</li>
+</ul>
+<p>关于容量: 64 非常勉强, 建议 128+</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="surfaceipadmacbookmac-mini">Surface、iPad、MacBook、Mac mini<a href="https://dzl1943.github.io/blog/iPad#surfaceipadmacbookmac-mini" class="hash-link" aria-label="Surface、iPad、MacBook、Mac mini的直接链接" title="Surface、iPad、MacBook、Mac mini的直接链接" translate="no">​</a></h2>
+<p>首先不建议 Surface, 因为完全没必要为这块触控手写屏买单, 因为支持的应用远不及 iPad.<br>
+<!-- -->其次性能和功耗上也完全不及其他.</p>
+<p>对于 iPad, 只推荐有需求或钱多的用户.</p>
+<p>请务必放弃拿 iPad Pro 当生产力试图替代笔记本电脑的想法. 所谓的 Pro 在 MacBook 面前就像个玩具...<br>
+<!-- -->试图用 iPad 取代手机的想法更是逆天... (哪怕有折叠屏也是手机取代 iPad 而不是反过来)<br>
+<!-- -->把购买旗舰手机的预算分一部分给 iPad 倒是不错的选择.</p>
+<p>Mac mini 作为小型办公主机是个不错的选择.(NUC 什么的根本不是对手) 缺点是不能自行扩展.</p>
+<p>关于便携屏, 如果真有这种需求还是优先考虑笔记本电脑或平板电脑吧</p>
+<p>综合而言, 个人倾向的设备组合为: 中端手机(比如红米 Note 和 K 系列) + iPad(可选) + MacBook/Mac mini + Windows 台式机(可选)</p>]]></content:encoded>
+        </item>
     </channel>
 </rss>
