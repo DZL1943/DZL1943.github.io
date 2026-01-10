@@ -288,3 +288,7 @@
     - Nginx
     - Caddy
 - Database
+
+---
+
+- [国家标准|GB/T 36475-2018](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=CA2E81EBA0BCD778A6E7BA66D821CF13&refer=outter)
