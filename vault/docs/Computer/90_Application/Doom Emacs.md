@@ -6,7 +6,7 @@ url:
 ---
 
 
-```lisp title=doom/config.el
+```lisp title="doom/config.el"
 ;; M-x nerd-icons-install-fonts
 (setq doom-font (font-spec :family "Hack Nerd Font" :size 20 :weight 'semi-light)
 )

@@ -48,7 +48,7 @@ url:
 - 其他
     - rime.lua
 
-```yaml title=squirrel.custom.yaml fold
+```yaml title="squirrel.custom.yaml" fold
 patch:
   style/horizontal: true
   "style/font_point": 16
@@ -472,7 +472,7 @@ patch:
       vim_mode: true
 ```
 
-```yaml title=default.custom.yaml fold
+```yaml title="default.custom.yaml" fold
 patch:
   schema_list:
     - schema: luna_pinyin_simp # 朙月拼音
@@ -504,7 +504,7 @@ patch:
     - { when: has_menu, accept: bracketright, send: Page_Down } # "]" 下一页
 ```
 
-```yaml title=luna_pinyin_simp.custom.yaml fold
+```yaml title="luna_pinyin_simp.custom.yaml" fold
 patch:
   menu/page_size: 9
   punctuator/symbols:
@@ -633,7 +633,7 @@ patch:
   #  - "xform/([nljqxyzcs])v/$1ü/"
 ```
 
-```lua title=rime.lua fold
+```lua title="rime.lua" fold
 function date_translator(input, seg)
     if (input == "date") then
         --- Candidate(type, start, end, text, comment)
