@@ -274,6 +274,7 @@
         - Spacemacs
     - [VSCode](<VSCode.md>)
 - IDE
+- UML
 - VCS
     - [Git](<Git.md>)
     - GitHub
