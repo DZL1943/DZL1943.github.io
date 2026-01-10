@@ -37,7 +37,7 @@ brew install coursier/formulas/coursier && cs setup
 ## hello-world
 
 https://docs.scala-lang.org/scala3/book/taste-hello-world.html
-```scala title: "hello-world-scala2"
+```scala title="hello-world-scala2"
 object HelloScala2 {
   def main(args: Array[String]) = {
     println("Hello, World2!")
@@ -45,12 +45,12 @@ object HelloScala2 {
 }
 ```
 
-```scala title: "hello-world-scala3"
+```scala title="hello-world-scala3"
 // 这里的方法名等同于类名
 @main def helloScala3() = println("Hello, World3!")
 ```
 
-```scala title: "hello-world-app"
+```scala title="hello-world-app"
 // 这种方式不支持命令行参数, 将被弃用
 object HelloApp extends App {
   println("Hello World")
@@ -78,7 +78,7 @@ scala 回车, 进入 repl
 
 对于单个的文件, 直接 sbt run 即可运行. (若有多个入口它会提示你选择)  
 更改 scalaVersion 参看下面的 build.sbt 文件
-```scala title: "build.sbt"
+```scala title="build.sbt"
 ThisBuild / scalaVersion := "3.4.2"
 
 lazy val hello = (project in file("."))
@@ -97,7 +97,7 @@ https://www.scala-sbt.org/1.x/docs/Proxy-Repositories.html
 
 华为源: https://mirrors.huaweicloud.com/mirrorDetail/5ebf85de07b41baf6d0882ac?mirrorName=sbt&catalog=language
 
-```ini title:"~/.sbt/repositories"
+```ini title="~/.sbt/repositories"
 [repositories]
 local
 huaweicloud-ivy: https://mirrors.huaweicloud.com/repository/ivy/, [organization]/[module]/(scala[scalaVersion]/)(sbt[sbtVersion]/)[revision]/[type]s/artifact.[ext],allowInsecureProtocol
