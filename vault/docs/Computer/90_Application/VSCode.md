@@ -56,11 +56,16 @@
 }
 ```
 
+## Keybindings
+
+[Keyboard shortcuts for Visual Studio Code](https://code.visualstudio.com/docs/configure/keybindings#_keyboard-shortcuts-reference)
+
 ## Themes
 
 - One Dark Pro
 - Monokai Pro
 - Dracula
+- Material/Vira
 
 ## Extensions
 
