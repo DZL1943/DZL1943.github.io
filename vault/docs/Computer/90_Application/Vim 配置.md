@@ -14,3 +14,7 @@ set hls is scs
 
 set clipboard^=unnamed,unnamedplus
 ```
+
+- [amix/vimrc](https://github.com/amix/vimrc)
+- [spf13-vim](https://github.com/spf13/spf13-vim)
+- [SpaceVim](https://github.com/SpaceVim/SpaceVim)

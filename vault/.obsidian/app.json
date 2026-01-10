@@ -12,5 +12,5 @@
   "trashOption": "system",
   "showInlineTitle": false,
   "readableLineLength": false,
-  "showLineNumber": false
+  "showLineNumber": true
 }
