@@ -1,24 +1,44 @@
+## 计算
 
-## Host
+- 眼镜 Glasses
+- 手表 Watch
+- 手机 Mobile
+- 平板电脑 Tablet
+- 笔记本电脑 Laptop
+- 一体机
+- 主机电脑 Desktop
+- 服务器 Server
 
-- [Mobile](手机.md)
-- Pad
-- [Laptop](笔记本电脑.md)
-- Desktop
-- Server
+## 存储
 
-## Peripheral
+- U 盘
+- 硬盘 Disk
+- NAS
 
-- Display
-- Speaker
-- Camera
-- Keyboard
-- Mouse
-- Trackpad
-- Printer
+## 网络
 
-## Wearable
+- 交换机 Switch
+- 路由器 Router
 
-- Glasses
-- Watch
-- Headset
+## 输入
+
+- 键盘 Keyboard
+- 鼠标 Mouse
+- 触控 Trackpad
+- 手写 Handwriting
+- 手柄 Controller
+- 摄像头 Camera
+- 麦克风 Microphone
+
+## 输出
+
+- 显示器 Display
+- 扬声器 Speaker
+- 耳机 Headphones
+- 打印机 Printer
+- 投影仪 Projector
+
+## 其他
+
+- 数据线 Cable
+- 充电器 Charger
