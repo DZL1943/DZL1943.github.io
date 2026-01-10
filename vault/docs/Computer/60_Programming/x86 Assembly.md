@@ -67,6 +67,8 @@ addr = BaseReg + IndexReg * ScaleFactor + Disp
 
 共八种方式
 
+![汇编语言-20240630202622233](<../../../assets/汇编语言-20240630202622233.png>)
+
 ## 指令集
 
 - 数据传输: 主要是 mov、push、pop 以及 xchg、xadd 等
