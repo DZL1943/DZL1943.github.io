@@ -213,7 +213,7 @@ const config = {
 }
 ```
 
-### 集成 obsidian
+### 集成 Obsidian
 
 更改 persets 中 docs、blog 的 path 配置即可.
 
