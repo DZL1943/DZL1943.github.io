@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-default" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">命令行和开发环境配置 | Welcome</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://dzl1943.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://dzl1943.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://dzl1943.github.io/blog/命令行和开发环境配置"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="命令行和开发环境配置 | Welcome"><meta data-rh="true" name="description" content="基础"><meta data-rh="true" property="og:description" content="基础"><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2025-10-22T11:19:35.000Z"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://dzl1943.github.io/blog/命令行和开发环境配置"><link data-rh="true" rel="alternate" href="https://dzl1943.github.io/blog/命令行和开发环境配置" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://dzl1943.github.io/blog/命令行和开发环境配置" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://dzl1943.github.io/blog/命令行和开发环境配置","mainEntityOfPage":"https://dzl1943.github.io/blog/命令行和开发环境配置","url":"https://dzl1943.github.io/blog/命令行和开发环境配置","headline":"命令行和开发环境配置","name":"命令行和开发环境配置","description":"基础","datePublished":"2025-10-22T11:19:35.000Z","dateModified":"2026-01-10T12:30:09.000Z","author":[],"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://dzl1943.github.io/blog","name":"Blog"}}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Welcome RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Welcome Atom Feed"><link rel="stylesheet" href="/assets/css/styles.73162878.css">
+<script src="/assets/js/runtime~main.2f0808bd.js" defer="defer"></script>
+<script src="/assets/js/main.aad08825.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">Home</b></a><a class="navbar__item navbar__link" href="/docs/Computer">Doc</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Docusaurus<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><a href="https://github.com/DZL1943" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="切换浅色/暗黑模式（当前为system mode）"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--3"><nav class="sidebar_re4s thin-scrollbar" aria-label="最近博文导航"><div class="sidebarItemTitle_pO2u margin-bottom--md">Recent posts</div><div role="group"><h3 class="yearGroupHeading_rMGB">2026</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/IT公司">IT公司</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/Docusaurus with Obsidian">Docusaurus with Obsidian</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/Docusaurus首页调整">Docusaurus首页调整</a></li></ul></div><div role="group"><h3 class="yearGroupHeading_rMGB">2025</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/Git Reset">Git Reset</a></li><li class="sidebarItem__DBe"><a aria-current="page" class="sidebarItemLink_mo7H sidebarItemLinkActive_I1ZP" href="/blog/命令行和开发环境配置">命令行和开发环境配置</a></li></ul></div></nav></aside><main class="col col--7"><article class=""><header><h1 class="title_f1Hy">命令行和开发环境配置</h1><div class="container_mt6G margin-vert--md"><time datetime="2025-10-22T11:19:35.000Z">2025年10月22日</time> · <!-- -->阅读需 3 分钟</div></header><div id="__blog-post-container" class="markdown"><h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="基础">基础<a href="#基础" class="hash-link" aria-label="基础的直接链接" title="基础的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">包管理器<!-- -->
+<ul>
+<li class="">Homebrew <code>eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;</code></li>
+<li class="">apt</li>
+<li class="">yum/dnf</li>
+<li class="">pacman</li>
+<li class="">zypper</li>
+<li class="">nix</li>
+</ul>
+</li>
+<li class="">Shell<!-- -->
+<ul>
+<li class=""><code>~/.alias</code></li>
+<li class=""><code>~/.env</code></li>
+<li class="">Starship <code>eval &quot;$(starship init zsh)&quot;</code></li>
+<li class="">Bash <code>~/{.profile,.bash_profile,.bashrc}</code></li>
+<li class="">Zsh <code>~/{.zshenv,.zprofile,.zshrc}</code>
+<ul>
+<li class="">OhMyZsh</li>
+</ul>
+</li>
+<li class="">Fish <code>~/.config/fish/config.fish</code></li>
+<li class="">Xonsh</li>
+<li class="">Nushell</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="#工具" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">命令<!-- -->
+<ul>
+<li class="">替代<!-- -->
+<ul>
+<li class="">zoxide <code>eval &quot;$(zoxide init zsh)&quot;</code></li>
+<li class="">lsd/eza</li>
+<li class="">bat</li>
+<li class="">fd</li>
+<li class="">fzf <code>source &lt;(fzf --zsh)</code></li>
+<li class="">ripgrep</li>
+<li class="">duf</li>
+<li class="">dust</li>
+<li class="">btop</li>
+<li class="">procs</li>
+<li class="">mcfly <code>eval &quot;$(mcfly init zsh)&quot;</code></li>
+<li class="">tealdeer</li>
+<li class=""><a href="https://hasseg.org/trash/" target="_blank" rel="noopener noreferrer" class="">trash</a></li>
+</ul>
+</li>
+<li class="">GNU 系列 <code>export PATH=&quot;$(brew --prefix coreutils)/libexec/gnubin:$PATH&quot;</code>
+<ul>
+<li class="">coreutils</li>
+<li class="">binutils</li>
+<li class="">inetutils</li>
+<li class="">findutils</li>
+<li class="">grep</li>
+<li class="">gawk</li>
+<li class="">gnu-sed</li>
+<li class="">gnu-tar</li>
+<li class="">gnu-which</li>
+<li class="">wget</li>
+</ul>
+</li>
+<li class="">补充<!-- -->
+<ul>
+<li class="">rename</li>
+<li class="">rsync</li>
+<li class="">jq</li>
+<li class="">httpie</li>
+<li class="">glow</li>
+<li class="">pandoc</li>
+<li class="">moreutils</li>
+<li class="">sysstat</li>
+</ul>
+</li>
+<li class="">macOS<!-- -->
+<ul>
+<li class="">mas</li>
+<li class="">blueutil</li>
+<li class="">smartmontools</li>
+<li class="">sleepwatcher</li>
+<li class="">watchman</li>
+<li class="">duti</li>
+<li class="">bclm</li>
+<li class="">lporg</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">终端<!-- -->
+<ul>
+<li class="">tmux <code>~/.tmux.conf</code></li>
+<li class="">Zellij <code>~/.config/zellij</code></li>
+<li class="">Kitty <code>~/.config/kitty/kitty.conf</code></li>
+<li class="">Ghostty <code>~/.config/ghostty/config</code></li>
+<li class="">Alacritty <code>~/.config/alacritty/alacritty.yml</code></li>
+<li class="">iTerm <code>~/Library/Preferences/com.googlecode.iterm2.plist, ~/Library/Application Support/iTerm2/DynamicProfiles/Profiles.json</code><br>
+<!-- -->自带的主题不好看, <a href="https://iterm2colorschemes.com/" target="_blank" rel="noopener noreferrer" class="">Iterm Themes - Color Schemes and Themes for Iterm2</a></li>
+<li class="">Warp</li>
+</ul>
+</li>
+<li class="">编辑器<!-- -->
+<ul>
+<li class="">Helix <code>~/.config/helix/</code></li>
+<li class="">Vim <code>~/.vimrc</code> %% macOS 自带的 vim 不支持 python3 %%</li>
+<li class="">Neovim <code>~/.config/nvim/</code></li>
+<li class="">Emacs <code>~/.emacs.d/</code></li>
+<li class="">VSCode <code>~/Library/Application Support/Code/User/, ~/.vscode/</code></li>
+<li class="">Zed <code>~/.config/zed/</code></li>
+</ul>
+</li>
+<li class="">文件管理器<!-- -->
+<ul>
+<li class="">Yazi <code>~/.config/yazi/</code></li>
+<li class="">Superfile</li>
+</ul>
+</li>
+<li class="">dotfiles 管理<!-- -->
+<ul>
+<li class=""><a href="https://www.gnu.org/software/stow/" target="_blank" rel="noopener noreferrer" class="">stow</a></li>
+<li class=""><a href="https://github.com/lra/mackup" target="_blank" rel="noopener noreferrer" class="">mackup</a></li>
+<li class=""><a href="https://chezmoi.io/" target="_blank" rel="noopener noreferrer" class="">chezmoi</a></li>
+<li class="">dotbot</li>
+</ul>
+</li>
+<li class="">VCS<!-- -->
+<ul>
+<li class="">Git <code>~/.gitconfig</code></li>
+<li class="">Lazygit</li>
+<li class="">Jujutsu</li>
+<li class="">gh</li>
+<li class="">GitHub Desktop</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="开发">开发<a href="#开发" class="hash-link" aria-label="开发的直接链接" title="开发的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">通用<!-- -->
+<ul>
+<li class="">asdf</li>
+<li class="">mise</li>
+<li class="">tree-sitter-cli</li>
+</ul>
+</li>
+<li class="">C/C++</li>
+<li class="">Python<!-- -->
+<ul>
+<li class="">pip <code>~/.config/pip/pip.conf</code><br>
+<a href="https://mirrors.tuna.tsinghua.edu.cn/help/pypi/" target="_blank" rel="noopener noreferrer" class="">pypi | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror</a></li>
+<li class="">conda/mamba/micromamba <code>~/.condarc</code></li>
+<li class="">pixi</li>
+<li class="">uv</li>
+<li class="">ruff</li>
+<li class="">pyright/basedpyright</li>
+<li class="">jupyterlab/notebook</li>
+</ul>
+</li>
+<li class="">JavaScript<!-- -->
+<ul>
+<li class="">node</li>
+<li class="">deno</li>
+<li class="">bun</li>
+<li class="">nvm</li>
+<li class="">npm/yarn/pnpm <code>~/.npmrc</code></li>
+</ul>
+</li>
+<li class="">Java<!-- -->
+<ul>
+<li class="">JDK<br>
+<code>{shell} sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk; echo &#x27;export PATH=&quot;/opt/homebrew/opt/openjdk/bin:$PATH&quot;&#x27; &gt;&gt; ~/.zshrc; export CPPFLAGS=&quot;-I/opt/homebrew/opt/openjdk/include&quot;</code>
+<ul>
+<li class="">openjdk</li>
+<li class=""><a href="https://bell-sw.com/pages/downloads/" target="_blank" rel="noopener noreferrer" class="">https://bell-sw.com/pages/downloads/</a></li>
+<li class=""><a href="https://adoptium.net/zh-CN/temurin/releases/" target="_blank" rel="noopener noreferrer" class="">https://adoptium.net/zh-CN/temurin/releases/</a></li>
+<li class=""><a href="https://www.azul.com/downloads/?package=jdk#zulu" target="_blank" rel="noopener noreferrer" class="">https://www.azul.com/downloads/?package=jdk#zulu</a></li>
+<li class=""><a href="https://www.oracle.com/cn/java/technologies/downloads/" target="_blank" rel="noopener noreferrer" class="">https://www.oracle.com/cn/java/technologies/downloads/</a></li>
+</ul>
+</li>
+<li class="">maven</li>
+<li class="">gradle</li>
+</ul>
+</li>
+<li class="">Rust<!-- -->
+<ul>
+<li class="">rustup <code>curl --proto &#x27;=https&#x27; --tlsv1.2 -sSf https://sh.rustup.rs | sh</code></li>
+<li class="">cargo <code>~/.cargo/config.toml</code></li>
+<li class="">rust-analyzer</li>
+</ul>
+</li>
+<li class="">Go</li>
+<li class="">Elixir</li>
+<li class="">Haskell</li>
+<li class="">Scala<!-- -->
+<ul>
+<li class="">coursier</li>
+<li class="">sbt <code>~/.sbt/</code></li>
+</ul>
+</li>
+<li class="">Clojure<!-- -->
+<ul>
+<li class="">Leiningen</li>
+</ul>
+</li>
+<li class="">Lisp<!-- -->
+<ul>
+<li class="">sbcl</li>
+<li class="">guile</li>
+<li class="">racket</li>
+</ul>
+</li>
+<li class="">Lua<!-- -->
+<ul>
+<li class="">luarocks</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="运维">运维<a href="#运维" class="hash-link" aria-label="运维的直接链接" title="运维的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">android-platform-tools</li>
+<li class="">scrcpy</li>
+<li class="">mitmproxy</li>
+<li class="">Whistle</li>
+<li class="">Ansible</li>
+<li class="">Docker</li>
+<li class="">OrbStack <code>~/.orbstack/config/docker.json</code></li>
+<li class="">redis</li>
+<li class="">postgresql</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他">其他<a href="#其他" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">Firefox <code>~/Library/Application Support/Firefox/Profiles/</code></li>
+<li class="">Sogou <code>~/Library/Application Support/Sogou/InputMethod/SogouPY/symbolSubsitute.plist</code></li>
+<li class="">Rime <code>~/Library/Rime/</code></li>
+<li class="">Fcitx5 <code>~/.config/fcitx5/, ~/.local/share/fcitx5/</code></li>
+<li class="">Espanso</li>
+<li class="">Input Source Pro</li>
+<li class="">Hammerspoon <code>~/.hammerspoon/</code></li>
+<li class="">Raycast <code>~/.config/raycast/</code></li>
+<li class="">Karabiner <code>~/.config/karabiner/</code></li>
+<li class="">mac-mouse-fix <code>~/Library/Application Support/com.nuebling.mac-mouse-fix/config.plist</code></li>
+<li class="">BetterAndBetter</li>
+<li class="">xGestures <code>~/Library/Preferences/what.xGestures.plist</code></li>
+<li class="">Stats</li>
+</ul></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="博文分页导航"><a class="pagination-nav__link pagination-nav__link--prev" href="/blog/Git Reset"><div class="pagination-nav__sublabel">较新一篇</div><div class="pagination-nav__label">Git Reset</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/blog/电子设备"><div class="pagination-nav__sublabel">较旧一篇</div><div class="pagination-nav__label">电子设备</div></a></nav></main><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#基础" class="table-of-contents__link toc-highlight">基础</a></li><li><a href="#工具" class="table-of-contents__link toc-highlight">工具</a></li><li><a href="#开发" class="table-of-contents__link toc-highlight">开发</a></li><li><a href="#运维" class="table-of-contents__link toc-highlight">运维</a></li><li><a href="#其他" class="table-of-contents__link toc-highlight">其他</a></li></ul></div></div></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

@@ -2,11 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-01-09T11:03:37.000Z</updated>
+    <updated>2026-01-10T12:27:28.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[IT公司]]></title>
+        <id>https://dzl1943.github.io/blog/IT公司</id>
+        <link href="https://dzl1943.github.io/blog/IT公司"/>
+        <updated>2026-01-10T12:27:28.000Z</updated>
+        <summary type="html"><![CDATA[国内]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="国内">国内<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%9B%BD%E5%86%85" class="hash-link" aria-label="国内的直接链接" title="国内的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">阿里</li>
+<li class="">腾讯</li>
+<li class="">百度</li>
+<li class="">京东</li>
+<li class="">网易</li>
+<li class="">美团</li>
+<li class="">字节跳动</li>
+<li class="">360</li>
+<li class="">新浪</li>
+<li class="">拼多多</li>
+<li class="">华为</li>
+<li class="">小米</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="国外">国外<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%9B%BD%E5%A4%96" class="hash-link" aria-label="国外的直接链接" title="国外的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">Microsoft</li>
+<li class="">Google</li>
+<li class="">Apple</li>
+<li class="">Facebook</li>
+<li class="">Amazon</li>
+<li class="">Nvidia</li>
+<li class="">TSMC</li>
+<li class="">Intel</li>
+<li class="">IBM</li>
+<li class="">Cisco</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考">参考<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%8F%82%E8%80%83" class="hash-link" aria-label="参考的直接链接" title="参考的直接链接" translate="no">​</a></h2>
+<p><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E4%BC%81%E4%B8%9A100%E5%BC%BA/9835904#4-4" target="_blank" rel="noopener noreferrer" class="">中国互联网企业100强_百度百科</a><br>
+<a href="https://www.qcc.com/bd/3382252b2422bc02625ac8277c243e75.html" target="_blank" rel="noopener noreferrer" class="">2023年度软件和信息技术服务竞争力前百家企业(百强企业)名单-企查查</a></p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus with Obsidian]]></title>
         <id>https://dzl1943.github.io/blog/Docusaurus with Obsidian</id>
@@ -49,7 +87,6 @@
 <p>(可选) 移除或更换背景色</p>
 <div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.hero--primary</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--ifm-hero-background-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--ifm-background-color</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--ifm-hero-text-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--ifm-font-color-base</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
 <p><img decoding="async" loading="lazy" src="https://dzl1943.github.io/assets/images/my-d8s-home-771363714874248d7a2d286322a37020.png" width="2502" height="1908" class="img_ev3q"></p>]]></content>
-        <category label="Docusaurus" term="Docusaurus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Git Reset]]></title>
@@ -75,5 +112,638 @@
 <li class="">撤销任意操作: 通过 <code>git reflog</code> 找到当时的状态 id, 再通过 reset 恢复, 例如 <code>git reset --hard HEAD@{1}</code></li>
 </ol>]]></content>
         <category label="Git" term="Git"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[命令行和开发环境配置]]></title>
+        <id>https://dzl1943.github.io/blog/命令行和开发环境配置</id>
+        <link href="https://dzl1943.github.io/blog/命令行和开发环境配置"/>
+        <updated>2025-10-22T11:19:35.000Z</updated>
+        <summary type="html"><![CDATA[基础]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="基础">基础<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%9F%BA%E7%A1%80" class="hash-link" aria-label="基础的直接链接" title="基础的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">包管理器<!-- -->
+<ul>
+<li class="">Homebrew <code>eval "$(/opt/homebrew/bin/brew shellenv)"</code></li>
+<li class="">apt</li>
+<li class="">yum/dnf</li>
+<li class="">pacman</li>
+<li class="">zypper</li>
+<li class="">nix</li>
+</ul>
+</li>
+<li class="">Shell<!-- -->
+<ul>
+<li class=""><code>~/.alias</code></li>
+<li class=""><code>~/.env</code></li>
+<li class="">Starship <code>eval "$(starship init zsh)"</code></li>
+<li class="">Bash <code>~/{.profile,.bash_profile,.bashrc}</code></li>
+<li class="">Zsh <code>~/{.zshenv,.zprofile,.zshrc}</code>
+<ul>
+<li class="">OhMyZsh</li>
+</ul>
+</li>
+<li class="">Fish <code>~/.config/fish/config.fish</code></li>
+<li class="">Xonsh</li>
+<li class="">Nushell</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">命令<!-- -->
+<ul>
+<li class="">替代<!-- -->
+<ul>
+<li class="">zoxide <code>eval "$(zoxide init zsh)"</code></li>
+<li class="">lsd/eza</li>
+<li class="">bat</li>
+<li class="">fd</li>
+<li class="">fzf <code>source &lt;(fzf --zsh)</code></li>
+<li class="">ripgrep</li>
+<li class="">duf</li>
+<li class="">dust</li>
+<li class="">btop</li>
+<li class="">procs</li>
+<li class="">mcfly <code>eval "$(mcfly init zsh)"</code></li>
+<li class="">tealdeer</li>
+<li class=""><a href="https://hasseg.org/trash/" target="_blank" rel="noopener noreferrer" class="">trash</a></li>
+</ul>
+</li>
+<li class="">GNU 系列 <code>export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"</code>
+<ul>
+<li class="">coreutils</li>
+<li class="">binutils</li>
+<li class="">inetutils</li>
+<li class="">findutils</li>
+<li class="">grep</li>
+<li class="">gawk</li>
+<li class="">gnu-sed</li>
+<li class="">gnu-tar</li>
+<li class="">gnu-which</li>
+<li class="">wget</li>
+</ul>
+</li>
+<li class="">补充<!-- -->
+<ul>
+<li class="">rename</li>
+<li class="">rsync</li>
+<li class="">jq</li>
+<li class="">httpie</li>
+<li class="">glow</li>
+<li class="">pandoc</li>
+<li class="">moreutils</li>
+<li class="">sysstat</li>
+</ul>
+</li>
+<li class="">macOS<!-- -->
+<ul>
+<li class="">mas</li>
+<li class="">blueutil</li>
+<li class="">smartmontools</li>
+<li class="">sleepwatcher</li>
+<li class="">watchman</li>
+<li class="">duti</li>
+<li class="">bclm</li>
+<li class="">lporg</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">终端<!-- -->
+<ul>
+<li class="">tmux <code>~/.tmux.conf</code></li>
+<li class="">Zellij <code>~/.config/zellij</code></li>
+<li class="">Kitty <code>~/.config/kitty/kitty.conf</code></li>
+<li class="">Ghostty <code>~/.config/ghostty/config</code></li>
+<li class="">Alacritty <code>~/.config/alacritty/alacritty.yml</code></li>
+<li class="">iTerm <code>~/Library/Preferences/com.googlecode.iterm2.plist, ~/Library/Application Support/iTerm2/DynamicProfiles/Profiles.json</code><br>
+<!-- -->自带的主题不好看, <a href="https://iterm2colorschemes.com/" target="_blank" rel="noopener noreferrer" class="">Iterm Themes - Color Schemes and Themes for Iterm2</a></li>
+<li class="">Warp</li>
+</ul>
+</li>
+<li class="">编辑器<!-- -->
+<ul>
+<li class="">Helix <code>~/.config/helix/</code></li>
+<li class="">Vim <code>~/.vimrc</code> %% macOS 自带的 vim 不支持 python3 %%</li>
+<li class="">Neovim <code>~/.config/nvim/</code></li>
+<li class="">Emacs <code>~/.emacs.d/</code></li>
+<li class="">VSCode <code>~/Library/Application Support/Code/User/, ~/.vscode/</code></li>
+<li class="">Zed <code>~/.config/zed/</code></li>
+</ul>
+</li>
+<li class="">文件管理器<!-- -->
+<ul>
+<li class="">Yazi <code>~/.config/yazi/</code></li>
+<li class="">Superfile</li>
+</ul>
+</li>
+<li class="">dotfiles 管理<!-- -->
+<ul>
+<li class=""><a href="https://www.gnu.org/software/stow/" target="_blank" rel="noopener noreferrer" class="">stow</a></li>
+<li class=""><a href="https://github.com/lra/mackup" target="_blank" rel="noopener noreferrer" class="">mackup</a></li>
+<li class=""><a href="https://chezmoi.io/" target="_blank" rel="noopener noreferrer" class="">chezmoi</a></li>
+<li class="">dotbot</li>
+</ul>
+</li>
+<li class="">VCS<!-- -->
+<ul>
+<li class="">Git <code>~/.gitconfig</code></li>
+<li class="">Lazygit</li>
+<li class="">Jujutsu</li>
+<li class="">gh</li>
+<li class="">GitHub Desktop</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="开发">开发<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%BC%80%E5%8F%91" class="hash-link" aria-label="开发的直接链接" title="开发的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">通用<!-- -->
+<ul>
+<li class="">asdf</li>
+<li class="">mise</li>
+<li class="">tree-sitter-cli</li>
+</ul>
+</li>
+<li class="">C/C++</li>
+<li class="">Python<!-- -->
+<ul>
+<li class="">pip <code>~/.config/pip/pip.conf</code><br>
+<a href="https://mirrors.tuna.tsinghua.edu.cn/help/pypi/" target="_blank" rel="noopener noreferrer" class="">pypi | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror</a></li>
+<li class="">conda/mamba/micromamba <code>~/.condarc</code></li>
+<li class="">pixi</li>
+<li class="">uv</li>
+<li class="">ruff</li>
+<li class="">pyright/basedpyright</li>
+<li class="">jupyterlab/notebook</li>
+</ul>
+</li>
+<li class="">JavaScript<!-- -->
+<ul>
+<li class="">node</li>
+<li class="">deno</li>
+<li class="">bun</li>
+<li class="">nvm</li>
+<li class="">npm/yarn/pnpm <code>~/.npmrc</code></li>
+</ul>
+</li>
+<li class="">Java<!-- -->
+<ul>
+<li class="">JDK<br>
+<code>{shell} sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk; echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' &gt;&gt; ~/.zshrc; export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"</code>
+<ul>
+<li class="">openjdk</li>
+<li class=""><a href="https://bell-sw.com/pages/downloads/" target="_blank" rel="noopener noreferrer" class="">https://bell-sw.com/pages/downloads/</a></li>
+<li class=""><a href="https://adoptium.net/zh-CN/temurin/releases/" target="_blank" rel="noopener noreferrer" class="">https://adoptium.net/zh-CN/temurin/releases/</a></li>
+<li class=""><a href="https://www.azul.com/downloads/?package=jdk#zulu" target="_blank" rel="noopener noreferrer" class="">https://www.azul.com/downloads/?package=jdk#zulu</a></li>
+<li class=""><a href="https://www.oracle.com/cn/java/technologies/downloads/" target="_blank" rel="noopener noreferrer" class="">https://www.oracle.com/cn/java/technologies/downloads/</a></li>
+</ul>
+</li>
+<li class="">maven</li>
+<li class="">gradle</li>
+</ul>
+</li>
+<li class="">Rust<!-- -->
+<ul>
+<li class="">rustup <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code></li>
+<li class="">cargo <code>~/.cargo/config.toml</code></li>
+<li class="">rust-analyzer</li>
+</ul>
+</li>
+<li class="">Go</li>
+<li class="">Elixir</li>
+<li class="">Haskell</li>
+<li class="">Scala<!-- -->
+<ul>
+<li class="">coursier</li>
+<li class="">sbt <code>~/.sbt/</code></li>
+</ul>
+</li>
+<li class="">Clojure<!-- -->
+<ul>
+<li class="">Leiningen</li>
+</ul>
+</li>
+<li class="">Lisp<!-- -->
+<ul>
+<li class="">sbcl</li>
+<li class="">guile</li>
+<li class="">racket</li>
+</ul>
+</li>
+<li class="">Lua<!-- -->
+<ul>
+<li class="">luarocks</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="运维">运维<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E8%BF%90%E7%BB%B4" class="hash-link" aria-label="运维的直接链接" title="运维的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">android-platform-tools</li>
+<li class="">scrcpy</li>
+<li class="">mitmproxy</li>
+<li class="">Whistle</li>
+<li class="">Ansible</li>
+<li class="">Docker</li>
+<li class="">OrbStack <code>~/.orbstack/config/docker.json</code></li>
+<li class="">redis</li>
+<li class="">postgresql</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他">其他<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%85%B6%E4%BB%96" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">Firefox <code>~/Library/Application Support/Firefox/Profiles/</code></li>
+<li class="">Sogou <code>~/Library/Application Support/Sogou/InputMethod/SogouPY/symbolSubsitute.plist</code></li>
+<li class="">Rime <code>~/Library/Rime/</code></li>
+<li class="">Fcitx5 <code>~/.config/fcitx5/, ~/.local/share/fcitx5/</code></li>
+<li class="">Espanso</li>
+<li class="">Input Source Pro</li>
+<li class="">Hammerspoon <code>~/.hammerspoon/</code></li>
+<li class="">Raycast <code>~/.config/raycast/</code></li>
+<li class="">Karabiner <code>~/.config/karabiner/</code></li>
+<li class="">mac-mouse-fix <code>~/Library/Application Support/com.nuebling.mac-mouse-fix/config.plist</code></li>
+<li class="">BetterAndBetter</li>
+<li class="">xGestures <code>~/Library/Preferences/what.xGestures.plist</code></li>
+<li class="">Stats</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[电子设备]]></title>
+        <id>https://dzl1943.github.io/blog/电子设备</id>
+        <link href="https://dzl1943.github.io/blog/电子设备"/>
+        <updated>2025-09-10T11:12:43.000Z</updated>
+        <summary type="html"><![CDATA[形态]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="形态">形态<a href="https://dzl1943.github.io/blog/%E7%94%B5%E5%AD%90%E8%AE%BE%E5%A4%87#%E5%BD%A2%E6%80%81" class="hash-link" aria-label="形态的直接链接" title="形态的直接链接" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->眼镜</li>
+<li class="">[+] 手表 | 40~50 mm</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->掌机</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->手机 | 6~7<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->内折叠/小折叠</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->阔折叠</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->外折叠/大折叠</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->三折叠</li>
+</ul>
+</li>
+<li class="">[?] 平板电脑 | 8~11<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->内折叠</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->外折叠</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->笔记本电脑 | 13~16</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->一体机 | 27/32</li>
+<li class="">[+] 主机电脑<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->小型机</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->台式机</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->游戏机</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->服务器</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->电视 | 40+</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->投影仪</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->头显</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="构成">构成<a href="https://dzl1943.github.io/blog/%E7%94%B5%E5%AD%90%E8%AE%BE%E5%A4%87#%E6%9E%84%E6%88%90" class="hash-link" aria-label="构成的直接链接" title="构成的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">处理器<!-- -->
+<ul>
+<li class="">cpu</li>
+<li class="">gpu</li>
+</ul>
+</li>
+<li class="">存储<!-- -->
+<ul>
+<li class="">ram</li>
+<li class="">rom</li>
+</ul>
+</li>
+<li class="">屏幕</li>
+<li class="">相机</li>
+<li class="">电池</li>
+<li class="">网络</li>
+<li class="">按键</li>
+<li class="">接口<!-- -->
+<ul>
+<li class="">type-c</li>
+<li class="">耳机口</li>
+</ul>
+</li>
+<li class="">其他<!-- -->
+<ul>
+<li class="">指纹</li>
+<li class="">马达</li>
+<li class="">扬声器</li>
+<li class="">麦克风</li>
+<li class="">听筒</li>
+<li class="">蓝牙</li>
+<li class="">NFC</li>
+<li class="">红外</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="功能">功能<a href="https://dzl1943.github.io/blog/%E7%94%B5%E5%AD%90%E8%AE%BE%E5%A4%87#%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="功能的直接链接" title="功能的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">通信</li>
+<li class="">上网</li>
+<li class="">影像</li>
+<li class="">导航</li>
+<li class="">支付</li>
+<li class="">娱乐</li>
+<li class="">办公</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[计算机专业书籍]]></title>
+        <id>https://dzl1943.github.io/blog/计算机专业书籍</id>
+        <link href="https://dzl1943.github.io/blog/计算机专业书籍"/>
+        <updated>2024-07-14T13:23:00.000Z</updated>
+        <summary type="html"><![CDATA[- 数学]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li class="">数学<!-- -->
+<ul>
+<li class="">《离散数学》</li>
+<li class="">《具体数学》</li>
+<li class="">《程序员数学》</li>
+</ul>
+</li>
+<li class="">组成原理<!-- -->
+<ul>
+<li class="">《深入理解计算机系统》</li>
+<li class="">《计算机体系结构》</li>
+<li class="">《计算机组成与设计》</li>
+</ul>
+</li>
+<li class="">数字电路、单片机</li>
+<li class="">汇编 &amp; C<!-- -->
+<ul>
+<li class="">《现代X86汇编语言程序设计》</li>
+<li class="">《汇编语言程序设计》</li>
+<li class="">《汇编语言》-王爽</li>
+<li class="">《X86 汇编语言: 从实模式到保护模式》</li>
+<li class="">《C 程序设计语言》</li>
+<li class="">《C 标准库》</li>
+<li class="">《C 和指针》</li>
+<li class="">《C 语言程序设计: 现代方法》</li>
+<li class="">《C 语言接口与实现》</li>
+<li class="">《嵌入式C语言自我修养: 从芯片、编译器到操作系统 》</li>
+</ul>
+</li>
+<li class="">操作系统<!-- -->
+<ul>
+<li class="">《操作系统导论》</li>
+<li class="">《操作系统设计与实现》</li>
+<li class="">《30 天自制操作系统》</li>
+<li class="">《操作系统真相还原》</li>
+<li class="">《一个64位操作系统的设计与实现》</li>
+<li class=""><a href="https://pdos.csail.mit.edu/6.S081/2021/index.html" target="_blank" rel="noopener noreferrer" class="">https://pdos.csail.mit.edu/6.S081/2021/index.html</a></li>
+<li class=""><a href="https://www.linuxfromscratch.org/" target="_blank" rel="noopener noreferrer" class="">https://www.linuxfromscratch.org/</a></li>
+<li class="">《Linux 内核 0.11 完全注释》</li>
+<li class="">《Linux 内核设计与实现》</li>
+<li class="">《深入理解 Linux 内核》</li>
+<li class="">《UNIX 环境高级编程》</li>
+<li class="">《Linux 命令行大全》</li>
+<li class="">《Linux/UNIX系统编程手册》</li>
+</ul>
+</li>
+<li class="">编译器<!-- -->
+<ul>
+<li class="">《程序员的自我修养》</li>
+<li class="">《程序设计语言: 实践之路》</li>
+<li class="">《计算机程序的构造和解释》</li>
+<li class="">《现代编译原理》(虎书)</li>
+<li class="">《高级编译器设计与实现》(鲸书)</li>
+<li class="">《编译器设计》</li>
+<li class="">《自制编程语言》</li>
+</ul>
+</li>
+<li class="">数据结构与算法<!-- -->
+<ul>
+<li class="">《计算机程序设计艺术》</li>
+<li class="">《数据结构与算法分析》</li>
+<li class="">《算法导论》</li>
+<li class="">《算法》-Robert Sedgewick</li>
+<li class="">《算法设计手册》</li>
+<li class="">《算法设计》</li>
+<li class="">《算法详解》</li>
+<li class="">《算法竞赛》</li>
+<li class="">《算法图解》</li>
+<li class="">《大话数据结构》</li>
+<li class="">《编程珠玑》</li>
+<li class="">《编程之美》</li>
+<li class="">《程序员代码面试指南》</li>
+<li class="">《剑指 Offer》</li>
+<li class="">《STL 源码剖析》</li>
+<li class="">《Redis 设计与实现》</li>
+<li class=""><a href="https://oi-wiki.org/" target="_blank" rel="noopener noreferrer" class="">https://oi-wiki.org</a></li>
+</ul>
+</li>
+<li class="">数据库<!-- -->
+<ul>
+<li class="">《数据库系统概念》</li>
+<li class="">《数据库系统实现》</li>
+<li class="">《SQL 必知必会》</li>
+<li class="">《SQL 基础教程》</li>
+<li class="">《SQL 进阶教程》</li>
+<li class="">《收获, 不止 Oracle》</li>
+</ul>
+</li>
+<li class="">计算机网络<!-- -->
+<ul>
+<li class="">《计算机网络: 自顶向下方法》</li>
+<li class="">《TCP/IP 详解》</li>
+<li class="">《UNIX 网络编程》</li>
+<li class="">《深入理解LINUX网络内幕》</li>
+<li class="">《Wireshark 网络分析的艺术》</li>
+<li class="">《HTTP 权威指南》</li>
+</ul>
+</li>
+<li class="">软件工程<!-- -->
+<ul>
+<li class="">《设计模式》</li>
+<li class="">《图解设计模式》</li>
+<li class="">《深入浅出设计模式》</li>
+<li class="">《代码大全》</li>
+<li class="">《重构》</li>
+<li class="">《数据密集型应用系统设计》</li>
+<li class="">《深入理解分布式系统》</li>
+<li class="">《微服务架构设计模式》</li>
+</ul>
+</li>
+<li class="">计算机图形学</li>
+<li class="">机器学习<!-- -->
+<ul>
+<li class="">《机器学习》</li>
+<li class="">《机器学习》-周志华</li>
+<li class="">《深度学习入门》</li>
+</ul>
+</li>
+<li class="">前端<!-- -->
+<ul>
+<li class="">CSS<!-- -->
+<ul>
+<li class="">《深入解析 CSS》</li>
+<li class="">《CSS 揭秘》</li>
+<li class="">《CSS 选择器世界》</li>
+<li class="">《CSS 权威指南》</li>
+</ul>
+</li>
+<li class="">JavaScript<!-- -->
+<ul>
+<li class="">《JavaScript 权威指南》</li>
+<li class="">《JavaScript 高级程序设计》</li>
+<li class="">《JavaScript DOM 编程艺术》</li>
+<li class="">《JavaScript 语言精粹》</li>
+<li class="">《你不知道的 JavaScript》</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">后端<!-- -->
+<ul>
+<li class="">C++<!-- -->
+<ul>
+<li class="">《C++ Primer》</li>
+<li class="">《C++程序设计语言》</li>
+<li class="">《Effective C++》</li>
+</ul>
+</li>
+<li class="">Rust<!-- -->
+<ul>
+<li class="">《Rust 权威指南》</li>
+<li class="">《Rust 程序设计》</li>
+</ul>
+</li>
+<li class="">Go</li>
+<li class="">Java<!-- -->
+<ul>
+<li class="">《Java 编程思想》</li>
+<li class="">《Java 核心技术》</li>
+<li class="">《深入理解 Java 虚拟机》</li>
+</ul>
+</li>
+<li class="">Scala<!-- -->
+<ul>
+<li class="">《Scala 编程》</li>
+</ul>
+</li>
+<li class="">Python<!-- -->
+<ul>
+<li class="">《Python 编程》</li>
+<li class="">《流畅的 Python》</li>
+<li class="">《Python Cookbook》</li>
+<li class="">《Effective Python》</li>
+<li class="">《Python 网络编程》</li>
+<li class="">《利用 Python 进行数据分析》</li>
+<li class="">《Python 数据科学手册》</li>
+<li class="">《机器学习实战》</li>
+<li class="">《Python 深度学习》</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">其他<!-- -->
+<ul>
+<li class="">《浪潮之巅》</li>
+<li class="">《编码》</li>
+<li class="">《代码的未来》</li>
+</ul>
+</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[程序员岗位]]></title>
+        <id>https://dzl1943.github.io/blog/程序员岗位</id>
+        <link href="https://dzl1943.github.io/blog/程序员岗位"/>
+        <updated>2024-04-22T20:39:00.000Z</updated>
+        <summary type="html"><![CDATA[- 产品类]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li class="">产品类<!-- -->
+<ul>
+<li class="">分析</li>
+<li class="">设计</li>
+</ul>
+</li>
+<li class="">管理类<!-- -->
+<ul>
+<li class="">测试?</li>
+<li class="">DevOps?</li>
+</ul>
+</li>
+<li class="">技术类<!-- -->
+<ul>
+<li class="">架构</li>
+<li class="">开发<!-- -->
+<ul>
+<li class="">硬件层</li>
+<li class="">系统层</li>
+<li class="">应用层</li>
+<li class="">数据层</li>
+<li class="">算法层</li>
+</ul>
+</li>
+<li class="">运维<!-- -->
+<ul>
+<li class="">基础设施: 网络、存储、服务器</li>
+<li class="">运行平台: 系统、中间件、Runtime/Lib/Framework</li>
+<li class="">数据应用</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[编程项目]]></title>
+        <id>https://dzl1943.github.io/blog/编程项目</id>
+        <link href="https://dzl1943.github.io/blog/编程项目"/>
+        <updated>2024-04-22T20:39:00.000Z</updated>
+        <summary type="html"><![CDATA[- 轮子]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li class="">轮子<!-- -->
+<ul>
+<li class="">os</li>
+<li class="">pl</li>
+<li class="">data-structure &amp; algorithm</li>
+<li class="">db</li>
+<li class="">mq</li>
+<li class="">tcp/http</li>
+<li class="">json</li>
+<li class="">config</li>
+<li class="">cmd</li>
+<li class="">log</li>
+<li class="">regex</li>
+<li class="">orm</li>
+</ul>
+</li>
+<li class="">app<!-- -->
+<ul>
+<li class="">计算器</li>
+<li class="">通讯录</li>
+<li class="">日历</li>
+<li class="">Todo</li>
+<li class="">记账</li>
+<li class="">地图</li>
+</ul>
+</li>
+<li class="">网站服务<!-- -->
+<ul>
+<li class="">博客</li>
+<li class="">论坛</li>
+<li class="">社交媒体</li>
+<li class="">云存储</li>
+<li class="">网络代理</li>
+</ul>
+</li>
+<li class="">游戏<!-- -->
+<ul>
+<li class="">贪吃蛇</li>
+<li class="">俄罗斯方块</li>
+<li class="">象棋</li>
+<li class="">扑克牌</li>
+<li class="">消消乐</li>
+</ul>
+</li>
+</ul>]]></content>
     </entry>
 </feed>
