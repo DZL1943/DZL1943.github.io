@@ -176,7 +176,7 @@ const config = {
             prism: {
                 theme: prismThemes.github,
                 darkTheme: prismThemes.dracula,
-                additionalLanguages: ["ini", "lisp"],
+                additionalLanguages: ["ini", "lua", "lisp", "vim"],
             },
         }),
 };
