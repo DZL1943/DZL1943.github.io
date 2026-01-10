@@ -88,8 +88,8 @@ const config = {
                     // editUrl: 'https://github.com/DZL1943/DZL1943.github.io/edit/main/website',
                 },
                 blog: {
-                    // blogSidebarTitle: 'All posts',
-                    // blogSidebarCount: 'ALL',
+                    blogSidebarTitle: 'All posts',
+                    blogSidebarCount: 'ALL',
                     // routeBasePath: '/',
                     path: "vault/blog",
                     showLastUpdateTime: true,
