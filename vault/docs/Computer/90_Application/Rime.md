@@ -7,7 +7,6 @@ aliases:
   - 小狼毫
   - Weasel
   - 中州韵
-categories: 软件
 url:
   - https://rime.im/
 ---
