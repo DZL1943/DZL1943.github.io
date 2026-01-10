@@ -1,6 +1,6 @@
 ## 系统 System
 
-- 输入法 Input
+- 输入法 IME
     - Rime
     - Fcitx
     - [Input Source Pro](https://inputsource.pro/)

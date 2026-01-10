@@ -1,5 +1,5 @@
 {
-  "advancedSettings": false,
+  "advancedSettings": true,
   "linkerActivated": true,
   "matchAnyPartsOfWords": false,
   "matchEndOfWords": true,
@@ -29,8 +29,8 @@
   "tagToExcludeFile": "linker-exclude",
   "tagToIncludeFile": "linker-include",
   "excludeLinksToOwnNote": true,
-  "fixIMEProblem": false,
-  "excludeLinksInCurrentLine": false,
+  "fixIMEProblem": true,
+  "excludeLinksInCurrentLine": true,
   "onlyLinkOnce": true,
   "excludeLinksToRealLinkedFiles": true,
   "includeAliases": true,
