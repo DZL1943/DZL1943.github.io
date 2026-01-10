@@ -1,5 +1,4 @@
 ---
-title: Kopia
 created: 2024-06-26 22:46
 modified: 2024-07-31 15:06
 url:
