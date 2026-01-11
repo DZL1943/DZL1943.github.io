@@ -121,8 +121,48 @@ const config = {
 ```
 
 ### versioning
-
 ### i18n
+
+## Markdown
+
+### Frontmatter
+
+[Markdown Features | Docusaurus](https://docusaurus.io/docs/markdown-features#front-matter)
+```js
+const config = {
+    markdown: {
+        parseFrontMatter: async (params) => {
+            const result = await params.defaultParseFrontMatter(params);
+    
+            const mappings = [
+                { from: "created", to: "date" },
+                // {from: 'updated', to: 'last_update'},
+                // {from: 'modified', to: 'last_update'},
+            ];
+    
+            mappings.forEach(({ from, to }) => {
+                if (from !== to && from in result.frontMatter) {
+                    result.frontMatter[to] = result.frontMatter[from];
+                    delete result.frontMatter[from];
+                }
+            });
+            return result;
+        },
+    }
+}
+```
+
+### Math Equations
+
+`npm install --save remark-math@6 rehype-katex@7`
+
+具体配置见官网文档
+
+### Diagrams
+
+`npm install --save @docusaurus/theme-mermaid`
+
+具体配置见官网文档
 
 ## 部署
 
@@ -185,33 +225,6 @@ article [href^="http"] {
 .hero--primary {
   --ifm-hero-background-color: var(--ifm-background-color);
   --ifm-hero-text-color: var(--ifm-font-color-base);
-}
-```
-
-### frontmatter
-
-[Markdown Features | Docusaurus](https://docusaurus.io/docs/markdown-features#front-matter)
-```js
-const config = {
-    markdown: {
-        parseFrontMatter: async (params) => {
-            const result = await params.defaultParseFrontMatter(params);
-    
-            const mappings = [
-                { from: "created", to: "date" },
-                // {from: 'updated', to: 'last_update'},
-                // {from: 'modified', to: 'last_update'},
-            ];
-    
-            mappings.forEach(({ from, to }) => {
-                if (from !== to && from in result.frontMatter) {
-                    result.frontMatter[to] = result.frontMatter[from];
-                    delete result.frontMatter[from];
-                }
-            });
-            return result;
-        },
-    }
 }
 ```
 

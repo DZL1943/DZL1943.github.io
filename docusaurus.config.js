@@ -6,6 +6,9 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
@@ -86,6 +89,8 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     // editUrl: 'https://github.com/DZL1943/DZL1943.github.io/edit/main/website',
+                    remarkPlugins: [remarkMath],
+                    rehypePlugins: [rehypeKatex],
                 },
                 blog: {
                     blogSidebarTitle: 'All posts',
@@ -113,6 +118,16 @@ const config = {
         ],
     ],
 
+    stylesheets: [
+        {
+          href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+          type: 'text/css',
+          integrity:
+            'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+          crossorigin: 'anonymous',
+        },
+    ],
+    themes: ['@docusaurus/theme-mermaid'],
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
@@ -177,6 +192,12 @@ const config = {
                 theme: prismThemes.github,
                 darkTheme: prismThemes.dracula,
                 additionalLanguages: ["ini", "lua", "lisp", "vim"],
+            },
+            mermaid: {
+              theme: {light: 'neutral', dark: 'forest'},
+              // options: {
+              //   maxTextSize: 50,
+              // },
             },
         }),
 };
