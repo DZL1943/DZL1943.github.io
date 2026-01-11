@@ -156,7 +156,8 @@
 <li class="">撤销 commit: <code>git reset --soft HEAD~</code> 仅回退版本历史(恢复到 commit 之前)</li>
 <li class="">"撤销" push: <code>git revert HEAD</code> 将创建一个新的提交, 直接 push 就行</li>
 <li class="">撤销任意操作: 通过 <code>git reflog</code> 找到当时的状态 id, 再通过 reset 恢复, 例如 <code>git reset --hard HEAD@{1}</code></li>
-</ol>]]></content>
+</ol>
+<p><a href="https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things" target="_blank" rel="noopener noreferrer" class="">Git - Undoing Things</a></p>]]></content>
         <category label="Git" term="Git"/>
     </entry>
     <entry>
