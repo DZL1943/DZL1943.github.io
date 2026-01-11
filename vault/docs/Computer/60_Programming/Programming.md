@@ -1,3 +1,8 @@
+---
+title: 编程语言
+created: 2026-01-06T19:26
+modified: 2026-01-11T22:10
+---
 
 - C/C++
 - C#
@@ -34,5 +39,19 @@
 - Lua
 - Lisp
     - sbcl
-    - guile
-    - racket
+    - Guile
+    - Racket
+    - ChezScheme
+
+> [!note]- 主要分类
+> - 系统编程语言: C, Rust
+> - 应用编程语言: Go, Java
+> - 脚本编程语言: Python, JavaScript
+
+---
+
+参考
+- https://www.tiobe.com/tiobe-index/
+- https://survey.stackoverflow.co/2025
+- https://redmonk.com/sogrady/2025/06/18/language-rankings-1-25/
+- https://innovationgraph.github.com/global-metrics/programming-languages
