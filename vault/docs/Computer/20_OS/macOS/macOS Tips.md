@@ -1,8 +1,14 @@
+---
+created: 2025-10-24T06:39
+modified: 2026-01-11T22:22
+---
+
 ## 命令行工具
 
 `xcode-select --install`
 
 `softwareupdate --install-rosetta`
+
 ## 文件已损坏
 
 `sudo xattr -r -d com.apple.quarantine xxx.app`
@@ -28,6 +34,7 @@ defaults write com.apple.dock ResetLaunchPad -bool TRUE; killall Dock
 `osascript -e 'id of app "SomeApp"'`
 
 或在 Info.plist 中查找 CFBundleIdentifier 的值.
+
 ## 查看 plist
 
 `plutil -p xxx`

@@ -1,8 +1,7 @@
 ---
-title: date
-created: 2025-05-29 20:00
-modified: 2025-05-29 20:00
-links:
+created: 2025-05-29T20:00
+modified: 2025-05-29T20:00
+url:
   - https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html
 ---
 

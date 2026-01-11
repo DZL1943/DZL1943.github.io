@@ -1,3 +1,8 @@
+---
+created: 2025-10-30T09:14
+modified: 2026-01-11T22:24
+---
+
 ## 管理工具
 
 - [stow](https://www.gnu.org/software/stow/)
@@ -123,8 +128,8 @@ def main():
     parser.add_argument('action', choices=['backup', 'restore', 'list'])
     parser.add_argument('--app', nargs='+', help='应用名称')
     parser.add_argument('--config', default='config.yaml')
-    parser.add_argument('--source-root', help='源根路径，默认为家目录')
-    parser.add_argument('--backup-root', help='备份根路径，默认为当前目录')
+    parser.add_argument('--source-root', help='源根路径,默认为家目录')
+    parser.add_argument('--backup-root', help='备份根路径,默认为当前目录')
     group = parser.add_mutually_exclusive_group()
     group.add_argument('--backed-up', action='store_true', dest='backup_status', help='仅列出已备份的应用')
     group.add_argument('--not-backed-up', action='store_false', dest='backup_status', help='仅列出未备份的应用')

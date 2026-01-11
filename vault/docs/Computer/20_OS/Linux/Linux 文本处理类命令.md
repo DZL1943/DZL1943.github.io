@@ -1,4 +1,10 @@
+---
+created: 2025-10-31T02:49
+modified: 2026-01-11T22:24
+---
+
 ## head, tail
+
 ## grep
 
 - -v
@@ -15,6 +21,7 @@ find .obsidian -name "data.json" -exec grep -l "Inbox\|Archives" {} \;
 grep -rn --include="data.json" "Inbox\|Archives" .obsidian
 rg "Inbox|Archives" -g "**/data.json" .obsidian
 ```
+
 ## sed
 
 ```shell
@@ -29,7 +36,9 @@ sed 's/^[ ]*//g' path/file
 ```
 
 ## awk
+
 ## cut
+
 ## tr
 
 ```shell
@@ -48,7 +57,9 @@ comm -3 <(command1 | sort) <(command2 | sort)
 ```
 
 ## join
+
 ## paste
+
 ## diff
 
 ```shell

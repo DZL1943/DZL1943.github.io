@@ -1,5 +1,4 @@
 ---
-title: openssl
 created: 2025-11-03T20:39
 modified: 2025-11-03T20:39
 ---

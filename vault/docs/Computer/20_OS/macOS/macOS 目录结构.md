@@ -1,6 +1,6 @@
 ---
-created: 2023-12-13 16:24
-modified: 2024-07-31 15:06
+created: 2023-12-13T16:24
+modified: 2024-07-31T15:06
 ---
 
 - Applications

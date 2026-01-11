@@ -1,3 +1,8 @@
+---
+created: 2025-10-31T01:59
+modified: 2026-01-11T22:24
+---
+
 ## pwd, cd, pushd, popd
 
 ## mkdir
@@ -106,6 +111,7 @@ ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's
 - 目录到目录
     - 若目标存在, 则移入
     - 若不存在, 则重命名
+
 ## rm
 
 ```shell
@@ -120,6 +126,7 @@ find . -mindepth 1 -delete
 ```
 
 ## touch
+
 ## cat, less
 
 ## find
@@ -164,6 +171,7 @@ fzf --preview='glow --style=dark {}' --preview-window='right:65%' --bind alt-up:
 ## du
 
 `du -hd1`
+
 ## zip
 
 ```shell

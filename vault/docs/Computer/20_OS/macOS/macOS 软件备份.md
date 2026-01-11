@@ -1,8 +1,7 @@
 ---
-created: 2024-08-22T09:28:00
-modified: 2025-08-06T18:06:05
-aliases:
-  - macOS 软件备份
+created: 2024-08-22T09:28
+modified: 2025-08-06T18:06
+draft: true
 ---
 
 ## GUI

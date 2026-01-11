@@ -1,7 +1,6 @@
 ---
-title: GNU
-created: 2025-10-21T19:59:06
-modified: 2025-10-21T19:59:21
+created: 2025-10-21T19:59
+modified: 2025-10-21T19:59
 url:
   - https://www.gnu.org/
 ---
