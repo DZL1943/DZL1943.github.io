@@ -28,3 +28,5 @@ Git 是如何实现版本管理的? 分为哪些阶段? 每个阶段能做哪些
 3. 撤销 commit: `git reset --soft HEAD~` 仅回退版本历史(恢复到 commit 之前)
 4. "撤销" push: `git revert HEAD` 将创建一个新的提交, 直接 push 就行
 5. 撤销任意操作: 通过 `git reflog` 找到当时的状态 id, 再通过 reset 恢复, 例如 `git reset --hard HEAD@{1}`
+
+[Git - Undoing Things](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)

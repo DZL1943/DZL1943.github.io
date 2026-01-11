@@ -1,5 +1,152 @@
+---
+created: 2024-04-22 20:39
+modified: 2024-06-27 02:45
+links:
+  - https://git-scm.com/book/zh/v2
+---
+
+## Local
+
+- init
+    - -b 初始分支名称
+    - --bare
+    - --shared
+- clean: 高危操作!
+    - -d: 包括目录
+    - -x: 包括 ignore 的文件!
+- stash
+    - list
+    - show
+    - create
+    - store
+    - ~~save~~
+    - push
+    - pop
+    - apply
+    - drop
+    - clear
+    - branch
+    - export
+    - import
+- add
+- rm
+    - --cached
+    - -r
+- mv
+- restore: 默认从索引恢复, 若有 `--staged` 则从 HEAD 恢复; 默认恢复工作区, 若指定 ` --staged ` 则只恢复索引, 指定两者则都恢复
+    - `--staged`
+    - `--worktree` (默认)
+- **reset** 改变历史
+    - `--soft`: 只重置 HEAD (撤销 commit). 可用于重置历史(简易版 rebase)
+    - `--mixed` (默认): 重置 HEAD 和索引 (撤销 commit 和 stage)
+    - `--hard`: 重置 HEAD、索引和工作区
+    - `--merge`
+    - `--keep`: 重置 HEAD 但保存本地变更
+- commit
+    - --amend
+- revert
+- status
+- diff
+- blame
+- show
+- log
+    - `-p` `--follow`
+    - `--stat`
+    - `--graph`
+- reflog
+
+## Branch
+
+- branch
+    - -a
+    - -d
+    - -m
+    - -c
+    - -l
+    - -f
+    - -u
+    - -v
+- switch
+- **checkout**
+- merge
+    - -X
+        - ort(默认)
+        - ours
+        - theirs
+    - --stat
+    - --squash
+    - --commit(默认)
+    - --ff(默认)
+    - --no-ff
+    - --ff-only
+    - -s
+    - --autostash: 这种方式之后原分支就不可用了, 需要 reset --hard
+    - --allow-unrelated-histories
+- [rebase](https://git-scm.cn/docs/git-rebase)
+    - --continue
+    - --skip
+    - --abort
+    - --quit
+    - --edit-todo
+    - --show-current-patch
+    - --onto
+    - --keep-base
+    - --apply
+    - --empty=
+    - --merge(默认)
+    - --strategy
+    - -i `<after-this-commit>` %% 也可以直接填分支, 作用和非交互式相同. rebase 之前需先 pull 相应分支, 之后通常需要强制推送 %%
+        自上而下列出 `(start, end]` 之间的 commit (即最早的在最上面, 最新的在最下面)  
+        如果要合并提交将第二个及后续提交的 "pick" 命令替换为 "squash" 或 "fixup" (`:2,$s/pick/squash/`)  
+        之后会再打开一个编辑界面用于编辑新的 commit 信息.
+        - pick
+        - reword
+        - edit
+        - squash
+        - fixup
+        - exec
+        - break
+        - drop
+        - label
+        - reset
+        - merge
+        - update-ref
+    - --rebase-merges
+    - --[no-]fork-point
+    - --root
+    - --autosquash: 要求历史 commit 符合特定格式
+- cherry-pick
+- tag
+- worktree
+- submodule
+
+## Remote
+
+- remote
+    - add
+    - rename
+    - remove
+    - set-head
+    - show
+    - prune
+    - update
+    - set-branches
+    - get-url
+    - set-url
+- clone
+- fetch
+- pull
+- push 远程仓库名 本地分支名:远程分支名
+    - --all
+    - --tags
+    - -d
+    - --[no-]force-with-lease
+    - --prune
+    - -u
+
 ## Config
 
+https://git-scm.com/docs/git-config
 ```ini
 [user]
 name = 
@@ -15,6 +162,12 @@ quotepath = false
 [init]
 defaultBranch = main
 
+[gui]
+encoding = utf-8
+
+[i18n]
+commitencoding = utf-8
+
 [push]
 autoSetRemote = true
 
@@ -24,45 +177,165 @@ proxy =
 proxy = 
 ```
 
-## Local
+注意: 仓库内 config 优先级高于 global
 
-- init
-- clean
-- stash
-- add
-- rm
-- mv
-- restore
-- reset
-- commit
-- revert
-- status
-- diff
-- blame
-- show
-- log
-- reflog
+### alias
 
-## Branch
+https://github.com/GitAlias/gitalias
 
-- branch
-- switch
-- checkout
-- merge
-- rebase
-- cherry-pick
-- tag
-- worktree
-- submodule
+### [.gitignore](https://git-scm.com/docs/gitignore)
 
-## Remote
+```
+# 注释
+! 否定
+/ 目录分隔符
+**
+* 匹配除斜杠之外的任何内容
+? 匹配除'/'之外的任何单个字符
+[范围]
+```
 
-- remote
-- clone
-- fetch
-- pull
-- push
+If there is a separator at the beginning or middle (or both) of the pattern, then the pattern is relative to the directory level of the particular `.gitignore` file itself. Otherwise the pattern may also match at any level below the `.gitignore` level.
+
+测试: `git-check-ignore -v $filepath`
+
+查看: `git status --ignored` 或 `git ls-files --cached`
+
+移除已追踪文件: `find . -name '.DS_Store' -exec git rm -r --cached {} \;`
+
+注意: merge 等操作之前必须先处理好.gitignore.
+
+```shell
+git ls-files --cached | while IFS= read -r file; do
+    if git check-ignore -v --no-index "$file" >/dev/null 2>&1; then
+        git rm -r --cached "$file"
+    fi
+done
+```
+
+假设在 main 分支 merge dev, 何种情况下会导致被 ignore 的文件丢失?
+
+- 该文件不曾在 main 中跟踪 & 不曾在 dev 中跟踪 -> 保持不变(独立于 git)
+- 该文件曾在 main 中跟踪 & 在 dev 中跟踪 -> 正常合并
+- 该文件不曾在 main 中跟踪, 但在 dev 中跟踪了 (从.gitignore 移除了) -> merge 之前会在 main 中消失, merge 后继承 dev 的状态
+- 该文件曾在 main 中跟踪, 但在 dev 中 `git rm --cached` 了 (添加到了.gitignore 中) -> merge 后**被删除**(回到 dev 下也没了)
+
+结论: 
+未跟踪的文件, 若被其他分支跟踪或者在本分支 `git rm --cached`, 在切换分支再切回将从工作区消失.
+
+解决办法: 
+在切分支之前执行 `git stash --all`
+
+### .gitattributes
 
 ## Internals
 
+.git 目录:
+- hooks/
+- info/
+    - exclude
+- logs/
+- objects/: blob、tree、commit、tag
+    - info/
+    - pack/
+- refs/
+    - heads/
+    - tags/
+    - remotes/
+- COMMIT_EDITMSG
+- HEAD
+- ORIG_HEAD
+- config
+- description
+- index: 暂存区(下一次提交的状态)
+
 ## Tips
+
+### HEAD
+
+- `HEAD~n` 当前提交路径上回溯 n 步
+- `HEAD^n` 第 n 个父级提交
+
+### origin
+
+### 恢复工作区
+
+`git restore .`
+
+### 重命名仓库
+
+- 重命名远程库
+    - git remote set-url origin https://github.com/user/repo.git
+- 重命名本地库
+    - mv
+
+### 重命名分支
+
+[Renaming a branch - GitHub Docs](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch)
+
+```shell
+# 重命名本地分支
+git branch -m master main
+# 推送新分支
+git push -u origin main
+# 到 GitHub Settings 中更改主分支, 然后在本地拉取更新
+git fetch -p origin
+# 设置本地分支跟踪的远程分支
+git branch -u origin/main main
+# 设置 HEAD 指向新分支
+git remote set-head origin -a
+# 删除远程分支
+git push origin -d master
+#git remote prune origin
+```
+
+### 清除历史记录
+[github - Make the current commit the only (initial) commit in a Git repository? - Stack Overflow](https://stackoverflow.com/questions/9683279/make-the-current-commit-the-only-initial-commit-in-a-git-repository)
+
+```shell
+git checkout --orphan new
+git add -A
+git commit -am "init"
+git branch -D main
+git branch -m main
+git push -f origin main
+git gc --aggressive --prune=all
+```
+
+### 查询某文件的提交记录及当时内容
+
+```shell
+git log --follow --name-status -- <path>
+git show <commit>:<path>
+```
+
+### 恢复已删除文件
+
+```shell
+git log --diff-filter=D --summary | grep delete | grep $name
+git log --all -- FILEPATH $path
+git show --summary $commit
+git checkout $commit^ -- $path
+```
+
+恢复历史版本 `git restore --source <SHA> path/to/file  # SHA 为更改的上一个 commit-id`
+
+### 忽略大文件
+
+`find . -size +100M -printf '%P\n' >> .gitignore`
+
+### git-lfs
+
+### 严格覆盖合并
+
+### 仅在本地忽略更改
+
+- assume-unchanged
+    - `git update-index --assume-unchanged <file-path>`
+    - `git update-index --no-assume-unchanged <file-path>`
+    - `git ls-files -v | grep '^h'`
+- skip-worktree
+    - `git update-index --skip-worktree <file-path>`
+    - `git update-index --no-skip-worktree <file-path>`
+    - `git ls-files -v | grep '^S'`
+- .git/info/exclude
