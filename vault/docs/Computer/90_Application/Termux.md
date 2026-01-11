@@ -1,10 +1,9 @@
 ---
-created: 2024-11-13 06:49
-modified: 2024-11-13 06:49
+created: 2024-11-13T06:49
+modified: 2024-11-13T06:49
 url:
   - https://github.com/termux/termux-app
   - https://termux.dev/cn
-categories: 软件
 ---
 
 ## 换源

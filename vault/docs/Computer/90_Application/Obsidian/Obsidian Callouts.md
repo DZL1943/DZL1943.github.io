@@ -1,7 +1,6 @@
 ---
-title: obsidian 标注
-created: 2025-05-16T14:02:00
-modified: 2025-10-08T22:10:11
+created: 2025-05-16T14:02
+modified: 2025-10-08T22:10
 aliases:
   - obsidian callouts
 ---

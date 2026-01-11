@@ -1,7 +1,7 @@
 ---
 title: Better Plugins Manager
-created: 2025-02-15T17:09:00
-modified: 2025-10-08T21:29:58
+created: 2025-02-15T17:09
+modified: 2025-10-08T21:29
 tags:
   - Obsidian/Plugins
 aliases:

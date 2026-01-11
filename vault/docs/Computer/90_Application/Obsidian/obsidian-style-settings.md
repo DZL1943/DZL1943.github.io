@@ -1,7 +1,7 @@
 ---
 title: Style Settings
-created: 2025-05-10T15:00:00
-modified: 2025-10-08T21:52:18
+created: 2025-05-10T15:00
+modified: 2025-10-08T21:52
 tags: [Obsidian/Plugins]
 aliases: [Style Settings]
 ---

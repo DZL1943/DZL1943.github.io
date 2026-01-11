@@ -1,6 +1,6 @@
 ---
-created: 2024-05-19 09:48
-modified: 2024-07-31 15:06
+created: 2024-05-19T09:48
+modified: 2024-07-31T15:06
 url:
   - https://github.com/Genymobile/scrcpy#user-documentation
   - https://developer.android.com/tools/adb

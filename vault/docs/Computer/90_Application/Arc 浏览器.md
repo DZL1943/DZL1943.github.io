@@ -1,7 +1,6 @@
 ---
-created: 2024-05-07 11:40
-modified: 2024-07-31 15:06
-categories: 软件
+created: 2024-05-07T11:40
+modified: 2024-07-31T15:06
 url:
   - https://arc.net/
 ---

@@ -1,9 +1,8 @@
 ---
-created: 2024-10-14 16:02
-modified: 2024-10-14 16:03
+created: 2024-10-14T16:02
+modified: 2024-10-14T16:03
 url:
   - https://foldersync.io
-categories: 软件
 ---
 # FolderSync
 

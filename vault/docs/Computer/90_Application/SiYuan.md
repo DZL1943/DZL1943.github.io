@@ -1,8 +1,7 @@
 ---
 title: 思源笔记
-created: 2024-08-30T17:58:00
-modified: 2025-10-13T17:03:09
-categories: 软件
+created: 2024-08-30T17:58
+modified: 2025-10-13T17:03
 aliases:
   - siyuan
   - 思源笔记

@@ -1,6 +1,6 @@
 ---
-created: 2024-09-25 16:43
-modified: 2024-09-25 16:43
+created: 2024-09-25T16:43
+modified: 2024-09-25T16:43
 url:
   - https://typst.app
   - https://github.com/typst/typst

@@ -1,3 +1,7 @@
+---
+created: 2026-01-10T16:57
+modified: 2026-01-11T22:32
+---
 
 ## 安装
 
@@ -26,7 +30,7 @@ https://github.com/fcitx-contrib/fcitx5-macos-installer
     - Frontend
     - Module
 
-配置目录
+配置目录  
 `~/.config/fcitx5/`
 - conf/
     - cached_layouts

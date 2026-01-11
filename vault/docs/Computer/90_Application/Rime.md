@@ -1,6 +1,6 @@
 ---
-created: 2024-07-25 11:32
-modified: 2024-07-31 15:06
+created: 2024-07-25T11:32
+modified: 2024-07-31T15:06
 aliases:
   - 鼠须管
   - Squirrel

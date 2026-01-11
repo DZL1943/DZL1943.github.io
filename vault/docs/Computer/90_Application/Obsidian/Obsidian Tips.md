@@ -1,7 +1,6 @@
 ---
-title: obsidian 问题技巧
-created: 2025-10-08T20:39:13
-modified: 2025-10-08T21:13:44
+created: 2025-10-08T20:39
+modified: 2025-10-08T21:13
 aliases:
   - obsidian tips
   - obsidian issues

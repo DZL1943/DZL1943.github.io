@@ -1,7 +1,7 @@
 ---
 title: Vertical Tabs
-created: 2025-02-11T09:35:00
-modified: 2025-10-08T21:56:20
+created: 2025-02-11T09:35
+modified: 2025-10-08T21:56
 tags:
   - Obsidian/Plugins
 aliases:

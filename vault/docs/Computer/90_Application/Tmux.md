@@ -1,7 +1,8 @@
 ---
 created: 2026-01-10T16:01
 modified: 2026-01-10T16:02
-url: https://github.com/tmux/tmux/wiki/Getting-Started
+url: 
+  - https://github.com/tmux/tmux/wiki/Getting-Started
 ---
 
 

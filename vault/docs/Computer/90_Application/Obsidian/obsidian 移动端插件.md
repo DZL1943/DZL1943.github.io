@@ -1,7 +1,6 @@
 ---
-title: obsidian 移动端插件
-created: 2025-03-22T07:18:00
-modified: 2025-10-10T14:02:33
+created: 2025-03-22T07:18
+modified: 2025-10-10T14:02
 ---
 
 - [ ] any-block

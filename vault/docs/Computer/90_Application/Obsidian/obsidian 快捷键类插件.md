@@ -1,7 +1,6 @@
 ---
-title: obsidian 快捷键类插件
-created: 2024-09-19T14:29:00
-modified: 2025-10-10T14:00:39
+created: 2024-09-19T14:29
+modified: 2025-10-10T14:00
 ---
 
 - [x] Hotkey Helper | 一年以上未更新; 补充了很多插件相关的命令

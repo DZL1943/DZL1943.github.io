@@ -1,7 +1,7 @@
 ---
 title: QuickAdd
-created: 2024-12-04T14:32:00
-modified: 2025-10-15T06:51:36
+created: 2024-12-04T14:32
+modified: 2025-10-15T06:51
 tags:
   - Obsidian/Plugins
 aliases:

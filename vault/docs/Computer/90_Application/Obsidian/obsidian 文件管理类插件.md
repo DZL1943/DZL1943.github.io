@@ -1,7 +1,6 @@
 ---
-title: obsidian 文件管理类插件
-created: 2025-03-23T22:17:00
-modified: 2025-10-10T14:01:36
+created: 2025-03-23T22:17
+modified: 2025-10-10T14:01
 ---
 
 ## 替代类

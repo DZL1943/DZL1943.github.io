@@ -1,7 +1,6 @@
 ---
-title: obsidian 概述
-created: 2025-10-08T20:05:54
-modified: 2025-10-10T10:52:46
+created: 2025-10-08T20:05
+modified: 2025-10-10T10:52
 aliases: [obsidian 简介, obsidian 特征]
 ---
 

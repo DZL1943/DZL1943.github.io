@@ -1,6 +1,6 @@
 ---
-created: 2025-10-21T09:13:42
-modified: 2025-10-21T09:56:39
+created: 2025-10-21T09:13
+modified: 2025-10-21T09:56
 url:
   - http://www.hammerspoon.org/
 ---

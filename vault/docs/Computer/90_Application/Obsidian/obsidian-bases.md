@@ -1,7 +1,7 @@
 ---
 title: Obsidian Bases
-created: 2025-08-19T16:25:58
-modified: 2025-10-08T21:38:02
+created: 2025-08-19T16:25
+modified: 2025-10-08T21:38
 aliases: [Obsidian Bases]
 url:
   - https://help.obsidian.md/bases/syntax

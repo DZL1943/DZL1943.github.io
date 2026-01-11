@@ -1,7 +1,6 @@
 ---
-title: obsidian 插件精选
-created: 2025-10-09T11:31:21
-modified: 2025-10-09T11:31:32
+created: 2025-10-09T11:31
+modified: 2025-10-09T11:31
 aliases:
   - obsidian awesome plugins
 ---

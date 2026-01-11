@@ -1,7 +1,6 @@
 ---
-title: obsidian 主题
-created: 2025-10-08T20:23:08
-modified: 2025-10-08T20:31:30
+created: 2025-10-08T20:23
+modified: 2025-10-08T20:31
 aliases:
   - obsidian themes
 ---

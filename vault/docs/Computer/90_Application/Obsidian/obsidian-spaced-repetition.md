@@ -1,7 +1,7 @@
 ---
 title: Spaced Repetition
-created: 2024-11-29T19:25:00
-modified: 2025-10-08T21:51:35
+created: 2024-11-29T19:25
+modified: 2025-10-08T21:51
 tags: [Obsidian/Plugins]
 aliases: [Spaced Repetition]
 url:

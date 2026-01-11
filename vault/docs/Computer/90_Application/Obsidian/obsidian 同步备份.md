@@ -1,7 +1,6 @@
 ---
-title: obsidian 同步备份
-created: 2024-08-07T19:18:00
-modified: 2025-10-08T22:22:50
+created: 2024-08-07T19:18
+modified: 2025-10-08T22:22
 ---
 
 > [!danger]- 重大操作之前注意事项

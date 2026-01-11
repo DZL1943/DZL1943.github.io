@@ -1,10 +1,9 @@
 ---
-created: 2024-12-09 15:24
-modified: 2024-12-09 15:36
+created: 2024-12-09T15:24
+modified: 2024-12-09T15:36
 url:
   - https://syncthing.net/
   - https://docs.syncthing.net/index.html
-categories: 软件
 ---
 
 ## 入门

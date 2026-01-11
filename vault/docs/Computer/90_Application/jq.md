@@ -1,7 +1,7 @@
 ---
-created: 2025-09-02T11:59:19
-modified: 2025-09-02T11:59:26
-links:
+created: 2025-09-02T11:59
+modified: 2025-09-02T11:59
+url:
   - https://jqlang.org/manual/
 ---
 

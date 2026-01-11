@@ -1,7 +1,6 @@
 ---
-title: Alacritty
-created: 2025-10-21T09:06:15
-modified: 2025-10-21T09:06:29
+created: 2025-10-21T09:06
+modified: 2025-10-21T09:06
 ---
 
 ## 配置

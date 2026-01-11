@@ -1,7 +1,7 @@
 ---
 title: Dataview
-created: 2024-07-25T10:35:00
-modified: 2025-10-08T21:27:13
+created: 2024-07-25T10:35
+modified: 2025-10-08T21:27
 tags:
   - Obsidian/Plugins
 aliases:

@@ -1,3 +1,9 @@
+---
+title: 应用软件
+created: 2026-01-06T15:07
+modified: 2026-01-11T22:30
+---
+
 ## 系统 System
 
 - 输入法 IME

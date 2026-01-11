@@ -1,6 +1,6 @@
 ---
-created: 2024-09-05T09:37:00
-modified: 2025-07-30T15:37:20
+created: 2024-09-05T09:37
+modified: 2025-07-30T15:37
 aliases:
   - 手势快捷键
 excalidraw-plugin: parsed

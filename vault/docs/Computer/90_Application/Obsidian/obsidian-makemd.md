@@ -1,7 +1,7 @@
 ---
 title: MAKE.md
-created: 2024-10-10T23:11:00
-modified: 2025-10-08T21:47:29
+created: 2024-10-10T23:11
+modified: 2025-10-08T21:47
 tags: [Obsidian/Plugins]
 aliases: [MAKE.md, make-md]
 url:

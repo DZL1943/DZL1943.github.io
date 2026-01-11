@@ -1,7 +1,7 @@
 ---
 title: Various Complements
-created: 2025-05-15T16:40:00
-modified: 2025-10-08T21:55:32
+created: 2025-05-15T16:40
+modified: 2025-10-08T21:55
 tags: [Obsidian/Plugins]
 aliases: [Various Complements, various-complements]
 url:

@@ -1,7 +1,6 @@
 ---
-title: obsidian 快捷键
-created: 2025-10-08T20:18:48
-modified: 2025-10-08T20:30:20
+created: 2025-10-08T20:18
+modified: 2025-10-08T20:30
 aliases:
   - obsidian hotkeys
 ---

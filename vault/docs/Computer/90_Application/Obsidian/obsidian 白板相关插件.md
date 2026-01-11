@@ -1,7 +1,6 @@
 ---
-title: obsidian 白板相关插件
-created: 2024-11-30T20:26:00
-modified: 2025-10-10T13:58:46
+created: 2024-11-30T20:26
+modified: 2025-10-10T13:58
 ---
 
 - Advanced Canvas

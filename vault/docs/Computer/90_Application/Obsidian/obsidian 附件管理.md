@@ -1,7 +1,6 @@
 ---
-title: obsidian 附件管理
-created: 2024-08-10T17:41:00
-modified: 2025-10-10T13:58:54
+created: 2024-08-10T17:41
+modified: 2025-10-10T13:58
 ---
 
 ## 需求

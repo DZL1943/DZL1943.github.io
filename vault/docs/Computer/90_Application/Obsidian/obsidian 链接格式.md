@@ -1,7 +1,6 @@
 ---
-title: obsidian 链接格式
-created: 2025-09-27T10:20:13
-modified: 2025-10-08T22:19:23
+created: 2025-09-27T10:20
+modified: 2025-10-08T22:19
 ---
 
 - shortest | `[[name]]`

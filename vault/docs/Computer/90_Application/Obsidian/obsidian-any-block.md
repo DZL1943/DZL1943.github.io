@@ -1,7 +1,7 @@
 ---
 title: AnyBlock
-created: 2024-09-27T19:37:00
-modified: 2025-10-09T14:47:17
+created: 2024-09-27T19:37
+modified: 2025-10-09T14:47
 tags:
   - Obsidian/Plugins
 aliases:

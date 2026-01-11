@@ -1,5 +1,4 @@
 ---
-title: LazyVim
 created: 2025-11-01T20:49
 modified: 2025-11-01T20:49
 url:

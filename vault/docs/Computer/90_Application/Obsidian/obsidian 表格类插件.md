@@ -1,7 +1,6 @@
 ---
-title: obsidian 表格类插件
-created: 2024-09-02T16:44:00
-modified: 2025-10-10T14:00:20
+created: 2024-09-02T16:44
+modified: 2025-10-10T14:00
 ---
 
 ## obsidian 表格类插件

@@ -1,6 +1,6 @@
 ---
-created: "2023-06-08 18:11"
-modified: "2024-06-27 02:46"
+created: 2023-06-08T18:11
+modified: 2024-06-27T02:46
 aliases: [Anaconda, Miniconda, Conda]
 ---
 

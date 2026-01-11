@@ -1,6 +1,6 @@
 ---
-created: 2025-10-23T20:35:30
-modified: 2025-10-23T20:42:10
+created: 2025-10-23T20:35
+modified: 2025-10-23T20:42
 url:
   - https://ghostty.org/
 ---

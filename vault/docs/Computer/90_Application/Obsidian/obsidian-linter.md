@@ -1,7 +1,7 @@
 ---
 title: Linter
-created: 2025-02-06T21:10:00
-modified: 2025-10-08T21:45:37
+created: 2025-02-06T21:10
+modified: 2025-10-08T21:45
 tags: [Obsidian/Plugins]
 aliases: [Linter]
 ---

@@ -1,7 +1,6 @@
 ---
-title: Obsidian
-created: 2025-10-08T13:39:53
-modified: 2025-10-08T13:39:59
+created: 2025-10-08T13:39
+modified: 2025-10-08T13:39
 url:
   - https://obsidian.md/
 ---

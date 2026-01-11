@@ -1,7 +1,6 @@
 ---
-title: obsidian 插件
-created: 2025-10-08T20:32:50
-modified: 2025-10-09T08:12:32
+created: 2025-10-08T20:32
+modified: 2025-10-09T08:12
 aliases:
   - obsidian plugins
 url:

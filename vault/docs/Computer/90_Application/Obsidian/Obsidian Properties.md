@@ -1,7 +1,6 @@
 ---
-title: obsidian 笔记属性
-created: 2025-10-10T14:55:39
-modified: 2025-10-10T15:00:23
+created: 2025-10-10T14:55
+modified: 2025-10-10T15:00
 url:
   - https://help.obsidian.md/properties
 ---

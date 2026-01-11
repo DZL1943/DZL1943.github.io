@@ -1,7 +1,6 @@
 ---
-created: 2024-08-11T08:16:00
-modified: 2025-10-13T16:56:39
-categories: 软件
+created: 2024-08-11T08:16
+modified: 2025-10-13T16:56
 aliases: [Floorp 浏览器, Floorp]
 ---
 

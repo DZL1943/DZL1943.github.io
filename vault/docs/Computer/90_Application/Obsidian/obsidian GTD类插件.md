@@ -1,7 +1,6 @@
 ---
-title: obsidian GTD类插件
-created: 2024-11-11T14:25:00
-modified: 2025-10-10T14:00:00
+created: 2024-11-11T14:25
+modified: 2025-10-10T14:00
 aliases: [Obsidian GTD]
 ---
 

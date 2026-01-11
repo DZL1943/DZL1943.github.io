@@ -1,7 +1,6 @@
 ---
-title: Vim 配置
-created: 2025-10-23T14:21:56
-modified: 2025-10-23T14:22:21
+created: 2025-10-23T14:21
+modified: 2025-10-23T14:22
 ---
 
 ```vim title="minimal"

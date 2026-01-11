@@ -1,7 +1,6 @@
 ---
-created: 2023-06-28T17:00:00
-modified: 2025-10-20T22:02:45
-categories: 软件
+created: 2023-06-28T17:00
+modified: 2025-10-20T22:02
 ---
 
 ## Settings

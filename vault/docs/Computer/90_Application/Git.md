@@ -1,7 +1,7 @@
 ---
-created: 2024-04-22 20:39
-modified: 2024-06-27 02:45
-links:
+created: 2024-04-22T20:39
+modified: 2026-01-11T22:33
+url:
   - https://git-scm.com/book/zh/v2
 ---
 
@@ -95,7 +95,7 @@ links:
     - --empty=
     - --merge(默认)
     - --strategy
-    - -i `<after-this-commit>` %% 也可以直接填分支, 作用和非交互式相同. rebase 之前需先 pull 相应分支, 之后通常需要强制推送 %%
+    - -i `<after-this-commit>` %% 也可以直接填分支, 作用和非交互式相同. rebase 之前需先 pull 相应分支, 之后通常需要强制推送 %%  
         自上而下列出 `(start, end]` 之间的 commit (即最早的在最上面, 最新的在最下面)  
         如果要合并提交将第二个及后续提交的 "pick" 命令替换为 "squash" 或 "fixup" (`:2,$s/pick/squash/`)  
         之后会再打开一个编辑界面用于编辑新的 commit 信息.
@@ -220,10 +220,10 @@ done
 - 该文件不曾在 main 中跟踪, 但在 dev 中跟踪了 (从.gitignore 移除了) -> merge 之前会在 main 中消失, merge 后继承 dev 的状态
 - 该文件曾在 main 中跟踪, 但在 dev 中 `git rm --cached` 了 (添加到了.gitignore 中) -> merge 后**被删除**(回到 dev 下也没了)
 
-结论: 
+结论:  
 未跟踪的文件, 若被其他分支跟踪或者在本分支 `git rm --cached`, 在切换分支再切回将从工作区消失.
 
-解决办法: 
+解决办法:  
 在切分支之前执行 `git stash --all`
 
 ### .gitattributes
@@ -290,6 +290,7 @@ git push origin -d master
 ```
 
 ### 清除历史记录
+
 [github - Make the current commit the only (initial) commit in a Git repository? - Stack Overflow](https://stackoverflow.com/questions/9683279/make-the-current-commit-the-only-initial-commit-in-a-git-repository)
 
 ```shell

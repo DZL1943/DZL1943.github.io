@@ -1,7 +1,7 @@
 ---
 title: Templater
-created: 2025-04-07T09:45:00
-modified: 2025-10-08T21:54:08
+created: 2025-04-07T09:45
+modified: 2025-10-08T21:54
 tags:
   - Obsidian/Plugins
 aliases:

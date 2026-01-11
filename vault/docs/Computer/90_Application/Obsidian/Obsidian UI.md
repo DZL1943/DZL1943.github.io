@@ -1,7 +1,6 @@
 ---
-title: obsidian 界面
-created: 2025-10-08T20:22:41
-modified: 2025-10-08T20:31:54
+created: 2025-10-08T20:22
+modified: 2025-10-08T20:31
 ---
 
 - 功能区 ribbon

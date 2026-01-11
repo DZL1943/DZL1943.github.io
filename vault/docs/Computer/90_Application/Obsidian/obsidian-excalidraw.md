@@ -1,7 +1,7 @@
 ---
 title: Excalidraw
-created: 2024-11-16 09:45
-modified: 2025-02-20 16:40
+created: 2024-11-16T09:45
+modified: 2025-02-20T16:40
 tags:
   - Obsidian/Plugins
 aliases:

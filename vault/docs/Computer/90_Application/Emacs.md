@@ -1,9 +1,9 @@
 ---
-created: 2024-07-26 11:13
-modified: 2024-08-08 17:30
-categories: 软件
+created: 2024-07-26T11:13
+modified: 2024-08-08T17:30
 url:
   - https://www.gnu.org/software/emacs/manual/index.html
+draft: true
 ---
 
 ## 快捷键

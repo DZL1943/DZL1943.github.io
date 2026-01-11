@@ -1,5 +1,4 @@
 ---
-title: MacMouseFix
 created: 2026-01-10T15:42
 modified: 2026-01-10T15:43
 ---

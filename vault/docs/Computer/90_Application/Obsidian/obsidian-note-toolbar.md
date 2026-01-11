@@ -1,7 +1,7 @@
 ---
 title: Note Toolbar
-created: 2025-09-23T21:53:37
-modified: 2025-10-08T21:50:00
+created: 2025-09-23T21:53
+modified: 2025-10-08T21:50
 tags: [Obsidian/Plugins]
 aliases: [Note Toolbar, note-toolbar]
 url:

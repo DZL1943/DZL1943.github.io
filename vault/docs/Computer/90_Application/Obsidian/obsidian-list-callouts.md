@@ -1,7 +1,7 @@
 ---
 title: List Callouts
-created: 2024-09-22T17:34:00
-modified: 2025-10-08T21:46:34
+created: 2024-09-22T17:34
+modified: 2025-10-08T21:46
 tags:
   - Obsidian/Plugins
 aliases:

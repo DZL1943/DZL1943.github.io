@@ -1,6 +1,6 @@
 ---
-created: 2024-06-26 22:46
-modified: 2024-07-31 15:06
+created: 2024-06-26T22:46
+modified: 2024-07-31T15:06
 url:
   - https://kopia.io/docs/getting-started/
   - https://wiki.archlinux.org/title/Synchronization_and_backup_programs#Chunk-based_increments

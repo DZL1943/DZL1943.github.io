@@ -1,7 +1,8 @@
 ---
-created: "2024-04-22 20:39"
-modified: "2024-05-21 16:59"
+created: 2024-04-22T20:39
+modified: 2024-05-21T16:59
 ---
+
 ## 简介
 
 [快速入门 | asdf (asdf-vm.com)](https://asdf-vm.com/zh-hans/guide/getting-started.html)

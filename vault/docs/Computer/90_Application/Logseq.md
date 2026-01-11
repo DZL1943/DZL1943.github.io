@@ -1,6 +1,6 @@
 ---
-created: 2023-06-17 12:06
-modified: 2024-07-31 15:06
+created: 2023-06-17T12:06
+modified: 2024-07-31T15:06
 ---
 
 # Logseq

@@ -1,6 +1,6 @@
 ---
-created: 2025-03-22T07:16:00
-modified: 2025-10-08T21:34:24
+created: 2025-03-22T07:16
+modified: 2025-10-08T21:34
 aliases:
   - BRAT
 tags:

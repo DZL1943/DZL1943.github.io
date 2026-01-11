@@ -1,7 +1,7 @@
 ---
-created: "2024-04-22 20:39"
-modified: "2024-05-21 16:59"
-aliases: Kubernetes, k8s
+created: 2024-04-22T20:39
+modified: 2024-05-21T16:59
+aliases: [Kubernetes, k8s]
 ---
 
 ## 架构

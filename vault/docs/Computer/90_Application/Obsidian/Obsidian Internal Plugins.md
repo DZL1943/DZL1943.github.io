@@ -1,9 +1,6 @@
 ---
-title: obsidian 核心插件
-created: 2025-10-08T20:18:12
-modified: 2025-10-08T20:30:14
-aliases:
-  - obsidian core plugins
+created: 2025-10-08T20:18
+modified: 2025-10-08T20:30
 ---
 
 - [ ] 白板

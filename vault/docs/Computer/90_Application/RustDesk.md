@@ -1,7 +1,6 @@
 ---
-created: 2025-06-18T21:19:21
-modified: 2025-06-18T21:19:24
-categories: 软件
+created: 2025-06-18T21:19
+modified: 2025-06-18T21:19
 url:
   - https://rustdesk.com/
 ---

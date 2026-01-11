@@ -1,3 +1,7 @@
+---
+created: 2026-01-10T16:24
+modified: 2026-01-11T22:34
+---
 
 ## Client
 
@@ -67,6 +71,7 @@
    在 GitHub 中主要通过 email 识别用户
 
 ### Git Credential Manager
+
   
 ```shell
 brew tap microsoft/git

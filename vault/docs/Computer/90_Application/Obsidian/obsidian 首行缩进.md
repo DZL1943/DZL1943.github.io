@@ -1,7 +1,6 @@
 ---
-title: obsidian 首行缩进
-created: 2025-08-16T13:52:17
-modified: 2025-10-08T22:21:06
+created: 2025-08-16T13:52
+modified: 2025-10-08T22:21
 ---
 
 # obsidian 首行缩进
