@@ -7,8 +7,6 @@ url:
   - https://www.lispworks.com/documentation/HyperSpec/Front/Contents.htm
 ---
 
-# Lisp
-
 ## 安装
 
 ```shell

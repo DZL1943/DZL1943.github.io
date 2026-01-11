@@ -5,8 +5,6 @@ url:
   - https://dev.java/learn/
 ---
 
-# Java
-
 ## 语法
 
 - 关键字
