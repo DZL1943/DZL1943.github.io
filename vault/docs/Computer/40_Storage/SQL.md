@@ -1,3 +1,8 @@
+---
+title: SQL
+created: 2026-01-06T20:38
+modified: 2026-01-11T20:28
+---
 
 - DDL(Data Definition Language)
     - CREATE

@@ -1,3 +1,8 @@
+---
+created: 2026-01-06T20:27
+modified: 2026-01-11T20:37
+---
+
 # Mermaid
 
 - flowchart

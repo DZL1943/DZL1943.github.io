@@ -1,7 +1,12 @@
+---
+title: 硬件组成
+created: 2026-01-05T14:37
+modified: 2026-01-11T20:20
+---
 
 - 处理器
-    - [CPU](CPU.md)
-    - [GPU](GPU.md)
+    - [CPU](<CPU.md>)
+    - [GPU](<GPU.md>)
     - NPU
 - 内存 RAM
 - 外存 Disk
