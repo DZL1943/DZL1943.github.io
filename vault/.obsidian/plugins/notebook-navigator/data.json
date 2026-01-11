@@ -60,8 +60,8 @@
     }
   },
   "showNoteCount": true,
-  "separateNoteCounts": true,
-  "navIndent": 16,
+  "separateNoteCounts": false,
+  "navIndent": 10,
   "navItemHeight": 28,
   "navItemHeightScaleText": true,
   "rootLevelSpacing": 0,
