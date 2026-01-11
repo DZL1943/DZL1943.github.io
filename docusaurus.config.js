@@ -4,10 +4,10 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -47,21 +47,21 @@ const config = {
     markdown: {
         mermaid: true,
         parseFrontMatter: async (params) => {
-          const result = await params.defaultParseFrontMatter(params);
+            const result = await params.defaultParseFrontMatter(params);
 
-          const mappings = [
-            { from: "created", to: "date" },
-            // {from: 'updated', to: 'last_update'},
-            // {from: 'modified', to: 'last_update'},
-          ];
+            const mappings = [
+                { from: "created", to: "date" },
+                // {from: 'updated', to: 'last_update'},
+                // {from: 'modified', to: 'last_update'},
+            ];
 
-          mappings.forEach(({ from, to }) => {
-            if (from !== to && from in result.frontMatter) {
-              result.frontMatter[to] = result.frontMatter[from];
-              delete result.frontMatter[from];
-            }
-          });
-          return result;
+            mappings.forEach(({ from, to }) => {
+                if (from !== to && from in result.frontMatter) {
+                    result.frontMatter[to] = result.frontMatter[from];
+                    delete result.frontMatter[from];
+                }
+            });
+            return result;
         },
     },
 
@@ -93,8 +93,8 @@ const config = {
                     rehypePlugins: [rehypeKatex],
                 },
                 blog: {
-                    blogSidebarTitle: 'All posts',
-                    blogSidebarCount: 'ALL',
+                    blogSidebarTitle: "All posts",
+                    blogSidebarCount: "ALL",
                     // routeBasePath: '/',
                     path: "vault/blog",
                     showLastUpdateTime: true,
@@ -120,14 +120,14 @@ const config = {
 
     stylesheets: [
         {
-          href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-          type: 'text/css',
-          integrity:
-            'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-          crossorigin: 'anonymous',
+            href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
+            type: "text/css",
+            integrity:
+                "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
+            crossorigin: "anonymous",
         },
     ],
-    themes: ['@docusaurus/theme-mermaid'],
+    themes: ["@docusaurus/theme-mermaid"],
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
@@ -194,10 +194,10 @@ const config = {
                 additionalLanguages: ["ini", "lua", "lisp", "vim"],
             },
             mermaid: {
-              theme: {light: 'neutral', dark: 'forest'},
-              // options: {
-              //   maxTextSize: 50,
-              // },
+                theme: { light: "neutral", dark: "forest" },
+                // options: {
+                //   maxTextSize: 50,
+                // },
             },
         }),
 };

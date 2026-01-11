@@ -16,13 +16,15 @@ modified: 2026-01-11T09:21
 
 ###### H6
 
-## Links
+## Links & Embeds
 
 [link to headings](<#Headings>)
 
 [learn Markdown in 10 minutes](https://commonmark.org/help/)
 
 a footer link[^1]
+
+![image](https://docusaurus.io/img/docusaurus_keytar.svg)
 
 ## Paragraph & Formats
 
