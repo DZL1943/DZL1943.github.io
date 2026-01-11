@@ -4,10 +4,31 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Fri, 09 Jan 2026 11:03:37 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Jan 2026 01:47:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[PARA]]></title>
+            <link>https://dzl1943.github.io/blog/PARA</link>
+            <guid>https://dzl1943.github.io/blog/PARA</guid>
+            <pubDate>Sun, 11 Jan 2026 01:47:13 GMT</pubDate>
+            <description><![CDATA[[list2table]]]></description>
+            <content:encoded><![CDATA[<p>[list2table]</p>
+<ul>
+<li class="">&lt; 类别 | 说明 | 备注(个人用法) | 举例</li>
+<li class="">projects | 进行中的短期任务, 有明确的结果目标和截止日期 | 目前很少用(一般 inbox 足矣)</li>
+<li class="">areas | 长期精进的领域 | 只要是专业领域的内容我都会放在这里, 不一定都是需要负责的 | 自然、社科、人文、技术等</li>
+<li class="">resources | 未来可能有用的感兴趣的主题内容 | 没有明确领域的常规参考性内容 | 书影音、游戏、物品、人物等</li>
+<li class="">archives | 不再关注的内容 | 基本上等于"回收站"</li>
+</ul>
+<p>[list2table]</p>
+<ul>
+<li class="">&lt;  | 专业 | 非专业</li>
+<li class="">客观 | Area | Resource</li>
+<li class="">主观 | Project? | Page</li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Docusaurus with Obsidian]]></title>
             <link>https://dzl1943.github.io/blog/Docusaurus with Obsidian</link>

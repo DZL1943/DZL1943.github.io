@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[1931],{42741(e){e.exports=JSON.parse('{"tag":{"label":"linker-exclude","permalink":"/docs/tags/linker-exclude","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Index","title":"Index","description":"\u81ea\u7136\u79d1\u5b66","permalink":"/docs/"}],"unlisted":false}}')}}]);

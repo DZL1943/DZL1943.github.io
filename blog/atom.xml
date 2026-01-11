@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-01-09T11:03:37.000Z</updated>
+    <updated>2026-01-11T01:47:13.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[PARA]]></title>
+        <id>https://dzl1943.github.io/blog/PARA</id>
+        <link href="https://dzl1943.github.io/blog/PARA"/>
+        <updated>2026-01-11T01:47:13.000Z</updated>
+        <summary type="html"><![CDATA[[list2table]]]></summary>
+        <content type="html"><![CDATA[<p>[list2table]</p>
+<ul>
+<li class="">&lt; 类别 | 说明 | 备注(个人用法) | 举例</li>
+<li class="">projects | 进行中的短期任务, 有明确的结果目标和截止日期 | 目前很少用(一般 inbox 足矣)</li>
+<li class="">areas | 长期精进的领域 | 只要是专业领域的内容我都会放在这里, 不一定都是需要负责的 | 自然、社科、人文、技术等</li>
+<li class="">resources | 未来可能有用的感兴趣的主题内容 | 没有明确领域的常规参考性内容 | 书影音、游戏、物品、人物等</li>
+<li class="">archives | 不再关注的内容 | 基本上等于"回收站"</li>
+</ul>
+<p>[list2table]</p>
+<ul>
+<li class="">&lt;  | 专业 | 非专业</li>
+<li class="">客观 | Area | Resource</li>
+<li class="">主观 | Project? | Page</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus with Obsidian]]></title>
         <id>https://dzl1943.github.io/blog/Docusaurus with Obsidian</id>
