@@ -1,5 +1,4 @@
 ---
-title: 思源笔记
 created: 2024-08-30T17:58
 modified: 2025-10-13T17:03
 aliases:
@@ -34,7 +33,7 @@ url:
 
 > 桌面端的功能是最全的.
 
-[SiYuan Changelogs](<SiYuan Changelogs.md>)
+[SiYuan Changelog](<SiYuan Changelog.md>)
 
 稳定版: 3.19
 
