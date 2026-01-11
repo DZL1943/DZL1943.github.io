@@ -16,4 +16,4 @@
 > `<` Ice 隐藏开关  
 > `<<` Ice 二级隐藏开关
 
-![](<../../../../Archives/20260110/Attachments/14a57cf5624d176a.png>)
+![14a57cf5624d176a](<../../../../assets/14a57cf5624d176a.png>)

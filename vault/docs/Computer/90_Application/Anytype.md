@@ -23,7 +23,7 @@ categories: 软件
 
 ## 概念
 
-![https://doc.anytype.io/\~gitbook/image?url\=https%3A%2F%2F3071101804-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F3X0sua4qgcQkC1K0NRZE%252Fuploads%252Fgit-blob-e79c85258f76b95848832fb78fd46c3e107cd3ff%252FAnytype%2520Primitives%2520-%2520Frame%25202-2%2520-%2520zh-cn.jpg%3Falt%3Dmedia&width\=768&dpr\=2&quality\=100&sign\=610d69ec&sv\=1](<../../../Archives/20260110/Attachments/E9B9B6683991E25891F2C474DDA7049E.png>)
+![https://doc.anytype.io/anytype-docs/~gitbook/image?url=https%3A%2F%2F3071101804-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F3X0sua4qgcQkC1K0NRZE%252Fuploads%252Fgit-blob-e79c85258f76b95848832fb78fd46c3e107cd3ff%252FAnytype%2520Primitives%2520-%2520Frame%25202-2%2520-%2520zh-cn.jpg%3Falt%3Dmedia&width=768&dpr=2&quality=100&sign=7f50c35e&sv=2](<../../../assets/E9B9B6683991E25891F2C474DDA7049E.png>)
 
 - [空间](https://doc.anytype.io/anytype-docs/documentation_cn/ji-chu/space)：你的对象关联图谱的容器——在 beta 阶段，这相当于你的账户。Anytype 的未来版本将允许具有不同访问入口控件的多个空间。
 - [对象（Objects）](https://doc.anytype.io/anytype-docs/documentation_cn/ji-chu/object-editor)：Anytype 的基础构成。它们代表着账户中最小的可链接组件；每个对象都是你的图谱中的一个节点（node）。
