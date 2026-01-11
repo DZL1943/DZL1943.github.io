@@ -1,6 +1,6 @@
 ---
-created: 2024-04-22T20:39:00
-modified: 2025-10-21T19:44:35
+created: 2024-04-22T20:39
+modified: 2025-10-21T19:44
 url:
   - https://github.com/Homebrew/brew
   - https://docs.brew.sh/
@@ -17,8 +17,8 @@ repo
 
 注:
 - 自 brew 4.0.0 (2023 年 2 月 16 日) 起,`HOMEBREW_INSTALL_FROM_API` 会成为默认行为,无需设置.大部分用户无需再克隆 homebrew-core 仓库,故无需设置 `HOMEBREW_CORE_GIT_REMOTE` 环境变量;但若需要运行 brew 的开发命令或者 brew 安装在非官方支持的默认 prefix 位置,则仍需设置 `HOMEBREW_CORE_GIT_REMOTE` 环境变量.如果不想通过 API 安装,可以设置 `HOMEBREW_NO_INSTALL_FROM_API=1`.
-- 目前,homebrew-cask-{drivers,versions,fonts} 已被弃用,所有 cask 合并至 homebrew-cask 仓库.本帮助内已移除克隆这些仓库的命令.已克隆用户(brew tap 查看)可使用 brew untap 移除废弃的仓库.
-- 截止到 brew 4.6.12,homebrew-{services,bundle,homebrew-command-not-found} 均已被弃用,所有 tap 合并至 brew 仓库.本帮助内已移除克隆这些仓库的命令.已克隆用户(brew tap 查看)可使用 brew untap 移除废弃的仓库.
+- 目前,`homebrew-cask-{drivers,versions,fonts}` 已被弃用,所有 cask 合并至 homebrew-cask 仓库.本帮助内已移除克隆这些仓库的命令.已克隆用户(brew tap 查看)可使用 brew untap 移除废弃的仓库.
+- 截止到 brew 4.6.12,`homebrew-{services,bundle,homebrew-command-not-found}` 均已被弃用,所有 tap 合并至 brew 仓库.本帮助内已移除克隆这些仓库的命令.已克隆用户(brew tap 查看)可使用 brew untap 移除废弃的仓库.
 
 ```shell
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
