@@ -8,9 +8,9 @@ url:
   - https://github.com/obsidianmd/obsidian-api
 ---
 
-# app
+## app
 
-## properties
+### properties
 
 ~~~dataviewjs
 // 打印对象属性
@@ -36,33 +36,33 @@ url:
 })();
 ~~~
 
-## vault
+### vault
 
 库路径: `$=app.vault.adapter.basePath`  
 配置文件夹: `$=app.vault.configDir`  
 总文件数: `$=app.vault.getFiles().length`  
 笔记数: `$=app.vault.getFiles().filter(f=>f.name.split(".").slice(-1)=="md").length`  
 
-### config
+#### config
 
 ```dataviewjs
 dv.paragraph(app.vault.config)
 ```
 
-## fileManager
+### fileManager
 
 - renameFile
 
-## metadataCache
+### metadataCache
 
-### tags
+#### tags
 
 ```dataviewjs
 const tags = app.metadataCache.getTags();
 dv.list(Object.keys(tags));
 ```
 
-### headings
+#### headings
 
 ```dataviewjs
 //https://forum-zh.obsidian.md/t/topic/28337
@@ -75,13 +75,13 @@ const lists = headings.map(p=>
 dv.paragraph(lists.join('\n'))
 ```
 
-### unresolvedLinks
+#### unresolvedLinks
 
 ```dataviewjs
 dv.list(Object.entries(app.metadataCache.unresolvedLinks).filter(([file, links]) => file !== "broken links output.md" && Object.keys(links).length > 0).map(([file, links]) => `${dv.fileLink(file, false, file)} -> ${Object.keys(links).map(x=>dv.fileLink(x)).join(',')}`))
 ```
 
-## workspace
+### workspace
 
 - activeLeaf
 - getLeaf(newLeaf, direction)
@@ -94,19 +94,19 @@ dv.list(Object.entries(app.metadataCache.unresolvedLinks).filter(([file, links])
 - getActiveFile()
 - getActiveViewOfType(type)
 
-### WorkspaceLeaf
+#### WorkspaceLeaf
 
 - view
 - detach()
 - openFile(file, openState)
 
-### recentFiles
+#### recentFiles
 
 ```dataviewjs
 dv.list(app.workspace.recentFileTracker.lastOpenFiles.filter(p=>app.vault.getAbstractFileByPath(p) && p.slice(-2) =='md').map(p=>dv.fileLink(p)))
 ```
 
-### navFile
+#### navFile
 
 ```js
 const wrap = (i, n) => ((i % n) + n) % n;
@@ -125,13 +125,13 @@ navFile(-1);
 navFile(1);
 ```
 
-### 刷新
+#### 刷新
 
 ```js
 await app.workspace.activeLeaf.rebuildView();
 ```
 
-### view
+#### view
 
 ```js title:scrollTopBottom
 const view = app.workspace.activeLeaf?.view;
@@ -148,25 +148,25 @@ const scrollActions = {
 scrollActions[view.getMode()]?.(0);  // -1 表示末尾
 ```
 
-## Event
+### Event
 
 ```js
 app.plugins.plugins.quickadd.registerEvent(app.vault.on('create', downloadAttachments));
 ```
 
-## hotkeys
+### hotkeys
 
 ```dataviewjs
 dv.table(["command", "hotkey"],Object.keys(app.hotkeyManager.customKeys).sort().map(k => [k, app.hotkeyManager.printHotkeyForCommand(k)]))
 ```
 
-## commands
+### commands
 
 ```js
 app.commands.executeCommandById('editor:download-attachments');
 ```
 
-## setting
+### setting
 
 ```js
 app.setting.openTabById("community-plugins");
@@ -174,21 +174,21 @@ app.setting.open();
 app.setting.activeTab.containerEl.find(".mod-cta").click();
 ```
 
-## plugins
+### plugins
 
 ```dataviewjs
 dv.table(["id", "name", "version", "enabled"], Object.values(app.plugins.manifests).sort((a,b)=>a.id.localeCompare(b.id)).map(p=>[p.id, p.name, p.version, app.plugins.plugins[p.id] !== undefined]))
 ```
 
-## bookmarks
+### bookmarks
 
 ```dataviewjs
 dv.paragraph(Object.keys(app.internalPlugins.plugins.bookmarks.instance.bookmarkLookup).map(p=>dv.fileLink(p)))
 ```
 
-# obsidian
+## obsidian
 
-# electron
+## electron
 
 版本号: `$=require("electron").ipcRenderer.sendSync("version")`  
 
@@ -198,6 +198,6 @@ window.setOpacity(0.88);
 window.setAlwaysOnTop(true);
 ```
 
-# 参考
+## 参考
 
 - [obsidian常用api汇总 - 开发讨论 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/50607)
