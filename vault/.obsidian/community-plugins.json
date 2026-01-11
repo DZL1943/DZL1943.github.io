@@ -1,5 +1,4 @@
 [
-  "obsidian-linter",
   "obsidian-heading-shifter",
   "easy-typing-obsidian",
   "cmdr",
@@ -9,5 +8,6 @@
   "various-complements",
   "virtual-linker",
   "refresh-preview",
-  "notebook-navigator"
+  "notebook-navigator",
+  "obsidian-linter"
 ]

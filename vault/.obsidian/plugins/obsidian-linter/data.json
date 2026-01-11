@@ -281,7 +281,9 @@
     "Archives",
     "Ext",
     "Journals",
-    "Templates"
+    "Templates",
+    "Attachments",
+    ""
   ],
   "filesToIgnore": [
     {
@@ -293,7 +295,85 @@
   "linterLocale": "system-default",
   "logLevel": "ERROR",
   "lintCommands": [],
-  "customRegexes": [],
+  "customRegexes": [
+    {
+      "label": "",
+      "find": "（",
+      "replace": "(",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "",
+      "find": "）",
+      "replace": ")",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "",
+      "find": "，",
+      "replace": ",",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "",
+      "find": "。",
+      "replace": ".",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "",
+      "find": "“",
+      "replace": "\"",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "",
+      "find": "‘",
+      "replace": "'",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "",
+      "find": "：",
+      "replace": ":",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "",
+      "find": "；",
+      "replace": ";",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "",
+      "find": "？",
+      "replace": "?",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "",
+      "find": "！",
+      "replace": "!",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "",
+      "find": "｜",
+      "replace": "|",
+      "flags": "gm",
+      "enabled": true
+    }
+  ],
   "commonStyles": {
     "aliasArrayStyle": "single-line",
     "tagArrayStyle": "single-line",
