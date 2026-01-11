@@ -15,6 +15,6 @@ url:
 - [x] obsidian 主题
 - [x] obsidian 代码片段
 - [x] obsidian 插件
-- [ ] obsidian 内部接口
+- [x] obsidian 内部接口
 - [x] obsidian 问题技巧
 - [x] obsidian 参考资源

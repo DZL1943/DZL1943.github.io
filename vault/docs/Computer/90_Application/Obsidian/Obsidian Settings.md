@@ -1,8 +1,9 @@
 ---
+title: Obsidian 设置
 created: 2025-10-08T20:10
 modified: 2025-10-08T20:30
 aliases:
-  - obsidian settings
+  - Obsidian 设置
 ---
 
 - 关于

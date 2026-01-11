@@ -2,6 +2,7 @@
 created: 2024-11-13T08:32
 modified: 2025-10-10T14:01
 ---
+<!-- truncate -->
 
 %%[list2table]%%
 - Fuzzy Chinese Pinyin

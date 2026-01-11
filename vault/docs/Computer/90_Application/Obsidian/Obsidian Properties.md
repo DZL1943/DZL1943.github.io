@@ -1,11 +1,10 @@
 ---
+title: Obsidian 属性
 created: 2025-10-10T14:55
 modified: 2025-10-10T15:00
 url:
   - https://help.obsidian.md/properties
 ---
-
-## 类型
 
 - 复选框 checkbox
 - 日期 date

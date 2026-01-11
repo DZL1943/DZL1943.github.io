@@ -1,12 +1,10 @@
 ---
-title: obsidian-minimal-theme
+title: Obsidian Minimal
 created: 2025-02-19T15:14:00
 modified: 2025-10-08T21:48:11
 url:
   - https://minimal.guide
 ---
-
-## Introduction
 
 ## Minimal Theme Settings
 

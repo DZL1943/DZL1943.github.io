@@ -2,7 +2,7 @@
 created: 2024-09-19T14:29
 modified: 2025-10-10T14:00
 ---
-
+<!-- truncate -->
 - [x] Hotkey Helper | 一年以上未更新; 补充了很多插件相关的命令
 - [ ] Hotkeys++ | 3 年以上未更新
 - [x] Vim Toggle

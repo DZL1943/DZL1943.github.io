@@ -1,10 +1,11 @@
 ---
 created: 2025-10-09T11:31
 modified: 2025-10-09T11:31
+draft: true
 aliases:
   - obsidian awesome plugins
 ---
-
+<!-- truncate -->
 ## 本体类
 
 - [X] better-markdown-links

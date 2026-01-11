@@ -1,6 +1,7 @@
 ---
 created: 2024-12-05T16:16
 modified: 2025-03-03T15:53
+unlisted: true
 url:
   - https://publish.obsidian.md/slrvb-docs/ITS+Theme/Alternate+Checkboxes
   - https://minimal.guide/checklists

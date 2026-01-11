@@ -1,4 +1,5 @@
 ---
+title: Datacore
 created: 2025-11-13T20:29
 modified: 2025-11-13T20:29
 aliases:

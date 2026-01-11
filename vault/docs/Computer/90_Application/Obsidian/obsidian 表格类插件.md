@@ -2,9 +2,7 @@
 created: 2024-09-02T16:44
 modified: 2025-10-10T14:00
 ---
-
-## obsidian 表格类插件
-
+<!-- truncate -->
 - [x] Advanced Tables | 还是有用的
 - [x] AnyBlock | 列表转表格等
 - [ ] DataLoom

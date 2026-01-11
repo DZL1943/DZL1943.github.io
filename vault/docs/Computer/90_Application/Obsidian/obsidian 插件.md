@@ -59,6 +59,7 @@ dv.table(["id", "name", "version", "enabled"], Object.values(app.plugins.manifes
 - 表格类
 - 白板类
 - 日记待办类
+
 ## 插件精选
 
 - 增强类: style-settings, notebook-navigator, hover-editor, virtual-linker

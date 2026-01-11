@@ -1,4 +1,5 @@
 ---
+title: Obsidian 剪藏
 created: 2025-12-02T22:03
 modified: 2025-12-02T22:05
 url:

@@ -1,6 +1,9 @@
 ---
+title: Obsidian 核心插件
 created: 2025-10-08T20:18
 modified: 2025-10-08T20:30
+aliases:
+  - obsidian 内置插件
 ---
 
 - [ ] 白板

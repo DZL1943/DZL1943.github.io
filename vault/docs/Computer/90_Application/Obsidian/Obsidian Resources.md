@@ -1,7 +1,7 @@
 ---
+title: Obsidian 参考资源
 created: 2025-10-08T20:39
 modified: 2026-01-11T22:44
-aliases: [obsidian resources]
 ---
 
 ## Official
