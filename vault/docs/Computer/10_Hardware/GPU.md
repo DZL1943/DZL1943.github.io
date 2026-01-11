@@ -1,5 +1,4 @@
 ---
-title: GPU
 created: 2026-01-05T15:32
 modified: 2026-01-11T20:26
 ---
