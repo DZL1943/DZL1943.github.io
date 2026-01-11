@@ -4,7 +4,7 @@
     - ASDF GH JKL
     - ZXCV BN M
 - Punctuations
-    - \` `~ ! @ # $ % ^ & * -_ +=`
+    - `` `~ ! @ # $ % ^ & * -_ += ``
     - `() [] {} <>`
     - `' " , . : ; ! ? / \ |`
 - Modifiers
