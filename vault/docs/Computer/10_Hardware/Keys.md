@@ -2,6 +2,8 @@
 title: 键盘按键
 created: 2026-01-06T20:06
 modified: 2026-01-11T20:22
+tags:
+  - linker-exclude
 ---
 
 - Numbers

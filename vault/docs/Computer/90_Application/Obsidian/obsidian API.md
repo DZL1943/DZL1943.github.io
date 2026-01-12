@@ -10,31 +10,15 @@ url:
 
 ## app
 
-### properties
-
-~~~dataviewjs
-// 打印对象属性
-(() => {
-    const obj = app;
-    const own = Object.getOwnPropertyNames(obj);
-    const proto = Object.getPrototypeOf(obj);
-    
-    dv.paragraph('own');
-    let ownData = own.sort((a, b) => a.localeCompare(b)).map(p => ({
-        name: p,
-        type: typeof obj[p],
-    }));
-    dv.table(['name', 'type'], ownData.map(p=>[p.name, p.type]));
-    
-    dv.paragraph('proto');
-    let protoData = Object.getOwnPropertyNames(proto).sort((a, b) => a.localeCompare(b)).map(p => ({
-        name: p,
-        type: typeof proto[p],
-    }));
-    dv.table(['name', 'type'], protoData.map(p=>[p.name, p.type]));
-    
-})();
-~~~
+- commands
+- customCss
+- fileManager
+- hotkeyManager
+- internalPlugins
+- **metadataCache**
+- plugins
+- **vault**
+- **workspace**
 
 ### vault
 
