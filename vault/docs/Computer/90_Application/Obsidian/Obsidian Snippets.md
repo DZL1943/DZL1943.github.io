@@ -5,9 +5,8 @@ modified: 2025-10-09T14:41:21
 aliases:
   - Obsidian 代码片段
 ---
-# Obsidian 代码片段
 
-## main
+## UI
 
 ### 功能区
 
@@ -192,7 +191,7 @@ body {
 }
 ```
 
-## render
+## Markdown
 
 ### 标题和段落
 
@@ -341,7 +340,9 @@ ul>li.task-list-item[data-task="X"] {
 
 ```
 
-## extra
+## Extra
+
+%% 不常用, 可能未经实验, 仅供参考 %%
 
 ### 首行缩进
 
@@ -385,19 +386,6 @@ transition-delay: 50ms;
 .workspace-split.mod-horizontal.mod-right-split:hover {
 width: 255px !important;
 transition: 0s;
-}
-```
-
-### hide-tabbar
-
-```css
-/* 悬停时显示标签栏 */
-.workspace-tab-header-container {
-  opacity: 0;
-  transition: opacity 0.25s ease-in-out;
-}
-.workspace-tab-header-container:hover {
-  opacity: 1;
 }
 ```
 
@@ -745,8 +733,8 @@ settings:
 
 ```
 
-## tweak
-
+## Tweak
+%% 插件样式微调等 %%
 ### bugfix
 
 ```css
@@ -825,7 +813,7 @@ settings:
 }
 ```
 
-## references
+## References
 
 - https://forum.obsidian.md/t/meta-post-common-css-hacks/1978
 - https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets
