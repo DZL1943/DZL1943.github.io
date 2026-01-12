@@ -57,6 +57,36 @@ div[aria-label="打开设置"] {
 }
 ```
 
+```css title="file-icons"
+/* https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/109 */
+/* 为文件夹添加图标 */
+.nav-folder-title-content::before {
+    content: '📁 '; /* 你可以更改为你喜欢的图标 */
+    margin-right: 5px;
+}
+
+/* 为文件添加图标 */
+.nav-file-title-content::before {
+    content: '📄 '; /* 你可以更改为你喜欢的图标 */
+    margin-right: 5px;
+}
+```
+
+```css title="hide-sidebar"
+/* hide right sidebar */
+.workspace-split.mod-horizontal.mod-right-split {
+width: 1px !important;
+transition: 0s;
+transition-delay: 50ms;
+}
+
+/* reveal right sidebar on hover */
+.workspace-split.mod-horizontal.mod-right-split:hover {
+width: 255px !important;
+transition: 0s;
+}
+```
+
 ### 标签栏
 
 ```css
@@ -178,394 +208,7 @@ body {
 } */
 ```
 
-### 状态栏
-
-```css
-.status-bar:not(:hover) {
-  opacity: 0;
-  min-height: 6px;
-  height: 0;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-```
-
-## Markdown
-
-### 标题和段落
-
-```css
-body {
-  --h1-color: var(--color-red);
-  --h2-color: var(--color-orange);
-  --h3-color: var(--color-yellow);
-  --h4-color: var(--color-green);
-  --h5-color: var(--color-blue);
-  --h6-color: var(--color-purple);
-  --bold-color: var(--color-red);
-  --italic-color: var(--color-orange);
-  --heading-spacing: calc(1rem * 1.5);
-  --p-spacing: 1rem;
-}
-
-:is(.markdown-preview-view, .markdown-rendered) p {
-  margin-block-end: 0.5em;
-}
-
-.cm-strikethrough,
-del {
-  color: var(--text-faint);
-}
-u,ins {
-  text-decoration-color: var(--color-green);
-  text-decoration-thickness: 3px;
-}
-
-.HyperMD-header-2.cm-line,
-h2 {
-  border-bottom: 2px solid var(--background-modifier-border);
-  padding-bottom: 2px;
-}
-```
-
-https://forum-zh.obsidian.md/t/topic/45368  
-https://forum-zh.obsidian.md/t/topic/25531  
-https://forum.obsidian.md/t/reduce-the-margin-between-headers-paragraphs-headers-lists-paragraphs-lists-but-keep-the-margin-between-paragraphs-reading/33632
-
-### 列表
-
-```css
-ul>li.task-list-item[data-task="x"],
-ul>li.task-list-item[data-task="X"] {
-  text-decoration: none;
-}
-.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"],
-.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="X"] {
-  text-decoration: none;
-}
-
-.cm-formatting.cm-formatting-list.cm-formatting-list-ul {
-  padding-left: 0;
-}
-.cm-formatting.cm-formatting-list.cm-formatting-list-ol {
-  padding-left: 0;
-}
-
-.markdown-rendered ul, .markdown-rendered ol {
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-}
-```
-
-### 标注
-
-```css
-.markdown-rendered blockquote {
-  background-color: var(--background-modifier-hover);
-  border-inline-start: 5px solid var(--background-modifier-border-focus);
-  padding-inline-start: 12px;
-  border-radius: 5px;
-}
-```
-
-### 表格
-
-```css
-.markdown-preview-view tr,
-.markdown-rendered tr {
-  &:nth-child(odd) {
-    background-color: var(--background-primary);
-  }
-
-  &:nth-child(even) {
-    background-color: var(--background-secondary);
-  }
-}
-```
-
-### 代码
-
-```css
-.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
-.markdown-rendered :not(pre) > code {
-  color: var(--color-pink) !important;
-}
-.markdown-rendered pre:not([class*="language-"]) code {
-  color: var(--color-pink) !important;
-}
-```
-
-### 公式
-### 图片
-### 链接
-
-### 嵌入
-
-```css
-/* === 预览和编辑模式下的卡片样式 == */
-.markdown-preview-view .markdown-embed,
-.markdown-preview-view .file-embed {
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 8px;
-  margin-top: 0px;
-  display: block;
-}
-
-/* 实时预览模式下：块嵌入不缩进，无左侧标志 */
-.markdown-embed {
-  border-left: none;
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 8px;
-}
-
-/* 隐藏嵌入的标题 */
-.embed-title {
-  display: none;
-}
-
-/* 设置嵌入样式 */
-:is(.markdown-preview-view, .markdown-rendered) .markdown-embed-content {
-  padding-right: 0px;
-  max-width: 100%;
-  overflow: auto;
-}
-/* 在callout中的高度限制 */
-:is(.callout) .markdown-embed-content {
-  padding-right: 0px;
-  max-height: 350px;
-  max-width: 100%;
-  overflow: auto;
-}
-
-```
-
-## Extra
-
-%% 不常用, 可能未经实验, 仅供参考 %%
-
-### 首行缩进
-
-https://forum-zh.obsidian.md/t/topic/28562  
-https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E5%A4%96%E8%A7%82/css-%E7%89%87%E6%AE%B5/obsidian%E6%A0%B7%E5%BC%8F-%E6%AE%B5%E8%90%BD%E9%A6%96%E8%A1%8C%E5%A2%9E%E5%8A%A0%E7%BC%A9%E8%BF%9B/
-
-### 水平分隔线
-
-https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/223
-
-https://forum.obsidian.md/t/creating-fancy-horizontal-rule-lines/63700
-
-### file-icons
-
-```css
-/* https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/109 */
-/* 为文件夹添加图标 */
-.nav-folder-title-content::before {
-    content: '📁 '; /* 你可以更改为你喜欢的图标 */
-    margin-right: 5px;
-}
-
-/* 为文件添加图标 */
-.nav-file-title-content::before {
-    content: '📄 '; /* 你可以更改为你喜欢的图标 */
-    margin-right: 5px;
-}
-```
-
-### hide-sidebar
-
-```css
-/* hide right sidebar */
-.workspace-split.mod-horizontal.mod-right-split {
-width: 1px !important;
-transition: 0s;
-transition-delay: 50ms;
-}
-
-/* reveal right sidebar on hover */
-.workspace-split.mod-horizontal.mod-right-split:hover {
-width: 255px !important;
-transition: 0s;
-}
-```
-
-### show-whitespace
-
-```css
-.cm-trailing-space-a::before,
-.cm-trailing-space-b::before,
-.cm-trailing-space-new-line::before {
-  content: "·";
-  color: var(--list-marker-color);
-  position: absolute;
-}
-
-.cm-trailing-space-new-line::after {
-  content: "↲";
-  color: var(--list-marker-color);
-}
-
-/* .markdown-source-view.mod-cm6 .cm-indent::before { */
-  /* content: '⇥'; */
-  /* color: var(--list-marker-color); */
-/* } */
-```
-
-https://forum.obsidian.md/t/editors-css-to-show-tabs-trailing-whitespace-and-strict-line-breaks/4234  
-https://wiki.loikein.one/computer/software/multi/obsidian/#showing-whitespace-control-characters
-
-### image
-
-```css fold
-.small-image img:not([width]) {
-    max-height: 300px;
-    max-width: 400px;
-}
-
-.small-image img:hover {
-    width: 100%;
-    height:100%;
-    max-width: min(100%, 80vw);
-    max-height: min(100%, 80vh);
-}
-
-.image-embed[alt]:after {
-    content: attr(alt);
-    display: block;
-    text-align: center;
-    color: var(--text-faint);
-}
-
-/* https://forum.obsidian.md/t/image-zoom-click-hold-to-expand-images/5164 */
-.view-content img {
-  cursor:zoom-in;
-}
-
-.view-content img:active {
-  cursor:zoom-out;
-}
-
-.view-content .markdown-preview-view img[referrerpolicy='no-referrer']:active,
-.view-content .image-embed:active {
-  background:var(--background-primary);
-  cursor:zoom-out;
-  display:block;
-  z-index:200;
-  position:fixed;
-  max-height:100%;
-  max-width:100%;
-  height:auto;
-  width:auto;
-  object-fit:contain;
-  margin:0 auto;
-  text-align:center;
-  padding:0;
-  left:0;
-  right:0;
-  top: 0%;
-  bottom:0;
-}
-
-.view-content .image-embed:active img {
-  top:50%;
-  transform:translateY(-50%);
-  padding:0;
-  margin:0 auto;
-  width: auto;
-  height: auto;
-  max-height: min(100%, 100vh);
-  max-width: min(100%, 100vw);
-  object-fit:contain;
-  left:0;
-  right:0;
-  bottom:0;
-  position:absolute;
-  opacity:1;
-}
-```
-
-### link-title
-
-```css
-/* The following two blocks hide the link primary text
- * and swap in the title if the target not
- * has a ``title`` property.
- */
-
-/* In reading view, hide link content */
-.markdown-reading-view .data-link-text[data-link-title]
-{
-    font-size: 0px;
-    visibility: hidden;
-}
-
-/* In reading view, show linked title */
-.markdown-reading-view .data-link-text[data-link-title]::before
-{
-    font-size: initial;
-    content: attr(data-link-title);
-    visibility: visible;
-}
-```
-
-### table-rows-number
-
-```css
-/* https://forum.obsidian.md/t/markdown-tables-with-row-numbers/35515/3 */
-.numberedrows table {
-  counter-reset: rowNumber;
-}
-
-.numberedrows table tr::before {
-  display: table-cell;
-  counter-increment: rowNumber;
-  content: counter(rowNumber) ".";
-  padding-right: 0.3em;
-  padding-top: 0.3em;
-  text-align: right;
-}
-```
-
-### list-guideline
-
-```css fold
-/* 无序列表有序列表仿logseq大纲引导线 */
-body {
-  --outline-guideline-width: var(--size-2-1);
-  --outline-guideline-color: var(--color-accent);
-  --outline-item-height: calc(var(--nav-item-size) * 1.8);
-}
-li {
-  position: relative;
-}
-li:hover > ul > li:has(~li:hover)::before,
-li:hover > ol > li:has(~li:hover)::before {
-  content: "";
-  width: var(--outline-guideline-width);
-  position: absolute;
-  background-color: var(--outline-guideline-color);
-  top: calc(var(--outline-item-height) / 2 * -1);
-  left: calc(-2px - 2em - var(--size-4-4));
-  height: calc(100% - var(--outline-item-height) + var(--size-4-8) + 2px);
-}
-
-li:hover > ul > li:hover::before,
-li:hover > ol > li:hover::before {
-  content: "";
-  position: absolute;
-  top: calc(var(--outline-item-height) / 2 * -1);
-  left: calc(-2px - 2em - var(--size-4-4));
-  bottom: calc(100% - (var(--outline-item-height) + var(--size-4-2)) / 2 + 1px);
-  width: calc(1em + var(--size-4-4) - 2px);
-  border-bottom-left-radius: var(--radius-m);
-  border-bottom: var(--outline-guideline-width) solid var(--outline-guideline-color);
-  border-left: var(--outline-guideline-width) solid var(--outline-guideline-color);
-}
-```
-
-### hide-property
-
-```css
+```css title="hide-property"
 /* https://forum.obsidian.md/t/add-setting-to-collapse-fold-properties-across-all-notes-by-default/67943/31 */
 /* reading mode */
 .workspace-leaf-content[data-type=markdown] .metadata-container:hover .metadata-content,
@@ -590,7 +233,70 @@ li:hover > ol > li:hover::before {
 }
 ```
 
-### settings-layout
+```css title="privacy-mode" fold
+/* @settings
+name: 【字体-熊猫】隐私模式
+id: 202412181338
+settings:
+  - 
+      id: privacy-mode
+      title: 隐私模式
+      description: 文字加密,图片模糊
+      type: class-toggle
+      addCommand: true
+  - 
+      id: privacy-mode-text
+      title: 文本显示模式
+      type: variable-select
+      default: circle
+      options:
+          - 
+              label: 类似密码输入的点来显示文本
+              value: disc
+          - 
+              label: 小圆圈替换文本
+              value: circle
+          - 
+              label: 方块替换文本
+              value: square
+  - 
+      id: privacy-mode-image
+      title: 图片是否模糊化
+      type: class-toggle
+      default: true
+*/
+
+/* .privacy-mode span,li,h3,h2, */
+.privacy-mode {
+  .el-p,
+  span, li{
+    -webkit-text-security: var(--privacy-mode-text);
+  }
+  h1,h2,h3,h4,h5,h6{
+    -webkit-text-security: none !important;
+  }
+}
+
+.privacy-mode.privacy-mode-image :is(.media-embed, .image-container) :is(img, video, svg, canvas) {
+  filter: blur(5px) !important;
+}
+
+```
+
+### 状态栏
+
+```css
+.status-bar:not(:hover) {
+  opacity: 0;
+  min-height: 6px;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+```
+
+### 设置
 
 ```css fold
 
@@ -678,57 +384,328 @@ body:not(.installed-plugin-layout) .vertical-tabs-container .installed-plugins-c
   right: 0px;
   justify-content: right;
 }
-
 ```
 
-### privacy-mode
+## Markdown
 
-```css fold
-/* @settings
-name: 【字体-熊猫】隐私模式
-id: 202412181338
-settings:
-  - 
-      id: privacy-mode
-      title: 隐私模式
-      description: 文字加密,图片模糊
-      type: class-toggle
-      addCommand: true
-  - 
-      id: privacy-mode-text
-      title: 文本显示模式
-      type: variable-select
-      default: circle
-      options:
-          - 
-              label: 类似密码输入的点来显示文本
-              value: disc
-          - 
-              label: 小圆圈替换文本
-              value: circle
-          - 
-              label: 方块替换文本
-              value: square
-  - 
-      id: privacy-mode-image
-      title: 图片是否模糊化
-      type: class-toggle
-      default: true
-*/
+### 标题和段落
 
-/* .privacy-mode span,li,h3,h2, */
-.privacy-mode {
-  .el-p,
-  span, li{
-    -webkit-text-security: var(--privacy-mode-text);
-  }
-  h1,h2,h3,h4,h5,h6{
-    -webkit-text-security: none !important;
-  }
+```css
+body {
+  --h1-color: var(--color-red);
+  --h2-color: var(--color-orange);
+  --h3-color: var(--color-yellow);
+  --h4-color: var(--color-green);
+  --h5-color: var(--color-blue);
+  --h6-color: var(--color-purple);
+  --bold-color: var(--color-red);
+  --italic-color: var(--color-orange);
+  --heading-spacing: calc(1rem * 1.5);
+  --p-spacing: 1rem;
 }
 
-.privacy-mode.privacy-mode-image :is(.media-embed, .image-container) :is(img, video, svg, canvas) {
-  filter: blur(5px) !important;
+:is(.markdown-preview-view, .markdown-rendered) p {
+  margin-block-end: 0.5em;
+}
+
+.cm-strikethrough,
+del {
+  color: var(--text-faint);
+}
+u,ins {
+  text-decoration-color: var(--color-green);
+  text-decoration-thickness: 3px;
+}
+
+.HyperMD-header-2.cm-line,
+h2 {
+  border-bottom: 2px solid var(--background-modifier-border);
+  padding-bottom: 2px;
+}
+```
+
+https://forum-zh.obsidian.md/t/topic/45368  
+https://forum-zh.obsidian.md/t/topic/25531  
+https://forum.obsidian.md/t/reduce-the-margin-between-headers-paragraphs-headers-lists-paragraphs-lists-but-keep-the-margin-between-paragraphs-reading/33632
+
+首行缩进
+https://forum-zh.obsidian.md/t/topic/28562  
+https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E5%A4%96%E8%A7%82/css-%E7%89%87%E6%AE%B5/obsidian%E6%A0%B7%E5%BC%8F-%E6%AE%B5%E8%90%BD%E9%A6%96%E8%A1%8C%E5%A2%9E%E5%8A%A0%E7%BC%A9%E8%BF%9B/
+
+分隔线
+https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/223  
+https://forum.obsidian.md/t/creating-fancy-horizontal-rule-lines/63700
+
+show-whitespace
+```css
+.cm-trailing-space-a::before,
+.cm-trailing-space-b::before,
+.cm-trailing-space-new-line::before {
+  content: "·";
+  color: var(--list-marker-color);
+  position: absolute;
+}
+
+.cm-trailing-space-new-line::after {
+  content: "↲";
+  color: var(--list-marker-color);
+}
+
+/* .markdown-source-view.mod-cm6 .cm-indent::before { */
+  /* content: '⇥'; */
+  /* color: var(--list-marker-color); */
+/* } */
+```
+
+https://forum.obsidian.md/t/editors-css-to-show-tabs-trailing-whitespace-and-strict-line-breaks/4234  
+https://wiki.loikein.one/computer/software/multi/obsidian/#showing-whitespace-control-characters
+
+### 列表
+
+```css
+ul>li.task-list-item[data-task="x"],
+ul>li.task-list-item[data-task="X"] {
+  text-decoration: none;
+}
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="X"] {
+  text-decoration: none;
+}
+
+.cm-formatting.cm-formatting-list.cm-formatting-list-ul {
+  padding-left: 0;
+}
+.cm-formatting.cm-formatting-list.cm-formatting-list-ol {
+  padding-left: 0;
+}
+
+.markdown-rendered ul, .markdown-rendered ol {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+```
+
+```css title="guideline" fold
+/* 无序列表有序列表仿logseq大纲引导线 */
+body {
+  --outline-guideline-width: var(--size-2-1);
+  --outline-guideline-color: var(--color-accent);
+  --outline-item-height: calc(var(--nav-item-size) * 1.8);
+}
+li {
+  position: relative;
+}
+li:hover > ul > li:has(~li:hover)::before,
+li:hover > ol > li:has(~li:hover)::before {
+  content: "";
+  width: var(--outline-guideline-width);
+  position: absolute;
+  background-color: var(--outline-guideline-color);
+  top: calc(var(--outline-item-height) / 2 * -1);
+  left: calc(-2px - 2em - var(--size-4-4));
+  height: calc(100% - var(--outline-item-height) + var(--size-4-8) + 2px);
+}
+
+li:hover > ul > li:hover::before,
+li:hover > ol > li:hover::before {
+  content: "";
+  position: absolute;
+  top: calc(var(--outline-item-height) / 2 * -1);
+  left: calc(-2px - 2em - var(--size-4-4));
+  bottom: calc(100% - (var(--outline-item-height) + var(--size-4-2)) / 2 + 1px);
+  width: calc(1em + var(--size-4-4) - 2px);
+  border-bottom-left-radius: var(--radius-m);
+  border-bottom: var(--outline-guideline-width) solid var(--outline-guideline-color);
+  border-left: var(--outline-guideline-width) solid var(--outline-guideline-color);
+}
+```
+
+### 标注
+
+```css
+.markdown-rendered blockquote {
+  background-color: var(--background-modifier-hover);
+  border-inline-start: 5px solid var(--background-modifier-border-focus);
+  padding-inline-start: 12px;
+  border-radius: 5px;
+}
+```
+
+### 表格
+
+```css
+.markdown-preview-view tr,
+.markdown-rendered tr {
+  &:nth-child(odd) {
+    background-color: var(--background-primary);
+  }
+
+  &:nth-child(even) {
+    background-color: var(--background-secondary);
+  }
+}
+```
+
+```css title="row-number"
+/* https://forum.obsidian.md/t/markdown-tables-with-row-numbers/35515/3 */
+.numberedrows table {
+  counter-reset: rowNumber;
+}
+
+.numberedrows table tr::before {
+  display: table-cell;
+  counter-increment: rowNumber;
+  content: counter(rowNumber) ".";
+  padding-right: 0.3em;
+  padding-top: 0.3em;
+  text-align: right;
+}
+```
+
+### 代码
+
+```css
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
+.markdown-rendered :not(pre) > code {
+  color: var(--color-pink) !important;
+}
+.markdown-rendered pre:not([class*="language-"]) code {
+  color: var(--color-pink) !important;
+}
+```
+
+### 公式
+
+### 图片
+
+```css fold
+.small-image img:not([width]) {
+    max-height: 300px;
+    max-width: 400px;
+}
+
+.small-image img:hover {
+    width: 100%;
+    height:100%;
+    max-width: min(100%, 80vw);
+    max-height: min(100%, 80vh);
+}
+
+.image-embed[alt]:after {
+    content: attr(alt);
+    display: block;
+    text-align: center;
+    color: var(--text-faint);
+}
+
+/* https://forum.obsidian.md/t/image-zoom-click-hold-to-expand-images/5164 */
+.view-content img {
+  cursor:zoom-in;
+}
+
+.view-content img:active {
+  cursor:zoom-out;
+}
+
+.view-content .markdown-preview-view img[referrerpolicy='no-referrer']:active,
+.view-content .image-embed:active {
+  background:var(--background-primary);
+  cursor:zoom-out;
+  display:block;
+  z-index:200;
+  position:fixed;
+  max-height:100%;
+  max-width:100%;
+  height:auto;
+  width:auto;
+  object-fit:contain;
+  margin:0 auto;
+  text-align:center;
+  padding:0;
+  left:0;
+  right:0;
+  top: 0%;
+  bottom:0;
+}
+
+.view-content .image-embed:active img {
+  top:50%;
+  transform:translateY(-50%);
+  padding:0;
+  margin:0 auto;
+  width: auto;
+  height: auto;
+  max-height: min(100%, 100vh);
+  max-width: min(100%, 100vw);
+  object-fit:contain;
+  left:0;
+  right:0;
+  bottom:0;
+  position:absolute;
+  opacity:1;
+}
+```
+
+### 链接
+
+```css title="link-title"
+/* The following two blocks hide the link primary text
+ * and swap in the title if the target not
+ * has a ``title`` property.
+ */
+
+/* In reading view, hide link content */
+.markdown-reading-view .data-link-text[data-link-title]
+{
+    font-size: 0px;
+    visibility: hidden;
+}
+
+/* In reading view, show linked title */
+.markdown-reading-view .data-link-text[data-link-title]::before
+{
+    font-size: initial;
+    content: attr(data-link-title);
+    visibility: visible;
+}
+```
+
+### 嵌入
+
+```css
+/* === 预览和编辑模式下的卡片样式 == */
+.markdown-preview-view .markdown-embed,
+.markdown-preview-view .file-embed {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  margin-top: 0px;
+  display: block;
+}
+
+/* 实时预览模式下：块嵌入不缩进，无左侧标志 */
+.markdown-embed {
+  border-left: none;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+}
+
+/* 隐藏嵌入的标题 */
+.embed-title {
+  display: none;
+}
+
+/* 设置嵌入样式 */
+:is(.markdown-preview-view, .markdown-rendered) .markdown-embed-content {
+  padding-right: 0px;
+  max-width: 100%;
+  overflow: auto;
+}
+/* 在callout中的高度限制 */
+:is(.callout) .markdown-embed-content {
+  padding-right: 0px;
+  max-height: 350px;
+  max-width: 100%;
+  overflow: auto;
 }
 
 ```
