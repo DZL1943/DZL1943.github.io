@@ -1,10 +1,11 @@
 ---
-created: 2024-11-06T20:56:00
-modified: 2025-08-29T18:18:45
+created: 2024-11-06T20:56
+modified: 2025-08-29T18:18
+draft: true
 tags: [AI]
 aliases: [LLM, 大模型]
 ---
-<!-- truncate -->
+
 # AI
 
 ## 概念
