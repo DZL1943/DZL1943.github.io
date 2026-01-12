@@ -5,16 +5,20 @@ url:
   - https://obsidian.md/
 ---
 
-# Obsidian
-
-- [x] obsidian 概述
-- [x] obsidian 历史
-- [x] obsidian 安装
-- [x] obsidian 设置
-- [x] obsidian 界面
-- [x] obsidian 主题
-- [x] obsidian 代码片段
-- [x] obsidian 插件
-- [x] obsidian 内部接口
-- [x] obsidian 问题技巧
-- [x] obsidian 参考资源
+- 入门 Introduction
+    - 下载安装 Install
+    - 基础设置 Settings
+        - 编辑器 Editor
+        - 文件与链接 File & Link
+        - 外观 Appearance
+        - 快捷键 Hotkeys
+        - 核心插件 Internal Plugins
+    - 界面操作 UI
+- 自定义 Customization
+    - 代码片段 Snippets
+    - 主题 Themes
+    - 插件 Plugins
+- 进阶 Advanced
+    - 问题技巧 Tips
+    - 内部接口 API
+- 参考资源 Resources
