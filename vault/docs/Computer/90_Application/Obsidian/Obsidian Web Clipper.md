@@ -82,7 +82,7 @@ url:
     },
     {
       "name": "tags",
-      "value": "clippings",
+      "value": "clippings, av/91",
       "type": "multitext"
     },
     {
@@ -94,7 +94,7 @@ url:
   "triggers": [
     "/^https:\\/\\/(.*)\\/video(s)?\\/view(hd)?\\/(.*)/"
   ],
-  "noteNameFormat": "{{title}}",
+  "noteNameFormat": "{{title|safe_name}}",
   "path": "Inbox"
 }
 ```
@@ -102,7 +102,7 @@ url:
 ```json fold
 {
   "schemaVersion": "0.1.0",
-  "name": "cg",
+  "name": "51",
   "behavior": "create",
   "noteContentFormat": "\n{{selector:div.post-content img[src*=jpeg]?src|slice:0,-1|image|join:\"\\n\\n\"}}\n",
   "properties": [
@@ -118,12 +118,12 @@ url:
     },
     {
       "name": "image",
-      "value": "{{selector:div.post-content img?src|first}}",
+      "value": "",
       "type": "text"
     },
     {
       "name": "tags",
-      "value": "clippings",
+      "value": "clippings, av/cg",
       "type": "multitext"
     },
     {
@@ -135,7 +135,7 @@ url:
   "triggers": [
     "/https:\\/\\/(.*)\\/archives\\/(\\d+)/"
   ],
-  "noteNameFormat": "{{title}}",
+  "noteNameFormat": "{{title|safe_name}}",
   "path": "Inbox"
 }
 ```
