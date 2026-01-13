@@ -1,8 +1,7 @@
 ---
+title: 手势快捷键
 created: 2024-09-05T09:37
 modified: 2025-07-30T15:37
-aliases:
-  - 手势快捷键
 excalidraw-plugin: parsed
 tags:
   - excalidraw
@@ -14,22 +13,42 @@ excalidraw-open-md: true
 ## 鼠标手势
 
 %%[lt]%%
-- [x] 左 L | back
-    - [ ] 左右 | left space
-    - [x] 左上 | restore
-    - [ ] 左下 | hide others
-- [x] 右 R | forward
-    - [ ] 右左 | right space
-    - [!] 右上 | new
-    - [!] 右下 | **refresh**
-- [ ] 上 U | top
-    - [!] 上下 | zoom
-    - [x] 上左 | prev
-    - [x] 上右 | next
-- [ ] 下 D | bottom
-    - [!] 下上 | hide
-    - [ ] 下左 | close others
-    - [x] 下右 | **close**
+- 左 L | back `cmd+[`
+    - 左右左(S) | `cmd+,`
+    - 左右 | back
+    - 左上 | restore `cmd+z`
+    - 左下 | close all `alt+cmd+w`
+    - 左下右(C) | left space `ctrl+left`
+    - 左下左
+    - 左上右
+    - 左上左
+- 右 R | forward `cmd+]`
+    - 右左右(Z) max `ctrl+cmd+f`
+    - 右左 | forward
+    - 右上 | new `cmd+t`
+    - 右下 | **refresh** `cmd+r`
+    - 右下左 | right space `ctrl+right`
+    - 右下右
+    - 右上左
+    - 右上右
+- 上 U | top `fn+left`
+    - 上下上(N) | zoom
+    - 上下 | top
+    - 上左 | prev `shift+ctrl+tab`
+    - 上右 | next `ctrl+tab`
+    - 上右下
+    - 上右上
+    - 上左下
+    - 上左上
+- 下 D | bottom `fn+right`
+    - 下上下(H) | `cmd+h`
+    - 下上 | bottom
+    - 下左 | quit `cmd+q`
+    - 下右 | **close** `cmd+w`
+    - 下右上(U)
+    - 下右下
+    - 下左上
+    - 下左下
 
 ![0a7f6ad85bc76da7|800](<../../../assets/0a7f6ad85bc76da7.png>)
 
