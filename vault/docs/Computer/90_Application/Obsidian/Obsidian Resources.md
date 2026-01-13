@@ -6,14 +6,15 @@ modified: 2026-01-11T22:44
 
 ## Official
 
-- [Help](https://help.obsidian.md/)
-- [Developer Docs](https://docs.obsidian.md/)
 - [Download](https://obsidian.md/download)
 - [Releases](https://github.com/obsidianmd/obsidian-releases)
 - [Changelog](https://obsidian.md/changelog)
 - [Roadmap](https://obsidian.md/roadmap)
 - [Blog](https://obsidian.md/blog)
 - [Forum](https://forum.obsidian.md/)
+- [Help](https://help.obsidian.md/)
+- [Developer Docs](https://docs.obsidian.md/)
+- [obsidian-skills](https://github.com/kepano/obsidian-skills)
 
 ## Third-party
 
