@@ -536,7 +536,7 @@ async function start(params, settings) {
     switch (scope) {
         case 'selection':
         case 'file':
-            replaceByEditor(rules, app.workspace.activeLeaf?.view?.editor);
+            replaceByEditor(rules, app.workspace.activeEditor?.editor);
             break;
         case 'folder':
             const currentFolder = app.workspace.getActiveFile().parent.path;
