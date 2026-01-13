@@ -2,6 +2,7 @@
 title: Obsidian 剪藏
 created: 2025-12-02T22:03
 modified: 2025-12-02T22:05
+unlisted: true
 url:
   - https://obsidian.md/clipper
   - https://help.obsidian.md/web-clipper
