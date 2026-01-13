@@ -68,7 +68,6 @@ collapse: true
 - **obsidian-linter**
 - **obsidian-outliner**
 - obsidian-plugin-proxy
-- obsidian-plugin-update-tracker
 - **obsidian-style-settings**
 - obsidian-tasks-plugin
 - obsidian-zoom
