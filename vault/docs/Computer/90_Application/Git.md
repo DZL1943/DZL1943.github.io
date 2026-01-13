@@ -177,7 +177,9 @@ proxy =
 proxy = 
 ```
 
-注意: 仓库内 config 优先级高于 global
+注意: 仓库配置(.git/config)优先级高于global(~/.gitconfig)
+
+查看配置及来源: `git config -l --show-origin`
 
 ### alias
 
