@@ -67,6 +67,7 @@ dv.list(Object.entries(app.metadataCache.unresolvedLinks).filter(([file, links])
 
 ### workspace
 
+- activeEditor
 - activeLeaf
 - getLeaf(newLeaf, direction)
     - If newLeaf is false (or not set) then an existing leaf which can be navigated is returned, or a new leaf will be created if there was no leaf available.
