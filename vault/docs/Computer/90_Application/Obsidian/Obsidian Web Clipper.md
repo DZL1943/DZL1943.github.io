@@ -124,7 +124,7 @@ url:
     },
     {
       "name": "tags",
-      "value": "clippings, av/cg",
+      "value": "clippings, av/51",
       "type": "multitext"
     },
     {
