@@ -11,3 +11,10 @@ modified: 2025-11-22T23:00
 5. 专长 (Expertise)
 6. 驾驭 (Mastery)
 7. 实践智慧 (Practice Wisdom)
+
+简化:
+
+1. 了解 - 普通
+2. 入门 - 业余
+3. 熟练 - 职业
+4. 精通 - 专家
