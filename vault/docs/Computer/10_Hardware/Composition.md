@@ -2,6 +2,7 @@
 title: 硬件组成
 created: 2026-01-05T14:37
 modified: 2026-01-11T20:20
+aliases: [硬件组成]
 ---
 
 - 处理器
@@ -9,8 +10,10 @@ modified: 2026-01-11T20:20
     - [GPU](<GPU.md>)
     - NPU
 - 内存 RAM
+    - LPDDR5x
 - 外存 Disk
-    - SSD
+    - UFS 4.1
+    - SSD(NVMe/PCIe)
     - HDD
 - 显示器 Display
     - LCD
@@ -27,3 +30,4 @@ modified: 2026-01-11T20:20
     - NFC
     - GPS
 - 传感器和接口
+    - USB4
