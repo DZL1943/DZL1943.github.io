@@ -1,6 +1,8 @@
 ---
 created: 2026-01-06T15:07
 modified: 2026-01-11T22:30
+aliases:
+  - 软件
 ---
 
 ## 系统 System
@@ -49,6 +51,7 @@ modified: 2026-01-11T22:30
     - Keka
 - 截屏 Screenshot
     - PixPin
+    - Snipaste
     - [Shottr](https://shottr.cc)
 - 录屏 Screen Recorder
     - OBS
@@ -103,6 +106,7 @@ modified: 2026-01-11T22:30
 - 文档 Document
     - WPS
     - PDFgear
+    - Stirling-PDF
     - Zotero
     - Xmind
 - 密码 Password
@@ -279,21 +283,54 @@ modified: 2026-01-11T22:30
         - Spacemacs
     - [VSCode](<VSCode.md>)
 - IDE
-- UML
+    - JetBrains 系列
+        - IntelliJ IDEA
+        - PyCharm 永久免费
+        - PhpStorm
+        - GoLand
+        - Rider 非商业用途免费
+        - CLion 非商业用途免费
+        - RustRover 非商业用途免费
+        - WebStorm 非商业用途免费
+        - RubyMine 非商业用途免费
+        - DataGrip 非商业用途免费
+        - DataSpell
+        - ReSharper
+    - 数据库类
+        - Navicat
+        - Beekeeper Studio
+        - Bytebase
+    - 设计建模类
+        - drawDB
+        - PowerDesigner
+        - Enterprise Architect
+    - 逆向类
+        - IDA
+        - Ghidra
+        - Radare2
+        - Cutter
+- AI
+    - Agent
+        - OpenCode
+        - Codex
 - VCS
     - [Git](<Git.md>)
     - GitHub
 - CI/CD
+- Automation
+    - Ansible
 - Virtualization & Containerization
     - QEMU/VirtualBox/VMware
     - Docker/Podman
     - Kubernetes
-- Automation
-    - Ansible
 - Web Sever
     - Nginx
     - Caddy
-- Database
+- HTTP
+    - WireShark
+    - HTTP Toolkit
+    - mitmproxy
+    - Whistle
 
 ---
 
