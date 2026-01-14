@@ -1,8 +1,11 @@
 ---
 title: 函数
 created: 2025-01-22T10:59
-modified: 2025-10-13T16:38
+modified: 2026-01-14T19:51
+aliases: [函数]
 ---
+
+# 函数
 
 ## 分类
 

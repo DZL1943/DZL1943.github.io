@@ -12,7 +12,7 @@
       "enabled": true
     },
     "format-yaml-array": {
-      "enabled": false,
+      "enabled": true,
       "alias-key": true,
       "tag-key": true,
       "default-array-style": "single-line",
@@ -49,7 +49,7 @@
       "date-created-source-of-truth": "frontmatter",
       "date-modified-source-of-truth": "file system",
       "convert-to-utc": false,
-      "update-on-file-contents-updated": "never"
+      "update-on-file-contents-updated": "after 1 minute"
     },
     "yaml-title": {
       "enabled": true,

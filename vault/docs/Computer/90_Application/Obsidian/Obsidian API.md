@@ -1,13 +1,15 @@
 ---
 title: Obsidian 内部接口
 created: 2025-10-08T20:39
-modified: 2025-10-14T20:27
+modified: 2026-01-14T19:36
 aliases:
   - Obsidian 接口
 url:
   - https://docs.obsidian.md/Reference/TypeScript+API/index
   - https://github.com/obsidianmd/obsidian-api
 ---
+
+# Obsidian 内部接口
 
 ## app
 

@@ -12,7 +12,9 @@
   "excludedDirectories": [
     "Archives"
   ],
-  "excludedDirectoriesForLinking": [],
+  "excludedDirectoriesForLinking": [
+    "Archives"
+  ],
   "virtualLinkSuffix": "🔗",
   "virtualLinkAliasSuffix": "🔗",
   "useMarkdownLinks": false,

@@ -1,9 +1,12 @@
 ---
+title: 时区
 created: 2026-01-01T18:41
-modified: 2026-01-11T22:17
-url:
-  - https://www.iana.org/time-zones
+modified: 2026-01-14T19:26
+aliases: [时区]
+url: [https://www.iana.org/time-zones]
 ---
+
+# 时区
 
 | 时区 (UTC) | 代表城市 / 地区 | 北京时间对照 (非夏令时) | 备注 (部分地区的夏令时) |
 | :--- | :--- | :--- | :--- |

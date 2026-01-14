@@ -1,7 +1,6 @@
 ---
-title: GTD
 created: 2023-06-08T18:11
-modified: 2025-02-21T09:21
+modified: 2026-01-14T19:50
 url:
   - https://gettingthingsdone.com/
 aliases:

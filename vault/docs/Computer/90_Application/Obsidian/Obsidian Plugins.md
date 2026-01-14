@@ -1,13 +1,15 @@
 ---
 title: Obsidian 插件
 created: 2025-10-08T20:32
-modified: 2025-10-09T08:12
+modified: 2026-01-14T19:35
 url:
   - https://obsidian.md/plugins
   - https://www.obsidianstats.com/
 aliases:
   - Obsidian 插件
 ---
+
+# Obsidian 插件
 
 ```ad-note
 title: 状态分级图例

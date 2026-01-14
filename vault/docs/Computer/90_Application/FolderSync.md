@@ -1,9 +1,10 @@
 ---
 created: 2024-10-14T16:02
-modified: 2024-10-14T16:03
+modified: 2026-01-14T19:33
 url:
   - https://foldersync.io
 ---
+
 # FolderSync
 
 - FolderSync for Android is needed if you want to sync between your Android device and server/cloud.

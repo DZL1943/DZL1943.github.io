@@ -1,10 +1,9 @@
 ---
 created: 2026-01-10T16:01
-modified: 2026-01-10T16:02
+modified: 2026-01-14T19:34
 url: 
   - https://github.com/tmux/tmux/wiki/Getting-Started
 ---
-
 
 ## 命令
 

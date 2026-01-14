@@ -1,11 +1,13 @@
 ---
 title: Obsidian 社区插件
 created: 2025-10-08T21:18
-modified: 2025-10-08T21:19
+modified: 2026-01-14T19:36
 obsidianEditingMode: source
 aliases:
   - Obsidian 社区插件
 ---
+
+# Obsidian 社区插件
 
 ```shell fold title:jq
 jq -n --slurpfile stats Misc/community-plugin-stats.json --slurpfile info Misc/Data/community-plugins.json '

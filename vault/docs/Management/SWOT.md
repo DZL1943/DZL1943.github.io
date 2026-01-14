@@ -1,7 +1,6 @@
 ---
-title: SWOT
 created: 2024-11-22T22:50
-modified: 2024-11-22T22:50
+modified: 2026-01-14T19:50
 ---
 
 - Strengths: characteristics of the business or project that give it an advantage over others

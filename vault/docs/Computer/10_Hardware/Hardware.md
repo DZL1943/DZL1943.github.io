@@ -1,8 +1,11 @@
 ---
 title: 硬件
 created: 2026-01-06T15:05
-modified: 2026-01-11T20:23
+modified: 2026-01-14T19:23
+aliases: [硬件]
 ---
+
+# 硬件
 
 ## 计算
 

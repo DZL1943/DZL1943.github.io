@@ -1,11 +1,9 @@
 ---
 created: 2025-07-22T06:15
-modified: 2026-01-10T19:01
+modified: 2026-01-14T19:03
 url:
   - https://www.python.org/
 ---
-
-# Python
 
 ## [官方文档](https://docs.python.org/)
 

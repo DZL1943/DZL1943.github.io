@@ -1,11 +1,9 @@
 ---
 created: 2024-10-01T17:56
-modified: 2024-10-02T09:51
+modified: 2026-01-14T19:32
 url:
   - https://anytype.io/
 ---
-
-# Anytype
 
 ## 特性
 

@@ -1,7 +1,6 @@
 ---
-title: DISC
 created: 2024-11-22T22:26
-modified: 2024-11-22T22:26
+modified: 2026-01-14T19:50
 ---
 
 - Dominance（支配性）

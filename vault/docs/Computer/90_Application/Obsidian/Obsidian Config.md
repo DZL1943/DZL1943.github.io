@@ -1,10 +1,12 @@
 ---
 title: Obsidian 配置文件
 created: 2025-10-08T20:19
-modified: 2025-10-08T20:30
+modified: 2026-01-14T19:36
 aliases:
   - Obsidian 配置
 ---
+
+# Obsidian 配置文件
 
 ## app.json | 核心配置
 

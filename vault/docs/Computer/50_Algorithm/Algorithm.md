@@ -1,8 +1,11 @@
 ---
+title: 算法
 created: 2023-06-08T18:11
-modified: 2024-05-21T16:59
-aliases: Algorithm
+modified: 2026-01-14T19:25
+aliases: [算法]
 ---
+
+# 算法
 
 ## 算法分析
 
@@ -22,7 +25,7 @@ def kmp_search(text, pattern):
     KMP算法字符串匹配
     :param text: 文本字符串
     :param pattern: 匹配模式字符串
-    :return: 成功匹配的位置列表，若无匹配则返回空列表
+    :return: 成功匹配的位置列表,若无匹配则返回空列表
     """
 
     n = len(text)
@@ -39,17 +42,17 @@ def kmp_search(text, pattern):
 
     for i in range(n):
         while j > 0 and text[i] != pattern[j]:
-            # 不匹配时，回溯到上一个可能的匹配位置，即prefix[j-1]
+            # 不匹配时,回溯到上一个可能的匹配位置,即prefix[j-1]
             j = prefix[j-1]
 
         if text[i] == pattern[j]:
-            # 当前字符匹配，则继续比较下个字符
+            # 当前字符匹配,则继续比较下个字符
             j += 1
 
         if j == m:
-            # 完全匹配时，记录当前匹配位置
+            # 完全匹配时,记录当前匹配位置
             matches.append(i - m + 1)
-            # 回溯到上一个可能的匹配位置，继续查找下一次匹配
+            # 回溯到上一个可能的匹配位置,继续查找下一次匹配
             j = prefix[j-1]
     return matches
 
@@ -81,7 +84,7 @@ def get_prefix(pattern):
 def longest_common_substring(str1, str2):
     m = len(str1)
     n = len(str2)
-    # 二维数组初始化为0，用于记录子问题的解
+    # 二维数组初始化为0,用于记录子问题的解
     dp = [[0] * (n + 1) for _ in range(m + 1)]
     # 记录最长公共子串的长度
     max_length = 0
@@ -106,7 +109,7 @@ def longest_common_substring(str1, str2):
 def longest_common_subsequence(str1, str2):
     m = len(str1)
     n = len(str2)
-    # 二维数组初始化为 0，用于记录子问题的解
+    # 二维数组初始化为 0,用于记录子问题的解
     dp = [[0] * (n + 1) for _ in range(m + 1)]
     for i in range(1, m + 1):
         for j in range(1, n + 1):
@@ -159,8 +162,8 @@ class Solution:
                 # 需要保证 b 的指针在 c 的指针的左侧
                 while second < third and nums[second] + nums[third] > target:
                     third -= 1
-                # 如果指针重合，随着 b 后续的增加
-                # 就不会有满足 a+b+c=0 并且 b<c 的 c 了，可以退出循环
+                # 如果指针重合,随着 b 后续的增加
+                # 就不会有满足 a+b+c=0 并且 b<c 的 c 了,可以退出循环
                 if second == third:
                     break
                 if nums[second] + nums[third] == target:
@@ -211,7 +214,7 @@ def combine(n, k):
             res.append(pth[:])
             return
         for i in range(index, n + 1):
-            # 剪枝操作，如果剩余数字不够填满当前组合，直接跳过
+            # 剪枝操作,如果剩余数字不够填满当前组合,直接跳过
             if len(pth) + (n - i + 1) < k:
                 break
             pth.append(i)
@@ -227,26 +230,26 @@ def combine(n, k):
 
 ```python
 def permute(nums):
-    # 定义回溯函数，first 表示当前要处理的位置
+    # 定义回溯函数,first 表示当前要处理的位置
     def backtrack(first):
-        # 如果已经处理完了所有的数，将当前结果添加到答案数组中，并返回
+        # 如果已经处理完了所有的数,将当前结果添加到答案数组中,并返回
         if first == n:
             res.append(nums[:])
             return
-        # 尝试填入剩余的每个数字，并递归处理下一个位置
+        # 尝试填入剩余的每个数字,并递归处理下一个位置
         for i in range(first, n):
             # 将第 first 个数字与第 i 个数字交换位置
             nums[first], nums[i] = nums[i], nums[first]
             # 递归处理下一个位置
             backtrack(first + 1)
-            # 恢复原有状态，以便进行下一次尝试
+            # 恢复原有状态,以便进行下一次尝试
             nums[first], nums[i] = nums[i], nums[first]
 
     # 计算列表长度
     n = len(nums)
     # 创建答案数组
     res = []
-    # 调用回溯函数，从第 0 个位置开始搜索
+    # 调用回溯函数,从第 0 个位置开始搜索
     backtrack(0)
     # 返回答案数组
     return res

@@ -1,7 +1,6 @@
 ---
-title: MBTI
 created: 2024-04-22T20:39
-modified: 2024-07-31T15:06
+modified: 2026-01-14T19:50
 url:
   - https://www.16personalities.com/
 ---

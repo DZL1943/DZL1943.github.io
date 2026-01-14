@@ -1,10 +1,11 @@
 ---
 title: 下载器
 created: 2024-10-06T19:24
-modified: 2024-10-06T19:24
-aliases:
-  - 下载器
+modified: 2026-01-14T19:30
+aliases: [下载器]
 ---
+
+# 下载器
 
 - [迅雷](https://www.xunlei.com/)
 - [IDM](https://www.internetdownloadmanager.com/)

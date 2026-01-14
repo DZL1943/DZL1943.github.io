@@ -1,13 +1,11 @@
 ---
 title: 手势快捷键
 created: 2024-09-05T09:37
-modified: 2025-07-30T15:37
-excalidraw-plugin: parsed
-tags:
-  - excalidraw
+modified: 2026-01-14T19:29
+tags: [excalidraw]
+aliases: [手势快捷键, 手势]
 excalidraw-open-md: true
-aliases:
-  - 手势
+excalidraw-plugin: parsed
 ---
 
 # 手势快捷键
@@ -101,6 +99,7 @@ Firefox
 # Excalidraw Data
 
 ## Text Elements
+
 上: fn+left ^Y7z77tsR
 
 下: fn+right ^VhGhEOw2
@@ -146,7 +145,9 @@ left space ^TvplmEPJ
 right space ^u1bMVtEu
 
 %%
+
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQBGAA4EmjoghH0EDihmbgBtcDBQMBKIEm4ITAAzIQB9CmZmACEAQQR4gGUAOQBOIwBmfC79fAAxVJLIWEQK3FJSNip+Usxu
 

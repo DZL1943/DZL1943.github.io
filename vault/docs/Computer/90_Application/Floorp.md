@@ -1,7 +1,6 @@
 ---
 created: 2024-08-11T08:16
-modified: 2025-10-13T16:56
-aliases: [Floorp 浏览器, Floorp]
+modified: 2026-01-14T19:32
 ---
 
 Floorp 是一个基于 Firefox ESR 的来自日本开发者的第三方发行版, 内置 TST 和 Gesturefy 插件.

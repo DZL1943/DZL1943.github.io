@@ -1,11 +1,13 @@
 ---
 title: Obsidian 命令
 created: 2025-10-08T20:18
-modified: 2025-10-08T20:30
+modified: 2026-01-14T19:36
 aliases:
   - Obsidian Hotkeys
   - Obsidian 命令
 ---
+
+# Obsidian 命令
 
 ## 常用命令
 

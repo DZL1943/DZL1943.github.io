@@ -1,51 +1,48 @@
 ---
 title: 颜色
 created: 2025-03-13T14:43
-modified: 2025-09-07T18:12
+modified: 2026-01-14T19:44
+aliases: [颜色]
 draft: true
-url:
-  - https://www.colorhexa.com
-  - https://color.adobe.com
-  - https://tailwindcss.com/docs/colors
-  - https://www.w3.org/wiki/CSS/Properties/color/keywords
-  - https://developer.mozilla.org/en-US/docs/Glossary/Color_space
-  - https://colorbox.io
+url: [https://www.colorhexa.com, https://color.adobe.com, https://tailwindcss.com/docs/colors, https://www.w3.org/wiki/CSS/Properties/color/keywords, https://developer.mozilla.org/en-US/docs/Glossary/Color_space, https://colorbox.io]
 ---
+
+# 颜色
 
 ## 色彩模式
 
-- CMYK：印刷四色（青、品红、黄、黑）。
-- RGB：光的三原色，用于数字屏幕。
+- CMYK:印刷四色(青、品红、黄、黑).
+- RGB:光的三原色,用于数字屏幕.
 - HSB
 - LAB
-- Pantone：专色系统，用于精确色彩匹配。
+- Pantone:专色系统,用于精确色彩匹配.
 
 三原色(减法三原色): CMY
-- 原理：混合后吸收（减去）光线，叠加越多颜色越暗。
-- 应用：绘画、CMYK 印刷（青、品红、黄+黑）。
+- 原理:混合后吸收(减去)光线,叠加越多颜色越暗.
+- 应用:绘画、CMYK 印刷(青、品红、黄+黑).
 
 三基色(加法三原色): RGB
-- 原理：混合后增强亮度，叠加越多颜色越接近白色。
-- 应用：显示器、电视、摄影灯光。
+- 原理:混合后增强亮度,叠加越多颜色越接近白色.
+- 应用:显示器、电视、摄影灯光.
 
 ## 三要素
 
-- 色相（Hue）
-- 明度（Brightness/Value）
-- 饱和度（Saturation）
+- 色相(Hue)
+- 明度(Brightness/Value)
+- 饱和度(Saturation)
 
 ## 色系
 
-原色：红、黄、蓝（传统艺术）或红、绿、蓝（光）。  
-间色（二次色）：原色两两混合（橙、绿、紫）。  
-复色（三次色）：原色与间色混合（如红橙、黄绿）。
+原色:红、黄、蓝(传统艺术)或红、绿、蓝(光).  
+间色(二次色):原色两两混合(橙、绿、紫).  
+复色(三次色):原色与间色混合(如红橙、黄绿).
 
-互补色：色环上相对的两种颜色（如红-绿），对比强烈。  
-类似色：相邻的 3-4 种颜色（如蓝、蓝紫、紫），和谐统一。  
-分裂补色：一种颜色与其互补色的两侧颜色组合（平衡对比）。
+互补色:色环上相对的两种颜色(如红-绿),对比强烈.  
+类似色:相邻的 3-4 种颜色(如蓝、蓝紫、紫),和谐统一.  
+分裂补色:一种颜色与其互补色的两侧颜色组合(平衡对比).
 
-冷色：蓝、绿、紫（收缩感，平静）。  
-暖色：红、橙、黄（扩张感，热情）。
+冷色:蓝、绿、紫(收缩感,平静).  
+暖色:红、橙、黄(扩张感,热情).
 
 ## 常见颜色值
 

@@ -1,9 +1,11 @@
 ---
 title: 硬件组成
 created: 2026-01-05T14:37
-modified: 2026-01-11T20:20
+modified: 2026-01-14T19:23
 aliases: [硬件组成]
 ---
+
+# 硬件组成
 
 - 处理器
     - [CPU](<CPU.md>)

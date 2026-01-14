@@ -1,10 +1,12 @@
 ---
 title: Obsidian 代码片段
-created: 2025-10-08T20:23:30
-modified: 2025-10-09T14:41:21
+created: 2025-10-08T20:23
+modified: 2026-01-14T19:35
 aliases:
   - Obsidian 代码片段
 ---
+
+# Obsidian 代码片段
 
 ## UI
 

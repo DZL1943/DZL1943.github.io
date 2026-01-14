@@ -1,12 +1,14 @@
 ---
 title: obsidian 搜索
 created: 2025-08-04T23:33
-modified: 2025-10-08T22:21
+modified: 2026-01-14T19:37
 url:
   - https://help.obsidian.md/plugins/search
 aliases:
   - Obsidian 搜索
 ---
+
+# Obsidian 搜索
 
 ## terms
 

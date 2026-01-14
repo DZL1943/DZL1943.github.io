@@ -1,8 +1,8 @@
 ---
+created: 2026-01-02T00:00
+modified: 2026-01-14T18:42
+tags: [linker-exclude]
 sidebar_position: 1
-created: 2026-01-02
-tags:
-  - linker-exclude
 ---
 
 ## 自然科学

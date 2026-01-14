@@ -1,8 +1,11 @@
 ---
 title: 概率
 created: 2025-02-11T22:48
-modified: 2025-10-13T16:37
+modified: 2026-01-14T19:51
+aliases: [概率]
 ---
+
+# 概率
 
 ## 定义
 

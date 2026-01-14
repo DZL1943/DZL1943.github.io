@@ -1,10 +1,12 @@
 ---
 title: Obsidian 主题
 created: 2025-10-08T20:23
-modified: 2025-10-08T20:31
+modified: 2026-01-14T19:37
 aliases:
   - Obsidian 主题
 ---
+
+# Obsidian 主题
 
 - [x] 默认
 - [ ] [Minimal](https://minimal.guide/)

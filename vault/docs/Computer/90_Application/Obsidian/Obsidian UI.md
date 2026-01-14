@@ -1,10 +1,12 @@
 ---
 title: Obsidian 界面
 created: 2025-10-08T20:22
-modified: 2025-10-08T20:31
+modified: 2026-01-14T19:35
 aliases:
   - Obsidian 界面
 ---
+
+# Obsidian 界面
 
 - 功能区 ribbon
 - 左侧边栏 left sidebar

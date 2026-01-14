@@ -1,13 +1,13 @@
 ---
 title: Obsidian 更新历史
 created: 2025-10-08T20:06
-modified: 2025-10-08T22:10
-aliases:
-  - Obsidian 版本
-  - Obsidian 历史
-url:
-  - https://obsidian.md/changelog
+modified: 2026-01-14T19:34
+aliases: [Obsidian 更新历史, Obsidian 版本, Obsidian 历史]
+url: [https://obsidian.md/changelog]
 ---
+
+# Obsidian 更新历史
+
 %%[list2lt]%%
 - 0.x
     - 2020-03-30 | 0.0.1

@@ -1,12 +1,14 @@
 ---
 title: Obsidian 属性
 created: 2025-10-10T14:55
-modified: 2025-10-10T15:00
+modified: 2026-01-14T19:37
 url:
   - https://help.obsidian.md/properties
 aliases:
   - Obsidian 属性
 ---
+
+# Obsidian 属性
 
 - 复选框 checkbox
 - 日期 date
