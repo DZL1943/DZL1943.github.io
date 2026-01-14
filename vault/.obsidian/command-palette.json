@@ -1,0 +1,9 @@
+{
+  "pinned": [
+    "editor:toggle-source",
+    "insert-current-date",
+    "insert-current-time",
+    "editor:attach-file",
+    "editor:download-attachments"
+  ]
+}
