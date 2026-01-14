@@ -1,10 +1,11 @@
 ---
-title: 数学
 created: 2025-01-22 10:15
 modified: 2025-01-22 10:15
 url:
   - https://en.wikipedia.org/wiki/Mathematics
   - https://zbmath.org/classification/
+aliases:
+  - 数学
 ---
 
 ## 纯数学
