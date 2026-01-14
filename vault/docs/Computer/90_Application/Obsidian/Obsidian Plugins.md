@@ -1,7 +1,7 @@
 ---
 title: Obsidian 插件
 created: 2025-10-08T20:32
-modified: 2026-01-14T19:35
+modified: 2026-01-15T00:00
 url:
   - https://obsidian.md/plugins
   - https://www.obsidianstats.com/
@@ -29,6 +29,14 @@ collapse: true
         - [-] 废弃
 - [ ] 未知
 ```
+
+## Categories
+
+- 本体类: 对主程序核心交互、功能进行改进
+- 编辑类: 增强编辑体验
+- 渲染类: 影响笔记的内容和预览显示效果
+- 扩展类: 带来新的常驻功能玩法
+- 辅助类: 提供可按需运行的工具命令
 
 ## Awesome
 
