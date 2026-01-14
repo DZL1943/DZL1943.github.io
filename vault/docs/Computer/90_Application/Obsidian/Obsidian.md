@@ -6,7 +6,7 @@ url:
 ---
 
 - 入门 Introduction
-    - 下载安装 Install
+    - 下载安装 Installation
     - 基础设置 Settings
         - 编辑器 Editor
         - 文件与链接 File & Link
