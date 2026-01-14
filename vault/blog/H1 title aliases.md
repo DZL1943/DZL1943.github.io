@@ -2,7 +2,10 @@
 title: H1、title 和 aliases
 created: 2026-01-14T19:39
 modified: 2026-01-14T19:40
-aliases: [H1、title 和 aliases]
+aliases:
+  - H1、title 和 aliases
+tags:
+  - markdown
 ---
 
 # H1、title 和 aliases
