@@ -1,10 +1,11 @@
 ---
-title: Obsidian 插件
 created: 2025-10-08T20:32
 modified: 2025-10-09T08:12
 url:
   - https://obsidian.md/plugins
   - https://www.obsidianstats.com/
+aliases:
+  - Obsidian 插件
 ---
 
 ```ad-note

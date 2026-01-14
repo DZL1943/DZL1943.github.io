@@ -1,10 +1,9 @@
 ---
-title: Obsidian 历史
 created: 2025-10-08T20:06
 modified: 2025-10-08T22:10
 aliases:
-  - obsidian 版本
-  - obsidian 历史
+  - Obsidian 版本
+  - Obsidian 历史
 url:
   - https://obsidian.md/changelog
 ---

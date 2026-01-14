@@ -2,7 +2,7 @@
 created: 2025-10-08T20:39
 modified: 2025-10-14T20:27
 aliases:
-  - obsidian 接口
+  - Obsidian 接口
 url:
   - https://docs.obsidian.md/Reference/TypeScript+API/index
   - https://github.com/obsidianmd/obsidian-api

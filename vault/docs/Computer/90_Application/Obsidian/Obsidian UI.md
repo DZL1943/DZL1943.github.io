@@ -1,7 +1,8 @@
 ---
-title: Obsidian 界面
 created: 2025-10-08T20:22
 modified: 2025-10-08T20:31
+aliases:
+  - Obsidian 界面
 ---
 
 - 功能区 ribbon

@@ -1,9 +1,9 @@
 ---
-title: Obsidian 命令
 created: 2025-10-08T20:18
 modified: 2025-10-08T20:30
 aliases:
-  - obsidian hotkeys
+  - Obsidian Hotkeys
+  - Obsidian 命令
 ---
 
 ## 常用命令

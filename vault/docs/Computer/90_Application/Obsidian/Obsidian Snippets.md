@@ -1,5 +1,4 @@
 ---
-title: Obsidian 代码片段
 created: 2025-10-08T20:23:30
 modified: 2025-10-09T14:41:21
 aliases:

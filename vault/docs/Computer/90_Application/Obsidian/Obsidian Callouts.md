@@ -2,8 +2,8 @@
 created: 2025-05-16T14:02
 modified: 2025-10-08T22:10
 aliases:
-  - obsidian callouts
-  - obsidian 标注
+  - Obsidian Callouts
+  - Obsidian 标注
 ---
 
 > [!quote] 引用

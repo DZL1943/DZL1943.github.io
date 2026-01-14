@@ -1,8 +1,9 @@
 ---
-title: Obsidian 社区插件
 created: 2025-10-08T21:18
 modified: 2025-10-08T21:19
 obsidianEditingMode: source
+aliases:
+  - Obsidian 社区插件
 ---
 
 ```shell fold title:jq
