@@ -2,11 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-01-11T03:23:23.000Z</updated>
+    <updated>2026-01-14T19:39:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[H1、title 和 aliases]]></title>
+        <id>https://dzl1943.github.io/blog/H1 title aliases</id>
+        <link href="https://dzl1943.github.io/blog/H1 title aliases"/>
+        <updated>2026-01-14T19:39:00.000Z</updated>
+        <summary type="html"><![CDATA[原则:]]></summary>
+        <content type="html"><![CDATA[<p>原则:</p>
+<ul>
+<li class="">尽量不要添加 H1, 因为在嵌入的时候会冗余</li>
+<li class="">title 用于覆盖文件名, 一般同时也应添加 aliases</li>
+<li class="">避免同时包含 H1 和 title</li>
+</ul>
+<p>实践:</p>
+<ul>
+<li class="">如果文件名与标题一致, 则无需 H1、title、aliases</li>
+<li class="">如果文件名与标题不一致, 且想用标题覆盖文件名<!-- -->
+<ul>
+<li class="">添加 H1</li>
+<li class="">然后用 linter 自动添加 title、aliases</li>
+</ul>
+</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub 仓库分类]]></title>
         <id>https://dzl1943.github.io/blog/GitHub 仓库分类</id>
@@ -1051,30 +1074,6 @@
 <li class="">□</li>
 <li class="">◇</li>
 <li class="">⭐️ 重点</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[操作系统评价]]></title>
-        <id>https://dzl1943.github.io/blog/操作系统评价</id>
-        <link href="https://dzl1943.github.io/blog/操作系统评价"/>
-        <updated>2025-01-02T09:07:00.000Z</updated>
-        <summary type="html"><![CDATA[%%[list2col]%%]]></summary>
-        <content type="html"><![CDATA[<p>%%[list2col]%%</p>
-<ul>
-<li class="">Windows<!-- -->
-<ul>
-<li class="">外在: 毫无品味</li>
-<li class="">内在: 屎山</li>
-<li class="">能力: 强</li>
-</ul>
-</li>
-<li class="">macOS<!-- -->
-<ul>
-<li class="">外在: 优雅专注</li>
-<li class="">内在: 还行?</li>
-<li class="">能力: 仅在擅长的领域很强, 如办公、文艺创作, 尤其不适用打游戏</li>
-</ul>
-</li>
 </ul>]]></content>
     </entry>
 </feed>
