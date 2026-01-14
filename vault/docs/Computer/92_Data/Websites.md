@@ -2,8 +2,10 @@
 title: 网站
 created: 2025-09-11T10:35
 modified: 2026-01-14T20:38
-aliases: [网站]
+aliases:
+  - 网站
 kanban-plugin: board
+draft: true
 ---
 
 # 网站
