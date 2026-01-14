@@ -311,6 +311,7 @@ aliases:
         - Cutter
 - AI
     - Agent
+        - Claude Code
         - OpenCode
         - Codex
 - VCS
