@@ -1,4 +1,5 @@
 ---
+title: 手势快捷键
 created: 2024-09-05T09:37
 modified: 2025-07-30T15:37
 excalidraw-plugin: parsed
