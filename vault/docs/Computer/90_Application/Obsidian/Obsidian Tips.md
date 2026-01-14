@@ -1,4 +1,5 @@
 ---
+title: Obsidian 问题技巧
 created: 2025-10-08T20:39
 modified: 2025-10-08T21:13
 aliases:

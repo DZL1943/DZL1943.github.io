@@ -1,4 +1,5 @@
 ---
+title: 思源笔记
 created: 2024-08-30T17:58
 modified: 2025-10-13T17:03
 aliases:
@@ -1718,7 +1719,5 @@ https://blog.musnow.top/posts/1950951389
     - 日记
     - 闪卡
     - AI
-
-# Footnotes
 
 [^1]: 灵活性还是不如 Notion

@@ -1,4 +1,5 @@
 ---
+title: Obsidian 内部接口
 created: 2025-10-08T20:39
 modified: 2025-10-14T20:27
 aliases:

@@ -1,4 +1,5 @@
 ---
+title: Obsidian 配置文件
 created: 2025-10-08T20:19
 modified: 2025-10-08T20:30
 aliases:

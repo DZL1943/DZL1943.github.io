@@ -1,4 +1,5 @@
 ---
+title: Obsidian 属性
 created: 2025-10-10T14:55
 modified: 2025-10-10T15:00
 url:

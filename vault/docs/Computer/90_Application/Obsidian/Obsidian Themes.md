@@ -1,4 +1,5 @@
 ---
+title: Obsidian 主题
 created: 2025-10-08T20:23
 modified: 2025-10-08T20:31
 aliases:
