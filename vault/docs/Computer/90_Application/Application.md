@@ -281,7 +281,7 @@ aliases:
         - LazyVim
     - Emacs
         - Spacemacs
-    - [VSCode](<VSCode.md>)
+    - [VSCode](<Dev/VSCode.md>)
 - IDE
     - JetBrains 系列
         - IntelliJ IDEA
@@ -315,7 +315,7 @@ aliases:
         - OpenCode
         - Codex
 - VCS
-    - [Git](<Git.md>)
+    - [Git](<Dev/Git.md>)
     - GitHub
 - CI/CD
 - Automation
