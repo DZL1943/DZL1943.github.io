@@ -135,6 +135,19 @@
 <p><img decoding="async" loading="lazy" src="https://dzl1943.github.io/assets/images/my-d8s-home-771363714874248d7a2d286322a37020.png" width="2502" height="1908" class="img_ev3q"></p>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Emacs Vs Vim]]></title>
+        <id>https://dzl1943.github.io/blog/Emacs Vs Vim</id>
+        <link href="https://dzl1943.github.io/blog/Emacs Vs Vim"/>
+        <updated>2025-12-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Vim 的特色在于多模态及其按键设计.]]></summary>
+        <content type="html"><![CDATA[<p>Vim 的特色在于多模态及其按键设计.</p>
+<p>Emacs 是一整个由 Lisp 驱动的文本(buffer)处理系统, 而不只是一个编辑器.</p>
+<p>就编辑器而言, Vim (的按键设定)更胜;
+但论深度定制能力, Emacs 更强?</p>
+<p>简而言之, Vim 是一个编辑器, Emacs 则是一整套文本处理系统.</p>
+<p>Emacs 成也 Lisp, 败也 Lisp.</p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Git Reset]]></title>
         <id>https://dzl1943.github.io/blog/Git Reset</id>
         <link href="https://dzl1943.github.io/blog/Git Reset"/>
@@ -451,6 +464,262 @@
 </ul>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[obsidian 日记组织方式探究]]></title>
+        <id>https://dzl1943.github.io/blog/obsidian 日记组织方式探究</id>
+        <link href="https://dzl1943.github.io/blog/obsidian 日记组织方式探究"/>
+        <updated>2025-10-11T05:19:00.000Z</updated>
+        <summary type="html"><![CDATA[按周期]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按周期">按周期<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="按周期的直接链接" title="按周期的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">Daily/</li>
+<li class="">Weekly/</li>
+<li class="">Monthly/</li>
+<li class="">Quarterly/</li>
+<li class="">Yearly/</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年份">按年份<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4%E4%BB%BD" class="hash-link" aria-label="按年份的直接链接" title="按年份的直接链接" translate="no">​</a></h2>
+<p>%% moment 格式 %%</p>
+<ul>
+<li class="">YYYY/<!-- -->
+<ul>
+<li class="">YYYY-MM-DD</li>
+<li class="">GGGG-[W]WW</li>
+<li class="">YYYY-MM</li>
+<li class="">YYYY-[Q]Q</li>
+<li class="">YYYY</li>
+</ul>
+</li>
+</ul>
+<p>%% luxon 格式 %%</p>
+<ul>
+<li class="">yyyy/<!-- -->
+<ul>
+<li class="">yyyy-MM-dd</li>
+<li class="">kkkk-'W'WW</li>
+<li class="">yyyy-MM</li>
+<li class="">yyyy-'Q'q</li>
+<li class="">yyyy</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年份和周期">按年份和周期<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4%E4%BB%BD%E5%92%8C%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="按年份和周期的直接链接" title="按年份和周期的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年-季-月-周-日">按年-季-月-周-日<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4-%E5%AD%A3-%E6%9C%88-%E5%91%A8-%E6%97%A5" class="hash-link" aria-label="按年-季-月-周-日的直接链接" title="按年-季-月-周-日的直接链接" translate="no">​</a></h2>
+<p>方案一</p>
+<ul>
+<li class="">年<!-- -->
+<ul>
+<li class="">季<!-- -->
+<ul>
+<li class="">月<!-- -->
+<ul>
+<li class="">日</li>
+</ul>
+</li>
+<li class="">周</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>方案二</p>
+<ul>
+<li class="">年<!-- -->
+<ul>
+<li class="">季<!-- -->
+<ul>
+<li class="">周</li>
+</ul>
+</li>
+<li class="">月<!-- -->
+<ul>
+<li class="">日</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[obsidian wiki 链接尝试]]></title>
+        <id>https://dzl1943.github.io/blog/obsidian wiki 链接尝试</id>
+        <link href="https://dzl1943.github.io/blog/obsidian wiki 链接尝试"/>
+        <updated>2025-09-20T16:20:00.000Z</updated>
+        <summary type="html"><![CDATA[对于 Obsidian 的用法, 目前主要可以归为两大阵营:]]></summary>
+        <content type="html"><![CDATA[<p>对于 Obsidian 的用法, 目前主要可以归为两大阵营:</p>
+<ul>
+<li class="">传统阵营: md 链接 + 文件夹 %% 兼容性好, 稳定可控, 缺点是需要自顶向下设计, 灵活性差 %%</li>
+<li class="">原生阵营: wiki 链接 + 双链 %% 兼容性一般, 不易于掌控, 优点是自底向上, 灵活性高 %%<!-- -->
+<ul>
+<li class="">数据库 %% 我发现 bases 其实就是文件夹的一种替代. 而且分类信息本就应该由笔记自身持有. %%</li>
+</ul>
+</li>
+</ul>
+<p>很多人可能会反驳说 wiki 链接 + 文件夹也是不冲突的.<br>
+<!-- -->但是, 如果我要求链接的类型是 shortest 呢<br>
+<!-- -->假如使用文件夹</p>
+<ul>
+<li class="">如果存在冲突, 那么链接必然退化为路径</li>
+<li class="">如果不存在冲突, 又何必要用? 而且破坏了链接与相对路径的等价.</li>
+</ul>
+<p>那不用文件夹, 用什么?<br>
+<!-- -->用属性和双链. %% 注意: 这得在你取消文件夹之前完成 %%<br>
+<!-- -->写在笔记的属性里, 比如 Categories. %% 不就相当于标签吗 %%</p>
+<p>Minimal 主题作者、Obsidian CEO 的用法: <a href="https://stephango.com/vault" target="_blank" rel="noopener noreferrer" class="">How I use Obsidian — Steph Ango</a></p>
+<ul>
+<li class="">Daily: 每日笔记, 纯链接用</li>
+<li class=""><del>Categories</del>: MOC? 可以通过 <code>categories.contains(link("xxx"))</code> 在 Base 中过滤 %% 记不住有哪些 categories 怎么办? 不过感觉用来管理 jottings 还是可以的 %%</li>
+<li class=""><del>Notes</del>: 实际实践中会和 Categories 中的内容一并置于根目录下 %% 我觉得或许有必要区分正式的和非正式的(闪念) %%</li>
+<li class="">References: where I write about things that exist outside my world? %% 相当于 PARA 中的 Resources %%</li>
+<li class="">Clippings: 剪藏摘录(其他人写的内容)</li>
+<li class="">Attachments: 附件(图片、音频、视频、PDF 等)</li>
+<li class="">Templates<!-- -->
+<ul>
+<li class="">Bases</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>[!note]+ 意见和想法补充</p>
+<ul>
+<li class="">inbox、archives 由 status 字段实现 (不方便用 git 管理)</li>
+<li class="">canvas、excalidraw 存放位置?</li>
+<li class="">增加 Scripts 目录存放 Templater、QuickAdd 等脚本文件</li>
+<li class="">相比 PARA 如何?</li>
+</ul>
+</blockquote>
+<p>属性和模板</p>
+<hr>
+<p>如何实施、过渡?</p>
+<ol>
+<li class="">调整顶层目录结构, 从 Pages 拆分出 References (或者反向操作)</li>
+<li class="">针对每个现有文件夹<!-- -->
+<ol>
+<li class="">建立类似 foldernote 的 moc, 并关联到上级 moc</li>
+<li class="">调整笔记内容, 给现有笔记添加分类属性和值</li>
+<li class="">拆除文件夹</li>
+</ol>
+</li>
+<li class="">更改链接格式</li>
+</ol>
+<h1>后记</h1>
+<p>[question+ Pages 中剩下的内容如何组织?]</p>
+<ul>
+<li class="">感觉 Jottings 有点多余?</li>
+<li class="">References 的主观部分有待商榷. 可能只适用纯知识类的, 主题经验类的不太合适.</li>
+</ul>
+<p>[note+ before]</p>
+<ul>
+<li class="">Pages: 所有内容统一在一起, 用文件夹分类. 缺点是不太能够区分纯参考性的笔记和个人原创性笔记.</li>
+</ul>
+<p>[note+ after]</p>
+<ul>
+<li class="">Pages: 仅保留个人笔记</li>
+<li class="">Thoughts: 思想认知类笔记</li>
+<li class="">References: 参考性笔记(不排除包含主观部分)</li>
+</ul>
+<p>::: note+ full</p>
+<p>[list2dt]</p>
+<ul>
+<li class="">Inbox/ | 临时文件 (同步, 私有)<!-- -->
+<ul>
+<li class="">Local/ | 本地文件 (不同步)</li>
+</ul>
+</li>
+<li class="">Journals/ | 日记等</li>
+<li class="">Jottings/ | 非正式笔记、闪念</li>
+<li class="">Pages/ | 个人笔记? 排除参考性笔记、思想笔记</li>
+<li class="">Thoughts/ | 思想认知类 (不同于简单的 opinion)</li>
+<li class="">References/ | 参考性笔记(不排除包含主观成分)</li>
+<li class="">Clippings/ | 剪藏</li>
+<li class="">Attachments/ | 附件</li>
+<li class="">Templates/ | 模板</li>
+<li class="">Misc/ | 其他</li>
+<li class="">Ext/ | 外部链接文件</li>
+</ul>
+<p>:::</p>
+<p>::: note+ vs PARA</p>
+<ul>
+<li class="">Projects: 用 Inbox 兼替</li>
+<li class="">Areas: 相当于 Pages + Thoughts</li>
+<li class="">Resources: 相当于 References + Clippings</li>
+<li class="">Archives</li>
+</ul>
+<p>缺失 Jottings</p>
+<p>:::</p>
+<p>本质上还是笔记分类的问题<br>
+<!-- -->只有先解决了笔记分类的问题才能进一步决定笔记的组织结构.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[obsidian 目录排序]]></title>
+        <id>https://dzl1943.github.io/blog/obsidian 目录排序</id>
+        <link href="https://dzl1943.github.io/blog/obsidian 目录排序"/>
+        <updated>2025-09-19T21:50:00.000Z</updated>
+        <summary type="html"><![CDATA[引言]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="引言">引言<a href="https://dzl1943.github.io/blog/obsidian%20%E7%9B%AE%E5%BD%95%E6%8E%92%E5%BA%8F#%E5%BC%95%E8%A8%80" class="hash-link" aria-label="引言的直接链接" title="引言的直接链接" translate="no">​</a></h2>
+<p>众所周知, 在 obsidian 中的目录和文件(以下简称目录或文件)默认是没办法自定义排序的.<br>
+<!-- -->毕竟在系统层面也是如此.</p>
+<p>目前应用内的解决方案大体上分两种</p>
+<ul>
+<li class="">为自带的"文件列表"开发排序插件. 例如<!-- -->
+<ul>
+<li class="">Manual Sorting</li>
+<li class="">Custom File Explorer sorting</li>
+</ul>
+</li>
+<li class="">开发一个"文件列表"的替代品, 包含自定义排序功能. 例如<!-- -->
+<ul>
+<li class="">File Tree Alternative %% 一年以上未更新, 有一些问题, 功能一般, 兼容性还行 %%</li>
+<li class="">MAKE.md %% 主打 database, 功能过于庞杂 %%</li>
+<li class="">FolderFile Splitter %% 功能较少, 兼容性不足 %%</li>
+<li class="">Notebook Navigator %% 功能相对全面, 兼容性待提升 %%</li>
+</ul>
+</li>
+</ul>
+<p>这两种方案几乎是不相容的.</p>
+<p>所以, 对命名进行编号几乎是唯一可行的方案, 也是通用性最好的方案.</p>
+<p>但是改变命名会牵扯到很多配置的修改.<br>
+<!-- -->并且通常我们还期望一套配置能够适用多个场景而无需变动.</p>
+<p>所以, 这对我们的命名方案有极高要求.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="编号命名排序法">编号命名排序法<a href="https://dzl1943.github.io/blog/obsidian%20%E7%9B%AE%E5%BD%95%E6%8E%92%E5%BA%8F#%E7%BC%96%E5%8F%B7%E5%91%BD%E5%90%8D%E6%8E%92%E5%BA%8F%E6%B3%95" class="hash-link" aria-label="编号命名排序法的直接链接" title="编号命名排序法的直接链接" translate="no">​</a></h2>
+<p>理论上文件的命名比编程中的命名要宽松一些.<br>
+<!-- -->但为了保证跨平台的一致性, 建议仅用字母和数字(以及<code>_</code>, 仅连接用, 不要纠结其编码排序)</p>
+<p>简化后的排序规则: 数字 &gt; 字母(大写 &gt; 小写, 但通常系统不会区分)</p>
+<ul>
+<li class="">00~9z<!-- -->
+<ul>
+<li class="">00~0z</li>
+<li class="">10~8z</li>
+<li class="">90~9z</li>
+</ul>
+</li>
+<li class="">a0~zz %% 不稳定 %%</li>
+</ul>
+<p>优先保持正常不变. 避免数字、字母选择的随意性, 并尽可能预留冲突扩展空间.</p>
+<p>需求实例:</p>
+<ol>
+<li class="">00_Inbox: 置顶?</li>
+<li class="">a0_Private</li>
+<li class="">b0_Jottings</li>
+<li class="">c0_Pages</li>
+<li class="">z6_Projects</li>
+<li class="">z7_Areas</li>
+<li class="">z8_Resources</li>
+<li class="">z9_Archives: 置底但需与 P.A.R.A. 一起 %% 为什么不能用 9x, 因为那样的话前面就只能是数字开头了 %%</li>
+<li class="">zz_Misc: 置底</li>
+<li class="">Ext: 置底?</li>
+</ol>
+<p>最终的修改与效果</p>
+<ul>
+<li class="">_Inbox: 移除了编号, 使其更加简洁稳定, 同时尽可能置顶(<code>_</code>可以确定在小写字母之前, 在<strong>自然排序</strong>下能在数字之前)</li>
+<li class="">01_Private: 为了超过 Archives, 只能改用数字, 并且为了不影响其他已有编号, 限定在 0 开头内(牺牲了扩展空间)</li>
+<li class="">02_Jottings: 同上</li>
+<li class="">03_Pages: 同上</li>
+<li class="">Archives: 因为我不需要完整的 P.A.R.A., 所以这里的简化是 ok 的</li>
+<li class="">Ext</li>
+<li class="">Misc</li>
+</ul>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[电子设备]]></title>
         <id>https://dzl1943.github.io/blog/电子设备</id>
         <link href="https://dzl1943.github.io/blog/电子设备"/>
@@ -539,361 +808,275 @@
 </ul>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[命令行软件替代]]></title>
-        <id>https://dzl1943.github.io/blog/命令行软件替代</id>
-        <link href="https://dzl1943.github.io/blog/命令行软件替代"/>
-        <updated>2024-07-25T17:45:00.000Z</updated>
-        <summary type="html"><![CDATA[- cd: zoxide/yazi]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li class="">cd: zoxide/yazi</li>
-<li class="">tree: broot</li>
-<li class="">ls: lsd, eza</li>
-<li class="">cat: bat</li>
-<li class="">less: ov</li>
-<li class="">find: fd/fzf</li>
-<li class="">grep: ripgrep</li>
-<li class="">sed: sd</li>
-<li class="">du: dust</li>
-<li class="">df: duf</li>
-<li class="">top: btop/bottom/glances</li>
-<li class="">ps: procs</li>
-<li class="">diff: diff-so-fancy</li>
-<li class="">cut: choose</li>
-<li class="">wc: <del>tokei</del></li>
-<li class="">curl: httpx/xh</li>
-<li class="">vim: neovim, helix</li>
-<li class="">tmux: zellij</li>
-<li class="">tldr: tealdeer</li>
-<li class="">history: mcfly</li>
+        <title type="html"><![CDATA[obsidian 搜索问题记录]]></title>
+        <id>https://dzl1943.github.io/blog/202508042336</id>
+        <link href="https://dzl1943.github.io/blog/202508042336"/>
+        <updated>2025-08-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[问题 1]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="问题-1">问题 1<a href="https://dzl1943.github.io/blog/202508042336#%E9%97%AE%E9%A2%98-1" class="hash-link" aria-label="问题 1的直接链接" title="问题 1的直接链接" translate="no">​</a></h2>
+<p>在 obsidian 搜索中, 当搜索词包含方括号<code>[</code>等特殊符号应如何正确处理?</p>
+<ul>
+<li class="">用引号包裹搜索词</li>
+<li class="">转义?</li>
+</ul>
+<p>例如需全库搜索<code>[list2*]</code>, 其中<code>*</code>指代任意个任意字符, 例如 <code>[list2table]</code>、<code>[list2lt]</code>、<code>[list2ut]</code>.</p>
+<p>以<code>[list2table]</code>为例,</p>
+<ul>
+<li class="">首先搜索词需要用引号包裹(否则中括号是搜索属性的语法),</li>
+<li class="">其次需完整输入<code>"[list2table]"</code>方能匹配 (例如<code>"[list2tab]"</code>是搜索不到的), why?</li>
+<li class=""><code>"\[list2table\]"</code> 这样加上转义没有影响, why?</li>
+</ul>
+<p>解释:</p>
+<ul>
+<li class="">引号包裹即意味着精确搜索, 在其中无需转义</li>
+<li class="">正确做法是用正则表达式 <code>/\[.*list2.*\]/</code></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="问题-2">问题 2<a href="https://dzl1943.github.io/blog/202508042336#%E9%97%AE%E9%A2%98-2" class="hash-link" aria-label="问题 2的直接链接" title="问题 2的直接链接" translate="no">​</a></h2>
+<p>对于问题 1, 在提问者已经阅读官方文档、已在互联网进行搜索并验证测试后, 是否有必要问 AI?</p>
+<p>有. 因为 AI 的理解可能更细致到位, 虽然可能因为局限性不解决问题, 但仍具备参考价值.</p>
+<p>事实上, 很多问题在被规范描述后都能得到解决, <strong>详细、准确、规范地描述问题是关键</strong>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="问题-3">问题 3<a href="https://dzl1943.github.io/blog/202508042336#%E9%97%AE%E9%A2%98-3" class="hash-link" aria-label="问题 3的直接链接" title="问题 3的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">何时无需问 AI?<!-- -->
+<ul>
+<li class="">掌握更为权威的相关知识</li>
+<li class="">知晓更为优先的解决渠道</li>
+</ul>
+</li>
+<li class="">AI 的适用边界是什么?</li>
 </ul>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[计算机专业书籍]]></title>
-        <id>https://dzl1943.github.io/blog/计算机专业书籍</id>
-        <link href="https://dzl1943.github.io/blog/计算机专业书籍"/>
-        <updated>2024-07-14T13:23:00.000Z</updated>
-        <summary type="html"><![CDATA[- 数学]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li class="">数学<!-- -->
+        <title type="html"><![CDATA[选项标记体系]]></title>
+        <id>https://dzl1943.github.io/blog/选项标记体系</id>
+        <link href="https://dzl1943.github.io/blog/选项标记体系"/>
+        <updated>2025-03-11T07:28:00.000Z</updated>
+        <summary type="html"><![CDATA[选项(后)]]></summary>
+        <content type="html"><![CDATA[<p>选项(后)</p>
 <ul>
-<li class="">《离散数学》</li>
-<li class="">《具体数学》</li>
-<li class="">《程序员数学》</li>
+<li class="">✓ 正确</li>
+<li class="">⍻ 部分正确</li>
+<li class="">✕ 错误</li>
+<li class="">? 不确定</li>
 </ul>
-</li>
-<li class="">组成原理<!-- -->
+<p>选择(前)</p>
 <ul>
-<li class="">《深入理解计算机系统》</li>
-<li class="">《计算机体系结构》</li>
-<li class="">《计算机组成与设计》</li>
+<li class="">✓ 必选</li>
+<li class="">○ 优选</li>
+<li class="">_  备选</li>
+<li class="">\  排除</li>
 </ul>
-</li>
-<li class="">数字电路、单片机</li>
-<li class="">汇编 &amp; C<!-- -->
+<p>选题</p>
 <ul>
-<li class="">《现代X86汇编语言程序设计》</li>
-<li class="">《汇编语言程序设计》</li>
-<li class="">《汇编语言》-王爽</li>
-<li class="">《X86 汇编语言: 从实模式到保护模式》</li>
-<li class="">《C 程序设计语言》</li>
-<li class="">《C 标准库》</li>
-<li class="">《C 和指针》</li>
-<li class="">《C 语言程序设计: 现代方法》</li>
-<li class="">《C 语言接口与实现》</li>
-<li class="">《嵌入式C语言自我修养: 从芯片、编译器到操作系统 》</li>
-</ul>
-</li>
-<li class="">操作系统<!-- -->
-<ul>
-<li class="">《操作系统导论》</li>
-<li class="">《操作系统设计与实现》</li>
-<li class="">《30 天自制操作系统》</li>
-<li class="">《操作系统真相还原》</li>
-<li class="">《一个64位操作系统的设计与实现》</li>
-<li class=""><a href="https://pdos.csail.mit.edu/6.S081/2021/index.html" target="_blank" rel="noopener noreferrer" class="">https://pdos.csail.mit.edu/6.S081/2021/index.html</a></li>
-<li class=""><a href="https://www.linuxfromscratch.org/" target="_blank" rel="noopener noreferrer" class="">https://www.linuxfromscratch.org/</a></li>
-<li class="">《Linux 内核 0.11 完全注释》</li>
-<li class="">《Linux 内核设计与实现》</li>
-<li class="">《深入理解 Linux 内核》</li>
-<li class="">《UNIX 环境高级编程》</li>
-<li class="">《Linux 命令行大全》</li>
-<li class="">《Linux/UNIX系统编程手册》</li>
-</ul>
-</li>
-<li class="">编译器<!-- -->
-<ul>
-<li class="">《程序员的自我修养》</li>
-<li class="">《程序设计语言: 实践之路》</li>
-<li class="">《计算机程序的构造和解释》</li>
-<li class="">《现代编译原理》(虎书)</li>
-<li class="">《高级编译器设计与实现》(鲸书)</li>
-<li class="">《编译器设计》</li>
-<li class="">《自制编程语言》</li>
-</ul>
-</li>
-<li class="">数据结构与算法<!-- -->
-<ul>
-<li class="">《计算机程序设计艺术》</li>
-<li class="">《数据结构与算法分析》</li>
-<li class="">《算法导论》</li>
-<li class="">《算法》-Robert Sedgewick</li>
-<li class="">《算法设计手册》</li>
-<li class="">《算法设计》</li>
-<li class="">《算法详解》</li>
-<li class="">《算法竞赛》</li>
-<li class="">《算法图解》</li>
-<li class="">《大话数据结构》</li>
-<li class="">《编程珠玑》</li>
-<li class="">《编程之美》</li>
-<li class="">《程序员代码面试指南》</li>
-<li class="">《剑指 Offer》</li>
-<li class="">《STL 源码剖析》</li>
-<li class="">《Redis 设计与实现》</li>
-<li class=""><a href="https://oi-wiki.org/" target="_blank" rel="noopener noreferrer" class="">https://oi-wiki.org</a></li>
-</ul>
-</li>
-<li class="">数据库<!-- -->
-<ul>
-<li class="">《数据库系统概念》</li>
-<li class="">《数据库系统实现》</li>
-<li class="">《SQL 必知必会》</li>
-<li class="">《SQL 基础教程》</li>
-<li class="">《SQL 进阶教程》</li>
-<li class="">《收获, 不止 Oracle》</li>
-</ul>
-</li>
-<li class="">计算机网络<!-- -->
-<ul>
-<li class="">《计算机网络: 自顶向下方法》</li>
-<li class="">《TCP/IP 详解》</li>
-<li class="">《UNIX 网络编程》</li>
-<li class="">《深入理解LINUX网络内幕》</li>
-<li class="">《Wireshark 网络分析的艺术》</li>
-<li class="">《HTTP 权威指南》</li>
-</ul>
-</li>
-<li class="">软件工程<!-- -->
-<ul>
-<li class="">《设计模式》</li>
-<li class="">《图解设计模式》</li>
-<li class="">《深入浅出设计模式》</li>
-<li class="">《代码大全》</li>
-<li class="">《重构》</li>
-<li class="">《数据密集型应用系统设计》</li>
-<li class="">《深入理解分布式系统》</li>
-<li class="">《微服务架构设计模式》</li>
-</ul>
-</li>
-<li class="">计算机图形学</li>
-<li class="">机器学习<!-- -->
-<ul>
-<li class="">《机器学习》</li>
-<li class="">《机器学习》-周志华</li>
-<li class="">《深度学习入门》</li>
-</ul>
-</li>
-<li class="">前端<!-- -->
-<ul>
-<li class="">CSS<!-- -->
-<ul>
-<li class="">《深入解析 CSS》</li>
-<li class="">《CSS 揭秘》</li>
-<li class="">《CSS 选择器世界》</li>
-<li class="">《CSS 权威指南》</li>
-</ul>
-</li>
-<li class="">JavaScript<!-- -->
-<ul>
-<li class="">《JavaScript 权威指南》</li>
-<li class="">《JavaScript 高级程序设计》</li>
-<li class="">《JavaScript DOM 编程艺术》</li>
-<li class="">《JavaScript 语言精粹》</li>
-<li class="">《你不知道的 JavaScript》</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="">后端<!-- -->
-<ul>
-<li class="">C++<!-- -->
-<ul>
-<li class="">《C++ Primer》</li>
-<li class="">《C++程序设计语言》</li>
-<li class="">《Effective C++》</li>
-</ul>
-</li>
-<li class="">Rust<!-- -->
-<ul>
-<li class="">《Rust 权威指南》</li>
-<li class="">《Rust 程序设计》</li>
-</ul>
-</li>
-<li class="">Go</li>
-<li class="">Java<!-- -->
-<ul>
-<li class="">《Java 编程思想》</li>
-<li class="">《Java 核心技术》</li>
-<li class="">《深入理解 Java 虚拟机》</li>
-</ul>
-</li>
-<li class="">Scala<!-- -->
-<ul>
-<li class="">《Scala 编程》</li>
-</ul>
-</li>
-<li class="">Python<!-- -->
-<ul>
-<li class="">《Python 编程》</li>
-<li class="">《流畅的 Python》</li>
-<li class="">《Python Cookbook》</li>
-<li class="">《Effective Python》</li>
-<li class="">《Python 网络编程》</li>
-<li class="">《利用 Python 进行数据分析》</li>
-<li class="">《Python 数据科学手册》</li>
-<li class="">《机器学习实战》</li>
-<li class="">《Python 深度学习》</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="">其他<!-- -->
-<ul>
-<li class="">《浪潮之巅》</li>
-<li class="">《编码》</li>
-<li class="">《代码的未来》</li>
-</ul>
-</li>
+<li class="">○ 复查</li>
+<li class="">△ 耗时</li>
+<li class="">□</li>
+<li class="">◇</li>
+<li class="">⭐️ 重点</li>
 </ul>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[程序员岗位]]></title>
-        <id>https://dzl1943.github.io/blog/程序员岗位</id>
-        <link href="https://dzl1943.github.io/blog/程序员岗位"/>
-        <updated>2024-04-22T20:39:00.000Z</updated>
-        <summary type="html"><![CDATA[- 产品类]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li class="">产品类<!-- -->
+        <title type="html"><![CDATA[提问的艺术]]></title>
+        <id>https://dzl1943.github.io/blog/提问的艺术</id>
+        <link href="https://dzl1943.github.io/blog/提问的艺术"/>
+        <updated>2024-12-10T19:20:00.000Z</updated>
+        <summary type="html"><![CDATA[[!info]- 目的、作用、意义]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>[!info]- 目的、作用、意义</p>
 <ul>
-<li class="">分析</li>
-<li class="">设计</li>
+<li class="">增加提问成本, 过滤低质问题</li>
+<li class="">引导规范提问, 增进质量体验</li>
+</ul>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="流程规范">流程规范<a href="https://dzl1943.github.io/blog/%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF#%E6%B5%81%E7%A8%8B%E8%A7%84%E8%8C%83" class="hash-link" aria-label="流程规范的直接链接" title="流程规范的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">提问前<!-- -->
+<ul>
+<li class="">尝试自行解决, 比如搜索、AI、阅读相关文档</li>
+<li class="">根据自身能力、需求重要性评估是否提问 (太基础或太小众的问题是不受欢迎的)</li>
 </ul>
 </li>
-<li class="">管理类<!-- -->
+<li class=""><strong>提问时</strong> (填写下表)<!-- -->
 <ul>
-<li class="">测试?</li>
-<li class="">DevOps?</li>
+<li class=""><code>&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;</code></li>
+<li class="">需求背景: 为什么会有这个问题? 原始需求是什么?</li>
+<li class="">过程现象: 做了哪些尝试? 过程、现象是什么?</li>
+<li class="">问题诉求: 需要什么帮助、解决什么问题?</li>
+<li class="">补充说明</li>
 </ul>
 </li>
-<li class="">技术类<!-- -->
+<li class="">提问后<!-- -->
 <ul>
-<li class="">架构</li>
-<li class="">开发<!-- -->
-<ul>
-<li class="">硬件层</li>
-<li class="">系统层</li>
-<li class="">应用层</li>
-<li class="">数据层</li>
-<li class="">算法层</li>
+<li class="">对问题进行梳理总结</li>
+<li class="">对相关人员予以感谢</li>
 </ul>
 </li>
-<li class="">运维<!-- -->
-<ul>
-<li class="">基础设施: 网络、存储、服务器</li>
-<li class="">运行平台: 系统、中间件、Runtime/Lib/Framework</li>
-<li class="">数据应用</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[编程项目]]></title>
-        <id>https://dzl1943.github.io/blog/编程项目</id>
-        <link href="https://dzl1943.github.io/blog/编程项目"/>
-        <updated>2024-04-22T20:39:00.000Z</updated>
-        <summary type="html"><![CDATA[- 轮子]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li class="">轮子<!-- -->
-<ul>
-<li class="">os</li>
-<li class="">pl</li>
-<li class="">data-structure &amp; algorithm</li>
-<li class="">db</li>
-<li class="">mq</li>
-<li class="">tcp/http</li>
-<li class="">json</li>
-<li class="">config</li>
-<li class="">cmd</li>
-<li class="">log</li>
-<li class="">regex</li>
-<li class="">orm</li>
-</ul>
-</li>
-<li class="">app<!-- -->
-<ul>
-<li class="">计算器</li>
-<li class="">通讯录</li>
-<li class="">日历</li>
-<li class="">Todo</li>
-<li class="">记账</li>
-<li class="">地图</li>
-</ul>
-</li>
-<li class="">网站服务<!-- -->
-<ul>
-<li class="">博客</li>
-<li class="">论坛</li>
-<li class="">社交媒体</li>
-<li class="">云存储</li>
-<li class="">网络代理</li>
-</ul>
-</li>
-<li class="">游戏<!-- -->
-<ul>
-<li class="">贪吃蛇</li>
-<li class="">俄罗斯方块</li>
-<li class="">象棋</li>
-<li class="">扑克牌</li>
-<li class="">消消乐</li>
-</ul>
-</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iPad]]></title>
-        <id>https://dzl1943.github.io/blog/iPad</id>
-        <link href="https://dzl1943.github.io/blog/iPad"/>
-        <updated>2023-07-28T15:36:00.000Z</updated>
-        <summary type="html"><![CDATA[型号]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="型号">型号<a href="https://dzl1943.github.io/blog/iPad#%E5%9E%8B%E5%8F%B7" class="hash-link" aria-label="型号的直接链接" title="型号的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">iPad Pro 12.9 - v6 (m2)</li>
-<li class="">iPad Pro - v4 (m2)</li>
-<li class="">iPad Air - 5 (m1 8g)</li>
-<li class="">iPad - 10 (a14, 不支持 ap2 和妙控键盘, 支持 usbc, 屏幕外观类似 air 但有阉割)</li>
-<li class="">iPad mini - v6 (a15)</li>
 </ul>
 <blockquote>
-<p>[!note]+ 小结</p>
-<ul>
-<li class="">首先排除 mini, 除了游戏几乎没有其他用途, 并且据报道有果冻屏问题</li>
-<li class="">其次对于非专业用户, 排除 12.9</li>
-<li class="">对于绝大多数价格敏感的用户, 优先建议目前的数字系列而非 air (性价比也不太行)</li>
-<li class="">有绘画需求建议 air (因为数字系列不支持二代笔)</li>
-<li class="">有游戏或其他高性能需求建议 pro</li>
-</ul>
-<p>关于容量: 64 非常勉强, 建议 128+</p>
+<p>[!tip] 检验标准: 能否直接复制到 AI 中提问</p>
 </blockquote>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="surfaceipadmacbookmac-mini">Surface、iPad、MacBook、Mac mini<a href="https://dzl1943.github.io/blog/iPad#surfaceipadmacbookmac-mini" class="hash-link" aria-label="Surface、iPad、MacBook、Mac mini的直接链接" title="Surface、iPad、MacBook、Mac mini的直接链接" translate="no">​</a></h2>
-<p>首先不建议 Surface, 因为完全没必要为这块触控手写屏买单, 因为支持的应用远不及 iPad.<br>
-<!-- -->其次性能和功耗上也完全不及其他.</p>
-<p>对于 iPad, 只推荐有需求或钱多的用户.</p>
-<p>请务必放弃拿 iPad Pro 当生产力试图替代笔记本电脑的想法. 所谓的 Pro 在 MacBook 面前就像个玩具...<br>
-<!-- -->试图用 iPad 取代手机的想法更是逆天... (哪怕有折叠屏也是手机取代 iPad 而不是反过来)<br>
-<!-- -->把购买旗舰手机的预算分一部分给 iPad 倒是不错的选择.</p>
-<p>Mac mini 作为小型办公主机是个不错的选择.(NUC 什么的根本不是对手) 缺点是不能自行扩展.</p>
-<p>关于便携屏, 如果真有这种需求还是优先考虑笔记本电脑或平板电脑吧</p>
-<p>综合而言, 个人倾向的设备组合为: 中端手机(比如红米 Note 和 K 系列) + iPad(可选) + MacBook/Mac mini + Windows 台式机(可选)</p>]]></content>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="注意事项">注意事项<a href="https://dzl1943.github.io/blog/%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" class="hash-link" aria-label="注意事项的直接链接" title="注意事项的直接链接" translate="no">​</a></h2>
+<p>%% 若违背, 提问将不予理会 %%</p>
+<ol>
+<li class="">不要问无意义、低质、容易引发争议或敏感类问题</li>
+<li class="">不要问过于基础或小众的问题, 除非你展现足够的解决意愿</li>
+<li class="">不要问远超你能力范围的问题</li>
+<li class="">表述清晰有条理, 信息充足</li>
+<li class="">态度诚恳, 保持礼貌</li>
+<li class="">及时对相关回复予以反馈, 禁止随意 @ 他人</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="解决办法">解决办法<a href="https://dzl1943.github.io/blog/%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF#%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95" class="hash-link" aria-label="解决办法的直接链接" title="解决办法的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="">切换默认主题, 关闭 css 片段</li>
+<li class="">切换安全模式(禁用所有插件)</li>
+<li class="">重启应用</li>
+<li class="">重装应用</li>
+<li class="">重启系统</li>
+<li class="">重装系统</li>
+<li class="">更换硬件</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="faq">FAQ<a href="https://dzl1943.github.io/blog/%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF#faq" class="hash-link" aria-label="FAQ的直接链接" title="FAQ的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考链接">参考链接<a href="https://dzl1943.github.io/blog/%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="参考链接的直接链接" title="参考链接的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">markdown 文档 <a href="https://www.markdownguide.org/" target="_blank" rel="noopener noreferrer" class="">https://www.markdownguide.org/</a></li>
+<li class="">obsidian 文档 <a href="https://help.obsidian.md/" target="_blank" rel="noopener noreferrer" class="">https://help.obsidian.md/</a></li>
+<li class="">obsidian 论坛 <a href="https://forum.obsidian.md/" target="_blank" rel="noopener noreferrer" class="">https://forum.obsidian.md/</a></li>
+<li class="">pkmer 社区 <a href="https://pkmer.cn/" target="_blank" rel="noopener noreferrer" class="">https://pkmer.cn/</a></li>
+<li class=""><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way" target="_blank" rel="noopener noreferrer" class="">GitHub - ryanhanwu/How-To-Ask-Questions-The-Smart-Way</a></li>
+</ul>
+<h1>后记</h1>
+<p>为什么说只能水群不能当真?</p>
+<ol>
+<li class="">群聊不适合深度交流, 只能水 (这可能是唯一收获)</li>
+<li class="">群成员素质不一, 不能当真 (轻则不悦, 重则退群)<!-- -->
+<ol>
+<li class="">能够把内容一次性描述清楚的不多</li>
+<li class="">能够尊重他人回复的不多, 表达感谢的极少</li>
+</ol>
+</li>
+</ol>
+<p>问题描述不清楚、不充分的, 直接默认素质一般, 不予理会.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[obsidian 草稿与同步]]></title>
+        <id>https://dzl1943.github.io/blog/obsidian 草稿与同步</id>
+        <link href="https://dzl1943.github.io/blog/obsidian 草稿与同步"/>
+        <updated>2024-11-16T10:36:00.000Z</updated>
+        <summary type="html"><![CDATA[前言]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="前言">前言<a href="https://dzl1943.github.io/blog/obsidian%20%E8%8D%89%E7%A8%BF%E4%B8%8E%E5%90%8C%E6%AD%A5#%E5%89%8D%E8%A8%80" class="hash-link" aria-label="前言的直接链接" title="前言的直接链接" translate="no">​</a></h2>
+<p>草稿通常都是不稳定的内容, 需要频繁地编辑修改, 不适合纳入到同步中.</p>
+<p>但有时我们又需要同步即时内容...</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="方案一">方案一<a href="https://dzl1943.github.io/blog/obsidian%20%E8%8D%89%E7%A8%BF%E4%B8%8E%E5%90%8C%E6%AD%A5#%E6%96%B9%E6%A1%88%E4%B8%80" class="hash-link" aria-label="方案一的直接链接" title="方案一的直接链接" translate="no">​</a></h2>
+<p>分两个文件</p>
+<ul>
+<li class="">sync: 同步</li>
+<li class="">draft: 不同步</li>
+</ul>
+<p>平时主要打开 draft, 在里面嵌入 sync 即可.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="用-canvas-统一呈现">用 canvas 统一呈现<a href="https://dzl1943.github.io/blog/obsidian%20%E8%8D%89%E7%A8%BF%E4%B8%8E%E5%90%8C%E6%AD%A5#%E7%94%A8-canvas-%E7%BB%9F%E4%B8%80%E5%91%88%E7%8E%B0" class="hash-link" aria-label="用 canvas 统一呈现的直接链接" title="用 canvas 统一呈现的直接链接" translate="no">​</a></h2>
+<p>此时的 canvas 相当于升级版 sync, 但为了引用方便以及保持 canvas 本身的不变性, 仍然需要单独的 sync、draft 文件.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="在-canvas-中融入更多内容">在 canvas 中融入更多内容<a href="https://dzl1943.github.io/blog/obsidian%20%E8%8D%89%E7%A8%BF%E4%B8%8E%E5%90%8C%E6%AD%A5#%E5%9C%A8-canvas-%E4%B8%AD%E8%9E%8D%E5%85%A5%E6%9B%B4%E5%A4%9A%E5%86%85%E5%AE%B9" class="hash-link" aria-label="在 canvas 中融入更多内容的直接链接" title="在 canvas 中融入更多内容的直接链接" translate="no">​</a></h2>
+<p>不仅仅是 sync, 甚至是一个以 canvas 为基础的个人主页.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="用-excalidraw-代替-draftmd">用 excalidraw 代替 draft.md<a href="https://dzl1943.github.io/blog/obsidian%20%E8%8D%89%E7%A8%BF%E4%B8%8E%E5%90%8C%E6%AD%A5#%E7%94%A8-excalidraw-%E4%BB%A3%E6%9B%BF-draftmd" class="hash-link" aria-label="用 excalidraw 代替 draft.md的直接链接" title="用 excalidraw 代替 draft.md的直接链接" translate="no">​</a></h2>
+<p>问题: ed 文件默认无法以 md 形式预览, 并且无法直接在 canvas 中编辑.<br>
+<!-- -->结果: draft 仅能够预览(需要链接到标题)<br>
+<!-- -->可选方案: 增加一个 temp 文件</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[价格影响因素]]></title>
+        <id>https://dzl1943.github.io/blog/价格影响因素</id>
+        <link href="https://dzl1943.github.io/blog/价格影响因素"/>
+        <updated>2024-10-13T17:20:00.000Z</updated>
+        <summary type="html"><![CDATA[- 需求]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li class="">需求<!-- -->
+<ul>
+<li class="">规模</li>
+<li class="">稀缺性</li>
+</ul>
+</li>
+<li class="">供给<!-- -->
+<ul>
+<li class="">生产<!-- -->
+<ul>
+<li class="">成本</li>
+<li class="">效率</li>
+<li class="">质量</li>
+</ul>
+</li>
+<li class="">销售</li>
+</ul>
+</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安卓创建快捷图标]]></title>
+        <id>https://dzl1943.github.io/blog/安卓创建快捷图标</id>
+        <link href="https://dzl1943.github.io/blog/安卓创建快捷图标"/>
+        <updated>2024-09-25T23:23:00.000Z</updated>
+        <summary type="html"><![CDATA[原理就是"Send Intent" by obsidian-advanced-uri 插件. 如果需要编辑还可以加上 quickadd 插件.]]></summary>
+        <content type="html"><![CDATA[<p>原理就是"Send Intent" by obsidian-advanced-uri 插件. 如果需要编辑还可以加上 quickadd 插件.</p>
+<p>以下是几个典型 app 下的配置方式记录.</p>
+<p><img decoding="async" loading="lazy" alt="Shortcut Maker|400" src="https://dzl1943.github.io/assets/images/029CB7158E12F176F8341F29EAD5FB07-7deaa2de3054d987c12897e4568779ee.jpg" width="1080" height="2239" class="img_ev3q"></p>
+<p>↑注意这里的 action 是 VIEW, 不是 MAIN. 保存后在主界面的 history 中可以查看...</p>
+<p><img decoding="async" loading="lazy" alt="Automate|400" src="https://dzl1943.github.io/assets/images/EDFAD640C5AFF5F5EA2AC4F37F07AF7A-f33b13a22a98533b1a21e816037bb00f.jpg" width="1080" height="2230" class="img_ev3q"></p>
+<p>↑注意记得连线到第一个 block(beginning), 并且在里面安装快捷方式.</p>
+<p><img decoding="async" loading="lazy" alt="MacroDroid|400" src="https://dzl1943.github.io/assets/images/A79CEA2BFE703ECDE4184031F9EE8253-4127d2b87c61db86bde4b9961415b70c.jpg" width="1080" height="2234" class="img_ev3q"></p>
+<p>↑该动作在"连接"里面. 触发器选"快捷方式打开". 长按可以创建快捷方式</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[碎片记录分隔方式]]></title>
+        <id>https://dzl1943.github.io/blog/碎片记录分隔方式</id>
+        <link href="https://dzl1943.github.io/blog/碎片记录分隔方式"/>
+        <updated>2024-08-07T15:16:00.000Z</updated>
+        <summary type="html"><![CDATA[%%[list2table]%%]]></summary>
+        <content type="html"><![CDATA[<p>%%[list2table]%%</p>
+<ul>
+<li class="">空行/分隔线 <sup><a href="https://dzl1943.github.io/blog/%E7%A2%8E%E7%89%87%E8%AE%B0%E5%BD%95%E5%88%86%E9%9A%94%E6%96%B9%E5%BC%8F#user-content-fn-1-95d955" id="user-content-fnref-1-95d955" data-footnote-ref="true" aria-describedby="footnote-label" class="anchorTargetStickyNavbar_Vzrq">1</a></sup> | 仅适用于不需要折叠和索引的简单情形<!-- -->
+<ul>
+<li class="">格式方便</li>
+<li class=""><em>不支持折叠</em></li>
+<li class="">不便索引</li>
+</ul>
+</li>
+<li class="">md代码块 | 相比空行隔离性更强<!-- -->
+<ul>
+<li class="">格式方便</li>
+<li class="">支持折叠</li>
+<li class="">不便索引</li>
+<li class=""><em>功能受限</em></li>
+</ul>
+</li>
+<li class="">Callout | 适用于不涉及复杂格式且不需要索引的情形<!-- -->
+<ul>
+<li class="">支持折叠</li>
+<li class="">不便索引</li>
+<li class=""><em>不便维护</em></li>
+</ul>
+</li>
+<li class="">列表 | 适用于需要结构化并且每条内容不超过一行的情形<!-- -->
+<ul>
+<li class="">支持折叠</li>
+<li class=""><em>缩进麻烦</em></li>
+<li class="">不便索引</li>
+</ul>
+</li>
+<li class="">标题 | 最标准的做法, 但不适用于非常碎片化的场景<!-- -->
+<ul>
+<li class="">支持折叠</li>
+<li class="">支持索引</li>
+<li class=""><em>不够碎片化</em></li>
+</ul>
+</li>
+</ul>
+<h1>Footnotes</h1>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorTargetStickyNavbar_Vzrq sr-only" id="footnote-label">Footnotes<a href="https://dzl1943.github.io/blog/%E7%A2%8E%E7%89%87%E8%AE%B0%E5%BD%95%E5%88%86%E9%9A%94%E6%96%B9%E5%BC%8F#footnote-label" class="hash-link" aria-label="Footnotes的直接链接" title="Footnotes的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="anchorTargetStickyNavbar_Vzrq" id="user-content-fn-1-95d955">
+<p>实际上更多的是通过关键字(比如时间戳)区分相邻条目, 空行只是形式上的隔离. <a href="https://dzl1943.github.io/blog/%E7%A2%8E%E7%89%87%E8%AE%B0%E5%BD%95%E5%88%86%E9%9A%94%E6%96%B9%E5%BC%8F#user-content-fnref-1-95d955" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>]]></content>
     </entry>
 </feed>
