@@ -1,7 +1,7 @@
 ---
 title: Obsidian 插件
 created: 2025-10-08T20:32
-modified: 2026-01-15T11:32
+modified: 2026-01-15T16:39
 url:
   - https://obsidian.md/plugins
   - https://www.obsidianstats.com/
@@ -10,8 +10,6 @@ aliases:
 ---
 
 # Obsidian 插件
-
-## 已安装
 
 ```ad-note
 title: 状态分级图例
@@ -31,6 +29,8 @@ collapse: true
         - [-] 废弃
 - [ ] 未知
 ```
+
+## Awesome
 
 - advanced-canvas
 - *any-block*
@@ -89,17 +89,17 @@ collapse: true
 - *various-complements*
 - *virtual-linker*
 
-### 本体类
+## 本体类
 %% 对核心功能进行改进 %%
-### 界面类
+## 界面类
 %% 对主程序交互界面进行改进 %%
-### 编辑类
+## 编辑类
 %% 增强编辑体验 %%
-### 渲染类
+## 渲染类
 %% 影响笔记内容和预览显示效果 %%
-### 扩展类
+## 扩展类
 %% 带来新的常驻功能玩法 %%
-### 辅助类
+## 辅助类
 %% 提供可按需运行的辅助工具命令 %%
 
 ## 参考

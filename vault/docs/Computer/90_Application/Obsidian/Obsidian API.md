@@ -1,7 +1,7 @@
 ---
 title: Obsidian 内部接口
 created: 2025-10-08T20:39
-modified: 2026-01-14T19:36
+modified: 2026-01-15T16:33
 aliases:
   - Obsidian 接口
 url:
