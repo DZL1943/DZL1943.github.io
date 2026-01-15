@@ -18,10 +18,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-.new
-*.swap
-*.sync-conflict-*
-.stfolder/
-.stversions/
-.trash/
