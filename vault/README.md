@@ -80,7 +80,7 @@ views:
 ```base
 filters:
   and:
-    - '!file.ext.containsAny("md", "js")'
+    - file.ext.containsAny("png", "jpg", "jpeg", "webp", "gif", "svg", "bmp")
 formulas:
   backlinks: file.backlinks.map(value.asFile())
 views:
@@ -95,6 +95,7 @@ views:
       - property: file.ctime
         direction: DESC
     image: file.file
+
 ```
 
 ## Changelog

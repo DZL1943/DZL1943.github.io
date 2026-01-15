@@ -90,7 +90,7 @@ views:
     name: Attachments
     filters:
       and:
-        - file.ext.containsAny("png", "jpg")
+        - file.ext.containsAny("png", "jpg", "jpeg", "webp", "gif", "svg", "bmp")
     order:
       - file.name
       - formula.backlinks
