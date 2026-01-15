@@ -352,7 +352,9 @@
     "Resources",
     "Archives",
     "assets",
-    "Scripts"
+    "Scripts",
+    "Misc",
+    "Templates"
   ],
   "rootTagOrder": [],
   "iconizeFormat": false,

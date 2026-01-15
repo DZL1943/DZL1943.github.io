@@ -14,7 +14,7 @@ excalidraw-open-md: true
 ## Overview
 
 %%[list2lt]%%
-- 版本 | v1.10.3-mac-arm64
+- 版本 | v1.11.4-mac-arm64
 - 仓库和配置 | `~/Documents/Obsidian` `~/Library/Application Support/obsidian/Obsidian Sandbox`
     - .obsidian | default. 使用默认的"文件与链接"设置(wiki链接, 尽可能简短) %% 也可以用软链接链接到其他配置目录 %%
     - .obsidian-mini | 最简库
@@ -30,7 +30,7 @@ excalidraw-open-md: true
 ## Structure
 %% 2025-12-07 %%
 
-[dir]
+%%[dir]%%
 - Inbox/ | 草稿箱 & 收集箱
 - Journals/ | 生活记录
 - Jottings/ | 闪念随笔
