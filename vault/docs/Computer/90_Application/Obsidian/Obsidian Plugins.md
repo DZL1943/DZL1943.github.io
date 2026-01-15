@@ -124,7 +124,7 @@ collapse: true
 ```base
 views:
   - type: list
-    name: 表格
+    name: plugins
     filters:
       and:
         - file.hasTag("Obsidian/Plugins")
