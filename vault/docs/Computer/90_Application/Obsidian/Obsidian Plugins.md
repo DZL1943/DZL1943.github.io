@@ -1,7 +1,7 @@
 ---
 title: Obsidian 插件
 created: 2025-10-08T20:32
-modified: 2026-01-15T16:39
+modified: 2026-01-15T21:01
 url:
   - https://obsidian.md/plugins
   - https://www.obsidianstats.com/
@@ -30,77 +30,64 @@ collapse: true
 - [ ] 未知
 ```
 
-## Awesome
-
-- advanced-canvas
-- *any-block*
-- better-export-pdf
-- *better-markdown-links*
-- *better-plugins-manager*
-- cmdr
-- codeblock-customizer
-- css-editor
-- *custom-sort*
-- **dataview**
-- dust-calendar
-- **easy-typing-obsidian**
-- **editing-toolbar**
-- find-unlinked-files
-- float-search
-- floating-toc
-- *fuzzy-chinese-pinyin*
-- heading-decorator
-- *image-converter*
-- janitor
-- keyboard-analyzer
-- links
-- multi-properties
-- nldates-redux
-- *note-toolbar*
-- **notebook-navigator**
-- obsidian-admonition
-- obsidian-advanced-uri
-- obsidian-auto-hide
-- **obsidian-excalidraw-plugin**
-- obsidian-export-image
-- obsidian-front-matter-title-plugin
-- obsidian-heading-shifter
-- *obsidian-hover-editor*
-- obsidian-image-toolkit
-- obsidian-kanban
-- *obsidian-latex-suite*
-- **obsidian-linter**
-- **obsidian-outliner**
-- obsidian-plugin-proxy
-- **obsidian-style-settings**
-- obsidian-tasks-plugin
-- obsidian-zoom
-- obsidian42-brat
-- paste-link
-- quick-explorer
-- **quickadd**
-- refresh-preview
-- settings-search
-- show-whitespace-cm6
-- solve
-- statusbar-organizer
-- table-editor-obsidian
-- **templater-obsidian**
-- *various-complements*
-- *virtual-linker*
-
 ## 本体类
 %% 对核心功能进行改进 %%
+
+- [X] better-markdown-links
+- [P] css-editor
+- [X] custom-sort
+- [X] fuzzy-chinese-pinyin
+- [X] notebook-navigator
+- [X] obsidian-front-matter-title-plugin
+- [X] virtual-linker
+
 ## 界面类
 %% 对主程序交互界面进行改进 %%
+
+- [X] cmdr
+- [P] float-search
+- [P] floating-toc
+- [P] note-toolbar
+- [X] obsidian-auto-hide
+- [X] obsidian-hover-editor
+- [P] obsidian-style-settings
+
 ## 编辑类
 %% 增强编辑体验 %%
+
+- [X] easy-typing-obsidian
+- [P] editing-toolbar
+- [X] obsidian-heading-shifter
+- [P] obsidian-latex-suite
+- [X] obsidian-linter
+- [X] obsidian-outliner
+- [P] paste-link
+- [X] table-editor-obsidian
+- [X] various-complements
+
 ## 渲染类
 %% 影响笔记内容和预览显示效果 %%
+
+- [P] any-block
+- [X] codeblock-customizer
+- [P] dataview
+- [P] obsidian-admonition
+
 ## 扩展类
 %% 带来新的常驻功能玩法 %%
+
+- [P] advanced-canvas
+- [P] obsidian-excalidraw-plugin
+- [P] obsidian-kanban
+- [P] obsidian-tasks-plugin
+- [X] quickadd
+- [P] templater-obsidian
+
 ## 辅助类
 %% 提供可按需运行的辅助工具命令 %%
+
+- [P] image-converter
+- [X] obsidian-image-toolkit
 
 ## 参考
 
