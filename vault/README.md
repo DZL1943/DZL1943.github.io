@@ -1,12 +1,11 @@
 ---
 created: 2024-07-30T13:30
-modified: 2025-10-14T17:29
+modified: 2026-01-15T23:44
+tags: [excalidraw]
 editor-width: 88
-obsidianEditingMode: source
-excalidraw-plugin: parsed
-tags:
-  - excalidraw
 excalidraw-open-md: true
+excalidraw-plugin: parsed
+obsidianEditingMode: source
 ---
 
 # README
@@ -28,6 +27,7 @@ excalidraw-open-md: true
 - 菜单 | 用 cmdr 自定义
 
 ## Structure
+
 %% 2025-12-07 %%
 
 %%[dir]%%
@@ -49,7 +49,6 @@ excalidraw-open-md: true
 > - Resources Vs Areas: 两者皆代表客观内容, 后者的专业性更强
 
 > [!note]- 文件夹 Vs 链接 Vs 属性
-
 
 ## Index
 
@@ -94,6 +93,7 @@ views:
 # Excalidraw Data
 
 ## Text Elements
+
 inbox ^T3XsBMfa
 
 journals ^Tzje2gv3
@@ -111,7 +111,9 @@ resources ^ICJxLAMF
 archives ^9DkUD9dX
 
 %%
+
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQBGAA4EmjoghH0EDihmbgBtcDBQMBKIEm4IbAAzLQARAGUAdigAKwBFAE5SABYABUIAdUbiboBmABVUkshYRArA7CiOZWCp
 
