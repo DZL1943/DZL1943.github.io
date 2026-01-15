@@ -8,5 +8,6 @@
   "virtual-linker",
   "refresh-preview",
   "notebook-navigator",
-  "obsidian-linter"
+  "obsidian-linter",
+  "image-converter"
 ]
