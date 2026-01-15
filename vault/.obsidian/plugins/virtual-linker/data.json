@@ -10,7 +10,11 @@
     "Glossary"
   ],
   "excludedDirectories": [
-    "Archives"
+    "Inbox",
+    "Journals",
+    "Archives",
+    "Misc",
+    "Ext"
   ],
   "excludedDirectoriesForLinking": [
     "Archives"
