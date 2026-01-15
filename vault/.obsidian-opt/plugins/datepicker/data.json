@@ -1,0 +1,14 @@
+{
+  "dateFormat": "YYYY-MM-DD",
+  "overrideFormat": false,
+  "showDateButtons": true,
+  "showTimeButtons": true,
+  "showAutomatically": false,
+  "autoApplyEdits": true,
+  "immediatelyShowCalendar": false,
+  "autofocus": false,
+  "focusOnArrowDown": true,
+  "insertIn24HourFormat": true,
+  "selectDateText": true,
+  "ignoreCodeblocks": false
+}

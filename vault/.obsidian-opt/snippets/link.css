@@ -1,0 +1,19 @@
+/* The following two blocks hide the link primary text
+ * and swap in the title if the target not
+ * has a ``title`` property.
+ */
+
+/* In reading view, hide link content */
+.markdown-reading-view .data-link-text[data-link-title]
+{
+    font-size: 0px;
+    visibility: hidden;
+}
+
+/* In reading view, show linked title */
+.markdown-reading-view .data-link-text[data-link-title]::before
+{
+    font-size: initial;
+    content: attr(data-link-title);
+    visibility: visible;
+}

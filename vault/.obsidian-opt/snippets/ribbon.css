@@ -1,0 +1,16 @@
+/* https://forum.obsidian.md/t/please-restore-the-location-of-the-settings-and-help-buttons/83312/20 */
+/* 需配合 commander 插件一起生效 */
+.side-dock-actions {
+  height: 100%;
+  justify-content: flex-start;
+}
+div[aria-label="打开其他仓库"] {
+  margin-top: auto !important;
+  order: 997;
+}
+div[aria-label="查看帮助"] {
+  order: 998;
+}
+div[aria-label="打开设置"] {
+  order: 999;
+}

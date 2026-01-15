@@ -1,0 +1,122 @@
+{
+  "properties": {
+    "url": "url",
+    "image": "image",
+    "coverImageFit": "image-fit",
+    "createdDate": "",
+    "modifiedDate": "",
+    "custom1": "",
+    "custom2": "",
+    "custom3": ""
+  },
+  "filters": {
+    "search": {
+      "isEnabled": true,
+      "value": ""
+    },
+    "sort": {
+      "isEnabled": true,
+      "value": "file-name-asc"
+    },
+    "custom": {
+      "isEnabled": true,
+      "selectedGroupId": "Dh3JurxRsu8RhVDw",
+      "groups": [
+        {
+          "id": "kGxym7FRb9GKt8Lu",
+          "name": "Attachments",
+          "rules": [
+            {
+              "id": "MPoJsbfwvnhDvBzy",
+              "type": "folder",
+              "propertyType": "text",
+              "propertyName": "",
+              "operator": "and",
+              "isEnabled": true,
+              "condition": "is",
+              "value": "Misc/Attachments",
+              "matchWhenPropertyDNE": false,
+              "includeSubfolders": true
+            }
+          ],
+          "isEnabled": false,
+          "isSticky": false
+        },
+        {
+          "id": "Dh3JurxRsu8RhVDw",
+          "name": "Jottings",
+          "rules": [
+            {
+              "id": "JmBYoDAL2nM9soQq",
+              "type": "folder",
+              "propertyType": "text",
+              "propertyName": "",
+              "operator": "and",
+              "isEnabled": true,
+              "condition": "is",
+              "value": "30_Jottings",
+              "matchWhenPropertyDNE": false
+            }
+          ],
+          "isEnabled": true,
+          "isSticky": false
+        }
+      ]
+    }
+  },
+  "views": {
+    "grid": {
+      "isEnabled": true,
+      "order": 0,
+      "coverImageFit": "cover",
+      "coverImageSources": [
+        {
+          "type": "image-property",
+          "isEnabled": true
+        },
+        {
+          "type": "url-property",
+          "isEnabled": true
+        },
+        {
+          "type": "frontmatter",
+          "isEnabled": true
+        },
+        {
+          "type": "body",
+          "isEnabled": true
+        }
+      ],
+      "loadSocialMediaImage": true
+    },
+    "list": {
+      "isEnabled": true,
+      "order": 1,
+      "showTags": true
+    },
+    "feed": {
+      "isEnabled": true,
+      "order": 2,
+      "removeH1": true,
+      "collapseStyle": "no-extra-new-lines",
+      "lineClampLarge": 5,
+      "lineClampMedium": 3,
+      "lineClampSmall": 2
+    },
+    "table": {
+      "isEnabled": true,
+      "order": 4
+    }
+  },
+  "confirmBeforeDelete": true,
+  "currentView": "list",
+  "titleWrapping": "normal",
+  "enableClockUpdates": true,
+  "enableFileIcons": false,
+  "loadBodyTags": true,
+  "shouldCollapseFilters": false,
+  "pageSize": 25,
+  "configDir": ".vaultexplorer",
+  "pluginVersion": "1.47.4",
+  "logLevel": "warn"
+}

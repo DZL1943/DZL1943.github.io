@@ -1,0 +1,19 @@
+/* 隐藏多个文件 */
+.nav-file:has(>.nav-file-title:is(
+    [data-path^='sortspec.md'],
+    [data-path^='broken links output.md'],
+)) {
+    display: none;
+}
+
+/* 隐藏多个文件夹 */
+.nav-folder:has(>.nav-folder-title:is(
+    [data-path^='Misc'],
+    [data-path^='assets'],
+    [data-path^='Attachment'],
+    [data-path^='Template'],
+    [data-path^='Script'],
+    [data-path^='Archive'],
+)) {
+    display: none;
+}

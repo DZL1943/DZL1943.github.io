@@ -1,0 +1,20 @@
+ul>li.task-list-item[data-task="x"],
+ul>li.task-list-item[data-task="X"] {
+  text-decoration: none;
+}
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="X"] {
+  text-decoration: none;
+}
+
+.cm-formatting.cm-formatting-list.cm-formatting-list-ul {
+  padding-left: 0;
+}
+.cm-formatting.cm-formatting-list.cm-formatting-list-ol {
+  padding-left: 0;
+}
+
+.markdown-rendered ul, .markdown-rendered ol {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}

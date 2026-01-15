@@ -1,0 +1,7 @@
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
+.markdown-rendered :not(pre) > code {
+  color: var(--color-pink) !important;
+}
+.markdown-rendered pre:not([class*="language-"]) code {
+  color: var(--color-pink) !important;
+}

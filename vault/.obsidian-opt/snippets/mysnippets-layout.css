@@ -1,0 +1,12 @@
+/* ! 插件：MySnippet */
+.MySnippets-statusbar-menu {
+  min-width: 50vw !important;
+  max-height: 80vh !important;
+  .menu-scroll {
+    display: block !important;
+    column-width: 320px;
+    width: 100%;
+    height: 100%;
+  }
+
+}

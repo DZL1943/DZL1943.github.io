@@ -1,0 +1,11 @@
+.cg-note-toolbar-bar-container {
+  margin: 0;
+}
+
+.callout[data-callout="note-toolbar"] {
+  & .callout-content {
+    & ul {
+      margin: 0;
+    }
+  }
+}

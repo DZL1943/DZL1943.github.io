@@ -1,0 +1,427 @@
+.menu-vert {
+	border: 1px solid var(--titlebar-background-focused);
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.contacts-sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contacts-menu {
+  padding-right: 12px; // scrollbarSpacing
+}
+
+.contacts-view {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+
+.insights-results {
+  border-bottom: 1px solid var(--background-modifier-border);
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+
+.insights-results-header {
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  min-width: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.insights-result-count {
+  flex-grow: 1;
+}
+
+.insights-results-settings {
+  flex-basis: 100%;
+  margin: var(--size-4-4) var(--size-4-4) 0 0;
+}
+
+.insights-results-settings .setting-item-name {
+  font-size: var(--font-ui-small);
+}
+
+.contacts-view-close {
+  position: relative;
+  width: 34px;
+  padding-top: 34px;
+}
+
+.contact-card {
+	padding: 8px;
+}
+
+.contact-modal-buttons {
+ 	margin-top: 12px;
+}
+
+.contact-modal-buttons button {
+	font-weight: "bold";
+	margin-right: 8px;
+}
+
+.contact-modal-label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.contact-modal-input {
+	margin-bottom: 12px;
+	width: 100%;
+}
+
+.inner-card-container {
+	container-name: bizzy-card;
+	container-type: inline-size;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.bizzy-card-container {
+	position: relative;
+	display: flex;
+	border: 2px solid var(--divider-color);
+	min-width: 200px;
+	max-width: 450px;
+	flex-basis: auto;
+	flex-wrap: wrap;
+	border-radius: 12px;
+	overflow: hidden;
+
+}
+
+.bizzy-card-container:hover {
+	.biz-shape {
+		background: var(--tag-background-hover);
+		border: 2px solid var(--tag-border-color-hover);
+	}
+}
+
+.bizzy-card-container .biz-contact-actions {
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	display: flex;
+}
+.bizzy-card-container .biz-contact-actions .clickable-icon {
+	padding: var(--size-2-2);
+}
+
+/*=============================
+	     Left Content
+===============================*/
+.biz-card-a {
+	position: relative;
+	width: 160px;
+	height: 220px;
+	padding: 10px;
+	transition: 0.2s ease;
+	color: var(--text-normal);
+	display: flex;
+}
+
+.bizzy-card-organization {
+	position: absolute;
+	width: 196px;
+	padding: 2px;
+	padding-left: 14px;
+	padding-right: 14px;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-weight: bold;
+	text-align: right;
+	color: var(--nav-item-color);
+	border-bottom: 2px solid var(--divider-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.biz-headshot {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 12px;
+}
+
+.bizzy-card-organization + .biz-card-a .biz-headshot {
+	padding-top: 27px;
+}
+
+.avatar-initials {
+	display: block;
+  width: 100px;
+  height: 100px;
+	box-shadow: 0 0 0 2px var(--tag-border-color);
+	background-color: var(--tag-background);
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.avatar-initials img,
+.avatar-initials svg {
+	display: block; /* removes extra white space under inline elements */
+	width: 100%;
+	height: 100%;
+}
+.avatar-initials svg text {
+	fill: var(--tag-color);
+}
+
+
+.biz-words-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+.biz-name {
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 1.1rem;
+	margin-bottom: 2px;
+}
+
+.biz-title {
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 0.8em;
+	line-height: 1.2;
+}
+
+
+/*=============================
+	     Right Content
+===============================*/
+.biz-card-b {
+	position: relative;
+	width: 230px;
+	height: 220px;
+	padding: 10px;
+	transition: 0.2s ease;
+}
+
+.biz-shape {
+	position: absolute;
+	background: var(--tag-background);
+	transform: scaleX(1) rotate(16deg);
+	top: -60px;
+	left: 20px;
+	height: 308px;
+	border-radius: 50px;
+	width: 300px;
+	color: var(--tag-color);
+	border: 2px solid var(--tag-border-color);
+	z-index: -1;
+}
+
+.biz-contact-box {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	padding: 10px 10px 16px 0px;
+	width: 215px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: right;
+}
+
+.biz-item {
+	font-size: 12px;
+	letter-spacing: 0.15rem;
+	margin-left: 0px;
+	cursor: pointer;
+	padding-top: 5px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	color:var(--tag-color);
+	overflow-wrap: break-word;
+}
+
+.biz-item a {
+	text-decoration: none;
+}
+
+.action-card {
+  position: relative;
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid var(--divider-color);
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+}
+
+.action-card-actions {
+  display: flex;
+  gap: var(--size-4-2);
+  flex-wrap: wrap;
+  font-size: var(--font-ui-medium);
+}
+
+.action-card-content {
+  flex: 1 1 auto;
+  color: var(--metadata-label-text-color);
+  margin-right: 15px;
+}
+
+.action-card-content.action-card-content--no-height {
+  min-height: 0;
+}
+
+.action-card-button {
+  align-self: start;
+}
+
+.action-card-content :first-child {
+  margin-top: 0;
+}
+
+.action-card:last-child {
+  margin-bottom: 0;
+}
+
+.view-content:has(.contacts-sidebar) {
+  padding-right: 0;
+}
+
+.nav-actionable-container {
+  container-name: actionable-card;
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*=============================
+	 Business Card Mobile
+===============================*/
+@Container bizzy-card (max-width: 410px) {
+	.bizzy-card-container {
+		width: 240px;
+	}
+
+	.avatar-initials {
+		width: 85px;
+    height: 85px;
+	}
+
+
+	.bizzy-card-organization {
+		width: 240px;
+    padding: 6px 65px 6px 14px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	}
+
+
+	.biz-card-a {
+		width: 240px;
+		height: 185px;
+		padding-bottom: 0;
+	}
+
+	.biz-headshot {
+		position: relative;
+		margin-top: 6px;
+	}
+
+	.biz-card-b {
+		width: 240px;
+		height: 180px;
+		padding: 0;
+	}
+
+	.biz-shape {
+		transform: scaleX(1) rotate(85deg);
+    top: -2px;
+		left: 0;
+	}
+
+	.biz-contact-box {
+		position: absolute;
+		margin-top: 150px;
+		width: 100%;
+    padding: 0 10px 10px 0;
+	}
+}
+
+.progress-bar.progress-bar--contacts,
+.progress-bar.progress-bar--contacts .progress-bar-indicator {
+  width: 100%;
+}
+
+.setting-item-spacer {
+  margin-top: 0.75em;
+}
+
+.menu .menu-item[data-section="vcf-sync-danger"] {
+  color: var(--text-error);
+}
+
+.menu .menu-item[data-section="vcf-sync-danger"] .menu-item-icon {
+  color: var(--text-error);
+}
+
+.badge-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.badge-count {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  color: var(--icon-color-active);
+  background-color: var(--background-modifier-active-hover);
+  /*background-color: var(--interactive-accent);*/
+  /*color: var(--titlebar-background-focused);*/
+  font-size: 0.85rem;
+  line-height: 1;
+  padding: 1px 4px;
+  border-radius: 999px;
+  min-width: 16px;
+  text-align: center;
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+  pointer-events: none;
+}
+
+.clickable-icon.is-pulsing {
+  opacity: var(--icon-opacity-hover);
+  color: var(--icon-color-active);
+  background-color: var(--background-modifier-active-hover);
+  animation: pulse-color-bg 1.8s infinite ease-in-out;
+}
+
+@keyframes pulse-color-bg {
+  0%, 100% {
+    color: var(--icon-color-active);
+    background-color: var(--background-modifier-active-hover);
+  }
+  50% {
+    color: var(--icon-color-hover, #fff);
+    background-color: var(--background-modifier-active);
+  }
+}

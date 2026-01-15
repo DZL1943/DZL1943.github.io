@@ -1,0 +1,28 @@
+{
+  "runAtStartup": false,
+  "addRibbonIcon": false,
+  "promptUser": true,
+  "promptForBigFiles": true,
+  "attachmentsExtensions": ".jpg|.jpeg|.png|.gif|.svg|.pdf",
+  "defaultOperation": "trash",
+  "expiredAttribute": "expires",
+  "expiredDateFormat": "YYYY-MM-DD",
+  "sizeLimitKb": 1024,
+  "processOrphans": true,
+  "processEmpty": false,
+  "processExpired": false,
+  "processBig": false,
+  "honorObsidianExcludedFiles": false,
+  "excludedFilesFilters": [
+    ".doc",
+    ".canvas",
+    ".icns",
+    "Ext/",
+    ".ledger",
+    ".pdf",
+    "cedict_ts.u8",
+    ".js",
+    ".json",
+    ".csv"
+  ]
+}

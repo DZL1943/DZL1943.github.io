@@ -1,0 +1,13 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "basic",
+    "ui"
+  ],
+  "baseFontSize": 18,
+  "interfaceFontFamily": "Monaco",
+  "textFontFamily": "Monaco",
+  "monospaceFontFamily": "Monaco",
+  "showRibbon": false,
+  "showViewHeader": false
+}

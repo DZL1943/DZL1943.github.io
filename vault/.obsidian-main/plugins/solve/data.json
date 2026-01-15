@@ -1,0 +1,68 @@
+{
+  "engine": {
+    "explicitMode": true
+  },
+  "interface": {
+    "renderResultEndOfLine": false,
+    "showStatusBarCompanion": false,
+    "animateResults": true,
+    "animationClass": "animate__pulse",
+    "animationDuration": "200ms"
+  },
+  "inlineSolve": {
+    "includeExpressionOnCommit": false,
+    "includeBackticksOnCommit": true,
+    "includeEqualsOnCommit": true
+  },
+  "variable": {
+    "renderResult": true
+  },
+  "arithmeticProvider": {
+    "enabled": true,
+    "renderEqualsBeforeResult": true
+  },
+  "functionArithmeticProvider": {
+    "enabled": true
+  },
+  "vectorArithmeticProvider": {
+    "enabled": true
+  },
+  "percentageArithmeticProvider": {
+    "enabled": true
+  },
+  "datetimeProvider": {
+    "enabled": true,
+    "parsingFormat": 0
+  },
+  "unitOfMeasurementProvider": {
+    "enabled": true
+  },
+  "diceProvider": {
+    "enabled": true
+  },
+  "bigIntegerArithmeticProvider": {
+    "enabled": true
+  },
+  "numberResult": {
+    "decimalSeparatorLocale": "en-US"
+  },
+  "integerResult": {},
+  "floatResult": {
+    "decimalPlaces": 2
+  },
+  "percentageResult": {
+    "decimalPlaces": 2,
+    "enableSeperator": false
+  },
+  "datetimeResult": {
+    "format": "YYYY-MM-DDTHH:mm:ssZ"
+  },
+  "hexResult": {
+    "enablePadding": false,
+    "paddingZeros": 8
+  },
+  "unitOfMeasurementResult": {
+    "decimalPlaces": 2,
+    "unitNames": false
+  }
+}

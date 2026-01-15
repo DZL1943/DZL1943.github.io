@@ -1,0 +1,589 @@
+{
+  "choices": [
+    {
+      "id": "9322de71-115d-4dbd-948b-cb79880bb03c",
+      "name": "callout-with-time",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "> [!quote] {{DATE:YYYY-MM-DD[T]HH:mm}}\n> {{value}}\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": true,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
+    },
+    {
+      "id": "5efe22f6-edc7-4204-9f53-d628b3f1a05f",
+      "name": "underline",
+      "type": "Capture",
+      "command": false,
+      "onePageInput": "never",
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<ins style=\"text-decoration-color:orange; border-bottom-color:orange\">{{selected}}</ins>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
+    },
+    {
+      "id": "4a3c7443-3b9d-4bd4-97eb-bd460f4ef73d",
+      "name": "create-from-selected",
+      "type": "Capture",
+      "command": false,
+      "onePageInput": "never",
+      "appendLink": {
+        "enabled": true,
+        "placement": "replaceSelection",
+        "requireActiveFile": false,
+        "linkType": "link"
+      },
+      "captureTo": "Inbox/{{DATE:YYYYMMDDHHmm}}",
+      "captureToActiveFile": false,
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{selected}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": true,
+      "task": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "source",
+        "focus": true
+      }
+    },
+    {
+      "id": "0ac28af9-0ea7-47fe-8e1a-78193b9bdc2d",
+      "name": "create-in-folder",
+      "type": "Template",
+      "command": false,
+      "templatePath": "Templates/default-template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "Untitled"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Inbox"
+        ],
+        "chooseWhenCreatingNote": true,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "live",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "84d0e316-dcc2-4143-88ac-05d962a2e324",
+      "name": "show-current-folder-items",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "show-current-folder-items",
+        "id": "a90db8f0-5912-4cba-91d7-eec946ac0253",
+        "commands": [
+          {
+            "name": "currentDir",
+            "type": "UserScript",
+            "id": "86bd8cc1-30c0-4b92-9fd9-0c25d4eafa60",
+            "path": "Scripts/currentDir.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "a37e4f10-4c51-4283-beed-e6320ebd72e2",
+      "name": "find-replace",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "find-replace",
+        "id": "5ccd97f7-a78f-4366-a0ef-15af4639d3b0",
+        "commands": [
+          {
+            "name": "replace",
+            "type": "UserScript",
+            "id": "0b27be61-7128-449d-9825-67cacbe4351c",
+            "path": "Scripts/replace.js",
+            "settings": {
+              "rules": "",
+              "scope": "file"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "bb31ff8b-59b0-4ec7-8b8c-060b65be1330",
+      "name": "show-and-goto-headings",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "show-and-goto-headings",
+        "id": "37614f26-5544-40c3-8cc7-272380b3e019",
+        "commands": [
+          {
+            "name": "headings",
+            "type": "UserScript",
+            "id": "630aa948-e232-468b-b3c4-c072351c9655",
+            "path": "Scripts/Universal/headings.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "b99f1012-799d-4dc8-9f22-c59dc4d10671",
+      "name": "show-bookmarks",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "show-bookmarks",
+        "id": "874519c9-739b-4032-9a7b-756b833fcdba",
+        "commands": [
+          {
+            "name": "bookmarks",
+            "type": "UserScript",
+            "id": "d7ab96de-d85a-4f45-b36b-f56f24b57012",
+            "path": "Scripts/bookmarks.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "1c0013a9-8c2c-4761-a193-aedbc00fdb80",
+      "name": "toggle-snippets",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "toggle-snippets",
+        "id": "d527718d-90d7-43e1-ba1b-91671c1ad63e",
+        "commands": [
+          {
+            "name": "snippets",
+            "type": "UserScript",
+            "id": "a3797942-783c-456a-aa89-057f7661ecff",
+            "path": "Scripts/snippets.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "cfb82815-57dc-4a81-ad00-13f07e1b5479",
+      "name": "open-periodic-note",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "open-periodic-note",
+        "id": "84c9cb1c-3127-4562-861e-3bba329adbf3",
+        "commands": [
+          {
+            "name": "periodicNote",
+            "type": "UserScript",
+            "id": "8b49c826-5eee-42df-8d9b-a0515292cc5c",
+            "path": "Scripts/Universal/periodicNote.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "259cbffb-7823-416c-99cc-3a220e5975bd",
+      "name": "generate-weekdays",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "generate-weekdays",
+        "id": "d84f51d4-f767-4ebf-b40c-081c998bdb2d",
+        "commands": [
+          {
+            "name": "weekdays",
+            "type": "UserScript",
+            "id": "f102edb6-5a01-49c3-8ed1-10892d07ba24",
+            "path": "Scripts/Universal/weekdays.js",
+            "settings": {}
+          },
+          {
+            "name": "Untitled Capture Choice",
+            "type": "NestedChoice",
+            "id": "7838e0cf-60a5-4adf-b48c-96fc46c38637",
+            "choice": {
+              "id": "438ee2e8-3eab-40ce-9bae-4e0b2de2d9ca",
+              "name": "Untitled Capture Choice",
+              "type": "Capture",
+              "command": false,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "activeFileWritePosition": "cursor",
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{value:result}}"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "newLineCapture": {
+                "enabled": false,
+                "direction": "below"
+              },
+              "prepend": false,
+              "task": false,
+              "openFile": false,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "f3493796-ff5e-4168-aa92-da14427b66d7",
+      "name": "generate-monthdays",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "generate-monthdays",
+        "id": "c39f5cff-b62b-4a94-9840-35615ec2b69f",
+        "commands": [
+          {
+            "name": "monthdays",
+            "type": "UserScript",
+            "id": "703d0ce6-8504-4528-ab55-9f65d17427c0",
+            "path": "Scripts/Universal/monthdays.js",
+            "settings": {}
+          },
+          {
+            "name": "Untitled Capture Choice",
+            "type": "NestedChoice",
+            "id": "a37554d8-f191-4747-89e6-111cf3757439",
+            "choice": {
+              "id": "bfa914f2-352d-428b-883a-d8d3a5fbb823",
+              "name": "Untitled Capture Choice",
+              "type": "Capture",
+              "command": false,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "activeFileWritePosition": "cursor",
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{value:result}}"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "newLineCapture": {
+                "enabled": false,
+                "direction": "below"
+              },
+              "prepend": false,
+              "task": false,
+              "openFile": false,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "98b82b09-4f6a-4bde-95c3-a252d2cd4f21",
+      "name": "attachment-management",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "attachment-management",
+        "id": "fd3e316f-b555-4615-aeb2-bd57b82e8055",
+        "commands": [
+          {
+            "name": "attachments",
+            "type": "UserScript",
+            "id": "aa532677-49bd-4ec2-89c0-a873abe3cf4e",
+            "path": "Scripts/attachments.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "1a389c44-1933-410d-ab41-e5579a8a68c8",
+      "name": "calc",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "calc",
+        "id": "a4e07208-730a-4128-90cd-5b4fa386dabe",
+        "commands": [
+          {
+            "name": "calc",
+            "type": "UserScript",
+            "id": "0d71d71b-c079-4a14-a246-7fbbfe61c13a",
+            "path": "Scripts/calc.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "d0b2c8b1-c616-4169-9eb2-e8d309c11ba0",
+      "name": "test",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "test",
+        "id": "3b0b156a-0213-47b8-8db6-537b35546001",
+        "commands": [
+          {
+            "name": "test",
+            "type": "UserScript",
+            "id": "2674f396-d7f2-489d-ad10-cabbeb313a93",
+            "path": "Scripts/test.js",
+            "settings": {}
+          },
+          {
+            "name": "Untitled Capture Choice",
+            "type": "NestedChoice",
+            "id": "001015b7-c938-4611-9eb6-07f5000d9013",
+            "choice": {
+              "id": "7cc5065c-3190-48b3-b87f-91e235fcfcee",
+              "name": "Untitled Capture Choice",
+              "type": "Capture",
+              "command": false,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "activeFileWritePosition": "cursor",
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{value:result}}"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "newLineCapture": {
+                "enabled": false,
+                "direction": "below"
+              },
+              "prepend": false,
+              "task": false,
+              "openFile": false,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              },
+              "templater": {
+                "afterCapture": "none"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "inputPrompt": "multi-line",
+  "devMode": false,
+  "templateFolderPath": "Templates",
+  "announceUpdates": "none",
+  "version": "2.9.4",
+  "globalVariables": {},
+  "onePageInputEnabled": true,
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
+  "showCaptureNotification": true,
+  "showInputCancellationNotification": false,
+  "enableTemplatePropertyTypes": true,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          }
+        ],
+        "modelSource": "auto"
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true,
+    "setProviderModelDiscoveryMode": true
+  }
+}

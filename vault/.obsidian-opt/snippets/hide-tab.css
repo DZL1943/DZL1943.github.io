@@ -1,0 +1,11 @@
+.workspace-tab-header-container {
+  opacity: 0;
+  position: absolute;
+  z-index: 10; /* 不能高于30，否则会挡住titlebar */
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.workspace-tab-header-container:hover {
+  opacity: 1;
+}

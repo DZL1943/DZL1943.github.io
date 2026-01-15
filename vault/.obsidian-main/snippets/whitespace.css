@@ -1,0 +1,17 @@
+.cm-trailing-space-a::before,
+.cm-trailing-space-b::before,
+.cm-trailing-space-new-line::before {
+  content: "·";
+  color: var(--list-marker-color);
+  position: absolute;
+}
+
+.cm-trailing-space-new-line::after {
+  content: "↲";
+  color: var(--list-marker-color);
+}
+
+/* .markdown-source-view.mod-cm6 .cm-indent::before { */
+  /* content: '⇥'; */
+  /* color: var(--list-marker-color); */
+/* } */

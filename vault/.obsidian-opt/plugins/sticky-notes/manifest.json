@@ -1,0 +1,10 @@
+{
+	"id": "sticky-notes",
+	"name": "Sticky Notes",
+	"version": "0.9.1",
+	"minAppVersion": "0.15.0",
+	"description": "Create sticky notes popups.",
+	"author": "NoPoint",
+	"authorUrl": "https://github.com/Abdo-reda",
+	"isDesktopOnly": true
+}

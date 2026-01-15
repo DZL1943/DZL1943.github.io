@@ -1,0 +1,2873 @@
+{
+  "settingsVersion": "1.14.0",
+  "highlightColor": "#ffd700",
+  "sidebarPosition": "right",
+  "highlights": {
+    "Misc/Templates/timetable-template.md": [
+      {
+        "id": "x5wu95uz1",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 0,
+        "startOffset": 0,
+        "endOffset": 16,
+        "filePath": "Misc/Templates/timetable-template.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754312624822,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "README.md": [
+      {
+        "id": "hkc5aojpu",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 14,
+        "startOffset": 201,
+        "endOffset": 217,
+        "filePath": "README.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1755439650715,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "Ext/CSNotes/92_DevOps/Tmux.md": [
+      {
+        "id": "hpg8ypn1m",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 21,
+        "startOffset": 312,
+        "endOffset": 328,
+        "filePath": "Ext/CSNotes/92_DevOps/Tmux.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754312643669,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "Ext/CSNotes/92_DevOps/Linux/Linux-Commands.md": [
+      {
+        "id": "29sfrng9m",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false],\"lane-width\":200}\n```\n",
+        "tags": [],
+        "line": 146,
+        "startOffset": 1645,
+        "endOffset": 1771,
+        "filePath": "Ext/CSNotes/92_DevOps/Linux/Linux-Commands.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false],\"lane-width\":200}\n```\n"
+        ],
+        "createdAt": 1755504952757,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "Ext/CSNotes/80_后端/Rust/Rust笔记.md": [
+      {
+        "id": "l3sfei4vc",
+        "text": "对于一个库 crate 而言是 _src/lib.rs_，对于一个二进制 crate 而言是 _src/main.rs_",
+        "tags": [],
+        "line": 198,
+        "startOffset": 4022,
+        "endOffset": 4086,
+        "filePath": "Ext/CSNotes/80_后端/Rust/Rust笔记.md",
+        "footnoteCount": 0,
+        "footnoteContents": [],
+        "createdAt": 1747127320986,
+        "isNativeComment": false,
+        "type": "highlight"
+      }
+    ],
+    "Ext/CSNotes/30_计算机网络/网络协议和网络设备.md": [
+      {
+        "id": "j1m4s7nvd",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 6,
+        "startOffset": 93,
+        "endOffset": 109,
+        "filePath": "Ext/CSNotes/30_计算机网络/网络协议和网络设备.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1747127321036,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "Archives/Obsidian插件分类.md": [
+      {
+        "id": "7i78l73vx",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false],\"lane-width\":220,\"show-checkboxes\":false}\n```\n",
+        "tags": [],
+        "line": 308,
+        "startOffset": 6660,
+        "endOffset": 6810,
+        "filePath": "Archives/Obsidian插件分类.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false],\"lane-width\":220,\"show-checkboxes\":false}\n```\n"
+        ],
+        "createdAt": 1751389309859,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "Archives/Obsidian插件.md": [
+      {
+        "id": "2wacyxx7r",
+        "text": " X必备、x推荐、/可选 待定 弃用 ",
+        "tags": [],
+        "line": 59,
+        "startOffset": 1005,
+        "endOffset": 1028,
+        "filePath": "Archives/Obsidian插件.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " X必备、x推荐、/可选 待定 弃用 "
+        ],
+        "createdAt": 1752137204862,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "Archives/202408092050.md": [
+      {
+        "id": "z6hzumg19",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 48,
+        "startOffset": 740,
+        "endOffset": 756,
+        "filePath": "Archives/202408092050.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1755141908213,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/Areas.md": [
+      {
+        "id": "0qofzcdtz",
+        "text": "[title2card]",
+        "tags": [],
+        "line": 24,
+        "startOffset": 140,
+        "endOffset": 156,
+        "filePath": "40_Pages/Areas.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[title2card]"
+        ],
+        "createdAt": 1755219327454,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/60_思想认知/领域.md": [
+      {
+        "id": "8vte8gq4p",
+        "text": "[list2lt|fold]",
+        "tags": [],
+        "line": 9,
+        "startOffset": 110,
+        "endOffset": 128,
+        "filePath": "40_Pages/60_思想认知/领域.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt|fold]"
+        ],
+        "createdAt": 1752544894744,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/60_思想认知/择业与搞钱.md": [
+      {
+        "id": "819pmwt15",
+        "text": "[list2lt]",
+        "tags": [],
+        "line": 47,
+        "startOffset": 633,
+        "endOffset": 646,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt]"
+        ],
+        "createdAt": 1755481962906,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "fqtdtb4u1",
+        "text": "  (零自主性, 线性计酬) ",
+        "tags": [],
+        "line": 49,
+        "startOffset": 684,
+        "endOffset": 703,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "  (零自主性, 线性计酬) "
+        ],
+        "createdAt": 1755481962957,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "tvciyvkpv",
+        "text": "  (时空锁定，即时交付) ",
+        "tags": [],
+        "line": 50,
+        "startOffset": 726,
+        "endOffset": 744,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "  (时空锁定，即时交付) "
+        ],
+        "createdAt": 1755481962999,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "4aivsv8wc",
+        "text": "  (范式创造, 零边际复制, 文化/技术复利) ",
+        "tags": [],
+        "line": 52,
+        "startOffset": 777,
+        "endOffset": 806,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "  (范式创造, 零边际复制, 文化/技术复利) "
+        ],
+        "createdAt": 1755481963050,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "wl7uymp13",
+        "text": "  (批量生产复制, 规模效应) ",
+        "tags": [],
+        "line": 53,
+        "startOffset": 832,
+        "endOffset": 853,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "  (批量生产复制, 规模效应) "
+        ],
+        "createdAt": 1755481963105,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "mylh4oxgz",
+        "text": "  (供给刚性, 稀缺溢价) ",
+        "tags": [],
+        "line": 55,
+        "startOffset": 883,
+        "endOffset": 902,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "  (供给刚性, 稀缺溢价) "
+        ],
+        "createdAt": 1755481963156,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "gbje9dfy7",
+        "text": "  (时间贴现, 复利杠杆) ",
+        "tags": [],
+        "line": 56,
+        "startOffset": 924,
+        "endOffset": 943,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "  (时间贴现, 复利杠杆) "
+        ],
+        "createdAt": 1755481963197,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "p7vmy7spz",
+        "text": "  (制度垄断, 非对称博弈) ",
+        "tags": [],
+        "line": 57,
+        "startOffset": 965,
+        "endOffset": 985,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "  (制度垄断, 非对称博弈) "
+        ],
+        "createdAt": 1755481963238,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "lc57vrpw3",
+        "text": "  (获客成本, 信息溢价) ",
+        "tags": [],
+        "line": 59,
+        "startOffset": 1015,
+        "endOffset": 1034,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "  (获客成本, 信息溢价) "
+        ],
+        "createdAt": 1755481962288,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "wv4dyofhc",
+        "text": "  (网络效应, 生态复利) ",
+        "tags": [],
+        "line": 60,
+        "startOffset": 1054,
+        "endOffset": 1073,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "  (网络效应, 生态复利) "
+        ],
+        "createdAt": 1755481962327,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "3ds0hi8fr",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 64,
+        "startOffset": 1082,
+        "endOffset": 1098,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1755481962355,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "992mst8sr",
+        "text": " 小富靠勤劳, 中富靠选择, 大富靠机遇. ",
+        "tags": [],
+        "line": 82,
+        "startOffset": 1262,
+        "endOffset": 1288,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 小富靠勤劳, 中富靠选择, 大富靠机遇. "
+        ],
+        "createdAt": 1755481962535,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "bnnvxx5qo",
+        "text": " 优先掌握基础的、通用的为人处事能力 ",
+        "tags": [],
+        "line": 88,
+        "startOffset": 1360,
+        "endOffset": 1383,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 优先掌握基础的、通用的为人处事能力 "
+        ],
+        "createdAt": 1755481962612,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "7bkpy7vut",
+        "text": " 批发业，交通运输、仓储和邮政业，信息传输、软件和信息技术服务业，金融业，租赁和商务服务业，科学研究和技术服务业，生态环保和环境治理业 ",
+        "tags": [],
+        "line": 133,
+        "startOffset": 2028,
+        "endOffset": 2100,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 批发业，交通运输、仓储和邮政业，信息传输、软件和信息技术服务业，金融业，租赁和商务服务业，科学研究和技术服务业，生态环保和环境治理业 "
+        ],
+        "createdAt": 1755481962280,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "9jxwktn0a",
+        "text": " 零售业，住宿和餐饮业，房地产业，旅游业，居民服务，修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业 ",
+        "tags": [],
+        "line": 134,
+        "startOffset": 2115,
+        "endOffset": 2175,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 零售业，住宿和餐饮业，房地产业，旅游业，居民服务，修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业 "
+        ],
+        "createdAt": 1755481962367,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "dhl9gzrge",
+        "text": " next\n- 需求分析\n- 自我提升\n    - 体育: 提升体能、运动能力, 增强自信\n    - 娱乐: 培养一些合群的爱好, 拓展社交圈\n    - 语言: 提升语言表达和人际关系能力\n    - 管理: 学习基础财管知识, 提升解决人事问题的能力\n",
+        "tags": [],
+        "line": 187,
+        "startOffset": 2805,
+        "endOffset": 2938,
+        "filePath": "40_Pages/60_思想认知/择业与搞钱.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " next\n- 需求分析\n- 自我提升\n    - 体育: 提升体能、运动能力, 增强自信\n    - 娱乐: 培养一些合群的爱好, 拓展社交圈\n    - 语言: 提升语言表达和人际关系能力\n    - 管理: 学习基础财管知识, 提升解决人事问题的能力\n"
+        ],
+        "createdAt": 1755519230520,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/60_思想认知/个人及家庭事务管理.md": [
+      {
+        "id": "feitkys5x",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false],\"show-checkboxes\":true}\n```\n",
+        "tags": [],
+        "line": 72,
+        "startOffset": 622,
+        "endOffset": 748,
+        "filePath": "40_Pages/60_思想认知/个人及家庭事务管理.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false],\"show-checkboxes\":true}\n```\n"
+        ],
+        "createdAt": 1751866173351,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/60_思想认知/202411212147.md": [
+      {
+        "id": "lppm6v3xm",
+        "text": " 物质仍然是绝大多数人最主要的需求. ",
+        "tags": [],
+        "line": 43,
+        "startOffset": 693,
+        "endOffset": 716,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 物质仍然是绝大多数人最主要的需求. "
+        ],
+        "createdAt": 1755354423372,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "aztuc84ps",
+        "text": " 这是我最想要完善的 ",
+        "tags": [],
+        "line": 47,
+        "startOffset": 804,
+        "endOffset": 819,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 这是我最想要完善的 "
+        ],
+        "createdAt": 1755354423483,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "euirvg44n",
+        "text": "  \n            普通人基本上只有农、工、商这几条路, 高端制造和服务都有较高的门槛.  \n            思考: 从原始社会到共产社会, 人们的生产生活方式会有哪些变化?  \n            虽然随着社会生产力的提升, 需求的实现方式会变得更加经济高效, 但是行业需求、生产关系应该不会有太大的变化.  \n            ",
+        "tags": [],
+        "line": 58,
+        "startOffset": 1080,
+        "endOffset": 1264,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "  \n            普通人基本上只有农、工、商这几条路, 高端制造和服务都有较高的门槛.  \n            思考: 从原始社会到共产社会, 人们的生产生活方式会有哪些变化?  \n            虽然随着社会生产力的提升, 需求的实现方式会变得更加经济高效, 但是行业需求、生产关系应该不会有太大的变化.  \n            "
+        ],
+        "createdAt": 1755354422759,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "kagh2oc2o",
+        "text": " 岗位很少 ",
+        "tags": [],
+        "line": 66,
+        "startOffset": 1360,
+        "endOffset": 1370,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 岗位很少 "
+        ],
+        "createdAt": 1755354423039,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "yfo7vi0sj",
+        "text": " 不会娱乐的人很难与他人建立关系, 关系即渠道, 没有关系工作也很难开展; 别太自我、独立、清高, 多关注他人、融入集体 ",
+        "tags": [],
+        "line": 110,
+        "startOffset": 2240,
+        "endOffset": 2305,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 不会娱乐的人很难与他人建立关系, 关系即渠道, 没有关系工作也很难开展; 别太自我、独立、清高, 多关注他人、融入集体 "
+        ],
+        "createdAt": 1755354422919,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "t0d5wuj4m",
+        "text": " 老板思维的特征是不要亲自干, 而是整合资源、组织他人协作着干, 计算好成本、收入、利润即可 ",
+        "tags": [],
+        "line": 121,
+        "startOffset": 2487,
+        "endOffset": 2538,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 老板思维的特征是不要亲自干, 而是整合资源、组织他人协作着干, 计算好成本、收入、利润即可 "
+        ],
+        "createdAt": 1755354423166,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "pjkbv5yvr",
+        "text": " 量化, 循序渐进 ",
+        "tags": [],
+        "line": 140,
+        "startOffset": 2837,
+        "endOffset": 2851,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 量化, 循序渐进 "
+        ],
+        "createdAt": 1755354423516,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "h2owiily2",
+        "text": " intj、infj ",
+        "tags": [],
+        "line": 178,
+        "startOffset": 3291,
+        "endOffset": 3306,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " intj、infj "
+        ],
+        "createdAt": 1755354422970,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "qrf6r0qkm",
+        "text": " 思维、内省; 运动、人际 ",
+        "tags": [],
+        "line": 179,
+        "startOffset": 3318,
+        "endOffset": 3336,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 思维、内省; 运动、人际 "
+        ],
+        "createdAt": 1755354422997,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "9c1haz93z",
+        "text": " 研究型 ",
+        "tags": [],
+        "line": 180,
+        "startOffset": 3349,
+        "endOffset": 3358,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 研究型 "
+        ],
+        "createdAt": 1755354423028,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "pz63tfk7t",
+        "text": " 社科(政法、经管)? 文科? 理科(数、理、化、生)? 工科(电气、电子、计算机)? ",
+        "tags": [],
+        "line": 181,
+        "startOffset": 3371,
+        "endOffset": 3419,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 社科(政法、经管)? 文科? 理科(数、理、化、生)? 工科(电气、电子、计算机)? "
+        ],
+        "createdAt": 1755354423050,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "5nwufg1hu",
+        "text": " peace&love ",
+        "tags": [],
+        "line": 182,
+        "startOffset": 3433,
+        "endOffset": 3449,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " peace&love "
+        ],
+        "createdAt": 1755354423112,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "oqs24kcy9",
+        "text": " CEO、党委书记? ",
+        "tags": [],
+        "line": 184,
+        "startOffset": 3484,
+        "endOffset": 3499,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " CEO、党委书记? "
+        ],
+        "createdAt": 1755354423163,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "2dcqhd3u1",
+        "text": " 主观、客观, 内在、外在 ",
+        "tags": [],
+        "line": 194,
+        "startOffset": 3605,
+        "endOffset": 3623,
+        "filePath": "40_Pages/60_思想认知/202411212147.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 主观、客观, 内在、外在 "
+        ],
+        "createdAt": 1755354423284,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/记账.md": [
+      {
+        "id": "a7yvnwgpj",
+        "text": " price * quantity ",
+        "tags": [],
+        "line": 22,
+        "startOffset": 284,
+        "endOffset": 306,
+        "filePath": "40_Pages/50_经验实践/信息管理/记账.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " price * quantity "
+        ],
+        "createdAt": 1754312206531,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "xi2bhbey2",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 42,
+        "startOffset": 645,
+        "endOffset": 661,
+        "filePath": "40_Pages/50_经验实践/信息管理/记账.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754312206892,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/笔记管理/笔记关系.md": [
+      {
+        "id": "fha15a4tv",
+        "text": " (lateral relationships on the right side) ",
+        "tags": [],
+        "line": 13,
+        "startOffset": 194,
+        "endOffset": 241,
+        "filePath": "40_Pages/50_经验实践/信息管理/笔记管理/笔记关系.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " (lateral relationships on the right side) "
+        ],
+        "createdAt": 1753265432704,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/笔记管理/碎片记录的分隔方式.md": [
+      {
+        "id": "tgddfsifp",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 7,
+        "startOffset": 95,
+        "endOffset": 111,
+        "filePath": "40_Pages/50_经验实践/信息管理/笔记管理/碎片记录的分隔方式.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754312352185,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/笔记管理/markdown语法和功能.md": [
+      {
+        "id": "55bbsutks",
+        "text": "高亮",
+        "tags": [],
+        "line": 15,
+        "startOffset": 191,
+        "endOffset": 197,
+        "filePath": "40_Pages/50_经验实践/信息管理/笔记管理/markdown语法和功能.md",
+        "footnoteCount": 0,
+        "footnoteContents": [],
+        "createdAt": 1751866172904,
+        "isNativeComment": false,
+        "type": "highlight"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/笔记管理/markdown换行规则.md": [
+      {
+        "id": "bjsq44oul",
+        "text": " 摘自 obsidian 文档 ",
+        "tags": [],
+        "line": 9,
+        "startOffset": 146,
+        "endOffset": 166,
+        "filePath": "40_Pages/50_经验实践/信息管理/笔记管理/markdown换行规则.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 摘自 obsidian 文档 "
+        ],
+        "createdAt": 1755422810478,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/物品.md": [
+      {
+        "id": "cg706akt5",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"lane-width\":180,\"list-collapse\":[null,null,false,false],\"show-checkboxes\":false}\n```\n",
+        "tags": [],
+        "line": 177,
+        "startOffset": 1372,
+        "endOffset": 1508,
+        "filePath": "40_Pages/50_经验实践/信息管理/物品.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"lane-width\":180,\"list-collapse\":[null,null,false,false],\"show-checkboxes\":false}\n```\n"
+        ],
+        "createdAt": 1751866173084,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/游戏.md": [
+      {
+        "id": "qi7pqtig9",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false],\"new-card-insertion-method\":\"append\"}\n```\n",
+        "tags": [],
+        "line": 50,
+        "startOffset": 307,
+        "endOffset": 453,
+        "filePath": "40_Pages/50_经验实践/信息管理/游戏.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false],\"new-card-insertion-method\":\"append\"}\n```\n"
+        ],
+        "createdAt": 1751866173019,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/影视.md": [
+      {
+        "id": "7vtk8poq3",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false]}\n```\n",
+        "tags": [],
+        "line": 47,
+        "startOffset": 180,
+        "endOffset": 301,
+        "filePath": "40_Pages/50_经验实践/信息管理/影视.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false]}\n```\n"
+        ],
+        "createdAt": 1751866172892,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/密码管理.md": [
+      {
+        "id": "cwoflwzn1",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false,false,false,false],\"show-checkboxes\":false,\"lane-width\":200}\n```\n",
+        "tags": [],
+        "line": 112,
+        "startOffset": 964,
+        "endOffset": 1144,
+        "filePath": "40_Pages/50_经验实践/信息管理/密码管理.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false,false,false,false],\"show-checkboxes\":false,\"lane-width\":200}\n```\n"
+        ],
+        "createdAt": 1751866173676,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/人际关系.md": [
+      {
+        "id": "y4mhtuz8v",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false,false],\"lane-width\":200}\n```\n",
+        "tags": [],
+        "line": 51,
+        "startOffset": 189,
+        "endOffset": 333,
+        "filePath": "40_Pages/50_经验实践/信息管理/人际关系.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false,false],\"lane-width\":200}\n```\n"
+        ],
+        "createdAt": 1751866172901,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/信息管理/书籍.md": [
+      {
+        "id": "dtwcr1tfe",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],\"lane-width\":200}\n```\n",
+        "tags": [],
+        "line": 71,
+        "startOffset": 236,
+        "endOffset": 416,
+        "filePath": "40_Pages/50_经验实践/信息管理/书籍.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],\"lane-width\":200}\n```\n"
+        ],
+        "createdAt": 1751866172947,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/药品清单.md": [
+      {
+        "id": "dfx0imkyd",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false]}\n```\n",
+        "tags": [],
+        "line": 59,
+        "startOffset": 339,
+        "endOffset": 460,
+        "filePath": "40_Pages/50_经验实践/药品清单.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false]}\n```\n"
+        ],
+        "createdAt": 1751866173067,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/游戏/香肠派对.md": [
+      {
+        "id": "isxx1sf44",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 10,
+        "startOffset": 93,
+        "endOffset": 109,
+        "filePath": "40_Pages/50_经验实践/游戏/香肠派对.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754312371520,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/游戏/皇室战争卡牌.md": [
+      {
+        "id": "44c6zismy",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,null,false,false,false],\"lane-width\":180}\n```\n",
+        "tags": [],
+        "line": 151,
+        "startOffset": 1297,
+        "endOffset": 1428,
+        "filePath": "40_Pages/50_经验实践/游戏/皇室战争卡牌.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,null,false,false,false],\"lane-width\":180}\n```\n"
+        ],
+        "createdAt": 1751866173025,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/游戏/皇室战争.md": [
+      {
+        "id": "fo5ug1g66",
+        "text": "[list2ut]",
+        "tags": [],
+        "line": 24,
+        "startOffset": 199,
+        "endOffset": 212,
+        "filePath": "40_Pages/50_经验实践/游戏/皇室战争.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2ut]"
+        ],
+        "createdAt": 1754312127409,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "uiaixsg9u",
+        "text": "[list2ut]",
+        "tags": [],
+        "line": 45,
+        "startOffset": 386,
+        "endOffset": 399,
+        "filePath": "40_Pages/50_经验实践/游戏/皇室战争.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2ut]"
+        ],
+        "createdAt": 1754312127596,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "gr38i5c8f",
+        "text": "[list2ut]",
+        "tags": [],
+        "line": 81,
+        "startOffset": 717,
+        "endOffset": 730,
+        "filePath": "40_Pages/50_经验实践/游戏/皇室战争.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2ut]"
+        ],
+        "createdAt": 1754312127927,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "kwr967xtw",
+        "text": "[list2lt]",
+        "tags": [],
+        "line": 112,
+        "startOffset": 996,
+        "endOffset": 1009,
+        "filePath": "40_Pages/50_经验实践/游戏/皇室战争.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt]"
+        ],
+        "createdAt": 1754312128206,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/游戏/模拟城市.md": [
+      {
+        "id": "x8xyth84t",
+        "text": "[list2lt|fold]",
+        "tags": [],
+        "line": 83,
+        "startOffset": 970,
+        "endOffset": 988,
+        "filePath": "40_Pages/50_经验实践/游戏/模拟城市.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt|fold]"
+        ],
+        "createdAt": 1754312269285,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/游戏/我的世界.md": [
+      {
+        "id": "p3tip3ui2",
+        "text": "Advanced XRay",
+        "tags": [],
+        "line": 119,
+        "startOffset": 3218,
+        "endOffset": 3260,
+        "filePath": "40_Pages/50_经验实践/游戏/我的世界.md",
+        "footnoteCount": 0,
+        "footnoteContents": [],
+        "createdAt": 1755338193088,
+        "isNativeComment": false,
+        "color": "#a5a5a5",
+        "type": "html"
+      },
+      {
+        "id": "1xlfztn15",
+        "text": "DynamicSurroundings",
+        "tags": [],
+        "line": 129,
+        "startOffset": 3406,
+        "endOffset": 3454,
+        "filePath": "40_Pages/50_经验实践/游戏/我的世界.md",
+        "footnoteCount": 0,
+        "footnoteContents": [],
+        "createdAt": 1755338193276,
+        "isNativeComment": false,
+        "color": "#a5a5a5",
+        "type": "html"
+      },
+      {
+        "id": "pnzimi0v5",
+        "text": "EasierVillagerTrading",
+        "tags": [],
+        "line": 130,
+        "startOffset": 3457,
+        "endOffset": 3507,
+        "filePath": "40_Pages/50_经验实践/游戏/我的世界.md",
+        "footnoteCount": 0,
+        "footnoteContents": [],
+        "createdAt": 1755338193327,
+        "isNativeComment": false,
+        "color": "#a5a5a5",
+        "type": "html"
+      },
+      {
+        "id": "w08lj26p2",
+        "text": "JEI",
+        "tags": [],
+        "line": 139,
+        "startOffset": 3679,
+        "endOffset": 3711,
+        "filePath": "40_Pages/50_经验实践/游戏/我的世界.md",
+        "footnoteCount": 0,
+        "footnoteContents": [],
+        "createdAt": 1755338193549,
+        "isNativeComment": false,
+        "color": "#a5a5a5",
+        "type": "html"
+      },
+      {
+        "id": "od59qs0sc",
+        "text": "LambDynamicLights",
+        "tags": [],
+        "line": 140,
+        "startOffset": 3714,
+        "endOffset": 3760,
+        "filePath": "40_Pages/50_经验实践/游戏/我的世界.md",
+        "footnoteCount": 0,
+        "footnoteContents": [],
+        "createdAt": 1755338193584,
+        "isNativeComment": false,
+        "color": "#a5a5a5",
+        "type": "html"
+      },
+      {
+        "id": "mbfgk3rbs",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 419,
+        "startOffset": 9682,
+        "endOffset": 9698,
+        "filePath": "40_Pages/50_经验实践/游戏/我的世界.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1755338193552,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "zan8w9a25",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 431,
+        "startOffset": 9907,
+        "endOffset": 9923,
+        "filePath": "40_Pages/50_经验实践/游戏/我的世界.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1755338193777,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "zo2e2r9fr",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 447,
+        "startOffset": 10082,
+        "endOffset": 10098,
+        "filePath": "40_Pages/50_经验实践/游戏/我的世界.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1755338192952,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "xeyddk0tg",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 470,
+        "startOffset": 10506,
+        "endOffset": 10522,
+        "filePath": "40_Pages/50_经验实践/游戏/我的世界.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1755338193376,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "tovrkgbn8",
+        "text": "弱充能方块无法激活毗邻的红石线",
+        "tags": [],
+        "line": 615,
+        "startOffset": 16116,
+        "endOffset": 16135,
+        "filePath": "40_Pages/50_经验实践/游戏/我的世界.md",
+        "footnoteCount": 0,
+        "footnoteContents": [],
+        "createdAt": 1755338192986,
+        "isNativeComment": false,
+        "type": "highlight"
+      }
+    ],
+    "40_Pages/50_经验实践/应用软件/软件列表.md": [
+      {
+        "id": "h5idvzo8h",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[]}\n```\n",
+        "tags": [],
+        "line": 165,
+        "startOffset": 5607,
+        "endOffset": 5681,
+        "filePath": "40_Pages/50_经验实践/应用软件/软件列表.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[]}\n```\n"
+        ],
+        "createdAt": 1751866173333,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/应用软件/笔记软件.md": [
+      {
+        "id": "61vtzlrgj",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 10,
+        "startOffset": 93,
+        "endOffset": 109,
+        "filePath": "40_Pages/50_经验实践/应用软件/笔记软件.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1751866172819,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/应用软件/浏览器.md": [
+      {
+        "id": "q12kxfi13",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 8,
+        "startOffset": 84,
+        "endOffset": 100,
+        "filePath": "40_Pages/50_经验实践/应用软件/浏览器.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754312247614,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/应用软件/macOS/macOS.md": [
+      {
+        "id": "yx9o2ge9x",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 55,
+        "startOffset": 2649,
+        "endOffset": 2665,
+        "filePath": "40_Pages/50_经验实践/应用软件/macOS/macOS.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754475166413,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "r13q43x7l",
+        "text": " 菜单栏图标 ",
+        "tags": [],
+        "line": 78,
+        "startOffset": 2944,
+        "endOffset": 2955,
+        "filePath": "40_Pages/50_经验实践/应用软件/macOS/macOS.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 菜单栏图标 "
+        ],
+        "createdAt": 1754475166708,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "z43sbvkdv",
+        "text": "[list2lt|fold]",
+        "tags": [],
+        "line": 138,
+        "startOffset": 3675,
+        "endOffset": 3693,
+        "filePath": "40_Pages/50_经验实践/应用软件/macOS/macOS.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt|fold]"
+        ],
+        "createdAt": 1754475166439,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/应用软件/VSCode.md": [
+      {
+        "id": "khv8ak6l0",
+        "text": "[list2card]",
+        "tags": [],
+        "line": 8,
+        "startOffset": 150,
+        "endOffset": 165,
+        "filePath": "40_Pages/50_经验实践/应用软件/VSCode.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2card]"
+        ],
+        "createdAt": 1754312665107,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/应用软件/Obsidian/obsidian-better-plugins-manager.md": [
+      {
+        "id": "z7memte5v",
+        "text": " 建议 id 等于值 ",
+        "tags": [],
+        "line": 32,
+        "startOffset": 473,
+        "endOffset": 488,
+        "filePath": "40_Pages/50_经验实践/应用软件/Obsidian/obsidian-better-plugins-manager.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 建议 id 等于值 "
+        ],
+        "createdAt": 1755141364681,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/应用软件/Obsidian/Obsidian插件.md": [
+      {
+        "id": "rmcn0b3u8",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false],\"new-card-insertion-method\":\"prepend-compact\",\"lane-width\":250,\"show-checkboxes\":false}\n```\n",
+        "tags": [],
+        "line": 143,
+        "startOffset": 2773,
+        "endOffset": 2963,
+        "filePath": "40_Pages/50_经验实践/应用软件/Obsidian/Obsidian插件.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false],\"new-card-insertion-method\":\"prepend-compact\",\"lane-width\":250,\"show-checkboxes\":false}\n```\n"
+        ],
+        "createdAt": 1755010580739,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/应用软件/Obsidian/Obsidian搜索类插件.md": [
+      {
+        "id": "d0eiyel3t",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 6,
+        "startOffset": 102,
+        "endOffset": 118,
+        "filePath": "40_Pages/50_经验实践/应用软件/Obsidian/Obsidian搜索类插件.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754312562711,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/应用软件/Obsidian/Obsidian.md": [
+      {
+        "id": "daxcey0tq",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 37,
+        "startOffset": 494,
+        "endOffset": 510,
+        "filePath": "40_Pages/50_经验实践/应用软件/Obsidian/Obsidian.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1755422247790,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "diebuwi3c",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 78,
+        "startOffset": 1017,
+        "endOffset": 1033,
+        "filePath": "40_Pages/50_经验实践/应用软件/Obsidian/Obsidian.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1755422247313,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "ov4jjj7dj",
+        "text": "[list2lt|fold]",
+        "tags": [],
+        "line": 161,
+        "startOffset": 2465,
+        "endOffset": 2483,
+        "filePath": "40_Pages/50_经验实践/应用软件/Obsidian/Obsidian.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt|fold]"
+        ],
+        "createdAt": 1755422247761,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/50_经验实践/应用软件/Firefox.md": [
+      {
+        "id": "gw7h5znug",
+        "text": "userChrome.css",
+        "tags": [],
+        "line": 100,
+        "startOffset": 1578,
+        "endOffset": 1596,
+        "filePath": "40_Pages/50_经验实践/应用软件/Firefox.md",
+        "footnoteCount": 0,
+        "footnoteContents": [],
+        "createdAt": 1753861535071,
+        "isNativeComment": false,
+        "type": "highlight"
+      }
+    ],
+    "40_Pages/50_经验实践/书影音/周杰伦专辑歌曲.md": [
+      {
+        "id": "xyjzhl60k",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 17,
+        "startOffset": 221,
+        "endOffset": 237,
+        "filePath": "40_Pages/50_经验实践/书影音/周杰伦专辑歌曲.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754312411711,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/20_社会科学/行政职业能力测验.md": [
+      {
+        "id": "tafnd7a98",
+        "text": " 容易, 但涉及面广 ",
+        "tags": [],
+        "line": 19,
+        "startOffset": 325,
+        "endOffset": 340,
+        "filePath": "40_Pages/20_社会科学/行政职业能力测验.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 容易, 但涉及面广 "
+        ],
+        "createdAt": 1752137170693,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "3po29yoen",
+        "text": " 不难但得保证正确率和速度 ",
+        "tags": [],
+        "line": 162,
+        "startOffset": 3380,
+        "endOffset": 3398,
+        "filePath": "40_Pages/20_社会科学/行政职业能力测验.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 不难但得保证正确率和速度 "
+        ],
+        "createdAt": 1752137170748,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "r7gecdh1s",
+        "text": " 技巧性较多 ",
+        "tags": [],
+        "line": 177,
+        "startOffset": 3660,
+        "endOffset": 3671,
+        "filePath": "40_Pages/20_社会科学/行政职业能力测验.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 技巧性较多 "
+        ],
+        "createdAt": 1752137171028,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "kieczw7qy",
+        "text": " 有点像做数独... ",
+        "tags": [],
+        "line": 221,
+        "startOffset": 4701,
+        "endOffset": 4716,
+        "filePath": "40_Pages/20_社会科学/行政职业能力测验.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 有点像做数独... "
+        ],
+        "createdAt": 1752137171069,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "9pjs5vq0p",
+        "text": " 主要考思维 ",
+        "tags": [],
+        "line": 238,
+        "startOffset": 5036,
+        "endOffset": 5047,
+        "filePath": "40_Pages/20_社会科学/行政职业能力测验.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 主要考思维 "
+        ],
+        "createdAt": 1752137170404,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "1ay97brn6",
+        "text": " 有一定计算量 ",
+        "tags": [],
+        "line": 281,
+        "startOffset": 5998,
+        "endOffset": 6010,
+        "filePath": "40_Pages/20_社会科学/行政职业能力测验.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 有一定计算量 "
+        ],
+        "createdAt": 1752137171366,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "7rkgqzizl",
+        "text": " 算什么, 怎么算 ",
+        "tags": [],
+        "line": 291,
+        "startOffset": 6204,
+        "endOffset": 6218,
+        "filePath": "40_Pages/20_社会科学/行政职业能力测验.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 算什么, 怎么算 "
+        ],
+        "createdAt": 1752137170572,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "vqyl2mhcd",
+        "text": " 分别用 A、B、X、r 表示, 用 R 表示不带百分号的增长率数值 ",
+        "tags": [],
+        "line": 336,
+        "startOffset": 6888,
+        "endOffset": 6927,
+        "filePath": "40_Pages/20_社会科学/行政职业能力测验.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 分别用 A、B、X、r 表示, 用 R 表示不带百分号的增长率数值 "
+        ],
+        "createdAt": 1752137171256,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/20_社会科学/行业分类.md": [
+      {
+        "id": "kksaojdpl",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"show-checkboxes\":false}\n```\n",
+        "tags": [],
+        "line": 83,
+        "startOffset": 1241,
+        "endOffset": 1320,
+        "filePath": "40_Pages/20_社会科学/行业分类.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"show-checkboxes\":false}\n```\n"
+        ],
+        "createdAt": 1751866172975,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/20_社会科学/马克思主义.md": [
+      {
+        "id": "fk5s84bpu",
+        "text": "马哲是马主义的理论基础",
+        "tags": [],
+        "line": 17,
+        "startOffset": 217,
+        "endOffset": 232,
+        "filePath": "40_Pages/20_社会科学/马克思主义.md",
+        "footnoteCount": 0,
+        "footnoteContents": [],
+        "createdAt": 1751866172952,
+        "isNativeComment": false,
+        "type": "highlight"
+      }
+    ],
+    "40_Pages/20_社会科学/职业分类.md": [
+      {
+        "id": "jqwtuj592",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"show-checkboxes\":false,\"lane-width\":200}\n```\n",
+        "tags": [],
+        "line": 114,
+        "startOffset": 1670,
+        "endOffset": 1766,
+        "filePath": "40_Pages/20_社会科学/职业分类.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"show-checkboxes\":false,\"lane-width\":200}\n```\n"
+        ],
+        "createdAt": 1751866173404,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/20_社会科学/考公考编.md": [
+      {
+        "id": "tqdln1zmd",
+        "text": "\nhttp://www.jxpta.com/jxsrskszx/lpylks/pc/content/content_1891686344255832064.html  \nhttp://www.jxpta.com/jxsrskszx/gzdt563/pc/content/content_1895526513737924608.html\n",
+        "tags": [],
+        "line": 45,
+        "startOffset": 769,
+        "endOffset": 941,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "\nhttp://www.jxpta.com/jxsrskszx/lpylks/pc/content/content_1891686344255832064.html  \nhttp://www.jxpta.com/jxsrskszx/gzdt563/pc/content/content_1895526513737924608.html\n"
+        ],
+        "createdAt": 1754312231710,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "x5dexeht0",
+        "text": " 事业编 2025年2月17日9:00--2月24日17:00 ",
+        "tags": [],
+        "line": 50,
+        "startOffset": 977,
+        "endOffset": 1013,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 事业编 2025年2月17日9:00--2月24日17:00 "
+        ],
+        "createdAt": 1754312231918,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "i9j4odds1",
+        "text": " 120 有概率进面, 130 一般能上, 140 稳 ",
+        "tags": [],
+        "line": 84,
+        "startOffset": 1465,
+        "endOffset": 1497,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 120 有概率进面, 130 一般能上, 140 稳 "
+        ],
+        "createdAt": 1754312231406,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "pvoqmytne",
+        "text": "[list2lt|fold]",
+        "tags": [],
+        "line": 86,
+        "startOffset": 1499,
+        "endOffset": 1517,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt|fold]"
+        ],
+        "createdAt": 1754312231440,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "lejafuyww",
+        "text": " 刘文超 ",
+        "tags": [],
+        "line": 88,
+        "startOffset": 1581,
+        "endOffset": 1590,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 刘文超 "
+        ],
+        "createdAt": 1754312231522,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "c90cbun62",
+        "text": " 马克 ",
+        "tags": [],
+        "line": 89,
+        "startOffset": 1655,
+        "endOffset": 1663,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 马克 "
+        ],
+        "createdAt": 1754312231596,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "4q64q951t",
+        "text": " 霍克、阿里木江 ",
+        "tags": [],
+        "line": 97,
+        "startOffset": 1845,
+        "endOffset": 1858,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 霍克、阿里木江 "
+        ],
+        "createdAt": 1754312231786,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "midapgzxr",
+        "text": " 刘文超、阿里木江 ",
+        "tags": [],
+        "line": 104,
+        "startOffset": 2026,
+        "endOffset": 2040,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 刘文超、阿里木江 "
+        ],
+        "createdAt": 1754312230967,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "y54ljh374",
+        "text": " 刘文超 ",
+        "tags": [],
+        "line": 109,
+        "startOffset": 2170,
+        "endOffset": 2179,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 刘文超 "
+        ],
+        "createdAt": 1754312231111,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "f6hmv4a19",
+        "text": " 刘文超 ",
+        "tags": [],
+        "line": 119,
+        "startOffset": 2377,
+        "endOffset": 2386,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 刘文超 "
+        ],
+        "createdAt": 1754312231318,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "bw0ztju4m",
+        "text": " 小马哥 ",
+        "tags": [],
+        "line": 123,
+        "startOffset": 2499,
+        "endOffset": 2508,
+        "filePath": "40_Pages/20_社会科学/考公考编.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 小马哥 "
+        ],
+        "createdAt": 1754312231441,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/20_社会科学/法律.md": [
+      {
+        "id": "vfm9hsyaq",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[]}\n```\n",
+        "tags": [],
+        "line": 45,
+        "startOffset": 450,
+        "endOffset": 524,
+        "filePath": "40_Pages/20_社会科学/法律.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[]}\n```\n"
+        ],
+        "createdAt": 1751866173183,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/20_社会科学/共产党史.md": [
+      {
+        "id": "ga6e0yi6s",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 8,
+        "startOffset": 86,
+        "endOffset": 102,
+        "filePath": "40_Pages/20_社会科学/共产党史.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754312012811,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/20_社会科学/产业划分.md": [
+      {
+        "id": "64cbl4a69",
+        "text": " 能源、材料、化工、钢铁、冶金、机械 ",
+        "tags": [],
+        "line": 16,
+        "startOffset": 288,
+        "endOffset": 311,
+        "filePath": "40_Pages/20_社会科学/产业划分.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 能源、材料、化工、钢铁、冶金、机械 "
+        ],
+        "createdAt": 1751866173021,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "671nx9asy",
+        "text": " 食品、纺织、家居、日化、电子、五金、文娱、医药等 ",
+        "tags": [],
+        "line": 17,
+        "startOffset": 327,
+        "endOffset": 357,
+        "filePath": "40_Pages/20_社会科学/产业划分.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 食品、纺织、家居、日化、电子、五金、文娱、医药等 "
+        ],
+        "createdAt": 1751866173060,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "6a5mt9qmg",
+        "text": " 运输、仓储、批发、零售等 ",
+        "tags": [],
+        "line": 19,
+        "startOffset": 386,
+        "endOffset": 404,
+        "filePath": "40_Pages/20_社会科学/产业划分.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 运输、仓储、批发、零售等 "
+        ],
+        "createdAt": 1751866173119,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "vw6wpz87f",
+        "text": " 房地产、金融、商务、科研技术、IT等 ",
+        "tags": [],
+        "line": 20,
+        "startOffset": 417,
+        "endOffset": 441,
+        "filePath": "40_Pages/20_社会科学/产业划分.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 房地产、金融、商务、科研技术、IT等 "
+        ],
+        "createdAt": 1751866173150,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "1svadfkvc",
+        "text": " 餐饮、住宿、医疗、教育、文娱等 ",
+        "tags": [],
+        "line": 21,
+        "startOffset": 454,
+        "endOffset": 475,
+        "filePath": "40_Pages/20_社会科学/产业划分.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 餐饮、住宿、医疗、教育、文娱等 "
+        ],
+        "createdAt": 1751866173187,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "ehxfmi3tw",
+        "text": " 教科文卫 ",
+        "tags": [],
+        "line": 22,
+        "startOffset": 488,
+        "endOffset": 498,
+        "filePath": "40_Pages/20_社会科学/产业划分.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 教科文卫 "
+        ],
+        "createdAt": 1751866173221,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/20_社会科学/中国政府.md": [
+      {
+        "id": "b90h9kytb",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 15,
+        "startOffset": 216,
+        "endOffset": 232,
+        "filePath": "40_Pages/20_社会科学/中国政府.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1751866172948,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/10_自然科学/数学/速算技巧.md": [
+      {
+        "id": "lq4dzgwbt",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 8,
+        "startOffset": 86,
+        "endOffset": 102,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754312329466,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "5o2j9su5h",
+        "text": "[list2ut]",
+        "tags": [],
+        "line": 32,
+        "startOffset": 1382,
+        "endOffset": 1395,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2ut]"
+        ],
+        "createdAt": 1754312329762,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "9fcfti0o8",
+        "text": " 1/20 = 5.0% ",
+        "tags": [],
+        "line": 34,
+        "startOffset": 1414,
+        "endOffset": 1431,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 1/20 = 5.0% "
+        ],
+        "createdAt": 1754312329794,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "vl28dv2k3",
+        "text": " 1/10 = 10.0% ",
+        "tags": [],
+        "line": 45,
+        "startOffset": 1647,
+        "endOffset": 1665,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 1/10 = 10.0% "
+        ],
+        "createdAt": 1754312330027,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "asj1pl8vg",
+        "text": " 1/5 = 20.0% ",
+        "tags": [],
+        "line": 50,
+        "startOffset": 1760,
+        "endOffset": 1777,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 1/5 = 20.0% "
+        ],
+        "createdAt": 1754312330140,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "h3vr7w1xj",
+        "text": " 1/4 = 25.0% ",
+        "tags": [],
+        "line": 53,
+        "startOffset": 1812,
+        "endOffset": 1829,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 1/4 = 25.0% "
+        ],
+        "createdAt": 1754312330192,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "o60415u8k",
+        "text": " 3/10 = 30.0% ",
+        "tags": [],
+        "line": 55,
+        "startOffset": 1854,
+        "endOffset": 1872,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 3/10 = 30.0% "
+        ],
+        "createdAt": 1754312330234,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "nx7vrfvkk",
+        "text": " 1/3 ≈ 33.3% ",
+        "tags": [],
+        "line": 56,
+        "startOffset": 1879,
+        "endOffset": 1896,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 1/3 ≈ 33.3% "
+        ],
+        "createdAt": 1754312330259,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "w1pgzexo3",
+        "text": " 2/5 = 40.0% ",
+        "tags": [],
+        "line": 58,
+        "startOffset": 1921,
+        "endOffset": 1938,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 2/5 = 40.0% "
+        ],
+        "createdAt": 1754312330301,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "bdmk6kkui",
+        "text": " 1/2 = 50.0% ",
+        "tags": [],
+        "line": 62,
+        "startOffset": 1991,
+        "endOffset": 2008,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 1/2 = 50.0% "
+        ],
+        "createdAt": 1754312330371,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "zcade9h3e",
+        "text": " 3/5 = 60.0% ",
+        "tags": [],
+        "line": 65,
+        "startOffset": 2051,
+        "endOffset": 2068,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 3/5 = 60.0% "
+        ],
+        "createdAt": 1754312329431,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "iriinl392",
+        "text": " 2/3 ≈ 66.7% ",
+        "tags": [],
+        "line": 67,
+        "startOffset": 2093,
+        "endOffset": 2110,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 2/3 ≈ 66.7% "
+        ],
+        "createdAt": 1754312329473,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "ivtb3imz4",
+        "text": " 7/10 = 70.0% ",
+        "tags": [],
+        "line": 68,
+        "startOffset": 2117,
+        "endOffset": 2135,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 7/10 = 70.0% "
+        ],
+        "createdAt": 1754312329497,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "8wxwkrkde",
+        "text": " 3/4 = 75.0% ",
+        "tags": [],
+        "line": 71,
+        "startOffset": 2168,
+        "endOffset": 2185,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 3/4 = 75.0% "
+        ],
+        "createdAt": 1754312329548,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "jz3udqwzo",
+        "text": " 4/5 = 80.0% ",
+        "tags": [],
+        "line": 73,
+        "startOffset": 2210,
+        "endOffset": 2227,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 4/5 = 80.0% "
+        ],
+        "createdAt": 1754312329590,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "pw0759mo7",
+        "text": " 9/10 = 90.0% ",
+        "tags": [],
+        "line": 78,
+        "startOffset": 2306,
+        "endOffset": 2324,
+        "filePath": "40_Pages/10_自然科学/数学/速算技巧.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 9/10 = 90.0% "
+        ],
+        "createdAt": 1754312329686,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/10_自然科学/数学/数系.md": [
+      {
+        "id": "3rcw3atg2",
+        "text": " [list2node] ",
+        "tags": [],
+        "line": 9,
+        "startOffset": 88,
+        "endOffset": 105,
+        "filePath": "40_Pages/10_自然科学/数学/数系.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " [list2node] "
+        ],
+        "createdAt": 1754312292823,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/10_自然科学/数学/基本几何图形.md": [
+      {
+        "id": "g1i84bzns",
+        "text": "[list2lt]",
+        "tags": [],
+        "line": 11,
+        "startOffset": 106,
+        "endOffset": 119,
+        "filePath": "40_Pages/10_自然科学/数学/基本几何图形.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt]"
+        ],
+        "createdAt": 1754312171940,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "h05b7f5vf",
+        "text": "[list2lt]",
+        "tags": [],
+        "line": 21,
+        "startOffset": 394,
+        "endOffset": 407,
+        "filePath": "40_Pages/10_自然科学/数学/基本几何图形.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt]"
+        ],
+        "createdAt": 1754312172228,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "t9a9zkx5q",
+        "text": "[list2lt]",
+        "tags": [],
+        "line": 31,
+        "startOffset": 576,
+        "endOffset": 589,
+        "filePath": "40_Pages/10_自然科学/数学/基本几何图形.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt]"
+        ],
+        "createdAt": 1754312172410,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "nkd73dajd",
+        "text": "[list2lt]",
+        "tags": [],
+        "line": 47,
+        "startOffset": 963,
+        "endOffset": 976,
+        "filePath": "40_Pages/10_自然科学/数学/基本几何图形.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt]"
+        ],
+        "createdAt": 1754312172797,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/10_自然科学/数学/函数.md": [
+      {
+        "id": "0tfwxbkxt",
+        "text": " [list2node] ",
+        "tags": [],
+        "line": 9,
+        "startOffset": 88,
+        "endOffset": 105,
+        "filePath": "40_Pages/10_自然科学/数学/函数.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " [list2node] "
+        ],
+        "createdAt": 1754312048246,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "z6uu9paql",
+        "text": " (在数学分析中包括, 在高等数学中不包括) ",
+        "tags": [],
+        "line": 128,
+        "startOffset": 4901,
+        "endOffset": 4928,
+        "filePath": "40_Pages/10_自然科学/数学/函数.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " (在数学分析中包括, 在高等数学中不包括) "
+        ],
+        "createdAt": 1754312049059,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/10_自然科学/人体九大系统.md": [
+      {
+        "id": "wr1r9m79t",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 8,
+        "startOffset": 90,
+        "endOffset": 106,
+        "filePath": "40_Pages/10_自然科学/人体九大系统.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1751866172797,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/00_常识通识/颜色.md": [
+      {
+        "id": "wfhgjbo88",
+        "text": " [list2lt] ",
+        "tags": [],
+        "line": 49,
+        "startOffset": 645,
+        "endOffset": 660,
+        "filePath": "40_Pages/00_常识通识/颜色.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " [list2lt] "
+        ],
+        "createdAt": 1751866173355,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/00_常识通识/手机.md": [
+      {
+        "id": "soqa4i63l",
+        "text": "[list2lt]",
+        "tags": [],
+        "line": 35,
+        "startOffset": 390,
+        "endOffset": 403,
+        "filePath": "40_Pages/00_常识通识/手机.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt]"
+        ],
+        "createdAt": 1751866173098,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "52vxc677a",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false],\"lane-width\":180}\n```\n",
+        "tags": [],
+        "line": 85,
+        "startOffset": 1555,
+        "endOffset": 1681,
+        "filePath": "40_Pages/00_常识通识/手机.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false],\"lane-width\":180}\n```\n"
+        ],
+        "createdAt": 1751866173263,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/00_常识通识/学科专业.md": [
+      {
+        "id": "ptrjj6x7s",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false,false,false,false],\"show-checkboxes\":true,\"lane-width\":180}\n```\n",
+        "tags": [],
+        "line": 157,
+        "startOffset": 1366,
+        "endOffset": 1545,
+        "filePath": "40_Pages/00_常识通识/学科专业.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false,false,false,false],\"show-checkboxes\":true,\"lane-width\":180}\n```\n"
+        ],
+        "createdAt": 1752762025372,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/00_常识通识/体育运动.md": [
+      {
+        "id": "2agvg6xlk",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"lane-width\":200,\"list-collapse\":[null,null,null]}\n```\n",
+        "tags": [],
+        "line": 73,
+        "startOffset": 534,
+        "endOffset": 639,
+        "filePath": "40_Pages/00_常识通识/体育运动.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"lane-width\":200,\"list-collapse\":[null,null,null]}\n```\n"
+        ],
+        "createdAt": 1751866173242,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "40_Pages/00_常识通识/中国历史朝代.md": [
+      {
+        "id": "v53oucoj7",
+        "text": "[list2lt|fold]",
+        "tags": [],
+        "line": 10,
+        "startOffset": 159,
+        "endOffset": 177,
+        "filePath": "40_Pages/00_常识通识/中国历史朝代.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt|fold]"
+        ],
+        "createdAt": 1754312392725,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "30_Jottings/如何提问.md": [
+      {
+        "id": "y54kwel8m",
+        "text": " 若违背, 提问将不予理会 ",
+        "tags": [],
+        "line": 32,
+        "startOffset": 487,
+        "endOffset": 505,
+        "filePath": "30_Jottings/如何提问.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 若违背, 提问将不予理会 "
+        ],
+        "createdAt": 1754359991136,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "30_Jottings/202507141605.md": [
+      {
+        "id": "4l5077jn7",
+        "text": "[title2list|list2table]",
+        "tags": [],
+        "line": 8,
+        "startOffset": 118,
+        "endOffset": 145,
+        "filePath": "30_Jottings/202507141605.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[title2list|list2table]"
+        ],
+        "createdAt": 1754311936186,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "30_Jottings/202505200837.md": [
+      {
+        "id": "vs3rlzc4o",
+        "text": " 不实用 ",
+        "tags": [],
+        "line": 13,
+        "startOffset": 178,
+        "endOffset": 187,
+        "filePath": "30_Jottings/202505200837.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 不实用 "
+        ],
+        "createdAt": 1751390212739,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "82wh0hkhc",
+        "text": " 有点用? ",
+        "tags": [],
+        "line": 14,
+        "startOffset": 202,
+        "endOffset": 212,
+        "filePath": "30_Jottings/202505200837.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 有点用? "
+        ],
+        "createdAt": 1751390212763,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "q9eb62zsx",
+        "text": " 凑合能用 ",
+        "tags": [],
+        "line": 15,
+        "startOffset": 227,
+        "endOffset": 237,
+        "filePath": "30_Jottings/202505200837.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 凑合能用 "
+        ],
+        "createdAt": 1751390212788,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "46ptfka25",
+        "text": " 没必要 ",
+        "tags": [],
+        "line": 16,
+        "startOffset": 252,
+        "endOffset": 261,
+        "filePath": "30_Jottings/202505200837.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 没必要 "
+        ],
+        "createdAt": 1751390212813,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "x8t9h2b3k",
+        "text": " 展开后是笔记本电脑的尺寸 ",
+        "tags": [],
+        "line": 18,
+        "startOffset": 292,
+        "endOffset": 310,
+        "filePath": "30_Jottings/202505200837.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 展开后是笔记本电脑的尺寸 "
+        ],
+        "createdAt": 1751390212853,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "w01dkxcbr",
+        "text": " 展开后是显示器的尺寸 ",
+        "tags": [],
+        "line": 19,
+        "startOffset": 325,
+        "endOffset": 341,
+        "filePath": "30_Jottings/202505200837.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 展开后是显示器的尺寸 "
+        ],
+        "createdAt": 1751390212886,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "3q4gvbc9y",
+        "text": " 现阶段最实用的办公设备 ",
+        "tags": [],
+        "line": 20,
+        "startOffset": 362,
+        "endOffset": 379,
+        "filePath": "30_Jottings/202505200837.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 现阶段最实用的办公设备 "
+        ],
+        "createdAt": 1751390212923,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "9o4nm9can",
+        "text": " 个人觉得不如小型主机 ",
+        "tags": [],
+        "line": 23,
+        "startOffset": 427,
+        "endOffset": 443,
+        "filePath": "30_Jottings/202505200837.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 个人觉得不如小型主机 "
+        ],
+        "createdAt": 1751390212988,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "30_Jottings/202501020907.md": [
+      {
+        "id": "4jcvhevbd",
+        "text": "[list2col]",
+        "tags": [],
+        "line": 8,
+        "startOffset": 107,
+        "endOffset": 121,
+        "filePath": "30_Jottings/202501020907.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2col]"
+        ],
+        "createdAt": 1754311836424,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "20_Private/Tasks.md": [
+      {
+        "id": "mtfuvm416",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false],\"show-checkboxes\":true,\"append-archive-date\":false,\"archive-date-format\":\"YYYY-MM-DD\",\"archive-date-separator\":\"|\",\"lane-width\":240,\"new-card-insertion-method\":\"prepend-compact\"}\n```\n",
+        "tags": [],
+        "line": 52,
+        "startOffset": 358,
+        "endOffset": 657,
+        "filePath": "20_Private/Tasks.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false,false],\"show-checkboxes\":true,\"append-archive-date\":false,\"archive-date-format\":\"YYYY-MM-DD\",\"archive-date-separator\":\"|\",\"lane-width\":240,\"new-card-insertion-method\":\"prepend-compact\"}\n```\n"
+        ],
+        "createdAt": 1748761614691,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "20_Private/Journals/2025/202507281754.md": [
+      {
+        "id": "v4p514903",
+        "text": "[title2col]",
+        "tags": [],
+        "line": 1,
+        "startOffset": 15,
+        "endOffset": 30,
+        "filePath": "20_Private/Journals/2025/202507281754.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[title2col]"
+        ],
+        "createdAt": 1755473597060,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "20_Private/Cost.md": [
+      {
+        "id": "xt2c4p10m",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,true,true,true,true,true,true,true,true,true,false,true],\"lane-width\":180,\"show-checkboxes\":true,\"archive-date-format\":\"YYYY-MM-DD\"}\n```\n",
+        "tags": [],
+        "line": 239,
+        "startOffset": 4531,
+        "endOffset": 4741,
+        "filePath": "20_Private/Cost.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,true,true,true,true,true,true,true,true,true,false,true],\"lane-width\":180,\"show-checkboxes\":true,\"archive-date-format\":\"YYYY-MM-DD\"}\n```\n"
+        ],
+        "createdAt": 1751982508512,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "20_Private/Context.md": [
+      {
+        "id": "d6qh0t0jh",
+        "text": " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false],\"lane-width\":240,\"show-checkboxes\":false,\"new-card-insertion-method\":\"prepend-compact\"}\n```\n",
+        "tags": [],
+        "line": 50,
+        "startOffset": 745,
+        "endOffset": 929,
+        "filePath": "20_Private/Context.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false],\"lane-width\":240,\"show-checkboxes\":false,\"new-card-insertion-method\":\"prepend-compact\"}\n```\n"
+        ],
+        "createdAt": 1753328227476,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "20_Private/Contacts/邓元英.md": [
+      {
+        "id": "1p0hpmcim",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 10,
+        "startOffset": 106,
+        "endOffset": 122,
+        "filePath": "20_Private/Contacts/邓元英.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754311991071,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "x7uk5khm4",
+        "text": "[list2table]",
+        "tags": [],
+        "line": 20,
+        "startOffset": 340,
+        "endOffset": 356,
+        "filePath": "20_Private/Contacts/邓元英.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2table]"
+        ],
+        "createdAt": 1754311991305,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "20_Private/Contacts/刘德忠.md": [
+      {
+        "id": "0kig5tw8r",
+        "text": " 了解、入门、熟悉、掌握、精通 ",
+        "tags": [],
+        "line": 66,
+        "startOffset": 968,
+        "endOffset": 988,
+        "filePath": "20_Private/Contacts/刘德忠.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 了解、入门、熟悉、掌握、精通 "
+        ],
+        "createdAt": 1747125610895,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "10_Inbox/test.md": [
+      {
+        "id": "xnevk9kt5",
+        "text": " 如果不开启严格换行 ",
+        "tags": [],
+        "line": 9,
+        "startOffset": 24,
+        "endOffset": 39,
+        "filePath": "10_Inbox/test.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 如果不开启严格换行 "
+        ],
+        "createdAt": 1755421923995,
+        "isNativeComment": true,
+        "type": "comment"
+      },
+      {
+        "id": "oeyd1qd2y",
+        "text": " 那么注释将占据空行 ",
+        "tags": [],
+        "line": 10,
+        "startOffset": 40,
+        "endOffset": 55,
+        "filePath": "10_Inbox/test.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          " 那么注释将占据空行 "
+        ],
+        "createdAt": 1755421924011,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "10_Inbox/sync.md": [
+      {
+        "id": "y47dftpsk",
+        "text": "[list2lt]",
+        "tags": [],
+        "line": 52,
+        "startOffset": 848,
+        "endOffset": 861,
+        "filePath": "10_Inbox/sync.md",
+        "footnoteCount": 1,
+        "footnoteContents": [
+          "[list2lt]"
+        ],
+        "createdAt": 1754312603844,
+        "isNativeComment": true,
+        "type": "comment"
+      }
+    ],
+    "10_Inbox/Local/temp.md": []
+  },
+  "collections": {},
+  "groupingMode": "none",
+  "showFilenames": true,
+  "showTimestamps": true,
+  "showHighlightActions": true,
+  "showToolbar": true,
+  "autoToggleFold": false,
+  "useInlineFootnotes": false,
+  "selectTextOnCommentClick": false,
+  "excludeExcalidraw": true,
+  "excludedFiles": [],
+  "dateFormat": "YYYY-MM-DD HH:mm",
+  "minimumCharacterCount": 0,
+  "highlightFontSize": 11,
+  "detailsFontSize": 11,
+  "commentFontSize": 11,
+  "customColors": {
+    "yellow": "#ffd700",
+    "red": "#ff6b6b",
+    "teal": "#4ecdc4",
+    "blue": "#45b7d1",
+    "green": "#96ceb4"
+  },
+  "customColorNames": {
+    "yellow": "",
+    "red": "",
+    "teal": "",
+    "blue": "",
+    "green": ""
+  }
+}

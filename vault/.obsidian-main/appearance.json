@@ -1,0 +1,30 @@
+{
+  "accentColor": "#14907a",
+  "interfaceFontFamily": "Monaco,Menlo",
+  "textFontFamily": "Monaco,Menlo,UbuntuMono Nerd Font Mono,PingFang SC,LXGW WenKai Mono",
+  "monospaceFontFamily": "Monaco,Menlo",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true,
+  "translucency": false,
+  "theme": "system",
+  "enabledCssSnippets": [
+    "font",
+    "S - Embed Adjustments",
+    "S - Images Adjustments",
+    "S - Checkboxes",
+    "guideline",
+    "basic",
+    "code",
+    "list",
+    "ribbon",
+    "table",
+    "ui",
+    "hide",
+    "hide-nav",
+    "note-toolbar",
+    "hidefile"
+  ],
+  "showViewHeader": false,
+  "cssTheme": "",
+  "showRibbon": false
+}

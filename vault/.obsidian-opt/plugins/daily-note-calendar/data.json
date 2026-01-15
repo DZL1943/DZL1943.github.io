@@ -1,0 +1,41 @@
+{
+  "generalSettings": {
+    "displayNotesCreatedOnDate": true,
+    "displayNoteIndicator": true,
+    "useModifierKeyToCreateNote": true,
+    "firstDayOfWeek": 1,
+    "weekNumberStandard": 0
+  },
+  "notesSettings": {
+    "displayDateTemplate": "HH:mm",
+    "useCreatedOnDateFromProperties": true,
+    "createdOnDatePropertyName": "created",
+    "createdOnPropertyFormat": "yyyy-MM-dd'T'HH:mm",
+    "sortNotes": "descending"
+  },
+  "dailyNotes": {
+    "nameTemplate": "yyyy/MM/yyyy-MM-dd",
+    "folder": "Journals",
+    "templateFile": "Templates/Journal/daily-template"
+  },
+  "weeklyNotes": {
+    "nameTemplate": "yyyy/yyyy-'W'ww",
+    "folder": "Journals",
+    "templateFile": "Templates/Journal/weekly-template"
+  },
+  "monthlyNotes": {
+    "nameTemplate": "yyyy/yyyy-MM",
+    "folder": "Journals",
+    "templateFile": "Templates/Journal/monthly-template"
+  },
+  "quarterlyNotes": {
+    "nameTemplate": "yyyy/yyyy-qqq",
+    "folder": "Journals",
+    "templateFile": "Templates/Journals/quarterly-template"
+  },
+  "yearlyNotes": {
+    "nameTemplate": "yyyy/yyyy",
+    "folder": "Journals",
+    "templateFile": "Templates/Journal/yearly-template"
+  }
+}

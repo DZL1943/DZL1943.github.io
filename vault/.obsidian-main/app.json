@@ -1,0 +1,28 @@
+{
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "propertiesInDocument": "visible",
+  "useTab": false,
+  "trashOption": "local",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./",
+  "showInlineTitle": false,
+  "vimMode": false,
+  "showLineNumber": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 75
+  },
+  "userIgnoreFilters": [
+    "Archives/"
+  ]
+}

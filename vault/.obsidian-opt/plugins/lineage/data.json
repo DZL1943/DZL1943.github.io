@@ -1,0 +1,56 @@
+{
+  "documents": {
+    "10_Inbox/Local/temp.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    }
+  },
+  "hotkeys": {
+    "customHotkeys": {}
+  },
+  "view": {
+    "fontSize": 16,
+    "h1FontSize_em": 1.802,
+    "theme": {
+      "inactiveNodeOpacity": 25
+    },
+    "cardWidth": 550,
+    "cardsGap": 50,
+    "scrolling": {
+      "centerActiveNodeH": true,
+      "centerActiveNodeV": true
+    },
+    "limitPreviewHeight": true,
+    "zoomLevel": 1,
+    "showMinimap": false,
+    "showLeftSidebar": false,
+    "leftSidebarWidth": 500,
+    "leftSidebarActiveTab": "pinned-cards",
+    "applyGapBetweenCards": false,
+    "outlineMode": false,
+    "nodeIndentationWidth": 60,
+    "maintainEditMode": false,
+    "alwaysShowCardButtons": false,
+    "hiddenVerticalToolbarButtons": []
+  },
+  "general": {
+    "defaultDocumentFormat": "sections",
+    "linkPaneType": "tab"
+  },
+  "styleRules": {
+    "documents": {},
+    "global": {
+      "rules": []
+    },
+    "settings": {
+      "activeTab": "global-rules"
+    }
+  }
+}

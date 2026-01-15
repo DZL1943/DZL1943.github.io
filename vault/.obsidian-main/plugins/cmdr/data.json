@@ -1,0 +1,238 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "editing-toolbar:hide-show-menu",
+      "icon": "cMenuToolbar",
+      "name": "Editing Toolbar: Hide/show ",
+      "mode": "any"
+    },
+    {
+      "id": "show-whitespace-cm6:whitespace-toggle",
+      "icon": "pilcrow",
+      "name": "Show Whitespace: Toggle Show Whitespace",
+      "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:insert-templater",
+      "icon": "templater-icon",
+      "name": "Templater: Open insert template modal",
+      "mode": "any"
+    },
+    {
+      "id": "editor:fold-all",
+      "icon": "lucide-minimize-2",
+      "name": "折叠所有标题和列表",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-linter:lint-file",
+      "icon": "lint-file",
+      "name": "Linter: 格式化当前文件",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-zoom:zoom-in",
+      "icon": "zoom-in",
+      "name": "Zoom: Zoom in",
+      "mode": "any"
+    },
+    {
+      "id": "markdown-table-editor:markdown-table-editor-open-vertical",
+      "icon": "lucide-table",
+      "name": "Markdown Table Editor: Open Editor (Next to the Active View)",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-admonition:insert-admonition",
+      "icon": "lucide-quote",
+      "name": "Admonition: Insert Admonition",
+      "mode": "any"
+    },
+    {
+      "id": "better-markdown-links:convert-links-in-current-file",
+      "icon": "link",
+      "name": "Better Markdown Links: Convert links in current file",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "obsidian-markmind:Toggle to markdown or mindmap",
+      "icon": "map",
+      "name": "Markmind: 切换为Markdown或思维导图模式",
+      "mode": "any"
+    },
+    {
+      "id": "zk-prefixer",
+      "icon": "box-glyph",
+      "name": "时间戳笔记生成器: 创建时间戳笔记",
+      "mode": "any"
+    },
+    {
+      "id": "refresh-preview:refresh-preview",
+      "icon": "refresh-cw",
+      "name": "Refresh Preview: Refresh",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:copy-path",
+      "icon": "lucide-copy",
+      "name": "复制当前文件的路径",
+      "mode": "any"
+    },
+    {
+      "id": "canvas:new-file",
+      "icon": "lucide-layout-dashboard",
+      "name": "白板: 新建白板",
+      "mode": "any"
+    },
+    {
+      "id": "app:go-forward",
+      "icon": "lucide-arrow-right",
+      "name": "前进",
+      "mode": "any"
+    },
+    {
+      "id": "app:go-back",
+      "icon": "lucide-arrow-left",
+      "name": "返回",
+      "mode": "any"
+    },
+    {
+      "id": "app:toggle-ribbon",
+      "icon": "lucide-panel-left",
+      "name": "显示/隐藏功能区",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-kanban:toggle-kanban-view",
+      "icon": "lucide-kanban-square",
+      "name": "Kanban: 在看板和 Markdown 模式之间进行切换",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "app:open-settings",
+      "icon": "lucide-settings",
+      "name": "打开设置",
+      "mode": "any"
+    },
+    {
+      "id": "app:open-vault",
+      "icon": "vault",
+      "name": "打开其他仓库",
+      "mode": "any"
+    },
+    {
+      "id": "theme:switch",
+      "icon": "brush",
+      "name": "更换主题",
+      "mode": "any"
+    },
+    {
+      "id": "app:open-help",
+      "icon": "question-mark-glyph",
+      "name": "查看帮助",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [
+    {
+      "id": "app:toggle-ribbon",
+      "icon": "lucide-toggle-left",
+      "name": "显示/隐藏功能区",
+      "mode": "any"
+    },
+    {
+      "id": "css-editor:open-quick-switcher",
+      "icon": "lucide-folder-code",
+      "name": "CSS Editor: Open quick switcher",
+      "mode": "any"
+    }
+  ],
+  "pageHeader": [
+    {
+      "id": "templater-obsidian:insert-templater",
+      "icon": "templater-icon",
+      "name": "Templater: Open insert template modal",
+      "mode": "any"
+    },
+    {
+      "id": "zk-prefixer",
+      "icon": "box-glyph",
+      "name": "时间戳笔记生成器: 创建时间戳笔记",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:split-vertical",
+      "icon": "lucide-separator-vertical",
+      "name": "左右分屏",
+      "mode": "desktop"
+    },
+    {
+      "id": "workspace:split-horizontal",
+      "icon": "lucide-separator-horizontal",
+      "name": "上下分屏",
+      "mode": "desktop"
+    },
+    {
+      "id": "app:open-settings",
+      "icon": "lucide-settings",
+      "name": "打开设置",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [
+      "word-count",
+      "backlink",
+      "keyboard-analyzer",
+      "editing-toolbar",
+      "vim-im-control",
+      "solve",
+      "janitor",
+      "obsidian-day-planner",
+      "properties",
+      "any-block"
+    ],
+    "leftRibbon": [
+      "插入模板",
+      "Toggle Vim Mode",
+      "Hide all",
+      "Reveal non-private",
+      "Reveal headlines only",
+      "Reveal all",
+      "创建新看板",
+      "Add to Ledger",
+      "BRAT",
+      "Open Chronology",
+      "Omnisearch",
+      "Open Markdown Table Editor",
+      "打开/创建今天的日记",
+      "FuzzySearch",
+      "开始漫游笔记",
+      "Export Vault to HTML",
+      "Open Timeline",
+      "Open Multi-Day View"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 2,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 26
+  }
+}

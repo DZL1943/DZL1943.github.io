@@ -1,0 +1,69 @@
+{
+  "global": {
+    "traditionalChineseSupport": false,
+    "doublePinyin": "全拼",
+    "fuzzyPinyin": true,
+    "fuzzyPinyinSetting": [
+      "zh",
+      "ch",
+      "sh",
+      "eng",
+      "ing"
+    ],
+    "closeWithBackspace": false,
+    "autoCaseSensitivity": true
+  },
+  "file": {
+    "showAttachments": false,
+    "showAllFileTypes": true,
+    "showUnresolvedLink": false,
+    "quicklySelectHistoryFiles": false,
+    "quicklySelectHistoryFilesHint": "asdfjklgh",
+    "attachmentExtensions": [
+      "bmp",
+      "png",
+      "jpg",
+      "jpeg",
+      "gif",
+      "svg",
+      "webp",
+      "mp3",
+      "wav",
+      "m4a",
+      "3gp",
+      "flac",
+      "ogg",
+      "oga",
+      "opus",
+      "mp4",
+      "webm",
+      "ogv",
+      "mov",
+      "mkv",
+      "pdf"
+    ],
+    "usePathToSearch": false,
+    "useFileEditorSuggest": true,
+    "showTags": false,
+    "searchWithTag": true,
+    "keyEnter": "打开",
+    "keyCtrlEnter": "打开到新标签页",
+    "keyAltEnter": "打开到其他面板",
+    "keyCtrlAltEnter": "打开到新面板",
+    "showPath": true
+  },
+  "heading": {
+    "showFirstLevelHeading": true,
+    "headingIndent": true
+  },
+  "command": {
+    "pinnedCommands": [
+      "工作区: 管理工作区布局",
+      "Better Plugins Manager: 开启插件管理器"
+    ]
+  },
+  "other": {
+    "useTagEditorSuggest": true,
+    "devMode": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "supportExtensions": [
+    "js",
+    "txt",
+    "json",
+    "html",
+    "css",
+    "py",
+    "sh",
+    "csv",
+    "yaml",
+    "toml"
+  ],
+  "lightTheme": "chrome",
+  "darkTheme": "monokai",
+  "keyboard": "default",
+  "showLineNumbers": true,
+  "fontSize": 16,
+  "fontFamily": [
+    "monospace"
+  ],
+  "tabSize": 4,
+  "snippetsManager": {
+    "location": true,
+    "icon": "square-code"
+  },
+  "showPrintMargin": true,
+  "showInvisibles": true,
+  "displayIndentGuides": true,
+  "showFoldWidgets": true,
+  "embedMaxHeight": 500,
+  "wrap": true,
+  "minimap": {
+    "enabled": true
+  }
+}

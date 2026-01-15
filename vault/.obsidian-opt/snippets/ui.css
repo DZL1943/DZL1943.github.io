@@ -1,0 +1,38 @@
+body {
+  --file-line-width: min(85vw, 1200px);
+  /* --file-margins: var(--size-4-8) 10%; */
+  --caret-color: var(--text-accent);
+  --embed-max-height: unset;
+  --header-height: 34px;
+}
+
+.workspace-tab-header:has(.mod-pinned) {
+  /* shrink if pinned */
+  max-width: 60px !important;
+}
+
+.nav-folder-title-content,.nav-file-title-content {
+  font-size: 15px;
+}
+
+.cm-active.cm-line{
+  background-color: hsla(var(--accent-h, 254), var(--accent-s, 80%), var(--accent-l, 68%), 0.1);
+}
+
+.cm-scroller,
+.markdown-preview-view {
+  padding-top: 10px !important;
+}
+
+.view-header:not(:hover) {
+  opacity: 0;
+}
+
+.status-bar:not(:hover) {
+  opacity: 0;
+  min-height: 6px;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}

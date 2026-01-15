@@ -1,0 +1,455 @@
+/* .modal-tab-header-hidden .workspace-tab-header.is-active {
+    display: none !important;
+} */
+.popover.hover-popover{
+    z-index: 9999 !important;
+}
+
+.modal-bg.modal-opener-bg.closable {
+    cursor: pointer;
+}
+
+.modal-bg.modal-opener-bg:not(.closable) {
+    pointer-events: none;
+}
+
+.modal.modal-opener {
+    pointer-events: auto;
+}
+
+.modal-webview, .modal-iframe {
+    width: 100%;
+    height: 98%;
+    border: 0;
+    position: absolute;
+    top: 1;
+    left: 0;
+}
+
+.modal.modal-opener {
+    overflow: hidden;
+}
+
+.modal-opener .modal-close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.modal-opener .modal-content {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.modal-opener-content .markdown-rendered {
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.modal-opener-content {
+    min-height: var(--adjusted-modal-height, 81vh);
+    max-height: var(--adjusted-modal-height, 81vh);
+    flex-grow: 1;
+    position: relative;
+    overflow: auto;
+    padding: 0;
+}
+
+.modal-opener .modal-opener-content {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-opener-content .workspace-leaf-content[data-type="code-editor"] .view-content,
+.modal-opener-content .workspace-leaf-content[data-type="vscode-editor"] .view-content {
+    padding: 0;
+}
+
+.modal-opener:has(.workspace-leaf-content[data-type="markdown"]) {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.modal-opener:has(.workspace-leaf-content[data-type="markdown"]) .modal-close-button {
+    top: 5px;
+    right: 5px;
+}
+
+body:not(.show-file-view-header) .modal-opener-content .workspace-leaf-content:not([data-type="webviewer"]) .view-header,
+body:not(.show-link-view-header) .modal-opener-content .workspace-leaf-content[data-type="webviewer"] .view-header,
+body:not(.show-link-view-header) .modal-opener-content .wb-bookmark-bar  {
+    display: none !important;
+}
+
+body:not(.show-metadata) .modal-opener-content .metadata-container {
+    display: none !important;
+}
+
+body:not(.hider-scroll) .modal-opener-content ::-webkit-scrollbar {
+	display:none !important;
+}
+
+.modal-rounding-enabled .modal:has(.modal-opener-content),
+.modal-rounding-enabled .modal:has(.monaco-editor),
+.modal-rounding-enabled .modal:has(.diagrams-modal) {
+    border-radius: 20px;
+}
+
+.modal-blur-enabled .modal-container:has(.modal-opener-content),
+.modal-blur-enabled .modal-container:has(.monaco-editor),
+.modal-blur-enabled .modal-container:has(.diagrams-modal) {
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--background-modifier-border);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(var(--background-primary-rgb), 0.8);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* new file */
+.new-file-modal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.new-file-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.new-file-input {
+    flex-grow: 1;
+}
+
+.new-file-select {
+    width: auto;
+}
+
+.new-file-button-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.new-file-button {
+    padding: 5px 10px;
+}
+
+.new-file-button.confirm {
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+.new-file-button.cancel {
+    margin-top: 10px;
+}
+
+.new-file-modal-container .new-file-button-container .new-file-button.confirm:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+.custom-command-input {
+    width: 220px !important;
+}
+
+/* float button */
+.modal-opener .floating-menu-container {
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+}
+
+.modal-opener .floating-utility-container {
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.modal-opener .floating-utility-container .floating-button-container.new-leaf-button,
+.modal-opener .floating-utility-container .floating-button-container.toc-button {
+    position: static;
+    display: inline-flex;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.modal-opener .floating-utility-container .floating-button {
+    margin: 0;
+}
+
+.modal-opener .floating-button {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.modal-opener .floating-button svg {
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.modal-opener .floating-button:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+.modal-opener .floating-menu-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    bottom: 50px;
+    right: -10px;
+    border: 0;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.modal-opener .menu-item {
+    margin: 5px;
+}
+
+/* command-toggle */
+
+.modal-opener-settings .command-toggle-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+    padding: 16px;
+    background: var(--background-secondary);
+    border-radius: 8px;
+    margin: 12px 0;
+}
+
+.modal-opener-settings .command-toggle-item {
+    background: var(--background-primary);
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--background-modifier-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-opener-settings .command-toggle-item .setting-item-name {
+    font-size: 0.95em;
+    margin: 0;
+}
+
+/* 自定义命令区域样式 */
+.modal-opener-settings .custom-commands-container {
+    background: var(--background-secondary);
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.modal-opener-settings .custom-commands-container .setting-item {
+    background: var(--background-primary);
+    margin-bottom: 8px;
+    padding: 12px;
+}
+
+.modal-opener-settings .custom-command-input {
+    width: 180px !important;
+}
+
+/* 按钮样式优化 */
+.modal-opener-settings button:not(.dropdown) {
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+}
+
+/* 设置项布局优化 */
+.modal-opener-settings .setting-item {
+    padding: 0.75em 1em;
+    border: none;
+    border-radius: 8px;
+}
+
+/* 设置项内部布局 */
+.modal-opener-settings .setting-item-info {
+    flex: 1 1 auto;
+    padding-right: 20px;
+}
+
+.modal-opener-settings .setting-item-name {
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.modal-opener-settings .setting-item-description {
+    font-size: 0.9em;
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+/* 设置项控件布局 */
+.modal-opener-settings .setting-item-control {
+    flex: 0 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* 分组标题样式 */
+.modal-opener-settings .setting-item-heading .setting-item-name {
+    font-size: 1.5em;  /* 调整为二级标题的字号 */
+    font-weight: bold; /* 设置为粗体 */
+}
+
+/* 强制覆盖内联样式 */
+webview[style*="background-color: white"] {
+    background-color: var(--ctp-crust) !important;
+}
+
+.vertical-tab-content-container:has(.modal-opener-settings) ::-webkit-scrollbar {
+	display:none !important;
+}
+
+.modal-opener-settings .modal-opener-tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--background-modifier-border);
+    padding-bottom: 6px;
+    width: 100%;
+}
+
+.modal-opener-settings .modal-opener-tabs button {
+    flex: 1;
+    text-align: center;
+    height: 40px;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: inset 0 0 0 var(--background-modifier-border); /* 初始状态无阴影 */
+    background-color: var(--background-primary);
+}
+
+.modal-opener-settings .modal-opener-tabs button:last-child {
+    margin-right: 0; /* 移除最后一个tab的右边距 */
+}
+
+.modal-opener-settings .modal-opener-tabs button:hover {
+    color: var(--text-normal);
+    background-color: var(--background-modifier-hover);
+}
+
+.modal-opener-settings .modal-opener-tabs button.is-active {
+    color: var(--text-on-accent);
+    background-color: var(--interactive-accent);
+    border-bottom: 1px;
+}
+
+
+/* 目录容器样式 */
+.modal-opener-toc-container {
+    position: absolute;
+    width: auto;
+    min-width: 280px; /* 设置最小宽度 */
+    max-width: 40vw; /* 保留最大宽度限制 */
+    max-height: 70vh;
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    padding: 10px;
+    overflow-x: auto; /* 强制显示横向滚动条 */
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-opener-toc-container::-webkit-scrollbar:vertical {
+    width: 0 !important; /* 隐藏竖向滚动条 */
+    display: none !important;
+}
+
+/* 目录标题 */
+.modal-opener-toc-container .toc-header {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* 目录项内容容器 */
+.modal-opener-toc-container .toc-item-content {
+    display: flex;
+    align-items: center;
+}
+
+/* 目录项样式 */
+.modal-opener-toc-container .toc-item {
+    padding: 2px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--text-normal);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-width: fit-content;
+    line-height: 0.2 !important;
+    padding: 1px 8px !important;
+}
+
+/* 目录项圆点 */
+.modal-opener-toc-container .toc-bullet {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--text-muted);
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+/* 目录项文本 */
+.modal-opener-toc-container .toc-item-text {
+    flex: 0 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.modal-opener-toc-container .toc-item:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* 当前选中的目录项 */
+.modal-opener-toc-container .toc-item.active {
+    background-color: var(--interactive-accent-hover);
+    color: var(--text-on-accent);
+}
+
+.modal-opener-toc-container .toc-item.active .toc-bullet {
+    background-color: var(--text-on-accent);
+    width: 8px;
+    height: 8px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,30 @@
+{
+  "pluginList": [
+    "quorafind/outliner.md",
+    "Quorafind/Obsidian-Legacy-Vault-Switcher",
+    "wish5115/obsidian-floating-settings"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "quorafind/outliner.md",
+      "version": ""
+    },
+    {
+      "repo": "wish5115/obsidian-floating-settings",
+      "version": "latest",
+      "token": ""
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": false,
+  "updateThemesAtStartup": false,
+  "enableAfterInstall": false,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
+}

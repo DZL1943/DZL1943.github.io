@@ -1,0 +1,48 @@
+{
+  "advancedSettings": true,
+  "linkerActivated": false,
+  "matchAnyPartsOfWords": true,
+  "matchEndOfWords": false,
+  "matchBeginningOfWords": false,
+  "suppressSuffixForSubWords": false,
+  "includeAllFiles": true,
+  "linkerDirectories": [
+    "Glossary"
+  ],
+  "excludedDirectories": [
+    "Inbox",
+    "Journals",
+    "Archives",
+    "Misc",
+    "Ext"
+  ],
+  "excludedDirectoriesForLinking": [
+    "Archives"
+  ],
+  "virtualLinkSuffix": "🔗",
+  "virtualLinkAliasSuffix": "🔗",
+  "useMarkdownLinks": true,
+  "linkFormat": "shortest",
+  "defaultUseMarkdownLinks": true,
+  "defaultLinkFormat": "relative",
+  "useDefaultLinkStyleForConversion": true,
+  "applyDefaultLinkStyling": true,
+  "includeHeaders": true,
+  "matchCaseSensitive": false,
+  "capitalLetterProportionForAutomaticMatchCase": 0.75,
+  "tagToIgnoreCase": "linker-ignore-case",
+  "tagToMatchCase": "linker-match-case",
+  "propertyNameToMatchCase": "linker-match-case",
+  "propertyNameToIgnoreCase": "linker-ignore-case",
+  "tagToExcludeFile": "linker-exclude",
+  "tagToIncludeFile": "linker-include",
+  "excludeLinksToOwnNote": true,
+  "fixIMEProblem": true,
+  "excludeLinksInCurrentLine": true,
+  "onlyLinkOnce": true,
+  "excludeLinksToRealLinkedFiles": true,
+  "includeAliases": true,
+  "alwaysShowMultipleReferences": false,
+  "matchOnlyWholeWords": true,
+  "glossarySuffix": "🔗"
+}
