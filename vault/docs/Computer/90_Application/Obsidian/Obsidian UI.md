@@ -23,4 +23,4 @@ aliases:
 - 内容区
 - 状态栏 statusbar
 
-![](<../../../../Attachments/1761259187599.png>)
+![](<../../../../Attachments/1761259187599-920771.png>)

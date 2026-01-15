@@ -693,7 +693,7 @@ function hasTag(tags, pattern) {
 async function renameAttachment(file) {
     if (!imageExtensions.includes(file.extension.toLowerCase())) return;
     
-    const newName = `${file.stat.ctime}.${file.extension}`;
+    const newName = `${file.stat.ctime}-${file.stat.size}.${file.extension}`;
     if (file.name === newName) return;
     
     await app.fileManager.renameFile(file, `${file.parent.path}/${newName}`);
