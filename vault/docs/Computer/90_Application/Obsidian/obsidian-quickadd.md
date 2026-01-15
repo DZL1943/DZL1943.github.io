@@ -571,7 +571,7 @@ module.exports = {
 }
 ```
 
-### 自动下载附件
+### 附件管理
 
 ```js fold
 let TFile;
