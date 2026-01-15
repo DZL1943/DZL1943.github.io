@@ -162,6 +162,10 @@ app.setting.open();
 app.setting.activeTab.containerEl.find(".mod-cta").click();
 ```
 
+### customCss
+
+`app.customCss.setCssEnabledStatus(snippetName, true);`
+
 ### plugins
 
 ```dataviewjs

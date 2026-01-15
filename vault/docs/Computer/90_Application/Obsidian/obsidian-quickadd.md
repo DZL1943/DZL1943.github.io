@@ -1,7 +1,7 @@
 ---
 title: QuickAdd
 created: 2024-12-04T14:32
-modified: 2026-01-15T14:01
+modified: 2026-01-15T16:29
 tags:
   - Obsidian/Plugins
 aliases:
@@ -453,6 +453,28 @@ async function start(params, settings) {
 ```
 
 ## Examples
+
+### 开关代码片段
+
+```js
+module.exports = async function toggleSnippets(params) {
+    const { quickAddApi = app.plugins.plugins.quickadd.api } = params || {};
+
+    const snippets = app.customCss.snippets;
+    const enabledSnippets = app.customCss.enabledSnippets;
+
+    const selected = await quickAddApi.checkboxPrompt(
+        snippets,
+        enabledSnippets
+    );
+
+    for (const snippet of snippets) {
+        app.customCss.setCssEnabledStatus(snippet, selected.includes(snippet));
+    }
+    app.customCss.requestLoadSnippets();
+};
+
+```
 
 ### 跳转标题
 
