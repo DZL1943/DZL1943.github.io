@@ -23,4 +23,4 @@ aliases:
 - 内容区
 - 状态栏 statusbar
 
-![](<../../../../assets/Obsidian-20240908154942.png>)
+![](<../../../../assets/1761259187599.png>)

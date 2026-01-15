@@ -42,7 +42,7 @@ url:
 - 同步过滤器
 - Webhook
 
-![600](<../../../assets/56BF545275DCAF9EAD30858C1F9672D1.jpg>)
+![600](<../../../assets/1761259187559.jpg>)
 
 ## 账户
 
@@ -78,7 +78,7 @@ url:
     - S3
     - WebDAV
 
-![600](<../../../assets/Screenshot_2025-09-22-18-00-36-392_dk.tacit.android.foldersync.full-edit.jpg>)
+![600](<../../../assets/1761259187605.jpg>)
 
 ## 文件
 

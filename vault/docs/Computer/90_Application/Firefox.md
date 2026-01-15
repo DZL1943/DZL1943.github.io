@@ -16,8 +16,8 @@ draft: true
     - 官方/Focus/Nightly/Beta
     - Iceraven
 
-![](<../../../assets/1940AD4D018FAF066816DA60E744AE20.png>)  
-![](<../../../assets/151EF685107A68F7D6BC02B7D2ABA19E.jpg>)
+![](<../../../assets/1761259187536.png>)  
+![](<../../../assets/1761259187533.jpg>)
 
 ## 设置
 
