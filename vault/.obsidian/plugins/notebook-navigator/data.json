@@ -15,7 +15,12 @@
       "hiddenFiles": [],
       "hiddenFileNamePatterns": [],
       "navigationBanner": null,
-      "shortcuts": []
+      "shortcuts": [
+        {
+          "type": "note",
+          "path": "README.md"
+        }
+      ]
     }
   ],
   "vaultTitle": "navigation",

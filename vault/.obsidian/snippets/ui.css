@@ -15,9 +15,9 @@ body {
   font-size: 15px;
 }
 
-.cm-active.cm-line{
+/* .cm-active.cm-line{
   background-color: hsla(var(--accent-h, 254), var(--accent-s, 80%), var(--accent-l, 68%), 0.1);
-}
+} */
 
 .cm-scroller,
 .markdown-preview-view {
