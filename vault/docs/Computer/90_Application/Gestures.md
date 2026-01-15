@@ -50,9 +50,9 @@ excalidraw-plugin: parsed
     - 下右上(U) | `ctrl+down`
     - 下右下 | light-
 
-![0a7f6ad85bc76da7|800](<../../../assets/1761259187532.png>)
+![0a7f6ad85bc76da7|800](<../../../Attachments/1761259187532.png>)
 
-![1761259187615](<../../../assets/1761259187615.png>)
+![1761259187615](<../../../Attachments/1761259187615.png>)
 
 ## 触摸板手势
 
@@ -67,7 +67,7 @@ excalidraw-plugin: parsed
 | 合拢    | 缩放         | 关闭 tab `cmd+W`<br/>关闭窗口 `opt+cmd+W` | **启动台**                    |
 | 张开    | 缩放         | 退出应用 `cmd+Q`<br/>强制退出 `opt+cmd+esc` | **显示桌面** `F11`             |
 
-![1761259187606](<../../../assets/1761259187606.png>)
+![1761259187606](<../../../Attachments/1761259187606.png>)
 
 ## 软件工具
 

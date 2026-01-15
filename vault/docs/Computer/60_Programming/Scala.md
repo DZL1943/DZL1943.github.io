@@ -31,7 +31,7 @@ brew install coursier/formulas/coursier && cs setup
 # curl -fL https://github.com/VirtusLab/coursier-m1/releases/latest/download/cs-aarch64-apple-darwin.gz | gzip -d > cs && chmod +x cs && (xattr -d com.apple.quarantine cs || true) && ./cs setup
 ```
 
-![1761259187623](<../../../assets/1761259187623.png>)
+![1761259187623](<../../../Attachments/1761259187623.png>)
 
 > [!tip]+ (理论上) coursier 安装的那些命令行程序是非必要的!  
 > scala 自身归根结底就是一些 jar 包, 很多的构建工具都是通过调包运作, 而与 scala 命令行程序无关. 你也可以理解为它们维护着类似 python venv 的东西.
@@ -127,9 +127,9 @@ object hello extends RootModule with ScalaModule {
 
 https://docs.gradle.org/current/userguide/scala_plugin.html
 
-![](<../../../assets/1761259187619.png>)  
-![|600](<../../../assets/1761259187620.png>)  
-![](<../../../assets/1761259187621.png>)
+![](<../../../Attachments/1761259187619.png>)  
+![|600](<../../../Attachments/1761259187620.png>)  
+![](<../../../Attachments/1761259187621.png>)
 
 注意是 `app/build.gradle`, 不是根目录的 `settings.gradle`
 

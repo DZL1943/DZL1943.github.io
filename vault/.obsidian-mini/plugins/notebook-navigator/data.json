@@ -9,8 +9,7 @@
         "/Archives",
         "/Scripts",
         "/Templates",
-        "/Attachments",
-        "/assets"
+        "/Attachments"
       ],
       "hiddenTags": [],
       "hiddenFiles": [],
@@ -351,7 +350,7 @@
     "Areas",
     "Resources",
     "Archives",
-    "assets",
+    "Attachments",
     "Scripts",
     "Misc",
     "Templates"

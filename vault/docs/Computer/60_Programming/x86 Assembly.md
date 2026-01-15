@@ -67,7 +67,7 @@ addr = BaseReg + IndexReg * ScaleFactor + Disp
 
 共八种方式
 
-![1761259187641](<../../../assets/1761259187641.png>)
+![1761259187641](<../../../Attachments/1761259187641.png>)
 
 ## 指令集
 
