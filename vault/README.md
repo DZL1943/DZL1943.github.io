@@ -1,6 +1,6 @@
 ---
-created: 2024-07-30T13:30:00
-modified: 2025-10-14T17:29:48
+created: 2024-07-30T13:30
+modified: 2025-10-14T17:29
 editor-width: 88
 obsidianEditingMode: source
 excalidraw-plugin: parsed
@@ -51,17 +51,18 @@ excalidraw-open-md: true
 > [!note]- 文件夹 Vs 链接 Vs 属性
 
 
-## Notes
+## Index
 
 ```base
-filters:
-  and:
-    - file.ext.containsAny("md")
 formulas:
+  backlinks: file.backlinks.map(value.asFile())
   TopSubFolder: file.folder.split('/').slice(0,this.file.folder.split('/').length+1).join('/')
 views:
   - type: cards
     name: notes
+    filters:
+      and:
+        - file.ext.containsAny("md")
     groupBy:
       property: formula.TopSubFolder
       direction: ASC
@@ -72,20 +73,11 @@ views:
         direction: ASC
     indentProperties: false
     cardSize: 150
-
-```
-
-## Attachments
-
-```base
-filters:
-  and:
-    - file.ext.containsAny("png", "jpg", "jpeg", "webp", "gif", "svg", "bmp")
-formulas:
-  backlinks: file.backlinks.map(value.asFile())
-views:
   - type: cards
     name: images
+    filters:
+      and:
+        - file.ext.containsAny("png", "jpg", "jpeg", "webp", "gif", "svg", "bmp")
     order:
       - file.name
       - formula.backlinks
@@ -95,7 +87,6 @@ views:
       - property: file.ctime
         direction: DESC
     image: file.file
-
 ```
 
 ## Changelog
