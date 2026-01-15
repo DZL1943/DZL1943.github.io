@@ -1,6 +1,6 @@
 ---
 created: 2026-01-02T21:40
-modified: 2026-01-10T14:14
+modified: 2026-01-15T19:53
 url: 
   - https://docusaurus.io
 ---
@@ -133,22 +133,26 @@ const config = {
     markdown: {
         parseFrontMatter: async (params) => {
             const result = await params.defaultParseFrontMatter(params);
-    
+            /** @type {{from: string, to: string, transform?: (v: any) => any}[]} */
             const mappings = [
                 { from: "created", to: "date" },
-                // {from: 'updated', to: 'last_update'},
-                // {from: 'modified', to: 'last_update'},
+                { from: 'updated', to: 'last_update', transform: v => {date: v} },
+                { from: 'modified', to: 'last_update', transform: v => {date: v} },
+                { from: 'private', to: 'unlisted' },
+                { from: 'public', to: 'unlisted', transform: v => !v }
             ];
-    
-            mappings.forEach(({ from, to }) => {
+            
+            mappings.forEach(({ from, to, transform }) => {
                 if (from !== to && from in result.frontMatter) {
-                    result.frontMatter[to] = result.frontMatter[from];
+                    result.frontMatter[to] = transform
+                        ? transform(result.frontMatter[from])
+                        : result.frontMatter[from];
                     delete result.frontMatter[from];
                 }
             });
             return result;
         },
-    }
+    },
 }
 ```
 

@@ -45,6 +45,7 @@ const config = {
     },
 
     markdown: {
+        // format: 'detect',
         mermaid: true,
         parseFrontMatter: async (params) => {
             const result = await params.defaultParseFrontMatter(params);
