@@ -49,7 +49,7 @@
       "date-created-source-of-truth": "frontmatter",
       "date-modified-source-of-truth": "file system",
       "convert-to-utc": false,
-      "update-on-file-contents-updated": "after 1 minute"
+      "update-on-file-contents-updated": "never"
     },
     "yaml-title": {
       "enabled": true,
