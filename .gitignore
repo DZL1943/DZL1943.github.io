@@ -20,35 +20,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .new
+*.swap
+*.sync-conflict-*
 .stfolder/
 .stversions/
 .trash/
-
-# local
-Archive?/
-*[iI]nbox/
-[lL]ocal/
-[tT]est
-[tT]emp
-[tT]emp.*
-[dD]raft*
-[uU]ntitled*
-未命名*
-
-# private
-*[pP]rivate/
-*[pP]ersonal/
-*[jJ]ournals/
-[cC]ontacts/
-[fF]inance/
-NSFW/
-
-# Obsidian
-**/.obsidian*/bookmarks.json
-**/.obsidian*/workspace.json
-**/.obsidian*/workspace-mobile.json
-**/.obsidian*/plugins/obsidian-auto-hide/data.json
-**/.obsidian*/plugins/various-complements/histories.json
-**/.obsidian*/plugins/float-search/data.json
-**/.obsidian*/plugins/recent-files-obsidian/data.json
-**/.obsidian*/plugins/image-converter/image-converter-image-alignments.json

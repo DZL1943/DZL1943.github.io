@@ -1,0 +1,41 @@
+# local
+[aA]rchive?/
+*[iI]nbox/
+[lL]ocal/
+[tT]est
+[tT]emp
+[tT]emp.*
+[dD]raft*
+[uU]ntitled*
+未命名*
+Drawing-*.md
+#[0-9][0-9][0-9][0-9][0-1][0-9][0-3][0-9][0-2][0-9][0-5][0-9]*
+
+# private
+*[pP]rivate/
+*[pP]ersonal/
+*[jJ]ournals/
+[cC]ontacts/
+[fF]inance/
+NSFW/
+
+# Obsidian
+cedict_ts.u8
+jieba_rs_wasm_bg.wasm
+broken links output.md
+orphaned files output.md
+files without tags.md
+empty files.md
+
+.obsidian/
+.obsidian*/bookmarks.json
+.obsidian*/workspace.json
+.obsidian*/workspace-mobile.json
+.obsidian*/plugins/obsidian-auto-hide/data.json
+.obsidian*/plugins/various-complements/histories.json
+.obsidian*/plugins/float-search/data.json
+.obsidian*/plugins/recent-files-obsidian/data.json
+.obsidian*/plugins/novel-word-count/data.json
+.obsidian*/plugins/float-search/data.json
+.obsidian*/plugins/image-converter/image-converter-image-alignments.json
+.obsidian*/plugins/better-plugins-manager/community-plugins-cache.json
