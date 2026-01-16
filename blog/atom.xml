@@ -2,11 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-01-14T19:39:00.000Z</updated>
+    <updated>2026-01-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[obsidian样板库]]></title>
+        <id>https://dzl1943.github.io/blog/obsidian样板库</id>
+        <link href="https://dzl1943.github.io/blog/obsidian样板库"/>
+        <updated>2026-01-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Obsidian 的配置存在于每个库中的 .obsidian 目录中.]]></summary>
+        <content type="html"><![CDATA[<p>Obsidian 的配置存在于每个库中的 .obsidian 目录中.
+这种机制存在以下弊端:</p>
+<ol>
+<li class="">如果使用多个库, 那么这些配置将在多个目录构成冗余.</li>
+<li class="">如果不在 .gitignore 中添加以排除, 那么它将使得 git 提交历史变得混乱; 如果排除, 又失去了对 Obsidian 配置的学习记录.</li>
+</ol>
+<p>解决思路是创建一个公共配置库, 或者更进一步 -- 样板库.</p>
+<p>然后在其他库中将 .obsidian 软链接到公共库中的配置. (对于其他不适合软链接的公共内容, 手动按需复制)</p>
+<p>软链接到配置至少比软链接到内容更恰当.</p>
+<p>样板库示例:</p>
+<ul>
+<li class="">.git/</li>
+<li class="">.obsidian/ | symlink</li>
+<li class="">.obsidian-main/</li>
+<li class="">.obsidian-mini/</li>
+<li class="">.obsidian-mobile/</li>
+<li class="">.obsidian-opt/</li>
+<li class="">Inbox/</li>
+<li class="">Journals/</li>
+<li class="">Jottings/</li>
+<li class="">Pages/</li>
+<li class="">Projects/</li>
+<li class="">Areas/</li>
+<li class="">Resources/</li>
+<li class="">Archives/</li>
+<li class="">Attachments/</li>
+<li class="">Templates/</li>
+<li class="">Scripts/</li>
+<li class="">Misc/</li>
+<li class="">Ext/ | 其他路径的内容可以软链接到这里临时查阅</li>
+<li class="">.gitignore</li>
+<li class="">.stignore</li>
+<li class="">.nomedia</li>
+<li class="">README.md</li>
+<li class="">sortspec.md</li>
+</ul>
+<p>具体如何操作?</p>
+<ol>
+<li class="">成立一个样板库</li>
+<li class="">将本地现有库的配置修改为软链接的方式</li>
+</ol>
+<hr>
+<p>注意事项:</p>
+<p>存在一些内容相关的配置, 例如:</p>
+<ul>
+<li class="">workspace: 考虑用工作区弥补</li>
+<li class="">bookmarks: 避免使用</li>
+</ul>
+<p>实在不行可以退回到使用私有配置</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[H1、title 和 aliases]]></title>
         <id>https://dzl1943.github.io/blog/H1 title aliases</id>
@@ -1046,35 +1102,6 @@
 </li>
 <li class="">Other Friends %% (lateral relationships on the right side) %%</li>
 <li class="">Siblings</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[选项标记体系]]></title>
-        <id>https://dzl1943.github.io/blog/选项标记体系</id>
-        <link href="https://dzl1943.github.io/blog/选项标记体系"/>
-        <updated>2025-03-11T07:28:00.000Z</updated>
-        <summary type="html"><![CDATA[选项(后)]]></summary>
-        <content type="html"><![CDATA[<p>选项(后)</p>
-<ul>
-<li class="">✓ 正确</li>
-<li class="">⍻ 部分正确</li>
-<li class="">✕ 错误</li>
-<li class="">? 不确定</li>
-</ul>
-<p>选择(前)</p>
-<ul>
-<li class="">✓ 必选</li>
-<li class="">○ 优选</li>
-<li class="">_  备选</li>
-<li class="">\  排除</li>
-</ul>
-<p>选题</p>
-<ul>
-<li class="">○ 复查</li>
-<li class="">△ 耗时</li>
-<li class="">□</li>
-<li class="">◇</li>
-<li class="">⭐️ 重点</li>
 </ul>]]></content>
     </entry>
 </feed>
