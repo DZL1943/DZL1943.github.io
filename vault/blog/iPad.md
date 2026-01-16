@@ -1,9 +1,11 @@
 ---
 title: iPad
-created: "2023-07-28 15:36"
-modified: "2024-07-31 15:06"
+created: 2023-07-28T15:36
+modified: 2024-07-31T15:06
 ---
+
 <!-- truncate -->
+
 ## 型号
 
 - iPad Pro 12.9 - v6 (m2)

@@ -3,6 +3,7 @@ created: 2025-10-08T20:05
 modified: 2025-10-10T10:52
 aliases: [obsidian 简介, obsidian 特征]
 ---
+
 <!-- truncate -->
 
 - 基于 Electron 平台

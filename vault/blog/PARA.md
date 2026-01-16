@@ -2,6 +2,7 @@
 url:
   - https://fortelabs.com/blog/para/
 ---
+
 <!-- truncate -->
 # PARA
 
