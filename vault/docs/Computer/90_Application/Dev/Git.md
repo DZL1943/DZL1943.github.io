@@ -157,6 +157,7 @@ eol = lf
 autocrlf = input
 # ignorecase = true
 # filemode = false
+# symlinks = 
 quotepath = false
 
 [init]
@@ -169,7 +170,7 @@ encoding = utf-8
 commitencoding = utf-8
 
 [pull]
-rebase = 
+# rebase = 
 
 [push]
 autoSetRemote = true
