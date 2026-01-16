@@ -1,0 +1,47 @@
+---
+created: 2026-01-16
+---
+
+Obsidian 的配置存在于每个库中的 .obsidian 目录中.
+这种机制存在以下弊端:
+
+1. 如果使用多个库, 那么这些配置将在多个目录构成冗余.
+2. 如果不在 .gitignore 中添加以排除, 那么它将使得 git 提交历史变得混乱; 如果排除, 又失去了对 Obsidian 配置的学习记录.
+<!-- truncate -->
+解决思路是创建一个公共配置库, 或者更进一步 -- 样板库.
+
+然后在其他库中将 .obsidian 软链接到公共库中的配置. (对于其他不适合软链接的公共内容, 手动按需复制)
+
+软链接到配置至少比软链接到内容更恰当.
+
+样板库示例:
+
+- .git/
+- .obsidian/ | symlink
+- .obsidian-main/
+- .obsidian-mini/
+- .obsidian-mobile/
+- .obsidian-opt/
+- Inbox/
+- Journals/
+- Jottings/
+- Pages/
+- Projects/
+- Areas/
+- Resources/
+- Archives/
+- Attachments/
+- Templates/
+- Scripts/
+- Misc/
+- Ext/ | 其他路径的内容可以软链接到这里临时查阅
+- .gitignore
+- .stignore
+- .nomedia
+- README.md
+- sortspec.md
+
+具体如何操作?
+
+1. 成立一个样板库
+2. 将本地现有库的配置修改为软链接的方式
