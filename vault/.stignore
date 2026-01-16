@@ -21,7 +21,7 @@ broken links output.md
 orphaned files output.md
 files without tags.md
 empty files.md
-.obsidian/
+.obsidian
 .obsidian*/workspace.json
 .obsidian*/workspace-mobile.json
 .obsidian*/plugins/recent-files-obsidian/data.json

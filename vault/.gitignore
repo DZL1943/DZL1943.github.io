@@ -47,7 +47,7 @@ empty files.md
 .smart-env/
 .vaultexplorer/
 
-.obsidian/
+.obsidian
 .obsidian*/bookmarks.json
 .obsidian*/workspace*.json
 .obsidian*/plugins/obsidian-auto-hide/data.json
