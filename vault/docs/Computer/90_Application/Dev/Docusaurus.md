@@ -168,6 +168,11 @@ const config = {
 
 具体配置见官网文档
 
+### MDX Plugins
+
+- Remark: processes the Markdown AST.
+- Rehype: processes the Hypertext AST.
+
 ## 部署
 
 https://docusaurus.io/docs/deployment#deploying-to-github-pages
