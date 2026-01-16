@@ -8,12 +8,12 @@
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[obsidian样板库]]></title>
-        <id>https://dzl1943.github.io/blog/obsidian样板库</id>
-        <link href="https://dzl1943.github.io/blog/obsidian样板库"/>
+        <title type="html"><![CDATA[Obsidian 共享配置]]></title>
+        <id>https://dzl1943.github.io/blog/Obsidian 共享配置</id>
+        <link href="https://dzl1943.github.io/blog/Obsidian 共享配置"/>
         <updated>2026-01-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Obsidian 的配置存在于每个库中的 .obsidian 目录中.]]></summary>
-        <content type="html"><![CDATA[<p>Obsidian 的配置存在于每个库中的 .obsidian 目录中.
+        <summary type="html"><![CDATA[Obsidian 的配置存在于每个库的 .obsidian 目录中.]]></summary>
+        <content type="html"><![CDATA[<p>Obsidian 的配置存在于每个库的 .obsidian 目录中.
 这种机制存在以下弊端:</p>
 <ol>
 <li class="">如果使用多个库, 那么这些配置将在多个目录构成冗余.</li>
@@ -21,7 +21,7 @@
 </ol>
 <p>解决思路是创建一个公共配置库, 或者更进一步 -- 样板库.</p>
 <p>然后在其他库中将 .obsidian 软链接到公共库中的配置. (亲测 Templates、Scripts 也可以)</p>
-<p>软链接到配置至少比软链接到内容更恰当.</p>
+<p>软链接配置至少比软链接内容更恰当.</p>
 <p>样板库示例:</p>
 <ul>
 <li class="">.git/</li>
@@ -63,7 +63,7 @@
 <li class="">bookmarks: 避免使用</li>
 </ul>
 <p>以及某些插件数据</p>
-<p>实在不行可以退回到使用私有配置</p>]]></content>
+<p>实在不行还可以退回到使用独立私有配置</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[H1、title 和 aliases]]></title>
