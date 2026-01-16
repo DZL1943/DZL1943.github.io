@@ -55,4 +55,6 @@ Obsidian 的配置存在于每个库中的 .obsidian 目录中.
 - workspace: 考虑用工作区弥补
 - bookmarks: 避免使用
 
+以及某些插件数据
+
 实在不行可以退回到使用私有配置
