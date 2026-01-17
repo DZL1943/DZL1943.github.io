@@ -143,7 +143,7 @@ body.is-tablet .workspace-tabs.mod-active > .workspace-tab-header-container {
 ```
 
 ```css
-/* 移动端悬浮编辑按钮 */
+/* 移动端悬浮编辑按钮 不支持 1.11 */
 body.is-mobile .view-action:nth-last-of-type(2) {
   color: white;
   background-color: var(--color-accent);
