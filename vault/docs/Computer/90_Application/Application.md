@@ -129,7 +129,7 @@ aliases:
     - Chrome
     - Edge
     - Safari
-- AI
+- AI https://huggingface.co/
     - [ChatGPT](https://chatgpt.com)
     - [Gemini](https://gemini.google.com)
     - [Grok](https://grok.x.ai)
@@ -138,6 +138,7 @@ aliases:
     - [DeekSeek](https://chat.deepseek.com)
     - [Doubao](https://www.doubao.com)
     - [Kimi](https://www.kimi.com)
+    - [GLM](https://chatglm.cn)
 
 ## 娱乐 Entertainment
 
@@ -310,10 +311,9 @@ aliases:
         - Radare2
         - Cutter
 - AI
-    - Agent
-        - Claude Code
-        - OpenCode
-        - Codex
+    - Claude Code
+    - OpenCode
+    - Codex
 - VCS
     - [Git](<Dev/Git.md>)
     - GitHub
