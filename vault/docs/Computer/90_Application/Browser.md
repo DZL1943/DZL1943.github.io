@@ -7,7 +7,7 @@ aliases: [浏览器]
 
 # 浏览器
 
-%%[list2table]%%
+%% [list2table] %%
 - 桌面端
     - Chrome 系
         - [ ] Chrome

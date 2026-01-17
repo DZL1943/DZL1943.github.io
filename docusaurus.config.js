@@ -8,7 +8,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
-// import anyblock from './src/remark/anyblock.js';
+
+import remark_anyblock_to_codeblock from './src/remark/anyblock2'; // [!code ++]
+import remark_anyblock_render_codeblock from './src/remark/anyblock'; // [!code ++]
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -53,12 +55,24 @@ const config = {
             /** @type {{from: string, to: string, transform?: (v: any) => any}[]} */
             const mappings = [
                 { from: "created", to: "date" },
-                { from: 'updated', to: 'last_update', transform: v => {date: v} },
-                { from: 'modified', to: 'last_update', transform: v => {date: v} },
-                { from: 'private', to: 'unlisted' },
-                { from: 'public', to: 'unlisted', transform: v => !v }
+                {
+                    from: "updated",
+                    to: "last_update",
+                    transform: (v) => {
+                        date: v;
+                    },
+                },
+                {
+                    from: "modified",
+                    to: "last_update",
+                    transform: (v) => {
+                        date: v;
+                    },
+                },
+                { from: "private", to: "unlisted" },
+                { from: "public", to: "unlisted", transform: (v) => !v },
             ];
-            
+
             mappings.forEach(({ from, to, transform }) => {
                 if (from !== to && from in result.frontMatter) {
                     result.frontMatter[to] = transform
@@ -96,7 +110,11 @@ const config = {
                     // Remove this to remove the "edit this page" links.
                     // editUrl: 'https://github.com/DZL1943/DZL1943.github.io/edit/main/website',
                     beforeDefaultRemarkPlugins: [],
-                    remarkPlugins: [remarkMath],
+                    remarkPlugins: [
+                        remarkMath,
+                        remark_anyblock_to_codeblock,
+                        remark_anyblock_render_codeblock,
+                    ],
                     rehypePlugins: [rehypeKatex],
                 },
                 blog: {

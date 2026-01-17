@@ -82,3 +82,13 @@ article [href^="http"] {
   font-size: 0.8em;
   margin-left: 3px;
 } */
+
+@import '../../node_modules/@anyblock/remark-any-block/styles';
+
+/* 适配当前框架与 anyblock 样式 */
+.ab-note {
+  margin: 10px 0;
+  table tr {
+    border: none;
+  }
+}
