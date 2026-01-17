@@ -4,10 +4,52 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Fri, 16 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2026 21:54:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[笔记分类-2026]]></title>
+            <link>https://dzl1943.github.io/blog/笔记分类-2026</link>
+            <guid>https://dzl1943.github.io/blog/笔记分类-2026</guid>
+            <pubDate>Sat, 17 Jan 2026 21:54:00 GMT</pubDate>
+            <description><![CDATA[%%[list2ut]%%]]></description>
+            <content:encoded><![CDATA[<p>%%[list2ut]%%</p>
+<ul>
+<li class="">私人 private<!-- -->
+<ul>
+<li class="">主观 subjective<!-- -->
+<ul>
+<li class="">日志 journals</li>
+<li class="">思想 thoughts</li>
+</ul>
+</li>
+<li class="">客观 objective<!-- -->
+<ul>
+<li class="">项目 projects</li>
+<li class="">资料 resources</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">公开 public<!-- -->
+<ul>
+<li class="">主观 subjective<!-- -->
+<ul>
+<li class="">动态 status</li>
+<li class="">写作 writings</li>
+</ul>
+</li>
+<li class="">客观 objective<!-- -->
+<ul>
+<li class="">文档 doc|area</li>
+<li class="">博客 blog|page</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Obsidian 共享配置]]></title>
             <link>https://dzl1943.github.io/blog/Obsidian 共享配置</link>
@@ -1077,25 +1119,6 @@
 </ul>
 </li>
 <li class="">AI 的适用边界是什么?</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[笔记关系]]></title>
-            <link>https://dzl1943.github.io/blog/笔记关系</link>
-            <guid>https://dzl1943.github.io/blog/笔记关系</guid>
-            <pubDate>Wed, 23 Jul 2025 17:59:00 GMT</pubDate>
-            <description><![CDATA[- Children/down: 正向链接]]></description>
-            <content:encoded><![CDATA[<ul>
-<li class="">Children/down: 正向链接</li>
-<li class="">Parents/up: 反向链接</li>
-<li class="">Friends: 相互链接<!-- -->
-<ul>
-<li class="">left/prev</li>
-<li class="">right/next</li>
-</ul>
-</li>
-<li class="">Other Friends %% (lateral relationships on the right side) %%</li>
-<li class="">Siblings</li>
 </ul>]]></content:encoded>
         </item>
     </channel>

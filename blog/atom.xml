@@ -2,11 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-01-16T00:00:00.000Z</updated>
+    <updated>2026-01-17T21:54:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[笔记分类-2026]]></title>
+        <id>https://dzl1943.github.io/blog/笔记分类-2026</id>
+        <link href="https://dzl1943.github.io/blog/笔记分类-2026"/>
+        <updated>2026-01-17T21:54:00.000Z</updated>
+        <summary type="html"><![CDATA[%%[list2ut]%%]]></summary>
+        <content type="html"><![CDATA[<p>%%[list2ut]%%</p>
+<ul>
+<li class="">私人 private<!-- -->
+<ul>
+<li class="">主观 subjective<!-- -->
+<ul>
+<li class="">日志 journals</li>
+<li class="">思想 thoughts</li>
+</ul>
+</li>
+<li class="">客观 objective<!-- -->
+<ul>
+<li class="">项目 projects</li>
+<li class="">资料 resources</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">公开 public<!-- -->
+<ul>
+<li class="">主观 subjective<!-- -->
+<ul>
+<li class="">动态 status</li>
+<li class="">写作 writings</li>
+</ul>
+</li>
+<li class="">客观 objective<!-- -->
+<ul>
+<li class="">文档 doc|area</li>
+<li class="">博客 blog|page</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Obsidian 共享配置]]></title>
         <id>https://dzl1943.github.io/blog/Obsidian 共享配置</id>
@@ -1076,25 +1118,6 @@
 </ul>
 </li>
 <li class="">AI 的适用边界是什么?</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[笔记关系]]></title>
-        <id>https://dzl1943.github.io/blog/笔记关系</id>
-        <link href="https://dzl1943.github.io/blog/笔记关系"/>
-        <updated>2025-07-23T17:59:00.000Z</updated>
-        <summary type="html"><![CDATA[- Children/down: 正向链接]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li class="">Children/down: 正向链接</li>
-<li class="">Parents/up: 反向链接</li>
-<li class="">Friends: 相互链接<!-- -->
-<ul>
-<li class="">left/prev</li>
-<li class="">right/next</li>
-</ul>
-</li>
-<li class="">Other Friends %% (lateral relationships on the right side) %%</li>
-<li class="">Siblings</li>
 </ul>]]></content>
     </entry>
 </feed>
