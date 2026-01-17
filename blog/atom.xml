@@ -22,32 +22,23 @@
 <p>解决思路是创建一个公共配置库, 或者更进一步 -- 样板库.</p>
 <p>然后在其他库中将 .obsidian 软链接到公共库中的配置. (亲测 Templates、Scripts 也可以)</p>
 <p>软链接配置至少比软链接内容更恰当.</p>
-<p>样板库示例:</p>
+<p>示例:</p>
 <ul>
-<li class="">.git/</li>
-<li class="">.obsidian/ | symlink</li>
-<li class="">.obsidian-main/</li>
-<li class="">.obsidian-mini/</li>
+<li class="">.obsidian/ | 软链接到公共位置</li>
 <li class="">.obsidian-mobile/</li>
-<li class="">.obsidian-opt/</li>
 <li class="">Inbox/</li>
 <li class="">Journals/</li>
-<li class="">Jottings/</li>
-<li class="">Pages/</li>
-<li class="">Projects/</li>
-<li class="">Areas/</li>
-<li class="">Resources/</li>
+<li class="">...</li>
 <li class="">Archives/</li>
 <li class="">Attachments/</li>
-<li class="">Templates/</li>
-<li class="">Scripts/</li>
-<li class="">Misc/</li>
-<li class="">Ext/ | 其他路径的内容可以软链接到这里临时查阅</li>
-<li class="">.gitignore</li>
-<li class="">.stignore</li>
-<li class="">.nomedia</li>
-<li class="">README.md</li>
-<li class="">sortspec.md</li>
+<li class="">Misc/<!-- -->
+<ul>
+<li class="">Templates/ | 软链接到公共位置</li>
+<li class="">Scripts/ | 软链接到公共位置</li>
+</ul>
+</li>
+<li class="">.gitignore | 排除 无关(.obsidian*、Misc/)、本地(Inbox)、私有(Journals)</li>
+<li class="">.stignore | 排除 无关(.obsidian、Misc/)、本地(Inbox)</li>
 </ul>
 <p>具体如何操作?</p>
 <ol>
