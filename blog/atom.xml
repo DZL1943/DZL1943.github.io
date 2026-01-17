@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-01-17T21:54:00.000Z</updated>
+    <updated>2026-01-17T23:50:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Docusaurus with anyblock]]></title>
+        <id>https://dzl1943.github.io/blog/Docusaurus with anyblock</id>
+        <link href="https://dzl1943.github.io/blog/Docusaurus with anyblock"/>
+        <updated>2026-01-17T23:50:00.000Z</updated>
+        <summary type="html"><![CDATA[参考]]></summary>
+        <content type="html"><![CDATA[<p>参考</p>
+<ul>
+<li class=""><a href="https://docusaurus.io/docs/markdown-features/plugins#creating-new-rehyperemark-plugins" target="_blank" rel="noopener noreferrer" class="">https://docusaurus.io/docs/markdown-features/plugins#creating-new-rehyperemark-plugins</a></li>
+<li class=""><a href="https://github.com/any-block/DocusaurusDemo" target="_blank" rel="noopener noreferrer" class="">https://github.com/any-block/DocusaurusDemo</a></li>
+</ul>
+<ol>
+<li class="">安装: <code>npm install @anyblock/remark-any-block</code></li>
+<li class="">参考上述链接, 创建 MDX 插件, 添加 css, 启用.<!-- -->
+<ol>
+<li class="">创建 MDX 插件: src/remark/anyblock.ts anyblock2.ts</li>
+<li class="">在 src/css/custom.css 中添加 css</li>
+<li class="">在 docusaurus.config.js 的 presets 的 docs.remarkPlugins 中添加插件</li>
+</ol>
+</li>
+</ol>
+<p>问题记录</p>
+<ol>
+<li class="">包含删除线会报错</li>
+<li class="">包含数学公式会报错</li>
+<li class="">title2tabs 仅第一个正常显示</li>
+</ol>
+<p>还有如下警告</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt; [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Can't resolve './src/remark/anyblock' in 'XXX'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt; while resolving './src/remark/anyblock' in XXX as file</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt;  at resolve esm file ./src/remark/anyblock</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt;  at file dependencies XXX/docusaurus.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt;  at file XXX/docusaurus.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt;  at unknown 0 XXX/docusaurus.config.js</span><br></span></code></pre></div></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[笔记分类-2026]]></title>
         <id>https://dzl1943.github.io/blog/笔记分类-2026</id>
@@ -1079,45 +1109,6 @@
 <li class="">Atrocious 超级差</li>
 </ul>
 </li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[obsidian 搜索问题记录]]></title>
-        <id>https://dzl1943.github.io/blog/202508042336</id>
-        <link href="https://dzl1943.github.io/blog/202508042336"/>
-        <updated>2025-08-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[问题 1]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="问题-1">问题 1<a href="https://dzl1943.github.io/blog/202508042336#%E9%97%AE%E9%A2%98-1" class="hash-link" aria-label="问题 1的直接链接" title="问题 1的直接链接" translate="no">​</a></h2>
-<p>在 obsidian 搜索中, 当搜索词包含方括号<code>[</code>等特殊符号应如何正确处理?</p>
-<ul>
-<li class="">用引号包裹搜索词</li>
-<li class="">转义?</li>
-</ul>
-<p>例如需全库搜索<code>[list2*]</code>, 其中<code>*</code>指代任意个任意字符, 例如 <code>[list2table]</code>、<code>[list2lt]</code>、<code>[list2ut]</code>.</p>
-<p>以<code>[list2table]</code>为例,</p>
-<ul>
-<li class="">首先搜索词需要用引号包裹(否则中括号是搜索属性的语法),</li>
-<li class="">其次需完整输入<code>"[list2table]"</code>方能匹配 (例如<code>"[list2tab]"</code>是搜索不到的), why?</li>
-<li class=""><code>"\[list2table\]"</code> 这样加上转义没有影响, why?</li>
-</ul>
-<p>解释:</p>
-<ul>
-<li class="">引号包裹即意味着精确搜索, 在其中无需转义</li>
-<li class="">正确做法是用正则表达式 <code>/\[.*list2.*\]/</code></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="问题-2">问题 2<a href="https://dzl1943.github.io/blog/202508042336#%E9%97%AE%E9%A2%98-2" class="hash-link" aria-label="问题 2的直接链接" title="问题 2的直接链接" translate="no">​</a></h2>
-<p>对于问题 1, 在提问者已经阅读官方文档、已在互联网进行搜索并验证测试后, 是否有必要问 AI?</p>
-<p>有. 因为 AI 的理解可能更细致到位, 虽然可能因为局限性不解决问题, 但仍具备参考价值.</p>
-<p>事实上, 很多问题在被规范描述后都能得到解决, <strong>详细、准确、规范地描述问题是关键</strong>.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="问题-3">问题 3<a href="https://dzl1943.github.io/blog/202508042336#%E9%97%AE%E9%A2%98-3" class="hash-link" aria-label="问题 3的直接链接" title="问题 3的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">何时无需问 AI?<!-- -->
-<ul>
-<li class="">掌握更为权威的相关知识</li>
-<li class="">知晓更为优先的解决渠道</li>
-</ul>
-</li>
-<li class="">AI 的适用边界是什么?</li>
 </ul>]]></content>
     </entry>
 </feed>
