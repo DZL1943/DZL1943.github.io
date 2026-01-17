@@ -16,32 +16,20 @@ Obsidian 的配置存在于每个库的 .obsidian 目录中.
 
 软链接配置至少比软链接内容更恰当.
 
-样板库示例:
+示例:
 
-- .git/
-- .obsidian/ | symlink
-- .obsidian-main/
-- .obsidian-mini/
+- .obsidian/ | 软链接到公共位置
 - .obsidian-mobile/
-- .obsidian-opt/
 - Inbox/
 - Journals/
-- Jottings/
-- Pages/
-- Projects/
-- Areas/
-- Resources/
+- ...
 - Archives/
 - Attachments/
-- Templates/
-- Scripts/
 - Misc/
-- Ext/ | 其他路径的内容可以软链接到这里临时查阅
-- .gitignore
-- .stignore
-- .nomedia
-- README.md
-- sortspec.md
+    - Templates/ | 软链接到公共位置
+    - Scripts/ | 软链接到公共位置
+- .gitignore | 排除 无关(.obsidian*、Misc/)、本地(Inbox)、私有(Journals)
+- .stignore | 排除 无关(.obsidian、Misc/)、本地(Inbox)
 
 具体如何操作?
 
