@@ -297,6 +297,8 @@ aliases:
         - DataGrip 非商业用途免费
         - DataSpell
         - ReSharper
+    - Visual Studio
+    - Xcode
     - 数据库类
         - Navicat
         - Beekeeper Studio
