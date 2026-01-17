@@ -155,9 +155,9 @@ email =
 [core]
 eol = lf
 autocrlf = input
-# ignorecase = true
+# symlinks = false
 # filemode = false
-# symlinks = 
+# ignorecase = true
 quotepath = false
 
 [init]
