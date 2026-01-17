@@ -135,6 +135,14 @@ const scrollActions = {
 
 scrollActions[view.getMode()]?.(0);  // -1 表示末尾
 ```
+simpler impl:
+```js
+const {editor, currentMode} = app.workspace.activeLeaf?.view;
+// bottom
+currentMode.applyScroll(editor.lineCount()-1)
+// top
+app.workspace.activeLeaf?.view?.currentMode.applyScroll(1)
+```
 
 ### Event
 
