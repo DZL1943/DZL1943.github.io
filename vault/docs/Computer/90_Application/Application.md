@@ -129,7 +129,7 @@ aliases:
     - Chrome
     - Edge
     - Safari
-- AI https://huggingface.co/
+- AI https://llm-stats.com/
     - [ChatGPT](https://chatgpt.com)
     - [Gemini](https://gemini.google.com)
     - [Grok](https://grok.x.ai)
