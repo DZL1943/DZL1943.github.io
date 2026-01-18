@@ -146,7 +146,7 @@ const input = await this.quickAddApi.inputPrompt("✍");
 return `Input given: ${input}`;
 ```
 
-可以用 `{{MACRO:}}` 的形式获得其 return 值.
+可以用 `{{MACRO:}}` 的方式获得其 return 值.
 
 ## API
 
