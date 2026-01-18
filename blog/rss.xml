@@ -4,10 +4,84 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Sun, 18 Jan 2026 15:06:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Jan 2026 18:46:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[极简 Obsidian]]></title>
+            <link>https://dzl1943.github.io/blog/极简 Obsidian</link>
+            <guid>https://dzl1943.github.io/blog/极简 Obsidian</guid>
+            <pubDate>Sun, 18 Jan 2026 18:46:00 GMT</pubDate>
+            <description><![CDATA[概述]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="概述">概述<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E6%A6%82%E8%BF%B0" class="hash-link" aria-label="概述的直接链接" title="概述的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">what</li>
+<li class="">why</li>
+<li class="">how</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="设置">设置<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E8%AE%BE%E7%BD%AE" class="hash-link" aria-label="设置的直接链接" title="设置的直接链接" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>内部链接类型</strong>:&nbsp;<strong>相对路径</strong></li>
+<li class=""><strong>使用 Wiki 链接</strong>:&nbsp;<strong>否</strong></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="样式">样式<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E6%A0%B7%E5%BC%8F" class="hash-link" aria-label="样式的直接链接" title="样式的直接链接" translate="no">​</a></h2>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f">body</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h1-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-red</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h2-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-orange</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h3-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-yellow</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h4-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-green</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h5-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-blue</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h6-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-purple</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--bold-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-red</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--italic-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-orange</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--file-line-width</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">min</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">85</span><span class="token unit">vw</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1200</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.cm-strikethrough</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f">del</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--text-faint</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector" style="color:#00009f">u</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector" style="color:#00009f">ins</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> none</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">border-bottom</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">3</span><span class="token unit">px</span><span class="token plain"> solid </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-green</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-green</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration-thickness</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">3</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">/* list */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector" style="color:#00009f">ul</span><span class="token selector combinator" style="color:#00009f">&gt;</span><span class="token selector" style="color:#00009f">li</span><span class="token selector class" style="color:#00009f">.task-list-item</span><span class="token selector attribute punctuation" style="color:#393A34">[</span><span class="token selector attribute attr-name" style="color:#00a4db">data-task</span><span class="token selector attribute operator" style="color:#393A34">=</span><span class="token selector attribute attr-value" style="color:#e3116c">"x"</span><span class="token selector attribute punctuation" style="color:#393A34">]</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f">ul</span><span class="token selector combinator" style="color:#00009f">&gt;</span><span class="token selector" style="color:#00009f">li</span><span class="token selector class" style="color:#00009f">.task-list-item</span><span class="token selector attribute punctuation" style="color:#393A34">[</span><span class="token selector attribute attr-name" style="color:#00a4db">data-task</span><span class="token selector attribute operator" style="color:#393A34">=</span><span class="token selector attribute attr-value" style="color:#e3116c">"X"</span><span class="token selector attribute punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> none</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.markdown-source-view</span><span class="token selector class" style="color:#00009f">.mod-cm6</span><span class="token selector" style="color:#00009f"> </span><span class="token selector class" style="color:#00009f">.HyperMD-task-line</span><span class="token selector attribute punctuation" style="color:#393A34">[</span><span class="token selector attribute attr-name" style="color:#00a4db">data-task</span><span class="token selector attribute operator" style="color:#393A34">=</span><span class="token selector attribute attr-value" style="color:#e3116c">"x"</span><span class="token selector attribute punctuation" style="color:#393A34">]</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f"></span><span class="token selector class" style="color:#00009f">.markdown-source-view</span><span class="token selector class" style="color:#00009f">.mod-cm6</span><span class="token selector" style="color:#00009f"> </span><span class="token selector class" style="color:#00009f">.HyperMD-task-line</span><span class="token selector attribute punctuation" style="color:#393A34">[</span><span class="token selector attribute attr-name" style="color:#00a4db">data-task</span><span class="token selector attribute operator" style="color:#393A34">=</span><span class="token selector attribute attr-value" style="color:#e3116c">"X"</span><span class="token selector attribute punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> none</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">/* table */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.markdown-preview-view</span><span class="token selector" style="color:#00009f"> tr</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f"></span><span class="token selector class" style="color:#00009f">.markdown-rendered</span><span class="token selector" style="color:#00009f"> tr</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token selector" style="color:#00009f">&amp;</span><span class="token selector pseudo-class" style="color:#00009f">:nth-child</span><span class="token selector punctuation" style="color:#393A34">(</span><span class="token selector n-th" style="color:#00009f">odd</span><span class="token selector punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">background-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--background-primary</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token selector" style="color:#00009f">&amp;</span><span class="token selector pseudo-class" style="color:#00009f">:nth-child</span><span class="token selector punctuation" style="color:#393A34">(</span><span class="token selector n-th" style="color:#00009f">even</span><span class="token selector punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">background-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--background-secondary</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.nav-folder-title-content</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector class" style="color:#00009f">.nav-file-title-content</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">font-size</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">15</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.workspace-tab-header</span><span class="token selector pseudo-class" style="color:#00009f">:has</span><span class="token selector punctuation" style="color:#393A34">(</span><span class="token selector class" style="color:#00009f">.mod-pinned</span><span class="token selector punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token comment" style="color:#999988;font-style:italic">/* shrink if pinned */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">max-width</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">60</span><span class="token unit">px</span><span class="token plain"> </span><span class="token important">!important</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.view-header</span><span class="token selector pseudo-class" style="color:#00009f">:not</span><span class="token selector punctuation" style="color:#393A34">(</span><span class="token selector pseudo-class" style="color:#00009f">:hover</span><span class="token selector punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">opacity</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.status-bar</span><span class="token selector pseudo-class" style="color:#00009f">:not</span><span class="token selector punctuation" style="color:#393A34">(</span><span class="token selector pseudo-class" style="color:#00009f">:hover</span><span class="token selector punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">opacity</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">min-height</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">6</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">height</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">padding</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">margin</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">border</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="插件">插件<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E6%8F%92%E4%BB%B6" class="hash-link" aria-label="插件的直接链接" title="插件的直接链接" translate="no">​</a></h2>
+<p>mini</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->better-markdown-links</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->cmdr</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->easy-typing-obsidian</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->notebook-navigator</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->obsidian-heading-shifter</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->obsidian-linter</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->obsidian-outliner</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->quickadd</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->various-complements</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->virtual-linker</li>
+</ul>
+<p>mobile</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->any-block-min</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->dataview</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->note-toolbar</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->notebook-navigator</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->obsidian-advanced-uri</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->obsidian-outliner</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->omnisearch</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->virtual-linker</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="结构">结构<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E7%BB%93%E6%9E%84" class="hash-link" aria-label="结构的直接链接" title="结构的直接链接" translate="no">​</a></h2>
+<p><a class="" href="https://dzl1943.github.io/blog/Obsidian%20%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE">Obsidian 共享配置</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="分类">分类<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E5%88%86%E7%B1%BB" class="hash-link" aria-label="分类的直接链接" title="分类的直接链接" translate="no">​</a></h2>
+<p><a class="" href="https://dzl1943.github.io/blog/%E7%AC%94%E8%AE%B0%E5%88%86%E7%B1%BB-2026">笔记分类</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他">其他<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E5%85%B6%E4%BB%96" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">同步备份: syncthing + git + kopia<!-- -->
+<ul>
+<li class="">一键备份 <code>mkdir -p ~/bak/Obsidian/$(date +%F) &amp;&amp; cp -rfP ~/Documents/Obsidian/. $_</code></li>
+<li class="">压缩 <code>cd ~/bak/Obsidian/$(date +%F) &amp;&amp; zip -r ../$(date +%Y%m%d%H%M%S).zip . -x "*.git*" "*.trash*" -e</code></li>
+<li class="">查看压缩 <code>unzip -l *.zip</code></li>
+<li class="">解压缩 <code>unzip *.zip -d Obsidian</code></li>
+</ul>
+</li>
+<li class="">导入导出<!-- -->
+<ul>
+<li class="">md</li>
+<li class="">pdf</li>
+<li class="">word</li>
+<li class="">html</li>
+</ul>
+</li>
+<li class="">草稿速记</li>
+<li class="">附件</li>
+<li class="">剪藏</li>
+<li class="">日记</li>
+<li class="">GTD</li>
+<li class="">AI</li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Obsidian Mobile 远程调试]]></title>
             <link>https://dzl1943.github.io/blog/Obsidian Mobile 远程调试</link>
@@ -105,7 +179,7 @@
 <li class="">包含删除线会报错</li>
 <li class="">包含数学公式会报错</li>
 <li class="">title2tabs 仅第一个正常显示</li>
-<li class="">注释没有隐藏</li>
+<li class=""><del>注释没有隐藏</del>(无关)</li>
 <li class="">fold 无法展开 (lt 正常)</li>
 </ol>
 <p>还有如下警告</p>
@@ -1056,94 +1130,6 @@
 <li class="">Archives: 因为我不需要完整的 P.A.R.A., 所以这里的简化是 ok 的</li>
 <li class="">Ext</li>
 <li class="">Misc</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[电子设备]]></title>
-            <link>https://dzl1943.github.io/blog/电子设备</link>
-            <guid>https://dzl1943.github.io/blog/电子设备</guid>
-            <pubDate>Wed, 10 Sep 2025 11:12:43 GMT</pubDate>
-            <description><![CDATA[形态]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="形态">形态<a href="https://dzl1943.github.io/blog/%E7%94%B5%E5%AD%90%E8%AE%BE%E5%A4%87#%E5%BD%A2%E6%80%81" class="hash-link" aria-label="形态的直接链接" title="形态的直接链接" translate="no">​</a></h2>
-<ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->眼镜</li>
-<li class="">[+] 手表 | 40~50 mm</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->掌机</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->手机 | 6~7<!-- -->
-<ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->内折叠/小折叠</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->阔折叠</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->外折叠/大折叠</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->三折叠</li>
-</ul>
-</li>
-<li class="">[?] 平板电脑 | 8~11<!-- -->
-<ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->内折叠</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->外折叠</li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->笔记本电脑 | 13~16</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->一体机 | 27/32</li>
-<li class="">[+] 主机电脑<!-- -->
-<ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->小型机</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->台式机</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->游戏机</li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->服务器</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->电视 | 40+</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->投影仪</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->头显</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="构成">构成<a href="https://dzl1943.github.io/blog/%E7%94%B5%E5%AD%90%E8%AE%BE%E5%A4%87#%E6%9E%84%E6%88%90" class="hash-link" aria-label="构成的直接链接" title="构成的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">处理器<!-- -->
-<ul>
-<li class="">cpu</li>
-<li class="">gpu</li>
-</ul>
-</li>
-<li class="">存储<!-- -->
-<ul>
-<li class="">ram</li>
-<li class="">rom</li>
-</ul>
-</li>
-<li class="">屏幕</li>
-<li class="">相机</li>
-<li class="">电池</li>
-<li class="">网络</li>
-<li class="">按键</li>
-<li class="">接口<!-- -->
-<ul>
-<li class="">type-c</li>
-<li class="">耳机口</li>
-</ul>
-</li>
-<li class="">其他<!-- -->
-<ul>
-<li class="">指纹</li>
-<li class="">马达</li>
-<li class="">扬声器</li>
-<li class="">麦克风</li>
-<li class="">听筒</li>
-<li class="">蓝牙</li>
-<li class="">NFC</li>
-<li class="">红外</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="功能">功能<a href="https://dzl1943.github.io/blog/%E7%94%B5%E5%AD%90%E8%AE%BE%E5%A4%87#%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="功能的直接链接" title="功能的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">通信</li>
-<li class="">上网</li>
-<li class="">影像</li>
-<li class="">导航</li>
-<li class="">支付</li>
-<li class="">娱乐</li>
-<li class="">办公</li>
 </ul>]]></content:encoded>
         </item>
     </channel>
