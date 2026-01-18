@@ -98,7 +98,8 @@ const sidebars = {
 }
 ```
 
-多个边栏, 改变 dirName 即可
+多个边栏, 改变 dirName 即可.
+打开对应路径下的文档时会自动切换到对应的边栏.
 
 ### multiple
 
@@ -128,6 +129,15 @@ const config = {
 ### Frontmatter
 
 [Markdown Features | Docusaurus](https://docusaurus.io/docs/markdown-features#front-matter)
+
+常用字段
+- sidebar_position | doc 特有
+- slug
+- title
+- date
+- draft
+- unlisted
+
 ```js
 const config = {
     markdown: {
