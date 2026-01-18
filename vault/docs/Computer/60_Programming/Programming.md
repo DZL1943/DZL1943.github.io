@@ -2,7 +2,9 @@
 title: 编程语言
 created: 2026-01-06T19:26
 modified: 2026-01-14T19:16
-aliases: [编程语言]
+aliases:
+  - 编程语言
+sidebar_position: 1
 ---
 
 # 编程语言

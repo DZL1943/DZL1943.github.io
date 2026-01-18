@@ -1,8 +1,11 @@
 ---
 created: 2024-04-22T20:39
 modified: 2026-01-14T18:49
-aliases: [数据库]
-url: [https://db-engines.com/en/ranking]
+aliases:
+  - 数据库
+url:
+  - https://db-engines.com/en/ranking
+sidebar_position: 1
 ---
 
 - RDBMS

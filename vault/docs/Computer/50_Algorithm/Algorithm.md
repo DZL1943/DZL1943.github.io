@@ -2,7 +2,9 @@
 title: 算法
 created: 2023-06-08T18:11
 modified: 2026-01-14T19:25
-aliases: [算法]
+aliases:
+  - 算法
+sidebar_position: 1
 ---
 
 # 算法
