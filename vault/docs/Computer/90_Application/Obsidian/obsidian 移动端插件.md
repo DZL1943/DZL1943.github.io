@@ -6,18 +6,20 @@ modified: 2025-10-10T14:02
 <!-- truncate -->
 
 - [ ] any-block
-- [x] cmdr
+- [ ] cmdr
 - [ ] custom-sort
-- [x] darlal-switcher-plus
-- [x] dataview
+- [ ] darlal-switcher-plus
+- [ ] dataview
 - [ ] gay-toolbar
-- [x] lazy-plugins
+- [ ] lazy-plugins
+- [x] notebook-navigator
+- [x] note-toolbar
 - [x] obsidian-advanced-uri
-- [x] obsidian-front-matter-title-plugin
+- [ ] obsidian-front-matter-title-plugin
 - [x] obsidian-outliner
 - [ ] obsidian-tasks-plugin
-- [ ] omnisearch
+- [x] omnisearch
 - [ ] refresh-preview
-- [x] solve
+- [ ] solve
 - [ ] vconsole
 - [x] virtual-linker
