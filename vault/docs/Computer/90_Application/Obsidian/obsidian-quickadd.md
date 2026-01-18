@@ -47,6 +47,8 @@ QuickAdd 的 核心概念是 Choice, 即当你通过命令或快捷键运行时,
 - content format
 - behavior
 
+注: 并非一定要在编辑模式下写入点什么才行, 用来运行 inline script 也是 ok 的.
+
 ## Macro
 
 A **macro** is a collection of commands that execute sequentially. Each macro is associated with a **macro choice**, which allows you to trigger the macro from the QuickAdd command palette.
@@ -144,7 +146,7 @@ const input = await this.quickAddApi.inputPrompt("✍");
 return `Input given: ${input}`;
 ```
 
-也可以用 `{{MACRO:}}` 的形式获得其 return 值.
+可以用 `{{MACRO:}}` 的形式获得其 return 值.
 
 ## API
 
