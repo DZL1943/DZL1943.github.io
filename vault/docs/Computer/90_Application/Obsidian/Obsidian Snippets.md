@@ -174,6 +174,44 @@ body.is-mobile.advanced-toolbar .view-action:nth-last-of-type(2) {
 }
 ```
 
+```css
+/* Obsidian 移动端 - 右下角悬浮按钮 适配 1.11 */
+body.is-mobile .view-action:nth-last-of-type(2) {
+  /* === 核心定位 === */
+  position: fixed !important;
+  bottom: -620px !important; /* 关键：负值将按钮从顶部“推”至底部，根据效果微调 */
+  right: 20px !important;    /* 距离屏幕右侧距离 */
+  z-index: 99999 !important;
+  /* 清除默认定位基准 */
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+
+  /* === 强制显示，覆盖可能的内联样式 === */
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: flex !important;
+  transition: none !important;
+  pointer-events: auto !important;
+
+  /* === 视觉样式 === */
+  width: 52px !important;
+  height: 52px !important;
+  padding: 6px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  background: var(--color-accent) !important;
+  color: var(--text-on-accent, #fff) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12) !important;
+}
+
+/* 高级工具栏模式：底部有额外栏位，需将按钮抬得更高 */
+body.is-mobile.advanced-toolbar .view-action:nth-last-of-type(2) {
+  bottom: -650px !important; /* 比普通模式更负一些 */
+}
+```
+
 ### 内容区
 
 ```css
