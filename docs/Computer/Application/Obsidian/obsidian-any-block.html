@@ -11,8 +11,8 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.cd605a2a.css">
-<script src="/assets/js/runtime~main.66071889.js" defer="defer"></script>
-<script src="/assets/js/main.09c74132.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.c868a512.js" defer="defer"></script>
+<script src="/assets/js/main.6b44d8ec.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -165,87 +165,203 @@ hello</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="列表与表格">列表与表格<a href="#列表与表格" class="hash-link" aria-label="列表与表格的直接链接" title="列表与表格的直接链接" translate="no">​</a></h3>
 <p>%% [title2tabs] %%</p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="列表表格">列表表格<a href="#列表表格" class="hash-link" aria-label="列表表格的直接链接" title="列表表格的直接链接" translate="no">​</a></h4>
-<p>%% 用|分隔列, 列表的每一项都是一行, 可折叠 %%<br>
-<!-- -->[list2lt]</p>
-<ul>
-<li class="">1<!-- -->
-<ul>
-<li class="">1.1</li>
-<li class="">1.2 | 第二列 | 第三列</li>
-</ul>
-</li>
-<li class="">2<!-- -->
-<ul>
-<li class="">2.1 | 第二列 | 第三列</li>
-<li class="">2.2</li>
-</ul>
-</li>
-<li class="">3</li>
-</ul>
+<p>%% 用|分隔列, 列表的每一项都是一行, 可折叠 %%</p>
+<div><div class="ab-note drop-shadow"><div class="ab-list-table-parent"><table class="ab-table ab-list-table"><tbody><tr class="ab-foldable-tr" tr_level="0" is_fold="false" able_fold="true" type="1"><td rowspan="1" onclick="const tr = (this.tagName == &quot;TD&quot;) ? this.parentNode : this
+            const l_tr = tr.parentNode.querySelectorAll(&quot;tr&quot;)
+            const i = 0
+            
+            const tr_level = Number(tr.getAttribute(&quot;tr_level&quot;))
+            if (isNaN(tr_level)) return
+            const tr_isfold = tr.getAttribute(&quot;is_fold&quot;)
+            if (!tr_isfold) return
+            let flag_do_fold = false  // 防止折叠最小层
+            for (let j=i+1; j<l_tr.length; j++){
+              const tr2 = l_tr[j]
+              const tr_level2 = Number(tr2.getAttribute(&quot;tr_level&quot;))
+              if (isNaN(tr_level2)) break
+              if (tr_level2 <= tr_level) break // 影响所有后代级
+              // if (tr_level2 != tr_level+1) break // 影响下一级的 (话说这里可能有列表规范性问题?)
+              (tr_isfold == &quot;true&quot;) ? tr2.style.display = &quot;&quot; : tr2.style.display = &quot;none&quot;
+              flag_do_fold = true
+            }
+            if (flag_do_fold) tr.setAttribute(&quot;is_fold&quot;, tr_isfold==&quot;true&quot;?&quot;false&quot;:&quot;true&quot;)"><div class="ab-list-table-witharrow markdown-rendered"><div><p>1</p>
+</div></div></td></tr><tr class="ab-foldable-tr" tr_level="1" is_fold="false" able_fold="false" type="1"><td rowspan="1" onclick="const tr = (this.tagName == &quot;TD&quot;) ? this.parentNode : this
+            const l_tr = tr.parentNode.querySelectorAll(&quot;tr&quot;)
+            const i = 1
+            
+            const tr_level = Number(tr.getAttribute(&quot;tr_level&quot;))
+            if (isNaN(tr_level)) return
+            const tr_isfold = tr.getAttribute(&quot;is_fold&quot;)
+            if (!tr_isfold) return
+            let flag_do_fold = false  // 防止折叠最小层
+            for (let j=i+1; j<l_tr.length; j++){
+              const tr2 = l_tr[j]
+              const tr_level2 = Number(tr2.getAttribute(&quot;tr_level&quot;))
+              if (isNaN(tr_level2)) break
+              if (tr_level2 <= tr_level) break // 影响所有后代级
+              // if (tr_level2 != tr_level+1) break // 影响下一级的 (话说这里可能有列表规范性问题?)
+              (tr_isfold == &quot;true&quot;) ? tr2.style.display = &quot;&quot; : tr2.style.display = &quot;none&quot;
+              flag_do_fold = true
+            }
+            if (flag_do_fold) tr.setAttribute(&quot;is_fold&quot;, tr_isfold==&quot;true&quot;?&quot;false&quot;:&quot;true&quot;)"><div class="ab-list-table-witharrow markdown-rendered"><div><p>1.1</p>
+</div></div></td></tr><tr class="ab-foldable-tr" tr_level="1" is_fold="false" able_fold="false" type="2 "><td rowspan="1" onclick="const tr = (this.tagName == &quot;TD&quot;) ? this.parentNode : this
+            const l_tr = tr.parentNode.querySelectorAll(&quot;tr&quot;)
+            const i = 2
+            
+            const tr_level = Number(tr.getAttribute(&quot;tr_level&quot;))
+            if (isNaN(tr_level)) return
+            const tr_isfold = tr.getAttribute(&quot;is_fold&quot;)
+            if (!tr_isfold) return
+            let flag_do_fold = false  // 防止折叠最小层
+            for (let j=i+1; j<l_tr.length; j++){
+              const tr2 = l_tr[j]
+              const tr_level2 = Number(tr2.getAttribute(&quot;tr_level&quot;))
+              if (isNaN(tr_level2)) break
+              if (tr_level2 <= tr_level) break // 影响所有后代级
+              // if (tr_level2 != tr_level+1) break // 影响下一级的 (话说这里可能有列表规范性问题?)
+              (tr_isfold == &quot;true&quot;) ? tr2.style.display = &quot;&quot; : tr2.style.display = &quot;none&quot;
+              flag_do_fold = true
+            }
+            if (flag_do_fold) tr.setAttribute(&quot;is_fold&quot;, tr_isfold==&quot;true&quot;?&quot;false&quot;:&quot;true&quot;)"><div class="ab-list-table-witharrow markdown-rendered"><div><p>1.2</p>
+</div></div></td><td rowspan="1"><div class="ab-list-table-witharrow markdown-rendered"><div><p>第二列</p>
+</div></div></td><td rowspan="1"><div class="ab-list-table-witharrow markdown-rendered"><div><p>第三列</p>
+</div></div></td></tr><tr class="ab-foldable-tr" tr_level="0" is_fold="false" able_fold="true" type="2"><td rowspan="1" onclick="const tr = (this.tagName == &quot;TD&quot;) ? this.parentNode : this
+            const l_tr = tr.parentNode.querySelectorAll(&quot;tr&quot;)
+            const i = 3
+            
+            const tr_level = Number(tr.getAttribute(&quot;tr_level&quot;))
+            if (isNaN(tr_level)) return
+            const tr_isfold = tr.getAttribute(&quot;is_fold&quot;)
+            if (!tr_isfold) return
+            let flag_do_fold = false  // 防止折叠最小层
+            for (let j=i+1; j<l_tr.length; j++){
+              const tr2 = l_tr[j]
+              const tr_level2 = Number(tr2.getAttribute(&quot;tr_level&quot;))
+              if (isNaN(tr_level2)) break
+              if (tr_level2 <= tr_level) break // 影响所有后代级
+              // if (tr_level2 != tr_level+1) break // 影响下一级的 (话说这里可能有列表规范性问题?)
+              (tr_isfold == &quot;true&quot;) ? tr2.style.display = &quot;&quot; : tr2.style.display = &quot;none&quot;
+              flag_do_fold = true
+            }
+            if (flag_do_fold) tr.setAttribute(&quot;is_fold&quot;, tr_isfold==&quot;true&quot;?&quot;false&quot;:&quot;true&quot;)"><div class="ab-list-table-witharrow markdown-rendered"><div><p>2</p>
+</div></div></td></tr><tr class="ab-foldable-tr" tr_level="1" is_fold="false" able_fold="false" type="1 "><td rowspan="1" onclick="const tr = (this.tagName == &quot;TD&quot;) ? this.parentNode : this
+            const l_tr = tr.parentNode.querySelectorAll(&quot;tr&quot;)
+            const i = 4
+            
+            const tr_level = Number(tr.getAttribute(&quot;tr_level&quot;))
+            if (isNaN(tr_level)) return
+            const tr_isfold = tr.getAttribute(&quot;is_fold&quot;)
+            if (!tr_isfold) return
+            let flag_do_fold = false  // 防止折叠最小层
+            for (let j=i+1; j<l_tr.length; j++){
+              const tr2 = l_tr[j]
+              const tr_level2 = Number(tr2.getAttribute(&quot;tr_level&quot;))
+              if (isNaN(tr_level2)) break
+              if (tr_level2 <= tr_level) break // 影响所有后代级
+              // if (tr_level2 != tr_level+1) break // 影响下一级的 (话说这里可能有列表规范性问题?)
+              (tr_isfold == &quot;true&quot;) ? tr2.style.display = &quot;&quot; : tr2.style.display = &quot;none&quot;
+              flag_do_fold = true
+            }
+            if (flag_do_fold) tr.setAttribute(&quot;is_fold&quot;, tr_isfold==&quot;true&quot;?&quot;false&quot;:&quot;true&quot;)"><div class="ab-list-table-witharrow markdown-rendered"><div><p>2.1</p>
+</div></div></td><td rowspan="1"><div class="ab-list-table-witharrow markdown-rendered"><div><p>第二列</p>
+</div></div></td><td rowspan="1"><div class="ab-list-table-witharrow markdown-rendered"><div><p>第三列</p>
+</div></div></td></tr><tr class="ab-foldable-tr" tr_level="1" is_fold="false" able_fold="false" type="2"><td rowspan="1" onclick="const tr = (this.tagName == &quot;TD&quot;) ? this.parentNode : this
+            const l_tr = tr.parentNode.querySelectorAll(&quot;tr&quot;)
+            const i = 5
+            
+            const tr_level = Number(tr.getAttribute(&quot;tr_level&quot;))
+            if (isNaN(tr_level)) return
+            const tr_isfold = tr.getAttribute(&quot;is_fold&quot;)
+            if (!tr_isfold) return
+            let flag_do_fold = false  // 防止折叠最小层
+            for (let j=i+1; j<l_tr.length; j++){
+              const tr2 = l_tr[j]
+              const tr_level2 = Number(tr2.getAttribute(&quot;tr_level&quot;))
+              if (isNaN(tr_level2)) break
+              if (tr_level2 <= tr_level) break // 影响所有后代级
+              // if (tr_level2 != tr_level+1) break // 影响下一级的 (话说这里可能有列表规范性问题?)
+              (tr_isfold == &quot;true&quot;) ? tr2.style.display = &quot;&quot; : tr2.style.display = &quot;none&quot;
+              flag_do_fold = true
+            }
+            if (flag_do_fold) tr.setAttribute(&quot;is_fold&quot;, tr_isfold==&quot;true&quot;?&quot;false&quot;:&quot;true&quot;)"><div class="ab-list-table-witharrow markdown-rendered"><div><p>2.2</p>
+</div></div></td></tr><tr class="ab-foldable-tr" tr_level="0" is_fold="false" able_fold="false" type="3"><td rowspan="1" onclick="const tr = (this.tagName == &quot;TD&quot;) ? this.parentNode : this
+            const l_tr = tr.parentNode.querySelectorAll(&quot;tr&quot;)
+            const i = 6
+            
+            const tr_level = Number(tr.getAttribute(&quot;tr_level&quot;))
+            if (isNaN(tr_level)) return
+            const tr_isfold = tr.getAttribute(&quot;is_fold&quot;)
+            if (!tr_isfold) return
+            let flag_do_fold = false  // 防止折叠最小层
+            for (let j=i+1; j<l_tr.length; j++){
+              const tr2 = l_tr[j]
+              const tr_level2 = Number(tr2.getAttribute(&quot;tr_level&quot;))
+              if (isNaN(tr_level2)) break
+              if (tr_level2 <= tr_level) break // 影响所有后代级
+              // if (tr_level2 != tr_level+1) break // 影响下一级的 (话说这里可能有列表规范性问题?)
+              (tr_isfold == &quot;true&quot;) ? tr2.style.display = &quot;&quot; : tr2.style.display = &quot;none&quot;
+              flag_do_fold = true
+            }
+            if (flag_do_fold) tr.setAttribute(&quot;is_fold&quot;, tr_isfold==&quot;true&quot;?&quot;false&quot;:&quot;true&quot;)"><div class="ab-list-table-witharrow markdown-rendered"><div><p>3</p>
+</div></div></td></tr></tbody></table><button class="ab-table-fold" is_fold="false" onclick="const btn = this;
+          const svgStr_fold = `<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;lucide lucide-fold-vertical-icon lucide-fold-vertical&quot;><path d=&quot;M12 22v-6&quot;/><path d=&quot;M12 8V2&quot;/><path d=&quot;M4 12H2&quot;/><path d=&quot;M10 12H8&quot;/><path d=&quot;M16 12h-2&quot;/><path d=&quot;M22 12h-2&quot;/><path d=&quot;m15 19-3-3-3 3&quot;/><path d=&quot;m15 5-3 3-3-3&quot;/></svg>`;
+          const svgStr_unfold = `<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;lucide lucide-unfold-vertical-icon lucide-unfold-vertical&quot;><path d=&quot;M12 22v-6&quot;/><path d=&quot;M12 8V2&quot;/><path d=&quot;M4 12H2&quot;/><path d=&quot;M10 12H8&quot;/><path d=&quot;M16 12h-2&quot;/><path d=&quot;M22 12h-2&quot;/><path d=&quot;m15 19-3 3-3-3&quot;/><path d=&quot;m15 5-3-3-3 3&quot;/></svg>`;
+          const table = btn.parentNode?.querySelector(&quot;table&quot;);
+          if (!table) return;
+          
+          const is_all_fold = btn.getAttribute(&quot;is_fold&quot;)
+          if (is_all_fold==&quot;true&quot;) {
+            btn.setAttribute(&quot;is_fold&quot;, &quot;false&quot;); btn.innerHTML = svgStr_fold;
+            const btn_subs = table.querySelectorAll(&quot;tr[is_fold='true']>td:first-child&quot;);
+              btn_subs.forEach((btn_sub) => { btn_sub.click() }) // 注意setAttr版本无断言
+          }
+          else {
+            btn.setAttribute(&quot;is_fold&quot;, &quot;true&quot;); btn.innerHTML = svgStr_unfold;
+            const btn_subs = table.querySelectorAll(&quot;tr[is_fold='false']>td:first-child&quot;);
+              btn_subs.forEach((btn_sub) => { btn_sub.click() }) // 注意setAttr版本无断言
+          }"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-fold-vertical-icon lucide-fold-vertical"><path d="M12 22v-6"></path><path d="M12 8V2"></path><path d="M4 12H2"></path><path d="M10 12H8"></path><path d="M16 12h-2"></path><path d="M22 12h-2"></path><path d="m15 19-3-3-3 3"></path><path d="m15 5-3 3-3-3"></path></svg></button></div></div></div>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="多叉表格">多叉表格<a href="#多叉表格" class="hash-link" aria-label="多叉表格的直接链接" title="多叉表格的直接链接" translate="no">​</a></h4>
-<p>%% 用缩进表示列 (|也是支持的) %%<br>
-<!-- -->[list2table]</p>
-<ul>
-<li class="">&lt; 第一列 | 第二列 | 第三列 %% 可选表头 %%</li>
-<li class="">第一列<!-- -->
-<ul>
-<li class="">第二列</li>
-</ul>
-</li>
-<li class="">第一列<!-- -->
-<ul>
-<li class="">第二列<!-- -->
-<ul>
-<li class="">第三列</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<p>%% 用缩进表示列 (|也是支持的) %%</p>
+<div><div class="ab-note drop-shadow"><table class="ab-table ab-branch-table"><thead><tr><th rowspan="1" col_index="0" class="markdown-rendered"><div><p>第一列</p>
+</div></th><th rowspan="1" col_index="1" class="markdown-rendered"><div><p>第二列</p>
+</div></th><th rowspan="1" col_index="2" class="markdown-rendered"><div><p>第三列 %% 可选表头 %%</p>
+</div></th></tr></thead><tbody><tr><td rowspan="1" col_index="0" class="markdown-rendered"><div><p>第一列</p>
+</div></td><td rowspan="1" col_index="2" class="markdown-rendered"><div><p>第二列</p>
+</div></td></tr><tr><td rowspan="1" col_index="0" class="markdown-rendered"><div><p>第一列</p>
+</div></td><td rowspan="1" col_index="2" class="markdown-rendered"><div><p>第二列</p>
+</div></td><td rowspan="1" col_index="4" class="markdown-rendered"><div><p>第三列</p>
+</div></td></tr></tbody></table></div></div>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="二维表格">二维表格<a href="#二维表格" class="hash-link" aria-label="二维表格的直接链接" title="二维表格的直接链接" translate="no">​</a></h4>
-<p>%% 第一层是第一列, 第二层的每一项依次为后续列 %%<br>
-<!-- -->[list2ut|transposition]</p>
-<ul>
-<li class="">小写<!-- -->
-<ul>
-<li class="">a</li>
-<li class="">b</li>
-<li class="">c</li>
-</ul>
-</li>
-<li class="">大写<!-- -->
-<ul>
-<li class="">A</li>
-<li class="">B</li>
-<li class="">C</li>
-</ul>
-</li>
-</ul>
+<p>%% 第一层是第一列, 第二层的每一项依次为后续列 %%</p>
+<div><div class="ab-note drop-shadow"><table class="ab-table ab-branch-table ab-transposition"><tbody><tr><td><div><p>小写</p>
+</div></td><td><div><p>大写</p>
+</div></td></tr><tr><td><div><p>a</p>
+</div></td><td><div><p>A</p>
+</div></td></tr><tr><td><div><p>b</p>
+</div></td><td><div><p>B</p>
+</div></td></tr><tr><td><div><p>c</p>
+</div></td><td><div><p>C</p>
+</div></td></tr></tbody></table></div></div>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="二列表格">二列表格<a href="#二列表格" class="hash-link" aria-label="二列表格的直接链接" title="二列表格的直接链接" translate="no">​</a></h4>
-<p>%% 第一层为一列, 剩下层均属第二列 %%<br>
-<!-- -->[list2c2t]</p>
+<p>%% 第一层为一列, 剩下层均属第二列 %%</p>
+<div><div class="ab-note drop-shadow"><table class="ab-table ab-branch-table"><tbody><tr><td rowspan="1" col_index="0" class="markdown-rendered"><div><p>a</p>
+</div></td><td rowspan="1" col_index="1" class="markdown-rendered"><div><ul>
+<li>A
 <ul>
-<li class="">a<!-- -->
-<ul>
-<li class="">A<!-- -->
-<ul>
-<li class="">AA</li>
+<li>AA</li>
 </ul>
 </li>
-<li class="">A2</li>
+<li>A2</li>
 </ul>
-</li>
-<li class="">b<!-- -->
-<ul>
-<li class="">B</li>
+</div></td></tr><tr><td rowspan="1" col_index="0" class="markdown-rendered"><div><p>b</p>
+</div></td><td rowspan="1" col_index="1" class="markdown-rendered"><div><ul>
+<li>B</li>
 </ul>
-</li>
-<li class="">c<!-- -->
-<ul>
-<li class="">C</li>
+</div></td></tr><tr><td rowspan="1" col_index="0" class="markdown-rendered"><div><p>c</p>
+</div></td><td rowspan="1" col_index="1" class="markdown-rendered"><div><ul>
+<li>C</li>
 </ul>
-</li>
-</ul>
+</div></td></tr></tbody></table></div></div>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="目录树">目录树<a href="#目录树" class="hash-link" aria-label="目录树的直接链接" title="目录树的直接链接" translate="no">​</a></h4>
 <div><div class="ab-note drop-shadow"><div class="ab-list-table-parent"><table class="ab-table ab-list-table ab-table-folder"><tbody><tr class="ab-foldable-tr" tr_level="0" is_fold="false" able_fold="true" type="folder"><td rowspan="1" onclick="const tr = (this.tagName == &quot;TD&quot;) ? this.parentNode : this
             const l_tr = tr.parentNode.querySelectorAll(&quot;tr&quot;)
@@ -422,6 +538,6 @@ hello</p>
 </div></div><div class="ab-nodes-children"><div class="ab-nodes-bracket"></div><div class="ab-nodes-bracket2"></div></div></div></div></div><div class="ab-nodes-node" has_children="true"><div class="ab-nodes-content markdown-rendered"><div><p>b</p>
 </div></div><div class="ab-nodes-children"><div class="ab-nodes-bracket"></div><div class="ab-nodes-bracket2"></div><div class="ab-nodes-node" has_children="false"><div class="ab-nodes-content markdown-rendered"><div><p>3</p>
 </div></div><div class="ab-nodes-children"><div class="ab-nodes-bracket"></div><div class="ab-nodes-bracket2"></div></div></div><div class="ab-nodes-node" has_children="false"><div class="ab-nodes-content markdown-rendered"><div><p>4</p>
-</div></div><div class="ab-nodes-children"><div class="ab-nodes-bracket"></div><div class="ab-nodes-bracket2"></div></div></div></div></div></div></div></div></div></div></div></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/obsidian-plugins">Obsidian/Plugins</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-01-11T14:54:16.000Z" itemprop="dateModified">2026年1月11日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/Computer/Application/Obsidian/obsidian 附件管理"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">obsidian 附件管理</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/Computer/Application/Obsidian/obsidian-bases"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Obsidian Bases</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#选择器" class="table-of-contents__link toc-highlight">选择器</a></li><li><a href="#处理器" class="table-of-contents__link toc-highlight">处理器</a></li><li><a href="#示例" class="table-of-contents__link toc-highlight">示例</a><ul><li><a href="#代码块" class="table-of-contents__link toc-highlight">代码块</a></li><li><a href="#quote" class="table-of-contents__link toc-highlight">Quote</a></li><li><a href="#列表与表格" class="table-of-contents__link toc-highlight">列表与表格</a></li><li><a href="#分栏和卡片" class="table-of-contents__link toc-highlight">分栏和卡片</a></li><li><a href="#脑图" class="table-of-contents__link toc-highlight">脑图</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with Docusaurus.</div></div></div></footer></div>
+</div></div><div class="ab-nodes-children"><div class="ab-nodes-bracket"></div><div class="ab-nodes-bracket2"></div></div></div></div></div></div></div></div></div></div></div></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/obsidian-plugins">Obsidian/Plugins</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-01-18T01:42:54.000Z" itemprop="dateModified">2026年1月18日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/Computer/Application/Obsidian/obsidian 附件管理"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">obsidian 附件管理</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/Computer/Application/Obsidian/obsidian-bases"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Obsidian Bases</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#选择器" class="table-of-contents__link toc-highlight">选择器</a></li><li><a href="#处理器" class="table-of-contents__link toc-highlight">处理器</a></li><li><a href="#示例" class="table-of-contents__link toc-highlight">示例</a><ul><li><a href="#代码块" class="table-of-contents__link toc-highlight">代码块</a></li><li><a href="#quote" class="table-of-contents__link toc-highlight">Quote</a></li><li><a href="#列表与表格" class="table-of-contents__link toc-highlight">列表与表格</a></li><li><a href="#分栏和卡片" class="table-of-contents__link toc-highlight">分栏和卡片</a></li><li><a href="#脑图" class="table-of-contents__link toc-highlight">脑图</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>
