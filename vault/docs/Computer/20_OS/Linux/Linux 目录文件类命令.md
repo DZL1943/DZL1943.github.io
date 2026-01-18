@@ -175,7 +175,8 @@ fzf --preview='glow --style=dark {}' --preview-window='right:65%' --bind alt-up:
 ## zip
 
 ```shell
-zip -r filename path -e
+# 最好是先 cd 到 source_path
+zip -r dest_path source_path -e
 unzip -l filename
 unzip filename -d path
 

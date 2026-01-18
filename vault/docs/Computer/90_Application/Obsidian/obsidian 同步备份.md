@@ -54,9 +54,10 @@ modified: 2025-10-08T22:22
 - 本地备份
     - 通用类
         - git `{shell} if [[ -n "$(git status --porcelain)" ]]; then git add -A && git commit -m "auto commit@$(date '+%Y%m%d%H%M%S')" && git --no-pager show --name-only;fi`
+        - cp `{shell} mkdir -p ~/bak/Obsidian/$(date +%F) && cp -rfP ~/Documents/Obsidian/. $_`
         - rsync `{shell} rsync -av --delete --exclude={'.git/','.trash/'} ~/Documents/Obsidian/ ~/bak/Obsidian/$(date +%F)/`
         - tar `{shell} tar --exclude .git -czvf ~/bak/Obsidian/$(date +%Y%m%d%H%M%S).tar.gz -C ~/Documents/Obsidian .`
-        - zip `{shell} (cd ~/Documents/Obsidian && zip -r ~/bak/Obsidian/$(date +%Y%m%d%H%M%S).zip . -x "*.git*"); unzip filename.zip -d "${filename%.*}"`
+        - zip `{shell} (cd ~/Documents/Obsidian && zip -r ~/bak/Obsidian/$(date +%Y%m%d%H%M%S).zip . -x "*.git*" "*.trash*" -e); unzip filename.zip -d "${filename%.*}"`
         - Kopia
     - 系统类
         - macOS 时间机器
