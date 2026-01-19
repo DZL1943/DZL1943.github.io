@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Welcome Blog</title>
+        <link>https://dzl1943.github.io/blog2</link>
+        <description>Welcome Blog</description>
+        <lastBuildDate>Mon, 19 Jan 2026 12:58:19 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[专业-行业-职业]]></title>
+            <link>https://dzl1943.github.io/blog2/专业-行业-职业</link>
+            <guid>https://dzl1943.github.io/blog2/专业-行业-职业</guid>
+            <pubDate>Mon, 19 Jan 2026 12:58:19 GMT</pubDate>
+            <description><![CDATA[Text Elements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="text-elements">Text Elements<a href="https://dzl1943.github.io/blog2/%E4%B8%93%E4%B8%9A-%E8%A1%8C%E4%B8%9A-%E8%81%8C%E4%B8%9A#text-elements" class="hash-link" aria-label="Text Elements的直接链接" title="Text Elements的直接链接" translate="no">​</a></h2>
+<p>领域 ^7F9bKd5X</p>
+<p>专业 ^w5KSCFFS</p>
+<p>兴趣 ^R0Tgypsd</p>
+<p>行业 ^WAlmK1xD</p>
+<p>需求 ^2nK5cipt</p>
+<p>职业 ^uIq5ymIS</p>
+<p>分工 ^rRZLEWI8</p>
+<p>竞争力 ^cCoyqhId</p>
+<p>应用 ^RktuRRFq</p>
+<p>能力 ^91Z0V0OR</p>
+<p>%%</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="drawing">Drawing<a href="https://dzl1943.github.io/blog2/%E4%B8%93%E4%B8%9A-%E8%A1%8C%E4%B8%9A-%E8%81%8C%E4%B8%9A#drawing" class="hash-link" aria-label="Drawing的直接链接" title="Drawing的直接链接" translate="no">​</a></h2>
+<div class="language-compressed-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-compressed-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQBGABZtAAYaOiCEfQQOKGZuAG1wMFAwMogSbggAFQAJTAB2HlkAJQA1AEEOmAAtbAAxFOUAZQB5OAAFdLLIWEQqwOwojmVg</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">6fLMbmd4gGYAVm0ANj2Uhp2eeIBOHYaGw/P+cpgti8vtS8SLnmurk4a9w6PSAUEjqbiXN57HaHAAc3waMMOST2ez4xUgkgQhGU0m4iWS8XiiJh8T2DXih1uSSBEGsq3EqBSNOYUFIbAA1ggAMJsfBsUhVADE8QQIpF60gmlw2HZyjZQg4xB5fIFElZ1mYcFwgVyEogADNCPh8MNYGsJIIPHqWWzOQB1UGSbhomYQG0chCmmDm9CWyo0+U4jjhfJo</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">eI0tha7BqZ5hlJM9EQOXCOAASWIodQBQAujT9eRsunuBwhMaaYRFVgqrg0gHhIrg8xM6VXXMGTt0QBfZkIBDEbh7CFI+LwmmMFjsLhoBGJMdMVicABynDE3CSTRhUJ4JPLzAAIpkoH3uPqCGEaZp68QAKLBbK5TNFGYldHlNtVI+YKAS8qVCQNfpLk0ABpYg9gADQgV9u1fFtXT/dA2HoZR2VGIxFwoNg2DtLlF3iHooGvIQhhaH9ZngBlaVINkq</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">GgoEX2fSAEIgZwekuPdgIQAApCZDk0FIECEZxlCgTQEA6YgnXo8j5gkbUaKg58YOfODf37CQAEchnoQ5cDYXBiH1HhcEkWpah6DgNI6YZ+2k6AKOrai2FopT0VzRMhDgYhcCPdTUHif5EniFJoUObcERpIgOHZYtS3wSK2BlY80FPfAwmKZSGLUqoAKA0CIL1d81Swb8aU2NBthSeJtBhOEdgCnZ4waEKARpWNUGcHhThquEEU3HZQsuGkQWIME0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">AeRNMWxXE0C6mk6R9BNXXdTllX5IUxVFJAL2lWV5UVNbVXQdUOE1bUclKxNDWNL0fTdXl/UTFaEAdUanVm5lWQ9W7KL9WzE0DSRG0zcNE0jaUYzXeMaWTTz00fdzXXzXBCz8ksy0TCtiCrOT4j1fbiGB2KMeW3s/ICk56oaS4oTnCdOG4M4YTphcOGXDhV1m05rkOD4zl3A9gl8k8zwQC8r1vLILoRmlPO84Ww0C4LQvC5nEyimK0HR+L1cSzk/N</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">S89E0/b8JEAMIzAH31fHKGqEqqktvV9U4KBhkIIwGQpPNnf6FGjXavYaRNjoiGUKd0DEXImD1ccoHMAhg+xMOIH0EhiDWGk9FyXAKyYIsJDqRpmjgdoul6AYhjGSY9X5bEKwIW2v3tq35qEKA2BacI3YZVkhDF9Wc9qLEcVN/ztB4PYMseOCKj8iAGgARWcGBqlwDouVqKBLjYABxIRhnZRIhAAGW5QqHIkRZlnpPVyo6+q3gCnhEj2OFrh4Hh9j</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">arYzm0O5Lhal+iRySXCJMNR04JITQlfgiJEz9UQ0imsPPEBIiSwlJOSSk5JZyJgWgyJa5RnqHQ2ltcUO0ZSwwOrydaapyCnS1DqS6SMjQmjNL9B6/1lpfXtOAj6T0uGelYVUP6+NhBBhDGuCMUZIZxnwZAWGaYMyFERuUZGqNiY63gpWW+tIeAiIVITcRaBVL2VkqgDsMxMoCDJuCT4MJPhNFBq6ccrMoaEhZpOdmnN/KXGarVIK/wBaHmSqgQ2f</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">dXSXn0ZLe8eRCiwVfDJSiJsyIzyqBQPYwFhhcn6P0YYikLH0VUkxWeSEUJoQwlhHCeECJERIskoq6B5LOTyWUSxWV4Kz25EYfULQNLMA6GwJgSFnAACsKAAH1FzbwAKrYDqefBpTkXL5LiYxFJEgYDKFqMQeeR9UypgALLxD0lARIYzTnAX1A0TQczTFUQUnRFZz41noBaM4SQcAoAaUwHaNo88NJsDaBwFItRhhTJgC0a8NzKKNKWS0tyssvI+W</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">CRTIKKREi1SJNCSKFZNaoG1glJKBtRaT2KNPZiaSMlZJyWfW5SSyovE3NoRIaK0U7GZVVP4X8KpIl/ikS4vMgGXFqjCFIhwUgB0TCNMaZiXTlEQTNXgsjaQrEWp9W03IqFHQgMKEh21ExSnIQTIhNCNT0Iuo7ZhP0hHsOtPw160rZUCH4Vai0Nq6x+CBoY/ykiIawChkq+R8MlF5gLAgPOeK4rli0dWHYeiGxevxU9axaAoQjnFTTHY7iGZoB8Y6</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">hg84PErg9rcTcfLLgXECULYJoTxaRLvNLYNHlEUK38krEKhwwowgiv3aK6iCX6xFmlMJb47YSEAMhygAsOWthQBuI8ICTsds7V27s1yAiut7X2+B/aBxKgnUOVQI5HgFHTWO7g91JxTsQNOerXSZyiDnUg4a56L2Xqvdem8d57wPsfU+EZSC1w4PXUd6AF0tzbh3VgK60A92HZAKKCBB7TRHtVceJKyhktnmhfA14jBTLYNULiXEeg8FqF5NoFAX</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pjO3jSyil9cE3y2KiOIfKuqokHFCIVa7XTtWcLzI4sIu3kkHIka4Ow1auile9VAEJtBQlhPCREyJ4GTSHgq/ECRUEkjJBSKk2DXT0bQEqwhmriGbT1AavaV5jXHVoWdBhFqbqCNdVaNVHp7VSbzc9F1vo3UA1EZ6psEiwZSL9TImG8oFEyyuqG8NibNHY20bgRIcaDGBaMa+Ex7Yuw9mRfy5+oqQGZsTM4yca5CRFacQWpcRbGZ7ESJg3YlaEAtp</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">rfqiW9aHyxJUvEzLH47Z2WYi0FI1RlDwGYP2B53XVnMU6d03p/TBn0BGeMyZMyoWOXua5GYyjIByyReTNtKsu3ifKBrPtutCWDvSi0qemNZ5DZG2Njhb55nQH64mW+zh0Uwm0OcaENxmof3Hl2rlHUyRHD5XJm40I6siolRJnhMqEGqZHnNHBKq8GudWiZiQOqzNkMs/o6z0BbNmt1HmS1TmfMub4eq9zzoscCO9GwmnrpAZEzDD66MoX/LQ0TIG</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">xRaAcwhpRmGtGkbMbRrknsFLHOI0kwIcmsxdiO0pHfvD8oJXs285B8VqrbMas5vfmJkcAUmstdFrWxUUSG1C52xAPbLaUXKw7arbFvatYS9dHyS7KVLfG2AxAQALoqAGLY6ds6qih8XbkZdHsuMqI3SnLdA4d1fnPQei6UcT1x3wOniQl7r16jvdnYMj7MNGGw7h/DhHiOkeIORyj1G/0AaA43CQUewPt07lB1AMH3cIZR2uMeE8bukru1UKZABN</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">GACBLhcUmBofUOwpn0GYJofU8AJjPYSQsBASx6P0pTW8T45aITfHxMcb4GvIA8Y7UymHav+VQNeGAt6EDZPP58YpuBeb5Uj3U4SMSOgjplgvNBjtwEZvwsTnjltOZrtBQkqDjjZqaudOTldJTsztaqzgQnaojp5s6lTvdNgZAOzl6o4uUODNzu1MFAGhFkGnbiLmop7grkxFLg0ocLLl6sYvUuYqPqTMircDwOSKKuPFmmHA0EAmIZ4h7GinsOVt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">8ObtWv7uEu1lLJ1kLo8q2K9nSj1sxHaMHPoMBPEJgHuM0mAK0oUs8hADsPPKQP0MMtxPQPPOBNvAgMMsMouG0KmJgMoJcIwk8vUnck0pNjMJYcxKxOxJxDxHxAJEJCJGJBJFJD1oETCmYRYbobPIuPPPqMoIlGZNvFxOyB0DkkYMBERGwFMrknZCkYsmkQUhkVUBslsjsnsocscqcucpctctUa9qkdBPCk2vLAIXVi7p2t2t7jiudt7nrEoUOmhm</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">0lYfofgIYcYaYYHNoe9q6LfNcAkD4lgkSP8GJuKqDs4HVr9lSGFAFDONCJ7JKojhNK6H/s6EqgZoyIztAZtKQvqvAUakgSTigfZhTo5pgc5o9JwnTngYzt5kQWCeUKQWlt6sFr6tQXzq6ALlFkjDFuLiwRUGwbSA0JwQiXForsEqFM1GrqIXrvTOIbcZVtSdIXiGFDDicNfhUPuEEkSkOlbjeB1jEgwYMftmuIdq7sdu7risSXBjMZyUbK2IHoAD</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">IRU6AYNs8pip66MeXcq6XsuQPsSe26AeaeIcSch6WeVJp68chpVQBe6ciYxeD6T6U+M+c+C+QgS+K+a+G+kw2+EANc/grec6CpeouArcXekG3cpAvc/eiGSCYYw+8xGGVQdoi4QgXER84E/QcAOwKw4EHAewowORMA/Q2AbQNGu+++4Bh+vAhwyQOwQquaIq5aqaJxd+LGQh5wz8SQxwem5Qkm7+cm0C3+KIv+g+aAABmmwBDWXZkArxkB6qHxuq</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cBhqVmfxJ0dm5qQJLCIJ1OsJTqEJb+vC4J30hBwi7qYiCJ5BkAlB0ivOtBKY9BWY9uqiYuUxv4eJuAMIhJzYGWPB2WSayKj+LJSIYh3AXaFWmu+uDJXMJIpIQqQUih0psGEAES1uvJj4mhL2tKmxTyzEPAHAwEew0YHydRaFRSVQWROReRtQBRRRJRZRQgFRVRyRvRtR/R22CKQxB2Ix7aYxJ2cGkxzBGip2UpV2CAcZ4+EgOFeFBF/hO+xUjcFZ</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3wP2OmYmtwau5wL8DQJxZxIU3wbZg4jU1MGldxe5SOKmSGzxYB18hm7xfxMBXx4SPxS5KoH4pOqB0lBoGBd0x5tObmkJ3lnI0JXlbO/mcu553pIWKJN5cMgu95jBT5/FUaCW1YlwH5z5ViwSTJiI+IImQFaAm4rJWuBuHMDISIIqLKPicFwl3JNu6hMVApTuwp3FYpqVEAPuA6fuXJ+pc6gAAOmABCNuHoHr1dHi7BqWGPHpAE7NqZunqbKQaYnB</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npHMeqaTnnnugFaTeuULaaXk+omcmamemZmcoNmbmfmYWcWc3r6fgBHhIINZ3hBiNb3uGQhfBlGQqihiPuYbdu0tWPsm8jAFxMMvsBQPsoQPEPspIHsDINeJoHACWRfHvlfNaVsVsLsD9oOCFPiKcB/AFPcKDpSEcF1OcEIUAjCI1FcK/tKjJn2QprAoOcjmZSOSgkAdphORZaqn5Rqk5bjp8etZKA5UTsuS5YCegcCZ5b5gedwsZfgeqgFWLXCc</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FWQVzleTQeFredFcLtFqLrFl7i+YlXJB0ClelgEfMrwR9b+eTBxgNH4kNFSS4mGKSJOfmvSYbqgCTUSCiDcKyYQOyVWvBVVShV1qEYxRhXJQ0RIEIKmBpHsDAPoKmLkiEehqHegDYXYQ4VxE4S4W4R4V4T4X4etnJMxUpPUdNrPFpMoDpHpAZEZCZGZBZFZDZHnQsptsslNlhfdm8h8l8j8n8gCkCiCmChCg3UEbCuYQMa6I7sMainIU/DzE1fFR</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">dm1SEsSnwQscxOHZHdHbHbDcdJhZAJ9sFMkHCFcN8AFOWviLVKDtTEcNTB2vsANB2l2mNRAD2eNEOfTYqqzZjuzXOfjt8YufzZzcgXQq5Q5huaLcQW6LgZLVCUebLSQfLWeYrTzsrfznQWrQ+Vic1VjDjA0gAEIG3y4CVpXkz3z1aIh8o5X+QjiGV0mswQWoD1aAEoi8wVXtUynlBIU8lqF8m1Vj3NoT2jFu49rina2Sm+6L0dUzVzqAAyAaqWzs</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">qW3ugDI0NbHpqWqVADqX7Cnp1StRAMaYtXSWabnhafnqnIjRtc7CXrnLPLgD9ZIH9QDXsEDSDWDRDYRNDdXP+hdVdYo7I+UEGeBt3mGRGT2gPm/W9aJV9RICUqhOhJhNhLhPhIRMRMoKROsbcqkRWZ1FWbJnCCJlfk0HIaFTxpfWmjwMcGKuSCTeTVJlQ+8FTBU/cEAkAo/U8WGF1GPGSWcEIbcNTKydOdZQA9qtzQuYTpQoMyuWTm5ddKAyztuR</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">A7uQ6tA5uTCV6fCSDIgxFSrVFRiSohg3PfFtg7SFyPg9wfMjwD+fwebSiDTG/NbTQ6VmgMcKFQVXQ/VGKvsCAjxWyYLM1rMWw5KKodEjs7tnwxxbYhIe/JuI/Wdvs4JWI61q6HAGwBWNw0+DMGizMLImUCkK+DtmABi2ULUz8HcKcI0xIXcNJNsO0x/B2rcOcD0707i6PadqEFADyPoCnDIH2BMMi7qLC06tqFADg1jBWMoNwMYpkNEk+gvEvCvG</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">vBvFvLvPvIfCfMc/RAaIlEIJmM4CkL9n9v8FCFleKhxuq8oLgDDSmr9lPY1BSfVmJk/Bc+UDkMQMK4qKK+KxlpKxdE+gXE0K0J0N0H0IMCMOMFMOq07NgFqxAb/MiBCBSOcFcO2dQ2iea2uI6wK6QFAB0IspiAZM1c69mzRLm9Y7UTSEEJeBRvBRE9lBIK8u8p8t8r8v8oCsCqCuCpCmk9CqWx9i8ODnVnVlAp82U8/CcVcB/mrncO7RCIkPS9U2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Vg0DVC7uSP8OKiSKBRiMOZQ3EJSOKlQ7VF03IR/RAQM9QugLZTzYhXzWM6e/8UA0LUwiLbM16c9PTvuTgdLTA+A2s0Fq6JeUg6ieUOiY2piZrdiYQ7ibrQ0msX5vonLqc6Yuc83SSVc5xkcXc2BdSdwKrlIc7R7bVBxkql7T8xbhI+w4C7blmMRb1rJdJTW+HDyDABpJIEWCxWUPbuPWC+FJ8Mfcm7xR7gQ/2n8whUiyi6hc+AS2AFi5J7i/RBJ4</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">SAuySO2suyyWu9JISNu81FPX1Ae/EEy6xerKy+y5y75Dyyi81SyIK6644CsB608l67kNKy+nK++oq1+iq7+hlhG1G4ZmPHG3IWxpSEKpuKa6m3GAkF1KcBIWjUAs1A0OmxgIqFZ+64ba6PZ1AE+jY79f9YDcDaDeDZDe4+G5q9q7qxIV2nyrcACOWqSGiiFxa6PEkEAuPFWfiCcLCLcPFxZ5m4W85MW/m4qD1xQH1/nQpGW/gBW0J9WyRRINgAx0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">x0WJ231iHUjRVJC0cIKgiP/CKl1F8+1E/L9uKhIbzIfXlqFc/agGKnTdGbwH0+AVZV/TZcMwTggcThM8A+uTLeAy+75eLUzmA3M9+5zkiVQf6ls5FsB7s6B5g6+XuGdTB/GkSSI26ErrsOp1AgNBQxWjbYWkVc8TWaS7fSw+I/84heRzVerbw+xUKZxd9kSMyrPQJ/PUJ6nnOoAHtegAkXKADZSv1QoxABz9z1qcNT3mjkjInpoymizzo3o9HEwI</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Yzo2tUXhY3aW3fW53U2z3a2/3R22DJ43XJdYHvz4GcGXdT3n3iEy9chrGcvfGRIMnfYY4c4a4e4Z4d4b4W5TUaNz2zmgcKVVbTWSTYTaOzsEyt9nYpuJxh/PVnO2GOcL/PfOKoFwiKKl8607zgu6fp8OcBCGrmFEe/d799/bAc978eM4LWucLTM1gXM991A+zZ9wD/A+s8D0rQB3Iqg8CwaHs4zwc4ltr0FbB1wV+Wc510rkAiiOp8cBQzfTh7j4</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">838NjVH5jN7b877W1nWlw2J4HasoETocXQsC0D0EfNeHaKmO+ax2AOx6C9T+C9x//KyTC933CwvQi+UCJ+T6+BJ1Jzi8+HixJ9sLH2cCuAJ8DKIqWEGp26gZ8gc2fMpoh22zMs4MhnAwMZ25a8sR4EpCBpZxFY2cUuTrXkvaWnyz558EwRfMvlXzr5N82+casVy2C6tzgaKXYMTXFQ1kdK67ORKFxdo1RYQPMLcEkDKZCp4uzrJLtgNQASs8B1jW</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">xvYxy7ON8ubjGGkV0jaZhSu/nGED4hRAiZ4wH8XjmwPq5xARw09fYPVnfh2trgnXKIN1xzYhAwOZbAbhYLzYjcmkY3CblW2t5iV0ApAA/kfxP7vlFuNHBjDmnvwiY6BEID4NuDJCg5twqQUkHCEpAqDjgpLaPvQyVSp9KS+mO7m8Qe6DNz2IzF7gLQBLl8H2lfUEs+0gaLM6+n7Bvh6hCobNQeKDVWh30fJa0cSWDXvnD374I9Mw6AsIMEjJABcz</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">gvHR2rbW8Qz8vEVwdTkkDEzrtvmHJSqmv2Qob8IeILKnorBp78pCmeaB/ugNarM9OqVQQAGBKgAU90eec6A4co3uoi8E8k1XUlo0kZS9M8+jDDnL2MarVTGF7TalYyqB29U66dJ3lnVd651zqevbxhABOG3VAm3AM3hMWDAW8h8qGFwZE3QAREOI3EXiPxEEjCRRI4kSSFvSHp+C74cQEmhF0OL3B+UKg0dkKlSD8oohUCestSCMrSokgurFQZuH</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">fjvNqYBNK7q9QiFiZ0U3IqqO8yxTo5LK6Qgvo93nLF9HKN7N7vexUQeUn2tqBZh5iWb/dVmjfH9hQXCo1C0S7fBYZ3yh78sIOhzXAP0BOZD8EOI/YJKQwCgk1mG2PbXOSEmEvNnapIAmsd2ahE8X+ALdfkCx1Ecdr+XHSFtcAZ6bChKrDYTqgM35lBP+0kb/vp3E7xIGRNUIVExlZHloQoanLkWH15EUgQo0IPTmx0iiICOWagEzqgPM5mChWWAs</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">VjgMgBpcfW9QP1sXADZlxg2lcMNp52oEVRSuXUIQmSDXZdQKQY1bQdwGD7bgiQHwLtCOAGggIqyAgxLpWNs6pcxBE+AgU6WIEulSB7pCgT+A1YKDo20IcVM/DZT1Qji6KClhljNb1cRxZXAKPGH2AfxhMiQUwYK0G7DdH+NYmwUW0sEbYHBiYcts5Em5wi6OEAMirkWwD5FCixRYYKUXKKVFsRGTL3jdx+xq4QoVUCLikE3C7ctg6mMKEAgGini2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">UZuOkVJnLRMoiQj+QTLDmyqmVruurS4uSHfgE034oqB2v0wyE3ssh4o/+pKLL5oECh9fYoQqIZxlDlmgVOWpUIVrN9/2kVcHvyRA5ME3xBoxLE3nh6pZPyRtM0UhyIbOh0U6E5Sg6P1xYcxMwwhkOPHqzCY3RS/YjtsJUJeiKOFPcoL6OWE38AxDtDYUjy2Gr9EW4YgOpGPiRf8ZOH/eJM4BIlBRtuQqSruiiomMQdW+NAKHoMYl0CZxP/eAS1UL</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">HIDiApnPlgpK64Vi3Wwg0QVw22pJkUyaZDMlmRzJ5lRsp1bcV50UGpBIcYqbmACGEK7BP4549gYcHOKIgMEfKJSkIVnEut5x1YjAEuIkAOlCBzpV0mQI9Jb4apHYjqLq2NZ3BUeQmclgOzq5YcjgNxbjkFHLRxC4umkjAeYM/F2CFJBbWwSW096LinBwlKblYVmw9I+kAyNkEtlGQTJpksyHwY3R/ErcOooUmqCcGT6whTgrUk4kAjHi7AIQdWM4</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FV3fgJD+U9+NXHTwwmkhSQHIkeLQO3DXBRUVwa4LtOph59hR77D0IXzsrsMr2iBUvnkN4kyjH2VfAST5Vr6/d+JeiU8k31/YaiwstQ7ZjqIaFWDJckHWkLUBNHqSTJ5ovyMyjUFZ9+hBVAcG4ltGFURh0IA1v50I7L8SOJPDhtVVRaX8lhraOrP6O3A2jIRwjHEh5JmFeTROPk/Fn5OjEBS4xjEBGTOyRlh8X4qM6/GUBinnAVBjUJEBCAIk+JLg</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">eYi/gWJZBGdixKAszvqJylCCqxIgz1qNPQBYYcMeGAjERhIxkYKMdoKjHNN3E+c1cg4f2dV3UFktBxSYdgcH00720Rw/UL/EHMOmCChp8cuzonOfSys30CrT9Mqx/Rqt2xechaQkGpj1Q9BauFQdBQFFPILxw4seLhJAT/wdMpDeucvQzZZsLp/XYgC+K/H2CqAjg/8c4NNoJ14REAJotsl2QHIjkbAE5GcjGQXIrkcE7tr9M6ikgmU5+bcCoNEw</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">4TNKtEwkHyJpglVmU/Q87q2QBldpRx1wEVPbXRmbStuUIAaJpwEyAVBRbNEUZkKe6/1RmlM7idTKmayj6Z8oxmaUOZmEFiAl84WCeQCzsz1RyJTUYB21GyTIe8k9Ac0OrCpgRZWhDScvOR7Ip34/s9CVFIw6DDn4j9R0bPzMRVQyJH8L5kR2mGhi/a8wjQi3XYWJId6QEloOyCgBCAWgLQfoBpDSIpTHJ+s5yVjNcl8UFJ5s2RYmDf6otApjEfyT</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">/1k7xJgFGEjcFcCOKQL4knUmBQNBuAJ9aoSIYOfbnwBpSI5GU0sdHPLGxyFxuAwqbPBlavp5WH6JVt+lVa5zvOA88RUIUvw1l/4d4zPhtJHJjwcZQ4SLv4g/gDTIlw02sbPHGmriSBbpcgZ6VSUldUgJNREIVnuAAgaWtwfJf5CfHHTeuW8s6R+IGWnScRu8ytrdMAnTcXk6izRdot0VfS3sy3DYFsHJGAzmJ23GdnVkfo8ZBwRwKrq1xxmkgbgC</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Q+ntRIVQpC/GaQmciTNFE/17Kf9a9lqilH5DaZhQrcgzIlqELiZ/lcoSqPEkINJJmzbmTJJ4YMK4qCk5hXJFTDKS2hqk8zij0JDoIWUzzAyXGGMnAUaCCISYdIp9oWyyOtk8nrrMFJOTgoqIPlDOxMX8dgx8LZQiOl56AAUvUAAUrkcKqDMrThwvJVBNXUZTVrh9KrNk8N0Z3CZembZaoKoV4ZwleW1WeCfJaLnz2i182+d0R14t59ejKllaCNDL</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">gjHqkZTduEymVWFS65dfSIZGMimRzIlkayF6Q94/SVlFUFQakHqghQ6egcv+KO2ahMp0JhrYKLzA7KTDzuI4d4AXL9kaDVKaM85ajmhA1QDKZK3SeuEJk3LscqCsUegpyFUy72ry8argqKH4Kvlio4SXdBIVct/lbMtUReU5nXkwed5eyeNS75MLXyXENhehTFmHSuh5MMVJIrebodIAsstpmrgxWKxPgTzZlI/VxUr98VnouYd6IUVb9RZS3Wjt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">MogAgIegKQNoCkFGCkRz+xK+qgbK7S39RUQY9ySGOJ5hirZM63ybYrtn2KbFz4KlkGua5ADkJWND2WAB8S/xKmxyqrn6vtnosgpurBTHtKRBqUfgdiaSDS2jU+JY1rtIBAEtDlsskBISzKWgKR4xym5BUqVrPF9ZFwS4gbcuCGyrjyC0lMU+MHfzEz8owolIGsgRJ6UHAgoImXYFWV6m9j3qB8p1nOLylxz0N3rcQVlwcZOM8urjKGnIL7lpLFpj</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">UV+BcCuBwg5CVZHikOJjJJAQEdrerM7MJDoo+lq8k6fzNS7DKhugysZb+PG57zJlrGm3ugGXWrr11qTY2BsWWW71kaFwOph8w9onFGUDGypgEiIl4gkhm7S5VOWuUnstUHE1NSXywUZqaZWaumTmsZyvteASouUeQqqFAqaFbfOobzLrVI8oVDSYCPg06Eo9Rxag8ePlTRXv0FZdDDshjV6ahUx1GshClrP9r0LFhJKwxRcEz5Px0Uh6s2ceo9FL</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">K50gAX4CBeAMeRv1sG2i91SnKwXho2TwS9tGgq6XtnjPTiqXhivLOMryqBGrdIJqquuatrpWqPGqqoEQNqN4BMtV0GHVebz1VW8R6IcugOazgCmgkUC46AJiGyBVAQ4uIR4AwEIAIAKAODCmdAX1CA6gd6wXRiIAYSpgjw+gU0LOTuVF9igoO6iN60h1/bHlmC55TxP8II7wdkO/oNmo+Ug7I2iOhzpDuh0EL81G1MHUjqyCk7flIk2Wljqp36AW</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">gqooHhTqJ3pdId4wahVzLZ3Y6sg/QMXtNtQAa4GdxO/nUujOH4JRdHOrILOh0bBB9QmOwnXzqh3ljN5p04ktLoh1ZBrwum18QZt52M7Bu1QV7ATBB3MBsAbIY0JBBTTPxPV5Xe8f9iqbw6LdVu/AJPmHFvrdJrKImnYjqyfajAWEfQFEoYAEBe4Q+EcAJl4KZQtdkO5nQPwRIQAzdn2uUCQBUZcwU9/6YgKaAQD1cRdqe4gPsjYDYxdduATQMEE8</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">lt8SA1maeDg15CzxSAygKUAAAoLgGlXgGbg73t7dWewAAJR6gO4ygUsNqAWBN7cArexqNQF4CT7p9TIRkLJn73zFpdNOhAOMFjicAOh2tXUdkA7iVh/0+U38YBnL3BIIRG1IgPV1P2QBAMr2s7cE1/atx4M2q3uEvrsAOElgzAYYIBjgBF6S9R+ivfitpBLBCAjAaoFhHwAh7AiYQYIEAYZgZwtWbcfQCbtMQ0rn+dK2tQYGGCZAYDYcHrUEpZAd</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">AgDIBsA+ogyjgBlI7lYIM2E7AgBOwQAA</span><br></span></code></pre></div></div>
+<p>%%</p>]]></content:encoded>
+            <category>excalidraw</category>
+        </item>
+        <item>
+            <title><![CDATA[年轻人的压力]]></title>
+            <link>https://dzl1943.github.io/blog2/202412081443</link>
+            <guid>https://dzl1943.github.io/blog2/202412081443</guid>
+            <pubDate>Tue, 30 Sep 2025 09:39:00 GMT</pubDate>
+            <description><![CDATA[- 买车: 10w+]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">买车: 10w+</li>
+<li class="">买房: 100w+</li>
+<li class="">结婚: 20w+</li>
+<li class="">育儿: ?</li>
+<li class="">养老: ?</li>
+</ul>
+<p>看看你的工资和余额, 希望还是绝望?</p>
+<p>此外</p>
+<ul>
+<li class="">迷茫、焦虑</li>
+<li class="">自卑、孤独、社恐</li>
+<li class="">996、职场压力、就业形势</li>
+<li class="">社会压力、贫富差距、阶级固化</li>
+</ul>
+<p>什么理想追求、道德情操、责任素质, 都 tmd 见鬼去吧<br>
+<!-- -->活着就好.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[彩礼]]></title>
+            <link>https://dzl1943.github.io/blog2/202508220631</link>
+            <guid>https://dzl1943.github.io/blog2/202508220631</guid>
+            <pubDate>Fri, 22 Aug 2025 06:31:00 GMT</pubDate>
+            <description><![CDATA[关于彩礼的几种说法]]></description>
+            <content:encoded><![CDATA[<p>关于彩礼的几种说法</p>
+<ol>
+<li class="">作为女方父母的补偿</li>
+<li class="">作为女性生育的补偿</li>
+<li class="">作为小家的共同启动资金</li>
+</ol>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[问题分析方法]]></title>
+            <link>https://dzl1943.github.io/blog2/202507271656</link>
+            <guid>https://dzl1943.github.io/blog2/202507271656</guid>
+            <pubDate>Sun, 27 Jul 2025 16:56:00 GMT</pubDate>
+            <description><![CDATA[- what: 问题是什么]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">what: 问题是什么</li>
+<li class="">why : 原因是什么</li>
+<li class="">how : 办法是什么</li>
+<li class="">then: 然后呢</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[需求]]></title>
+            <link>https://dzl1943.github.io/blog2/需求</link>
+            <guid>https://dzl1943.github.io/blog2/需求</guid>
+            <pubDate>Mon, 07 Jul 2025 17:02:00 GMT</pubDate>
+            <description><![CDATA[生存发展]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="生存发展">生存发展<a href="https://dzl1943.github.io/blog2/%E9%9C%80%E6%B1%82#%E7%94%9F%E5%AD%98%E5%8F%91%E5%B1%95" class="hash-link" aria-label="生存发展的直接链接" title="生存发展的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">温饱</li>
+<li class="">住房</li>
+<li class="">交通</li>
+<li class="">电信</li>
+<li class="">医疗</li>
+<li class="">教育</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="社交娱乐">社交娱乐<a href="https://dzl1943.github.io/blog2/%E9%9C%80%E6%B1%82#%E7%A4%BE%E4%BA%A4%E5%A8%B1%E4%B9%90" class="hash-link" aria-label="社交娱乐的直接链接" title="社交娱乐的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="自我实现">自我实现<a href="https://dzl1943.github.io/blog2/%E9%9C%80%E6%B1%82#%E8%87%AA%E6%88%91%E5%AE%9E%E7%8E%B0" class="hash-link" aria-label="自我实现的直接链接" title="自我实现的直接链接" translate="no">​</a></h2>
+<h1>参考</h1>
+<ul>
+<li class="">马斯洛需求层次理论</li>
+<li class="">ERG 理论</li>
+<li class="">自我决定理论</li>
+<li class="">三重需要理论</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[浅谈迷茫]]></title>
+            <link>https://dzl1943.github.io/blog2/迷茫</link>
+            <guid>https://dzl1943.github.io/blog2/迷茫</guid>
+            <pubDate>Thu, 21 Nov 2024 21:47:00 GMT</pubDate>
+            <description><![CDATA[[!quote]- 前言]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>[!quote]- 前言<br>
+<!-- -->本文旨在引导思考并回答"'我'该做什么"(或者说自律)的问题. 本文不等于职业规划, 也不解决求职、搞钱的问题.<br>
+<!-- -->本文仅代表个人观点, 仅供参考, 有不同想法非常欢迎一起交流探讨.</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="什么是迷茫-">什么是迷茫 ?<a href="https://dzl1943.github.io/blog2/%E8%BF%B7%E8%8C%AB#%E4%BB%80%E4%B9%88%E6%98%AF%E8%BF%B7%E8%8C%AB-" class="hash-link" aria-label="什么是迷茫 ?的直接链接" title="什么是迷茫 ?的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">丧, 不知道该咋办, 啥也不想做</li>
+<li class=""><strong>不知道该做什么</strong>, 没有目标</li>
+<li class="">不知道该怎么做, 没有方法</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="为什么会迷茫-">为什么会迷茫 ?<a href="https://dzl1943.github.io/blog2/%E8%BF%B7%E8%8C%AB#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E8%BF%B7%E8%8C%AB-" class="hash-link" aria-label="为什么会迷茫 ?的直接链接" title="为什么会迷茫 ?的直接链接" translate="no">​</a></h2>
+<p>本质上还是没有目标.</p>
+<ul>
+<li class="">原本就没有目标, 或者忘了</li>
+<li class="">原目标有很大偏差, 按原目标无法达成目的</li>
+<li class="">目标遇到问题阻碍, 无法继续推进</li>
+<li class="">目标不够清晰具体, 无法指导执行</li>
+</ul>
+<blockquote>
+<p>迷茫很大的原因是局限于"我"的视角, 而相对忽视了外界的真实诉求.</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="迷茫该怎么办-">迷茫该怎么办 ?<a href="https://dzl1943.github.io/blog2/%E8%BF%B7%E8%8C%AB#%E8%BF%B7%E8%8C%AB%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E-" class="hash-link" aria-label="迷茫该怎么办 ?的直接链接" title="迷茫该怎么办 ?的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">保持客观, 聚焦现实, 不要自我怀疑, 不要压抑、放纵</li>
+<li class="">尽量先做好本职工作, 不要轻易做出重大改变</li>
+<li class="">实在不行就换个环境, 减少负面干扰, 先走出来, 好好生活, 积蓄能量</li>
+<li class="">不要过于依赖头脑思考, 多实践, 多与人接触, 现实世界的细节程度不是人脑模拟能比的, 实践远比思考高效得多.</li>
+<li class="">认知与选择: 你现在在哪, 你要到哪去, 怎么去<!-- -->
+<ul>
+<li class="">了解你自己<!-- -->
+<ul>
+<li class="">
+<p>你需要、想要什么?</p>
+<ul>
+<li class="">物质服务 %% 物质仍然是绝大多数人最主要的需求. %%</li>
+<li class="">精神追求</li>
+</ul>
+</li>
+<li class="">
+<p>你能做什么? 做到什么程度?</p>
+</li>
+<li class="">
+<p>你的优势、不足是什么?</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="">[&lt;] 运动 %% 这是我最想要完善的 %%</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->空间</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->音乐</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->语言</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->思维</li>
+<li class="">[&lt;] 人际</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->内省</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->自然</li>
+</ul>
+</li>
+<li class="">
+<p>你对什么(知识、专业、领域、行业、职业)更感兴趣?</p>
+<p><img decoding="async" loading="lazy" alt="领域 | clean no-title no-h1" src="data:text/markdown;charset=utf-8;base64,LS0tCnRpdGxlOiDpoobln58KY3JlYXRlZDogMjAyNC0wNy0yOVQxNzo1Ngptb2RpZmllZDogMjAyNC0xMi0wNVQyMDo0OApvYnNpZGlhbkVkaXRpbmdNb2RlOiBzb3VyY2UKLS0tCgo8IS0tIHRydW5jYXRlIC0tPgoKIyDpoobln58KCiUlW2xpc3QybHRdJSUKLSA8IOmihuWfn3zkuJPkuJp86KGM5LiafOiBjOS4miB8IOivhOWIhiB8IOWkh+azqAotIFstXSDlhpvoraYgfCAzLjUgfCDkvY7lrabljobkvJjpgIkKLSBbUF0gKirmlL/ms5UqKiB8IDUgfCDmlofnp5HpppbpgIksIOmcgOimgeW+iOW8uueahOekvuS6pOiDveWKmwotIFs/XSAq57uP5ZWGKiB8IDQuNSB8IOi+heS/rgogICAgLSBbIF0g6YeR6J6NCiAgICAtIFsgXSDotKLnqI4KICAgIC0gWyBdIOe7j+i0uAogICAgLSBbIF0g5ZWG566hCi0gWy9dICrnp5HlraYqIHwgNCB8IOWfuuacrOS4iuaYr+WkqeaJjeS7rOeahOS6iwogICAgLSBbIF0g5pWwCiAgICAtIFsgXSDnkIYKICAgIC0gWyBdIOWMlgogICAgLSBbIF0g5aSpCiAgICAtIFsgXSDlnLAKICAgIC0gWyBdIOeUnwotIFs/XSAq5paH5pWZKiB8IDMuNSB8IOWunueUqOaAp+S4jemrmAogICAgLSBbIF0g5paH5a2mCiAgICAtIFsgXSDljoblj7IKICAgIC0gWyBdIOWTsuWtpgogICAgLSBbIF0g5pWZ6IKyCiAgICAtIFsgXSDkvKDlqpIKLSBbLV0g5L2T6Im6IHwgMyB8IOimgeWkqei1iywg5LiN5a6e55SoLCDng6fpkrEKICAgIC0gWyBdIOmfs+S5kOOAgeiInui5iAogICAgLSBbIF0g5oiP5Ymn44CB5b2x6KeGCiAgICAtIFsgXSDnvo7mnK/jgIHorr7orqEKLSBbLV0g5Yy75Y2rIHwgNCB8IOekvuS8muWcsOS9jei/mOaYr+WPr+S7peeahCwg5q+U6L6D5ZCD5a2m5Y6G5ZKM6LWE5Y6GCi0gW3hdICoq5bel5L+hKiogfCA0IHwg5aSn6YOo5YiG55qE5bel5L2c6YO95Y+v6IO96KKr5py65Zmo5Y+W5LujLCDpmaTkuobkurrlt6XmnI3liqHnsbvnmoTlt6XkvZwKICAgIC0gWyBdIOiDvea6kAogICAgLSBbIF0g5YyW5belCiAgICAtIFsgXSDovbvlt6UKICAgIC0gWyBdIOW7uuetkQogICAgLSBbIF0g5rC05YipCiAgICAtIFsgXSDkuqTpgJoKICAgIC0gWyBdIOacuuaisAogICAgLSBbIF0g55S15rCUCiAgICAtIFsgXSBJVAotIFstXSDlhpzmsJEgfCAzIHwg5py65qKw5YyW5piv5b+F54S26LaL5Yq/Cgo=" class="img_ev3q"><br>
+<!-- -->%%<br>
+<!-- -->普通人基本上只有农、工、商这几条路, 高端制造和服务都有较高的门槛.<br>
+<!-- -->思考: 从原始社会到共产社会, 人们的生产生活方式会有哪些变化?<br>
+<!-- -->虽然随着社会生产力的提升, 需求的实现方式会变得更加经济高效, 但是行业需求、生产关系应该不会有太大的变化.<br>
+<!-- -->%%</p>
+</li>
+<li class="">
+<p>在集体中, 你的角色是什么? 你适合做哪种类型的工作?</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->现实型</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->研究型 %% 岗位很少 %%</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->艺术型</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->社会型</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->企业型</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->常规型</li>
+</ul>
+</li>
+<li class="">
+<p>何种工作环境/模式让你更舒适、向往?</p>
+</li>
+<li class="">
+<p>你如何评价自己、他人?</p>
+<ul>
+<li class="">身体 %% 精力, 形象 %%</li>
+<li class="">心智 %% 认知, 学习, 思考, 判断 %%</li>
+<li class="">性格</li>
+<li class="">才能 %% 知识, 技能, 素养 %%</li>
+<li class="">关系</li>
+<li class="">资源 %% 资源整合利用能力 %%</li>
+</ul>
+</li>
+<li class="">
+<p>你想成为怎样的人?</p>
+<ul>
+<li class="">健康</li>
+<li class="">自信</li>
+<li class="">有价值</li>
+</ul>
+</li>
+<li class="">
+<p>你想过怎样的生活、怎样的一生?</p>
+<ul>
+<li class="">自由</li>
+<li class="">幸福</li>
+<li class="">有事做</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">了解外界<!-- -->
+<ul>
+<li class="">他人</li>
+<li class="">社会<!-- -->
+<ul>
+<li class="">政治: 党委、人大、政府、政协</li>
+<li class="">经济: 生产、分配、交换、消费<br>
+<img decoding="async" loading="lazy" alt="产业划分 | clean no-title no-h1" src="data:text/markdown;charset=utf-8;base64,LS0tCnRpdGxlOiDkuqfkuJoKY3JlYXRlZDogMjAyNC0xMi0yMFQyMDozMQptb2RpZmllZDogMjAyNi0wMS0xM1QyMDoyMgphbGlhc2VzOiBb57uP5rWO6YOo6ZeoXQp1cmw6CiAgLSBodHRwczovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9FY29ub21pY19zZWN0b3IKICAtIGh0dHBzOi8vYmFpa2UuYmFpZHUuY29tL2l0ZW0vJUU0JUJBJUE3JUU0JUI4JTlBJUU5JUEyJTg2JUU1JTlGJTlGJUU1JTg4JTg2JUU3JUIxJUJCJUU2JUIzJTk1Ci0tLQoKMS4g5Yac5LiaCjIuIOW3peS4mgogICAgLSDph43lt6Uo55Sf5Lqn6LWE5paZKSAlJSDog73mupDjgIHmnZDmlpnjgIHljJblt6XjgIHpkqLpk4HjgIHlhrbph5HjgIHmnLrmorAgJSUKICAgIC0g6L275belKOeUn+a0u+i1hOaWmSkgJSUg6aOf5ZOB44CB57q657uH44CB5a625bGF44CB5pel5YyW44CB55S15a2Q44CB5LqU6YeR44CB5paH5aix44CB5Yy76I2v562JICUlCjMuIOacjeWKoeS4mlteMV0KICAgIC0g5YiG6YWN5oCn5pyN5YqhIFteMl0gJSUg6L+Q6L6T44CB5LuT5YKo44CB5om55Y+R44CB6Zu25ZSu562JICUlCiAgICAtIOeUn+S6p+aAp+acjeWKoSAlJSDmiL/lnLDkuqfjgIHph5Hono3jgIHllYbliqHjgIHnp5HnoJTmioDmnK/jgIFJVCDnrYkgJSUKICAgIC0g5raI6LS55oCn5pyN5YqhICUlIOmkkOmlruOAgeS9j+Wuv+OAgeWMu+eWl+OAgeaVmeiCsuOAgeaWh+WoseetiSAlJQogICAgLSDnpL7kvJrmgKfmnI3liqEgJSUg5pWZ56eR5paH5Y2rICUlCgpbXjFdOiDov5jlj6/ku6XmoLnmja7mnInlvaLml6DlvaLjgIHkvZznlKjlr7nosaHliIbnsbsKW14yXTog5a2Y55aRLCDlj4LnnIsgWzFdKGh0dHBzOi8vcmVhZC5xcS5jb20vcmVhZC8xMDAwNzcyOTQ0LzcpIFsyXShodHRwczovL3d3dy5zdGF0cy5nb3YuY24venMvdGp3cy90amJ6LzIwMjMwMS90MjAyMzAxMDFfMTkwMzk1OC5odG1sKQ==" class="img_ev3q"></li>
+<li class="">军事</li>
+<li class="">科技</li>
+<li class="">文化</li>
+</ul>
+</li>
+<li class="">自然</li>
+</ul>
+</li>
+<li class="">了解现状, 其实你没那么多选择</li>
+</ul>
+</li>
+<li class="">找出关键问题</li>
+<li class="">目标、策略<!-- -->
+<ul>
+<li class="">家庭生活<!-- -->
+<ul>
+<li class="">衣食住行</li>
+<li class="">运动健身 (可选时间段: 起床后、午饭后、傍晚、晚饭后)<!-- -->
+<ul>
+<li class="">上肢(肩臂)</li>
+<li class="">核心(胸腹背)</li>
+<li class="">下肢(臀腿)</li>
+<li class="">有氧</li>
+</ul>
+</li>
+<li class="">经济财务</li>
+<li class="">家务外事</li>
+<li class="">婚育养老</li>
+</ul>
+</li>
+<li class="">社交娱乐 %% 不会娱乐的人很难与他人建立关系, 关系即渠道, 没有关系工作也很难开展; 别太自我、独立、清高, 多关注他人、融入集体 %%<!-- -->
+<ul>
+<li class="">血缘</li>
+<li class="">地缘</li>
+<li class="">业缘</li>
+<li class="">趣缘<!-- -->
+<ul>
+<li class="">体育类</li>
+<li class="">智力类</li>
+<li class="">文艺类</li>
+<li class="">休闲类</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">工作事业 <code>专业 + 行业 = 职业</code>
+<ul>
+<li class="">上班(公、私)</li>
+<li class="">创业 %% 老板思维的特征是不要亲自干, 而是整合资源、组织他人协作着干, 计算好成本、收入、利润即可 %%</li>
+<li class="">自由职业</li>
+</ul>
+</li>
+<li class="">学习思考<!-- -->
+<ul>
+<li class="">自然科学<!-- -->
+<ul>
+<li class="">数学</li>
+<li class="">物理</li>
+<li class="">化学</li>
+<li class="">生物</li>
+</ul>
+</li>
+<li class="">社会科学<!-- -->
+<ul>
+<li class="">政治</li>
+<li class="">法律</li>
+<li class="">经济</li>
+<li class="">管理</li>
+</ul>
+</li>
+<li class="">人文科学<!-- -->
+<ul>
+<li class="">文学</li>
+<li class="">历史</li>
+<li class="">哲学</li>
+<li class="">心理</li>
+</ul>
+</li>
+<li class="">应用科学</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">计划、执行 %% 量化, 循序渐进 %%<!-- -->
+<ul>
+<li class="">天<!-- -->
+<ul>
+<li class="">凌晨 0-6</li>
+<li class="">上午 6-12<!-- -->
+<ul>
+<li class="">起床 6:30</li>
+<li class="">早饭 8:00</li>
+<li class="">? 工作</li>
+</ul>
+</li>
+<li class="">下午 12-18<!-- -->
+<ul>
+<li class="">午饭 12:00</li>
+<li class="">?</li>
+<li class="">傍晚</li>
+</ul>
+</li>
+<li class="">晚上 18-24<!-- -->
+<ul>
+<li class="">晚饭 18:00</li>
+<li class="">睡觉 22:30</li>
+<li class="">? 学习</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">周</li>
+<li class="">月</li>
+<li class="">季</li>
+<li class="">年</li>
+<li class="">3 年</li>
+<li class="">5 年</li>
+<li class="">10 年</li>
+<li class="">100 年</li>
+</ul>
+</li>
+<li class="">反思、总结</li>
+</ul>
+<h1>参考</h1>
+<ul>
+<li class="">多元智能理论</li>
+<li class="">霍兰德职业兴趣理论</li>
+<li class="">马斯洛需求层次理论</li>
+<li class="">OGSM 模型</li>
+</ul>
+<h1>后记</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="一">一<a href="https://dzl1943.github.io/blog2/%E8%BF%B7%E8%8C%AB#%E4%B8%80" class="hash-link" aria-label="一的直接链接" title="一的直接链接" translate="no">​</a></h2>
+<blockquote>
+<p>自律 or 自卑, 自己选.</p>
+</blockquote>
+<ul>
+<li class="">我的性格角色是%% intj、infj %%?</li>
+<li class="">我的优势、不足是%% 思维、内省; 运动、人际 %%?</li>
+<li class="">我适合的工作类型是%% 研究型 %%?</li>
+<li class="">我擅长的专业领域是%% 社科(政法、经管)? 文科? 理科(数、理、化、生)? 工科(电气、电子、计算机)? %%?</li>
+<li class="">我的三观、理想追求是%% peace&amp;love %%?</li>
+<li class="">我看好且契合个人发展的行业是? <sup><a href="https://dzl1943.github.io/blog2/%E8%BF%B7%E8%8C%AB#user-content-fn-1-d4f0f5" id="user-content-fnref-1-d4f0f5" data-footnote-ref="true" aria-describedby="footnote-label" class="anchorTargetStickyNavbar_Vzrq">1</a></sup></li>
+<li class="">我的职业、目标是%% CEO、党委书记? %%?</li>
+<li class="">我的策略、计划是?</li>
+</ul>
+<blockquote>
+<p>在知道和做到之间, 还有很长的距离.</p>
+</blockquote>
+<blockquote>
+<p>靠目标驱动总会有迷茫的时候. 应找到除自我提升之外真正热爱之事.</p>
+</blockquote>
+<blockquote>
+<p>假如条件允许, 基本需求都被满足, 你想做什么?</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="二">二<a href="https://dzl1943.github.io/blog2/%E8%BF%B7%E8%8C%AB#%E4%BA%8C" class="hash-link" aria-label="二的直接链接" title="二的直接链接" translate="no">​</a></h2>
+<p>%% 主观、客观, 内在、外在 %%</p>
+<ul>
+<li class="">禀赋: 擅长什么, 不擅长什么</li>
+<li class="">兴趣: 喜欢什么, 不喜欢什么</li>
+<li class="">理想: 看好什么, 想做什么</li>
+<li class="">现实: <strong>需要什么, 能做什么</strong></li>
+</ul>
+<p>为何做(动力), 做什么(方向), 怎么做(方法), 做到哪(目标)</p>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorTargetStickyNavbar_Vzrq sr-only" id="footnote-label">Footnotes<a href="https://dzl1943.github.io/blog2/%E8%BF%B7%E8%8C%AB#footnote-label" class="hash-link" aria-label="Footnotes的直接链接" title="Footnotes的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="anchorTargetStickyNavbar_Vzrq" id="user-content-fn-1-d4f0f5">
+<p>基本上取决于你的专业背景(越是通用的专业越难以形成行业壁垒) <a href="https://dzl1943.github.io/blog2/%E8%BF%B7%E8%8C%AB#user-content-fnref-1-d4f0f5" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[行为决策影响因素]]></title>
+            <link>https://dzl1943.github.io/blog2/行为决策影响因素</link>
+            <guid>https://dzl1943.github.io/blog2/行为决策影响因素</guid>
+            <pubDate>Sun, 10 Nov 2024 17:15:00 GMT</pubDate>
+            <description><![CDATA[- 自我心智]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">自我心智<!-- -->
+<ul>
+<li class="">状态</li>
+<li class="">目标(越具体越好)</li>
+<li class="">能力</li>
+</ul>
+</li>
+<li class="">现实环境<!-- -->
+<ul>
+<li class="">问题</li>
+<li class="">需求</li>
+</ul>
+</li>
+<li class="">他人</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[美德]]></title>
+            <link>https://dzl1943.github.io/blog2/美德</link>
+            <guid>https://dzl1943.github.io/blog2/美德</guid>
+            <pubDate>Mon, 04 Nov 2024 09:00:00 GMT</pubDate>
+            <description><![CDATA[- 节制/自律 Temperance]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">节制/自律 Temperance</li>
+<li class="">谦逊 Humility Modesty</li>
+<li class="">积极乐观, 幽默</li>
+<li class="">理智, 谨慎 Prudence</li>
+<li class="">节俭 Frugality</li>
+<li class="">宽容 Kindness, Patience</li>
+<li class="">坚韧 Fortitude</li>
+<li class="">中庸 Moderation</li>
+<li class="">勤奋 Diligence</li>
+<li class="">勇敢 Valor</li>
+<li class="">正直 Justice</li>
+<li class="">友善</li>
+<li class="">感激</li>
+<li class="">真诚 Sincerity, 诚实 Integrity</li>
+<li class="">贞洁 Chastity</li>
+<li class="">慷慨 Charity, 怜悯 Compassion</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[两性择偶偏好]]></title>
+            <link>https://dzl1943.github.io/blog2/两性择偶偏好</link>
+            <guid>https://dzl1943.github.io/blog2/两性择偶偏好</guid>
+            <pubDate>Wed, 28 Aug 2024 14:57:00 GMT</pubDate>
+            <description><![CDATA[男性]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="男性">男性<a href="https://dzl1943.github.io/blog2/%E4%B8%A4%E6%80%A7%E6%8B%A9%E5%81%B6%E5%81%8F%E5%A5%BD#%E7%94%B7%E6%80%A7" class="hash-link" aria-label="男性的直接链接" title="男性的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">年龄</li>
+<li class="">身材外貌</li>
+<li class="">性格</li>
+<li class="">人品</li>
+<li class="">三观</li>
+<li class="">学历素质</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="女性">女性<a href="https://dzl1943.github.io/blog2/%E4%B8%A4%E6%80%A7%E6%8B%A9%E5%81%B6%E5%81%8F%E5%A5%BD#%E5%A5%B3%E6%80%A7" class="hash-link" aria-label="女性的直接链接" title="女性的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">金钱地位</li>
+<li class="">身材外貌</li>
+<li class="">性</li>
+<li class="">性格</li>
+<li class="">人品</li>
+<li class="">三观</li>
+<li class="">素质</li>
+<li class="">家庭</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[择业与搞钱]]></title>
+            <link>https://dzl1943.github.io/blog2/择业与搞钱</link>
+            <guid>https://dzl1943.github.io/blog2/择业与搞钱</guid>
+            <pubDate>Tue, 06 Aug 2024 21:34:00 GMT</pubDate>
+            <description><![CDATA[金钱观]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="金钱观">金钱观<a href="https://dzl1943.github.io/blog2/%E6%8B%A9%E4%B8%9A%E4%B8%8E%E6%90%9E%E9%92%B1#%E9%87%91%E9%92%B1%E8%A7%82" class="hash-link" aria-label="金钱观的直接链接" title="金钱观的直接链接" translate="no">​</a></h2>
+<blockquote>
+<p>[!question]- 钱是什么? 本质是什么?<br>
+<!-- -->钱是一种能够换取他人一定量物质或服务的东西. (也可以是无形的)</p>
+</blockquote>
+<blockquote>
+<p>[!question]- 钱的作用、职能?</p>
+<ul>
+<li class="">价值尺度</li>
+<li class="">流通手段</li>
+<li class="">支付手段</li>
+<li class="">贮藏手段</li>
+<li class="">世界货币</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>[!question]- 如何有钱? 有钱意味着什么?<br>
+<!-- -->利用一切能够利用的东西, 直接或间接地满足他人的需求. 作为交换, 你将获得钱.<br>
+<!-- -->在特定领域, 用特定方式, 解决特定人群的特定问题, 并从中获取收益.<br>
+<!-- -->钱总是从需求方/买方 流向-&gt; 供给方/卖方.<br>
+<!-- -->有钱意味着更加独立、自由、富足、体面、幸福的生活, 更高的购买力、消费水平、风险承受能力, 以及更多的选择.</p>
+</blockquote>
+<blockquote>
+<p>[!question]- 如何更有效地获得钱?</p>
+<ul>
+<li class="">营收<!-- -->
+<ul>
+<li class="">价格</li>
+<li class="">销量</li>
+</ul>
+</li>
+<li class="">成本</li>
+<li class="">效率</li>
+<li class="">杠杆</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>[!question]- 如何使大多数人有钱?</p>
+<ul>
+<li class="">生产力</li>
+<li class="">生产关系</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>[!question]- 如何比较不同的钱?</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="方法论">方法论<a href="https://dzl1943.github.io/blog2/%E6%8B%A9%E4%B8%9A%E4%B8%8E%E6%90%9E%E9%92%B1#%E6%96%B9%E6%B3%95%E8%AE%BA" class="hash-link" aria-label="方法论的直接链接" title="方法论的直接链接" translate="no">​</a></h2>
+<p>本质途径: 创造、转移、借债</p>
+<p>转化模式:</p>
+<p>%%[list2lt]%%</p>
+<ul>
+<li class="">劳务型: 劳动交换<!-- -->
+<ul>
+<li class="">人力: 时间+体力/智力 → 任务成果%%  (零自主性, 线性计酬) %%</li>
+<li class="">服务: 时间+技能 → 效用体验%%  (时空锁定，即时交付) %%</li>
+</ul>
+</li>
+<li class="">产品型: 规模增值<!-- -->
+<ul>
+<li class="">创造: 智力 → 知识产权%%  (范式创造, 零边际复制, 文化/技术复利) %%</li>
+<li class="">制造: 原料+资本+劳动力 → 商品%%  (批量生产复制, 规模效应) %%</li>
+</ul>
+</li>
+<li class="">权益型: 存量变现<!-- -->
+<ul>
+<li class="">资源：稀缺物 → 租金%%  (供给刚性, 稀缺溢价) %%</li>
+<li class="">资本：资金+风险 → 资本利得%%  (时间贴现, 复利杠杆) %%</li>
+<li class="">权力：强制力 → 税收/特许费%%  (制度垄断, 非对称博弈) %%</li>
+</ul>
+</li>
+<li class="">连接型: 市场增效<!-- -->
+<ul>
+<li class="">中介：信息差 → 差价%%  (获客成本, 信息溢价) %%</li>
+<li class="">平台：规则+流量 → 抽成%%  (网络效应, 生态复利) %%</li>
+</ul>
+</li>
+</ul>
+<p>影响因素:</p>
+<p>%%[list2lt|fold]%%</p>
+<ul>
+<li class="">宏观<!-- -->
+<ul>
+<li class="">P 政治</li>
+<li class="">L 法律</li>
+<li class="">E 经济</li>
+<li class="">T 技术</li>
+<li class="">S 社会</li>
+<li class="">E 环境</li>
+</ul>
+</li>
+<li class="">行业/市场<!-- -->
+<ul>
+<li class="">需求</li>
+<li class="">供给</li>
+</ul>
+</li>
+<li class="">个人<!-- -->
+<ul>
+<li class="">需求动机</li>
+<li class="">能力素质</li>
+<li class="">关系资源</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>老板思维的关键在于不要亲自投入到具体的劳务中.</p>
+</blockquote>
+<p>%% 小富靠勤劳, 中富靠选择, 大富靠机遇. %%</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="职业规划">职业规划<a href="https://dzl1943.github.io/blog2/%E6%8B%A9%E4%B8%9A%E4%B8%8E%E6%90%9E%E9%92%B1#%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92" class="hash-link" aria-label="职业规划的直接链接" title="职业规划的直接链接" translate="no">​</a></h2>
+<p>%%[list2col]%%
+%% 做什么, 不做什么 %%</p>
+<ul>
+<li class="">想做什么<!-- -->
+<ul>
+<li class="">现实需求</li>
+<li class="">兴趣爱好</li>
+<li class="">理想追求</li>
+</ul>
+</li>
+<li class="">该做什么<!-- -->
+<ul>
+<li class="">优势 Strengths %% 适合、擅长、能做什么 %%</li>
+<li class="">劣势 Weaknesses %% 不适合、不擅长什么 %%</li>
+<li class="">机会 Opportunities</li>
+<li class="">威胁 Threats</li>
+</ul>
+</li>
+<li class="">不做什么<!-- -->
+<ul>
+<li class="">不适合</li>
+<li class="">不擅长</li>
+<li class="">不喜欢</li>
+<li class="">不认同</li>
+<li class="">不看好</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>[!question]- 如何实现个人价值与社会价值的统一?
+选择什么专业、领域深耕自我实现? %% 优先掌握基础的、通用的为人处事能力 %%<br>
+<!-- -->选择什么职业、行业成就理想事业?</p>
+</blockquote>
+<blockquote>
+<p>[!question]- 假设在一个生产力发达、物质丰富的社会, 你想做什么? 如何避免被 AI、机器替代?<br>
+<!-- -->越依赖人与人之间的信任、影响、价值判断与责任承担的工作, 越不容易被取代;<br>
+<!-- -->越依赖对客观事物的标准化处理与规模化执行的工作, 越容易被取代.</p>
+</blockquote>
+<blockquote>
+<p>[!question]- 对于发展核心竞争力, 什么重要, 什么更重要?</p>
+<ul>
+<li class="">精力</li>
+<li class="">判断力</li>
+<li class="">执行力</li>
+</ul>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="需求">需求<a href="https://dzl1943.github.io/blog2/%E6%8B%A9%E4%B8%9A%E4%B8%8E%E6%90%9E%E9%92%B1#%E9%9C%80%E6%B1%82" class="hash-link" aria-label="需求的直接链接" title="需求的直接链接" translate="no">​</a></h3>
+<p>%%[list2tab]%%</p>
+<ul>
+<li class="">个人<!-- -->
+<ul>
+<li class="">生存发展 %% 自由 %%<!-- -->
+<ul>
+<li class="">温饱 %% 农业机械化 %%</li>
+<li class="">住房 %% 仍然是年轻人无法逾越的大山 %%</li>
+<li class="">交通 %% 战略基础 %%</li>
+<li class="">电信 %% 基础且重要 %%</li>
+<li class="">医疗 %% 有社会地位, 但学制太长不划算 %%</li>
+<li class="">教育 %% 没啥前途 %%</li>
+</ul>
+</li>
+<li class="">社交娱乐 %% 幸福 %%</li>
+<li class="">自我实现 %% 价值 %%</li>
+</ul>
+</li>
+<li class="">家庭<!-- -->
+<ul>
+<li class="">家务</li>
+<li class="">外事</li>
+<li class="">财经</li>
+<li class="">婚育</li>
+<li class="">养老</li>
+</ul>
+</li>
+<li class="">企业<!-- -->
+<ul>
+<li class="">股东层</li>
+<li class="">管理层</li>
+<li class="">执行层</li>
+</ul>
+</li>
+<li class="">政府<!-- -->
+<ul>
+<li class="">国家 %% 繁荣、富强、文明 %%</li>
+<li class="">地方 %% 公平、正义、秩序 %%</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="行业">行业<a href="https://dzl1943.github.io/blog2/%E6%8B%A9%E4%B8%9A%E4%B8%8E%E6%90%9E%E9%92%B1#%E8%A1%8C%E4%B8%9A" class="hash-link" aria-label="行业的直接链接" title="行业的直接链接" translate="no">​</a></h3>
+<p>%%[list2lt]%%</p>
+<ul>
+<li class="">农业</li>
+<li class="">工业<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->采矿</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->制造 %% 底层是化学, 仍然没什么交换价值 %%</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->公用</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->建筑</li>
+</ul>
+</li>
+<li class="">服务业<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->生产 %% 批发业，交通运输、仓储和邮政业，信息传输、软件和信息技术服务业，金融业，租赁和商务服务业，科学研究和技术服务业，生态环保和环境治理业 %%</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->生活 %% 零售业，住宿和餐饮业，房地产业，旅游业，居民服务，修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业 %%</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="专业">专业<a href="https://dzl1943.github.io/blog2/%E6%8B%A9%E4%B8%9A%E4%B8%8E%E6%90%9E%E9%92%B1#%E4%B8%93%E4%B8%9A" class="hash-link" aria-label="专业的直接链接" title="专业的直接链接" translate="no">​</a></h3>
+<p>%% (政)法经管军, 文史哲教(心), 理工农医艺 %%</p>
+<p>%%[list2col|width(25,25,20,30)]%%</p>
+<ul>
+<li class="">自然科学<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->数</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->理</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->化</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->天,气</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->地,海</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->生</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->心</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->统</li>
+</ul>
+</li>
+<li class="">社会科学<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->法</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->经</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->管</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->军</li>
+</ul>
+</li>
+<li class="">人文艺术<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->文</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->史</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->哲</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->教</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->艺</li>
+</ul>
+</li>
+<li class="">工程应用<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->农林</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->医药</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->食品</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->纺织</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->水利</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->土建</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->化工</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->机械</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->电气</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->电子</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->计算机</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="职业">职业<a href="https://dzl1943.github.io/blog2/%E6%8B%A9%E4%B8%9A%E4%B8%8E%E6%90%9E%E9%92%B1#%E8%81%8C%E4%B8%9A" class="hash-link" aria-label="职业的直接链接" title="职业的直接链接" translate="no">​</a></h3>
+<blockquote>
+<p><code>专业 + 行业 = 职业</code>. 专业决定你能做什么, 行业决定你能应用在什么地方</p>
+</blockquote>
+<p>%%[list2lt|fold]%%</p>
+<ul>
+<li class="">上班<!-- -->
+<ul>
+<li class="">体制内<!-- -->
+<ul>
+<li class="">行政编(管理|技术|执法|公检法)<!-- -->
+<ul>
+<li class="">党委<!-- -->
+<ul>
+<li class="">纪检</li>
+<li class="">组织</li>
+<li class="">宣传</li>
+<li class="">统战</li>
+<li class="">外联</li>
+<li class="">政法</li>
+<li class="">财经</li>
+<li class="">外事</li>
+</ul>
+</li>
+<li class="">人大<!-- -->
+<ul>
+<li class="">监察委</li>
+<li class="">法院</li>
+<li class="">检察院</li>
+</ul>
+</li>
+<li class="">政府</li>
+<li class="">政协</li>
+</ul>
+</li>
+<li class="">事业编(参公|全额|差额|自营|员额)</li>
+<li class="">军队编(军官|士官|义务兵|文职|工勤)</li>
+</ul>
+</li>
+<li class="">体制外<!-- -->
+<ul>
+<li class="">国企(含央企、地方国企)</li>
+<li class="">民企(含民营、外资、合资)<!-- -->
+<ul>
+<li class="">职能部门</li>
+<li class="">业务部门</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">自由职业</li>
+<li class="">创业<!-- -->
+<ul>
+<li class="">个体(个体工商户)</li>
+<li class="">个独(个人独资企业)</li>
+<li class="">合伙(普通合伙/有限合伙)</li>
+<li class="">有限(有限责任公司)</li>
+<li class="">股份(股份有限公司)</li>
+<li class="">集团控股(母子公司集团架构)</li>
+</ul>
+</li>
+</ul>
+<p>[question- 什么样的工作算好工作?]</p>
+<ul>
+<li class="">工作内容 %% 什么时间什么地点和什么人为了什么做什么, 付出什么, 收获什么 %%</li>
+<li class="">工作环境</li>
+<li class="">薪资福利</li>
+<li class="">发展前途</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="领域">领域<a href="https://dzl1943.github.io/blog2/%E6%8B%A9%E4%B8%9A%E4%B8%8E%E6%90%9E%E9%92%B1#%E9%A2%86%E5%9F%9F" class="hash-link" aria-label="领域的直接链接" title="领域的直接链接" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->军</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->政</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->商</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->学</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->文</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->艺</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->医</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->工</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->农</li>
+</ul>
+<h1>后记</h1>
+<blockquote>
+<p>为何做(动力), 做什么(方向), 怎么做(方法), 做到哪(目标)</p>
+</blockquote>
+<blockquote>
+<p>想做什么比该做什么更难. 这个"想"应该理解为理想追求、自我实现.</p>
+</blockquote>
+<blockquote>
+<p>搞钱的第一性原理是<strong>价值</strong><br>
+<!-- -->职业选择的第一性原理是热爱</p>
+</blockquote>
+<blockquote>
+<p>人是价值创造的主体, 其自身即价值之本源.<br>
+<!-- -->人自身的价值远比其所能创造的价值更有价值.</p>
+</blockquote>
+<blockquote>
+<p>道理大家都懂, 但要理顺以指导目标行为, 绝非易事.</p>
+</blockquote>
+<p>%% next</p>
+<ul>
+<li class="">需求分析</li>
+<li class="">自我提升<!-- -->
+<ul>
+<li class="">体育: 提升体能、运动能力, 增强自信</li>
+<li class="">娱乐: 培养一些合群的爱好, 拓展社交圈</li>
+<li class="">语言: 提升语言表达和人际关系能力</li>
+<li class="">管理: 学习基础财管知识, 提升解决人事问题的能力<br>
+<!-- -->%%</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[性]]></title>
+            <link>https://dzl1943.github.io/blog2/sex</link>
+            <guid>https://dzl1943.github.io/blog2/sex</guid>
+            <pubDate>Mon, 05 Aug 2024 13:36:00 GMT</pubDate>
+            <description><![CDATA[性欲是一种想要与异性发生性行为的生理欲望. (某种意义上可以看作是对人体之美的自然迷恋)]]></description>
+            <content:encoded><![CDATA[<p>性欲是一种想要与异性发生性行为的生理欲望. (某种意义上可以看作是对人体之美的自然迷恋)<br>
+<!-- -->其作用包括</p>
+<ul>
+<li class="">愉悦身心</li>
+<li class="">亲密关系</li>
+<li class="">繁衍后代</li>
+</ul>
+<p>这种欲望是人的本能, 蕴含着强大的原始生命力量.<br>
+<!-- -->这种力量, 甚至是阴暗、邪恶的. 如若不加以引导和正视, 将严重影响人的身心发展和社会生活.</p>
+<p>尊重人性人欲, 融入集体, 多与人交流, 多发展兴趣爱好, 早日树立三观和理想目标.<br>
+<!-- -->不要压抑忧虑, 不要自我封闭, 不要清高自负.</p>
+<p>不用担心, 不用羞愧, 都是正常的.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="手淫">手淫<a href="https://dzl1943.github.io/blog2/sex#%E6%89%8B%E6%B7%AB" class="hash-link" aria-label="手淫的直接链接" title="手淫的直接链接" translate="no">​</a></h2>
+<p>一个基本思想是不要压抑欲望, 也不能放纵欲望.</p>
+<p>适当的排解是有益的.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="黄色">黄色<a href="https://dzl1943.github.io/blog2/sex#%E9%BB%84%E8%89%B2" class="hash-link" aria-label="黄色的直接链接" title="黄色的直接链接" translate="no">​</a></h2>
+<p>你可以看美女, 甚至擦边, 但最好不要沉迷黄色.<br>
+<!-- -->因为黄色刺激过大, 对人脑和器质是损害的.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[关于用多个手机号]]></title>
+            <link>https://dzl1943.github.io/blog2/202407312115</link>
+            <guid>https://dzl1943.github.io/blog2/202407312115</guid>
+            <pubDate>Wed, 31 Jul 2024 21:15:00 GMT</pubDate>
+            <description><![CDATA[只用一个手机号]]></description>
+            <content:encoded><![CDATA[<p>只用一个手机号</p>
+<ul>
+<li class="">假如信息被泄露, 遭受电话骚扰, 那么只能开拦截, 导致正常的通信受影响.<!-- -->
+<ul>
+<li class="">如果换手机号, 那么绑定原手机号的互联网账号将受影响.</li>
+</ul>
+</li>
+</ul>
+<p>如果用两个手机号, 那么</p>
+<ul>
+<li class="">一主一辅</li>
+<li class="">一私一公</li>
+<li class="">一个上网, 一个通话</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[追求]]></title>
+            <link>https://dzl1943.github.io/blog2/追求</link>
+            <guid>https://dzl1943.github.io/blog2/追求</guid>
+            <pubDate>Tue, 30 Jul 2024 19:56:00 GMT</pubDate>
+            <description><![CDATA[- 自由]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">自由<!-- -->
+<ul>
+<li class="">健康</li>
+<li class="">财富</li>
+<li class="">知识</li>
+</ul>
+</li>
+<li class="">幸福<!-- -->
+<ul>
+<li class="">社交</li>
+<li class="">娱乐</li>
+</ul>
+</li>
+<li class="">成就</li>
+<li class="">超越</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[能力素质]]></title>
+            <link>https://dzl1943.github.io/blog2/能力素质</link>
+            <guid>https://dzl1943.github.io/blog2/能力素质</guid>
+            <pubDate>Tue, 30 Jul 2024 19:55:00 GMT</pubDate>
+            <description><![CDATA[基本能力]]></description>
+            <content:encoded><![CDATA[<div class="language-ad-note codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-ad-note codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">title: 八种素质</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">collapse: true</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 身体素质</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 心理素质</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 思想素质</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 道德素质</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 政治素质</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 文化素质</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 审美素质</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 劳技素质</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="基本能力">基本能力<a href="https://dzl1943.github.io/blog2/%E8%83%BD%E5%8A%9B%E7%B4%A0%E8%B4%A8#%E5%9F%BA%E6%9C%AC%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="基本能力的直接链接" title="基本能力的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">感知</li>
+<li class="">行为</li>
+<li class="">语言表达</li>
+<li class="">思维决策</li>
+<li class="">学习记忆</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="通用能力">通用能力<a href="https://dzl1943.github.io/blog2/%E8%83%BD%E5%8A%9B%E7%B4%A0%E8%B4%A8#%E9%80%9A%E7%94%A8%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="通用能力的直接链接" title="通用能力的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">运动</li>
+<li class="">空间</li>
+<li class="">音乐</li>
+<li class="">语言</li>
+<li class="">思维</li>
+<li class="">人际</li>
+<li class="">内省</li>
+<li class="">自然</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="专业能力">专业能力<a href="https://dzl1943.github.io/blog2/%E8%83%BD%E5%8A%9B%E7%B4%A0%E8%B4%A8#%E4%B8%93%E4%B8%9A%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="专业能力的直接链接" title="专业能力的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">金融</li>
+<li class="">财税</li>
+<li class="">法律</li>
+<li class="">管理</li>
+<li class="">教育</li>
+<li class="">传媒</li>
+<li class="">设计</li>
+<li class="">计算机</li>
+<li class="">通信</li>
+<li class="">机电</li>
+<li class="">建筑</li>
+<li class="">生化</li>
+<li class="">医学</li>
+<li class="">军事</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考">参考<a href="https://dzl1943.github.io/blog2/%E8%83%BD%E5%8A%9B%E7%B4%A0%E8%B4%A8#%E5%8F%82%E8%80%83" class="hash-link" aria-label="参考的直接链接" title="参考的直接链接" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://baike.baidu.com/item/%E7%B4%A0%E8%B4%A8/1029618" target="_blank" rel="noopener noreferrer" class="">素质_百度百科</a></li>
+<li class=""><a href="https://baike.baidu.com/item/%E5%9B%BD%E6%B0%91%E7%B4%A0%E8%B4%A8/8589150" target="_blank" rel="noopener noreferrer" class="">国民素质_百度百科</a></li>
+<li class=""><a href="https://baike.baidu.com/item/%E8%83%BD%E5%8A%9B%E7%B4%A0%E8%B4%A8%E6%A8%A1%E5%9E%8B/0?fromModule=lemma_inlink" target="_blank" rel="noopener noreferrer" class="">能力素质模型_百度百科</a></li>
+<li class=""><a href="https://en.wikipedia.org/wiki/Competence_(polyseme)" target="_blank" rel="noopener noreferrer" class="">Competence (polyseme) - Wikipedia</a></li>
+<li class=""><a href="https://en.wikipedia.org/wiki/Outline_of_educational_aims" target="_blank" rel="noopener noreferrer" class="">Outline of educational aims - Wikipedia</a></li>
+<li class=""><a href="https://en.wikipedia.org/wiki/Personal_development" target="_blank" rel="noopener noreferrer" class="">Personal development - Wikipedia</a></li>
+<li class=""><a href="https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences" target="_blank" rel="noopener noreferrer" class="">Theory of multiple intelligences - Wikipedia</a></li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[领域]]></title>
+            <link>https://dzl1943.github.io/blog2/领域</link>
+            <guid>https://dzl1943.github.io/blog2/领域</guid>
+            <pubDate>Mon, 29 Jul 2024 17:56:00 GMT</pubDate>
+            <description><![CDATA[%%[list2lt]%%]]></description>
+            <content:encoded><![CDATA[<p>%%[list2lt]%%</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="">&lt; 领域|专业|行业|职业 | 评分 | 备注</li>
+<li class="">[-] 军警 | 3.5 | 低学历优选</li>
+<li class="">[P] <strong>政法</strong> | 5 | 文科首选, 需要很强的社交能力</li>
+<li class="">[?] <em>经商</em> | 4.5 | 辅修<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->金融</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->财税</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->经贸</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->商管</li>
+</ul>
+</li>
+<li class="">[/] <em>科学</em> | 4 | 基本上是天才们的事<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->数</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->理</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->化</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->天</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->地</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->生</li>
+</ul>
+</li>
+<li class="">[?] <em>文教</em> | 3.5 | 实用性不高<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->文学</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->历史</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->哲学</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->教育</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->传媒</li>
+</ul>
+</li>
+<li class="">[-] 体艺 | 3 | 要天赋, 不实用, 烧钱<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->音乐、舞蹈</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->戏剧、影视</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->美术、设计</li>
+</ul>
+</li>
+<li class="">[-] 医卫 | 4 | 社会地位还是可以的, 比较吃学历和资历</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <strong>工信</strong> | 4 | 大部分的工作都可能被机器取代, 除了人工服务类的工作<!-- -->
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->能源</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->化工</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->轻工</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->建筑</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->水利</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->交通</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->机械</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->电气</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->IT</li>
+</ul>
+</li>
+<li class="">[-] 农民 | 3 | 机械化是必然趋势</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[人的属性]]></title>
+            <link>https://dzl1943.github.io/blog2/人的属性</link>
+            <guid>https://dzl1943.github.io/blog2/人的属性</guid>
+            <pubDate>Mon, 29 Jul 2024 17:16:00 GMT</pubDate>
+            <description><![CDATA[自然属性]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="自然属性">自然属性<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E7%9A%84%E5%B1%9E%E6%80%A7#%E8%87%AA%E7%84%B6%E5%B1%9E%E6%80%A7" class="hash-link" aria-label="自然属性的直接链接" title="自然属性的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">性别 gender</li>
+<li class="">年龄 age</li>
+<li class="">出生日期 birthdate</li>
+<li class="">身材外貌</li>
+<li class="">血型 ABO</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="社会属性">社会属性<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E7%9A%84%E5%B1%9E%E6%80%A7#%E7%A4%BE%E4%BC%9A%E5%B1%9E%E6%80%A7" class="hash-link" aria-label="社会属性的直接链接" title="社会属性的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">姓名 name</li>
+<li class="">民族 nation</li>
+<li class="">籍贯 birthplace</li>
+<li class="">住址 address</li>
+<li class="">联系方式 contact<!-- -->
+<ul>
+<li class="">手机</li>
+<li class="">邮箱</li>
+<li class="">QQ</li>
+<li class="">微信</li>
+<li class="">微博</li>
+<li class="">抖音</li>
+<li class="">哔哩哔哩</li>
+<li class="">豆瓣</li>
+<li class="">知乎</li>
+<li class="">飞书</li>
+<li class="">Notion</li>
+<li class="">GitHub</li>
+<li class="">Telegram</li>
+<li class="">Twitter</li>
+<li class="">Facebook</li>
+</ul>
+</li>
+<li class="">工作 occupation<!-- -->
+<ul>
+<li class="">单位, 职业</li>
+</ul>
+</li>
+<li class="">教育 education<!-- -->
+<ul>
+<li class="">学历, 学校, 专业</li>
+</ul>
+</li>
+<li class="">政治面貌 political</li>
+<li class="">婚育 marriage</li>
+<li class="">家庭 family<!-- -->
+<ul>
+<li class="">父母</li>
+<li class="">兄弟姐妹</li>
+<li class="">配偶</li>
+<li class="">子女</li>
+</ul>
+</li>
+<li class="">价值成就 achievements</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="内在属性">内在属性<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E7%9A%84%E5%B1%9E%E6%80%A7#%E5%86%85%E5%9C%A8%E5%B1%9E%E6%80%A7" class="hash-link" aria-label="内在属性的直接链接" title="内在属性的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">性格人格 character</li>
+<li class="">三观人品 views</li>
+<li class="">能力素质 qualities</li>
+<li class="">爱好特长 interests<!-- -->
+<ul>
+<li class="">书</li>
+<li class="">影</li>
+<li class="">音</li>
+<li class="">游戏</li>
+<li class="">运动</li>
+</ul>
+</li>
+<li class="">习惯偏好 preferences<!-- -->
+<ul>
+<li class="">食物</li>
+<li class="">服饰</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他">其他<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E7%9A%84%E5%B1%9E%E6%80%A7#%E5%85%B6%E4%BB%96" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">tags</li>
+<li class="">group</li>
+<li class="">remark</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[企业管理]]></title>
+            <link>https://dzl1943.github.io/blog2/企业管理</link>
+            <guid>https://dzl1943.github.io/blog2/企业管理</guid>
+            <pubDate>Sun, 28 Jul 2024 21:03:00 GMT</pubDate>
+            <description><![CDATA[- 股东层]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">股东层<!-- -->
+<ul>
+<li class="">股东会</li>
+<li class="">董事会</li>
+<li class="">监事会</li>
+</ul>
+</li>
+<li class="">管理层<!-- -->
+<ul>
+<li class="">CEO</li>
+<li class="">COO</li>
+<li class="">CFO</li>
+<li class="">CHO</li>
+<li class="">CMO</li>
+<li class="">CTO</li>
+</ul>
+</li>
+<li class="">执行层<!-- -->
+<ul>
+<li class="">行政</li>
+<li class="">人力</li>
+<li class="">财务</li>
+<li class="">审计</li>
+<li class="">法务</li>
+<li class="">市场</li>
+<li class="">研发</li>
+<li class="">采购</li>
+<li class="">生产</li>
+<li class="">销售</li>
+<li class="">售后</li>
+<li class="">IT</li>
+</ul>
+</li>
+</ul>
+<h1>FAQ</h1>
+<blockquote>
+<p>[!question] 市场、营销、销售、运营之间的区别与联系?</p>
+</blockquote>
+<blockquote>
+<p>[!question] 法务和公关的区别</p>
+</blockquote>
+<blockquote>
+<p>[!question] 营销与 CRM</p>
+</blockquote>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[人际关系]]></title>
+            <link>https://dzl1943.github.io/blog2/人际关系</link>
+            <guid>https://dzl1943.github.io/blog2/人际关系</guid>
+            <pubDate>Sun, 28 Jul 2024 19:47:00 GMT</pubDate>
+            <description><![CDATA[家人]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="家人">家人<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E5%AE%B6%E4%BA%BA" class="hash-link" aria-label="家人的直接链接" title="家人的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="亲戚">亲戚<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E4%BA%B2%E6%88%9A" class="hash-link" aria-label="亲戚的直接链接" title="亲戚的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="朋友">朋友<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E6%9C%8B%E5%8F%8B" class="hash-link" aria-label="朋友的直接链接" title="朋友的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="熟人">熟人<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E7%86%9F%E4%BA%BA" class="hash-link" aria-label="熟人的直接链接" title="熟人的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="同学">同学<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E5%90%8C%E5%AD%A6" class="hash-link" aria-label="同学的直接链接" title="同学的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="同事">同事<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E5%90%8C%E4%BA%8B" class="hash-link" aria-label="同事的直接链接" title="同事的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="客户">客户<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E5%AE%A2%E6%88%B7" class="hash-link" aria-label="客户的直接链接" title="客户的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="商家">商家<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E5%95%86%E5%AE%B6" class="hash-link" aria-label="商家的直接链接" title="商家的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="网友">网友<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E7%BD%91%E5%8F%8B" class="hash-link" aria-label="网友的直接链接" title="网友的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他">其他<a href="https://dzl1943.github.io/blog2/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E5%85%B6%E4%BB%96" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接" translate="no">​</a></h2>
+<p>%% kanban<!-- -->:settings</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false,false,false,false],"lane-width":200}</span><br></span></code></pre></div></div>
+<p>%%</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[三观]]></title>
+            <link>https://dzl1943.github.io/blog2/三观</link>
+            <guid>https://dzl1943.github.io/blog2/三观</guid>
+            <pubDate>Wed, 17 May 2023 14:01:00 GMT</pubDate>
+            <description><![CDATA[世界观: 世界如何运作?]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="世界观-世界如何运作">世界观: 世界如何运作?<a href="https://dzl1943.github.io/blog2/%E4%B8%89%E8%A7%82#%E4%B8%96%E7%95%8C%E8%A7%82-%E4%B8%96%E7%95%8C%E5%A6%82%E4%BD%95%E8%BF%90%E4%BD%9C" class="hash-link" aria-label="世界观: 世界如何运作?的直接链接" title="世界观: 世界如何运作?的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">物理现实世界<!-- -->
+<ul>
+<li class="">自然<!-- -->
+<ul>
+<li class="">物质</li>
+<li class="">现象</li>
+</ul>
+</li>
+<li class="">社会<!-- -->
+<ul>
+<li class="">政治</li>
+<li class="">经济</li>
+<li class="">军事</li>
+<li class="">科技</li>
+<li class="">文化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">主观精神世界<!-- -->
+<ul>
+<li class="">本我 Id</li>
+<li class="">自我 Ego</li>
+<li class="">超我 Superego</li>
+</ul>
+</li>
+<li class="">客观知识世界</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="价值观-什么更重要">价值观: 什么更重要?<a href="https://dzl1943.github.io/blog2/%E4%B8%89%E8%A7%82#%E4%BB%B7%E5%80%BC%E8%A7%82-%E4%BB%80%E4%B9%88%E6%9B%B4%E9%87%8D%E8%A6%81" class="hash-link" aria-label="价值观: 什么更重要?的直接链接" title="价值观: 什么更重要?的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">自由<!-- -->
+<ul>
+<li class="">健康</li>
+<li class="">知识</li>
+<li class="">财富</li>
+<li class="">权力</li>
+</ul>
+</li>
+<li class="">幸福</li>
+<li class="">功名</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="人生观-人生如何选择">人生观: 人生如何选择?<a href="https://dzl1943.github.io/blog2/%E4%B8%89%E8%A7%82#%E4%BA%BA%E7%94%9F%E8%A7%82-%E4%BA%BA%E7%94%9F%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9" class="hash-link" aria-label="人生观: 人生如何选择?的直接链接" title="人生观: 人生如何选择?的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">人格：成为怎样的人</li>
+<li class="">志趣：做什么事情</li>
+<li class="">理想</li>
+</ul>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

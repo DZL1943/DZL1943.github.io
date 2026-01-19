@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-01-19T09:48:00.000Z</updated>
+    <updated>2026-01-19T12:27:42.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[写作要求]]></title>
+        <id>https://dzl1943.github.io/blog/写作要求</id>
+        <link href="https://dzl1943.github.io/blog/写作要求"/>
+        <updated>2026-01-19T12:27:42.000Z</updated>
+        <summary type="html"><![CDATA[- 语言简练]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li class="">语言简练</li>
+<li class="">逻辑清晰</li>
+<li class="">结构完整</li>
+<li class="">内容准确</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vps 节点搭建调研]]></title>
         <id>https://dzl1943.github.io/blog/vps 节点搭建调研</id>
@@ -114,6 +127,7 @@
 <li class="">GTD</li>
 <li class="">AI</li>
 </ul>]]></content>
+        <category label="Obsidian" term="Obsidian"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Obsidian Mobile 远程调试]]></title>
@@ -128,6 +142,7 @@
 <li class="">以 Edge 为例, 打开 <code>edge://inspect/#devices</code>, 找到对应的设备, 点击 inspect, 之后就是熟悉的 DevTools 界面了</li>
 </ol>
 <p><img decoding="async" loading="lazy" src="https://dzl1943.github.io/assets/images/Pasted%20image%2020260118150748-d867a97cd0edb6e7ae5529e43594ee78.png" width="2100" height="1682" class="img_ev3q"></p>]]></content>
+        <category label="Obsidian" term="Obsidian"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus with anyblock]]></title>
@@ -251,6 +266,7 @@
 </ul>
 <p>以及某些插件数据</p>
 <p>实在不行还可以退回到使用独立私有配置</p>]]></content>
+        <category label="Obsidian" term="Obsidian"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[H1、title 和 aliases]]></title>
@@ -275,6 +291,7 @@
 </li>
 </ul>]]></content>
         <category label="markdown" term="markdown"/>
+        <category label="Obsidian" term="Obsidian"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[GitHub 仓库分类]]></title>
@@ -364,7 +381,7 @@
         <title type="html"><![CDATA[Docusaurus with Obsidian]]></title>
         <id>https://dzl1943.github.io/blog/Docusaurus with Obsidian</id>
         <link href="https://dzl1943.github.io/blog/Docusaurus with Obsidian"/>
-        <updated>2026-01-09T11:03:37.000Z</updated>
+        <updated>2026-01-06T10:14:00.000Z</updated>
         <summary type="html"><![CDATA[如何将 Docusaurus 与 Obsidian 协同?]]></summary>
         <content type="html"><![CDATA[<p>如何将 Docusaurus 与 Obsidian 协同?</p>
 <p>如何同时处理 docs 和 blog 两种类型?</p>
@@ -381,6 +398,7 @@
 </ul>
 </li>
 </ul>]]></content>
+        <category label="Obsidian" term="Obsidian"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus首页调整]]></title>
@@ -437,6 +455,7 @@
 </ul>
 <p>如果要在多个标签中匹配呢<br>
 <!-- -->如果 pattern 不止一个呢 如何进行逻辑组合?</p>]]></content>
+        <category label="Obsidian" term="Obsidian"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Git Reset]]></title>
@@ -463,6 +482,21 @@
 </ol>
 <p><a href="https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things" target="_blank" rel="noopener noreferrer" class="">Git - Undoing Things</a></p>]]></content>
         <category label="Git" term="Git"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Obsidian 用户分级]]></title>
+        <id>https://dzl1943.github.io/blog/202511160855</id>
+        <link href="https://dzl1943.github.io/blog/202511160855"/>
+        <updated>2025-11-16T08:55:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 还没有记笔记的意识习惯]]></summary>
+        <content type="html"><![CDATA[<ol>
+<li class="">还没有记笔记的意识习惯</li>
+<li class="">还不了解 markdown, 还在纠结哪个笔记软件更好</li>
+<li class="">还在熟悉 obsidian 主题、插件及周边工具(比如同步)</li>
+<li class="">还在纠结组织结构、笔记方法、工作流</li>
+<li class="">还在 DIY 主题/样式、插件/脚本, 活跃在各大社区、交流群</li>
+</ol>]]></content>
+        <category label="Obsidian" term="Obsidian"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[笔记的目的]]></title>
@@ -621,333 +655,5 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考">参考<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%8F%82%E8%80%83" class="hash-link" aria-label="参考的直接链接" title="参考的直接链接" translate="no">​</a></h2>
 <p><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E4%BC%81%E4%B8%9A100%E5%BC%BA/9835904#4-4" target="_blank" rel="noopener noreferrer" class="">中国互联网企业100强_百度百科</a><br>
 <a href="https://www.qcc.com/bd/3382252b2422bc02625ac8277c243e75.html" target="_blank" rel="noopener noreferrer" class="">2023年度软件和信息技术服务竞争力前百家企业(百强企业)名单-企查查</a></p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[命令行和开发环境配置]]></title>
-        <id>https://dzl1943.github.io/blog/命令行和开发环境配置</id>
-        <link href="https://dzl1943.github.io/blog/命令行和开发环境配置"/>
-        <updated>2025-10-22T11:19:35.000Z</updated>
-        <summary type="html"><![CDATA[基础]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="基础">基础<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%9F%BA%E7%A1%80" class="hash-link" aria-label="基础的直接链接" title="基础的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">包管理器<!-- -->
-<ul>
-<li class="">Homebrew <code>eval "$(/opt/homebrew/bin/brew shellenv)"</code></li>
-<li class="">apt</li>
-<li class="">yum/dnf</li>
-<li class="">pacman</li>
-<li class="">zypper</li>
-<li class="">nix</li>
-</ul>
-</li>
-<li class="">Shell<!-- -->
-<ul>
-<li class=""><code>~/.alias</code></li>
-<li class=""><code>~/.env</code></li>
-<li class="">Starship <code>eval "$(starship init zsh)"</code></li>
-<li class="">Bash <code>~/{.profile,.bash_profile,.bashrc}</code></li>
-<li class="">Zsh <code>~/{.zshenv,.zprofile,.zshrc}</code>
-<ul>
-<li class="">OhMyZsh</li>
-</ul>
-</li>
-<li class="">Fish <code>~/.config/fish/config.fish</code></li>
-<li class="">Xonsh</li>
-<li class="">Nushell</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">命令<!-- -->
-<ul>
-<li class="">替代<!-- -->
-<ul>
-<li class="">zoxide <code>eval "$(zoxide init zsh)"</code></li>
-<li class="">lsd/eza</li>
-<li class="">bat</li>
-<li class="">fd</li>
-<li class="">fzf <code>source &lt;(fzf --zsh)</code></li>
-<li class="">ripgrep</li>
-<li class="">duf</li>
-<li class="">dust</li>
-<li class="">btop</li>
-<li class="">procs</li>
-<li class="">mcfly <code>eval "$(mcfly init zsh)"</code></li>
-<li class="">tealdeer</li>
-<li class=""><a href="https://hasseg.org/trash/" target="_blank" rel="noopener noreferrer" class="">trash</a></li>
-</ul>
-</li>
-<li class="">GNU 系列 <code>export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"</code>
-<ul>
-<li class="">coreutils</li>
-<li class="">binutils</li>
-<li class="">inetutils</li>
-<li class="">findutils</li>
-<li class="">grep</li>
-<li class="">gawk</li>
-<li class="">gnu-sed</li>
-<li class="">gnu-tar</li>
-<li class="">gnu-which</li>
-<li class="">wget</li>
-</ul>
-</li>
-<li class="">补充<!-- -->
-<ul>
-<li class="">rename</li>
-<li class="">rsync</li>
-<li class="">jq</li>
-<li class="">httpie</li>
-<li class="">glow</li>
-<li class="">pandoc</li>
-<li class="">moreutils</li>
-<li class="">sysstat</li>
-</ul>
-</li>
-<li class="">macOS<!-- -->
-<ul>
-<li class="">mas</li>
-<li class="">blueutil</li>
-<li class="">smartmontools</li>
-<li class="">sleepwatcher</li>
-<li class="">watchman</li>
-<li class="">duti</li>
-<li class="">bclm</li>
-<li class="">lporg</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="">终端<!-- -->
-<ul>
-<li class="">tmux <code>~/.tmux.conf</code></li>
-<li class="">Zellij <code>~/.config/zellij</code></li>
-<li class="">Kitty <code>~/.config/kitty/kitty.conf</code></li>
-<li class="">Ghostty <code>~/.config/ghostty/config</code></li>
-<li class="">Alacritty <code>~/.config/alacritty/alacritty.yml</code></li>
-<li class="">iTerm <code>~/Library/Preferences/com.googlecode.iterm2.plist, ~/Library/Application Support/iTerm2/DynamicProfiles/Profiles.json</code><br>
-<!-- -->自带的主题不好看, <a href="https://iterm2colorschemes.com/" target="_blank" rel="noopener noreferrer" class="">Iterm Themes - Color Schemes and Themes for Iterm2</a></li>
-<li class="">Warp</li>
-</ul>
-</li>
-<li class="">编辑器<!-- -->
-<ul>
-<li class="">Helix <code>~/.config/helix/</code></li>
-<li class="">Vim <code>~/.vimrc</code> %% macOS 自带的 vim 不支持 python3 %%</li>
-<li class="">Neovim <code>~/.config/nvim/</code></li>
-<li class="">Emacs <code>~/.emacs.d/</code></li>
-<li class="">VSCode <code>~/Library/Application Support/Code/User/, ~/.vscode/</code></li>
-<li class="">Zed <code>~/.config/zed/</code></li>
-</ul>
-</li>
-<li class="">文件管理器<!-- -->
-<ul>
-<li class="">Yazi <code>~/.config/yazi/</code></li>
-<li class="">Superfile</li>
-</ul>
-</li>
-<li class="">dotfiles 管理<!-- -->
-<ul>
-<li class=""><a href="https://www.gnu.org/software/stow/" target="_blank" rel="noopener noreferrer" class="">stow</a></li>
-<li class=""><a href="https://github.com/lra/mackup" target="_blank" rel="noopener noreferrer" class="">mackup</a></li>
-<li class=""><a href="https://chezmoi.io/" target="_blank" rel="noopener noreferrer" class="">chezmoi</a></li>
-<li class="">dotbot</li>
-</ul>
-</li>
-<li class="">VCS<!-- -->
-<ul>
-<li class="">Git <code>~/.gitconfig</code></li>
-<li class="">Lazygit</li>
-<li class="">Jujutsu</li>
-<li class="">gh</li>
-<li class="">GitHub Desktop</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="开发">开发<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%BC%80%E5%8F%91" class="hash-link" aria-label="开发的直接链接" title="开发的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">通用<!-- -->
-<ul>
-<li class="">asdf</li>
-<li class="">mise</li>
-<li class="">tree-sitter-cli</li>
-</ul>
-</li>
-<li class="">C/C++</li>
-<li class="">Python<!-- -->
-<ul>
-<li class="">pip <code>~/.config/pip/pip.conf</code><br>
-<a href="https://mirrors.tuna.tsinghua.edu.cn/help/pypi/" target="_blank" rel="noopener noreferrer" class="">pypi | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror</a></li>
-<li class="">conda/mamba/micromamba <code>~/.condarc</code></li>
-<li class="">pixi</li>
-<li class="">uv</li>
-<li class="">ruff</li>
-<li class="">pyright/basedpyright</li>
-<li class="">jupyterlab/notebook</li>
-</ul>
-</li>
-<li class="">JavaScript<!-- -->
-<ul>
-<li class="">node</li>
-<li class="">deno</li>
-<li class="">bun</li>
-<li class="">nvm</li>
-<li class="">npm/yarn/pnpm <code>~/.npmrc</code></li>
-</ul>
-</li>
-<li class="">Java<!-- -->
-<ul>
-<li class="">JDK<br>
-<code>{shell} sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk; echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' &gt;&gt; ~/.zshrc; export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"</code>
-<ul>
-<li class="">openjdk</li>
-<li class=""><a href="https://bell-sw.com/pages/downloads/" target="_blank" rel="noopener noreferrer" class="">https://bell-sw.com/pages/downloads/</a></li>
-<li class=""><a href="https://adoptium.net/zh-CN/temurin/releases/" target="_blank" rel="noopener noreferrer" class="">https://adoptium.net/zh-CN/temurin/releases/</a></li>
-<li class=""><a href="https://www.azul.com/downloads/?package=jdk#zulu" target="_blank" rel="noopener noreferrer" class="">https://www.azul.com/downloads/?package=jdk#zulu</a></li>
-<li class=""><a href="https://www.oracle.com/cn/java/technologies/downloads/" target="_blank" rel="noopener noreferrer" class="">https://www.oracle.com/cn/java/technologies/downloads/</a></li>
-</ul>
-</li>
-<li class="">maven</li>
-<li class="">gradle</li>
-</ul>
-</li>
-<li class="">Rust<!-- -->
-<ul>
-<li class="">rustup <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code></li>
-<li class="">cargo <code>~/.cargo/config.toml</code></li>
-<li class="">rust-analyzer</li>
-</ul>
-</li>
-<li class="">Go</li>
-<li class="">Elixir</li>
-<li class="">Haskell</li>
-<li class="">Scala<!-- -->
-<ul>
-<li class="">coursier</li>
-<li class="">sbt <code>~/.sbt/</code></li>
-</ul>
-</li>
-<li class="">Clojure<!-- -->
-<ul>
-<li class="">Leiningen</li>
-</ul>
-</li>
-<li class="">Lisp<!-- -->
-<ul>
-<li class="">sbcl</li>
-<li class="">guile</li>
-<li class="">racket</li>
-</ul>
-</li>
-<li class="">Lua<!-- -->
-<ul>
-<li class="">luarocks</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="运维">运维<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E8%BF%90%E7%BB%B4" class="hash-link" aria-label="运维的直接链接" title="运维的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">android-platform-tools</li>
-<li class="">scrcpy</li>
-<li class="">mitmproxy</li>
-<li class="">Whistle</li>
-<li class="">Ansible</li>
-<li class="">Docker</li>
-<li class="">OrbStack <code>~/.orbstack/config/docker.json</code></li>
-<li class="">redis</li>
-<li class="">postgresql</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他">其他<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%85%B6%E4%BB%96" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">Firefox <code>~/Library/Application Support/Firefox/Profiles/</code></li>
-<li class="">Sogou <code>~/Library/Application Support/Sogou/InputMethod/SogouPY/symbolSubsitute.plist</code></li>
-<li class="">Rime <code>~/Library/Rime/</code></li>
-<li class="">Fcitx5 <code>~/.config/fcitx5/, ~/.local/share/fcitx5/</code></li>
-<li class="">Espanso</li>
-<li class="">Input Source Pro</li>
-<li class="">Hammerspoon <code>~/.hammerspoon/</code></li>
-<li class="">Raycast <code>~/.config/raycast/</code></li>
-<li class="">Karabiner <code>~/.config/karabiner/</code></li>
-<li class="">mac-mouse-fix <code>~/Library/Application Support/com.nuebling.mac-mouse-fix/config.plist</code></li>
-<li class="">BetterAndBetter</li>
-<li class="">xGestures <code>~/Library/Preferences/what.xGestures.plist</code></li>
-<li class="">Stats</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[obsidian 日记组织方式探究]]></title>
-        <id>https://dzl1943.github.io/blog/obsidian 日记组织方式探究</id>
-        <link href="https://dzl1943.github.io/blog/obsidian 日记组织方式探究"/>
-        <updated>2025-10-11T05:19:00.000Z</updated>
-        <summary type="html"><![CDATA[按周期]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按周期">按周期<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="按周期的直接链接" title="按周期的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">Daily/</li>
-<li class="">Weekly/</li>
-<li class="">Monthly/</li>
-<li class="">Quarterly/</li>
-<li class="">Yearly/</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年份">按年份<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4%E4%BB%BD" class="hash-link" aria-label="按年份的直接链接" title="按年份的直接链接" translate="no">​</a></h2>
-<p>%% moment 格式 %%</p>
-<ul>
-<li class="">YYYY/<!-- -->
-<ul>
-<li class="">YYYY-MM-DD</li>
-<li class="">GGGG-[W]WW</li>
-<li class="">YYYY-MM</li>
-<li class="">YYYY-[Q]Q</li>
-<li class="">YYYY</li>
-</ul>
-</li>
-</ul>
-<p>%% luxon 格式 %%</p>
-<ul>
-<li class="">yyyy/<!-- -->
-<ul>
-<li class="">yyyy-MM-dd</li>
-<li class="">kkkk-'W'WW</li>
-<li class="">yyyy-MM</li>
-<li class="">yyyy-'Q'q</li>
-<li class="">yyyy</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年份和周期">按年份和周期<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4%E4%BB%BD%E5%92%8C%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="按年份和周期的直接链接" title="按年份和周期的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年-季-月-周-日">按年-季-月-周-日<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4-%E5%AD%A3-%E6%9C%88-%E5%91%A8-%E6%97%A5" class="hash-link" aria-label="按年-季-月-周-日的直接链接" title="按年-季-月-周-日的直接链接" translate="no">​</a></h2>
-<p>方案一</p>
-<ul>
-<li class="">年<!-- -->
-<ul>
-<li class="">季<!-- -->
-<ul>
-<li class="">月<!-- -->
-<ul>
-<li class="">日</li>
-</ul>
-</li>
-<li class="">周</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>方案二</p>
-<ul>
-<li class="">年<!-- -->
-<ul>
-<li class="">季<!-- -->
-<ul>
-<li class="">周</li>
-</ul>
-</li>
-<li class="">月<!-- -->
-<ul>
-<li class="">日</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>]]></content>
     </entry>
 </feed>

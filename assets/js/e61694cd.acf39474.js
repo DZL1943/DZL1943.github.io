@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[21885],{90259(a){a.exports=JSON.parse('{"tags":[{"label":"excalidraw","permalink":"/blog2/tags/excalidraw","count":1}]}')}}]);
