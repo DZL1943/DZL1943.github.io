@@ -94,64 +94,7 @@
 <li class="">打开 obsidian</li>
 <li class="">以 Edge 为例, 打开 <code>edge://inspect/#devices</code>, 找到对应的设备, 点击 inspect, 之后就是熟悉的 DevTools 界面了</li>
 </ol>
-<p><img decoding="async" loading="lazy" src="https://dzl1943.github.io/assets/images/Pasted%20image%2020260118150748-d867a97cd0edb6e7ae5529e43594ee78.png" width="2100" height="1682" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ui">ui<a href="https://dzl1943.github.io/blog/Obsidian%20Mobile%20%E8%BF%9C%E7%A8%8B%E8%B0%83%E8%AF%95#ui" class="hash-link" aria-label="ui的直接链接" title="ui的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">horizontal-main-container<!-- -->
-<ul>
-<li class="">workspace<!-- -->
-<ul>
-<li class="">workspace-drawer</li>
-<li class="">workspace-split<!-- -->
-<ul>
-<li class="">workspace-tabs<!-- -->
-<ul>
-<li class="">workspace-tab-header-container</li>
-<li class="">workspace-tab-container<!-- -->
-<ul>
-<li class="">workspace-leaf<!-- -->
-<ul>
-<li class="">workspace-leaf-content<!-- -->
-<ul>
-<li class="">view-header<!-- -->
-<ul>
-<li class="">view-header-left</li>
-<li class="">view-header-title-container</li>
-<li class="">view-actions</li>
-</ul>
-</li>
-<li class="">view-content<!-- -->
-<ul>
-<li class="">markdown-source-view<!-- -->
-<ul>
-<li class="">cm-editor</li>
-</ul>
-</li>
-<li class="">markdown-reading-view<!-- -->
-<ul>
-<li class="">markdown-preview-view</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="">workspace-drawer</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="">status-bar</li>
-<li class="">mobile-navbar</li>
-</ul>]]></content:encoded>
+<p><img decoding="async" loading="lazy" src="https://dzl1943.github.io/assets/images/Pasted%20image%2020260118150748-d867a97cd0edb6e7ae5529e43594ee78.png" width="2100" height="1682" class="img_ev3q"></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Docusaurus with anyblock]]></title>
