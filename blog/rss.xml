@@ -38,8 +38,7 @@
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="基础配置">基础配置<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE" class="hash-link" aria-label="基础配置的直接链接" title="基础配置的直接链接" translate="no">​</a></h2>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="节点部署">节点部署<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E8%8A%82%E7%82%B9%E9%83%A8%E7%BD%B2" class="hash-link" aria-label="节点部署的直接链接" title="节点部署的直接链接" translate="no">​</a></h2>
-<p><a href="https://github.com/vaxilu/x-ui" target="_blank" rel="noopener noreferrer" class="">https://github.com/vaxilu/x-ui</a><br>
-<a href="https://github.com/MHSanaei/3x-ui" target="_blank" rel="noopener noreferrer" class="">https://github.com/MHSanaei/3x-ui</a></p>
+<p><a href="https://github.com/MHSanaei/3x-ui" target="_blank" rel="noopener noreferrer" class="">https://github.com/MHSanaei/3x-ui</a></p>
 <table><thead><tr><th>场景</th><th>推荐搭配</th></tr></thead><tbody><tr><td>快速部署</td><td>X-ui + VLESS + Reality（无需证书/域名）</td></tr><tr><td>长期稳定 + 加速</td><td>X-ui + VLESS + WS + TLS + CF（需证书/域名）</td></tr></tbody></table>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="客户端软件">客户端软件<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%BD%AF%E4%BB%B6" class="hash-link" aria-label="客户端软件的直接链接" title="客户端软件的直接链接" translate="no">​</a></h2>]]></content:encoded>
         </item>
@@ -417,6 +416,28 @@
 但论深度定制能力, Emacs 更强?</p>
 <p>简而言之, Vim 是一个编辑器, Emacs 则是一整套文本处理系统.</p>
 <p>Emacs 成也 Lisp, 败也 Lisp.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[多级标签的匹配问题]]></title>
+            <link>https://dzl1943.github.io/blog/202512211629</link>
+            <guid>https://dzl1943.github.io/blog/202512211629</guid>
+            <pubDate>Sun, 21 Dec 2025 16:29:00 GMT</pubDate>
+            <description><![CDATA[对于简单的 pattern, 只要匹配多级标签中的某个即可]]></description>
+            <content:encoded><![CDATA[<p>对于简单的 pattern, 只要匹配多级标签中的某个即可<br>
+<!-- -->例如对于 a/b/c/d, a、b、c、d 均可匹配</p>
+<p>对于多级 pattern, 只要匹配多级标签中的一个连续部分即可<br>
+<!-- -->例如对于 a/b/c/d, a/b、b/c、c/d 均可匹配</p>
+<p>实现方法</p>
+<ul>
+<li class="">正则法<!-- -->
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">hasTag</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">tags</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> pattern</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> regex </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">RegExp</span><span class="token punctuation" style="color:#393A34">(</span><span class="token template-string template-punctuation string" style="color:#e3116c">`</span><span class="token template-string string" style="color:#e3116c">(^|/)</span><span class="token template-string interpolation interpolation-punctuation punctuation" style="color:#393A34">${</span><span class="token template-string interpolation">pattern</span><span class="token template-string interpolation punctuation" style="color:#393A34">.</span><span class="token template-string interpolation method function property-access" style="color:#d73a49">replace</span><span class="token template-string interpolation punctuation" style="color:#393A34">(</span><span class="token template-string interpolation operator" style="color:#393A34">/</span><span class="token template-string interpolation punctuation" style="color:#393A34">[</span><span class="token template-string interpolation punctuation" style="color:#393A34">.</span><span class="token template-string interpolation operator" style="color:#393A34">*</span><span class="token template-string interpolation operator" style="color:#393A34">+</span><span class="token template-string interpolation operator" style="color:#393A34">?</span><span class="token template-string interpolation operator" style="color:#393A34">^</span><span class="token template-string interpolation">$</span><span class="token template-string interpolation punctuation" style="color:#393A34">{</span><span class="token template-string interpolation punctuation" style="color:#393A34">}</span><span class="token template-string interpolation punctuation" style="color:#393A34">(</span><span class="token template-string interpolation punctuation" style="color:#393A34">)</span><span class="token template-string interpolation operator" style="color:#393A34">|</span><span class="token template-string interpolation punctuation" style="color:#393A34">[</span><span class="token template-string interpolation">\</span><span class="token template-string interpolation punctuation" style="color:#393A34">]</span><span class="token template-string interpolation">\</span><span class="token template-string interpolation punctuation" style="color:#393A34">]</span><span class="token template-string interpolation operator" style="color:#393A34">/</span><span class="token template-string interpolation">g</span><span class="token template-string interpolation punctuation" style="color:#393A34">,</span><span class="token template-string interpolation"> </span><span class="token template-string interpolation string" style="color:#e3116c">'\$&amp;'</span><span class="token template-string interpolation punctuation" style="color:#393A34">)</span><span class="token template-string interpolation interpolation-punctuation punctuation" style="color:#393A34">}</span><span class="token template-string string" style="color:#e3116c">(/|$)</span><span class="token template-string template-punctuation string" style="color:#e3116c">`</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> tags</span><span class="token operator" style="color:#393A34">?.</span><span class="token method function property-access" style="color:#d73a49">some</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">tag</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> regex</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">test</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tag</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">??</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">false</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+</li>
+<li class="">集合法: 拆分各个部分, 并构造所有可能的组合<!-- -->
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// 带缓存的版本</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> tagPartsCache </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">WeakMap</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">getTagParts</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">tags</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">if</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token operator" style="color:#393A34">!</span><span class="token plain">tags</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">Set</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">if</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tagPartsCache</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">has</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tags</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> tagPartsCache</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">get</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tags</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> parts </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">Set</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">for</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> tag </span><span class="token keyword" style="color:#00009f">of</span><span class="token plain"> tags</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> segments </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tag</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">split</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'/'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token keyword control-flow" style="color:#00009f">for</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token keyword" style="color:#00009f">let</span><span class="token plain"> i </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> i </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain"> segments</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">length</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> i</span><span class="token operator" style="color:#393A34">++</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token keyword control-flow" style="color:#00009f">for</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token keyword" style="color:#00009f">let</span><span class="token plain"> j </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> i</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> j </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain"> segments</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">length</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> j</span><span class="token operator" style="color:#393A34">++</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                </span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> subPath </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> segments</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">slice</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">i</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> j </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">join</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'/'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                parts</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">add</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">subPath</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    tagPartsCache</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">set</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tags</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> parts</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> parts</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+</li>
+</ul>
+<p>如果要在多个标签中匹配呢<br>
+<!-- -->如果 pattern 不止一个呢 如何进行逻辑组合?</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Git Reset]]></title>
@@ -929,116 +950,6 @@
 </ul>
 </li>
 </ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[obsidian wiki 链接尝试]]></title>
-            <link>https://dzl1943.github.io/blog/obsidian wiki 链接尝试</link>
-            <guid>https://dzl1943.github.io/blog/obsidian wiki 链接尝试</guid>
-            <pubDate>Sat, 20 Sep 2025 16:20:00 GMT</pubDate>
-            <description><![CDATA[对于 Obsidian 的用法, 目前主要可以归为两大阵营:]]></description>
-            <content:encoded><![CDATA[<p>对于 Obsidian 的用法, 目前主要可以归为两大阵营:</p>
-<ul>
-<li class="">传统阵营: md 链接 + 文件夹 %% 兼容性好, 稳定可控, 缺点是需要自顶向下设计, 灵活性差 %%</li>
-<li class="">原生阵营: wiki 链接 + 双链 %% 兼容性一般, 不易于掌控, 优点是自底向上, 灵活性高 %%<!-- -->
-<ul>
-<li class="">数据库 %% 我发现 bases 其实就是文件夹的一种替代. 而且分类信息本就应该由笔记自身持有. %%</li>
-</ul>
-</li>
-</ul>
-<p>很多人可能会反驳说 wiki 链接 + 文件夹也是不冲突的.<br>
-<!-- -->但是, 如果我要求链接的类型是 shortest 呢<br>
-<!-- -->假如使用文件夹</p>
-<ul>
-<li class="">如果存在冲突, 那么链接必然退化为路径</li>
-<li class="">如果不存在冲突, 又何必要用? 而且破坏了链接与相对路径的等价.</li>
-</ul>
-<p>那不用文件夹, 用什么?<br>
-<!-- -->用属性和双链. %% 注意: 这得在你取消文件夹之前完成 %%<br>
-<!-- -->写在笔记的属性里, 比如 Categories. %% 不就相当于标签吗 %%</p>
-<p>Minimal 主题作者、Obsidian CEO 的用法: <a href="https://stephango.com/vault" target="_blank" rel="noopener noreferrer" class="">How I use Obsidian — Steph Ango</a></p>
-<ul>
-<li class="">Daily: 每日笔记, 纯链接用</li>
-<li class=""><del>Categories</del>: MOC? 可以通过 <code>categories.contains(link("xxx"))</code> 在 Base 中过滤 %% 记不住有哪些 categories 怎么办? 不过感觉用来管理 jottings 还是可以的 %%</li>
-<li class=""><del>Notes</del>: 实际实践中会和 Categories 中的内容一并置于根目录下 %% 我觉得或许有必要区分正式的和非正式的(闪念) %%</li>
-<li class="">References: where I write about things that exist outside my world? %% 相当于 PARA 中的 Resources %%</li>
-<li class="">Clippings: 剪藏摘录(其他人写的内容)</li>
-<li class="">Attachments: 附件(图片、音频、视频、PDF 等)</li>
-<li class="">Templates<!-- -->
-<ul>
-<li class="">Bases</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>[!note]+ 意见和想法补充</p>
-<ul>
-<li class="">inbox、archives 由 status 字段实现 (不方便用 git 管理)</li>
-<li class="">canvas、excalidraw 存放位置?</li>
-<li class="">增加 Scripts 目录存放 Templater、QuickAdd 等脚本文件</li>
-<li class="">相比 PARA 如何?</li>
-</ul>
-</blockquote>
-<p>属性和模板</p>
-<hr>
-<p>如何实施、过渡?</p>
-<ol>
-<li class="">调整顶层目录结构, 从 Pages 拆分出 References (或者反向操作)</li>
-<li class="">针对每个现有文件夹<!-- -->
-<ol>
-<li class="">建立类似 foldernote 的 moc, 并关联到上级 moc</li>
-<li class="">调整笔记内容, 给现有笔记添加分类属性和值</li>
-<li class="">拆除文件夹</li>
-</ol>
-</li>
-<li class="">更改链接格式</li>
-</ol>
-<h1>后记</h1>
-<p>[question+ Pages 中剩下的内容如何组织?]</p>
-<ul>
-<li class="">感觉 Jottings 有点多余?</li>
-<li class="">References 的主观部分有待商榷. 可能只适用纯知识类的, 主题经验类的不太合适.</li>
-</ul>
-<p>[note+ before]</p>
-<ul>
-<li class="">Pages: 所有内容统一在一起, 用文件夹分类. 缺点是不太能够区分纯参考性的笔记和个人原创性笔记.</li>
-</ul>
-<p>[note+ after]</p>
-<ul>
-<li class="">Pages: 仅保留个人笔记</li>
-<li class="">Thoughts: 思想认知类笔记</li>
-<li class="">References: 参考性笔记(不排除包含主观部分)</li>
-</ul>
-<p>::: note+ full</p>
-<p>[list2dt]</p>
-<ul>
-<li class="">Inbox/ | 临时文件 (同步, 私有)<!-- -->
-<ul>
-<li class="">Local/ | 本地文件 (不同步)</li>
-</ul>
-</li>
-<li class="">Journals/ | 日记等</li>
-<li class="">Jottings/ | 非正式笔记、闪念</li>
-<li class="">Pages/ | 个人笔记? 排除参考性笔记、思想笔记</li>
-<li class="">Thoughts/ | 思想认知类 (不同于简单的 opinion)</li>
-<li class="">References/ | 参考性笔记(不排除包含主观成分)</li>
-<li class="">Clippings/ | 剪藏</li>
-<li class="">Attachments/ | 附件</li>
-<li class="">Templates/ | 模板</li>
-<li class="">Misc/ | 其他</li>
-<li class="">Ext/ | 外部链接文件</li>
-</ul>
-<p>:::</p>
-<p>::: note+ vs PARA</p>
-<ul>
-<li class="">Projects: 用 Inbox 兼替</li>
-<li class="">Areas: 相当于 Pages + Thoughts</li>
-<li class="">Resources: 相当于 References + Clippings</li>
-<li class="">Archives</li>
-</ul>
-<p>缺失 Jottings</p>
-<p>:::</p>
-<p>本质上还是笔记分类的问题<br>
-<!-- -->只有先解决了笔记分类的问题才能进一步决定笔记的组织结构.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
