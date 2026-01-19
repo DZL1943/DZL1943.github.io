@@ -4,10 +4,45 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Sun, 18 Jan 2026 18:46:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jan 2026 09:48:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[vps 节点搭建调研]]></title>
+            <link>https://dzl1943.github.io/blog/vps 节点搭建调研</link>
+            <guid>https://dzl1943.github.io/blog/vps 节点搭建调研</guid>
+            <pubDate>Mon, 19 Jan 2026 09:48:00 GMT</pubDate>
+            <description><![CDATA[起源]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="起源">起源<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E8%B5%B7%E6%BA%90" class="hash-link" aria-label="起源的直接链接" title="起源的直接链接" translate="no">​</a></h2>
+<p>想更加稳定地使用国外 AI (gpt、gemini、claude、grok), 受够了国内的智障废物 (deepseek、千问、豆包、kimi).</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="思路">思路<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E6%80%9D%E8%B7%AF" class="hash-link" aria-label="思路的直接链接" title="思路的直接链接" translate="no">​</a></h2>
+<p>首先排除第三方代理软件.</p>
+<p>机场 or 自建节点?</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="vps">vps<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#vps" class="hash-link" aria-label="vps的直接链接" title="vps的直接链接" translate="no">​</a></h2>
+<p>vps 简单理解就是云服务器, 当然肯定是虚拟化之后的.</p>
+<p>主流供应商</p>
+<ul>
+<li class="">搬瓦工(BandwagonHost)</li>
+<li class="">Vultr</li>
+<li class="">CloudCone</li>
+</ul>
+<p>考虑因素</p>
+<ul>
+<li class="">性价比 (性能、带宽、流量)</li>
+<li class="">可靠性 (位置、ip)</li>
+</ul>
+<p>参考</p>
+<ul>
+<li class=""><a href="https://vpshub.org/zh/" target="_blank" rel="noopener noreferrer" class="">https://vpshub.org/zh/</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="基础配置">基础配置<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE" class="hash-link" aria-label="基础配置的直接链接" title="基础配置的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="节点部署">节点部署<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E8%8A%82%E7%82%B9%E9%83%A8%E7%BD%B2" class="hash-link" aria-label="节点部署的直接链接" title="节点部署的直接链接" translate="no">​</a></h2>
+<p><a href="https://github.com/vaxilu/x-ui" target="_blank" rel="noopener noreferrer" class="">https://github.com/vaxilu/x-ui</a><br>
+<a href="https://github.com/MHSanaei/3x-ui" target="_blank" rel="noopener noreferrer" class="">https://github.com/MHSanaei/3x-ui</a></p>
+<table><thead><tr><th>场景</th><th>推荐搭配</th></tr></thead><tbody><tr><td>快速部署</td><td>X-ui + VLESS + Reality（无需证书/域名）</td></tr><tr><td>长期稳定 + 加速</td><td>X-ui + VLESS + WS + TLS + CF（需证书/域名）</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="客户端软件">客户端软件<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%BD%AF%E4%BB%B6" class="hash-link" aria-label="客户端软件的直接链接" title="客户端软件的直接链接" translate="no">​</a></h2>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[极简 Obsidian]]></title>
             <link>https://dzl1943.github.io/blog/极简 Obsidian</link>
@@ -1004,76 +1039,6 @@
 <p>:::</p>
 <p>本质上还是笔记分类的问题<br>
 <!-- -->只有先解决了笔记分类的问题才能进一步决定笔记的组织结构.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[obsidian 目录排序]]></title>
-            <link>https://dzl1943.github.io/blog/obsidian 目录排序</link>
-            <guid>https://dzl1943.github.io/blog/obsidian 目录排序</guid>
-            <pubDate>Fri, 19 Sep 2025 21:50:00 GMT</pubDate>
-            <description><![CDATA[引言]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="引言">引言<a href="https://dzl1943.github.io/blog/obsidian%20%E7%9B%AE%E5%BD%95%E6%8E%92%E5%BA%8F#%E5%BC%95%E8%A8%80" class="hash-link" aria-label="引言的直接链接" title="引言的直接链接" translate="no">​</a></h2>
-<p>众所周知, 在 obsidian 中的目录和文件(以下简称目录或文件)默认是没办法自定义排序的.<br>
-<!-- -->毕竟在系统层面也是如此.</p>
-<p>目前应用内的解决方案大体上分两种</p>
-<ul>
-<li class="">为自带的"文件列表"开发排序插件. 例如<!-- -->
-<ul>
-<li class="">Manual Sorting</li>
-<li class="">Custom File Explorer sorting</li>
-</ul>
-</li>
-<li class="">开发一个"文件列表"的替代品, 包含自定义排序功能. 例如<!-- -->
-<ul>
-<li class="">File Tree Alternative %% 一年以上未更新, 有一些问题, 功能一般, 兼容性还行 %%</li>
-<li class="">MAKE.md %% 主打 database, 功能过于庞杂 %%</li>
-<li class="">FolderFile Splitter %% 功能较少, 兼容性不足 %%</li>
-<li class="">Notebook Navigator %% 功能相对全面, 兼容性待提升 %%</li>
-</ul>
-</li>
-</ul>
-<p>这两种方案几乎是不相容的.</p>
-<p>所以, 对命名进行编号几乎是唯一可行的方案, 也是通用性最好的方案.</p>
-<p>但是改变命名会牵扯到很多配置的修改.<br>
-<!-- -->并且通常我们还期望一套配置能够适用多个场景而无需变动.</p>
-<p>所以, 这对我们的命名方案有极高要求.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="编号命名排序法">编号命名排序法<a href="https://dzl1943.github.io/blog/obsidian%20%E7%9B%AE%E5%BD%95%E6%8E%92%E5%BA%8F#%E7%BC%96%E5%8F%B7%E5%91%BD%E5%90%8D%E6%8E%92%E5%BA%8F%E6%B3%95" class="hash-link" aria-label="编号命名排序法的直接链接" title="编号命名排序法的直接链接" translate="no">​</a></h2>
-<p>理论上文件的命名比编程中的命名要宽松一些.<br>
-<!-- -->但为了保证跨平台的一致性, 建议仅用字母和数字(以及<code>_</code>, 仅连接用, 不要纠结其编码排序)</p>
-<p>简化后的排序规则: 数字 &gt; 字母(大写 &gt; 小写, 但通常系统不会区分)</p>
-<ul>
-<li class="">00~9z<!-- -->
-<ul>
-<li class="">00~0z</li>
-<li class="">10~8z</li>
-<li class="">90~9z</li>
-</ul>
-</li>
-<li class="">a0~zz %% 不稳定 %%</li>
-</ul>
-<p>优先保持正常不变. 避免数字、字母选择的随意性, 并尽可能预留冲突扩展空间.</p>
-<p>需求实例:</p>
-<ol>
-<li class="">00_Inbox: 置顶?</li>
-<li class="">a0_Private</li>
-<li class="">b0_Jottings</li>
-<li class="">c0_Pages</li>
-<li class="">z6_Projects</li>
-<li class="">z7_Areas</li>
-<li class="">z8_Resources</li>
-<li class="">z9_Archives: 置底但需与 P.A.R.A. 一起 %% 为什么不能用 9x, 因为那样的话前面就只能是数字开头了 %%</li>
-<li class="">zz_Misc: 置底</li>
-<li class="">Ext: 置底?</li>
-</ol>
-<p>最终的修改与效果</p>
-<ul>
-<li class="">_Inbox: 移除了编号, 使其更加简洁稳定, 同时尽可能置顶(<code>_</code>可以确定在小写字母之前, 在<strong>自然排序</strong>下能在数字之前)</li>
-<li class="">01_Private: 为了超过 Archives, 只能改用数字, 并且为了不影响其他已有编号, 限定在 0 开头内(牺牲了扩展空间)</li>
-<li class="">02_Jottings: 同上</li>
-<li class="">03_Pages: 同上</li>
-<li class="">Archives: 因为我不需要完整的 P.A.R.A., 所以这里的简化是 ok 的</li>
-<li class="">Ext</li>
-<li class="">Misc</li>
-</ul>]]></content:encoded>
         </item>
     </channel>
 </rss>
