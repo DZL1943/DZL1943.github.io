@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[21885],{90259(e){e.exports=JSON.parse('{"tags":[{"label":"linker-exclude","permalink":"/blog2/tags/linker-exclude","count":1}]}')}}]);
