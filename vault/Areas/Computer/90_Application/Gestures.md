@@ -12,47 +12,55 @@ excalidraw-plugin: parsed
 
 ## 鼠标手势
 
-%%[lt]%%
-- 左 L | back `cmd+[`
-    - 左右左(S) | `cmd+,`
-    - 左右 | back
-    - 左上 | restore `cmd+z`
-    - 左上右 | split left
-    - 左上左 | zoom-
-    - 左下 | close all `alt+cmd+w`
-    - 左下右(C) | left space `ctrl+left`
-    - 左下左 | prev song
-- 右 R | forward `cmd+]`
-    - 右左右(Z) max `ctrl+cmd+f`
-    - 右左 | forward
-    - 右上 | new `cmd+t`
-    - 右上左 | split right
-    - 右上右 | zoom+
-    - 右下 | **refresh** `cmd+r`
-    - 右下左 | right space `ctrl+right`
-    - 右下右 | next song
-- 上 U | top `fn+left`
-    - 上下上(N) | zoom
-    - 上下 | top
-    - 上左 | prev `shift+ctrl+tab`
-    - 上左下 | split down
-    - 上左上 | voice+
-    - 上右 | next `ctrl+tab`
-    - 上右下 | `ctrl+up`
-    - 上右上 | light+
-- 下 D | bottom `fn+right`
-    - 下上下(H) | `cmd+h`
-    - 下上 | bottom
-    - 下左 | quit `cmd+q`
-    - 下左上 | split up
-    - 下左下 | voice-
-    - 下右 | **close** `cmd+w`
-    - 下右上(U) | `ctrl+down`
-    - 下右下 | light-
+%% [lt] %%
+- [x] 左 L
+    - [x] 左右 | back `cmd+[`
+    - [x] 左右左(S) | `cmd+,`
+    - [x] 左右上(◀️) | prev song
+    - [ ] 左右下 | voice-?
+    - [x] 左上 | undo `cmd+z`
+    - [ ] 左上右 | split left?
+    - [ ] 左上左
+    - [x] 左下 | close all `alt+cmd+w`
+    - [x] 左下右(\[) | left space `ctrl+left`
+    - [ ] 左下左 | zoom-
+- [x] 右 R
+    - [x] 右左 | forward `cmd+]`
+    - [x] 右左右(Z) | max `ctrl+cmd+f`
+    - [x] 右左上(▶️) | next song
+    - [ ] 右左下 | voice+?
+    - [x] 右上 | new `cmd+t`
+    - [ ] 右上左 | split right?
+    - [ ] 右上右
+    - [x] 右下 | **refresh** `cmd+r`
+    - [x] 右下左(\]) | right space `ctrl+right`
+    - [ ] 右下右 | zoom+
+- [x] 上 U
+    - [x] 上下 | top `fn+left`
+    - [x] 上下上(N) | zoom
+    - [ ] 上下左(🔼) | light+
+    - [ ] 上下右 | un-translate?
+    - [x] 上左 | prev `shift+ctrl+tab`
+    - [ ] 上左下 | split up
+    - [ ] 上左上
+    - [x] 上右 | next `ctrl+tab`
+    - [ ] 上右下 | `ctrl+up`
+    - [ ] 上右上
+- [x] 下 D
+    - [x] 下上 | bottom `fn+right`
+    - [x] 下上下(H) | `cmd+h`
+    - [ ] 下上左(🔽) | light-
+    - [ ] 下上右 | translate?
+    - [x] 下左 | quit `cmd+q`
+    - [ ] 下左上 | split down
+    - [ ] 下左下
+    - [x] 下右 | **close** `cmd+w`
+    - [ ] 下右上(U) | `ctrl+down`
+    - [ ] 下右下
 
 ![0a7f6ad85bc76da7|800](<../../../Attachments/1761259187532-209521.png>)
 
-![1761259187615-818931](<../../../Attachments/1761259187615-818931.png>)
+![](<../../../Attachments/Pasted image 20260124100515.png>)
 
 ## 触摸板手势
 
@@ -67,7 +75,7 @@ excalidraw-plugin: parsed
 | 合拢    | 缩放         | 关闭 tab `cmd+W`<br/>关闭窗口 `opt+cmd+W` | **启动台**                    |
 | 张开    | 缩放         | 退出应用 `cmd+Q`<br/>强制退出 `opt+cmd+esc` | **显示桌面** `F11`             |
 
-![1761259187606-807147](<../../../Attachments/1761259187606-807147.png>)
+![](<../../../Attachments/Pasted image 20260124110228.png>)
 
 ## 软件工具
 
@@ -76,8 +84,8 @@ excalidraw-plugin: parsed
 - [Mos](https://github.com/Caldis/Mos): 一个开源的简单的鼠标滚动优化工具
 - [BetterAndBetter](https://www.better365.cn/bab2.html): 大而全
 - **[xGestures](https://briankendall.net/xGestures/)**: 一个老牌鼠标手势软件, 支持 AppleScript, 特点是支持修饰键控制(按需触发), 不足是不能同时支持右键、中键触发
-- MacGestures
-- MacStroke: 基于 MacGestures 的修改增强
+- MacGesture
+- MacStroke: 基于 MacGesture 的修改增强
 - WGestures2: 一个原 Windows 下的收费手势工具, 现支持了 mac, 功能上看着不错.
 
 > [!tip]+ 用 karabiner 把鼠标中键(button3)改为 shift, 把 xGestures 的修饰键设为 shift, 这样便能最大程度保留 MacMouseFix 功能的同时支持鼠标手势.

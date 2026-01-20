@@ -22,8 +22,6 @@ Bases 是一个 Obsidian 1.9 版本新增的核心插件, 其作用类似 datavi
 
 ## 示例
 
-[Obsidian.base](<Obsidian.base>)
-
 ## 创建
 
 1. 创建 base 文件, 嵌入 `![[File.base#View]]`

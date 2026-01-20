@@ -4,6 +4,7 @@ created: 2025-12-27T23:39
 modified: 2025-12-27T23:52
 url:
   - https://tasknotes.dev
+  - https://taskforge.md/
 tags:
   - Obsidian/Plugins
 ---

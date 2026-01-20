@@ -1,9 +1,13 @@
 ---
+created: 2025-10-24T06:39
+modified: 2026-01-22T19:03
 url:
   - https://fortelabs.com/blog/para/
+draft: true
 ---
 
 <!-- truncate -->
+
 # PARA
 
 [list2table]

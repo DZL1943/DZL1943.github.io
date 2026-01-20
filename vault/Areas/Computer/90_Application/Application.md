@@ -1,8 +1,8 @@
 ---
+title: Application
 created: 2026-01-06T15:07
-modified: 2026-01-11T22:30
-aliases:
-  - 软件
+modified: 2026-01-26T09:44
+aliases: [软件]
 sidebar_position: 1
 ---
 
@@ -13,6 +13,7 @@ sidebar_position: 1
     - Fcitx
     - [Input Source Pro](https://inputsource.pro/)
 - 剪切板 Clipboard
+    - Maccy
 - 触控板 Trackpad
     - [BetterAndBetter](https://www.better365.cn/bab2.html)
 - 鼠标 Mouse
@@ -20,15 +21,21 @@ sidebar_position: 1
     - [xGestures](https://briankendall.net/xGestures/)
 - 键盘 Keyboard
     - Karabiner
+    - KeyCastr
+    - KeyCluCask
 - 快捷启动 Quickstart
     - Raycast
+    - Hammerspoon
 - 窗口管理 Window
     - AeroSpace
     - DockDoor
 - 菜单栏 Menubar
     - Ice
+    - OnlySwitch
+    - Itsycal
 - 显示 Display
     - BetterDisplay
+    - MonitorControl
 - 声音 Voice
     - Background Music
 - 电源 Power
@@ -68,6 +75,8 @@ sidebar_position: 1
     - Syncthing
     - FreeFileSync
     - FolderSync
+- 文件共享 File Sharing
+    - Cyberduck
 - 文件备份 Backup
     - Kopia
 - 加密 Crypto
@@ -97,7 +106,7 @@ sidebar_position: 1
     - 网易邮箱
     - QQ邮箱
 - 待办 GTD
-    - DIDA
+    - 滴答清单
     - Tasks.org
     - Super Productivity
 - 笔记 Note
@@ -136,7 +145,7 @@ sidebar_position: 1
     - [Grok](https://grok.x.ai)
     - [Claude](https://claude.ai)
     - [Qwen](https://www.qianwen.com)
-    - [DeekSeek](https://chat.deepseek.com)
+    - [DeepSeek](https://chat.deepseek.com)
     - [Doubao](https://www.doubao.com)
     - [Kimi](https://www.kimi.com)
     - [GLM](https://chatglm.cn)
@@ -155,7 +164,7 @@ sidebar_position: 1
     - 哔哩哔哩 BiliBili
     - YouTube
 - 音乐 Music
-    - Spotify
+    - Spotify [SpotX](https://github.com/SpotX-Official/SpotX-Bash)
     - Apple Music
 - 播客 Podcast
     - 云听
@@ -165,8 +174,9 @@ sidebar_position: 1
     - 腾讯视频
 - 阅读 Books
     - 微信读书
+    - Z-Library
 - 游戏 Games
-    - Steam
+    - [Steam](https://store.steampowered.com/)
     - Epic
 
 ## 生活 Living
@@ -205,6 +215,7 @@ sidebar_position: 1
 ## 参考 Reference
 
 - 语文 Chinese
+    - [新华字典](https://zidian.gushici.net/)
     - 西窗烛
 - 英语 English
     - GoldenDict
@@ -247,26 +258,48 @@ sidebar_position: 1
     - Final Cut Pro
     - Premiere Pro
     - DaVinci Resolve
+    - Kdenlive
 - 音频 Audio
     - Audition
     - Audacity
     - Logic Pro
-    - 库乐队 GarageBand
+    - GarageBand
 
 ## 工程 Engineering
 
-- 制图 CAD
-    - AutoCAD
-- 机械 Mechanical
-    - SolidWorks
-- 建筑 Architecture
-- 电气 Electrical
-- 仿真 Simulation
-    - ANSYS
-- 计算 Compute
-    - MATLAB
-    - GNU Octave
-    - Wolfram Mathematica
+- CAD
+    - 通用
+        - AutoCAD
+        - LibreCAD
+    - 机械 Mechanical
+        - SolidWorks
+        - Fusion 360
+        - CATIA
+    - 建筑 Architecture
+        - Revit
+        - SketchUp
+    - 电气 Electrical
+        - KiCad
+        - Altium Designer
+- CAE
+    - 仿真 Simulation
+        - ANSYS
+        - COMSOL Multiphysics
+        - Abaqus
+    - 计算 Compute
+        - MATLAB
+        - GNU Octave
+        - Wolfram Mathematica
+- CAM
+    - 数控加工 (CNC)
+        - Mastercam (铣削、车削综合编程)
+        - CAMWorks (基于SolidWorks的集成编程)
+        - Siemens NX CAM (高端多轴与车铣复合编程)
+    - 增材制造 (3D打印)
+        - Ultimaker Cura (主流开源切片软件)
+        - Simplify3D (高级切片与控制软件)
+    - 钣金加工
+        - Radan (专业的钣金设计与制造套件)
 
 ## 开发 Development
 
@@ -313,7 +346,9 @@ sidebar_position: 1
         - Ghidra
         - Radare2
         - Cutter
-- AI
+- AI [Agent Skills Marketplace](https://skillsmp.com/)
+    - Copilot
+    - Gemini
     - Claude Code
     - OpenCode
     - Codex
@@ -324,7 +359,7 @@ sidebar_position: 1
 - Automation
     - Ansible
 - Virtualization & Containerization
-    - QEMU/VirtualBox/VMware
+    - QEMU/VirtualBox/VMware([Workstation](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro)、[Fusion](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion))
     - Docker/Podman
     - Kubernetes
 - Web Sever

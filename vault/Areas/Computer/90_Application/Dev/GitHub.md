@@ -5,7 +5,7 @@ modified: 2026-01-11T22:34
 
 ## Client
 
-- CLI
+- [CLI](https://cli.github.com/manual/gh)
     ```shell
     brew install gh
     
@@ -41,6 +41,30 @@ modified: 2026-01-11T22:34
 - Actions
 - Packages
 - [Pages](https://pages.github.com)
+
+## API
+
+### Search
+
+[搜索的 REST API 端点 - GitHub 文档](https://docs.github.com/zh/rest/search/search?apiVersion=2022-11-28#search-repositories)
+
+[搜索仓库 - GitHub 文档](https://docs.github.com/zh/search-github/searching-on-github/searching-for-repositories)
+
+```shell
+# GitHub CLI api
+# https://cli.github.com/manual/gh_api
+
+gh api \
+  -H "Accept: application/vnd.github+json" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  -X GET \
+  --paginate \
+  /search/repositories \
+  -f q='stars:>=100000 language:python' \
+  -f sort='stars' -f order='desc' -f per_page='100' \
+  | jq -c '.items[] | {full_name, html_url, stars: .stargazers_count}' \
+  #| jq -r '"- [\(.full_name)](\(.html_url)) | \(.stars)"'
+```
 
 ## Tips
 

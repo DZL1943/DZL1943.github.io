@@ -1,10 +1,11 @@
 ---
+title: Obsidian 标注
 created: 2025-05-16T14:02
-modified: 2025-10-08T22:10
-aliases:
-  - Obsidian Callouts
-  - Obsidian 标注
+modified: 2026-01-25T19:43
+aliases: [Obsidian Callouts, Obsidian 标注]
 ---
+
+# Obsidian 标注
 
 > [!quote] 引用
 

@@ -3,6 +3,7 @@ created: 2025-10-08T13:39
 modified: 2025-10-08T13:39
 url:
   - https://obsidian.md/
+sidebar_position: 1
 ---
 
 - 入门 Introduction

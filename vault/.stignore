@@ -22,3 +22,4 @@ files without tags.md
 empty files.md
 
 .obsidian
+.obsidian*/workspace*.json

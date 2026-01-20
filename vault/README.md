@@ -11,4 +11,4 @@ Obsidian 配置以及其他内容无关的公共文件已通过软链接的形�
 
 本库也作为个人 Obsidian 主库, 私人内容通过.gitignore 限制仅在本地.
 
-![Obsidian](<Areas/Computer/90_Application/Obsidian/Obsidian.base>)
+![Obsidian](<Misc/Templates/Obsidian.base>)

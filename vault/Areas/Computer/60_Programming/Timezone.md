@@ -25,3 +25,13 @@ url: [https://www.iana.org/time-zones]
 | UTC+12:00 | 新西兰 奥克兰、惠灵顿 | 次日 00:00 | 实行夏令时,9月-次年4月快1小时. |
 
 GMT ≈ UTC
+
+ISO 8601 `YYYY-MM-DDThh:mm:ss.sss±hh:mm`
+- 13:30+08:00 | **本地时间**+时区标识
+- 05:30Z | 表示 UTC 时间
+
+验证
+
+```js
+new Date("2026-01-21T13:30:00+08:00").toISOString();  // '2026-01-21T05:30:00.000Z'
+```

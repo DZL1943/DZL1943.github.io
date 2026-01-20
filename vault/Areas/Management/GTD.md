@@ -64,6 +64,7 @@ aliases:
         - 延迟 Deferred
         - 某时 Someday/Maybe
         - 远期 Long-term
+        - 搁置 Shelved
     - 重复 Recurrent/Repeated
     - 进行中 In progress/Active/Doing
     - 等待/挂起 Waiting/Pending/Suspended

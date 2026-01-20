@@ -253,6 +253,8 @@ aliases:
 }
 ```
 
+## global-search.json | 搜索
+
 ## graph.json | 图谱
 
 ```json

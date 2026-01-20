@@ -48,7 +48,6 @@ collapse: true
 - [P] float-search
 - [P] floating-toc
 - [P] note-toolbar
-- [X] obsidian-auto-hide
 - [X] obsidian-hover-editor
 - [P] obsidian-style-settings
 
@@ -92,7 +91,7 @@ collapse: true
 ## 备用待定
 
 - Obsidian-sidebar-expand-on-hover-Plus
-- ace-code-editor
+- **ace-code-editor**
 - any-block-pro
 - auto-embed
 - better-search-views
@@ -102,24 +101,24 @@ collapse: true
 - canvas-mindmap
 - cm-chs-patch
 - conditional-properties
-- consistent-attachments-and-links
+- *consistent-attachments-and-links*
 - continuous-mode
 - css-inlay-colors
 - custom-commands
-- custom-theme-studio
-- daily-note-calendar
+- *custom-theme-studio*
+- ~~daily-note-calendar~~
 - daily-notes-editor
-- darlal-switcher-plus
-- datacore
+- *darlal-switcher-plus*
+- *datacore*
 - datepicker
 - drawio-obsidian
-- dust-calendar
+- *dust-calendar*
 - enhanced-annotations
 - extended-graph
 - external-rename-handler
-- file-tree-alternative
+- ~~file-tree-alternative~~
 - fix-require-modules
-- floating-settings
+- *floating-settings*
 - folder-notes
 - frontmatter-modified-date
 - gridexplorer
@@ -131,12 +130,12 @@ collapse: true
 - lineage
 - linked-note-exporter
 - longform
-- make-md
+- *make-md*
 - markdown-table-editor
 - markwhen
-- media-extended
+- *media-extended*
 - mermaid-tools
-- metadata-menu
+- *metadata-menu*
 - modal-opener
 - modalforms
 - mrj-text-expand
@@ -145,42 +144,40 @@ collapse: true
 - note-to-mp
 - novel-word-count
 - obsidian-custom-attachment-location
-- obsidian-day-planner
+- *obsidian-day-planner*
 - obsidian-douban-plugin
 - obsidian-file-cooker
-- obsidian-git
-- obsidian-hover-editor
+- **obsidian-git**
 - obsidian-importer
 - obsidian-livesync
-- obsidian-local-images-plus
-- obsidian-markmind
-- obsidian-memos
-- obsidian-meta-bind-plugin
+- *obsidian-local-images-plus*
+- **obsidian-markmind**
+- **obsidian-memos**
+- *obsidian-meta-bind-plugin*
 - obsidian-mindmap-nextgen
 - obsidian-minimal-settings
-- obsidian-plugin-proxy
+- *obsidian-plugin-proxy*
 - obsidian-plugin-update-tracker
-- obsidian-quiet-outline
+- *obsidian-quiet-outline*
 - obsidian-shellcommands
 - obsidian-spaced-repetition
 - obsidian-style-settings
-- obsidian-tagfolder
-- obsidian-task-progress-bar
+- **obsidian-tagfolder**
+- **obsidian-task-progress-bar**
 - obsidian-tracker
 - obsidian-weread-plugin
 - obsidian42-brat
 - obsidian42-strange-new-worlds
-- outliner-md
+- *outliner-md*
 - pane-relief
-- pdf-plus
+- **pdf-plus**
 - pexels-banner
-- pretty-properties
-- quick-peek-sidebar
-- quick-plugin-switcher
+- *pretty-properties*
+- *quick-plugin-switcher*
 - quicklink
 - recent-files-obsidian
 - refresh-preview
-- remotely-save
+- **remotely-save**
 - share-to-notionnext
 - sheet-plus
 - shiki-highlighter
@@ -192,7 +189,7 @@ collapse: true
 - tag-buddy
 - tag-wrangler
 - task-board
-- tasknotes
+- **tasknotes**
 - terminal
 - theme-picker
 - time-ruler
@@ -202,7 +199,7 @@ collapse: true
 - vault-explorer
 - vcf-contacts
 - version-control
-- vertical-tabs
+- *vertical-tabs*
 - waypoint
 - webpage-html-export
 - zettelflow
@@ -261,7 +258,7 @@ dv.table(["id", "name", "version", "enabled"], Object.values(app.plugins.manifes
 
 ### 社区插件列表解析
 
-```shell fold title:jq
+```shell fold title="jq"
 jq -n --slurpfile stats Misc/community-plugin-stats.json --slurpfile info Misc/Data/community-plugins.json '
   $info[0] | map(. + ($stats[0][.id] // {}))
   | map(select(.downloads > 100000))
@@ -271,194 +268,166 @@ jq -n --slurpfile stats Misc/community-plugin-stats.json --slurpfile info Misc/D
 ' | jq -c
 ```
 
-```dataviewjs
-const { Notice } = require('obsidian');
+```js datacorejsx title="simplest impl. render by datacore" fold
+const PLUGINS_URL = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json";
+const STATS_URL   = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json";
 
-// 状态常量配置
-const STATE_CONFIG = {
-  symbols: ["X", "P", "/", "+", "?", "C", "-"],
-  names: ["必备", "推荐", "可选", "备用", "待定", "不用", "废弃"]
-};
-
-// 创建状态映射
-const createStateMaps = () => {
-  const { symbols, names } = STATE_CONFIG;
-  const stateMap = new Map(symbols.map((key, index) => [key, names[index]]));
-  const reversedStateMap = new Map(names.map((value, index) => [value, symbols[index]]));
-  return { stateMap, reversedStateMap };
-};
-
-const installedPlugins = app.plugins.manifests;
-const enabledPlugins = app.plugins.plugins;
-
-// 加载数据
-async function loadData() {
-  const CACHE_AGE = 6048e5; // 7天
-  const DATA_MAP = {
-    plugins: {
-      path: "Misc/community-plugins.json",
-      url: "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json",
-    },
-    stats: {
-      path: "Misc/community-plugin-stats.json",
-      url: "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json",
-    },
-  };
-
-  // 步骤1：判断下载需求
-  const needsUpdate = await Promise.all(
-    Object.entries(DATA_MAP).map(async ([type, { path }]) =>
-      app.vault.adapter
-        .stat(path)
-        .then((s) => Date.now() - s.mtime > CACHE_AGE)
-        .catch(() => true)
-    )
-  );
-
-  // 步骤2：并行下载（带超时）
-  const fetchWithTimeout = (url) => {
-    const ctrl = new AbortController();
-    const timeout = setTimeout(() => ctrl.abort(), 30000);
-
-    return fetch(url, { signal: ctrl.signal })
-      .then((res) => (res.ok ? res.text() : Promise.reject(res.status)))
-      .finally(() => clearTimeout(timeout));
-  };
-
-  await Promise.allSettled(
-    Object.entries(DATA_MAP).map(async ([type, { path, url }], i) => {
-      if (!needsUpdate[i]) return;
-
-      try {
-        console.debug(`[${type}] 开始更新`);
-        const text = await fetchWithTimeout(url);
-        await app.vault.adapter.write(path, text);
-        console.info(`[${type}] 更新成功`);
-        new Notice('✅ 数据已更新', 5000);
-      } catch (e) {
-        console.warn(`[${type}] 更新失败：${e}`);
-      }
-    })
-  );
-
-  // 步骤3：统一读取返回
-  return Object.fromEntries(
-    await Promise.all(
-      Object.entries(DATA_MAP).map(async ([type, { path }]) => [
-        `${type}Data`,
-        JSON.parse(await app.vault.adapter.read(path)),
-      ])
-    )
-  );
-}
-
-// 解析插件状态数据
-function parsePluginStates(content) {
-  const { stateMap } = createStateMaps();
-
-  return content.split("\n").reduce((acc, line) => {
-    // 修正后的单行正则（无换行问题）
-    const match = line.match(
-      /^-\s+\[(.)\]\s+\[([^|\]]+)(?:\|([^\]]*))?\]\s*(?:\(https:\/\/github\.com\/([\w-]+\/[\w-]+)\))?(?:\s*\|\s*(.*))?$/
-    );
-    if (!match) return acc;
-
-    const [, state, idPart, namePart, repo, attrsStr] = match.map((s) =>
-      (s || "").trim()
-    );
-
-    // 基础信息处理
-    const entry = {
-      state: stateMap.get(state),
-      id: idPart.replace(/\\([\\|])/g, "$1"),
-      ...(namePart && { name: namePart.replace(/\\([\\|])/g, "$1") }),
-      ...(repo && { repo }),
-    };
-
-    // 强制键值对属性解析
-    if (attrsStr) {
-      attrsStr.split("|").forEach((segment) => {
-        const [key, ...vals] = segment.split(":").map((s) => s.trim());
-        if (vals.length) entry[key] = vals.join(":");
-      });
-    }
-
-    acc[entry.id] = entry;
-    return acc;
-  }, {});
-}
-
-// 合并数据
-function mergeData(plugins, stats, stateContent) {
-  const pluginStates = parsePluginStates(stateContent);
-  
-  return plugins.map((plugin, index) => ({
-    state: Object.keys(enabledPlugins).includes(plugin.id) ? "**已启用**" : Object.keys(installedPlugins).includes(plugin.id) ? "未启用" : "未安装",
-    ...(pluginStates[plugin.id] || {}),
-    ...plugin,
-    index,
-    downloads: stats[plugin.id]?.downloads || 0,
-    updated: stats[plugin.id]?.updated || '',
-  }));
-}
-
-// 渲染输出
-function renderList(filteredData) {
-  const { reversedStateMap } = createStateMaps();
-  const content = filteredData.map((p) => `[${reversedStateMap.get(p.state) || " "}] [${p.id}|${p.name}](https://github.com/${p.repo})`);
-  dv.paragraph("```ad-info\n" + dv.markdownList(content) + "\n```");
-}
-
-function renderTable(data, fields=['name', 'updated', 'downloads', 'state']) {
-  // 默认格式化函数映射（精简版）
-  const defaultFormatter = {
-    name: (p) => `[${p.name}](https://github.com/${p.repo})`,
-    updated: (p) => moment(p.updated).fromNow(),
-    downloads: (p) => p.downloads.toLocaleString(),
-    state: (p) => p.state,
-  };
-  // 标准化字段配置
-  const normalizedFields = fields.map((f) => {
-    const field = typeof f === "string" ? { name: f } : f;
-    // 确定格式化函数
-    field.format =
-      field.format ||
-      defaultFormatter[field.name] ||
-      ((p) => p[field.name] || "");
-
-    return field;
-  });
-  // 生成并渲染表格
-  dv.table(
-    normalizedFields.map((f) => f.name),
-    data.map((obj) => normalizedFields.map((f) => f.format(obj)))
-  );
-}
-
-// 主执行流程
 async function main() {
-  const { pluginsData, statsData } = await loadData();
-  const stateContent = await dv.io.load(dv.current().file.path);
-  
-  const mergedData = mergeData(pluginsData, statsData, stateContent);
-  const filteredData = mergedData
-    .filter(p => 
-        // 确保已安装的插件无条件保留，未安装的插件需满足条件
-        (p.id in installedPlugins) || 
-        (moment(p.updated).isAfter(moment().subtract(1, "years")) && 
-        p.downloads > 10000
-    ))
-    .sort((a, b) => b.downloads - a.downloads || a.id.localeCompare(b.id));
+    const { manifests: installed, plugins: enabled } = app.plugins;
+    
+    const [plugins = [], stats = {}] = await Promise.all([
+        fetch(PLUGINS_URL).then(r => r.json()).catch(() => []),
+        fetch(STATS_URL).then(r => r.json()).catch(() => ({})),
+    ]);
+    
+    const oneYearAgo = moment().subtract(1, "years");
+    const filtered = plugins
+        .map((p, i) => ({
+            ...p,
+            index: i,
+            downloads: stats[p.id]?.downloads || 0,
+            updated: stats[p.id]?.updated || "",
+            state: enabled[p.id] ? "**已启用**" : installed[p.id] ? "未启用" : "未安装",
+        }))
+        .filter(p => 
+            p.id in installed || 
+            (moment(p.updated).isAfter(oneYearAgo) && p.downloads > 10000)
+        )
+        .sort((a, b) => b.downloads - a.downloads || a.id.localeCompare(b.id));
+    
+    return (
+        <dc.Table
+            rows={filtered}
+            columns={[
+                {id: 'name', value: p => `[${p.name}](https://github.com/${p.repo})`},
+                {id: 'updated', value: p => p.updated ? moment(p.updated).fromNow() : ""},
+                {id: 'downloads', value: p => p.downloads.toLocaleString()},
+                {id: 'state', value: p => p.state},
+            ]}
+            paging={50}
+        />
+    );
+}
 
-  dv.header(2, "Popular");
-  renderTable(filteredData);
-  dv.list(Object.keys(installedPlugins).filter(id => !mergedData.some(p => p.id === id)).sort((a, b) => a.localeCompare(b)));
-  
-  dv.header(2, "New");
-  renderTable(mergedData.filter(p => p.downloads > 1000).slice(-100).toReversed());
-  
-  dv.header(2, "Canvas");
-  renderTable(mergedData.filter(p=>["id", "name", "description"].some(attr => String(p[attr]).toLowerCase().includes("canvas"))), ['name', 'description', 'downloads']);
+return await main();
+```
+
+```js dataviewjs fold
+const installed = app.plugins.manifests;
+const enabled = app.plugins.plugins;
+
+const DATA_MAP = {
+    plugins: { path: "Misc/community-plugins.json", url: "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json" },
+    stats:   { path: "Misc/community-plugin-stats.json", url: "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json" },
+};
+
+const CACHE_AGE = 6048e5; // 7 天
+const FETCH_TIMEOUT = 30000;
+
+const fetchData = async (url, t = FETCH_TIMEOUT) => {
+    const c = new AbortController(), id = setTimeout(() => c.abort(), t);
+    try {
+        const r = await fetch(url, { signal: c.signal });
+        if (!r.ok) throw r.status;
+        return await r.json();
+    } finally {
+        clearTimeout(id);
+    }
+};
+
+const saveData = async (path, obj) => {
+    try { await app.vault.adapter.write(path, JSON.stringify(obj)); return true; } catch { return false; }
+};
+
+const getDataFromCache = async (path) => {
+    try { return JSON.parse(await app.vault.adapter.read(path)); } catch { return null; }
+};
+
+const isCacheStale = async (path, maxAge = CACHE_AGE) =>
+    app.vault.adapter.stat(path).then(s => Date.now() - s.mtime > maxAge).catch(() => true);
+
+// 智能获取（优先未过期缓存，否则拉取并保存，失败回退缓存或默认）
+async function getData({ useCache = true, force = false } = {}) {
+    const out = {};
+    await Promise.all(Object.entries(DATA_MAP).map(async ([k, { path, url }]) => {
+        const need = force || !useCache || await isCacheStale(path);
+        if (!need) {
+            const c = await getDataFromCache(path);
+            if (c != null) { out[`${k}Data`] = c; return; }
+        }
+        try {
+            const remote = await fetchData(url);
+            out[`${k}Data`] = remote;
+            saveData(path, remote); // best-effort
+            new Notice(`✅ ${k} 更新`);
+        } catch (e) {
+            const fallback = await getDataFromCache(path);
+            out[`${k}Data`] = fallback != null ? fallback : (k === "plugins" ? [] : {});
+            console.warn(`[getData] ${k} fetch failed:`, e);
+        }
+    }));
+    return out;
+}
+
+// 将 plugins + stats 合并成可直接渲染的行对象（独立函数）
+function mergeData(plugins = [], stats = {}, installedMap = installed, enabledMap = enabled) {
+    return (plugins || []).map((p, i) => ({
+        ...p,
+        index: i,
+        downloads: stats[p.id]?.downloads || 0,
+        updated: stats[p.id]?.updated || "",
+        state: Object.keys(enabledMap).includes(p.id) ? "**已启用**"
+        : Object.keys(installedMap).includes(p.id) ? "未启用" : "未安装",
+    }));
+}
+
+// 预设查询
+const queryPresets = {
+    popular: (data) =>
+        data
+            .filter(
+                (p) =>
+                    p.id in installed ||
+                    (moment(p.updated).isAfter(moment().subtract(1, "years")) &&
+                        p.downloads > 10000),
+            )
+            .sort(
+                (a, b) => b.downloads - a.downloads || a.id.localeCompare(b.id),
+            ),
+    new: (data) =>
+        data
+            .filter((p) => p.downloads > 1000)
+            .slice(-100)
+            .toReversed(),
+    canvas: (data) =>
+        data.filter((p) =>
+            ["id", "name", "description"].some((k) =>
+                String(p[k] || "")
+                    .toLowerCase()
+                    .includes("canvas"),
+            ),
+        ),
+};
+
+// 渲染表格
+const renderTable = (title, rows, fields = ["name","updated","downloads","state"]) => {
+    dv.header(3, title);
+    dv.table(fields, rows.map(p => [
+        `[${p.name}](https://github.com/${p.repo})`,
+        p.updated ? moment(p.updated).fromNow() : "",
+        p.downloads.toLocaleString(),
+        p.state
+    ]));
+};
+
+// 主流程：获取 -> 合并 -> 多个查询 -> 渲染
+async function main() {
+    const { pluginsData = [], statsData = {} } = await getData();
+    const merged = mergeData(pluginsData, statsData);
+    
+    renderTable("Popular", queryPresets.popular(merged));
+    renderTable("New", queryPresets.new(merged));
+    renderTable("Canvas", queryPresets.canvas(merged));
 }
 
 await main();

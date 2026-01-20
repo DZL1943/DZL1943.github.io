@@ -201,7 +201,7 @@ function generateWeekdays({
         const dateStr = `${date.getFullYear()}-${(date.getMonth()+1).toString().padStart(2,'0')}-${date.getDate().toString().padStart(2,'0')}`;
         
         return dataview 
-        ? `${prefix}${day}  (date:: ${dateStr})  (weather:: )  (mood:: )  (diet:: )  (habits:: )  (summary:: )  `
+        ? `${prefix}${day} | (date:: ${dateStr}) | (weather:: ) | (mood:: ) | (diet:: ) | (habits:: ) | (summary:: )  `
         : `${prefix}${day}  ${dateStr}`;
     }).join("\n");
 }
@@ -257,7 +257,7 @@ function generateMonthdays({
         // const dateStr = new Intl.DateTimeFormat('en-CA', { year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
         
         return dataview
-        ? `${prefix}${weekdayMap[date.getDay()]}  (date:: ${dateStr})  (weather:: )  (mood:: )  (diet:: )  (habits:: )  (summary:: )`
+        ? `${prefix}${weekdayMap[date.getDay()]} | (date:: ${dateStr}) | (weather:: ) | (mood:: ) | (diet:: ) | (habits:: ) | (summary:: )`
         : `${prefix}${dateStr}`;
     }).join("\n");
 }

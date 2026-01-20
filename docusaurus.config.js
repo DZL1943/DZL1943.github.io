@@ -52,6 +52,9 @@ const config = {
         mermaid: true,
         parseFrontMatter: async (params) => {
             const result = await params.defaultParseFrontMatter(params);
+
+            // if(['author', 'authors'].every(p => !result.frontMatter[p])) result.frontMatter['author'] = '6Bd2';
+
             /** @type {{from: string, to: string, transform?: (v: any) => any}[]} */
             const mappings = [
                 { from: "created", to: "date" },
