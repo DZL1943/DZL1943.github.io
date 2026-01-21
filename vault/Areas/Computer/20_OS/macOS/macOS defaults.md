@@ -25,3 +25,10 @@ defaults write com.apple.dock autohide-time-modifier -float 0.5
 # 重启
 killall Dock
 ```
+
+## .DS_Store
+
+```shell
+defaults write com.apple.desktopservicesDSDontWriteNetworkStores true
+//defaults delete com.apple.desktopservices DSDontWriteNetworkStores
+```

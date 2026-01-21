@@ -117,6 +117,9 @@ url:
     - --autosquash: 要求历史 commit 符合特定格式
 - cherry-pick
 - tag
+    - -l
+    - -d
+    - -a -m
 - worktree
 - submodule
 
