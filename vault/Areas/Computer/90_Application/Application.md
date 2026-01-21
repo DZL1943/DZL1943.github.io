@@ -331,6 +331,7 @@ sidebar_position: 1
     - Claude Code
     - OpenCode
     - Codex
+    - Copilot
 - VCS
     - [Git](<Dev/Git.md>)
     - GitHub
