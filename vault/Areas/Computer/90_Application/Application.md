@@ -13,6 +13,7 @@ sidebar_position: 1
     - Fcitx
     - [Input Source Pro](https://inputsource.pro/)
 - 剪切板 Clipboard
+    - Maccy
 - 触控板 Trackpad
     - [BetterAndBetter](https://www.better365.cn/bab2.html)
 - 鼠标 Mouse
@@ -20,15 +21,21 @@ sidebar_position: 1
     - [xGestures](https://briankendall.net/xGestures/)
 - 键盘 Keyboard
     - Karabiner
+    - KeyCastr
+    - KeyCluCask
 - 快捷启动 Quickstart
     - Raycast
+    - Hammerspoon
 - 窗口管理 Window
     - AeroSpace
     - DockDoor
 - 菜单栏 Menubar
     - Ice
+    - OnlySwitch
+    - Itsycal
 - 显示 Display
     - BetterDisplay
+    - MonitorControl
 - 声音 Voice
     - Background Music
 - 电源 Power
@@ -68,6 +75,8 @@ sidebar_position: 1
     - Syncthing
     - FreeFileSync
     - FolderSync
+- 文件共享 File Sharing
+    - Cyberduck
 - 文件备份 Backup
     - Kopia
 - 加密 Crypto
@@ -155,7 +164,7 @@ sidebar_position: 1
     - 哔哩哔哩 BiliBili
     - YouTube
 - 音乐 Music
-    - Spotify
+    - Spotify [SpotX](https://github.com/SpotX-Official/SpotX-Bash)
     - Apple Music
 - 播客 Podcast
     - 云听
@@ -165,8 +174,9 @@ sidebar_position: 1
     - 腾讯视频
 - 阅读 Books
     - 微信读书
+    - Z-Library
 - 游戏 Games
-    - Steam
+    - [Steam](https://store.steampowered.com/)
     - Epic
 
 ## 生活 Living
@@ -205,6 +215,7 @@ sidebar_position: 1
 ## 参考 Reference
 
 - 语文 Chinese
+    - [新华字典](https://zidian.gushici.net/)
     - 西窗烛
 - 英语 English
     - GoldenDict
@@ -247,20 +258,23 @@ sidebar_position: 1
     - Final Cut Pro
     - Premiere Pro
     - DaVinci Resolve
+    - Kdenlive
 - 音频 Audio
     - Audition
     - Audacity
     - Logic Pro
-    - 库乐队 GarageBand
+    - GarageBand
 
 ## 工程 Engineering
 
 - 制图 CAD
     - AutoCAD
+    - LibreCAD
 - 机械 Mechanical
     - SolidWorks
 - 建筑 Architecture
 - 电气 Electrical
+    - KiCad
 - 仿真 Simulation
     - ANSYS
 - 计算 Compute
@@ -324,7 +338,7 @@ sidebar_position: 1
 - Automation
     - Ansible
 - Virtualization & Containerization
-    - QEMU/VirtualBox/VMware
+    - QEMU/VirtualBox/VMware([Workstation](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro)、[Fusion](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion))
     - Docker/Podman
     - Kubernetes
 - Web Sever
