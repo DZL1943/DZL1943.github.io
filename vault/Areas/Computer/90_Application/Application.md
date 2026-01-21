@@ -145,7 +145,7 @@ sidebar_position: 1
     - [Grok](https://grok.x.ai)
     - [Claude](https://claude.ai)
     - [Qwen](https://www.qianwen.com)
-    - [DeekSeek](https://chat.deepseek.com)
+    - [DeepSeek](https://chat.deepseek.com)
     - [Doubao](https://www.doubao.com)
     - [Kimi](https://www.kimi.com)
     - [GLM](https://chatglm.cn)
@@ -328,10 +328,11 @@ sidebar_position: 1
         - Radare2
         - Cutter
 - AI
+    - Copilot
+    - Gemini
     - Claude Code
     - OpenCode
     - Codex
-    - Copilot
 - VCS
     - [Git](<Dev/Git.md>)
     - GitHub
