@@ -327,7 +327,7 @@ sidebar_position: 1
         - Ghidra
         - Radare2
         - Cutter
-- AI
+- AI [Agent Skills Marketplace](https://skillsmp.com/)
     - Copilot
     - Gemini
     - Claude Code
