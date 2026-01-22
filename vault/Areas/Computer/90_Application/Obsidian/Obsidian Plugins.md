@@ -349,7 +349,7 @@ const getDataFromCache = async (path) => {
 const isCacheStale = async (path, maxAge = CACHE_AGE) =>
     app.vault.adapter.stat(path).then(s => Date.now() - s.mtime > maxAge).catch(() => true);
 
-// 智能获取（优先未过期缓存，否则拉取并保存，失败回退缓存或默���）
+// 智能获取（优先未过期缓存，否则拉取并保存，失败回退缓存或默认）
 async function getData({ useCache = true, force = false } = {}) {
     const out = {};
     await Promise.all(Object.entries(DATA_MAP).map(async ([k, { path, url }]) => {
