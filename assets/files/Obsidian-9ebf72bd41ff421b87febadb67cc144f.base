@@ -1,0 +1,133 @@
+filters:
+  and:
+    - '!file.inFolder("Ext")'
+formulas:
+  cdate: file.ctime.date()
+  mdate: file.mtime.date()
+  relative_mtime: file.mtime.relative()
+  image: image(if(note.image, note.image, file.path))
+  backlinks: file.backlinks.map(value.asFile())
+  brokenLinks: file.links.filter(!value.asFile().isTruthy())
+  nameOrTitle: link(file, if(title, title, file.name))
+  topSubFolder: file.folder.split('/').slice(0,this.file.folder.split('/').length+1).join('/')
+  backlinkFolder: file.backlinks.map(value.asFile().folder.split('/').slice(0,2).join('/'))
+properties:
+  note.title:
+    displayName: 标题
+  formula.cdate:
+    displayName: 创建日期
+  formula.mdate:
+    displayName: 修改日期
+  formula.relative_mtime:
+    displayName: 修改时间
+views:
+  - type: cards
+    name: Notes
+    filters:
+      and:
+        - file.ext.containsAny("md")
+    groupBy:
+      property: formula.topSubFolder
+      direction: ASC
+    order:
+      - file.name
+    sort:
+      - property: file.folder
+        direction: ASC
+    indentProperties: false
+    cardSize: 150
+  - type: table
+    name: CurrentDir
+    filters:
+      and:
+        - file.folder.startsWith(this.file.folder)
+    order:
+      - formula.nameOrTitle
+      - formula.cdate
+      - formula.mdate
+      - file.backlinks
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      formula.名称或标题: 244
+      formula.mdate: 109
+  - type: table
+    name: Recent
+    filters:
+      and:
+        - file.ext == "md"
+        - file.mtime > now() - "1 month"
+    order:
+      - file.name
+      - formula.relative_mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 25
+    columnSize:
+      file.name: 202
+      note.title: 210
+      formula.relative_mtime: 160
+  - type: table
+    name: Dailynotes
+    filters:
+      and:
+        - file.ext == "md"
+        - or:
+            - /^[0-9]{4}-[0-1][0-9]-[0-3][0-9]/.matches(file.name)
+            - /^[0-9]{4}[0-1][0-9][0-3][0-9][0-2][0-9][0-5][0-9]/.matches(file.name)
+    groupBy:
+      property: file.folder
+      direction: DESC
+    order:
+      - file.name
+      - title
+    sort:
+      - property: file.name
+        direction: DESC
+    limit: 50
+    columnSize:
+      file.name: 216
+      note.title: 308
+  - type: cards
+    name: Attachments
+    filters:
+      and:
+        - file.ext.containsAny("png", "jpg", "jpeg", "webp", "gif", "svg", "bmp")
+    groupBy:
+      property: formula.backlinkFolder
+      direction: ASC
+    order:
+      - file.name
+      - formula.backlinks
+    sort:
+      - property: formula.backlinks
+        direction: ASC
+      - property: file.ctime
+        direction: DESC
+    image: file.file
+  - type: cards
+    name: Canvas
+    filters:
+      and:
+        - file.ext == "canvas"
+    order:
+      - file.name
+  - type: cards
+    name: Excalidraw
+    filters:
+      and:
+        - file.hasTag("excalidraw")
+    order:
+      - file.name
+    columnSize:
+      file.name: 283
+  - type: table
+    name: BrokenLinks
+    filters:
+      and:
+        - file.links.filter(!value.asFile().isTruthy()).length!=0
+    order:
+      - file.name
+      - formula.brokenLinks

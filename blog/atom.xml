@@ -2,22 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-01-19T12:27:42.000Z</updated>
+    <updated>2026-01-20T06:16:19.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[写作要求]]></title>
-        <id>https://dzl1943.github.io/blog/写作要求</id>
-        <link href="https://dzl1943.github.io/blog/写作要求"/>
-        <updated>2026-01-19T12:27:42.000Z</updated>
-        <summary type="html"><![CDATA[- 语言简练]]></summary>
+        <title type="html"><![CDATA[GitHub 仓库分类]]></title>
+        <id>https://dzl1943.github.io/blog/GitHub 仓库分类</id>
+        <link href="https://dzl1943.github.io/blog/GitHub 仓库分类"/>
+        <updated>2026-01-20T06:16:19.000Z</updated>
+        <summary type="html"><![CDATA[- Dev: Lib、Framework、Middleware]]></summary>
         <content type="html"><![CDATA[<ul>
-<li class="">语言简练</li>
-<li class="">逻辑清晰</li>
-<li class="">结构完整</li>
-<li class="">内容准确</li>
+<li class="">Dev: Lib、Framework、Middleware<!-- -->
+<ul>
+<li class="">C/C++</li>
+<li class="">Rust</li>
+<li class="">Go</li>
+<li class="">Java</li>
+<li class="">Python</li>
+<li class="">JavaScript</li>
+<li class="">Shell</li>
+</ul>
+</li>
+<li class="">Tool: 脚本工具</li>
+<li class="">App: 软件应用<!-- -->
+<ul>
+<li class="">Desktop<!-- -->
+<ul>
+<li class="">Windows</li>
+<li class="">macOS</li>
+</ul>
+</li>
+<li class="">Mobile<!-- -->
+<ul>
+<li class="">Android</li>
+<li class="">iOS</li>
+</ul>
+</li>
+<li class="">Web</li>
+<li class="">CLI</li>
+</ul>
+</li>
+<li class="">Resource</li>
+</ul>
+<blockquote>
+<p>[!tip] 只整理在用的就行.</p>
+</blockquote>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub 镜像网站]]></title>
+        <id>https://dzl1943.github.io/blog/GitHub 镜像网站</id>
+        <link href="https://dzl1943.github.io/blog/GitHub 镜像网站"/>
+        <updated>2026-01-20T06:16:19.000Z</updated>
+        <summary type="html"><![CDATA[- [ ] https://github.akams.cn/]]></summary>
+        <content type="html"><![CDATA[<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://github.akams.cn/" target="_blank" rel="noopener noreferrer" class="">https://github.akams.cn/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://hub.gitmirror.com/" target="_blank" rel="noopener noreferrer" class="">https://hub.gitmirror.com/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://mirror.ghproxy.com/" target="_blank" rel="noopener noreferrer" class="">https://mirror.ghproxy.com/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghgo.xyz/" target="_blank" rel="noopener noreferrer" class="">https://ghgo.xyz/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghps.cc/" target="_blank" rel="noopener noreferrer" class="">https://ghps.cc/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh-proxy.com/" target="_blank" rel="noopener noreferrer" class="">https://gh-proxy.com/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://www.ghproxy.cn/" target="_blank" rel="noopener noreferrer" class="">https://www.ghproxy.cn/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghproxy.net/" target="_blank" rel="noopener noreferrer" class="">https://ghproxy.net/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.llkk.cc/" target="_blank" rel="noopener noreferrer" class="">https://gh.llkk.cc/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.ddlc.top/" target="_blank" rel="noopener noreferrer" class="">https://gh.ddlc.top/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.idayer.com/" target="_blank" rel="noopener noreferrer" class="">https://gh.idayer.com/</a></li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PARA]]></title>
+        <id>https://dzl1943.github.io/blog/PARA</id>
+        <link href="https://dzl1943.github.io/blog/PARA"/>
+        <updated>2026-01-20T06:16:19.000Z</updated>
+        <summary type="html"><![CDATA[[list2table]]]></summary>
+        <content type="html"><![CDATA[<p>[list2table]</p>
+<ul>
+<li class="">&lt; 类别 | 说明 | 备注(个人用法) | 举例</li>
+<li class="">projects | 进行中的短期任务, 有明确的结果目标和截止日期 | 目前很少用(一般 inbox 足矣)</li>
+<li class="">areas | 长期精进的领域 | 只要是专业领域的内容我都会放在这里, 不一定都是需要负责的 | 自然、社科、人文、技术等</li>
+<li class="">resources | 未来可能有用的感兴趣的主题内容 | 没有明确领域的常规参考性内容 | 书影音、游戏、物品、人物等</li>
+<li class="">archives | 不再关注的内容 | 基本上等于"回收站"</li>
+</ul>
+<p>[list2table]</p>
+<ul>
+<li class="">&lt;  | 专业 | 非专业</li>
+<li class="">客观 | Area | Resource</li>
+<li class="">主观 | Project? | Page</li>
 </ul>]]></content>
     </entry>
     <entry>
@@ -292,90 +363,6 @@
 </ul>]]></content>
         <category label="markdown" term="markdown"/>
         <category label="Obsidian" term="Obsidian"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub 仓库分类]]></title>
-        <id>https://dzl1943.github.io/blog/GitHub 仓库分类</id>
-        <link href="https://dzl1943.github.io/blog/GitHub 仓库分类"/>
-        <updated>2026-01-11T03:23:23.000Z</updated>
-        <summary type="html"><![CDATA[- Dev: Lib、Framework、Middleware]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li class="">Dev: Lib、Framework、Middleware<!-- -->
-<ul>
-<li class="">C/C++</li>
-<li class="">Rust</li>
-<li class="">Go</li>
-<li class="">Java</li>
-<li class="">Python</li>
-<li class="">JavaScript</li>
-<li class="">Shell</li>
-</ul>
-</li>
-<li class="">Tool: 脚本工具</li>
-<li class="">App: 软件应用<!-- -->
-<ul>
-<li class="">Desktop<!-- -->
-<ul>
-<li class="">Windows</li>
-<li class="">macOS</li>
-</ul>
-</li>
-<li class="">Mobile<!-- -->
-<ul>
-<li class="">Android</li>
-<li class="">iOS</li>
-</ul>
-</li>
-<li class="">Web</li>
-<li class="">CLI</li>
-</ul>
-</li>
-<li class="">Resource</li>
-</ul>
-<blockquote>
-<p>[!tip] 只整理在用的就行.</p>
-</blockquote>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub 镜像网站]]></title>
-        <id>https://dzl1943.github.io/blog/GitHub 镜像网站</id>
-        <link href="https://dzl1943.github.io/blog/GitHub 镜像网站"/>
-        <updated>2026-01-11T03:23:23.000Z</updated>
-        <summary type="html"><![CDATA[- [ ] https://github.akams.cn/]]></summary>
-        <content type="html"><![CDATA[<ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://github.akams.cn/" target="_blank" rel="noopener noreferrer" class="">https://github.akams.cn/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://hub.gitmirror.com/" target="_blank" rel="noopener noreferrer" class="">https://hub.gitmirror.com/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://mirror.ghproxy.com/" target="_blank" rel="noopener noreferrer" class="">https://mirror.ghproxy.com/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghgo.xyz/" target="_blank" rel="noopener noreferrer" class="">https://ghgo.xyz/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghps.cc/" target="_blank" rel="noopener noreferrer" class="">https://ghps.cc/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh-proxy.com/" target="_blank" rel="noopener noreferrer" class="">https://gh-proxy.com/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://www.ghproxy.cn/" target="_blank" rel="noopener noreferrer" class="">https://www.ghproxy.cn/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghproxy.net/" target="_blank" rel="noopener noreferrer" class="">https://ghproxy.net/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.llkk.cc/" target="_blank" rel="noopener noreferrer" class="">https://gh.llkk.cc/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.ddlc.top/" target="_blank" rel="noopener noreferrer" class="">https://gh.ddlc.top/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.idayer.com/" target="_blank" rel="noopener noreferrer" class="">https://gh.idayer.com/</a></li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PARA]]></title>
-        <id>https://dzl1943.github.io/blog/PARA</id>
-        <link href="https://dzl1943.github.io/blog/PARA"/>
-        <updated>2026-01-11T01:47:13.000Z</updated>
-        <summary type="html"><![CDATA[[list2table]]]></summary>
-        <content type="html"><![CDATA[<p>[list2table]</p>
-<ul>
-<li class="">&lt; 类别 | 说明 | 备注(个人用法) | 举例</li>
-<li class="">projects | 进行中的短期任务, 有明确的结果目标和截止日期 | 目前很少用(一般 inbox 足矣)</li>
-<li class="">areas | 长期精进的领域 | 只要是专业领域的内容我都会放在这里, 不一定都是需要负责的 | 自然、社科、人文、技术等</li>
-<li class="">resources | 未来可能有用的感兴趣的主题内容 | 没有明确领域的常规参考性内容 | 书影音、游戏、物品、人物等</li>
-<li class="">archives | 不再关注的内容 | 基本上等于"回收站"</li>
-</ul>
-<p>[list2table]</p>
-<ul>
-<li class="">&lt;  | 专业 | 非专业</li>
-<li class="">客观 | Area | Resource</li>
-<li class="">主观 | Project? | Page</li>
-</ul>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus with Obsidian]]></title>
@@ -655,5 +642,257 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考">参考<a href="https://dzl1943.github.io/blog/IT%E5%85%AC%E5%8F%B8#%E5%8F%82%E8%80%83" class="hash-link" aria-label="参考的直接链接" title="参考的直接链接" translate="no">​</a></h2>
 <p><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E4%BC%81%E4%B8%9A100%E5%BC%BA/9835904#4-4" target="_blank" rel="noopener noreferrer" class="">中国互联网企业100强_百度百科</a><br>
 <a href="https://www.qcc.com/bd/3382252b2422bc02625ac8277c243e75.html" target="_blank" rel="noopener noreferrer" class="">2023年度软件和信息技术服务竞争力前百家企业(百强企业)名单-企查查</a></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[命令行和开发环境配置]]></title>
+        <id>https://dzl1943.github.io/blog/命令行和开发环境配置</id>
+        <link href="https://dzl1943.github.io/blog/命令行和开发环境配置"/>
+        <updated>2025-10-22T11:19:35.000Z</updated>
+        <summary type="html"><![CDATA[基础]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="基础">基础<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%9F%BA%E7%A1%80" class="hash-link" aria-label="基础的直接链接" title="基础的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">包管理器<!-- -->
+<ul>
+<li class="">Homebrew <code>eval "$(/opt/homebrew/bin/brew shellenv)"</code></li>
+<li class="">apt</li>
+<li class="">yum/dnf</li>
+<li class="">pacman</li>
+<li class="">zypper</li>
+<li class="">nix</li>
+</ul>
+</li>
+<li class="">Shell<!-- -->
+<ul>
+<li class=""><code>~/.alias</code></li>
+<li class=""><code>~/.env</code></li>
+<li class="">Starship <code>eval "$(starship init zsh)"</code></li>
+<li class="">Bash <code>~/{.profile,.bash_profile,.bashrc}</code></li>
+<li class="">Zsh <code>~/{.zshenv,.zprofile,.zshrc}</code>
+<ul>
+<li class="">OhMyZsh</li>
+</ul>
+</li>
+<li class="">Fish <code>~/.config/fish/config.fish</code></li>
+<li class="">Xonsh</li>
+<li class="">Nushell</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">命令<!-- -->
+<ul>
+<li class="">替代<!-- -->
+<ul>
+<li class="">zoxide <code>eval "$(zoxide init zsh)"</code></li>
+<li class="">lsd/eza</li>
+<li class="">bat</li>
+<li class="">fd</li>
+<li class="">fzf <code>source &lt;(fzf --zsh)</code></li>
+<li class="">ripgrep</li>
+<li class="">duf</li>
+<li class="">dust</li>
+<li class="">btop</li>
+<li class="">procs</li>
+<li class="">mcfly <code>eval "$(mcfly init zsh)"</code></li>
+<li class="">tealdeer</li>
+<li class=""><a href="https://hasseg.org/trash/" target="_blank" rel="noopener noreferrer" class="">trash</a></li>
+</ul>
+</li>
+<li class="">GNU 系列 <code>export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"</code>
+<ul>
+<li class="">coreutils</li>
+<li class="">binutils</li>
+<li class="">inetutils</li>
+<li class="">findutils</li>
+<li class="">grep</li>
+<li class="">gawk</li>
+<li class="">gnu-sed</li>
+<li class="">gnu-tar</li>
+<li class="">gnu-which</li>
+<li class="">wget</li>
+</ul>
+</li>
+<li class="">补充<!-- -->
+<ul>
+<li class="">rename</li>
+<li class="">rsync</li>
+<li class="">jq</li>
+<li class="">httpie</li>
+<li class="">glow</li>
+<li class="">pandoc</li>
+<li class="">moreutils</li>
+<li class="">sysstat</li>
+</ul>
+</li>
+<li class="">macOS<!-- -->
+<ul>
+<li class="">mas</li>
+<li class="">blueutil</li>
+<li class="">smartmontools</li>
+<li class="">sleepwatcher</li>
+<li class="">watchman</li>
+<li class="">duti</li>
+<li class="">bclm</li>
+<li class="">lporg</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">终端<!-- -->
+<ul>
+<li class="">tmux <code>~/.tmux.conf</code></li>
+<li class="">Zellij <code>~/.config/zellij</code></li>
+<li class="">Kitty <code>~/.config/kitty/kitty.conf</code></li>
+<li class="">Ghostty <code>~/.config/ghostty/config</code></li>
+<li class="">Alacritty <code>~/.config/alacritty/alacritty.yml</code></li>
+<li class="">iTerm <code>~/Library/Preferences/com.googlecode.iterm2.plist, ~/Library/Application Support/iTerm2/DynamicProfiles/Profiles.json</code><br>
+<!-- -->自带的主题不好看, <a href="https://iterm2colorschemes.com/" target="_blank" rel="noopener noreferrer" class="">Iterm Themes - Color Schemes and Themes for Iterm2</a></li>
+<li class="">Warp</li>
+</ul>
+</li>
+<li class="">编辑器<!-- -->
+<ul>
+<li class="">Helix <code>~/.config/helix/</code></li>
+<li class="">Vim <code>~/.vimrc</code> %% macOS 自带的 vim 不支持 python3 %%</li>
+<li class="">Neovim <code>~/.config/nvim/</code></li>
+<li class="">Emacs <code>~/.emacs.d/</code></li>
+<li class="">VSCode <code>~/Library/Application Support/Code/User/, ~/.vscode/</code></li>
+<li class="">Zed <code>~/.config/zed/</code></li>
+</ul>
+</li>
+<li class="">文件管理器<!-- -->
+<ul>
+<li class="">Yazi <code>~/.config/yazi/</code></li>
+<li class="">Superfile</li>
+</ul>
+</li>
+<li class="">dotfiles 管理<!-- -->
+<ul>
+<li class=""><a href="https://www.gnu.org/software/stow/" target="_blank" rel="noopener noreferrer" class="">stow</a></li>
+<li class=""><a href="https://github.com/lra/mackup" target="_blank" rel="noopener noreferrer" class="">mackup</a></li>
+<li class=""><a href="https://chezmoi.io/" target="_blank" rel="noopener noreferrer" class="">chezmoi</a></li>
+<li class="">dotbot</li>
+</ul>
+</li>
+<li class="">VCS<!-- -->
+<ul>
+<li class="">Git <code>~/.gitconfig</code></li>
+<li class="">Lazygit</li>
+<li class="">Jujutsu</li>
+<li class="">gh</li>
+<li class="">GitHub Desktop</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="开发">开发<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%BC%80%E5%8F%91" class="hash-link" aria-label="开发的直接链接" title="开发的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">通用<!-- -->
+<ul>
+<li class="">asdf</li>
+<li class="">mise</li>
+<li class="">tree-sitter-cli</li>
+</ul>
+</li>
+<li class="">C/C++</li>
+<li class="">Python<!-- -->
+<ul>
+<li class="">pip <code>~/.config/pip/pip.conf</code><br>
+<a href="https://mirrors.tuna.tsinghua.edu.cn/help/pypi/" target="_blank" rel="noopener noreferrer" class="">pypi | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror</a></li>
+<li class="">conda/mamba/micromamba <code>~/.condarc</code></li>
+<li class="">pixi</li>
+<li class="">uv</li>
+<li class="">ruff</li>
+<li class="">pyright/basedpyright</li>
+<li class="">jupyterlab/notebook</li>
+</ul>
+</li>
+<li class="">JavaScript<!-- -->
+<ul>
+<li class="">node</li>
+<li class="">deno</li>
+<li class="">bun</li>
+<li class="">nvm</li>
+<li class="">npm/yarn/pnpm <code>~/.npmrc</code></li>
+</ul>
+</li>
+<li class="">Java<!-- -->
+<ul>
+<li class="">JDK<br>
+<code>{shell} sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk; echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' &gt;&gt; ~/.zshrc; export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"</code>
+<ul>
+<li class="">openjdk</li>
+<li class=""><a href="https://bell-sw.com/pages/downloads/" target="_blank" rel="noopener noreferrer" class="">https://bell-sw.com/pages/downloads/</a></li>
+<li class=""><a href="https://adoptium.net/zh-CN/temurin/releases/" target="_blank" rel="noopener noreferrer" class="">https://adoptium.net/zh-CN/temurin/releases/</a></li>
+<li class=""><a href="https://www.azul.com/downloads/?package=jdk#zulu" target="_blank" rel="noopener noreferrer" class="">https://www.azul.com/downloads/?package=jdk#zulu</a></li>
+<li class=""><a href="https://www.oracle.com/cn/java/technologies/downloads/" target="_blank" rel="noopener noreferrer" class="">https://www.oracle.com/cn/java/technologies/downloads/</a></li>
+</ul>
+</li>
+<li class="">maven</li>
+<li class="">gradle</li>
+</ul>
+</li>
+<li class="">Rust<!-- -->
+<ul>
+<li class="">rustup <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code></li>
+<li class="">cargo <code>~/.cargo/config.toml</code></li>
+<li class="">rust-analyzer</li>
+</ul>
+</li>
+<li class="">Go</li>
+<li class="">Elixir</li>
+<li class="">Haskell</li>
+<li class="">Scala<!-- -->
+<ul>
+<li class="">coursier</li>
+<li class="">sbt <code>~/.sbt/</code></li>
+</ul>
+</li>
+<li class="">Clojure<!-- -->
+<ul>
+<li class="">Leiningen</li>
+</ul>
+</li>
+<li class="">Lisp<!-- -->
+<ul>
+<li class="">sbcl</li>
+<li class="">guile</li>
+<li class="">racket</li>
+</ul>
+</li>
+<li class="">Lua<!-- -->
+<ul>
+<li class="">luarocks</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="运维">运维<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E8%BF%90%E7%BB%B4" class="hash-link" aria-label="运维的直接链接" title="运维的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">android-platform-tools</li>
+<li class="">scrcpy</li>
+<li class="">mitmproxy</li>
+<li class="">Whistle</li>
+<li class="">Ansible</li>
+<li class="">Docker</li>
+<li class="">OrbStack <code>~/.orbstack/config/docker.json</code></li>
+<li class="">redis</li>
+<li class="">postgresql</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他">其他<a href="https://dzl1943.github.io/blog/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE#%E5%85%B6%E4%BB%96" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">Firefox <code>~/Library/Application Support/Firefox/Profiles/</code></li>
+<li class="">Sogou <code>~/Library/Application Support/Sogou/InputMethod/SogouPY/symbolSubsitute.plist</code></li>
+<li class="">Rime <code>~/Library/Rime/</code></li>
+<li class="">Fcitx5 <code>~/.config/fcitx5/, ~/.local/share/fcitx5/</code></li>
+<li class="">Espanso</li>
+<li class="">Input Source Pro</li>
+<li class="">Hammerspoon <code>~/.hammerspoon/</code></li>
+<li class="">Raycast <code>~/.config/raycast/</code></li>
+<li class="">Karabiner <code>~/.config/karabiner/</code></li>
+<li class="">mac-mouse-fix <code>~/Library/Application Support/com.nuebling.mac-mouse-fix/config.plist</code></li>
+<li class="">BetterAndBetter</li>
+<li class="">xGestures <code>~/Library/Preferences/what.xGestures.plist</code></li>
+<li class="">Stats</li>
+</ul>]]></content>
     </entry>
 </feed>
