@@ -271,7 +271,7 @@ jq -n --slurpfile stats Misc/community-plugin-stats.json --slurpfile info Misc/D
 ' | jq -c
 ```
 
-```datacorejsx title="simplest impl. render by datacore" fold
+```js datacorejsx title="simplest impl. render by datacore" fold
 const PLUGINS_URL = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json";
 const STATS_URL   = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json";
 
@@ -315,7 +315,7 @@ async function main() {
 return await main();
 ```
 
-```dataviewjs fold
+```js dataviewjs fold
 const installed = app.plugins.manifests;
 const enabled = app.plugins.plugins;
 
