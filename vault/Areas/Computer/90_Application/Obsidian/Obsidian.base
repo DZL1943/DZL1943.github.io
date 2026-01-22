@@ -77,6 +77,9 @@ views:
         - or:
             - /^[0-9]{4}-[0-1][0-9]-[0-3][0-9]/.matches(file.name)
             - /^[0-9]{4}[0-1][0-9][0-3][0-9][0-2][0-9][0-5][0-9]/.matches(file.name)
+    groupBy:
+      property: file.folder
+      direction: DESC
     order:
       - file.name
       - title
@@ -85,7 +88,7 @@ views:
         direction: DESC
     limit: 50
     columnSize:
-      file.name: 266
+      file.name: 216
       note.title: 308
   - type: cards
     name: Attachments
