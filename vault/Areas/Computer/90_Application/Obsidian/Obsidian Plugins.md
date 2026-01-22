@@ -261,7 +261,7 @@ dv.table(["id", "name", "version", "enabled"], Object.values(app.plugins.manifes
 
 ### 社区插件列表解析
 
-```shell fold title:jq
+```shell fold title="jq"
 jq -n --slurpfile stats Misc/community-plugin-stats.json --slurpfile info Misc/Data/community-plugins.json '
   $info[0] | map(. + ($stats[0][.id] // {}))
   | map(select(.downloads > 100000))
@@ -271,7 +271,51 @@ jq -n --slurpfile stats Misc/community-plugin-stats.json --slurpfile info Misc/D
 ' | jq -c
 ```
 
-```dataviewjs
+```datacorejsx title="simplest impl. render by datacore" fold
+const PLUGINS_URL = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json";
+const STATS_URL   = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json";
+
+async function main() {
+    const { manifests: installed, plugins: enabled } = app.plugins;
+    
+    const [plugins = [], stats = {}] = await Promise.all([
+        fetch(PLUGINS_URL).then(r => r.json()).catch(() => []),
+        fetch(STATS_URL).then(r => r.json()).catch(() => ({})),
+    ]);
+    
+    const oneYearAgo = moment().subtract(1, "years");
+    const filtered = plugins
+        .map((p, i) => ({
+            ...p,
+            index: i,
+            downloads: stats[p.id]?.downloads || 0,
+            updated: stats[p.id]?.updated || "",
+            state: enabled[p.id] ? "**已启用**" : installed[p.id] ? "未启用" : "未安装",
+        }))
+        .filter(p => 
+            p.id in installed || 
+            (moment(p.updated).isAfter(oneYearAgo) && p.downloads > 10000)
+        )
+        .sort((a, b) => b.downloads - a.downloads || a.id.localeCompare(b.id));
+    
+    return (
+        <dc.Table
+            rows={filtered}
+            columns={[
+                {id: 'name', value: p => `[${p.name}](https://github.com/${p.repo})`},
+                {id: 'updated', value: p => p.updated ? moment(p.updated).fromNow() : ""},
+                {id: 'downloads', value: p => p.downloads.toLocaleString()},
+                {id: 'state', value: p => p.state},
+            ]}
+            paging={50}
+        />
+    );
+}
+
+return await main();
+```
+
+```dataviewjs fold
 const installed = app.plugins.manifests;
 const enabled = app.plugins.plugins;
 
