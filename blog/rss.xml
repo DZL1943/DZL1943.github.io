@@ -4,31 +4,10 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Tue, 20 Jan 2026 06:16:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jan 2026 09:48:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
-        <item>
-            <title><![CDATA[PARA]]></title>
-            <link>https://dzl1943.github.io/blog/PARA</link>
-            <guid>https://dzl1943.github.io/blog/PARA</guid>
-            <pubDate>Tue, 20 Jan 2026 06:16:19 GMT</pubDate>
-            <description><![CDATA[[list2table]]]></description>
-            <content:encoded><![CDATA[<p>[list2table]</p>
-<ul>
-<li class="">&lt; 类别 | 说明 | 备注(个人用法) | 举例</li>
-<li class="">projects | 进行中的短期任务, 有明确的结果目标和截止日期 | 目前很少用(一般 inbox 足矣)</li>
-<li class="">areas | 长期精进的领域 | 只要是专业领域的内容我都会放在这里, 不一定都是需要负责的 | 自然、社科、人文、技术等</li>
-<li class="">resources | 未来可能有用的感兴趣的主题内容 | 没有明确领域的常规参考性内容 | 书影音、游戏、物品、人物等</li>
-<li class="">archives | 不再关注的内容 | 基本上等于"回收站"</li>
-</ul>
-<p>[list2table]</p>
-<ul>
-<li class="">&lt;  | 专业 | 非专业</li>
-<li class="">客观 | Area | Resource</li>
-<li class="">主观 | Project? | Page</li>
-</ul>]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[vps 节点搭建调研]]></title>
             <link>https://dzl1943.github.io/blog/vps 节点搭建调研</link>
@@ -895,6 +874,83 @@
 <li class="">xGestures <code>~/Library/Preferences/what.xGestures.plist</code></li>
 <li class="">Stats</li>
 </ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[obsidian 日记组织方式探究]]></title>
+            <link>https://dzl1943.github.io/blog/obsidian 日记组织方式探究</link>
+            <guid>https://dzl1943.github.io/blog/obsidian 日记组织方式探究</guid>
+            <pubDate>Sat, 11 Oct 2025 05:19:00 GMT</pubDate>
+            <description><![CDATA[按周期]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按周期">按周期<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="按周期的直接链接" title="按周期的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">Daily/</li>
+<li class="">Weekly/</li>
+<li class="">Monthly/</li>
+<li class="">Quarterly/</li>
+<li class="">Yearly/</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年份">按年份<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4%E4%BB%BD" class="hash-link" aria-label="按年份的直接链接" title="按年份的直接链接" translate="no">​</a></h2>
+<p>%% moment 格式 %%</p>
+<ul>
+<li class="">YYYY/<!-- -->
+<ul>
+<li class="">YYYY-MM-DD</li>
+<li class="">GGGG-[W]WW</li>
+<li class="">YYYY-MM</li>
+<li class="">YYYY-[Q]Q</li>
+<li class="">YYYY</li>
+</ul>
+</li>
+</ul>
+<p>%% luxon 格式 %%</p>
+<ul>
+<li class="">yyyy/<!-- -->
+<ul>
+<li class="">yyyy-MM-dd</li>
+<li class="">kkkk-'W'WW</li>
+<li class="">yyyy-MM</li>
+<li class="">yyyy-'Q'q</li>
+<li class="">yyyy</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年份和周期">按年份和周期<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4%E4%BB%BD%E5%92%8C%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="按年份和周期的直接链接" title="按年份和周期的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年-季-月-周-日">按年-季-月-周-日<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4-%E5%AD%A3-%E6%9C%88-%E5%91%A8-%E6%97%A5" class="hash-link" aria-label="按年-季-月-周-日的直接链接" title="按年-季-月-周-日的直接链接" translate="no">​</a></h2>
+<p>方案一</p>
+<ul>
+<li class="">年<!-- -->
+<ul>
+<li class="">季<!-- -->
+<ul>
+<li class="">月<!-- -->
+<ul>
+<li class="">日</li>
+</ul>
+</li>
+<li class="">周</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>方案二</p>
+<ul>
+<li class="">年<!-- -->
+<ul>
+<li class="">季<!-- -->
+<ul>
+<li class="">周</li>
+</ul>
+</li>
+<li class="">月<!-- -->
+<ul>
+<li class="">日</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>Obsidian</category>
         </item>
     </channel>
 </rss>
