@@ -9,69 +9,6 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <item>
-            <title><![CDATA[GitHub 仓库分类]]></title>
-            <link>https://dzl1943.github.io/blog/GitHub 仓库分类</link>
-            <guid>https://dzl1943.github.io/blog/GitHub 仓库分类</guid>
-            <pubDate>Tue, 20 Jan 2026 06:16:19 GMT</pubDate>
-            <description><![CDATA[- Dev: Lib、Framework、Middleware]]></description>
-            <content:encoded><![CDATA[<ul>
-<li class="">Dev: Lib、Framework、Middleware<!-- -->
-<ul>
-<li class="">C/C++</li>
-<li class="">Rust</li>
-<li class="">Go</li>
-<li class="">Java</li>
-<li class="">Python</li>
-<li class="">JavaScript</li>
-<li class="">Shell</li>
-</ul>
-</li>
-<li class="">Tool: 脚本工具</li>
-<li class="">App: 软件应用<!-- -->
-<ul>
-<li class="">Desktop<!-- -->
-<ul>
-<li class="">Windows</li>
-<li class="">macOS</li>
-</ul>
-</li>
-<li class="">Mobile<!-- -->
-<ul>
-<li class="">Android</li>
-<li class="">iOS</li>
-</ul>
-</li>
-<li class="">Web</li>
-<li class="">CLI</li>
-</ul>
-</li>
-<li class="">Resource</li>
-</ul>
-<blockquote>
-<p>[!tip] 只整理在用的就行.</p>
-</blockquote>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[GitHub 镜像网站]]></title>
-            <link>https://dzl1943.github.io/blog/GitHub 镜像网站</link>
-            <guid>https://dzl1943.github.io/blog/GitHub 镜像网站</guid>
-            <pubDate>Tue, 20 Jan 2026 06:16:19 GMT</pubDate>
-            <description><![CDATA[- [ ] https://github.akams.cn/]]></description>
-            <content:encoded><![CDATA[<ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://github.akams.cn/" target="_blank" rel="noopener noreferrer" class="">https://github.akams.cn/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://hub.gitmirror.com/" target="_blank" rel="noopener noreferrer" class="">https://hub.gitmirror.com/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://mirror.ghproxy.com/" target="_blank" rel="noopener noreferrer" class="">https://mirror.ghproxy.com/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghgo.xyz/" target="_blank" rel="noopener noreferrer" class="">https://ghgo.xyz/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghps.cc/" target="_blank" rel="noopener noreferrer" class="">https://ghps.cc/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh-proxy.com/" target="_blank" rel="noopener noreferrer" class="">https://gh-proxy.com/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://www.ghproxy.cn/" target="_blank" rel="noopener noreferrer" class="">https://www.ghproxy.cn/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghproxy.net/" target="_blank" rel="noopener noreferrer" class="">https://ghproxy.net/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.llkk.cc/" target="_blank" rel="noopener noreferrer" class="">https://gh.llkk.cc/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.ddlc.top/" target="_blank" rel="noopener noreferrer" class="">https://gh.ddlc.top/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.idayer.com/" target="_blank" rel="noopener noreferrer" class="">https://gh.idayer.com/</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[PARA]]></title>
             <link>https://dzl1943.github.io/blog/PARA</link>
             <guid>https://dzl1943.github.io/blog/PARA</guid>
@@ -421,6 +358,69 @@
 但论深度定制能力, Emacs 更强?</p>
 <p>简而言之, Vim 是一个编辑器, Emacs 则是一整套文本处理系统.</p>
 <p>Emacs 成也 Lisp, 败也 Lisp.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[GitHub 镜像网站]]></title>
+            <link>https://dzl1943.github.io/blog/GitHub 镜像网站</link>
+            <guid>https://dzl1943.github.io/blog/GitHub 镜像网站</guid>
+            <pubDate>Sun, 21 Dec 2025 21:19:00 GMT</pubDate>
+            <description><![CDATA[- [ ] https://github.akams.cn/]]></description>
+            <content:encoded><![CDATA[<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://github.akams.cn/" target="_blank" rel="noopener noreferrer" class="">https://github.akams.cn/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://hub.gitmirror.com/" target="_blank" rel="noopener noreferrer" class="">https://hub.gitmirror.com/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://mirror.ghproxy.com/" target="_blank" rel="noopener noreferrer" class="">https://mirror.ghproxy.com/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghgo.xyz/" target="_blank" rel="noopener noreferrer" class="">https://ghgo.xyz/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghps.cc/" target="_blank" rel="noopener noreferrer" class="">https://ghps.cc/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh-proxy.com/" target="_blank" rel="noopener noreferrer" class="">https://gh-proxy.com/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://www.ghproxy.cn/" target="_blank" rel="noopener noreferrer" class="">https://www.ghproxy.cn/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghproxy.net/" target="_blank" rel="noopener noreferrer" class="">https://ghproxy.net/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.llkk.cc/" target="_blank" rel="noopener noreferrer" class="">https://gh.llkk.cc/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.ddlc.top/" target="_blank" rel="noopener noreferrer" class="">https://gh.ddlc.top/</a></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.idayer.com/" target="_blank" rel="noopener noreferrer" class="">https://gh.idayer.com/</a></li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[GitHub 仓库分类]]></title>
+            <link>https://dzl1943.github.io/blog/GitHub 仓库分类</link>
+            <guid>https://dzl1943.github.io/blog/GitHub 仓库分类</guid>
+            <pubDate>Sun, 21 Dec 2025 21:18:00 GMT</pubDate>
+            <description><![CDATA[- Dev: Lib、Framework、Middleware]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">Dev: Lib、Framework、Middleware<!-- -->
+<ul>
+<li class="">C/C++</li>
+<li class="">Rust</li>
+<li class="">Go</li>
+<li class="">Java</li>
+<li class="">Python</li>
+<li class="">JavaScript</li>
+<li class="">Shell</li>
+</ul>
+</li>
+<li class="">Tool: 脚本工具</li>
+<li class="">App: 软件应用<!-- -->
+<ul>
+<li class="">Desktop<!-- -->
+<ul>
+<li class="">Windows</li>
+<li class="">macOS</li>
+</ul>
+</li>
+<li class="">Mobile<!-- -->
+<ul>
+<li class="">Android</li>
+<li class="">iOS</li>
+</ul>
+</li>
+<li class="">Web</li>
+<li class="">CLI</li>
+</ul>
+</li>
+<li class="">Resource</li>
+</ul>
+<blockquote>
+<p>[!tip] 只整理在用的就行.</p>
+</blockquote>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[多级标签的匹配问题]]></title>
