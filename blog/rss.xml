@@ -4,10 +4,18 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Mon, 19 Jan 2026 09:48:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Jan 2026 13:50:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[dev-sidecar 导致 notion 无法访问的问题]]></title>
+            <link>https://dzl1943.github.io/blog/dev-sidecar 导致 notion 无法访问的问题</link>
+            <guid>https://dzl1943.github.io/blog/dev-sidecar 导致 notion 无法访问的问题</guid>
+            <pubDate>Fri, 23 Jan 2026 13:50:00 GMT</pubDate>
+            <description><![CDATA[在加速服务 DNS 设置中添加 www.notion.com www.notion.so 选择 cf-DoT 即可.]]></description>
+            <content:encoded><![CDATA[<p>在加速服务 DNS 设置中添加 <a href="http://www.notion.com/" target="_blank" rel="noopener noreferrer" class="">www.notion.com</a> <a href="http://www.notion.so/" target="_blank" rel="noopener noreferrer" class="">www.notion.so</a> 选择 cf-DoT 即可.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[vps 节点搭建调研]]></title>
             <link>https://dzl1943.github.io/blog/vps 节点搭建调研</link>
@@ -874,83 +882,6 @@
 <li class="">xGestures <code>~/Library/Preferences/what.xGestures.plist</code></li>
 <li class="">Stats</li>
 </ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[obsidian 日记组织方式探究]]></title>
-            <link>https://dzl1943.github.io/blog/obsidian 日记组织方式探究</link>
-            <guid>https://dzl1943.github.io/blog/obsidian 日记组织方式探究</guid>
-            <pubDate>Sat, 11 Oct 2025 05:19:00 GMT</pubDate>
-            <description><![CDATA[按周期]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按周期">按周期<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="按周期的直接链接" title="按周期的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">Daily/</li>
-<li class="">Weekly/</li>
-<li class="">Monthly/</li>
-<li class="">Quarterly/</li>
-<li class="">Yearly/</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年份">按年份<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4%E4%BB%BD" class="hash-link" aria-label="按年份的直接链接" title="按年份的直接链接" translate="no">​</a></h2>
-<p>%% moment 格式 %%</p>
-<ul>
-<li class="">YYYY/<!-- -->
-<ul>
-<li class="">YYYY-MM-DD</li>
-<li class="">GGGG-[W]WW</li>
-<li class="">YYYY-MM</li>
-<li class="">YYYY-[Q]Q</li>
-<li class="">YYYY</li>
-</ul>
-</li>
-</ul>
-<p>%% luxon 格式 %%</p>
-<ul>
-<li class="">yyyy/<!-- -->
-<ul>
-<li class="">yyyy-MM-dd</li>
-<li class="">kkkk-'W'WW</li>
-<li class="">yyyy-MM</li>
-<li class="">yyyy-'Q'q</li>
-<li class="">yyyy</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年份和周期">按年份和周期<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4%E4%BB%BD%E5%92%8C%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="按年份和周期的直接链接" title="按年份和周期的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="按年-季-月-周-日">按年-季-月-周-日<a href="https://dzl1943.github.io/blog/obsidian%20%E6%97%A5%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F%E6%8E%A2%E7%A9%B6#%E6%8C%89%E5%B9%B4-%E5%AD%A3-%E6%9C%88-%E5%91%A8-%E6%97%A5" class="hash-link" aria-label="按年-季-月-周-日的直接链接" title="按年-季-月-周-日的直接链接" translate="no">​</a></h2>
-<p>方案一</p>
-<ul>
-<li class="">年<!-- -->
-<ul>
-<li class="">季<!-- -->
-<ul>
-<li class="">月<!-- -->
-<ul>
-<li class="">日</li>
-</ul>
-</li>
-<li class="">周</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>方案二</p>
-<ul>
-<li class="">年<!-- -->
-<ul>
-<li class="">季<!-- -->
-<ul>
-<li class="">周</li>
-</ul>
-</li>
-<li class="">月<!-- -->
-<ul>
-<li class="">日</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-            <category>Obsidian</category>
         </item>
     </channel>
 </rss>
