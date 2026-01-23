@@ -84,8 +84,8 @@ excalidraw-plugin: parsed
 - [Mos](https://github.com/Caldis/Mos): 一个开源的简单的鼠标滚动优化工具
 - [BetterAndBetter](https://www.better365.cn/bab2.html): 大而全
 - **[xGestures](https://briankendall.net/xGestures/)**: 一个老牌鼠标手势软件, 支持 AppleScript, 特点是支持修饰键控制(按需触发), 不足是不能同时支持右键、中键触发
-- MacGestures
-- MacStroke: 基于 MacGestures 的修改增强
+- MacGesture
+- MacStroke: 基于 MacGesture 的修改增强
 - WGestures2: 一个原 Windows 下的收费手势工具, 现支持了 mac, 功能上看着不错.
 
 > [!tip]+ 用 karabiner 把鼠标中键(button3)改为 shift, 把 xGestures 的修饰键设为 shift, 这样便能最大程度保留 MacMouseFix 功能的同时支持鼠标手势.
