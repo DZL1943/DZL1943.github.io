@@ -60,7 +60,7 @@ excalidraw-plugin: parsed
 
 ![0a7f6ad85bc76da7|800](<../../../Attachments/1761259187532-209521.png>)
 
-![1761259187615-818931](<../../../Attachments/1761259187615-818931.png>)
+![](<../../../Attachments/Pasted image 20260123205709.png>)
 
 ## 触摸板手势
 
