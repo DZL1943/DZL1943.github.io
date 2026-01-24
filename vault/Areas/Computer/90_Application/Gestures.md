@@ -75,7 +75,7 @@ excalidraw-plugin: parsed
 | 合拢    | 缩放         | 关闭 tab `cmd+W`<br/>关闭窗口 `opt+cmd+W` | **启动台**                    |
 | 张开    | 缩放         | 退出应用 `cmd+Q`<br/>强制退出 `opt+cmd+esc` | **显示桌面** `F11`             |
 
-![1761259187606-807147](<../../../Attachments/1761259187606-807147.png>)
+![](<../../../Attachments/Pasted image 20260124110228.png>)
 
 ## 软件工具
 
