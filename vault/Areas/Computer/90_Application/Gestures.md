@@ -13,8 +13,8 @@ excalidraw-plugin: parsed
 ## 鼠标手势
 
 %% [lt] %%
-- [x] 左 L | back `cmd+[`
-    - [x] 左右 | back
+- [x] 左 L
+    - [x] 左右 | back `cmd+[`
     - [x] 左右左(S) | `cmd+,`
     - [x] 左右上(◀️) | prev song
     - [ ] 左右下 | voice-?
@@ -24,8 +24,8 @@ excalidraw-plugin: parsed
     - [x] 左下 | close all `alt+cmd+w`
     - [x] 左下右(\[) | left space `ctrl+left`
     - [ ] 左下左 | zoom-
-- [x] 右 R | forward `cmd+]`
-    - [x] 右左 | forward
+- [x] 右 R
+    - [x] 右左 | forward `cmd+]`
     - [x] 右左右(Z) | max `ctrl+cmd+f`
     - [x] 右左上(▶️) | next song
     - [ ] 右左下 | voice+?
@@ -35,8 +35,8 @@ excalidraw-plugin: parsed
     - [x] 右下 | **refresh** `cmd+r`
     - [x] 右下左(\]) | right space `ctrl+right`
     - [ ] 右下右 | zoom+
-- [x] 上 U | top `fn+left`
-    - [x] 上下 | top
+- [x] 上 U
+    - [x] 上下 | top `fn+left`
     - [x] 上下上(N) | zoom
     - [ ] 上下左(🔼) | light+
     - [ ] 上下右 | un-translate?
@@ -46,8 +46,8 @@ excalidraw-plugin: parsed
     - [x] 上右 | next `ctrl+tab`
     - [ ] 上右下 | `ctrl+up`
     - [ ] 上右上
-- [x] 下 D | bottom `fn+right`
-    - [x] 下上 | bottom
+- [x] 下 D
+    - [x] 下上 | bottom `fn+right`
     - [x] 下上下(H) | `cmd+h`
     - [ ] 下上左(🔽) | light-
     - [ ] 下上右 | translate?
@@ -60,7 +60,7 @@ excalidraw-plugin: parsed
 
 ![0a7f6ad85bc76da7|800](<../../../Attachments/1761259187532-209521.png>)
 
-![](<../../../Attachments/Pasted image 20260123205709.png>)
+![](<../../../Attachments/Pasted image 20260124100515.png>)
 
 ## 触摸板手势
 
