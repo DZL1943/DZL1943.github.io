@@ -12,51 +12,51 @@ excalidraw-plugin: parsed
 
 ## 鼠标手势
 
-%%[lt]%%
-- 左 L | back `cmd+[`
-    - 左右 | back
-    - 左右左(S) | `cmd+,`
-    - 左右上(◀️) | prev song
-    - 左右下 | voice-?
-    - 左上 | restore `cmd+z`
-    - 左上右 | split left?
-    - 左上左
-    - 左下 | close all `alt+cmd+w`
-    - 左下右(\[) | left space `ctrl+left`
-    - 左下左 | zoom-
-- 右 R | forward `cmd+]`
-    - 右左 | forward
-    - 右左右(Z) | max `ctrl+cmd+f`
-    - 右左上(▶️) | next song
-    - 右左下 | voice+?
-    - 右上 | new `cmd+t`
-    - 右上左 | split right?
-    - 右上右
-    - 右下 | **refresh** `cmd+r`
-    - 右下左(\]) | right space `ctrl+right`
-    - 右下右 | zoom+
-- 上 U | top `fn+left`
-    - 上下 | top
-    - 上下上(N) | zoom
-    - 上下左(🔼) | light+
-    - 上下右 | un-translate?
-    - 上左 | prev `shift+ctrl+tab`
-    - 上左下 | split up
-    - 上左上
-    - 上右 | next `ctrl+tab`
-    - 上右下 | `ctrl+up`
-    - 上右上
-- 下 D | bottom `fn+right`
-    - 下上 | bottom
-    - 下上下(H) | `cmd+h`
-    - 下上左(🔽) | light-
-    - 下上右 | translate?
-    - 下左 | quit `cmd+q`
-    - 下左上 | split down
-    - 下左下
-    - 下右 | **close** `cmd+w`
-    - 下右上(U) | `ctrl+down`
-    - 下右下
+%% [lt] %%
+- [x] 左 L | back `cmd+[`
+    - [x] 左右 | back
+    - [x] 左右左(S) | `cmd+,`
+    - [x] 左右上(◀️) | prev song
+    - [ ] 左右下 | voice-?
+    - [x] 左上 | undo `cmd+z`
+    - [ ] 左上右 | split left?
+    - [ ] 左上左
+    - [x] 左下 | close all `alt+cmd+w`
+    - [x] 左下右(\[) | left space `ctrl+left`
+    - [ ] 左下左 | zoom-
+- [x] 右 R | forward `cmd+]`
+    - [x] 右左 | forward
+    - [x] 右左右(Z) | max `ctrl+cmd+f`
+    - [x] 右左上(▶️) | next song
+    - [ ] 右左下 | voice+?
+    - [x] 右上 | new `cmd+t`
+    - [ ] 右上左 | split right?
+    - [ ] 右上右
+    - [x] 右下 | **refresh** `cmd+r`
+    - [x] 右下左(\]) | right space `ctrl+right`
+    - [ ] 右下右 | zoom+
+- [x] 上 U | top `fn+left`
+    - [x] 上下 | top
+    - [x] 上下上(N) | zoom
+    - [ ] 上下左(🔼) | light+
+    - [ ] 上下右 | un-translate?
+    - [x] 上左 | prev `shift+ctrl+tab`
+    - [ ] 上左下 | split up
+    - [ ] 上左上
+    - [x] 上右 | next `ctrl+tab`
+    - [ ] 上右下 | `ctrl+up`
+    - [ ] 上右上
+- [x] 下 D | bottom `fn+right`
+    - [x] 下上 | bottom
+    - [x] 下上下(H) | `cmd+h`
+    - [ ] 下上左(🔽) | light-
+    - [ ] 下上右 | translate?
+    - [x] 下左 | quit `cmd+q`
+    - [ ] 下左上 | split down
+    - [ ] 下左下
+    - [x] 下右 | **close** `cmd+w`
+    - [ ] 下右上(U) | `ctrl+down`
+    - [ ] 下右下
 
 ![0a7f6ad85bc76da7|800](<../../../Attachments/1761259187532-209521.png>)
 
