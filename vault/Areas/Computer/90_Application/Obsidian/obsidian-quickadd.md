@@ -654,30 +654,24 @@ module.exports = async (params) => {
         { id: 'newTag', type: 'text' },
     ]);
 
-    const operations = {
-        add: (tags) => !tags.includes(tag) && tags.push(tag),
-        remove: (tags) => {
-            const index = tags.indexOf(tag);
-            return index > -1 && tags.splice(index, 1);
-        },
-        replace: (tags) => {
-            const index = tags.indexOf(tag);
-            return index > -1 && (tags[index] = newTag);
-        }
+    const ops = {
+        add: (fm) => !fm.tags ? (fm.tags = [tag], true) : !fm.tags.includes(tag) && (fm.tags.push(tag), true),
+        remove: (fm) => fm.tags?.includes(tag) && fm.tags.splice(fm.tags.indexOf(tag), 1).length,
+        replace: (fm) => fm.tags?.includes(tag) && (fm.tags[fm.tags.indexOf(tag)] = newTag, true)
     };
 
     let modified = 0;
     
     for (const file of app.vault.getMarkdownFiles()) {
-        await app.fileManager.processFrontMatter(file, (fm) => {
-            fm.tags = fm.tags || [];
-            if (operations[operation](fm.tags)) modified++;
-        });
+        await app.fileManager.processFrontMatter(
+            file,
+            (fm) => ops[operation](fm) && modified++,
+        );
     }
     
     new obsidian.Notice(`Modified ${modified} files`);
     return modified;
-}
+};
 ```
 
 ### 附件管理
