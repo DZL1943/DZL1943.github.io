@@ -648,10 +648,11 @@ module.exports = {
 module.exports = async (params) => {
     const { obsidian, quickAddApi = app.plugins.plugins.quickadd.api } = params || {};
     
-    const { operation, tag, newTag } = await quickAddApi.requestInputs([
+    const { operation, tag, newTag, filepaths } = await quickAddApi.requestInputs([
         { id: 'operation', type: 'dropdown', options: ['add', 'remove', 'replace'] },
         { id: 'tag', type: 'text' },
         { id: 'newTag', type: 'text' },
+        { id: 'filepaths', type: 'textarea' },
     ]);
 
     const ops = {
@@ -662,11 +663,16 @@ module.exports = async (params) => {
 
     let modified = 0;
     
-    for (const file of app.vault.getMarkdownFiles()) {
-        await app.fileManager.processFrontMatter(
-            file,
-            (fm) => ops[operation](fm) && modified++,
-        );
+    const files = filepaths && filepaths.trim()
+        ? filepaths.split('\n')
+            .map(p => p.trim())
+            .filter(p => p)
+            .map(p => app.vault.getFileByPath(p))
+            .filter(f => f)
+        : app.vault.getMarkdownFiles();
+    
+    for (const file of files) {
+        await app.fileManager.processFrontMatter(file, (fm) => ops[operation](fm) && modified++);
     }
     
     new obsidian.Notice(`Modified ${modified} files`);
