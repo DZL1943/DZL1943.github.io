@@ -198,6 +198,6 @@ window.setOpacity(0.88);
 window.setAlwaysOnTop(true);
 ```
 
-## 参考
+## References
 
 - [obsidian常用api汇总 - 开发讨论 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/50607)
