@@ -84,7 +84,7 @@ aliases:
     },
     {
       "name": "tags",
-      "value": "clippings, av/91",
+      "value": "clippings/91, av",
       "type": "multitext"
     },
     {
@@ -125,7 +125,7 @@ aliases:
     },
     {
       "name": "tags",
-      "value": "clippings, av/51",
+      "value": "clippings/51, av",
       "type": "multitext"
     },
     {
@@ -140,4 +140,163 @@ aliases:
   "noteNameFormat": "{{title|safe_name}}",
   "path": "Inbox"
 }
+```
+
+## 脚本
+
+```python fold
+import httpx
+import re
+import os
+from urllib.parse import urlparse, urljoin
+from datetime import datetime
+from bs4 import BeautifulSoup
+
+
+class BaseParser:
+    DOMAIN = None
+    PATTERN = r".*"
+    TEMPLATE = """---
+title: {title}
+url: {url}
+image: {image}
+tags: {tags}
+created: {created}
+---
+
+{content}"""
+
+    def __init__(self):
+        self.soup = None
+        self.domain = self.DOMAIN
+        self.created = None
+        self.tags = None
+        self.url = None
+        self.title = None
+        self.image = None
+        self.images = []
+        self.content = ""
+
+    @classmethod
+    def match(cls, url):
+        return bool(re.search(cls.PATTERN, url))
+
+    def parse(self, url):
+        self.url = url
+        resp = httpx.get(self.url, timeout=30.0, follow_redirects=True)
+        resp.raise_for_status()
+        self.soup = BeautifulSoup(resp.content, "html.parser")
+
+        self.domain = (
+            self.DOMAIN or urlparse(self.url).netloc.replace("www.", "").split(".")[0]
+        )
+        self._parse_meta()
+        self._parse_content()
+        if not self.image:
+            self._set_image()
+        self.created = datetime.now().strftime("%Y-%m-%d")
+
+    def _parse_meta(self):
+        meta = self.soup.find("meta", property="og:title")
+        self.title = (
+            meta["content"]
+            if meta
+            else (self.soup.title.string if self.soup.title else "Untitled")
+        )
+
+        meta_image = self.soup.find("meta", property="og:image")
+        self.image = meta_image["content"] if meta_image else ""
+
+        self.tags = f"[clippings/{self.domain}]"
+
+    def _parse_content(self):
+        self.images = self._parse_images()
+        self.content = "\n\n".join(f"![]({img})" for img in self.images)
+
+    def _parse_images(self):
+        def normalize(img_url):
+            if img_url.startswith("//"):
+                return "https:" + img_url
+            elif img_url.startswith(("http://", "https://", "data:")):
+                return img_url
+            return urljoin(self.url, img_url)
+
+        images = []
+        seen = set()
+
+        for img in self.soup.find_all("img"):
+            if src := (img.get("src") or img.get("data-src")):
+                img_url = normalize(src)
+                if img_url not in seen:
+                    seen.add(img_url)
+                    images.append(img_url)
+
+        return images
+
+    def _set_image(self):
+        if self.images:
+            self.image = self.images[0]
+
+    def generate_markdown(self):
+        return self.TEMPLATE.format(
+            title=self.title,
+            url=self.url,
+            image=self.image,
+            tags=self.tags,
+            created=self.created,
+            content=self.content,
+        )
+
+
+class WebToMarkdown:
+    PARSERS = [BaseParser]
+
+    def __init__(self, output_dir="./output"):
+        self.output_dir = output_dir
+        os.makedirs(output_dir, exist_ok=True)
+
+    def get_parser(self, url):
+        for parser_class in self.PARSERS:
+            if parser_class.match(url):
+                return parser_class()
+        return BaseParser()
+
+    def process_url(self, url):
+        try:
+            parser = self.get_parser(url)
+            parser.parse(url)
+            self._save(
+                os.path.join(self.output_dir, parser.domain),
+                re.sub(r"[^\w\-]", "_", parser.title)[:50] + ".md",
+                parser.generate_markdown(),
+            )
+        except Exception as e:
+            print(f"处理失败 {url}: {e}")
+
+    def process_urls(self, urls):
+        for url in urls:
+            self.process_url(url)
+
+    def _save(self, folder, name, data):
+        os.makedirs(folder, exist_ok=True)
+        filepath = os.path.join(folder, name)
+
+        if os.path.exists(filepath):
+            print(f"覆盖: {filepath}")
+
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(data)
+
+        print(f"保存: {filepath}")
+
+
+if __name__ == "__main__":
+    converter = WebToMarkdown()
+
+    urls = [
+        # 在这里添加要处理的URL
+    ]
+
+    converter.process_urls(urls)
+
 ```
