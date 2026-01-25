@@ -106,7 +106,7 @@ sidebar_position: 1
     - 网易邮箱
     - QQ邮箱
 - 待办 GTD
-    - DIDA
+    - 滴答清单
     - Tasks.org
     - Super Productivity
 - 笔记 Note
