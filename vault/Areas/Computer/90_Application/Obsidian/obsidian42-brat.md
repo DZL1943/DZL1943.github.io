@@ -11,6 +11,7 @@ tags:
 [
     "3C0D/obsidian-quick-plugin-switcher",
     "aidan-gibson/obsidian-opener",
+    "AlbusGuo/albus-imagine",
     "Fevol/obsidian-criticmarkup",
     "l1xnan/obsidian-better-export-pdf",
     "lextoumbourou/obsidian-title-as-link-text",
@@ -22,6 +23,8 @@ tags:
     "Quorafind/Outliner.MD",
     "sunbooshi/note-to-mp",
     "tbergeron/obsidian-nldates-redux",
+    "ttyyxx-ser/Obsidian-sidebar-expand-on-hover-Plus",
+    "UNLINEARITY/Obsidian-CodeSpace",
     "vran-dev/obsidian-attachment-pro",
     "wish5115/obsidian-floating-settings",
     "xhuajin/obsidian-immersive-translate",
