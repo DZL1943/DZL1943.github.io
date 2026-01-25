@@ -48,9 +48,9 @@ collapse: true
 - [P] float-search
 - [P] floating-toc
 - [P] note-toolbar
-- [X] obsidian-auto-hide
 - [X] obsidian-hover-editor
 - [P] obsidian-style-settings
+- [X] quick-peek-sidebar
 
 ## 编辑类
 %% 增强编辑体验 %%
@@ -144,6 +144,7 @@ collapse: true
 - note-status
 - note-to-mp
 - novel-word-count
+- obsidian-auto-hide
 - obsidian-custom-attachment-location
 - obsidian-day-planner
 - obsidian-douban-plugin
@@ -175,7 +176,6 @@ collapse: true
 - pdf-plus
 - pexels-banner
 - pretty-properties
-- quick-peek-sidebar
 - quick-plugin-switcher
 - quicklink
 - recent-files-obsidian
