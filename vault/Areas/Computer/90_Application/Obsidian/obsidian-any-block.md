@@ -130,6 +130,12 @@ world
 - b
 - c
 
+:::note- title
+
+content
+
+:::
+
 ### 列表与表格
 
 %% [title2tabs] %%
