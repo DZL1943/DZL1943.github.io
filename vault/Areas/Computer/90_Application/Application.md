@@ -1,8 +1,8 @@
 ---
+title: Application
 created: 2026-01-06T15:07
-modified: 2026-01-11T22:30
-aliases:
-  - 软件
+modified: 2026-01-26T09:44
+aliases: [软件]
 sidebar_position: 1
 ---
 
@@ -267,20 +267,39 @@ sidebar_position: 1
 
 ## 工程 Engineering
 
-- 制图 CAD
-    - AutoCAD
-    - LibreCAD
-- 机械 Mechanical
-    - SolidWorks
-- 建筑 Architecture
-- 电气 Electrical
-    - KiCad
-- 仿真 Simulation
-    - ANSYS
-- 计算 Compute
-    - MATLAB
-    - GNU Octave
-    - Wolfram Mathematica
+- CAD
+    - 通用
+        - AutoCAD
+        - LibreCAD
+    - 机械 Mechanical
+        - SolidWorks
+        - Fusion 360
+        - CATIA
+    - 建筑 Architecture
+        - Revit
+        - SketchUp
+    - 电气 Electrical
+        - KiCad
+        - Altium Designer
+- CAE
+    - 仿真 Simulation
+        - ANSYS
+        - COMSOL Multiphysics
+        - Abaqus
+    - 计算 Compute
+        - MATLAB
+        - GNU Octave
+        - Wolfram Mathematica
+- CAM
+    - 数控加工 (CNC)
+        - Mastercam (铣削、车削综合编程)
+        - CAMWorks (基于SolidWorks的集成编程)
+        - Siemens NX CAM (高端多轴与车铣复合编程)
+    - 增材制造 (3D打印)
+        - Ultimaker Cura (主流开源切片软件)
+        - Simplify3D (高级切片与控制软件)
+    - 钣金加工
+        - Radan (专业的钣金设计与制造套件)
 
 ## 开发 Development
 
