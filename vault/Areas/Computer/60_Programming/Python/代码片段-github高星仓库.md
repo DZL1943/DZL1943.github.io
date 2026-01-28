@@ -56,18 +56,15 @@ class GitHub:
             r.raise_for_status()
         r.raise_for_status()
     
-    def _paginate(self, url, params=None, extract_items=False, per_page=None, max_pages=None):
+    def _paginate(self, url, params=None, per_page=None, max_pages=None):
         per_page = per_page or self.PER_PAGE
-        if extract_items:
-            max_pages = min(max_pages or self.MAX_PAGES, self.MAX_PAGES)
-        
         page = 1
         out = []
         while True:
             print(f"Begin fetching page: {page}")
             r = self._get(url, params=dict(params or {}, per_page=per_page, page=page))
             body = r.json()
-            items = body.get("items") if extract_items else body
+            items = body.get("items") if isinstance(body, dict) else body
             
             if not isinstance(items, list):
                 raise RuntimeError(f"Unexpected response: {body}")
@@ -93,8 +90,7 @@ class GitHub:
         return self._paginate(
             "https://api.github.com/search/repositories",
             params={"q": query, "sort": "stars", "order": "desc"},
-            extract_items=True,
-            max_pages=max_pages,
+            max_pages=min(max_pages or self.MAX_PAGES, self.MAX_PAGES),
         )
     
     def top_repos(self, stars=0, limit=0, language=None):
@@ -105,16 +101,17 @@ class GitHub:
         items = self.search_repos(q, max_pages=pages)
         return items[:limit] if limit else items
     
-    def process(self, raw_list, fieldmap=None, sort_by_stars=True):
+    def transform(self, items, fieldmap=None, filter=None, sort_by="stars", reverse=True):
         fieldmap = fieldmap or self.FIELDMAP
         out = []
-        for r in raw_list:
-            o = {k: r.get(src) for k, src in fieldmap.items()}
-            o["url"] = o.get("url") or r.get("html_url")
+        for d in items:
+            o = {k: d.get(src) for k, src in fieldmap.items()}
+            if callable(filter) and not filter(o):
+                continue
             out.append(o)
-        
-        if sort_by_stars:
-            out.sort(key=lambda x: int(x.get("stars") or 0), reverse=True)
+
+        if sort_by:
+            out.sort(key=lambda x: x.get(sort_by), reverse=reverse)
         return out
     
     def save_ndjson(self, items, path):
@@ -136,7 +133,7 @@ class GitHub:
             w.writeheader()
             w.writerows(items)
     
-    def write(self, items, name, fmt):
+    def save(self, items, name, fmt):
         getattr(self, f"save_{fmt}")(items, f"{name}.{fmt}")
 
 
@@ -176,19 +173,19 @@ def main():
                 if not args.username:
                     raise SystemExit("Error: username is required")
                 raw = gh.starred(args.username)
-                gh.write(gh.process(raw), "starred", args.format)
+                gh.save(gh.transform(raw), "starred", args.format)
                 
             case "search":
                 raw = gh.search_repos(args.query, max_pages=args.max_pages)
-                gh.write(gh.process(raw), "search", args.format)
+                gh.save(gh.transform(raw), "search", args.format)
                 
             case "top":
                 raw = gh.top_repos(stars=args.stars, limit=args.limit, 
                                  language=args.language)
                 name = "top"
                 if args.language:
-                    name = f"top_{args.language.lower().replace(' ', '_')}"
-                gh.write(gh.process(raw), name, args.format)
+                    name = f"top_{args.language}"
+                gh.save(gh.transform(raw), name, args.format)
         
         print(f"Done. Output saved as {args.format} file.")
         
