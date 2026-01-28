@@ -33,134 +33,122 @@ modified: 2026-01-22T19:02
 #!/usr/bin/env python3
 import argparse
 import json
-import sys
 import time
-from typing import List, Dict, Any, Optional
+import re
+import sys
 
 import httpx
-from tqdm import tqdm
 
+MAX_RETRIES = 5
+ACCEPT = "application/vnd.github.mercy-preview+json, application/vnd.github.v3+json"
 
-def fetch_pages(username: Optional[str],
-                per_page: int = 100, max_pages: Optional[int] = None) -> List[Dict[str, Any]]:
-    """
-    分页抓取 starred
-    """
-    headers = {"Accept": "application/vnd.github.mercy-preview+json, application/vnd.github.v3+json"}
+def get_with_retry(client, url, retries=MAX_RETRIES):
+    for attempt in range(retries):
+        resp = client.get(url)
+        if resp.status_code == 200:
+            return resp
+        if resp.status_code == 403:
+            remaining = resp.headers.get("X-RateLimit-Remaining")
+            reset = resp.headers.get("X-RateLimit-Reset")
+            if remaining == "0" and reset:
+                wait = max(0, int(reset) - int(time.time()) + 1)
+                print(f"Rate limit reached, waiting {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+        if resp.status_code in (429, 500, 502, 503, 504):
+            time.sleep((2 ** attempt) + 0.5)
+            continue
+        resp.raise_for_status()
+    resp.raise_for_status()
 
-    client = httpx.Client(headers=headers, timeout=30.0, verify=False)
+def make_progress(show):
+    if not show:
+        class D:
+            def update(self, n=1): pass
+            def close(self): pass
+        return D()
+    try:
+        from tqdm import tqdm
+        return tqdm(desc="pages", unit="page")
+    except Exception:
+        return make_progress(False)
+
+def fetch_pages(username, per_page=100, show_progress=True):
+    if not username:
+        raise SystemExit("username required")
+    endpoint = f"https://api.github.com/users/{username}/starred"
+    client = httpx.Client(headers={"Accept": ACCEPT}, timeout=30.0, verify=False)
     page = 1
-    all_items: List[Dict[str, Any]] = []
-
-    pbar = None
+    all_items = []
+    pbar = make_progress(show_progress)
     try:
         while True:
-            url = f"https://api.github.com/users/{username}/starred?per_page={per_page}&page={page}"
-            # 重试
-            for attempt in range(5):
-                resp = client.get(url)
-                if resp.status_code == 200:
-                    break
-                # 速率限制处理
-                if resp.status_code == 403:
-                    remaining = resp.headers.get("X-RateLimit-Remaining")
-                    reset = resp.headers.get("X-RateLimit-Reset")
-                    if remaining == "0" and reset:
-                        reset_ts = int(reset)
-                        wait = max(0, reset_ts - int(time.time()) + 1)
-                        print(f"Rate limit reached. Waiting {wait} seconds until reset...")
-                        time.sleep(wait)
-                        continue
-                    # 其他 403 情况，短暂退避
-                if resp.status_code in (429, 500, 502, 503, 504):
-                    backoff = (2 ** attempt) + 0.5
-                    time.sleep(backoff)
-                    continue
-                # 无法恢复的错误直接报错
-                resp.raise_for_status()
-            else:
-                resp.raise_for_status()
-
+            url = f"{endpoint}?per_page={per_page}&page={page}"
+            resp = get_with_retry(client, url)
             items = resp.json()
             if not isinstance(items, list):
-                # 有时 GitHub 会返回错误对象
                 raise RuntimeError(f"Unexpected response: {items}")
-
-            if page == 1:
-                # 尝试从 Link header 或 total count 估算进度（若存在）
-                link = resp.headers.get("Link", "")
-                if link and "rel=\"last\"" in link:
-                    # 解析 last 页码（简单字符串查找）
-                    import re
-                    m = re.search(r'[&?]page=(\d+)>; rel="last"', link)
-                    if m:
-                        last_page = int(m.group(1))
-                        pbar = tqdm(total=last_page, desc="pages", unit="page")
-                        pbar.update(1)
-                else:
-                    pbar = tqdm(desc="pages", unit="page")
-                    pbar.update(1)
-
-            else:
-                if pbar:
-                    pbar.update(1)
-
-            if len(items) == 0:
+            if page == 1 and show_progress:
+                link = resp.headers.get("Link", "") or ""
+                m = re.search(r'[&?]page=(\d+)>; rel="last"', link)
+                if m and hasattr(pbar, "total"):
+                    try:
+                        pbar.total = int(m.group(1)); pbar.refresh()
+                    except Exception:
+                        pass
+            pbar.update(1)
+            if not items:
                 break
-
-            # 只保留必要字段，topics 字段可能为空或需要特殊 Accept header（我们已包含）
-            for it in items:
-                # Some fields might be missing; use .get
-                repo = {
-                    "name": it.get("name"),
-                    "full_name": it.get("full_name"),
-                    "html_url": it.get("html_url"),
-                    "description": it.get("description"),
-                    "language": it.get("language"),
-                    "topics": it.get("topics") or [],
-                    "archived": bool(it.get("archived")),
-                    "fork": bool(it.get("fork")),
-                    "stargazers_count": it.get("stargazers_count", 0),
-                    "pushed_at": it.get("pushed_at"),
-                }
-                all_items.append(repo)
-
-            if max_pages and page >= max_pages:
-                break
-
+            all_items.extend(items)
             page += 1
-            # 速率限制防护：若未认证，睡一小段以更稳妥（可注释）
-            # time.sleep(0.1)
-
     finally:
-        if pbar:
-            pbar.close()
+        pbar.close()
         client.close()
-
     return all_items
 
+def process_items(items):
+    out = []
+    for it in items:
+        out.append({
+            "name": it.get("name"),
+            "full_name": it.get("full_name"),
+            "html_url": it.get("html_url"),
+            "description": it.get("description"),
+            "language": it.get("language"),
+            "topics": it.get("topics") or [],
+            "archived": bool(it.get("archived")),
+            "fork": bool(it.get("fork")),
+            "stargazers_count": it.get("stargazers_count", 0),
+            "pushed_at": it.get("pushed_at"),
+        })
+    out.sort(key=lambda x: x.get("stargazers_count", 0), reverse=True)
+    return out
+
+def save_ndjson(items, path):
+    with open(path, "w", encoding="utf-8") as f:
+        for it in items:
+            f.write(json.dumps(it, ensure_ascii=False) + "\n")
 
 def main():
-    parser = argparse.ArgumentParser(description="Fetch GitHub starred repos (paginated) using httpx.")
-    parser.add_argument("--username", "-u", type=str, help="GitHub username (for public stars).")
-    parser.add_argument("--output", "-o", type=str, default="starred-all.json", help="output filepath.")
-    args = parser.parse_args()
+    p = argparse.ArgumentParser(description="Fetch public GitHub starred repos and save as ndjson.")
+    p.add_argument("--username", "-u", required=True, help="GitHub username")
+    p.add_argument("--per-page", type=int, default=100, help="per_page (max 100)")
+    p.add_argument("--output", "-o", default="starred.ndjson", help="output ndjson file")
+    p.add_argument("--no-progress", action="store_true", help="hide progress")
+    args = p.parse_args()
+
+    if args.per_page > 100:
+        args.per_page = 100
 
     try:
-        items = fetch_pages(username=args.username)
+        raw = fetch_pages(args.username, per_page=args.per_page, show_progress=not args.no_progress)
     except Exception as e:
-        print(f"Error fetching pages: {e}", file=sys.stderr)
+        print("Error:", e, file=sys.stderr)
         sys.exit(2)
 
-    items.sort(key=lambda x: x.get("stargazers_count", 0), reverse=True)
-
-    # 保存
-    with open(args.output, "w", encoding="utf-8") as f:
-        for item in items:
-            f.write(json.dumps(item, ensure_ascii=False) + "\n")
-            
-    print(f"Saved {len(items)} repos to {args.output}")
-
+    items = process_items(raw)
+    save_ndjson(items, args.output)
+    print(f"Fetched {len(raw)} raw items, processed {len(items)} -> {args.output}")
 
 if __name__ == "__main__":
     main()
