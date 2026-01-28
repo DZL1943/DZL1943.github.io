@@ -42,24 +42,22 @@ import httpx
 MAX_RETRIES = 5
 ACCEPT = "application/vnd.github.mercy-preview+json, application/vnd.github.v3+json"
 
-def get_with_retry(client, url, retries=MAX_RETRIES):
+def get_with_retry(client, url, params=None, retries=MAX_RETRIES):
     for attempt in range(retries):
-        resp = client.get(url)
-        if resp.status_code == 200:
-            return resp
-        if resp.status_code == 403:
-            remaining = resp.headers.get("X-RateLimit-Remaining")
-            reset = resp.headers.get("X-RateLimit-Reset")
-            if remaining == "0" and reset:
+        r = client.get(url, params=params)
+        if r.status_code == 200:
+            return r
+        if r.status_code == 403:
+            rem = r.headers.get("X-RateLimit-Remaining")
+            reset = r.headers.get("X-RateLimit-Reset")
+            if rem == "0" and reset:
                 wait = max(0, int(reset) - int(time.time()) + 1)
-                print(f"Rate limit reached, waiting {wait}s...", file=sys.stderr)
-                time.sleep(wait)
-                continue
-        if resp.status_code in (429, 500, 502, 503, 504):
-            time.sleep((2 ** attempt) + 0.5)
-            continue
-        resp.raise_for_status()
-    resp.raise_for_status()
+                print(f"rate limit, sleeping {wait}s...", file=sys.stderr)
+                time.sleep(wait); continue
+        if r.status_code in (429, 500, 502, 503, 504):
+            time.sleep((2 ** attempt) + 0.5); continue
+        r.raise_for_status()
+    r.raise_for_status()
 
 def make_progress(show):
     if not show:
