@@ -62,7 +62,8 @@ gh api \
   /search/repositories \
   -f q='stars:>=100000 language:python' \
   -f sort='stars' -f order='desc' -f per_page='100' \
-  | jq -c '.items[] | {full_name, html_url, stars: .stargazers_count}'
+  | jq -c '.items[] | {full_name, html_url, stars: .stargazers_count}' \
+  #| jq -r '"- [\(.full_name)](\(.html_url)) | \(.stars)"'
 ```
 
 ## Tips

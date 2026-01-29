@@ -197,89 +197,87 @@ if __name__ == "__main__":
     main()
 ```
 
-```json
-{"full_name":"codecrafters-io/build-your-own-x","html_url":"https://github.com/codecrafters-io/build-your-own-x","stars":461655}
-{"full_name":"freeCodeCamp/freeCodeCamp","html_url":"https://github.com/freeCodeCamp/freeCodeCamp","stars":436439}
-{"full_name":"sindresorhus/awesome","html_url":"https://github.com/sindresorhus/awesome","stars":432868}
-{"full_name":"public-apis/public-apis","html_url":"https://github.com/public-apis/public-apis","stars":394066}
-{"full_name":"EbookFoundation/free-programming-books","html_url":"https://github.com/EbookFoundation/free-programming-books","stars":381313}
-{"full_name":"kamranahmedse/developer-roadmap","html_url":"https://github.com/kamranahmedse/developer-roadmap","stars":348176}
-{"full_name":"jwasham/coding-interview-university","html_url":"https://github.com/jwasham/coding-interview-university","stars":336359}
-{"full_name":"donnemartin/system-design-primer","html_url":"https://github.com/donnemartin/system-design-primer","stars":333672}
-{"full_name":"vinta/awesome-python","html_url":"https://github.com/vinta/awesome-python","stars":280363}
-{"full_name":"996icu/996.ICU","html_url":"https://github.com/996icu/996.ICU","stars":275355}
-{"full_name":"awesome-selfhosted/awesome-selfhosted","html_url":"https://github.com/awesome-selfhosted/awesome-selfhosted","stars":270548}
-{"full_name":"practical-tutorials/project-based-learning","html_url":"https://github.com/practical-tutorials/project-based-learning","stars":256941}
-{"full_name":"facebook/react","html_url":"https://github.com/facebook/react","stars":242589}
-{"full_name":"TheAlgorithms/Python","html_url":"https://github.com/TheAlgorithms/Python","stars":217271}
-{"full_name":"torvalds/linux","html_url":"https://github.com/torvalds/linux","stars":215548}
-{"full_name":"vuejs/vue","html_url":"https://github.com/vuejs/vue","stars":209892}
-{"full_name":"trimstray/the-book-of-secret-knowledge","html_url":"https://github.com/trimstray/the-book-of-secret-knowledge","stars":204097}
-{"full_name":"ossu/computer-science","html_url":"https://github.com/ossu/computer-science","stars":200793}
-{"full_name":"trekhleb/javascript-algorithms","html_url":"https://github.com/trekhleb/javascript-algorithms","stars":195435}
-{"full_name":"tensorflow/tensorflow","html_url":"https://github.com/tensorflow/tensorflow","stars":193535}
-{"full_name":"getify/You-Dont-Know-JS","html_url":"https://github.com/getify/You-Dont-Know-JS","stars":184341}
-{"full_name":"ohmyzsh/ohmyzsh","html_url":"https://github.com/ohmyzsh/ohmyzsh","stars":184291}
-{"full_name":"CyC2018/CS-Notes","html_url":"https://github.com/CyC2018/CS-Notes","stars":183546}
-{"full_name":"Significant-Gravitas/AutoGPT","html_url":"https://github.com/Significant-Gravitas/AutoGPT","stars":181525}
-{"full_name":"microsoft/vscode","html_url":"https://github.com/microsoft/vscode","stars":181145}
-{"full_name":"jackfrued/Python-100-Days","html_url":"https://github.com/jackfrued/Python-100-Days","stars":178194}
-{"full_name":"flutter/flutter","html_url":"https://github.com/flutter/flutter","stars":174859}
-{"full_name":"twbs/bootstrap","html_url":"https://github.com/twbs/bootstrap","stars":173959}
-{"full_name":"github/gitignore","html_url":"https://github.com/github/gitignore","stars":172087}
-{"full_name":"n8n-io/n8n","html_url":"https://github.com/n8n-io/n8n","stars":171853}
-{"full_name":"massgravel/Microsoft-Activation-Scripts","html_url":"https://github.com/massgravel/Microsoft-Activation-Scripts","stars":164096}
-{"full_name":"avelino/awesome-go","html_url":"https://github.com/avelino/awesome-go","stars":163693}
-{"full_name":"ollama/ollama","html_url":"https://github.com/ollama/ollama","stars":160963}
-{"full_name":"AUTOMATIC1111/stable-diffusion-webui","html_url":"https://github.com/AUTOMATIC1111/stable-diffusion-webui","stars":160269}
-{"full_name":"jlevy/the-art-of-command-line","html_url":"https://github.com/jlevy/the-art-of-command-line","stars":159648}
-{"full_name":"huggingface/transformers","html_url":"https://github.com/huggingface/transformers","stars":155882}
-{"full_name":"Snailclimb/JavaGuide","html_url":"https://github.com/Snailclimb/JavaGuide","stars":153641}
-{"full_name":"airbnb/javascript","html_url":"https://github.com/airbnb/javascript","stars":148071}
-{"full_name":"yt-dlp/yt-dlp","html_url":"https://github.com/yt-dlp/yt-dlp","stars":144621}
-{"full_name":"langflow-ai/langflow","html_url":"https://github.com/langflow-ai/langflow","stars":144330}
-{"full_name":"DigitalPlatDev/FreeDomain","html_url":"https://github.com/DigitalPlatDev/FreeDomain","stars":144126}
-{"full_name":"f/awesome-chatgpt-prompts","html_url":"https://github.com/f/awesome-chatgpt-prompts","stars":143924}
-{"full_name":"521xueweihan/HelloGitHub","html_url":"https://github.com/521xueweihan/HelloGitHub","stars":141526}
-{"full_name":"ytdl-org/youtube-dl","html_url":"https://github.com/ytdl-org/youtube-dl","stars":139603}
-{"full_name":"vercel/next.js","html_url":"https://github.com/vercel/next.js","stars":137380}
-{"full_name":"yangshun/tech-interview-handbook","html_url":"https://github.com/yangshun/tech-interview-handbook","stars":137172}
-{"full_name":"Genymobile/scrcpy","html_url":"https://github.com/Genymobile/scrcpy","stars":134856}
-{"full_name":"labuladong/fucking-algorithm","html_url":"https://github.com/labuladong/fucking-algorithm","stars":132367}
-{"full_name":"golang/go","html_url":"https://github.com/golang/go","stars":132176}
-{"full_name":"microsoft/PowerToys","html_url":"https://github.com/microsoft/PowerToys","stars":128514}
-{"full_name":"langgenius/dify","html_url":"https://github.com/langgenius/dify","stars":127883}
-{"full_name":"Chalarangelo/30-seconds-of-code","html_url":"https://github.com/Chalarangelo/30-seconds-of-code","stars":126562}
-{"full_name":"langchain-ai/langchain","html_url":"https://github.com/langchain-ai/langchain","stars":125348}
-{"full_name":"facebook/react-native","html_url":"https://github.com/facebook/react-native","stars":125210}
-{"full_name":"open-webui/open-webui","html_url":"https://github.com/open-webui/open-webui","stars":122226}
-{"full_name":"krahets/hello-algo","html_url":"https://github.com/krahets/hello-algo","stars":121904}
-{"full_name":"kubernetes/kubernetes","html_url":"https://github.com/kubernetes/kubernetes","stars":120140}
-{"full_name":"electron/electron","html_url":"https://github.com/electron/electron","stars":119929}
-{"full_name":"ripienaar/free-for-dev","html_url":"https://github.com/ripienaar/free-for-dev","stars":117617}
-{"full_name":"justjavac/free-programming-books-zh_CN","html_url":"https://github.com/justjavac/free-programming-books-zh_CN","stars":116238}
-{"full_name":"excalidraw/excalidraw","html_url":"https://github.com/excalidraw/excalidraw","stars":115562}
-{"full_name":"nodejs/node","html_url":"https://github.com/nodejs/node","stars":115423}
-{"full_name":"d3/d3","html_url":"https://github.com/d3/d3","stars":112226}
-{"full_name":"x1xhlol/system-prompts-and-models-of-ai-tools","html_url":"https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools","stars":111668}
-{"full_name":"iptv-org/iptv","html_url":"https://github.com/iptv-org/iptv","stars":110671}
-{"full_name":"mrdoob/three.js","html_url":"https://github.com/mrdoob/three.js","stars":110594}
-{"full_name":"rust-lang/rust","html_url":"https://github.com/rust-lang/rust","stars":109821}
-{"full_name":"axios/axios","html_url":"https://github.com/axios/axios","stars":108545}
-{"full_name":"microsoft/TypeScript","html_url":"https://github.com/microsoft/TypeScript","stars":107582}
-{"full_name":"rustdesk/rustdesk","html_url":"https://github.com/rustdesk/rustdesk","stars":106507}
-{"full_name":"godotengine/godot","html_url":"https://github.com/godotengine/godot","stars":106053}
-{"full_name":"denoland/deno","html_url":"https://github.com/denoland/deno","stars":105991}
-{"full_name":"GrowingGit/GitHub-Chinese-Top-Charts","html_url":"https://github.com/GrowingGit/GitHub-Chinese-Top-Charts","stars":105855}
-{"full_name":"microsoft/generative-ai-for-beginners","html_url":"https://github.com/microsoft/generative-ai-for-beginners","stars":105790}
-{"full_name":"shadcn-ui/ui","html_url":"https://github.com/shadcn-ui/ui","stars":105730}
-{"full_name":"Hack-with-Github/Awesome-Hacking","html_url":"https://github.com/Hack-with-Github/Awesome-Hacking","stars":105577}
-{"full_name":"goldbergyoni/nodebestpractices","html_url":"https://github.com/goldbergyoni/nodebestpractices","stars":104972}
-{"full_name":"facebook/create-react-app","html_url":"https://github.com/facebook/create-react-app","stars":103968}
-{"full_name":"fatedier/frp","html_url":"https://github.com/fatedier/frp","stars":103961}
-{"full_name":"papers-we-love/papers-we-love","html_url":"https://github.com/papers-we-love/papers-we-love","stars":102775}
-{"full_name":"tauri-apps/tauri","html_url":"https://github.com/tauri-apps/tauri","stars":102007}
-{"full_name":"Comfy-Org/ComfyUI","html_url":"https://github.com/Comfy-Org/ComfyUI","stars":101772}
-{"full_name":"microsoft/terminal","html_url":"https://github.com/microsoft/terminal","stars":101572}
-{"full_name":"deepseek-ai/DeepSeek-V3","html_url":"https://github.com/deepseek-ai/DeepSeek-V3","stars":101367}
-```
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 461655
+- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 436439
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 432868
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) | 394066
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 381313
+- [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) | 348176
+- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 336359
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 333672
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) | 280363
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) | 275355
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 270548
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 256941
+- [facebook/react](https://github.com/facebook/react) | 242589
+- [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 217271
+- [torvalds/linux](https://github.com/torvalds/linux) | 215548
+- [vuejs/vue](https://github.com/vuejs/vue) | 209892
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | 204097
+- [ossu/computer-science](https://github.com/ossu/computer-science) | 200793
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) | 195435
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 193535
+- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) | 184341
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 184291
+- [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) | 183546
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 181525
+- [microsoft/vscode](https://github.com/microsoft/vscode) | 181145
+- [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) | 178194
+- [flutter/flutter](https://github.com/flutter/flutter) | 174859
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) | 173959
+- [github/gitignore](https://github.com/github/gitignore) | 172087
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) | 171853
+- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | 164096
+- [avelino/awesome-go](https://github.com/avelino/awesome-go) | 163693
+- [ollama/ollama](https://github.com/ollama/ollama) | 160963
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 160269
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) | 159648
+- [huggingface/transformers](https://github.com/huggingface/transformers) | 155882
+- [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) | 153641
+- [airbnb/javascript](https://github.com/airbnb/javascript) | 148071
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 144621
+- [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 144330
+- [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) | 144126
+- [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 143924
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 141526
+- [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) | 139603
+- [vercel/next.js](https://github.com/vercel/next.js) | 137380
+- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) | 137172
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | 134856
+- [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm) | 132367
+- [golang/go](https://github.com/golang/go) | 132176
+- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 128514
+- [langgenius/dify](https://github.com/langgenius/dify) | 127883
+- [Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) | 126562
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 125348
+- [facebook/react-native](https://github.com/facebook/react-native) | 125210
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) | 122226
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) | 121904
+- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 120140
+- [electron/electron](https://github.com/electron/electron) | 119929
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | 117617
+- [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) | 116238
+- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 115562
+- [nodejs/node](https://github.com/nodejs/node) | 115423
+- [d3/d3](https://github.com/d3/d3) | 112226
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 111668
+- [iptv-org/iptv](https://github.com/iptv-org/iptv) | 110671
+- [mrdoob/three.js](https://github.com/mrdoob/three.js) | 110594
+- [rust-lang/rust](https://github.com/rust-lang/rust) | 109821
+- [axios/axios](https://github.com/axios/axios) | 108545
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 107582
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 106507
+- [godotengine/godot](https://github.com/godotengine/godot) | 106053
+- [denoland/deno](https://github.com/denoland/deno) | 105991
+- [GrowingGit/GitHub-Chinese-Top-Charts](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts) | 105855
+- [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 105790
+- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 105730
+- [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | 105577
+- [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | 104972
+- [facebook/create-react-app](https://github.com/facebook/create-react-app) | 103968
+- [fatedier/frp](https://github.com/fatedier/frp) | 103961
+- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) | 102775
+- [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | 102007
+- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 101772
+- [microsoft/terminal](https://github.com/microsoft/terminal) | 101572
+- [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | 101367
