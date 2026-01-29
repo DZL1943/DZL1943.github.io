@@ -197,6 +197,7 @@ if __name__ == "__main__":
     main()
 ```
 
+%%[list2table]%%
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 461655
 - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 436439
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 432868
