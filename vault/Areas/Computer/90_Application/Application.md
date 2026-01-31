@@ -107,6 +107,7 @@ sidebar_position: 1
     - QQ邮箱
 - 待办 GTD
     - 滴答清单
+    - Microsoft To-Do
     - Tasks.org
     - Super Productivity
 - 笔记 Note
@@ -116,6 +117,7 @@ sidebar_position: 1
 - 文档 Document
     - WPS
     - PDFgear
+    - Calibre
     - Stirling-PDF
     - Zotero
     - Xmind
@@ -184,6 +186,15 @@ sidebar_position: 1
 
 ## 生活 Living
 
+- 金融支付 Payment
+    - 支付宝
+    - 银闪付
+- 购物 Shopping
+    - 京东
+    - 淘宝
+    - 拼多多
+    - 闲鱼
+    - 转转
 - 餐饮 Dining
     - 美团
     - 饿了么
@@ -194,15 +205,7 @@ sidebar_position: 1
 - 住宿 Hotel
     - 携程
     - 飞猪
-- 购物 Shopping
-    - 京东
-    - 淘宝
-    - 拼多多
-    - 闲鱼
-    - 转转
-- 金融支付 Payment
-    - 支付宝
-    - 银闪付
+    - 安居客
 - 市政 Civic
     - 交管12123
     - 网上国网
