@@ -139,7 +139,7 @@ sidebar_position: 1
     - Chrome
     - Edge
     - Safari
-- AI https://llm-stats.com/
+- AI https://llm-stats.com/, https://huggingface.co
     - [ChatGPT](https://chatgpt.com)
     - [Gemini](https://gemini.google.com)
     - [Grok](https://grok.x.ai)
@@ -303,7 +303,7 @@ sidebar_position: 1
 
 ## 开发 Development
 
-- Terminal
+- Terminal [Terminal Trove](https://terminaltrove.com/)
     - Warp
     - Ghostty
     - Kitty
