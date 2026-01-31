@@ -649,7 +649,7 @@ module.exports = async (params) => {
     const { obsidian, quickAddApi = app.plugins.plugins.quickadd.api } = params || {};
     
     const { operation, tag, newTag, filepaths } = await quickAddApi.requestInputs([
-        { id: 'operation', type: 'dropdown', options: ['add', 'remove', 'replace'] },
+        { id: 'operation', type: 'dropdown', options: ['add', 'remove', 'replace'], default: 'add' },
         { id: 'tag', type: 'text' },
         { id: 'newTag', type: 'text' },
         { id: 'filepaths', type: 'textarea' },

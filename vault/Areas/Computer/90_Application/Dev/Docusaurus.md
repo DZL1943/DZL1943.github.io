@@ -185,9 +185,9 @@ const config = {
 
 ## 部署
 
-https://docusaurus.io/docs/deployment#deploying-to-github-pages
-
-`GIT_USER=<GITHUB_USERNAME> npm run deploy` %% 本质上是 git push %%
+- [github pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages): `GIT_USER=<GITHUB_USERNAME> npm run deploy` %% 本质上是 git push %%
+- [cloudflare pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-docusaurus-site/)
+- [vercel](https://vercel.com/docs/git)
 
 ## 样式
 

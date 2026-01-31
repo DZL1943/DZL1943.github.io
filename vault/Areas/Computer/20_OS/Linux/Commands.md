@@ -17,7 +17,7 @@
 - expect
 - nohup
 - crontab
-- bg, fg, jobs
+- bg, fg, jobs, disdown
 - script
 
 ## System
@@ -41,7 +41,7 @@
 
 ## File
 
-- pwd, dirname, basename
+- pwd, dirname, basename, realpath
 - cd, pushd, popd, zoxide
 - mkdir
 - ls, lsd, eza
@@ -70,6 +70,7 @@
 - cut, choose
 - paste
 - tr
+- col
 - wc
 - sort
 - uniq
@@ -79,7 +80,6 @@
 - tee
 - diff
 - patch
-- jq
 
 ## Network
 

@@ -199,6 +199,7 @@ tar xvf filename.tar.gz -C path
 重要选项
 - -a
 - -n
+- --no-links
 - --delete
 - --exclude
 - -P

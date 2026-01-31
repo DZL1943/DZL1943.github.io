@@ -63,6 +63,11 @@ url:
 ## 解析
 
 ```dataviewjs
+dv.header(3, '精选')
+dv.list(app.plugins.plugins["better-plugins-manager"].settings.Plugins.filter(p => p.tags.includes('favorite')).sort((a, b) => a.name.localeCompare(b.name)).map(p=>p.name))
+```
+
+```dataviewjs
 const bpmSettings = app.plugins.plugins["better-plugins-manager"].settings;
 const groupsMap = Object.fromEntries(
   bpmSettings.GROUPS.map((item) => [item.id, item.name])

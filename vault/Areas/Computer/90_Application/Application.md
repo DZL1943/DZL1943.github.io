@@ -9,26 +9,27 @@ sidebar_position: 1
 ## 系统 System
 
 - 输入法 IME
-    - Rime
-    - Fcitx
-    - [Input Source Pro](https://inputsource.pro/)
+    - Rime / Fcitx
+    - [Input Source Pro](https://inputsource.pro/) / KeyboardHolder
 - 剪切板 Clipboard
     - Maccy
 - 触控板 Trackpad
     - [BetterAndBetter](https://www.better365.cn/bab2.html)
 - 鼠标 Mouse
-    - MacMouseFix
+    - MacMouseFix / Mos
     - [xGestures](https://briankendall.net/xGestures/)
 - 键盘 Keyboard
-    - Karabiner
+    - [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements)
     - KeyCastr
     - KeyCluCask
 - 快捷启动 Quickstart
+    - Wox
     - Raycast
     - Hammerspoon
 - 窗口管理 Window
     - AeroSpace
     - DockDoor
+- 桌面美化 Desktop
 - 菜单栏 Menubar
     - Ice
     - OnlySwitch
@@ -38,12 +39,13 @@ sidebar_position: 1
     - MonitorControl
 - 声音 Voice
     - Background Music
+    - FineTune
 - 电源 Power
     - [AIDente](https://apphousekitchen.com)
     - Amphetamine
 - 监控 Stat
     - Stats
-- 优化 Tweak
+- 优化 Tweak|Optimize
 - 卸载清理 Clean
     - Pearcleaner
 - 安全 Security
@@ -56,15 +58,25 @@ sidebar_position: 1
 ## 工具 Utility
 
 - 压缩 Archiver
+    - PeaZip
     - Keka
 - 截屏 Screenshot
     - PixPin
-    - Snipaste
     - [Shottr](https://shottr.cc)
+    - Snipaste
 - 录屏 Screen Recorder
     - OBS
-- 播放器 Video Player
+- 图片查看器 Image Viewer
+- 电子阅读器 Book Reader
+    - Koodo
+    - Readest
+- 媒体播放器 Media Player
     - IINA
+    - Kodi
+- 歌词
+    - LyricsX
+- 翻译
+    - Easydict
 - 下载器 Downloader
     - Free Download Manager
     - Transmission
@@ -85,13 +97,13 @@ sidebar_position: 1
 - 代理 Proxy
     - Clash Verge Rev
     - Hiddify
-    - sing-box
     - Tailscale
     - ZeroTier
 - DNS
     - SwitchHosts
 - 远程桌面 Remote Desktop
     - RustDesk
+    - Parsec
     - Scrcpy
 
 ## 效率 Productivity
@@ -107,6 +119,7 @@ sidebar_position: 1
     - QQ邮箱
 - 待办 GTD
     - 滴答清单
+    - Microsoft To-Do
     - Tasks.org
     - Super Productivity
 - 笔记 Note
@@ -116,6 +129,7 @@ sidebar_position: 1
 - 文档 Document
     - WPS
     - PDFgear
+    - Calibre
     - Stirling-PDF
     - Zotero
     - Xmind
@@ -125,6 +139,9 @@ sidebar_position: 1
     - Ledger
     - Beancount
     - GnuCash
+- 图片 Photo
+    - immich
+- 媒体 Media
 - 云存储 Cloud Storage
     - Dropbox
     - iCloud
@@ -139,16 +156,18 @@ sidebar_position: 1
     - Chrome
     - Edge
     - Safari
-- AI https://llm-stats.com/
+- AI
+    - [Claude](https://claude.ai)
     - [ChatGPT](https://chatgpt.com)
     - [Gemini](https://gemini.google.com)
     - [Grok](https://grok.x.ai)
-    - [Claude](https://claude.ai)
+    - [Perplexity](https://www.perplexity.ai/)
     - [Qwen](https://www.qianwen.com)
     - [DeepSeek](https://chat.deepseek.com)
     - [Doubao](https://www.doubao.com)
     - [Kimi](https://www.kimi.com)
     - [GLM](https://chatglm.cn)
+    - [MiniMax](https://www.minimax.io/)
 
 ## 娱乐 Entertainment
 
@@ -166,8 +185,11 @@ sidebar_position: 1
 - 音乐 Music
     - Spotify [SpotX](https://github.com/SpotX-Official/SpotX-Bash)
     - Apple Music
+    - QQ 音乐
+    - 汽水音乐
 - 播客 Podcast
     - 云听
+    - 喜马拉雅
 - 视频(点播) Video
     - Netflix
     - 爱奇艺
@@ -181,6 +203,15 @@ sidebar_position: 1
 
 ## 生活 Living
 
+- 金融支付 Payment
+    - 支付宝
+    - 银闪付
+- 购物 Shopping
+    - 京东
+    - 淘宝
+    - 拼多多
+    - 闲鱼
+    - 转转
 - 餐饮 Dining
     - 美团
     - 饿了么
@@ -191,15 +222,7 @@ sidebar_position: 1
 - 住宿 Hotel
     - 携程
     - 飞猪
-- 购物 Shopping
-    - 京东
-    - 淘宝
-    - 拼多多
-    - 闲鱼
-    - 转转
-- 金融支付 Payment
-    - 支付宝
-    - 银闪付
+    - 安居客
 - 市政 Civic
     - 交管12123
     - 网上国网
@@ -303,7 +326,7 @@ sidebar_position: 1
 
 ## 开发 Development
 
-- Terminal
+- Terminal [Terminal Trove](https://terminaltrove.com/)
     - Warp
     - Ghostty
     - Kitty
@@ -317,7 +340,10 @@ sidebar_position: 1
     - Emacs
         - Spacemacs
     - [VSCode](<Dev/VSCode.md>)
+    - Zed
 - IDE
+    - Visual Studio
+    - Xcode
     - JetBrains 系列
         - IntelliJ IDEA
         - PyCharm 永久免费
@@ -331,8 +357,6 @@ sidebar_position: 1
         - DataGrip 非商业用途免费
         - DataSpell
         - ReSharper
-    - Visual Studio
-    - Xcode
     - 数据库类
         - Navicat
         - Beekeeper Studio
@@ -346,12 +370,76 @@ sidebar_position: 1
         - Ghidra
         - Radare2
         - Cutter
-- AI [Agent Skills Marketplace](https://skillsmp.com/)
-    - Copilot
-    - Gemini
-    - Claude Code
-    - OpenCode
-    - Codex
+ - AI
+    - [Model](https://huggingface.co) & Provider https://llm-stats.com/
+        - Local
+            - [Ollama](https://github.com/ollama/ollama)
+            - [LM Studio](https://lmstudio.ai/)
+        - Gateway
+            - [SiliconFlow](https://www.siliconflow.com/)
+            - [OpenRouter](https://openrouter.ai/)
+            - [Glama](https://glama.ai/)
+    - Client & Agent
+        - Chat
+            - [Chatbox](https://github.com/chatboxai/chatbox)
+            - [NextChat](https://github.com/ChatGPTNextWeb/NextChat)
+            - [LobeHub](https://github.com/lobehub/lobehub)
+            - [Cherry Studio](https://github.com/CherryHQ/cherry-studio)
+            - [OpenClaw](https://github.com/openclaw/openclaw)
+        - Coding
+            - [Claude Code](https://github.com/anthropics/claude-code)
+            - [OpenCode](https://github.com/anomalyco/opencode)
+            - [Codex CLI](https://github.com/openai/codex)
+            - [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+            - [Copilot](https://github.com/features/copilot/)
+            - [Tabby](https://github.com/TabbyML/tabby)
+            - [goose](https://github.com/block/goose)
+            - [Crush](https://github.com/charmbracelet/crush)
+            - [Aider](https://github.com/Aider-AI/aider)
+            - [Augment Code](https://www.augmentcode.com/)
+            - [Amp Code](https://ampcode.com/)
+            - [Roo Code](https://github.com/RooCodeInc/Roo-Code) 插件
+            - [Cline](https://github.com/cline/cline) 插件
+            - [Windsurf|Codeium](https://windsurf.com/)
+            - [Cursor](https://cursor.com/)
+            - [Kiro](https://kiro.dev)
+            - [Antigravity](https://antigravity.google/)
+        - RAG
+            - [NotebookLM](https://notebooklm.google/)
+            - [RAGFlow](https://github.com/infiniflow/ragflow)
+            - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
+            - [FastGPT](https://github.com/labring/FastGPT)
+    - Framework & Workflow
+        - Framework
+            - [LangChain](https://github.com/langchain-ai/langchain)
+            - [LlamaIndex](https://github.com/run-llama/llama_index)
+            - [Smolagents](https://github.com/huggingface/smolagents)
+            - [AutoGen](https://github.com/microsoft/autogen)
+            - [CrewAI](https://github.com/crewAIInc/crewAI)
+            - [MetaGPT](https://github.com/geekan/MetaGPT)
+        - Workflow
+            - [Dify](https://github.com/langgenius/dify)
+            - [n8n](https://github.com/n8n-io/n8n)
+            - [Coze](https://github.com/coze-dev/coze-studio)
+            - [LangFlow](https://github.com/langflow-ai/langflow)
+            - [Flowise](https://github.com/FlowiseAI/Flowise)
+    - Protocol & Capability
+        - [MCP](https://github.com/modelcontextprotocol/servers) https://github.com/mcp
+        - ACP
+        - [Skill](https://skillsmp.com/)
+    - Engineering
+        - Inference Engine
+            - [vLLM](https://github.com/vllm-project/vllm)
+            - [llama.cpp](https://github.com/ggerganov/llama.cpp)
+            - [TGI](https://github.com/huggingface/text-generation-inference)
+        - Vector DB
+            - [Chroma](https://github.com/chroma-core/chroma)
+            - [Qdrant](https://github.com/qdrant/qdrant)
+            - [Milvus](https://github.com/milvus-io/milvus)
+        - Observability
+            - [Langfuse](https://github.com/langfuse/langfuse)
+        - Data Processing
+            - [Unstructured](https://github.com/Unstructured-IO/unstructured)
 - VCS
     - [Git](<Dev/Git.md>)
     - GitHub
@@ -367,9 +455,10 @@ sidebar_position: 1
     - Caddy
 - HTTP
     - WireShark
-    - HTTP Toolkit
     - mitmproxy
     - Whistle
+    - Proxyman
+    - HTTP Toolkit
 
 ---
 

@@ -2,9 +2,17 @@
 title: 颜色
 created: 2025-03-13T14:43
 modified: 2026-01-15T10:41
-aliases: [颜色]
+aliases:
+  - 颜色
 draft: true
-url: [https://www.colorhexa.com, https://color.adobe.com, https://tailwindcss.com/docs/colors, https://www.w3.org/wiki/CSS/Properties/color/keywords, https://developer.mozilla.org/en-US/docs/Glossary/Color_space, https://colorbox.io]
+url:
+  - https://www.colorhexa.com
+  - https://color.adobe.com
+  - https://tailwindcss.com/docs/colors
+  - https://www.w3.org/wiki/CSS/Properties/color/keywords
+  - https://developer.mozilla.org/en-US/docs/Glossary/Color_space
+  - https://colorbox.io
+  - https://www.w3schools.com/colors/colors_names.asp
 ---
 
 # 颜色

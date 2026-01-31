@@ -95,3 +95,11 @@ draft: true
 - yazi
 - zellij
 - zoxide
+
+### Cask
+
+`brew list --cask -1`
+
+- android-platform-tools
+- font-hack-nerd-font
+- font-source-code-pro

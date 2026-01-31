@@ -3,84 +3,124 @@ created: 2025-10-21T09:03
 modified: 2025-10-21T09:03
 ---
 
-## 配置
+## Settings
 
 ```json
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run the `zed: Open Default Settings` command
-// from the command palette
 {
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "One Dark"
+  "agent": {
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
   },
+  "autosave": "on_window_change",
+  "buffer_font_size": 16,
+  "collaboration_panel": {
+    "button": false
+  },
+  "colorize_brackets": true,
+  "debugger": {
+    "button": false
+  },
+  "diagnostics": {
+    "button": false
+  },
+  "disable_ai": true,
+  "format_on_save": "off",
+  "gutter": {
+    "min_line_number_digits": 2
+  },
+  "icon_theme": "Material Icon Theme",
+  "languages": {
+    "JavaScript": {
+      "tab_size": 4
+    },
+    "Markdown": {
+      "tab_size": 4
+    }
+  },
+  "minimap": {
+    "show": "auto"
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "on_last_window_closed": "quit_app",
+  "project_panel": {
+    "auto_open": {
+      "on_drop": false,
+      "on_paste": false
+    },
+    "auto_reveal_entries": false,
+    "hide_root": true
+  },
+  "remove_trailing_whitespace_on_save": false,
+  "scrollbar": {
+    "axes": {
+      "horizontal": false
+    }
+  },
+  "search": {
+    "button": false
+  },
+  "status_bar": {
+    "cursor_position_button": false
+  },
+  "tab_size": 4,
   "telemetry": {
-    // Send debug info like crash reports.
     "diagnostics": false,
-    // Send anonymized usage data like what languages you're using Zed with.
     "metrics": false
   },
-  "features": {
-    // Which edit prediction provider to use.
-    "edit_prediction_provider": "none"
+  "terminal": {
+    "button": false,
+    "copy_on_select": true,
+    "option_as_meta": true
   },
-
-  "on_last_window_closed": "quit_app",
-
-  "project_panel": { "button": false },
-  "outline_panel": { "button": false },
-  "search": { "button": false },
-  "git_panel": { "button": false },
-  "agent": { "button": false },
-  "collaboration_panel": { "button": false },
-  "notification_panel": { "button": false },
-  "debugger": { "button": false },
-  "diagnostics": { "button": false },
-  "terminal": { "button": false },
-  "global_lsp_settings": { "button": false },
-
-  "status_bar": { "experimental.show": false},
-
-  "toolbar": {
-    "breadcrumbs": false, // Whether to show breadcrumbs.
-    "quick_actions": false, // Whether to show quick action buttons.
-    "selections_menu": false, // Whether to show the Selections menu
-    "agent_review": false, // Whether to show agent review buttons
-    "code_actions": false // Whether to show code action buttons
+  "theme": {
+    "dark": "Dracula",
+    "light": "One Light",
+    "mode": "dark"
   },
-
   "title_bar": {
-    // Whether to show user picture in the titlebar.
-    "show_user_picture": false,
-    // Whether to show the sign in button in the titlebar.
     "show_sign_in": false
   },
-
-  "tab_bar": {
-    "show": true, // Show/hide the tab bar
-    "show_nav_history_buttons": false, // Show/hide history buttons on tab bar
-    "show_tab_bar_buttons": false // Show hide buttons (new, split, zoom)
+  "toolbar": {
+    "agent_review": true,
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": true
   },
-
-  "gutter": {
-    // Whether to show line numbers in the gutter.
-    "line_numbers": true,
-    // Whether to show runnables buttons in the gutter.
-    "runnables": true,
-    // Whether to show breakpoints in the gutter.
-    "breakpoints": true,
-    // Whether to show fold buttons in the gutter.
-    "folds": true,
-    // Minimum number of characters to reserve space for in the gutter.
-    "min_line_number_digits": 2
+  "use_on_type_format": false,
+  "vim": {
+    "toggle_relative_line_numbers": true,
+    "use_smartcase_find": true
+  },
+  "which_key": {
+    "enabled": true
   }
 }
 ```
+
+## Extensions
+
+- HTML
+- Material Icon Theme
+- Dracula
+- Markdown Oxide
+- Marksman
+- Markdownlint
+
+> [!tip] 貌似只有安装/卸载, 不支持状态启停
+
+## Tips
+
+外观层面
+- title_bar: 无法取消或隐藏
+- status_bar: 无法自动隐藏、调整按钮顺序
+
+编辑层面
+- 默认 indent 貌似没有生效, 建议明确写入配置.
+- 折叠功能还不够好, 比如 markdown 标题
+
+lsp
+- 未保存的文件没有 lsp 支持.
+- 无法禁用自动下载 lsp, 无法手动安装

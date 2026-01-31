@@ -14,15 +14,16 @@ unlisted: true
 ```base
 filters:
   and:
-    - file.folder.startsWith(this.file.folder)
+    - file.ext == "md"
+    - file.folder != "Archives"
     - file.tags.contains("av")
 formulas:
-  filteredTags: tags.filter(!/#clippings|#av/.matches(value))
+  filteredTags: tags.filter(/#av/.matches(value))[0].split('/').slice(1).join('/')
 views:
   - type: cards
     name: cards
     groupBy:
-      property: formula.filteredTags
+      property: file.folder
       direction: ASC
     order:
       - file.basename
@@ -35,11 +36,19 @@ views:
     imageAspectRatio: 0.65
   - type: table
     name: table
+    groupBy:
+      property: file.folder
+      direction: ASC
     order:
       - file.name
       - file.tags
-    sort: []
-
+    sort:
+      - property: file.ctime
+        direction: DESC
+    summaries: {}
+    columnSize:
+      file.name: 311
+      file.tags: 226
 ```
 
 ## 属性
@@ -56,15 +65,43 @@ views:
 
 首先按作者、区域分
 - Inbox
-- UGC
-- PGC
+- UGC: 真实自拍
+- PGC: 专业个人/团队
+- OGC: 职业机构
     - CN
     - JP
     - US
-- CGC
+- CGC: 电脑生成
 - Archive
 
 其次按内容、人物、场景分
+
+- 吃瓜福利 solo
+- 原创自拍 **Homemade**
+- 野战露出 Public
+    - ktv、电影院、网吧、超市
+    - 酒店、宿舍、办公室、教室、车库、楼道、天台、厕所、公园、野外
+    - 车、公交
+- 母狗约炮
+- 淫妻绿帽 Cuckold
+- 强奸乱伦
+    - 上一辈
+        - (继)母亲
+        - 岳母(妻子的母亲)
+        - 伯母/婶婶(父亲兄弟的妻子)
+        - 姑姑(父亲的姐妹)
+        - 姨妈(母亲的姐妹)
+        - 舅妈(母亲兄弟的妻子)
+    - 同辈
+        - (堂/表)姐姐/妹妹
+        - 嫂子/弟媳(兄弟的妻子)
+        - 姨子(妻子的姐妹)
+    - 下一辈
+        - (继)女儿
+        - 侄女(兄弟的女儿)
+        - 外甥女(姐妹的女儿)
+        - 儿媳
+- 变态另类 Hardcore
 
 特殊癖好用标签而非分类
 
@@ -75,48 +112,18 @@ views:
     - 51
     - missav
 - av
-    - 吃瓜福利 solo
-    - 室内自拍 Homemade
-    - 野战露出 Public
-        - ktv、电影院、网吧、超市
-        - 酒店、宿舍、办公室、教室、车库、楼道、天台、厕所、公园、野外
-        - 车、公交
-    - 嫖娼约炮
-    - 淫妻绿帽 Cuckold
-    - 强奸乱伦
-        - 上一辈
-            - (继)母亲
-            - 岳母(妻子的母亲)
-            - 伯母/婶婶(父亲兄弟的妻子)
-            - 姑姑(父亲的姐妹)
-            - 姨妈(母亲的姐妹)
-            - 舅妈(母亲兄弟的妻子)
-        - 同辈
-            - (堂/表)姐姐/妹妹
-            - 嫂子/弟媳(兄弟的妻子)
-            - 姨子(妻子的姐妹)
-        - 下一辈
-            - (继)女儿
-            - 侄女(兄弟的女儿)
-            - 外甥女(姐妹的女儿)
-            - 儿媳
-    - 多人运动
-    - 变态另类 Hardcore
-- appearance
-    - 颜值
-    - 巨乳 Big Breast
-    - 肥臀 Big Ass
-    - 美屄 Pussy
-    - 巨屌 Big Dick
-    - 美腿
+    - CN
+    - JP
+    - US
 - sex
     - 口交 Blowjob
     - 乳交
     - 肛交 Anal
+    - 群交
     - 中出 Creampie
     - 颜射 Bukkake
     - 潮吹 Squirt
-    - 叫床
+    - 淫语
     - 爆肏
     - 男上
     - 女上
@@ -124,6 +131,13 @@ views:
     - 后入
     - 站入
     - 坐跪
+- appearance
+    - 颜值
+    - 巨乳 Big Breast
+    - 肥臀 Big Ass
+    - 美屄 Pussy
+    - 巨屌 Big Dick
+    - 美腿
 - role
     - 未成年
     - 熟女 Mature
@@ -131,7 +145,7 @@ views:
     - 素人 Amateur
     - 名人 Celebrity
     - Cosplay
-- scene
+- scenario
 
 > [!NOTE]- 词汇
 > - 素人 amateur

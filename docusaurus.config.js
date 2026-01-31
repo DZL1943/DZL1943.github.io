@@ -182,14 +182,11 @@ const config = {
                     },
                     { to: "/blog", label: "Blog", position: "left" },
                     {
-                        href: "https://docusaurus.io",
-                        label: "Docusaurus",
-                        position: "right",
-                    },
-                    {
                         href: "https://github.com/DZL1943",
-                        label: "GitHub",
+                        // label: "GitHub",
                         position: "right",
+                        className: 'header-github-link',
+                        'aria-label': 'GitHub repository',
                     },
                 ],
             },
@@ -210,7 +207,7 @@ const config = {
                 //       ],
                 //     },
                 //   ],
-                copyright: `Copyright © ${new Date().getFullYear()} DZL1943. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} DZL1943. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
             },
             prism: {
                 theme: prismThemes.github,

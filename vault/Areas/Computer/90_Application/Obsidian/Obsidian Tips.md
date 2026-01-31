@@ -19,6 +19,7 @@ aliases:
 - 在社区插件市场下载安装插件后在左侧滚动一下可以避免返回时丢失原来浏览位置
 - 在控制台下找图标名称
 - **[移动文件后其中的相对路径不更新](https://forum.obsidian.md/t/broken-links-in-relative-path-mode-on-move-rename/4386/2)**
+- 移动端查看字数统计: 左滑切换到右边栏, 在底部有显示
 
 ## 编辑
 

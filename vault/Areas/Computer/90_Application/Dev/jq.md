@@ -30,6 +30,10 @@ url:
 
 ## Tips
 
+### 不支持非标 json
+
+例如注释、多余逗号
+
 ### 格式化输出
 
 ```shell
@@ -73,4 +77,4 @@ jq 'del (.lastOpenFiles[])'  workspace.json
 ### 原地修改
 
 - sponge
-- yq
+- yq -i
