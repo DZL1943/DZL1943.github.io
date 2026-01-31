@@ -166,8 +166,11 @@ sidebar_position: 1
 - 音乐 Music
     - Spotify [SpotX](https://github.com/SpotX-Official/SpotX-Bash)
     - Apple Music
+    - QQ 音乐
+    - 汽水音乐
 - 播客 Podcast
     - 云听
+    - 喜马拉雅
 - 视频(点播) Video
     - Netflix
     - 爱奇艺
