@@ -69,7 +69,7 @@ Bases 是一个 Obsidian 1.9 版本新增的核心插件, 其作用类似 datavi
 - filters: 全局过滤器
 - formulas: 公式属性
 - properties: 自定义属性 (file, note, formula)
-- summaries
+- summaries: 在列头右键
 - views: 视图设置
     - type
     - name
