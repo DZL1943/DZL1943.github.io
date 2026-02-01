@@ -34,6 +34,7 @@ modified: 2025-10-08T22:22
         - [Autosync](https://metactrl.com/)
         - Rclone
 - Git
+    - GitSync
 
 > [!note]- 请别再说什么用 git 同步这种鬼话!
 > 
