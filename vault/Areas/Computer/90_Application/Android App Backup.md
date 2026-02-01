@@ -3,6 +3,7 @@ created: 2026-01-31T19:45
 modified: 2026-01-31T19:45
 draft: true
 ---
+
 `adb shell pm list packages -3 | cut -d: -f2`
 
 - org.fcitx.fcitx5.android
@@ -133,3 +134,7 @@ draft: true
 - com.noodlecake.altosodyssey
 - lexue.mryyyd
 - org.geogebra.android.calculator.suite
+
+![500](<../../../Attachments/Screenshot_2026-02-01-09-31-53-089_com.miui.home.jpg>)
+
+![500](<../../../Attachments/Screenshot_2026-02-01-09-32-04-373_com.miui.home.jpg>)
