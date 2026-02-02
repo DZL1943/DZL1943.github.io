@@ -110,7 +110,7 @@ views:
     - 中出 Creampie
     - 颜射 Bukkake
     - 潮吹 Squirt
-    - 叫床
+    - 淫语
     - 爆肏
     - 男上
     - 女上
