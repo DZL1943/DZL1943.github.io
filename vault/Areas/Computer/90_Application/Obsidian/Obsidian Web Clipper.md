@@ -159,10 +159,8 @@ import httpx
 
 class BaseClipper:
     DOMAIN = None
-    REDIRECT_RULES = []
-    IMAGE_INDEX = -1
-    IMAGE_SELECTOR = 'img'
-    IMAGE_ATTR = 'src'
+    URL_RULES = []
+    COVER_INDEX = -1
     IMAGE_EXTS = {'webp', 'jpg', 'jpeg'}
     IMAGE_FOLDER = ''
     
@@ -171,7 +169,7 @@ class BaseClipper:
         self.domain = self.DOMAIN or urlparse(self.url).netloc.replace("www.", "").split(".")[0]
         self.tags = [f"clippings/{self.domain}"]
         self.title = ''
-        self.image = ''
+        self.cover = ''
         self.images = []
         self.content = ''
         self.created = ''
@@ -184,7 +182,7 @@ class BaseClipper:
     
     @classmethod
     def match_and_redirect(cls, url):
-        for pattern, redirect in cls.REDIRECT_RULES:
+        for pattern, redirect in cls.URL_RULES:
             if re.search(pattern, url):
                 if redirect:
                     try:
@@ -203,7 +201,7 @@ class BaseClipper:
         
         self._parse_meta()
         self._parse_content()
-        self._set_image()
+        self._set_cover()
         self.created = datetime.now().isoformat(timespec='seconds')
     
     def _parse_meta(self):
@@ -213,21 +211,25 @@ class BaseClipper:
             self.title = self.soup.title.string
         
         if meta_image := self.soup.find("meta", property="og:image"):
-            self.image = meta_image.get('content')
-            if self.image and self.is_download_images:
-                self.image = self._download_image(self.image)
+            self.cover = meta_image.get('content')
+            if self.cover and self.is_download_images:
+                self.cover = self._download_image(self.cover)
     
     def _parse_images(self):
         images = []
         seen = set()
         
-        for img in self.soup.select(self.IMAGE_SELECTOR):
-            if src := img.get(self.IMAGE_ATTR):
-                img_url = self._normalize(src)
-                if self._filter_image(img_url) and img_url not in seen:
-                    seen.add(img_url)
-                    images.append(self._download_image(img_url) if self.is_download_images else img_url)
+        for url in self._parse_image():
+            img_url = self._normalize(url)
+            if self._filter_image(img_url) and img_url not in seen:
+                seen.add(img_url)
+                images.append(self._download_image(img_url) if self.is_download_images else img_url)
         return images
+
+    def _parse_image(self):
+        for img in self.soup.select('img'):
+            if src := img.get('src'):
+                yield src
 
     def _normalize(self, url):
         if url.startswith("//"):
@@ -267,9 +269,9 @@ class BaseClipper:
             print(f"Download image failed: {url[:50]}... - {e}")
             return url
 
-    def _set_image(self):
-        if not self.image and self.images:
-            self.image = self._get_by_index(self.images, self.IMAGE_INDEX)
+    def _set_cover(self):
+        if not self.cover and self.images:
+            self.cover = self._get_by_index(self.images, self.COVER_INDEX)
     
     @staticmethod
     def _get_by_index(arr, pos):
@@ -283,12 +285,12 @@ class BaseClipper:
         self.content = "\n\n".join(f"![]({img})" for img in self.images)
     
     def generate_markdown(self):
-        image_field = f'"[[{self.image}]]"' if self.image and self.image.startswith('./') else (self.image or '')
+        cover = f'"[[{self.cover}]]"' if self.cover and self.cover.startswith('./') else (self.cover or '')
 
         frontmatter = f"""---
 title: {self.title}
 url: {self.url}
-image: {image_field}
+image: {cover}
 tags: {self.tags}
 created: {self.created}
 ---"""
@@ -304,9 +306,33 @@ created: {self.created}
         return re.sub(r"[^\w\-]", "_", self.title)[:50] if self.title else datetime.now().strftime("%Y%m%d%H%M%S%f")
 
 
+class MissavClipper(BaseClipper):
+    DOMAIN = 'missav'
+    URL_RULES = [
+        (r'https://missav\.([a-z]+)/dm18/cn/([0-9a-z-]+)', '')
+    ]
+
+    def __init__(self, url, output_dir, is_download_images=True):
+        super().__init__(url, output_dir, is_download_images)
+        self.tags.append('av')
+
+    def _parse_image(self):
+        for element in self.soup.select("div.plyr__poster"):
+            if style := element.get('style'):
+                match = re.search(r"background-image:\s*url\(['\"]?(.*?)['\"]?\)", style)
+                if match:
+                    yield match.group(1)
+
+    def _parse_content(self):
+        pass
+
+    def _filename(self):
+        return self.domain + '-' + self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
+
+
 class PornyClipper(BaseClipper):
     DOMAIN = '91'
-    REDIRECT_RULES = [
+    URL_RULES = [
         (
             r"https://(.*)/view_video\.php\?viewkey=([a-z0-9]+).*",
             r"https://tog.jiuse9002.com/video/view/\2",
@@ -316,12 +342,15 @@ class PornyClipper(BaseClipper):
             r"https://tog.jiuse9002.com/video\2/view/\4",
         ),
     ]
-    IMAGE_SELECTOR = 'video'
-    IMAGE_ATTR = 'poster'
 
     def __init__(self, url, output_dir, is_download_images=True):
         super().__init__(url, output_dir, is_download_images)
         self.tags.append('av')
+
+    def _parse_image(self):
+        for img in self.soup.select('video'):
+            if src := img.get('poster'):
+                yield src
 
     def _parse_content(self):
         pass
@@ -332,18 +361,24 @@ class PornyClipper(BaseClipper):
 
 class ChiguaClipper(BaseClipper):
     DOMAIN = '51'
-    REDIRECT_RULES = [
+    URL_RULES = [
         (r"https://(.*)/archives/(.*)", r"https://aide.sdovcthe.com/archives/\2")
     ]
-    IMAGE_SELECTOR = 'div.post-content img'
-    IMAGE_ATTR = 'data-xkrkllgl'
     
     def __init__(self, url, output_dir, is_download_images=False):
         super().__init__(url, output_dir, is_download_images)
         self.tags.append('av')
 
-    def _set_image(self):
-        self.image = ''
+    def _parse_image(self):
+        for img in self.soup.select('div.post-content img'):
+            if src := img.get('data-xkrkllgl'):
+                yield src
+
+    def _parse_images(self):
+        return []
+
+    def _set_cover(self):
+        self.cover = ''
 
     def _filename(self):
         return self.domain + '-' + self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
@@ -381,6 +416,11 @@ class WebToMarkdown:
 
 if __name__ == "__main__":
     converter = WebToMarkdown()
+    converter.process_urls([
+        'https://tog.jiuse9005.com/video/view/1126684461',
+        'https://chair.ydftqji.xyz/archives/158228',
+        'https://missav.live/dm18/cn/fc2-ppv-1157625'
+    ])
     converter.process_urls("""
 
 """)
