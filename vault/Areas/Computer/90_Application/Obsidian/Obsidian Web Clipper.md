@@ -224,9 +224,7 @@ class BaseClipper:
         for img in self.soup.select(self.IMAGE_SELECTOR):
             if src := img.get(self.IMAGE_ATTR):
                 img_url = self._normalize(src)
-                if not self._filter_image(img_url):
-                    continue
-                if img_url not in seen:
+                if self._filter_image(img_url) and img_url not in seen:
                     seen.add(img_url)
                     images.append(self._download_image(img_url) if self.is_download_images else img_url)
         return images
