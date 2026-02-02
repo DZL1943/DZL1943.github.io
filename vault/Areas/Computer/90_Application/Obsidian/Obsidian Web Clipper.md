@@ -295,15 +295,13 @@ created: {self.created}
         return f"{frontmatter}\n\n{self.content}"
     
     def save(self):
-        filename = (
-            re.sub(r"[^\w\-]", "_", self.title)[:50]
-            if self.title
-            else datetime.now().strftime("%Y%m%d%H%M%S")
-        ) + ".md"
-        filepath = os.path.join(self.output_dir, filename)
+        filepath = os.path.join(self.output_dir, self._filename() + '.md')
         
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(self.generate_markdown())
+
+    def _filename(self):
+        return re.sub(r"[^\w\-]", "_", self.title)[:50] if self.title else datetime.now().strftime("%Y%m%d%H%M%S%f")
 
 
 class PornyClipper(BaseClipper):
@@ -328,6 +326,9 @@ class PornyClipper(BaseClipper):
     def _parse_content(self):
         pass
 
+    def _filename(self):
+        return self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
+
 
 class ChiguaClipper(BaseClipper):
     DOMAIN = '51'
@@ -343,6 +344,9 @@ class ChiguaClipper(BaseClipper):
 
     def _set_image(self):
         self.image = ''
+
+    def _filename(self):
+        return self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
 
 
 class WebToMarkdown:
