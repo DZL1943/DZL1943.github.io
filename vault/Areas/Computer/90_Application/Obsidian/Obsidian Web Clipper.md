@@ -164,7 +164,7 @@ class BaseClipper:
     IMAGE_SELECTOR = 'img'
     IMAGE_ATTR = 'src'
     IMAGE_EXTS = {'webp', 'jpg', 'jpeg'}
-    IMAGE_FOLDER = 'assets'
+    IMAGE_FOLDER = ''
     
     def __init__(self, url, output_dir, is_download_images=True):
         self.url = url
