@@ -264,7 +264,7 @@ class BaseClipper:
                 f.write(img_data)
             return os.path.join('.', self.IMAGE_FOLDER, filename)
         except Exception as e:
-            print(f"下载失败: {url[:50]}... - {e}")
+            print(f"Download image failed: {url[:50]}... - {e}")
             return url
 
     def _set_image(self):
@@ -304,7 +304,6 @@ created: {self.created}
         
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(self.generate_markdown())
-        print(f"保存: {filepath}")
 
 
 class PornyClipper(BaseClipper):
@@ -348,7 +347,7 @@ class WebToMarkdown:
     def get_clipper(self, url):
         for clipper_class in self.CLIPPERS:
             if new_url := clipper_class.match_and_redirect(url):
-                print(f"{clipper_class}  {new_url}")
+                print(f"\n{clipper_class.__name__}  {new_url}")
                 return clipper_class(new_url, self.output_dir)
         return BaseClipper(url, self.output_dir)
     
@@ -358,7 +357,7 @@ class WebToMarkdown:
             clipper.parse()
             clipper.save()
         except Exception as e:
-            print(f"处理失败 {url}: {e}")
+            print(f"ERROR {url}: {e}")
             print(traceback.format_exc())
     
     def process_urls(self, urls):
