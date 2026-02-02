@@ -254,7 +254,7 @@ class BaseClipper:
                 img_data = base64.b64decode(data)
                 ext = header.split(';')[0].split('/')[1]
             else:
-                resp = httpx.get(url, timeout=10.0)
+                resp = httpx.get(url, timeout=30)
                 resp.raise_for_status()
                 img_data = resp.content
                 ext = url.split('?')[0].split('#')[0].split('.')[-1].lower()
@@ -327,7 +327,7 @@ class PornyClipper(BaseClipper):
         pass
 
     def _filename(self):
-        return self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
+        return self.domain + '-' + self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
 
 
 class ChiguaClipper(BaseClipper):
@@ -346,7 +346,7 @@ class ChiguaClipper(BaseClipper):
         self.image = ''
 
     def _filename(self):
-        return self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
+        return self.domain + '-' + self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
 
 
 class WebToMarkdown:
@@ -382,5 +382,5 @@ class WebToMarkdown:
 if __name__ == "__main__":
     converter = WebToMarkdown()
     converter.process_urls("""
+
 """)
-```
