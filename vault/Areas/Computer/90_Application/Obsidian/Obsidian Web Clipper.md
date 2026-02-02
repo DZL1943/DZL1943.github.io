@@ -164,7 +164,7 @@ class BaseClipper:
     IMAGE_SELECTOR = 'img'
     IMAGE_ATTR = 'src'
     IMAGE_EXTS = {'webp', 'jpg', 'jpeg'}
-    IMAGE_FOLDER = ''
+    IMAGE_FOLDER = 'assets'
     
     def __init__(self, url, output_dir, is_download_images=True):
         self.url = url
@@ -321,6 +321,13 @@ class PornyClipper(BaseClipper):
     IMAGE_SELECTOR = 'video'
     IMAGE_ATTR = 'poster'
 
+    def __init__(self, url, output_dir, is_download_images=True):
+        super().__init__(url, output_dir, is_download_images)
+        self.tags.append('av')
+
+    def _parse_content(self):
+        pass
+
 
 class ChiguaClipper(BaseClipper):
     DOMAIN = '51'
@@ -332,6 +339,7 @@ class ChiguaClipper(BaseClipper):
     
     def __init__(self, url, output_dir, is_download_images=False):
         super().__init__(url, output_dir, is_download_images)
+        self.tags.append('av')
 
     def _set_image(self):
         self.image = ''
@@ -369,8 +377,6 @@ class WebToMarkdown:
 
 if __name__ == "__main__":
     converter = WebToMarkdown()
-    converter.process_urls([
-        "https://uiq.91pn104.cc/video/view/e07fb0de0d968fbb0724",
-        "https://affect.ffqrvjzr.com/archives/158228/",
-    ])
+    converter.process_urls("""
+""")
 ```
