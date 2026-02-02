@@ -363,7 +363,7 @@ class WebToMarkdown:
     
     def process_urls(self, urls):
         if isinstance(urls, str):
-            urls = urls.split('\n')
+            urls = urls.strip().split()
         for url in urls:
             self.process_url(url)
 
