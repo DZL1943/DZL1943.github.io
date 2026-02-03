@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog2</id>
     <title>Welcome Blog</title>
-    <updated>2025-09-30T09:39:00.000Z</updated>
+    <updated>2026-01-31T20:42:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog2"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[当前社会结婚率低下的原因]]></title>
+        <id>https://dzl1943.github.io/blog2/202601312042</id>
+        <link href="https://dzl1943.github.io/blog2/202601312042"/>
+        <updated>2026-01-31T20:42:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 人口结构]]></summary>
+        <content type="html"><![CDATA[<ol>
+<li class="">人口结构</li>
+<li class="">经济条件</li>
+<li class="">供需关系</li>
+</ol>
+<p>根本原因是女性地位的提升. 这导致</p>
+<ol>
+<li class="">其结婚意愿下降</li>
+<li class="">其选择眼光变高</li>
+<li class="">其议价能力增强</li>
+</ol>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[年轻人的压力]]></title>
         <id>https://dzl1943.github.io/blog2/202412081443</id>
