@@ -17,7 +17,7 @@
 - expect
 - nohup
 - crontab
-- bg, fg, jobs
+- bg, fg, jobs, disdown
 - script
 
 ## System
