@@ -155,6 +155,7 @@ from urllib.parse import urlparse, urljoin
 
 from bs4 import BeautifulSoup
 import httpx
+from playwright.sync_api import sync_playwright
 
 
 class BaseClipper:
@@ -164,7 +165,7 @@ class BaseClipper:
     IMAGE_EXTS = {'webp', 'jpg', 'jpeg'}
     IMAGE_FOLDER = ''
     
-    def __init__(self, url, output_dir, is_download_images=True):
+    def __init__(self, url, output_dir, is_download_images=True, browser=None):
         self.url = url
         self.domain = self.DOMAIN or urlparse(self.url).netloc.replace("www.", "").split(".")[0]
         self.tags = [f"clippings/{self.domain}"]
@@ -174,6 +175,7 @@ class BaseClipper:
         self.content = ''
         self.created = ''
         self.soup = None
+        self.browser = browser
         self.output_dir = os.path.join(output_dir, self.domain)
         os.makedirs(self.output_dir, exist_ok=True)
         self.is_download_images = is_download_images
@@ -191,13 +193,31 @@ class BaseClipper:
                         pass
                 return url
 
-    def parse(self):
+    def _get_content_by_playwright(self):
+        if not self.browser:
+            return
+        
+        page = self.browser.new_page()
+        page.goto(
+            self.url, 
+            wait_until='domcontentloaded',
+            timeout=60000
+        )
+        html_content = page.content()
+        return html_content
+
+    def _get_html_content(self):
+        if self.browser:
+            return self._get_content_by_playwright()
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         }
         resp = httpx.get(self.url, headers=headers, timeout=30.0, follow_redirects=True, verify=False)
         resp.raise_for_status()
-        self.soup = BeautifulSoup(resp.content, "html.parser")
+        return resp.content
+
+    def parse(self):
+        self.soup = BeautifulSoup(self._get_html_content(), "html.parser")
         
         self._parse_meta()
         self._parse_content()
@@ -212,8 +232,6 @@ class BaseClipper:
         
         if meta_image := self.soup.find("meta", property="og:image"):
             self.cover = meta_image.get('content')
-            if self.cover and self.is_download_images:
-                self.cover = self._download_image(self.cover)
     
     def _parse_images(self):
         images = []
@@ -223,7 +241,7 @@ class BaseClipper:
             img_url = self._normalize(url)
             if self._filter_image(img_url) and img_url not in seen:
                 seen.add(img_url)
-                images.append(self._download_image(img_url) if self.is_download_images else img_url)
+                images.append(self._download_image(img_url) or img_url if self.is_download_images else img_url)
         return images
 
     def _parse_image(self):
@@ -270,8 +288,11 @@ class BaseClipper:
             return url
 
     def _set_cover(self):
-        if not self.cover and self.images:
-            self.cover = self._get_by_index(self.images, self.COVER_INDEX)
+        if self.cover:
+            if self.is_download_images:
+                self.cover = self._download_image(self.cover) or self.cover
+        elif self.images:
+            self.cover = self._get_by_index(self.images, self.COVER_INDEX) or ''
     
     @staticmethod
     def _get_by_index(arr, pos):
@@ -303,7 +324,7 @@ created: {self.created}
             f.write(self.generate_markdown())
 
     def _filename(self):
-        return re.sub(r"[^\w\-]", "_", self.title)[:50] if self.title else datetime.now().strftime("%Y%m%d%H%M%S%f")
+        return re.sub(r'[^\w\-_\. ]', '_', self.title)[:50].strip() if self.title else datetime.now().strftime("%Y%m%d%H%M%S%f")
 
 
 class MissavClipper(BaseClipper):
@@ -312,8 +333,8 @@ class MissavClipper(BaseClipper):
         (r'https://missav\.([a-z]+)/dm18/cn/([0-9a-z-]+)', '')
     ]
 
-    def __init__(self, url, output_dir, is_download_images=True):
-        super().__init__(url, output_dir, is_download_images)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         self.tags.append('av')
 
     def _parse_image(self):
@@ -343,8 +364,8 @@ class PornyClipper(BaseClipper):
         ),
     ]
 
-    def __init__(self, url, output_dir, is_download_images=True):
-        super().__init__(url, output_dir, is_download_images)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         self.tags.append('av')
 
     def _parse_image(self):
@@ -365,38 +386,37 @@ class ChiguaClipper(BaseClipper):
         (r"https://(.*)/archives/(.*)", r"https://aide.sdovcthe.com/archives/\2")
     ]
     
-    def __init__(self, url, output_dir, is_download_images=False):
-        super().__init__(url, output_dir, is_download_images)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         self.tags.append('av')
 
     def _parse_image(self):
         for img in self.soup.select('div.post-content img'):
-            if src := img.get('data-xkrkllgl'):
+            if src := img.get('src'):
                 yield src
 
-    def _parse_images(self):
-        return []
-
     def _set_cover(self):
-        self.cover = ''
+        self.cover = self._get_by_index(self.images, self.COVER_INDEX) or ''
 
     def _filename(self):
         return self.domain + '-' + self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
 
 
 class WebToMarkdown:
-    CLIPPERS = [PornyClipper, ChiguaClipper]
+    CLIPPERS = [PornyClipper, ChiguaClipper, MissavClipper]
     
     def __init__(self, output_dir="./output"):
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
+        self.browser = None
+        self.browserContext = None
     
     def get_clipper(self, url):
         for clipper_class in self.CLIPPERS:
             if new_url := clipper_class.match_and_redirect(url):
                 print(f"\n{clipper_class.__name__}  {new_url}")
-                return clipper_class(new_url, self.output_dir)
-        return BaseClipper(url, self.output_dir)
+                return clipper_class(new_url, self.output_dir, browser=self.browserContext)
+        return BaseClipper(url, self.output_dir, browser=self.browserContext)
     
     def process_url(self, url):
         try:
@@ -410,17 +430,44 @@ class WebToMarkdown:
     def process_urls(self, urls):
         if isinstance(urls, str):
             urls = urls.strip().split()
-        for url in urls:
-            self.process_url(url)
+        
+        with sync_playwright() as p:
+            self.browser = p.chromium.launch(
+                headless=True,
+                args=[
+                    '--disable-blink-features=AutomationControlled',
+                    '--disable-dev-shm-usage',
+                    '--no-sandbox',
+                    '--disable-extensions',
+                    '--mute-audio',
+                    '--no-startup-window',
+                ]
+            )
+            self.browserContext = self.browser.new_context(
+                viewport={'width': 1920, 'height': 1080},
+                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                locale='zh-CN',
+                timezone_id='Asia/Shanghai',
+                bypass_csp=True,
+                java_script_enabled=True,
+                ignore_https_errors=True,
+            )
+
+            for url in urls:
+                self.process_url(url)
+            
+            input('press any key to exit: ')
+            self.browserContext.close()
+            self.browser.close()
 
 
 if __name__ == "__main__":
     converter = WebToMarkdown()
     converter.process_urls([
         'https://tog.jiuse9005.com/video/view/1126684461',
-        'https://chair.ydftqji.xyz/archives/158228',
-        'https://missav.live/dm18/cn/fc2-ppv-1157625'
+        # 'https://chair.ydftqji.xyz/archives/158228',
+        # 'https://missav.live/dm18/cn/fc2-ppv-1157625'
     ])
-    converter.process_urls("""
+#     converter.process_urls("""
 
-""")
+# """)
