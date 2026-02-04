@@ -424,14 +424,14 @@ class WebToMarkdown:
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
         self.browser = None
-        self.browserContext = None
+        self.browser_context = None
     
     def get_clipper(self, url):
         for clipper_class in self.CLIPPERS:
             if real_url := clipper_class.match_and_redirect(url):
                 print(f"\n{clipper_class.__name__}  {real_url}")
-                return clipper_class(real_url, self.output_dir, browser=self.browserContext)
-        return BaseClipper(url, self.output_dir, browser=self.browserContext)
+                return clipper_class(real_url, self.output_dir, browser=self.browser_context)
+        return BaseClipper(url, self.output_dir, browser=self.browser_context)
     
     def process_url(self, url):
         try:
@@ -458,7 +458,7 @@ class WebToMarkdown:
                     '--no-startup-window',
                 ]
             )
-            self.browserContext = self.browser.new_context(
+            self.browser_context = self.browser.new_context(
                 viewport={'width': 1920, 'height': 1080},
                 user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                 locale='zh-CN',
@@ -472,7 +472,7 @@ class WebToMarkdown:
                 self.process_url(url)
             
             input('press any key to exit: ')
-            self.browserContext.close()
+            self.browser_context.close()
             self.browser.close()
 
 
