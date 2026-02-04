@@ -204,8 +204,6 @@ class BaseClipper:
         return urlparse(url).netloc.replace("www.", "").split(".")[0]
 
     def _get_content_by_playwright(self):
-        if not self.browser:
-            return
         page = self.browser.new_page()
         page.goto(self.url, wait_until="domcontentloaded", timeout=60000)
         html_content = page.content()
@@ -232,16 +230,14 @@ class BaseClipper:
     
     @staticmethod
     def _safe_name(text, max_length=50):
-        if not isinstance(text, str):
-            return ''
-        return re.sub(r'[^\w\-_\. ]', '_', text).strip('_ ')[:max_length]
+        return re.sub(r'[^\w\-_\. ]', '_', text).strip()[:max_length]
 
     def _parse_title(self):
         if meta_title := self.soup.find("meta", property="og:title"):
             self.title = meta_title.get('content')
         else:
             self.title = self.soup.title.string
-        self.title = self._safe_name(self.title)
+        self.title = self._safe_name(self.title or '')
         return self.title
 
     def _parse_cover(self):
@@ -251,13 +247,11 @@ class BaseClipper:
             if self.is_download_images:
                 self.cover = self._download_image(self.cover) or self.cover
         elif self.images:
-            self.cover = self._get_by_index(self.images, self.COVER_INDEX) or ''
+            self.cover = self._get_by_index(self.images, self.COVER_INDEX)
         return self.cover
     
     @staticmethod
     def _get_by_index(arr, pos):
-        if not arr:
-            return None
         pos = len(arr) + pos if pos < 0 else pos
         return arr[max(0, min(pos, len(arr) - 1))]
 
@@ -419,7 +413,7 @@ class ChiguaClipper(BaseClipper):
                 yield src
 
     def _parse_cover(self):
-        self.cover = self._get_by_index(self.images, self.COVER_INDEX) or ''
+        self.cover = self._get_by_index(self.images, self.COVER_INDEX) if self.images else ''
         return self.cover
 
     def _filename(self):
