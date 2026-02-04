@@ -222,11 +222,12 @@ class BaseClipper:
 
     def parse(self):
         self.soup = BeautifulSoup(self._get_html(), "html.parser")
-        self._parse_content()
-        self._parse_title()
-        self._parse_cover()
+        self.content = self._parse_content()
+        self.title = self._parse_title()
+        self.cover = self._parse_cover()
         self.created = datetime.now().isoformat(timespec='seconds')
-        return self.generate_markdown()
+        self.markdown = self.generate_markdown()
+        return self.markdown
     
     @staticmethod
     def _safe_name(text, max_length=50):
@@ -234,21 +235,22 @@ class BaseClipper:
 
     def _parse_title(self):
         if meta_title := self.soup.find("meta", property="og:title"):
-            self.title = meta_title.get('content')
+            title = meta_title.get('content')
         else:
-            self.title = self.soup.title.string
-        self.title = self._safe_name(self.title or '')
-        return self.title
+            title = self.soup.title.string
+        title = self._safe_name(title or '')
+        return title
 
     def _parse_cover(self):
         if meta_image := self.soup.find("meta", property="og:image"):
-            self.cover = meta_image.get('content')
-        if self.cover:
-            if self.is_download_images:
-                self.cover = self._download_image(self.cover) or self.cover
+            cover = meta_image.get('content')
+            if cover and self.is_download_images:
+                cover = self._download_image(cover) or cover
         elif self.images:
-            self.cover = self._get_by_index(self.images, self.COVER_INDEX)
-        return self.cover
+            cover = self._get_by_index(self.images, self.COVER_INDEX)
+        else:
+            cover = ''
+        return cover
     
     @staticmethod
     def _get_by_index(arr, pos):
@@ -261,7 +263,7 @@ class BaseClipper:
                 yield src
 
     def _parse_images(self):
-        images = []      
+        images = []
         for img in self._parse_image():
             url = self._normalize(img)
             if self._filter_image(url):
@@ -306,8 +308,8 @@ class BaseClipper:
 
     def _parse_content(self):
         self.images = self._parse_images()
-        self.content = "\n\n".join(f"![]({img})" for img in self.images)
-        return self.content
+        content = "\n\n".join(f"![]({img})" for img in self.images)
+        return content
     
     def generate_markdown(self):
         cover = f'"[[{self.cover}]]"' if self.cover and self.cover.startswith('./') else (self.cover or '')
@@ -319,8 +321,8 @@ image: {cover}
 tags: {self.tags}
 created: {self.created}
 ---"""
-        self.markdown = f"{frontmatter}\n\n{self.content}"
-        return self.markdown
+        markdown = f"{frontmatter}\n\n{self.content}"
+        return markdown
     
     def save(self):
         filepath = os.path.join(self.output_dir, self._filename() + '.md')
@@ -375,8 +377,8 @@ class PornyClipper(BaseClipper):
 
     def _parse_title(self):
         if content_h1 := self.soup.select_one('div.content h1'):
-            self.title = self._safe_name(content_h1.get_text(strip=True))
-            return self.title
+            title = self._safe_name(content_h1.get_text(strip=True))
+            return title
         else:
             return super()._parse_title()
 
@@ -408,8 +410,8 @@ class ChiguaClipper(BaseClipper):
                 yield src
 
     def _parse_cover(self):
-        self.cover = self._get_by_index(self.images, self.COVER_INDEX) if self.images else ''
-        return self.cover
+        cover = self._get_by_index(self.images, self.COVER_INDEX) if self.images else ''
+        return cover
 
     def _filename(self):
         return self.domain + '-' + self.id
