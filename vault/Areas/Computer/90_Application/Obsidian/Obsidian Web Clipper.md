@@ -277,13 +277,13 @@ class BaseClipper:
             return url
         return urljoin(self.url, url)
 
-    def _filter_image(self, img_url):
+    def _filter_image(self, url):
         if not self.IMAGE_EXTS:
             return True
-        if img_url.startswith("data:image/"):
-            ext = img_url.split(';')[0].split('/')[1]
+        if url.startswith("data:image/"):
+            ext = url.split(';')[0].split('/')[1]
         else:
-            ext = img_url.split('?')[0].split('#')[0].split('.')[-1].lower()
+            ext = url.split('?')[0].split('#')[0].split('.')[-1].lower()
         return ext in self.IMAGE_EXTS
 
     def _download_image(self, url):
