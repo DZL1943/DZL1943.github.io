@@ -337,7 +337,7 @@ created: {self.created}
 class MissavClipper(BaseClipper):
     DOMAIN = 'missav'
     URL_RULES = [
-        (r'https://missav\.([a-z]+)/dm18/cn/([0-9a-z-]+)', '')
+        (r'https://missav\.[a-z]+/\w+/[a-z]+/([0-9a-z-]+)', r'https://missav.live/dm18/cn/\1')
     ]
 
     def __init__(self, *args, **kwargs):
