@@ -167,13 +167,15 @@ class BaseClipper:
     
     def __init__(self, url, output_dir, is_download_images=True, browser=None):
         self.url = url
-        self.domain = self.DOMAIN or urlparse(self.url).netloc.replace("www.", "").split(".")[0]
+        self.id = self._extract_id(url) or datetime.now().strftime("%Y%m%d%H%M%S%f")
+        self.domain = self.DOMAIN or self._extract_domain(url)
         self.tags = [f"clippings/{self.domain}"]
         self.title = ''
         self.cover = ''
         self.images = []
         self.content = ''
         self.created = ''
+        self.markdown = ''
         self.soup = None
         self.browser = browser
         self.output_dir = os.path.join(output_dir, self.domain)
@@ -193,17 +195,21 @@ class BaseClipper:
                         pass
                 return url
 
+    @staticmethod
+    def _extract_id(url):
+        return url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
+
+    @staticmethod
+    def _extract_domain(url):
+        return urlparse(url).netloc.replace("www.", "").split(".")[0]
+
     def _get_content_by_playwright(self):
         if not self.browser:
             return
-        
         page = self.browser.new_page()
-        page.goto(
-            self.url, 
-            wait_until='domcontentloaded',
-            timeout=60000
-        )
+        page.goto(self.url, wait_until="domcontentloaded", timeout=60000)
         html_content = page.content()
+        # page.close()
         return html_content
 
     def _get_html_content(self):
@@ -218,36 +224,58 @@ class BaseClipper:
 
     def parse(self):
         self.soup = BeautifulSoup(self._get_html_content(), "html.parser")
-        
-        self._parse_meta()
         self._parse_content()
-        self._set_cover()
+        self._parse_title()
+        self._parse_cover()
         self.created = datetime.now().isoformat(timespec='seconds')
+        return self.generate_markdown()
     
-    def _parse_meta(self):
+    @staticmethod
+    def _safe_name(text, max_length=50):
+        if not isinstance(text, str):
+            return ''
+        return re.sub(r'[^\w\-_\. ]', '_', text).strip('_ ')[:max_length]
+
+    def _parse_title(self):
         if meta_title := self.soup.find("meta", property="og:title"):
             self.title = meta_title.get('content')
         else:
             self.title = self.soup.title.string
-        
+        self.title = self._safe_name(self.title)
+        return self.title
+
+    def _parse_cover(self):
         if meta_image := self.soup.find("meta", property="og:image"):
             self.cover = meta_image.get('content')
+        if self.cover:
+            if self.is_download_images:
+                self.cover = self._download_image(self.cover) or self.cover
+        elif self.images:
+            self.cover = self._get_by_index(self.images, self.COVER_INDEX) or ''
+        return self.cover
     
-    def _parse_images(self):
-        images = []
-        seen = set()
-        
-        for url in self._parse_image():
-            img_url = self._normalize(url)
-            if self._filter_image(img_url) and img_url not in seen:
-                seen.add(img_url)
-                images.append(self._download_image(img_url) or img_url if self.is_download_images else img_url)
-        return images
+    @staticmethod
+    def _get_by_index(arr, pos):
+        if not arr:
+            return None
+        pos = len(arr) + pos if pos < 0 else pos
+        return arr[max(0, min(pos, len(arr) - 1))]
 
     def _parse_image(self):
         for img in self.soup.select('img'):
             if src := img.get('src'):
                 yield src
+
+    def _parse_images(self):
+        images = []
+        seen = set()
+        
+        for img in self._parse_image():
+            url = self._normalize(img)
+            if self._filter_image(url) and url not in seen:
+                seen.add(url)
+                images.append(self._download_image(url) or url if self.is_download_images else url)
+        return images
 
     def _normalize(self, url):
         if url.startswith("//"):
@@ -287,23 +315,10 @@ class BaseClipper:
             print(f"Download image failed: {url[:50]}... - {e}")
             return url
 
-    def _set_cover(self):
-        if self.cover:
-            if self.is_download_images:
-                self.cover = self._download_image(self.cover) or self.cover
-        elif self.images:
-            self.cover = self._get_by_index(self.images, self.COVER_INDEX) or ''
-    
-    @staticmethod
-    def _get_by_index(arr, pos):
-        if not arr:
-            return None
-        pos = len(arr) + pos if pos < 0 else pos
-        return arr[max(0, min(pos, len(arr) - 1))]
-
     def _parse_content(self):
         self.images = self._parse_images()
         self.content = "\n\n".join(f"![]({img})" for img in self.images)
+        return self.content
     
     def generate_markdown(self):
         cover = f'"[[{self.cover}]]"' if self.cover and self.cover.startswith('./') else (self.cover or '')
@@ -315,16 +330,17 @@ image: {cover}
 tags: {self.tags}
 created: {self.created}
 ---"""
-        return f"{frontmatter}\n\n{self.content}"
+        self.markdown = f"{frontmatter}\n\n{self.content}"
+        return self.markdown
     
     def save(self):
         filepath = os.path.join(self.output_dir, self._filename() + '.md')
         
         with open(filepath, "w", encoding="utf-8") as f:
-            f.write(self.generate_markdown())
+            f.write(self.markdown)
 
     def _filename(self):
-        return re.sub(r'[^\w\-_\. ]', '_', self.title)[:50].strip() if self.title else datetime.now().strftime("%Y%m%d%H%M%S%f")
+        return '-'.join([self.domain, self.title or self.id])
 
 
 class MissavClipper(BaseClipper):
@@ -345,10 +361,10 @@ class MissavClipper(BaseClipper):
                     yield match.group(1)
 
     def _parse_content(self):
-        pass
+        return ''
 
     def _filename(self):
-        return self.domain + '-' + self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
+        return self.domain + '-' + self.id
 
 
 class PornyClipper(BaseClipper):
@@ -368,16 +384,23 @@ class PornyClipper(BaseClipper):
         super().__init__(*args, **kwargs)
         self.tags.append('av')
 
+    def _parse_title(self):
+        if content_h1 := self.soup.select_one('div.content h1'):
+            self.title = self._safe_name(content_h1.get_text(strip=True))
+            return self.title
+        else:
+            return super()._parse_title()
+
     def _parse_image(self):
         for img in self.soup.select('video'):
             if src := img.get('poster'):
                 yield src
 
     def _parse_content(self):
-        pass
+        return ''
 
     def _filename(self):
-        return self.domain + '-' + self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
+        return self.domain + '-' + self.id
 
 
 class ChiguaClipper(BaseClipper):
@@ -395,11 +418,12 @@ class ChiguaClipper(BaseClipper):
             if src := img.get('src'):
                 yield src
 
-    def _set_cover(self):
+    def _parse_cover(self):
         self.cover = self._get_by_index(self.images, self.COVER_INDEX) or ''
+        return self.cover
 
     def _filename(self):
-        return self.domain + '-' + self.url.rstrip('/').split('?')[0].split('#')[0].split('/')[-1]
+        return self.domain + '-' + self.id
 
 
 class WebToMarkdown:
@@ -413,9 +437,9 @@ class WebToMarkdown:
     
     def get_clipper(self, url):
         for clipper_class in self.CLIPPERS:
-            if new_url := clipper_class.match_and_redirect(url):
-                print(f"\n{clipper_class.__name__}  {new_url}")
-                return clipper_class(new_url, self.output_dir, browser=self.browserContext)
+            if real_url := clipper_class.match_and_redirect(url):
+                print(f"\n{clipper_class.__name__}  {real_url}")
+                return clipper_class(real_url, self.output_dir, browser=self.browserContext)
         return BaseClipper(url, self.output_dir, browser=self.browserContext)
     
     def process_url(self, url):
