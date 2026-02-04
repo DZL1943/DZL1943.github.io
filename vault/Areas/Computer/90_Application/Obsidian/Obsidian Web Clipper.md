@@ -203,16 +203,16 @@ class BaseClipper:
     def _extract_domain(url):
         return urlparse(url).netloc.replace("www.", "").split(".")[0]
 
-    def _get_content_by_playwright(self):
+    def _get_html_by_playwright(self):
         page = self.browser.new_page()
         page.goto(self.url, wait_until="domcontentloaded", timeout=60000)
         html_content = page.content()
         # page.close()
         return html_content
 
-    def _get_html_content(self):
+    def _get_html(self):
         if self.browser:
-            return self._get_content_by_playwright()
+            return self._get_html_by_playwright()
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         }
@@ -221,7 +221,7 @@ class BaseClipper:
         return resp.content
 
     def parse(self):
-        self.soup = BeautifulSoup(self._get_html_content(), "html.parser")
+        self.soup = BeautifulSoup(self._get_html(), "html.parser")
         self._parse_content()
         self._parse_title()
         self._parse_cover()
@@ -261,13 +261,10 @@ class BaseClipper:
                 yield src
 
     def _parse_images(self):
-        images = []
-        seen = set()
-        
+        images = []      
         for img in self._parse_image():
             url = self._normalize(img)
-            if self._filter_image(url) and url not in seen:
-                seen.add(url)
+            if self._filter_image(url):
                 images.append(self._download_image(url) or url if self.is_download_images else url)
         return images
 
@@ -281,12 +278,10 @@ class BaseClipper:
     def _filter_image(self, img_url):
         if not self.IMAGE_EXTS:
             return True
-
         if img_url.startswith("data:image/"):
             ext = img_url.split(';')[0].split('/')[1]
         else:
             ext = img_url.split('?')[0].split('#')[0].split('.')[-1].lower()
-        
         return ext in self.IMAGE_EXTS
 
     def _download_image(self, url):
