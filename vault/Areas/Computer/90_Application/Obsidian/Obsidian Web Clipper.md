@@ -231,17 +231,17 @@ class BaseClipper:
         markdown =  self._generate_markdown()
         return self._save(markdown)
 
+    def _parse_content(self):
+        return "\n\n".join(f"![]({img})" for img in self.images)
+
     def _parse_metadata(self):
         return {
-            'title': self._parse_title(),
+            'title': self._safe_name(self._parse_title()),
             'url': self.url,
             'image': self._set_cover(),
             'tags': self.tags,
             'created': datetime.now().isoformat(timespec='seconds')
         }
-
-    def _parse_content(self):
-        return "\n\n".join(f"![]({img})" for img in self.images)
 
     def _parse_title(self):
         if meta_title := self.soup.find("meta", property="og:title"):
@@ -386,8 +386,7 @@ class PornyClipper(BaseClipper):
 
     def _parse_title(self):
         if content_h1 := self.soup.select_one('div.content h1'):
-            title = self._safe_name(content_h1.get_text(strip=True))
-            return title
+            return content_h1.get_text(strip=True)
         else:
             return super()._parse_title()
 
@@ -430,8 +429,6 @@ class WebToMarkdown:
         self.clippers = []
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
-        self.browser = None
-        self.browser_context = None
     
     def register(self, *clipper_classes):
         self.clippers.extend(clipper_classes)
