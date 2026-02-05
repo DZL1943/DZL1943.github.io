@@ -229,7 +229,7 @@ class BaseClipper:
         self.metadata = self._parse_metadata()
         
         markdown =  self._generate_markdown()
-        self._save(markdown)
+        return self._save(markdown)
 
     def _parse_metadata(self):
         return {
@@ -437,17 +437,18 @@ class WebToMarkdown:
         self.clippers.extend(clipper_classes)
         return self
 
-    def get_clipper(self, url):
+    def match_clipper(self, url):
         for clipper_class in self.clippers:
             if real_url := clipper_class.match_and_redirect(url):
                 print(f"\n{clipper_class.__name__}:  {real_url}")
-                return clipper_class(real_url, self.output_dir, browser=self.browser_context)
-        return BaseClipper(url, self.output_dir, browser=self.browser_context)
+                return clipper_class, real_url
+        return BaseClipper, url
     
-    def process_url(self, url):
+    def process_url(self, url, browser=None):
         try:
-            clipper = self.get_clipper(url)
-            clipper.main()
+            clipper_class, url = self.match_clipper(url)
+            clipper = clipper_class(url, self.output_dir, browser=browser)
+            return clipper.main()
         except Exception as e:
             print(f"ERROR {url}: {e}")
             print(traceback.format_exc())
@@ -457,7 +458,7 @@ class WebToMarkdown:
             urls = urls.strip().split()
         
         with sync_playwright() as p:
-            self.browser = p.chromium.launch(
+            browser = p.chromium.launch(
                 headless=True,
                 args=[
                     '--disable-blink-features=AutomationControlled',
@@ -468,7 +469,7 @@ class WebToMarkdown:
                     '--no-startup-window',
                 ]
             )
-            self.browser_context = self.browser.new_context(
+            browser_context = browser.new_context(
                 viewport={'width': 1920, 'height': 1080},
                 user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                 locale='zh-CN',
@@ -479,11 +480,11 @@ class WebToMarkdown:
             )
 
             for url in urls:
-                self.process_url(url)
+                self.process_url(url, browser=browser_context)
             
             input('press any key to exit: ')
-            self.browser_context.close()
-            self.browser.close()
+            browser_context.close()
+            browser.close()
 
 
 if __name__ == "__main__":
