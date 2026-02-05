@@ -63,6 +63,19 @@ views:
 
 ## 分类
 
+首先按作者、区域分
+- Inbox
+- UGC: 真实自拍
+- PGC: 专业个人/团队
+- OGC: 职业机构
+    - CN
+    - JP
+    - US
+- CGC: 电脑生成
+- Archive
+
+其次按内容、人物、场景分
+
 - 吃瓜福利 solo
 - 原创自拍 **Homemade**
 - 野战露出 Public
