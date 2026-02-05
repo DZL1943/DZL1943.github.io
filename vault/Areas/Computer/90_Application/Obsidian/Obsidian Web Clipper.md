@@ -168,8 +168,7 @@ class BaseClipper:
     
     def __init__(self, url, output_dir='./output', download_images=True, browser=None):
         self.url = url
-        self.domain = self.DOMAIN or self._extract_domain(url)
-        self.id = self._extract_id(url) or datetime.now().strftime("%Y%m%d%H%M%S%f")
+        self.domain = self.DOMAIN or self._extract_domain()
         self.tags = [f"clippings/{self.domain}"]
         self.metadata = {}
         self.content = ''
@@ -185,14 +184,12 @@ class BaseClipper:
         if self.download_images:
             os.makedirs(os.path.join(self.output_dir, self.IMAGE_FOLDER), exist_ok=True)
 
-    @staticmethod
-    def _extract_id(url):
-        path = urlparse(url).path.rstrip('/')
+    def _extract_id(self):
+        path = urlparse(self.url).path.rstrip('/')
         return path.split('/')[-1] if path else None
 
-    @staticmethod
-    def _extract_domain(url):
-        return urlparse(url).netloc.replace("www.", "").split(".")[0]
+    def _extract_domain(self):
+        return urlparse(self.url).netloc.replace("www.", "").split(".")[0]
 
     @classmethod
     def match_and_redirect(cls, url):
@@ -340,7 +337,7 @@ class BaseClipper:
         return filepath
 
     def _filename(self):
-        return '-'.join([self.domain, self.title or self.id])
+        return '-'.join([self.domain, self.metadata.get('title') or self._extract_id() or datetime.now().strftime("%Y%m%d%H%M%S%f")])
 
 
 class MissavClipper(BaseClipper):
@@ -364,7 +361,7 @@ class MissavClipper(BaseClipper):
         return ''
 
     def _filename(self):
-        return self.domain + '-' + self.id
+        return self.domain + '-' + self._extract_id()
 
 
 class PornyClipper(BaseClipper):
@@ -399,7 +396,7 @@ class PornyClipper(BaseClipper):
         return ''
 
     def _filename(self):
-        return self.domain + '-' + self.id
+        return self.domain + '-' + self._extract_id()
 
 
 class ChiguaClipper(BaseClipper):
@@ -421,7 +418,7 @@ class ChiguaClipper(BaseClipper):
         return ''
 
     def _filename(self):
-        return self.domain + '-' + self.id
+        return self.domain + '-' + self._extract_id()
 
 
 class WebToMarkdown:
