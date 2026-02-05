@@ -137,4 +137,4 @@ draft: true
 
 ![500](<../../../Attachments/Screenshot_2026-02-01-09-31-53-089_com.miui.home.jpg>)
 
-![500](<../../../Attachments/Screenshot_2026-02-01-09-32-04-373_com.miui.home.jpg>)
+![500](<../../../Attachments/Screenshot_2026-02-05-16-02-38-474_com.miui.home.jpg>)
