@@ -33,8 +33,8 @@ brew install fuse-t-sshfs
 
 ## 与其他工具协同
 
-- git
-- syncthing: 直接同步加密文件
+- git: 解密后操作
+- syncthing: 同步加密目录(如果对端能够解密的话)
 - kopia: 备份解密后的驱动器目录
 
 ## 移动端
