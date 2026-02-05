@@ -18,14 +18,12 @@ brew install fuse-t-sshfs
 
 ## 解锁
 
-解锁
-- 仅能够在驱动器下访问和编辑 (直接访问保险库位置是无效的)
-- ![](<../../../Attachments/Cryptomator-20240622165001010.png>)
-
-锁定
+- 仅能够在驱动器下访问和编辑 (直接访问保险库位置是无效的)  
+    ![](<../../../Attachments/Cryptomator-20240622165001010.png>)
 - 必须退出驱动器、释放所有文件才能锁定
-- 锁定后驱动器目录为空
-- ![](<../../../Attachments/Cryptomator-20240622165001193.png>)
+- 锁定后驱动器目录为空  
+    ![](<../../../Attachments/Cryptomator-20240622165001193.png>)
+
 > 保险库中的是密文, 解锁后驱动器下才是明文.
 
 > [!summary] 
@@ -36,7 +34,7 @@ brew install fuse-t-sshfs
 ## 与其他工具协同
 
 - git
-- syncthing
-- kopia
+- syncthing: 直接同步加密文件
+- kopia: 备份解密后的驱动器目录
 
 ## 移动端
