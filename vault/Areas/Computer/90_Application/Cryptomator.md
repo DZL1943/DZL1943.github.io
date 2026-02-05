@@ -1,6 +1,8 @@
 ---
 created: 2023-06-18T23:31
 modified: 2026-02-05T19:41
+url:
+  - https://cryptomator.org/
 ---
 
 ## 添加保险库
@@ -47,7 +49,7 @@ brew install fuse-t-sshfs
 
 ## 移动端
 
-- Android
+- Android: 30 欧买断
     - Google Play 版本(付费)
     - APK 版本(需要从官网购买许可证密钥)
     - F-Droid 版本(有功能阉割, 需要从官网购买许可证密钥)
