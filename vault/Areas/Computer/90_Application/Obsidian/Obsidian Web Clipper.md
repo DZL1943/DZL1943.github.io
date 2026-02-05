@@ -152,11 +152,11 @@ import os
 import re
 import traceback
 from urllib.parse import urlparse, urljoin
-import yaml
 
 from bs4 import BeautifulSoup
 import httpx
 from playwright.sync_api import sync_playwright
+import yaml
 
 
 class BaseClipper:
