@@ -395,7 +395,7 @@ class PornyClipper(BaseClipper):
 class ChiguaClipper(BaseClipper):
     SITE = '51'
     URL_RULES = [
-        (r"https://(.*)/archives/(.*)", r"https://better.laarueh.cc/archives/\2")
+        (r"https://(.*)/archives/(.*)", r"https://age.lficmsbo.xyz/archives/\2")
     ]
     
     def _set_tags(self):
