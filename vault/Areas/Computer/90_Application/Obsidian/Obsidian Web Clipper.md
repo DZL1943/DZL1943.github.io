@@ -174,7 +174,7 @@ class BaseClipper:
 
     def _fetch_html_playwright(self, browser):
         page = browser.new_page()
-        page.goto(self.url, wait_until="domcontentloaded", timeout=60000)
+        page.goto(self.url, wait_until="load", timeout=60000)  # commit|domcontentloaded|load|networkidle
         html_content = page.content()
         # page.close()
         return html_content
@@ -273,6 +273,16 @@ class BaseClipper:
     def _safe_index(arr, pos):
         pos = len(arr) + pos if pos < 0 else pos
         return arr[max(0, min(pos, len(arr) - 1))]
+
+    @staticmethod
+    def _style2dict(style):
+        style = style.split('style=')[-1]
+        return {
+            k.strip(): v.strip()
+            for attr in style.split(";")
+            if attr and ":" in attr
+            for k, v in [attr.split(":", 1)]
+        }
 
     def _parse_image(self):
         for img in self.soup.select('img'):
