@@ -160,45 +160,20 @@ import yaml
 
 
 class BaseClipper:
-    DOMAIN = None
+    SITE = None
     URL_RULES = []
     COVER_INDEX = -1
     IMAGE_EXTS = {'webp', 'jpg', 'jpeg'}
     IMAGE_FOLDER = ''
     
-    def __init__(self, url, output_dir='./output', download_images=True, browser=None):
-        self.url = url
-        self.domain = self.DOMAIN or self._extract_domain()
-        self.tags = [f"clippings/{self.domain}"]
-        self.metadata = {}
-        self.content = ''
-        self.images = []
-        self.soup = None
-        self.browser = browser
-        self.download_images = download_images
-        self.output_dir = os.path.join(output_dir, self.domain)
-        self._setup_dirs()
-    
-    def _setup_dirs(self):
-        os.makedirs(self.output_dir, exist_ok=True)
-        if self.download_images:
-            os.makedirs(os.path.join(self.output_dir, self.IMAGE_FOLDER), exist_ok=True)
-
-    def _extract_id(self):
-        path = urlparse(self.url).path.rstrip('/')
-        return path.split('/')[-1] if path else None
-
-    def _extract_domain(self):
-        return urlparse(self.url).netloc.replace("www.", "").split(".")[0]
-
     @classmethod
     def match_and_redirect(cls, url):
         for pattern, redirect in cls.URL_RULES:
             if re.search(pattern, url):
                 return re.sub(pattern, redirect, url) if redirect else url
 
-    def _fetch_html_playwright(self):
-        page = self.browser.new_page()
+    def _fetch_html_playwright(self, browser):
+        page = browser.new_page()
         page.goto(self.url, wait_until="domcontentloaded", timeout=60000)
         html_content = page.content()
         # page.close()
@@ -212,14 +187,19 @@ class BaseClipper:
         resp.raise_for_status()
         return resp.content
 
-    def _fetch_html(self):
-        if self.browser:
-            return self._fetch_html_playwright()
+    def _fetch_html(self, browser=None):
+        if browser:
+            return self._fetch_html_playwright(browser)
         return self._fetch_html_httpx()
 
-    def main(self):
-        html = self._fetch_html()
-        self.soup = BeautifulSoup(html, "html.parser")
+    def main(self, url, output_dir='./output', download_images=True, browser=None):
+        self.url = url
+        self.soup = BeautifulSoup(self._fetch_html(browser), "html.parser")
+
+        self.site = self.SITE or self._parse_site()
+        self.download_images = download_images
+        self.output_dir = os.path.join(output_dir, self.site)
+        self._setup_dirs()
 
         self.images = self.parse_images()
         self.content = self._parse_content()
@@ -227,6 +207,19 @@ class BaseClipper:
         
         markdown =  self._generate_markdown()
         return self._save(markdown)
+
+    def _setup_dirs(self):
+        os.makedirs(self.output_dir, exist_ok=True)
+        if self.download_images:
+            os.makedirs(os.path.join(self.output_dir, self.IMAGE_FOLDER), exist_ok=True)
+
+    def _parse_id(self):
+        if path := urlparse(self.url).path.rstrip('/'):
+            return path.split('/')[-1]
+
+    def _parse_site(self):
+        if site_name := self.soup.find("meta", property="og:site_name"):
+            return site_name.get('content')
 
     def _parse_content(self):
         return "\n\n".join(f"![]({img})" for img in self.images)
@@ -236,12 +229,20 @@ class BaseClipper:
             'title': self._safe_name(self._parse_title()),
             'url': self.url,
             'image': self._set_cover(),
-            'tags': self.tags,
-            'created': datetime.now().isoformat(timespec='seconds')
+            'tags': self._set_tags(),
+            'created': self._set_created()
         }
 
+    def _set_tags(self):
+        return [f"clippings/{self.site}"]
+    
+    def _set_created(self):
+        return datetime.now().isoformat(timespec='seconds')
+
     def _parse_title(self):
-        if meta_title := self.soup.find("meta", property="og:title"):
+        if twitter_title := self.soup.find("meta", property="twitter:title"):
+            title = twitter_title.get('content', '')
+        elif meta_title := self.soup.find("meta", property="og:title"):
             title = meta_title.get('content', '')
         else:
             title = self.soup.title.string if self.soup.title else ''
@@ -286,12 +287,12 @@ class BaseClipper:
                 images.append(self._download_image(url) or url if self.download_images else url)
         return images
 
-    def _normalize(self, url):
-        if url.startswith("//"):
-            return "https:" + url
-        elif url.startswith(("http://", "https://", "data:")):
-            return url
-        return urljoin(self.url, url)
+    def _normalize(self, src):
+        if src.startswith("//"):
+            return "https:" + src
+        elif src.startswith(("http://", "https://", "data:")):
+            return src
+        return urljoin(self.url, src)
 
     def _filter_image(self, url):
         if not self.IMAGE_EXTS:
@@ -323,7 +324,7 @@ class BaseClipper:
             return os.path.join('.', self.IMAGE_FOLDER, filename)
         except Exception as e:
             print(f"Download image failed: {url[:50]}... - {e}")
-            return url
+            return None
 
     def _generate_markdown(self):
         frontmatter = yaml.dump(self.metadata, allow_unicode=True, sort_keys=False)
@@ -337,18 +338,17 @@ class BaseClipper:
         return filepath
 
     def _filename(self):
-        return '-'.join([self.domain, self.metadata.get('title') or self._extract_id() or datetime.now().strftime("%Y%m%d%H%M%S%f")])
+        return '-'.join([self.site, self.metadata.get('title') or self._parse_id()]) or datetime.now().strftime("%Y%m%d%H%M%S%f")
 
 
 class MissavClipper(BaseClipper):
-    DOMAIN = 'missav'
+    SITE = 'missav'
     URL_RULES = [
         (r'https://missav\.[a-z]+/\w+/[a-z]+/([0-9a-z-]+)', r'https://missav.live/dm18/cn/\1')
     ]
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.tags.append('av')
+    def _set_tags(self):
+        return super()._set_tags().append('av')
 
     def _parse_image(self):
         for element in self.soup.select("div.plyr__poster"):
@@ -361,11 +361,11 @@ class MissavClipper(BaseClipper):
         return ''
 
     def _filename(self):
-        return self.domain + '-' + self._extract_id()
+        return self.site + '-' + self._parse_id()
 
 
 class PornyClipper(BaseClipper):
-    DOMAIN = '91'
+    SITE = '91'
     URL_RULES = [
         (
             r"https://(.*)/view_video\.php\?viewkey=([a-z0-9]+).*",
@@ -377,9 +377,8 @@ class PornyClipper(BaseClipper):
         ),
     ]
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.tags.append('av')
+    def _set_tags(self):
+        return super()._set_tags().append('av')
 
     def _parse_title(self):
         if content_h1 := self.soup.select_one('div.content h1'):
@@ -396,18 +395,17 @@ class PornyClipper(BaseClipper):
         return ''
 
     def _filename(self):
-        return self.domain + '-' + self._extract_id()
+        return self.site + '-' + self._parse_id()
 
 
 class ChiguaClipper(BaseClipper):
-    DOMAIN = '51'
+    SITE = '51'
     URL_RULES = [
         (r"https://(.*)/archives/(.*)", r"https://aide.sdovcthe.com/archives/\2")
     ]
     
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.tags.append('av')
+    def _set_tags(self):
+        return super()._set_tags().append('av')
 
     def _parse_image(self):
         for img in self.soup.select('div.post-content img'):
@@ -418,7 +416,7 @@ class ChiguaClipper(BaseClipper):
         return ''
 
     def _filename(self):
-        return self.domain + '-' + self._extract_id()
+        return self.site + '-' + self._parse_id()
 
 
 class WebToMarkdown:
@@ -441,8 +439,8 @@ class WebToMarkdown:
     def process_url(self, url, browser=None):
         try:
             clipper_class, url = self.match_clipper(url)
-            clipper = clipper_class(url, self.output_dir, browser=browser)
-            return clipper.main()
+            clipper = clipper_class()
+            return clipper.main(url, self.output_dir, browser=browser)
         except Exception as e:
             print(f"ERROR {url}: {e}")
             print(traceback.format_exc())
