@@ -327,7 +327,7 @@ class BaseClipper:
             return None
 
     def _generate_markdown(self):
-        frontmatter = yaml.dump(self.metadata, allow_unicode=True, sort_keys=False)
+        frontmatter = yaml.dump(self.metadata, allow_unicode=True, sort_keys=False, indent=2)
         return f"---\n{frontmatter}---\n\n{self.content}"
     
     def _save(self, markdown):
@@ -338,7 +338,9 @@ class BaseClipper:
         return filepath
 
     def _filename(self):
-        return '-'.join([self.site, self.metadata.get('title') or self._parse_id()]) or datetime.now().strftime("%Y%m%d%H%M%S%f")
+        if id := self._parse_id():
+            return f'{self.site}-{id}'
+        return f'{datetime.now().strftime("%Y%m%d%H%M%S")}{self.metadata.get('title')}'
 
 
 class MissavClipper(BaseClipper):
@@ -348,7 +350,9 @@ class MissavClipper(BaseClipper):
     ]
 
     def _set_tags(self):
-        return super()._set_tags().append('av')
+        tags = super()._set_tags()
+        tags.append('av')
+        return tags
 
     def _parse_image(self):
         for element in self.soup.select("div.plyr__poster"):
@@ -359,9 +363,6 @@ class MissavClipper(BaseClipper):
 
     def _parse_content(self):
         return ''
-
-    def _filename(self):
-        return self.site + '-' + self._parse_id()
 
 
 class PornyClipper(BaseClipper):
@@ -378,13 +379,9 @@ class PornyClipper(BaseClipper):
     ]
 
     def _set_tags(self):
-        return super()._set_tags().append('av')
-
-    def _parse_title(self):
-        if content_h1 := self.soup.select_one('div.content h1'):
-            return content_h1.get_text(strip=True)
-        else:
-            return super()._parse_title()
+        tags = super()._set_tags()
+        tags.append('av')
+        return tags
 
     def _parse_image(self):
         for img in self.soup.select('video'):
@@ -394,18 +391,17 @@ class PornyClipper(BaseClipper):
     def _parse_content(self):
         return ''
 
-    def _filename(self):
-        return self.site + '-' + self._parse_id()
-
 
 class ChiguaClipper(BaseClipper):
     SITE = '51'
     URL_RULES = [
-        (r"https://(.*)/archives/(.*)", r"https://aide.sdovcthe.com/archives/\2")
+        (r"https://(.*)/archives/(.*)", r"https://better.laarueh.cc/archives/\2")
     ]
     
     def _set_tags(self):
-        return super()._set_tags().append('av')
+        tags = super()._set_tags()
+        tags.append('av')
+        return tags
 
     def _parse_image(self):
         for img in self.soup.select('div.post-content img'):
@@ -414,9 +410,6 @@ class ChiguaClipper(BaseClipper):
     
     def _parse_cover(self):
         return ''
-
-    def _filename(self):
-        return self.site + '-' + self._parse_id()
 
 
 class WebToMarkdown:
@@ -451,7 +444,7 @@ class WebToMarkdown:
         
         with sync_playwright() as p:
             browser = p.chromium.launch(
-                headless=True,
+                headless=False,
                 args=[
                     '--disable-blink-features=AutomationControlled',
                     '--disable-dev-shm-usage',
@@ -484,7 +477,7 @@ if __name__ == "__main__":
     converter.register(PornyClipper, ChiguaClipper, MissavClipper)
     converter.process_urls([
         'https://tog.jiuse9005.com/video/view/1126684461',
-        # 'https://chair.ydftqji.xyz/archives/158228',
+        'https://chair.ydftqji.xyz/archives/158228',
         # 'https://missav.live/dm18/cn/fc2-ppv-1157625'
     ])
 #     converter.process_urls("""
