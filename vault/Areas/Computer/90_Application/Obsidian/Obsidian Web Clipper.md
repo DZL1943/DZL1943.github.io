@@ -154,7 +154,7 @@ import traceback
 from urllib.parse import urlparse, urljoin
 
 from bs4 import BeautifulSoup
-import httpx
+import niquests
 from playwright.sync_api import sync_playwright
 import yaml
 
@@ -179,18 +179,18 @@ class BaseClipper:
         # page.close()
         return html_content
 
-    def _fetch_html_httpx(self):
+    def _fetch_html_niquests(self):
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         }
-        resp = httpx.get(self.url, headers=headers, timeout=30.0, follow_redirects=True, verify=False)
+        resp = niquests.get(self.url, headers=headers, timeout=30.0, verify=False)
         resp.raise_for_status()
         return resp.content
 
     def _fetch_html(self, browser=None):
         if browser:
             return self._fetch_html_playwright(browser)
-        return self._fetch_html_httpx()
+        return self._fetch_html_niquests()
 
     def main(self, url, output_dir='./output', download_images=True, browser=None):
         self.url = url
@@ -321,7 +321,7 @@ class BaseClipper:
                 img_data = base64.b64decode(data)
                 ext = header.split(';')[0].split('/')[1]
             else:
-                resp = httpx.get(url, timeout=30)
+                resp = niquests.get(url, timeout=30)
                 resp.raise_for_status()
                 img_data = resp.content
                 ext = url.split('?')[0].split('#')[0].split('.')[-1].lower()
@@ -356,7 +356,7 @@ class BaseClipper:
 class MissavClipper(BaseClipper):
     SITE = 'missav'
     URL_RULES = [
-        (r'https://missav\.[a-z]+/\w+/[a-z]+/([0-9a-z-]+)', r'https://missav.live/dm18/cn/\1')
+        (r'https://missav\.[a-z]+/\w+/[a-z]+/([0-9a-z-]+)', r'https://missav.live/dm194/cn/\1')
     ]
 
     def _set_tags(self):
@@ -487,7 +487,7 @@ if __name__ == "__main__":
     converter.register(PornyClipper, ChiguaClipper, MissavClipper)
     converter.process_urls([
         'https://tog.jiuse9005.com/video/view/1126684461',
-        'https://chair.ydftqji.xyz/archives/158228',
+        # 'https://chair.ydftqji.xyz/archives/158228',
         # 'https://missav.live/dm18/cn/fc2-ppv-1157625'
     ])
 #     converter.process_urls("""
