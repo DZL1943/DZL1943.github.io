@@ -377,7 +377,7 @@ class BaseClipper:
 class MissavClipper(BaseClipper):
     SITE = 'missav'
     URL_RULES = [
-        (r'https://missav\.[a-z]+/\w+/[a-z]+/([0-9a-z-]+)', r'https://missav.live/dm194/cn/\1')
+        (r'https://missav[^/]*/((?:[0-9a-z]+/)?)([a-z]+)/([0-9a-z-]+)', r'https://missav.live/\1\2/\3')
     ]
     IMAGE_SELECTOR = ('div.plyr__poster', 'style', None)
 
