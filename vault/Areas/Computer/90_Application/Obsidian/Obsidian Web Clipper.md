@@ -163,18 +163,34 @@ class BaseClipper:
     SITE = None
     URL_RULES = []
     COVER_INDEX = -1
+    IMAGE_SELECTOR = ('img', 'src', None)
     IMAGE_EXTS = {'webp', 'jpg', 'jpeg'}
     IMAGE_FOLDER = ''
     
     @classmethod
     def match_and_redirect(cls, url):
-        for pattern, redirect in cls.URL_RULES:
+        for pattern, redirect, *_ in cls.URL_RULES:
             if re.search(pattern, url):
                 return re.sub(pattern, redirect, url) if redirect else url
 
     def _fetch_html_playwright(self, browser):
         page = browser.new_page()
-        page.goto(self.url, wait_until="load", timeout=60000)  # commit|domcontentloaded|load|networkidle
+        page.goto(self.url, wait_until="domcontentloaded", timeout=60000)
+
+        selector, attr, checker, *_ = self.IMAGE_SELECTOR
+        if not checker:
+            checker = lambda x: bool(x)
+        page.wait_for_selector(selector)
+        last_count = len(page.query_selector_all(selector))
+        while True:
+            page.wait_for_timeout(500)
+            elements = page.query_selector_all(selector)
+            attrs = [checker(e.get_attribute(attr)) for e in elements]
+            count = len(elements)
+            if count == last_count and all(attrs):
+                break
+            last_count = count
+        
         html_content = page.content()
         # page.close()
         return html_content
@@ -285,8 +301,13 @@ class BaseClipper:
         }
 
     def _parse_image(self):
-        for img in self.soup.select('img'):
-            if src := img.get('src'):
+        selector, attr, *_ = self.IMAGE_SELECTOR
+        for img in self.soup.select(selector):
+            if src := img.get(attr):
+                if attr == 'style':
+                    match = re.search(r"background-image:\s*url\(['\"]?(.*?)['\"]?\)", src)
+                    if match:
+                        yield match.group(1)
                 yield src
 
     def parse_images(self):
@@ -358,18 +379,12 @@ class MissavClipper(BaseClipper):
     URL_RULES = [
         (r'https://missav\.[a-z]+/\w+/[a-z]+/([0-9a-z-]+)', r'https://missav.live/dm194/cn/\1')
     ]
+    IMAGE_SELECTOR = ('div.plyr__poster', 'style', None)
 
     def _set_tags(self):
         tags = super()._set_tags()
         tags.append('av')
         return tags
-
-    def _parse_image(self):
-        for element in self.soup.select("div.plyr__poster"):
-            if style := element.get('style'):
-                match = re.search(r"background-image:\s*url\(['\"]?(.*?)['\"]?\)", style)
-                if match:
-                    yield match.group(1)
 
     def _parse_content(self):
         return ''
@@ -387,16 +402,12 @@ class PornyClipper(BaseClipper):
             r"https://tog.jiuse9002.com/video\2/view/\4",
         ),
     ]
+    IMAGE_SELECTOR = ('video', 'poster', None)
 
     def _set_tags(self):
         tags = super()._set_tags()
         tags.append('av')
         return tags
-
-    def _parse_image(self):
-        for img in self.soup.select('video'):
-            if src := img.get('poster'):
-                yield src
 
     def _parse_content(self):
         return ''
@@ -407,16 +418,12 @@ class ChiguaClipper(BaseClipper):
     URL_RULES = [
         (r"https://(.*)/archives/(.*)", r"https://age.lficmsbo.xyz/archives/\2")
     ]
+    IMAGE_SELECTOR = ('div.post-content img', 'src', lambda x: x and x.startswith('data:image/'))
     
     def _set_tags(self):
         tags = super()._set_tags()
         tags.append('av')
         return tags
-
-    def _parse_image(self):
-        for img in self.soup.select('div.post-content img'):
-            if src := img.get('src'):
-                yield src
     
     def _parse_cover(self):
         return ''
@@ -486,8 +493,8 @@ if __name__ == "__main__":
     converter = WebToMarkdown()
     converter.register(PornyClipper, ChiguaClipper, MissavClipper)
     converter.process_urls([
-        'https://tog.jiuse9005.com/video/view/1126684461',
-        # 'https://chair.ydftqji.xyz/archives/158228',
+        # 'https://tog.jiuse9005.com/video/view/1126684461',
+        'https://chair.ydftqji.xyz/archives/158228',
         # 'https://missav.live/dm18/cn/fc2-ppv-1157625'
     ])
 #     converter.process_urls("""
