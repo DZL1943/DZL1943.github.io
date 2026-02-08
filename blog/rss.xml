@@ -4,10 +4,18 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Sat, 07 Feb 2026 10:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Feb 2026 16:19:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[电池 vs 燃油]]></title>
+            <link>https://dzl1943.github.io/blog/电池 vs 燃油</link>
+            <guid>https://dzl1943.github.io/blog/电池 vs 燃油</guid>
+            <pubDate>Sun, 08 Feb 2026 16:19:00 GMT</pubDate>
+            <description><![CDATA[| 维度       | 电池                                        | 燃油                         |]]></description>
+            <content:encoded><![CDATA[<table><thead><tr><th style="text-align:left">维度</th><th style="text-align:left">电池</th><th style="text-align:left">燃油</th></tr></thead><tbody><tr><td style="text-align:left">能量密度</td><td style="text-align:left">更差(约 250-300 Wh/kg)</td><td style="text-align:left">更好(汽油约 12,000 Wh/kg)</td></tr><tr><td style="text-align:left">使用寿命</td><td style="text-align:left">更差(衰减、循环次数有限)</td><td style="text-align:left">更好(机械结构成熟耐用)</td></tr><tr><td style="text-align:left">补能效率</td><td style="text-align:left">更差(充电 30min+ vs 加油 3min)</td><td style="text-align:left">更好</td></tr><tr><td style="text-align:left">功率/效率</td><td style="text-align:left">更好(电机效率 90%+,瞬时扭矩大)</td><td style="text-align:left">较差(内燃机效率 20-40%)</td></tr><tr><td style="text-align:left">温度敏感性</td><td style="text-align:left">更差(低温续航腰斩,高温易过热)</td><td style="text-align:left">较好</td></tr><tr><td style="text-align:left">能量来源</td><td style="text-align:left">依赖电网(清洁能源占比决定环保性)</td><td style="text-align:left">依赖石油开采/炼化</td></tr><tr><td style="text-align:left">基础设施</td><td style="text-align:left">充电桩覆盖仍不足,长途焦虑</td><td style="text-align:left">加油站网络成熟 ubiquitous</td></tr><tr><td style="text-align:left">维护成本</td><td style="text-align:left">更好(少保养项目:无机油、火花塞、变速箱油等)</td><td style="text-align:left">更高(定期保养项目多)</td></tr><tr><td style="text-align:left">购置成本</td><td style="text-align:left">电池成本高,车价通常更贵</td><td style="text-align:left">相对便宜(同级别)</td></tr><tr><td style="text-align:left">使用成本</td><td style="text-align:left">更好(电费 vs 油费,1/3~1/5 成本)</td><td style="text-align:left">更高(油价波动大)</td></tr><tr><td style="text-align:left">静谧性</td><td style="text-align:left">更好(无发动机噪音振动)</td><td style="text-align:left">较差</td></tr><tr><td style="text-align:left">安全性</td><td style="text-align:left">热失控风险(撞击/穿刺易起火,难扑灭)</td><td style="text-align:left">燃油泄漏火灾相对易控制</td></tr><tr><td style="text-align:left">环保性</td><td style="text-align:left">使用阶段零排放,全生命周期看电池制造污染大</td><td style="text-align:left">使用阶段排放高,产业链成熟</td></tr><tr><td style="text-align:left">残值/二手</td><td style="text-align:left">更差(电池衰减担忧,技术迭代快)</td><td style="text-align:left">相对稳定</td></tr><tr><td style="text-align:left">重量</td><td style="text-align:left">更差(电池组沉重,影响操控/能耗)</td><td style="text-align:left">较轻</td></tr><tr><td style="text-align:left">空间布局</td><td style="text-align:left">灵活(电池平铺底盘,前后储物空间多)</td><td style="text-align:left">受发动机/变速箱/油箱布局限制</td></tr></tbody></table>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[手机型号对比-20260207]]></title>
             <link>https://dzl1943.github.io/blog/手机型号对比-20260207</link>
@@ -539,114 +547,6 @@
 <li class="">思考和写作 | 主题、概念</li>
 <li class="">学习和参考 | 领域、对象</li>
 </ol>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[笔记组织结构探究]]></title>
-            <link>https://dzl1943.github.io/blog/笔记组织结构探究</link>
-            <guid>https://dzl1943.github.io/blog/笔记组织结构探究</guid>
-            <pubDate>Sun, 02 Nov 2025 18:53:00 GMT</pubDate>
-            <description><![CDATA[目标和原则]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="目标和原则">目标和原则<a href="https://dzl1943.github.io/blog/%E7%AC%94%E8%AE%B0%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84%E6%8E%A2%E7%A9%B6#%E7%9B%AE%E6%A0%87%E5%92%8C%E5%8E%9F%E5%88%99" class="hash-link" aria-label="目标和原则的直接链接" title="目标和原则的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">尽可能简单、灵活、可扩展<!-- -->
-<ul>
-<li class="">扁平化, 减少文件夹的使用(物理层面的组织), 为双链、属性等预留扩展空间</li>
-</ul>
-</li>
-<li class="">解耦输入(过程)和整理(结果)</li>
-<li class="">解耦笔记大纲和具体内容</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="从根目录开始">从根目录开始<a href="https://dzl1943.github.io/blog/%E7%AC%94%E8%AE%B0%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84%E6%8E%A2%E7%A9%B6#%E4%BB%8E%E6%A0%B9%E7%9B%AE%E5%BD%95%E5%BC%80%E5%A7%8B" class="hash-link" aria-label="从根目录开始的直接链接" title="从根目录开始的直接链接" translate="no">​</a></h2>
-<p>我们的文件直接新建在根目录下.</p>
-<p>但是, 我们还需要建立文件夹把一些非笔记的东西给隔离开, 例如</p>
-<ul>
-<li class="">附件</li>
-<li class="">模板以及脚本</li>
-<li class="">剪藏等非原创内容</li>
-<li class="">日记等私人信息</li>
-<li class="">其他</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="草稿速记和生命周期管理">草稿速记和生命周期管理<a href="https://dzl1943.github.io/blog/%E7%AC%94%E8%AE%B0%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84%E6%8E%A2%E7%A9%B6#%E8%8D%89%E7%A8%BF%E9%80%9F%E8%AE%B0%E5%92%8C%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E7%AE%A1%E7%90%86" class="hash-link" aria-label="草稿速记和生命周期管理的直接链接" title="草稿速记和生命周期管理的直接链接" translate="no">​</a></h2>
-<p>草稿放哪? 同步吗? 上传吗?</p>
-<p>草稿不会上传, 但可能需要同步.</p>
-<p>鉴于我们的笔记默认直接存放在根目录下, 我们需要一个新的文件夹才能与之隔离开.<br>
-<!-- -->这也有助于配置同步和版本管理</p>
-<p>对于简单的情形, 也可以只用单个文件记录.</p>
-<p>草稿意味着进行时, 此外还有未开始和已完成.<br>
-<!-- -->已完成的需要整理或归档, 未开始的需要纳入任务系统</p>
-<p>如何保持脉络清晰?</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="闪念笔记个人笔记参考笔记">闪念笔记、个人笔记、参考笔记<a href="https://dzl1943.github.io/blog/%E7%AC%94%E8%AE%B0%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84%E6%8E%A2%E7%A9%B6#%E9%97%AA%E5%BF%B5%E7%AC%94%E8%AE%B0%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E5%8F%82%E8%80%83%E7%AC%94%E8%AE%B0" class="hash-link" aria-label="闪念笔记、个人笔记、参考笔记的直接链接" title="闪念笔记、个人笔记、参考笔记的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">闪念笔记: 碎片化的、非正式的内容</li>
-<li class="">个人笔记: 个人原创的、正式的、需要持续维护的内容</li>
-<li class="">参考笔记: 相对客观、稳定的参考性笔记</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="para">PARA<a href="https://dzl1943.github.io/blog/%E7%AC%94%E8%AE%B0%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84%E6%8E%A2%E7%A9%B6#para" class="hash-link" aria-label="PARA的直接链接" title="PARA的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">Projects: 感觉没有设置这一物理文件夹的必要</li>
-<li class="">Areas: 没有设置这一文件夹的必要, 这与我们直接放在根目录的逻辑相违背, 而且普通人能够专注的领域非常有限, 应避免陷入领域划分焦虑</li>
-<li class="">Resources: 类似 References</li>
-<li class="">Archives</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="20250630">20250630<a href="https://dzl1943.github.io/blog/%E7%AC%94%E8%AE%B0%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84%E6%8E%A2%E7%A9%B6#20250630" class="hash-link" aria-label="20250630的直接链接" title="20250630的直接链接" translate="no">​</a></h2>
-<p>笔记组织结构, 从零开始.</p>
-<p>此处笔记是相对严格意义上的, 即不包括日记类等. 也不包括模板类的.</p>
-<ul>
-<li class="">inbox</li>
-<li class="">pages</li>
-<li class="">archives</li>
-</ul>
-<p>在 pages 的基础上进一步区分正式的、非正式的, 主观的、客观的, 知识性的、非知识性的, 原创的、非原创的, 索引的、非索引的.</p>
-<p>比如,
-增加 resources 指剪藏的内容 (不同于 inbox)
-增加 jottings 指非正式的内容, 如随笔
-增加 thoughts 指思想认知</p>
-<p>是否合理、必要?</p>
-<p>还剩什么?</p>
-<ul>
-<li class="">正式的<!-- -->
-<ul>
-<li class="">知识性的</li>
-<li class="">非知识性的</li>
-<li class="">主观的</li>
-<li class="">客观的</li>
-</ul>
-</li>
-<li class="">索引的</li>
-</ul>
-<p>考虑增加 Areas 指客观知识笔记. (pages 可以不用了)</p>
-<p>看似合理, 潜在的弊端是什么?</p>
-<p>还有遗漏吗
-比如写作?</p>
-<hr>
-<p>完整目录结构 (取消上文严格要求)</p>
-<ul>
-<li class="">inbox: 草稿箱</li>
-<li class="">personal: 私人信息, 比如日记等</li>
-<li class="">jottings: (非正式)随笔</li>
-<li class="">pages: 博客 (不含客观知识类), 除专业领域(以及思想认知)外的正式内容</li>
-<li class="">thoughts: 思想认知</li>
-<li class="">writings: (刻意)写作</li>
-<li class="">projects:</li>
-<li class="">areas: 领域知识 (也包括经验性的)</li>
-<li class="">resources: 参考资源</li>
-<li class="">archives: 归档</li>
-<li class="">misc: 辅助文件, 比如模板、附件等</li>
-<li class="">external: 外部文件, 比如符号链接的库外目录</li>
-</ul>
-<hr>
-<p>以 PARA 为核心</p>
-<ul>
-<li class="">Projects</li>
-<li class="">Areas</li>
-<li class="">Resources</li>
-<li class="">Archives</li>
-</ul>
-<p>pages、thoughts 可拆分到领域</p>
-<p>jottings 需要并入 Resources ?</p>
-<p>inbox 和 Projects 有一定重复, 对 Projects 用法存疑</p>
-<p>Projects、Resources 可承载部分跨领域内容?</p>
-<p>这套结构有何潜在弊端?</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
