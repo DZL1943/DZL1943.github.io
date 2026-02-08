@@ -391,7 +391,8 @@ sidebar_position: 1
         - [n8n](https://github.com/n8n-io/n8n)
         - [LangFlow](https://github.com/langflow-ai/langflow)
         - [Flowise](https://github.com/FlowiseAI/Flowise)
-    - [RAG](https://github.com/infiniflow/ragflow) / [MCP](https://github.com/modelcontextprotocol/servers) / [Skill](https://skillsmp.com/)
+    - [MCP](https://github.com/modelcontextprotocol/servers) / [Skill](https://skillsmp.com/)
+    - [RAG](https://github.com/infiniflow/ragflow)
 - VCS
     - [Git](<Dev/Git.md>)
     - GitHub
