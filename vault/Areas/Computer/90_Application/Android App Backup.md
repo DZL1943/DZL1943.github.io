@@ -135,6 +135,6 @@ draft: true
 - lexue.mryyyd
 - org.geogebra.android.calculator.suite
 
-![500](<../../../Attachments/Screenshot_2026-02-01-09-31-53-089_com.miui.home.jpg>)
+![500](<../../../Attachments/Screenshot_2026-02-08-08-54-41-400_com.miui.home.jpg>)
 
 ![500](<../../../Attachments/Screenshot_2026-02-05-16-02-38-474_com.miui.home.jpg>)
