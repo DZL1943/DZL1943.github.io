@@ -363,13 +363,13 @@ sidebar_position: 1
         - [Together AI](https://www.together.ai/)
         - [Fireworks AI](https://fireworks.ai/)
     - Client
-        - GUI
+        - General
             - [Chatbox](https://github.com/chatboxai/chatbox)
             - [NextChat](https://github.com/ChatGPTNextWeb/NextChat)
             - [LobeHub](https://github.com/lobehub/lobehub)
             - [Cherry Studio](https://github.com/CherryHQ/cherry-studio)
             - [AIaW](https://github.com/NitroRCr/AIaW)
-        - CLI
+        - Coding
             - [Claude Code](https://github.com/anthropics/claude-code)
             - [OpenCode](https://github.com/anomalyco/opencode)
             - [Codex CLI](https://github.com/openai/codex)
