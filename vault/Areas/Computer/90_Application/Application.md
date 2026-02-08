@@ -389,10 +389,11 @@ sidebar_position: 1
         - [MetaGPT](https://github.com/geekan/MetaGPT)
         - [Dify](https://github.com/langgenius/dify)
         - [n8n](https://github.com/n8n-io/n8n)
+        - [Coze](https://github.com/coze-dev/coze-studio)
         - [LangFlow](https://github.com/langflow-ai/langflow)
         - [Flowise](https://github.com/FlowiseAI/Flowise)
-    - [MCP](https://github.com/modelcontextprotocol/servers) / [Skill](https://skillsmp.com/)
-    - [RAG](https://github.com/infiniflow/ragflow)
+    - [MCP](https://github.com/modelcontextprotocol/servers) / [Skill](https://skillsmp.com/) / [RAG](https://github.com/infiniflow/ragflow)
+    - Engineering
 - VCS
     - [Git](<Dev/Git.md>)
     - GitHub
