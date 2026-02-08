@@ -356,12 +356,20 @@ sidebar_position: 1
         - Cutter
 - AI
     - [Model](https://huggingface.co) & Provider https://llm-stats.com/
-    - Client/Agent
+        - Ollama
+        - OpenRouter
+        - SiliconFlow
+    - Client
+        - Chatbox
+        - LobeHub
         - Claude Code
         - OpenCode
         - Codex
         - Copilot
         - Gemini
+    - Agent
+        - LangChain
+        - Dify
     - RAG/MCP/[Skill](https://skillsmp.com/)
 - VCS
     - [Git](<Dev/Git.md>)
