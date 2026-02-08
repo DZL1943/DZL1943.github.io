@@ -357,20 +357,38 @@ sidebar_position: 1
 - AI
     - [Model](https://huggingface.co) & Provider https://llm-stats.com/
         - Ollama
-        - OpenRouter
-        - SiliconFlow
+        - [SiliconFlow](https://www.siliconflow.com/)
+        - [OpenRouter](https://openrouter.ai/)
+        - [Together AI](https://www.together.ai/)
+        - [Fireworks AI](https://fireworks.ai/)
     - Client
-        - Chatbox
-        - LobeHub
-        - Claude Code
-        - OpenCode
-        - Codex
-        - Copilot
-        - Gemini
+        - GUI
+            - [Chatbox](https://github.com/chatboxai/chatbox)
+            - [NextChat](https://github.com/ChatGPTNextWeb/NextChat)
+            - [LobeHub](https://github.com/lobehub/lobehub)
+            - [Cherry Studio](https://github.com/CherryHQ/cherry-studio)
+            - [AIaW](https://github.com/NitroRCr/AIaW)
+        - CLI
+            - [Copilot](https://github.com/features/copilot/)
+            - [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+            - [Claude Code](https://github.com/anthropics/claude-code)
+            - [OpenCode](https://github.com/anomalyco/opencode)
+            - [Codex CLI](https://github.com/openai/codex)
+            - [Aider](https://github.com/Aider-AI/aider)
+            - [Continue](https://github.com/continuedev/continue)
+            - [Cline](https://github.com/cline/cline)
     - Agent
-        - LangChain
-        - Dify
-    - RAG/MCP/[Skill](https://skillsmp.com/)
+        - [LangChain](https://github.com/langchain-ai/langchain)
+        - [LlamaIndex](https://github.com/run-llama/llama_index)
+        - [Smolagents](https://github.com/huggingface/smolagents)
+        - [AutoGen](https://github.com/microsoft/autogen)
+        - [CrewAI](https://github.com/crewAIInc/crewAI)
+        - [MetaGPT](https://github.com/geekan/MetaGPT)
+        - [Dify](https://github.com/langgenius/dify)
+        - [n8n](https://github.com/n8n-io/n8n)
+        - [LangFlow](https://github.com/langflow-ai/langflow)
+        - [Flowise](https://github.com/FlowiseAI/Flowise)
+    - [RAG](https://github.com/infiniflow/ragflow) / [MCP](https://github.com/modelcontextprotocol/servers) / [Skill](https://skillsmp.com/)
 - VCS
     - [Git](<Dev/Git.md>)
     - GitHub
