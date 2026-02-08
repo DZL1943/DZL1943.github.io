@@ -142,15 +142,17 @@ sidebar_position: 1
     - Edge
     - Safari
 - AI https://llm-stats.com/, https://huggingface.co
+    - [Claude](https://claude.ai)
     - [ChatGPT](https://chatgpt.com)
     - [Gemini](https://gemini.google.com)
     - [Grok](https://grok.x.ai)
-    - [Claude](https://claude.ai)
+    - [Perplexity](https://www.perplexity.ai/)
     - [Qwen](https://www.qianwen.com)
     - [DeepSeek](https://chat.deepseek.com)
     - [Doubao](https://www.doubao.com)
     - [Kimi](https://www.kimi.com)
     - [GLM](https://chatglm.cn)
+    - [MiniMax](https://www.minimax.io/)
 
 ## 娱乐 Entertainment
 
