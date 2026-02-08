@@ -141,7 +141,7 @@ sidebar_position: 1
     - Chrome
     - Edge
     - Safari
-- AI https://llm-stats.com/, https://huggingface.co
+- AI
     - [Claude](https://claude.ai)
     - [ChatGPT](https://chatgpt.com)
     - [Gemini](https://gemini.google.com)
@@ -354,12 +354,15 @@ sidebar_position: 1
         - Ghidra
         - Radare2
         - Cutter
-- AI [Agent Skills Marketplace](https://skillsmp.com/)
-    - Copilot
-    - Gemini
-    - Claude Code
-    - OpenCode
-    - Codex
+- AI
+    - [Model](https://huggingface.co) & Provider https://llm-stats.com/
+    - Client/Agent
+        - Claude Code
+        - OpenCode
+        - Codex
+        - Copilot
+        - Gemini
+    - RAG/MCP/[Skill](https://skillsmp.com/)
 - VCS
     - [Git](<Dev/Git.md>)
     - GitHub
