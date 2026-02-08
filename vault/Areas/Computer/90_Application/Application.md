@@ -356,7 +356,8 @@ sidebar_position: 1
         - Cutter
 - AI
     - [Model](https://huggingface.co) & Provider https://llm-stats.com/
-        - Ollama
+        - [Ollama](https://github.com/ollama/ollama)
+        - [LM Studio](https://lmstudio.ai/)
         - [SiliconFlow](https://www.siliconflow.com/)
         - [OpenRouter](https://openrouter.ai/)
         - [Together AI](https://www.together.ai/)
@@ -369,15 +370,17 @@ sidebar_position: 1
             - [Cherry Studio](https://github.com/CherryHQ/cherry-studio)
             - [AIaW](https://github.com/NitroRCr/AIaW)
         - CLI
-            - [Copilot](https://github.com/features/copilot/)
-            - [Gemini CLI](https://github.com/google-gemini/gemini-cli)
             - [Claude Code](https://github.com/anthropics/claude-code)
             - [OpenCode](https://github.com/anomalyco/opencode)
             - [Codex CLI](https://github.com/openai/codex)
+            - [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+            - [Copilot](https://github.com/features/copilot/)
             - [Aider](https://github.com/Aider-AI/aider)
             - [Continue](https://github.com/continuedev/continue)
             - [Cline](https://github.com/cline/cline)
-    - Agent
+            - [Tabby](https://github.com/TabbyML/tabby)
+            - [Windsurf|Codeium](https://windsurf.com/)
+    - Agent/Workflow
         - [LangChain](https://github.com/langchain-ai/langchain)
         - [LlamaIndex](https://github.com/run-llama/llama_index)
         - [Smolagents](https://github.com/huggingface/smolagents)
