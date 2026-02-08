@@ -354,15 +354,17 @@ sidebar_position: 1
         - Ghidra
         - Radare2
         - Cutter
-- AI
+ - AI
     - [Model](https://huggingface.co) & Provider https://llm-stats.com/
-        - [Ollama](https://github.com/ollama/ollama)
-        - [LM Studio](https://lmstudio.ai/)
-        - [SiliconFlow](https://www.siliconflow.com/)
-        - [OpenRouter](https://openrouter.ai/)
-        - [Together AI](https://www.together.ai/)
-        - [Fireworks AI](https://fireworks.ai/)
-    - Client
+        - Local
+            - [Ollama](https://github.com/ollama/ollama)
+            - [LM Studio](https://lmstudio.ai/)
+        - Cloud
+            - [SiliconFlow](https://www.siliconflow.com/)
+            - [OpenRouter](https://openrouter.ai/)
+            - [Together AI](https://www.together.ai/)
+            - [Fireworks AI](https://fireworks.ai/)
+    - Application & Agent
         - General
             - [Chatbox](https://github.com/chatboxai/chatbox)
             - [NextChat](https://github.com/ChatGPTNextWeb/NextChat)
@@ -374,26 +376,46 @@ sidebar_position: 1
             - [OpenCode](https://github.com/anomalyco/opencode)
             - [Codex CLI](https://github.com/openai/codex)
             - [Gemini CLI](https://github.com/google-gemini/gemini-cli)
-            - [Copilot](https://github.com/features/copilot/)
             - [Aider](https://github.com/Aider-AI/aider)
+            - [Copilot](https://github.com/features/copilot/)
             - [Continue](https://github.com/continuedev/continue)
             - [Cline](https://github.com/cline/cline)
             - [Tabby](https://github.com/TabbyML/tabby)
             - [Windsurf|Codeium](https://windsurf.com/)
-    - Agent/Workflow
-        - [LangChain](https://github.com/langchain-ai/langchain)
-        - [LlamaIndex](https://github.com/run-llama/llama_index)
-        - [Smolagents](https://github.com/huggingface/smolagents)
-        - [AutoGen](https://github.com/microsoft/autogen)
-        - [CrewAI](https://github.com/crewAIInc/crewAI)
-        - [MetaGPT](https://github.com/geekan/MetaGPT)
-        - [Dify](https://github.com/langgenius/dify)
-        - [n8n](https://github.com/n8n-io/n8n)
-        - [Coze](https://github.com/coze-dev/coze-studio)
-        - [LangFlow](https://github.com/langflow-ai/langflow)
-        - [Flowise](https://github.com/FlowiseAI/Flowise)
-    - [MCP](https://github.com/modelcontextprotocol/servers) / [Skill](https://skillsmp.com/) / [RAG](https://github.com/infiniflow/ragflow)
+        - RAG
+            - [RAGFlow](https://github.com/infiniflow/ragflow)
+            - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
+            - [FastGPT](https://github.com/labring/FastGPT)
+    - Framework & Workflow
+        - Framework
+            - [LangChain](https://github.com/langchain-ai/langchain)
+            - [LlamaIndex](https://github.com/run-llama/llama_index)
+            - [Smolagents](https://github.com/huggingface/smolagents)
+            - [AutoGen](https://github.com/microsoft/autogen)
+            - [CrewAI](https://github.com/crewAIInc/crewAI)
+            - [MetaGPT](https://github.com/geekan/MetaGPT)
+        - Workflow
+            - [Dify](https://github.com/langgenius/dify)
+            - [n8n](https://github.com/n8n-io/n8n)
+            - [Coze](https://github.com/coze-dev/coze-studio)
+            - [LangFlow](https://github.com/langflow-ai/langflow)
+            - [Flowise](https://github.com/FlowiseAI/Flowise)
+    - Protocol & Capability
+        - [MCP](https://github.com/modelcontextprotocol/servers)
+        - [Skill](https://skillsmp.com/)
     - Engineering
+        - Inference Engine
+            - [vLLM](https://github.com/vllm-project/vllm)
+            - [llama.cpp](https://github.com/ggerganov/llama.cpp)
+            - [TGI](https://github.com/huggingface/text-generation-inference)
+        - Vector DB
+            - [Chroma](https://github.com/chroma-core/chroma)
+            - [Qdrant](https://github.com/qdrant/qdrant)
+            - [Milvus](https://github.com/milvus-io/milvus)
+        - Observability
+            - [Langfuse](https://github.com/langfuse/langfuse)
+        - Data Processing
+            - [Unstructured](https://github.com/Unstructured-IO/unstructured)
 - VCS
     - [Git](<Dev/Git.md>)
     - GitHub
