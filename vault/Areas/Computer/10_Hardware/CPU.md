@@ -32,7 +32,7 @@ modified: 2026-01-11T20:26
 
 ## Qualcomm
 
-- Snapdragon
+- Snapdragon %% `Elite > 标准 > s` %%
     - 8E5
     - 8E
     - 8-5
