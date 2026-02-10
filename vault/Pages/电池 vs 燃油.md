@@ -1,6 +1,8 @@
 ---
 created: 2026-02-08T16:19
 modified: 2026-02-08T16:19
+tags:
+  - AI
 ---
 
 <!-- truncate -->
