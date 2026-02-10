@@ -431,9 +431,10 @@ sidebar_position: 1
     - Caddy
 - HTTP
     - WireShark
-    - HTTP Toolkit
     - mitmproxy
     - Whistle
+    - Proxyman
+    - HTTP Toolkit
 
 ---
 
