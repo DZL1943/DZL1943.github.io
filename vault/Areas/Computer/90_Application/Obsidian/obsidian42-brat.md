@@ -12,6 +12,7 @@ tags:
     "3C0D/obsidian-quick-plugin-switcher",
     "aidan-gibson/obsidian-opener",
     "AlbusGuo/albus-imagine",
+    "Ariestar/obsidian-dragger",
     "Fevol/obsidian-criticmarkup",
     "Kobuster/obsidian-preview-modes",
     "l1xnan/obsidian-better-export-pdf",
