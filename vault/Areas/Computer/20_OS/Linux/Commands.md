@@ -41,7 +41,7 @@
 
 ## File
 
-- pwd, dirname, basename
+- pwd, dirname, basename, realpath
 - cd, pushd, popd, zoxide
 - mkdir
 - ls, lsd, eza
