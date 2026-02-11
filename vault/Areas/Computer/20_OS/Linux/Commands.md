@@ -70,6 +70,7 @@
 - cut, choose
 - paste
 - tr
+- col
 - wc
 - sort
 - uniq
@@ -79,7 +80,6 @@
 - tee
 - diff
 - patch
-- jq
 
 ## Network
 
