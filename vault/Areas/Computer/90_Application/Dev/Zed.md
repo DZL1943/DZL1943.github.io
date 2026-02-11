@@ -15,10 +15,14 @@ modified: 2025-10-21T09:03
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "colorize_brackets": true,
+  "prettier": {
+    "allowed": true,
+  },
   "scrollbar": {
     "axes": {
-      "horizontal": false
-    }
+      "horizontal": false,
+    },
   },
   "status_bar": {
     "active_language_button": true,
