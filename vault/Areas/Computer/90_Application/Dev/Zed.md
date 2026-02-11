@@ -29,6 +29,7 @@ modified: 2025-10-21T09:03
   "gutter": {
     "min_line_number_digits": 2
   },
+  "icon_theme": "Material Icon Theme",
   "languages": {
     "JavaScript": {
       "tab_size": 4
