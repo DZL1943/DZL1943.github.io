@@ -12,75 +12,81 @@ modified: 2025-10-21T09:03
 // documentation: https://zed.dev/docs/configuring-zed
 //
 // To see all of Zed's default settings without changing your
-// custom settings, run the `zed: Open Default Settings` command
-// from the command palette
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "status_bar": {
+    "active_language_button": true,
+    "cursor_position_button": false,
+  },
+  "debugger": {
+    "button": false,
+  },
+  "diagnostics": {
+    "button": false,
+  },
+  "search": {
+    "button": false,
+  },
+  "disable_ai": true,
+  "terminal": {
+    "button": false,
+    "copy_on_select": true,
+    "option_as_meta": true,
+  },
+  "notification_panel": {
+    "button": false,
+  },
+  "agent": {
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "project_panel": {
+    "auto_open": {
+      "on_drop": false,
+      "on_paste": false,
+    },
+    "hide_root": true,
+    "auto_reveal_entries": false,
+  },
+  "title_bar": {
+    "show_sign_in": false,
+  },
+  "use_on_type_format": false,
+  "remove_trailing_whitespace_on_save": false,
+  "format_on_save": "off",
+  "vim": {
+    "use_smartcase_find": true,
+    "toggle_relative_line_numbers": true,
+  },
+  "toolbar": {
+    "agent_review": true,
+    "selections_menu": true,
+    "quick_actions": false,
+    "breadcrumbs": false,
+  },
+  "gutter": {
+    "min_line_number_digits": 2,
+  },
+  "relative_line_numbers": "disabled",
+  "which_key": {
+    "enabled": true,
+  },
+  "autosave": "on_window_change",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "buffer_font_size": 15.0,
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "One Dark"
+    "dark": "One Dark",
   },
-  "telemetry": {
-    // Send debug info like crash reports.
-    "diagnostics": false,
-    // Send anonymized usage data like what languages you're using Zed with.
-    "metrics": false
-  },
-  "features": {
-    // Which edit prediction provider to use.
-    "edit_prediction_provider": "none"
-  },
-
-  "on_last_window_closed": "quit_app",
-
-  "project_panel": { "button": false },
-  "outline_panel": { "button": false },
-  "search": { "button": false },
-  "git_panel": { "button": false },
-  "agent": { "button": false },
-  "collaboration_panel": { "button": false },
-  "notification_panel": { "button": false },
-  "debugger": { "button": false },
-  "diagnostics": { "button": false },
-  "terminal": { "button": false },
-  "global_lsp_settings": { "button": false },
-
-  "status_bar": { "experimental.show": false},
-
-  "toolbar": {
-    "breadcrumbs": false, // Whether to show breadcrumbs.
-    "quick_actions": false, // Whether to show quick action buttons.
-    "selections_menu": false, // Whether to show the Selections menu
-    "agent_review": false, // Whether to show agent review buttons
-    "code_actions": false // Whether to show code action buttons
-  },
-
-  "title_bar": {
-    // Whether to show user picture in the titlebar.
-    "show_user_picture": false,
-    // Whether to show the sign in button in the titlebar.
-    "show_sign_in": false
-  },
-
-  "tab_bar": {
-    "show": true, // Show/hide the tab bar
-    "show_nav_history_buttons": false, // Show/hide history buttons on tab bar
-    "show_tab_bar_buttons": false // Show hide buttons (new, split, zoom)
-  },
-
-  "gutter": {
-    // Whether to show line numbers in the gutter.
-    "line_numbers": true,
-    // Whether to show runnables buttons in the gutter.
-    "runnables": true,
-    // Whether to show breakpoints in the gutter.
-    "breakpoints": true,
-    // Whether to show fold buttons in the gutter.
-    "folds": true,
-    // Minimum number of characters to reserve space for in the gutter.
-    "min_line_number_digits": 2
-  }
 }
+
 ```
