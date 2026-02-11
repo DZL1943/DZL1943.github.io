@@ -15,6 +15,11 @@ modified: 2025-10-21T09:03
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "scrollbar": {
+    "axes": {
+      "horizontal": false
+    }
+  },
   "status_bar": {
     "active_language_button": true,
     "cursor_position_button": false,
@@ -83,9 +88,9 @@ modified: 2025-10-21T09:03
   },
   "buffer_font_size": 15.0,
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
-    "dark": "One Dark",
+    "dark": "Dracula",
   },
 }
 
