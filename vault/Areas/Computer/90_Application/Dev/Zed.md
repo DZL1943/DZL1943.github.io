@@ -109,6 +109,8 @@ modified: 2025-10-21T09:03
 - Marksman
 - Markdownlint
 
+> [!tip] 貌似只有安装/卸载, 不支持状态启停
+
 ## Tips
 
 外观层面
