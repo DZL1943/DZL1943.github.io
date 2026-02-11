@@ -3,7 +3,7 @@ created: 2025-10-21T09:03
 modified: 2025-10-21T09:03
 ---
 
-## 配置
+## Settings
 
 ```json
 {
@@ -44,6 +44,7 @@ modified: 2025-10-21T09:03
   "notification_panel": {
     "button": false
   },
+  "on_last_window_closed": "quit_app",
   "project_panel": {
     "auto_open": {
       "on_drop": false,
@@ -97,5 +98,22 @@ modified: 2025-10-21T09:03
     "enabled": true
   }
 }
-
 ```
+
+## Extensions
+
+- HTML
+- Material Icon Theme
+- Dracula
+- Markdown Oxide
+- Markdownlint
+
+## Tips
+
+外观层面
+- title_bar: 无法取消或隐藏
+- status_bar: 无法自动隐藏、调整按钮顺序
+
+默认 indent 貌似没有生效, 建议明确写入配置.
+
+未保存的文件没有 lsp 支持.
