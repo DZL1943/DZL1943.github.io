@@ -106,6 +106,7 @@ modified: 2025-10-21T09:03
 - Material Icon Theme
 - Dracula
 - Markdown Oxide
+- Marksman
 - Markdownlint
 
 ## Tips
