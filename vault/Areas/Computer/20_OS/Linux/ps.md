@@ -2,7 +2,9 @@
 title: ps
 created: 2026-02-11T20:17
 modified: 2026-02-11T20:29
-tags: [linker-exclude]
+tags:
+  - linker-exclude
+  - AI
 ---
 
 ## 文档说明
