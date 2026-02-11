@@ -9,18 +9,17 @@ sidebar_position: 1
 ## 系统 System
 
 - 输入法 IME
-    - Rime
-    - Fcitx
-    - [Input Source Pro](https://inputsource.pro/)
+    - Rime / Fcitx
+    - [Input Source Pro](https://inputsource.pro/) / KeyboardHolder
 - 剪切板 Clipboard
     - Maccy
 - 触控板 Trackpad
     - [BetterAndBetter](https://www.better365.cn/bab2.html)
 - 鼠标 Mouse
-    - MacMouseFix
+    - MacMouseFix / Mos
     - [xGestures](https://briankendall.net/xGestures/)
 - 键盘 Keyboard
-    - Karabiner
+    - [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements)
     - KeyCastr
     - KeyCluCask
 - 快捷启动 Quickstart
@@ -59,12 +58,16 @@ sidebar_position: 1
     - Keka
 - 截屏 Screenshot
     - PixPin
-    - Snipaste
     - [Shottr](https://shottr.cc)
+    - Snipaste
 - 录屏 Screen Recorder
     - OBS
 - 播放器 Video Player
     - IINA
+- 歌词
+    - LyricsX
+- 翻译
+    - Easydict
 - 下载器 Downloader
     - Free Download Manager
     - Transmission
