@@ -95,6 +95,7 @@ sidebar_position: 1
     - SwitchHosts
 - 远程桌面 Remote Desktop
     - RustDesk
+    - Parsec
     - Scrcpy
 
 ## 效率 Productivity
