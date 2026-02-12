@@ -4,10 +4,41 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Sun, 08 Feb 2026 16:19:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Feb 2026 15:19:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[小红书]]></title>
+            <link>https://dzl1943.github.io/blog/202602121519</link>
+            <guid>https://dzl1943.github.io/blog/202602121519</guid>
+            <pubDate>Thu, 12 Feb 2026 15:19:00 GMT</pubDate>
+            <description><![CDATA[小红书这个app是干啥的? 相比抖音、微博、知乎有何不同?]]></description>
+            <content:encoded><![CDATA[<p>小红书这个app是干啥的? 相比抖音、微博、知乎有何不同?</p>
+<p>创立时间: 2013 年</p>
+<p>slogan: 你的生活指南</p>
+<p>里面的内容叫"笔记".</p>
+<p>比如一些"种草"文.</p>
+<p>所以,</p>
+<ul>
+<li class="">相比抖音, 小红书的定位更加"有用", 更不那么娱乐.</li>
+<li class="">相比微博、朋友圈, 更加纯粹, 更不那么 social.</li>
+<li class="">相比知乎, 更加个人、生活化.</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AI Concepts]]></title>
+            <link>https://dzl1943.github.io/blog/202602121518</link>
+            <guid>https://dzl1943.github.io/blog/202602121518</guid>
+            <pubDate>Thu, 12 Feb 2026 15:18:00 GMT</pubDate>
+            <description><![CDATA[- LLM: 负责处理信息和下达操作命令]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">LLM: 负责处理信息和下达操作命令</li>
+<li class="">Agent: 负责执行操作并上报结果, 本质是提示词工程</li>
+<li class="">MCP: 扩展 Agent 能做的操作, 本质是一个接口协议</li>
+<li class="">Skill: 本质是一堆文档</li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[电池 vs 燃油]]></title>
             <link>https://dzl1943.github.io/blog/电池 vs 燃油</link>
@@ -521,33 +552,6 @@
 </ol>
 <p><a href="https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things" target="_blank" rel="noopener noreferrer" class="">Git - Undoing Things</a></p>]]></content:encoded>
             <category>Git</category>
-        </item>
-        <item>
-            <title><![CDATA[Obsidian 用户分级]]></title>
-            <link>https://dzl1943.github.io/blog/202511160855</link>
-            <guid>https://dzl1943.github.io/blog/202511160855</guid>
-            <pubDate>Sun, 16 Nov 2025 08:55:00 GMT</pubDate>
-            <description><![CDATA[1. 还没有记笔记的意识习惯]]></description>
-            <content:encoded><![CDATA[<ol>
-<li class="">还没有记笔记的意识习惯</li>
-<li class="">还不了解 markdown, 还在纠结哪个笔记软件更好</li>
-<li class="">还在熟悉 obsidian 主题、插件及周边工具(比如同步)</li>
-<li class="">还在纠结组织结构、笔记方法、工作流</li>
-<li class="">还在 DIY 主题/样式、插件/脚本, 活跃在各大社区、交流群</li>
-</ol>]]></content:encoded>
-            <category>Obsidian</category>
-        </item>
-        <item>
-            <title><![CDATA[笔记的目的]]></title>
-            <link>https://dzl1943.github.io/blog/笔记的目的</link>
-            <guid>https://dzl1943.github.io/blog/笔记的目的</guid>
-            <pubDate>Wed, 05 Nov 2025 16:15:00 GMT</pubDate>
-            <description><![CDATA[1. 日记和 GTD | 问题、事件]]></description>
-            <content:encoded><![CDATA[<ol>
-<li class="">日记和 GTD | 问题、事件</li>
-<li class="">思考和写作 | 主题、概念</li>
-<li class="">学习和参考 | 领域、对象</li>
-</ol>]]></content:encoded>
         </item>
     </channel>
 </rss>
