@@ -328,6 +328,7 @@ sidebar_position: 1
     - Emacs
         - Spacemacs
     - [VSCode](<Dev/VSCode.md>)
+    - Zed
 - IDE
     - JetBrains 系列
         - IntelliJ IDEA
