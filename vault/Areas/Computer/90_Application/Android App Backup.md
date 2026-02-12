@@ -15,7 +15,6 @@ draft: true
 - cn.wps.moffice_eng
 - cn.wps.moffice_eng.xiaomi.lite
 - com.AnatomyLearning.Anatomy3DViewer3
-- com.antutu.ABenchMark
 - com.MobileTicket
 - com.One.WoodenLetter
 - com.Yeyunjianshi.tstd2
@@ -26,15 +25,14 @@ draft: true
 - com.aloggers.atimeloggerapp
 - com.android.soundrecorder
 - com.anjuke.android.app
+- com.antutu.ABenchMark
 - com.arlosoft.macrodroid
-- com.aurora.store
 - com.autonavi.minimap
 - com.carriez.flutter_hbb
 - com.cctv.yangshipin.app.androidp
 - com.chucklefish.stardewvalley
 - com.cnvcs.xiangqi
 - com.cubic.autohome
-- com.deepseek.chat
 - com.douban.frodo
 - com.duokan.phone.remotecontroller
 - com.duolingo
@@ -75,6 +73,7 @@ draft: true
 - com.miui.weather2
 - com.mobifusion.android.ldoce5
 - com.mojang.minecraftpe
+- com.moonshot.kimichat
 - com.msd.consumerChinese
 - com.mutangtech.qianji
 - com.netease.mail
@@ -128,14 +127,12 @@ draft: true
 - org.fcitx.fcitx5.android
 - org.fcitx.fcitx5.android.plugin.rime
 - org.geogebra.android.calculator.suite
-- org.kde.kdeconnect_tp
 - org.localsend.localsend_app
 - org.telegram.messenger
 - pro.easybox.open
 - prox.lab.calclock
-- ru.maximoff.apktool
 - tv.danmaku.bili
 
-![500](<../../../Attachments/Screenshot_2026-02-08-08-54-41-400_com.miui.home.jpg>)
-
 ![500](<../../../Attachments/Screenshot_2026-02-05-16-02-38-474_com.miui.home.jpg>)
+
+![500](<../../../Attachments/Screenshot_2026-02-12-08-49-54-702_com.miui.home.jpg>)
