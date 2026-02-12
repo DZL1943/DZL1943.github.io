@@ -330,6 +330,8 @@ sidebar_position: 1
     - [VSCode](<Dev/VSCode.md>)
     - Zed
 - IDE
+    - Visual Studio
+    - Xcode
     - JetBrains 系列
         - IntelliJ IDEA
         - PyCharm 永久免费
@@ -343,8 +345,6 @@ sidebar_position: 1
         - DataGrip 非商业用途免费
         - DataSpell
         - ReSharper
-    - Visual Studio
-    - Xcode
     - 数据库类
         - Navicat
         - Beekeeper Studio
