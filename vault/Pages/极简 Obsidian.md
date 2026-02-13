@@ -43,12 +43,8 @@ u,ins {
 }
 
 /* list */
-ul>li.task-list-item[data-task="x"],
-ul>li.task-list-item[data-task="X"] {
-  text-decoration: none;
-}
-.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"],
-.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="X"] {
+ul > li.task-list-item[data-task="x" i],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x" i] {
   text-decoration: none;
 }
 
