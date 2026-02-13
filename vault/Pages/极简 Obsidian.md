@@ -16,7 +16,9 @@ tags: [Obsidian]
 
 ## 样式 Snippets
 
-```css
+> [!tip] 默认主题足矣
+
+```css fold
 body {
   --h1-color: var(--color-red);
   --h2-color: var(--color-orange);
