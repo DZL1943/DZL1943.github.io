@@ -453,7 +453,9 @@ del {
   color: var(--text-faint);
 }
 u,ins {
-  text-decoration-color: var(--color-green);
+  text-decoration: none;
+  border-bottom: 3px solid var(--color-accent);
+  text-decoration-color: var(--color-accent);
   text-decoration-thickness: 3px;
 }
 
