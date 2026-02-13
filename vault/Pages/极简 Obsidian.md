@@ -113,6 +113,8 @@ ul>li.task-list-item[data-task="X"] {
 
 ### 同步、备份、加密
 
+> [!tldr] Syncthing + Git + Kopia
+
 同步
 - 本地
 	- [Syncthing](https://syncthing.net/)
