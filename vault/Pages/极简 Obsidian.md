@@ -60,7 +60,6 @@ ul>li.task-list-item[data-task="X"] {
   &:nth-child(odd) {
     background-color: var(--background-primary);
   }
-
   &:nth-child(even) {
     background-color: var(--background-secondary);
   }
