@@ -105,6 +105,10 @@ ul>li.task-list-item[data-task="X"] {
 	- Templates/ | 模板
 	- Scripts/ | 脚本
 
+> [!tip] 
+> 可将 .obsidian 集中存放到公共目录, 通过软链接的方式使用, 这样可以减少配置冗余, 同时分离内容与配置, 使提交历史纯净.  
+> Templates、Scripts 等公共内容也可采用类似的方式管理.
+
 ## 实践 Tips
 
 ### 同步、备份、加密
