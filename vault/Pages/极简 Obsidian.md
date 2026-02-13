@@ -75,17 +75,19 @@ ul>li.task-list-item[data-task="X"] {
 
 ## 插件 Plugins
 
-%% mini %%
-- better-markdown-links
-- cmdr
-- easy-typing-obsidian
-- notebook-navigator
-- obsidian-heading-shifter
-- obsidian-linter
-- obsidian-outliner
-- quickadd
-- various-complements
-- virtual-linker
+> [!note] 最小化插件推荐
+
+%%[lt]%%
+- better-markdown-links | 相对路径修复
+- cmdr | 自定义界面按钮
+- easy-typing-obsidian | 编辑增强
+- notebook-navigator | 文件列表终极替代
+- obsidian-heading-shifter | 快速切换标题层级
+- obsidian-linter | 格式化
+- obsidian-outliner | 列表大纲增强
+- quickadd | "插件终结者"
+- various-complements | 补全
+- virtual-linker | 虚拟链接
 
 ## 分类 Structure
 
