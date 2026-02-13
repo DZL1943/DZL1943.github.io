@@ -1,24 +1,20 @@
 ---
+title: 极简 Obsidian
 created: 2026-01-18T18:46
-modified: 2026-01-18T20:03
-tags:
-  - Obsidian
+modified: 2026-02-13T19:46
+tags: [Obsidian]
 ---
 
 <!-- truncate -->
 
-## 概述
+# 极简 Obsidian
 
-- what
-- why
-- how
-
-## 设置
+## 设置 Settings
 
 - **内部链接类型**: **相对路径**
 - **使用 Wiki 链接**: **否**
 
-## 样式
+## 样式 Snippets
 
 ```css
 body {
@@ -65,76 +61,83 @@ ul>li.task-list-item[data-task="X"] {
   }
 }
 
-.nav-folder-title-content,.nav-file-title-content {
-  font-size: 15px;
+/* code */
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
+.markdown-rendered :not(pre) > code {
+  color: var(--color-pink) !important;
 }
-
-.workspace-tab-header:has(.mod-pinned) {
-  /* shrink if pinned */
-  max-width: 60px !important;
-}
-
-.view-header:not(:hover) {
-  opacity: 0;
-}
-
-.status-bar:not(:hover) {
-  opacity: 0;
-  min-height: 6px;
-  height: 0;
-  padding: 0;
-  margin: 0;
-  border: 0;
+.markdown-rendered pre:not([class*="language-"]) code {
+  color: var(--color-pink) !important;
 }
 ```
 
-## 插件
+## 插件 Plugins
 
-mini
-- [x] better-markdown-links
-- [ ] cmdr
-- [x] easy-typing-obsidian
-- [ ] notebook-navigator
-- [x] obsidian-heading-shifter
-- [x] obsidian-linter
-- [x] obsidian-outliner
-- [ ] quickadd
-- [ ] various-complements
-- [ ] virtual-linker
+%% mini %%
+- better-markdown-links
+- cmdr
+- easy-typing-obsidian
+- notebook-navigator
+- obsidian-heading-shifter
+- obsidian-linter
+- obsidian-outliner
+- quickadd
+- various-complements
+- virtual-linker
 
-mobile
-- [ ] any-block-min
-- [ ] dataview
-- [ ] note-toolbar
-- [ ] notebook-navigator
-- [ ] obsidian-advanced-uri
-- [ ] obsidian-outliner
-- [ ] omnisearch
-- [ ] virtual-linker
+## 分类 Structure
 
-## 结构
+%%[dir]%%
+- Inbox/ | 收集箱
+- Journals/ | 日志
+- Pages/ | 博客
+- Thoughts/ | 思想
+- Projects/ | 项目
+- Areas/ | 知识
+- Resources/ | 资料
+- Archives/ | 归档
+- Attachments/ | 附件
+- Misc/ | 其他辅助文件
+	- Templates/ | 模板
+	- Scripts/ | 脚本
 
-[Obsidian 共享配置](<Obsidian 共享配置.md>)
+## 实践 Tips
 
-## 分类
+### 同步、备份、加密
 
-[笔记分类](<笔记分类-2026.md>)
+同步
+- 本地
+	- [Syncthing](https://syncthing.net/)
+	- FolderSync
+- 云
+	- [Obsidian 官方同步](https://obsidian.md/sync)
+	- iCloud
+	- OneDrive
+	- [Remotely Save 插件](https://obsidian.md/plugins?id=remotely-save)
+	- [LiveSync 插件](https://obsidian.md/plugins?id=obsidian-livesync)
 
-## 其他
+备份
+- 本地备份
+	- [Git](https://git-scm.com)
+	- [Kopia](https://kopia.io/)
+	- cp `mkdir -p ~/bak/Obsidian/$(date +%F) && cp -rfP ~/Documents/Obsidian/. $_`
+	- rsync `{shell} rsync -av --delete --exclude={'.git/','.trash/'} ~/Documents/Obsidian/ ~/bak/Obsidian/$(date +%F)/`
+	- 压缩 `cd ~/bak/Obsidian/$(date +%F) && zip -r ../$(date +%Y%m%d%H%M%S).zip . -x "*.git*" "*.trash*" -e`
+	- 解压缩 `unzip *.zip -d Obsidian`
+- 云备份
 
-- 同步备份: syncthing + git + kopia
-    - 一键备份 `mkdir -p ~/bak/Obsidian/$(date +%F) && cp -rfP ~/Documents/Obsidian/. $_`
-    - 压缩 `cd ~/bak/Obsidian/$(date +%F) && zip -r ../$(date +%Y%m%d%H%M%S).zip . -x "*.git*" "*.trash*" -e`
-    - 查看压缩 `unzip -l *.zip`
-    - 解压缩 `unzip *.zip -d Obsidian`
-- 导入导出
-    - md
-    - pdf
-    - word
-    - html
-- 草稿速记
-- 附件
-- 剪藏
-- 日记
-- GTD
-- AI
+加密
+
+### 导入、导出、发布、剪藏
+
+### 草稿速记
+
+### 日记待办
+
+### AI
+
+## 参考 References
+
+- [Obsidian Help](https://help.obsidian.md/)
+- [Obsidian Developer Docs](https://docs.obsidian.md/)
+- [obsidian-skills](https://github.com/kepano/obsidian-skills)
