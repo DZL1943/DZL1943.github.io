@@ -129,7 +129,7 @@ ul > li.task-list-item[data-task="x" i],
 - 本地
     - [Git](https://git-scm.com)
     - [Kopia](https://kopia.io/)
-    - cp `mkdir -p ~/bak/Obsidian/$(date +%F) && cp -rfP ~/Documents/Obsidian/. $_`
+    - cp `cp -rP ~/Documents/Obsidian/. ~/bak/Obsidian/$(date +%F)/`
     - rsync `rsync -av --delete --exclude={'.git/','.trash/'} ~/Documents/Obsidian/ ~/bak/Obsidian/$(date +%F)/`
     - 压缩 `cd ~/bak/Obsidian/$(date +%F) && zip -r ../$(date +%Y%m%d%H%M%S).zip . -x "*.git*" "*.trash*" -e`
     - 解压缩 `unzip *.zip -d Obsidian`
