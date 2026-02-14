@@ -160,6 +160,7 @@ ul > li.task-list-item[data-task="x" i],
 发布
 - [Share to NotionNext](https://github.com/jxpeng98/obsidian-to-NotionNext) 插件
 - [note-to-mp](https://github.com/sunbooshi/note-to-mp) 插件
+- [WeChat Markdown Editor](https://github.com/doocs/md)
 - [Enveloppe](https://github.com/Enveloppe/obsidian-enveloppe) 插件
 - [Digital Garden](https://dg-docs.ole.dev/) 插件
 - [Quartz](https://github.com/jackyzha0/quartz)
