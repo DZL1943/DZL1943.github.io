@@ -76,7 +76,10 @@ ul > li.task-list-item[data-task="x" i],
 %%[lt]%%
 - better-markdown-links | 相对路径修复
 - cmdr | 自定义界面按钮
-- easy-typing-obsidian | 编辑增强
+- easy-typing-obsidian | 输入增强
+- editing-toolbar | 快捷编辑
+- float-search | 全局搜索优化
+- fuzzy-chinese-pinyin | 快速切换优化
 - notebook-navigator | 文件列表终极替代
 - obsidian-heading-shifter | 快速切换标题层级
 - obsidian-linter | 格式化
@@ -98,8 +101,8 @@ ul > li.task-list-item[data-task="x" i],
 - Archives/ | 归档
 - Attachments/ | 附件
 - Misc/ | 其他辅助文件
-	- Templates/ | 模板
-	- Scripts/ | 脚本
+    - Templates/ | 模板
+    - Scripts/ | 脚本
 
 > [!tip] 
 > 可将 .obsidian 集中存放到公共目录, 通过软链接的方式使用, 这样可以减少配置冗余, 同时分离内容与配置, 使提交历史纯净.  
@@ -113,28 +116,57 @@ ul > li.task-list-item[data-task="x" i],
 
 同步
 - 本地
-	- [Syncthing](https://syncthing.net/)
-	- FolderSync
+    - [Syncthing](https://syncthing.net/)
+    - FolderSync
 - 云
-	- [Obsidian 官方同步](https://obsidian.md/sync)
-	- iCloud
-	- OneDrive
-	- [Remotely Save 插件](https://obsidian.md/plugins?id=remotely-save)
-	- [LiveSync 插件](https://obsidian.md/plugins?id=obsidian-livesync)
+    - [Obsidian 官方同步](https://obsidian.md/sync)
+    - iCloud
+    - OneDrive
+    - [Remotely Save](https://obsidian.md/plugins?id=remotely-save) 插件
+    - [LiveSync](https://obsidian.md/plugins?id=obsidian-livesync) 插件
 
 备份
 - 本地
-	- [Git](https://git-scm.com)
-	- [Kopia](https://kopia.io/)
-	- cp `mkdir -p ~/bak/Obsidian/$(date +%F) && cp -rfP ~/Documents/Obsidian/. $_`
-	- rsync `{shell} rsync -av --delete --exclude={'.git/','.trash/'} ~/Documents/Obsidian/ ~/bak/Obsidian/$(date +%F)/`
-	- 压缩 `cd ~/bak/Obsidian/$(date +%F) && zip -r ../$(date +%Y%m%d%H%M%S).zip . -x "*.git*" "*.trash*" -e`
-	- 解压缩 `unzip *.zip -d Obsidian`
+    - [Git](https://git-scm.com)
+    - [Kopia](https://kopia.io/)
+    - cp `mkdir -p ~/bak/Obsidian/$(date +%F) && cp -rfP ~/Documents/Obsidian/. $_`
+    - rsync `rsync -av --delete --exclude={'.git/','.trash/'} ~/Documents/Obsidian/ ~/bak/Obsidian/$(date +%F)/`
+    - 压缩 `cd ~/bak/Obsidian/$(date +%F) && zip -r ../$(date +%Y%m%d%H%M%S).zip . -x "*.git*" "*.trash*" -e`
+    - 解压缩 `unzip *.zip -d Obsidian`
 - 云
 
 加密
 
-### 导入、导出、发布、剪藏
+### 导入、导出、剪藏、发布
+
+导入
+- [Importer](https://obsidian.md/plugins?id=obsidian-importer) 插件
+
+导出
+- 图片
+    - obsidian-export-image 插件
+- md
+    - linked-note-exporter 插件
+    - [obsidian-export](https://github.com/zoni/obsidian-export)
+- pdf
+    - better-export-pdf 插件
+- word
+- html
+    - webpage-html-export 插件
+
+剪藏
+-  [Obsidian Web Clipper](https://obsidian.md/clipper)
+
+发布
+- [Share to NotionNext](https://github.com/jxpeng98/obsidian-to-NotionNext) 插件
+- [note-to-mp](https://github.com/sunbooshi/note-to-mp) 插件
+- [Enveloppe](https://github.com/Enveloppe/obsidian-enveloppe) 插件
+- [Digital Garden](https://dg-docs.ole.dev/) 插件
+- [Quartz](https://github.com/jackyzha0/quartz)
+- [Perlite]( https://github.com/secure-77/Perlite)
+- [Flowershow](https://flowershow.app/)
+
+> [!tip] 导出、发布建议参考思源
 
 ### 草稿速记
 
@@ -142,8 +174,11 @@ ul > li.task-list-item[data-task="x" i],
 
 ### AI
 
+- [obsidian-agent-client](https://github.com/RAIT-09/obsidian-agent-client)
+
 ## 参考 References
 
 - [Obsidian Help](https://help.obsidian.md/)
 - [Obsidian Developer Docs](https://docs.obsidian.md/)
 - [obsidian-skills](https://github.com/kepano/obsidian-skills)
+- [PKMer](https://pkmer.cn/)
