@@ -77,7 +77,7 @@ ul > li.task-list-item[data-task="x" i],
 - better-markdown-links | 相对路径修复
 - cmdr | 自定义界面按钮
 - easy-typing-obsidian | 输入增强
-- editing-toolbar | 快捷编辑
+- editing-toolbar | 工具栏(新手必备)
 - float-search | 全局搜索优化
 - fuzzy-chinese-pinyin | 快速切换优化
 - notebook-navigator | 文件列表终极替代
