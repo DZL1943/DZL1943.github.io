@@ -79,7 +79,7 @@ ul > li.task-list-item[data-task="x" i],
 - easy-typing-obsidian | 输入增强
 - editing-toolbar | 工具栏(新手必备)
 - float-search | 全局搜索优化
-- fuzzy-chinese-pinyin | 快速切换优化
+- fuzzy-chinese-pinyin | 快速切换支持拼音
 - notebook-navigator | 文件列表终极替代
 - obsidian-heading-shifter | 快速切换标题层级
 - obsidian-linter | 格式化
