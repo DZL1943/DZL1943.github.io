@@ -387,6 +387,9 @@ sidebar_position: 1
             - [Cline](https://github.com/cline/cline)
             - [Tabby](https://github.com/TabbyML/tabby)
             - [Windsurf|Codeium](https://windsurf.com/)
+            - AugmentCode
+            - AmpCode
+            - Cursor
         - RAG
             - [RAGFlow](https://github.com/infiniflow/ragflow)
             - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
@@ -407,6 +410,7 @@ sidebar_position: 1
             - [Flowise](https://github.com/FlowiseAI/Flowise)
     - Protocol & Capability
         - [MCP](https://github.com/modelcontextprotocol/servers)
+        - ACP
         - [Skill](https://skillsmp.com/)
     - Engineering
         - Inference Engine
