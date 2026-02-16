@@ -189,6 +189,10 @@ https://docusaurus.io/docs/deployment#deploying-to-github-pages
 
 `GIT_USER=<GITHUB_USERNAME> npm run deploy` %% 本质上是 git push %%
 
+https://developers.cloudflare.com/pages/framework-guides/deploy-a-docusaurus-site/
+
+https://vercel.com/docs/git
+
 ## 样式
 
 [Styling and Layout | Docusaurus](https://docusaurus.io/docs/styling-layout#theme-class-names)
