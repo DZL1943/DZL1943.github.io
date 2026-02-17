@@ -2,7 +2,10 @@
 title: 极简 Obsidian
 created: 2026-01-18T18:46
 modified: 2026-02-13T19:46
-tags: [Obsidian]
+tags:
+  - Obsidian
+url:
+  - https://mp.weixin.qq.com/s/GnvV2zEBFKF9XJg49SAEdQ
 ---
 
 <!-- truncate -->
