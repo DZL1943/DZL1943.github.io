@@ -17,8 +17,8 @@
             <content:encoded><![CDATA[<p>小红书这个app是干啥的? 相比抖音、微博、知乎有何不同?</p>
 <p>创立时间: 2013 年</p>
 <p>slogan: 你的生活指南</p>
-<p>里面的内容叫"笔记".</p>
-<p>比如一些"种草"文.</p>
+<p>里面的内容叫"笔记", 以图文为主.
+比如一些"种草"文.</p>
 <p>所以,</p>
 <ul>
 <li class="">相比抖音, 小红书的定位更加"有用", 更不那么娱乐.</li>
@@ -168,7 +168,7 @@
 <li class="">cmdr | 自定义界面按钮</li>
 <li class="">easy-typing-obsidian | 输入增强</li>
 <li class="">editing-toolbar | 工具栏(新手必备)</li>
-<li class="">float-search | 全局搜索优化</li>
+<li class="">float-search | 悬浮搜索</li>
 <li class="">fuzzy-chinese-pinyin | 快速切换支持拼音</li>
 <li class="">notebook-navigator | 文件列表终极替代</li>
 <li class="">obsidian-heading-shifter | 快速切换标题层级</li>
@@ -231,8 +231,8 @@
 <ul>
 <li class=""><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer" class="">Git</a></li>
 <li class=""><a href="https://kopia.io/" target="_blank" rel="noopener noreferrer" class="">Kopia</a></li>
-<li class="">cp <code>mkdir -p ~/bak/Obsidian/$(date +%F) &amp;&amp; cp -rfP ~/Documents/Obsidian/. $_</code></li>
-<li class="">rsync <code>rsync -av --delete --exclude={'.git/','.trash/'} ~/Documents/Obsidian/ ~/bak/Obsidian/$(date +%F)/</code></li>
+<li class="">cp <code>cp -rP ~/Documents/Obsidian/. ~/bak/Obsidian/$(date +%F)/</code></li>
+<li class="">rsync <code>rsync -av --no-links --delete --exclude={'.git/','.trash/'} ~/Documents/Obsidian/ ~/bak/Obsidian/$(date +%F)/</code></li>
 <li class="">压缩 <code>cd ~/bak/Obsidian/$(date +%F) &amp;&amp; zip -r ../$(date +%Y%m%d%H%M%S).zip . -x "*.git*" "*.trash*" -e</code></li>
 <li class="">解压缩 <code>unzip *.zip -d Obsidian</code></li>
 </ul>
@@ -278,6 +278,7 @@
 <ul>
 <li class=""><a href="https://github.com/jxpeng98/obsidian-to-NotionNext" target="_blank" rel="noopener noreferrer" class="">Share to NotionNext</a> 插件</li>
 <li class=""><a href="https://github.com/sunbooshi/note-to-mp" target="_blank" rel="noopener noreferrer" class="">note-to-mp</a> 插件</li>
+<li class=""><a href="https://github.com/doocs/md" target="_blank" rel="noopener noreferrer" class="">WeChat Markdown Editor</a></li>
 <li class=""><a href="https://github.com/Enveloppe/obsidian-enveloppe" target="_blank" rel="noopener noreferrer" class="">Enveloppe</a> 插件</li>
 <li class=""><a href="https://dg-docs.ole.dev/" target="_blank" rel="noopener noreferrer" class="">Digital Garden</a> 插件</li>
 <li class=""><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer" class="">Quartz</a></li>
