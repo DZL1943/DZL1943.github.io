@@ -64,7 +64,7 @@ url:
 
 ```dataviewjs
 dv.header(3, '精选')
-dv.list(app.plugins.plugins["better-plugins-manager"].settings.Plugins.filter(p => p.tags.includes('favorite')).sort((a, b) => a.id.localeCompare(b.id)).map(p=>p.id))
+dv.list(app.plugins.plugins["better-plugins-manager"].settings.Plugins.filter(p => p.tags.includes('favorite')).sort((a, b) => a.name.localeCompare(b.name)).map(p=>p.name))
 ```
 
 ```dataviewjs
