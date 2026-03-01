@@ -62,6 +62,7 @@ modified: 2025-10-21T09:03
   "search": {
     "button": false
   },
+  "soft_wrap": "editor_width",
   "status_bar": {
     "cursor_position_button": false
   },
