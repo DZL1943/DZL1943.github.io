@@ -24,6 +24,7 @@ sidebar_position: 1
     - KeyCluCask
 - 快捷启动 Quickstart
     - Wox
+    - Rubick
     - Raycast
     - Hammerspoon
 - 窗口管理 Window
