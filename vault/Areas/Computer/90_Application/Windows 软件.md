@@ -31,6 +31,8 @@
     - (自带)Edge
     - Chrome
     - Firefox
+- WPS
+- 微信
 
 ## 开发
 
