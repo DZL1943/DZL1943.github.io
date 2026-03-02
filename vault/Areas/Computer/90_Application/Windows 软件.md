@@ -16,7 +16,7 @@
 - 输入法: 自带
 - 剪切板: win+v
 - 解压缩
-    - 7z
+    - 7-Zip
     - NanaZip
 - 截图: win+shift+s
 - 看图
