@@ -37,6 +37,6 @@
 - Node
 - Python
 - VSCode
-- [Windows Terminal](https://github.com/microsoft/terminal): 选 msixbundle 的哪个
+- [Windows Terminal](https://github.com/microsoft/terminal): 选 msixbundle 的那个
 - [WSL](https://learn.microsoft.com/zh-cn/windows/wsl/install)
 - Docker
