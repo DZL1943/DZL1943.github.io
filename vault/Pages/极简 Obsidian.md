@@ -178,8 +178,9 @@ ul > li.task-list-item[data-task="x" i],
 
 ### AI
 
-- [Claudian](https://github.com/YishenTu/claudian)
 - [obsidian-agent-client](https://github.com/RAIT-09/obsidian-agent-client)
+- [Claudian](https://github.com/YishenTu/claudian)
+- [Gemini Scribe](https://github.com/allenhutchison/obsidian-gemini)
 
 ## 参考 References
 
