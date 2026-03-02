@@ -19,6 +19,8 @@
 - 看图
     - [IrfanView](https://www.irfanview.com/)
     - [XnView](https://www.xnview.com/en/xnview/)
+- 文件传输
+    - LocalSend
 
 ## 办公
 
