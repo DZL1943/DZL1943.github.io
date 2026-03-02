@@ -3,9 +3,10 @@
 
 - [PowerToys](https://github.com/microsoft/PowerToys)
     - 命令面板: win+alt+空格
+- Quicker
+- AutoHotkey
 - Everything
 - Listary
-- AutoHotkey
 - 安全
     - 360
     - 火绒
