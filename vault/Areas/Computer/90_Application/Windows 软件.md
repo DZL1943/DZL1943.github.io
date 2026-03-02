@@ -15,7 +15,9 @@
 
 - 输入法: 自带
 - 剪切板: win+v
-- 解压缩: 7z
+- 解压缩
+    - 7z
+    - NanaZip
 - 截图: win+shift+s
 - 看图
     - [IrfanView](https://www.irfanview.com/)
