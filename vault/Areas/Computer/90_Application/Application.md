@@ -376,7 +376,8 @@ sidebar_position: 1
         - Local
             - [Ollama](https://github.com/ollama/ollama)
             - [LM Studio](https://lmstudio.ai/)
-        - Gateway
+        - Cloud
+            - [Google AI Studio](https://aistudio.google.com)
             - [SiliconFlow](https://www.siliconflow.com/)
             - [OpenRouter](https://openrouter.ai/)
             - [Glama](https://glama.ai/)
