@@ -8,11 +8,6 @@ sidebar_position: 1
 
 ## 系统 System
 
-- 输入法 IME
-    - Rime / Fcitx
-    - [Input Source Pro](https://inputsource.pro/) / KeyboardHolder
-- 剪切板 Clipboard
-    - Maccy
 - 触控板 Trackpad
     - [BetterAndBetter](https://www.better365.cn/bab2.html)
 - 鼠标 Mouse
@@ -58,6 +53,11 @@ sidebar_position: 1
 
 ## 工具 Utility
 
+- 输入法 IME
+    - Rime / Fcitx
+    - [Input Source Pro](https://inputsource.pro/) / KeyboardHolder
+- 剪切板 Clipboard
+    - Maccy
 - 压缩 Archiver
     - PeaZip
     - Keka
