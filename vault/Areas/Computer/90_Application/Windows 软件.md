@@ -25,6 +25,8 @@
     - [XnView](https://www.xnview.com/en/xnview/)
 - 文件传输
     - LocalSend
+- 加密
+- 备份
 
 ## 办公
 
