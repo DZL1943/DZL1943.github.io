@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-02-12T15:19:00.000Z</updated>
+    <updated>2026-02-28T20:15:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Windows7 兼容软件]]></title>
+        <id>https://dzl1943.github.io/blog/Windows7 兼容软件</id>
+        <link href="https://dzl1943.github.io/blog/Windows7 兼容软件"/>
+        <updated>2026-02-28T20:15:00.000Z</updated>
+        <summary type="html"><![CDATA[- Chrome 109]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li class="">Chrome 109</li>
+<li class="">Firefox 115</li>
+<li class="">VSCode 1.70.3</li>
+<li class="">Obsidian 1.1.6</li>
+<li class="">Syncthing 1.25.0</li>
+<li class="">Localsend 1.10.0</li>
+<li class="">Git 2.35.2</li>
+<li class="">Node 13.14</li>
+<li class="">JDK 8u202</li>
+<li class="">Python 3.8</li>
+<li class="">Rust 1.77.2</li>
+<li class="">Docker</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[小红书]]></title>
         <id>https://dzl1943.github.io/blog/202602121519</id>
@@ -292,6 +313,8 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai">AI<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#ai" class="hash-link" aria-label="AI的直接链接" title="AI的直接链接" translate="no">​</a></h3>
 <ul>
 <li class=""><a href="https://github.com/RAIT-09/obsidian-agent-client" target="_blank" rel="noopener noreferrer" class="">obsidian-agent-client</a></li>
+<li class=""><a href="https://github.com/YishenTu/claudian" target="_blank" rel="noopener noreferrer" class="">Claudian</a></li>
+<li class=""><a href="https://github.com/allenhutchison/obsidian-gemini" target="_blank" rel="noopener noreferrer" class="">Gemini Scribe</a></li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考-references">参考 References<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E5%8F%82%E8%80%83-references" class="hash-link" aria-label="参考 References的直接链接" title="参考 References的直接链接" translate="no">​</a></h2>
 <ul>
@@ -611,31 +634,5 @@
 <p>如果要在多个标签中匹配呢<br>
 <!-- -->如果 pattern 不止一个呢 如何进行逻辑组合?</p>]]></content>
         <category label="Obsidian" term="Obsidian"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git Reset]]></title>
-        <id>https://dzl1943.github.io/blog/Git Reset</id>
-        <link href="https://dzl1943.github.io/blog/Git Reset"/>
-        <updated>2025-12-21T11:41:00.000Z</updated>
-        <summary type="html"><![CDATA[Git 是如何实现版本管理的? 分为哪些阶段? 每个阶段能做哪些操作? 如何撤销?]]></summary>
-        <content type="html"><![CDATA[<p>Git 是如何实现版本管理的? 分为哪些阶段? 每个阶段能做哪些操作? 如何撤销?</p>
-<p>先来梳理一下各个阶段的状态与操作</p>
-<p>当在 git 库中新建一个文件, 它的初始状态是 Untracked, 目前只存在于工作区(Working Directory), 如果它没有被 .gitignore 中的规则匹配, 那么它将在 <code>git status</code> 命令下显示.</p>
-<p>当执行 <code>git add</code> 命令, 该文件被添加到暂存区(Staging Area), 其状态为 Staged.<br>
-<!-- -->这个 add 相当于 GUI 下的勾选, 而所谓的暂存区就是存储这个勾选列表的一个 index 文件.</p>
-<p>当执行<code>git commit</code> 命令, git 会将暂存区的所有修改提交到版本库(Repository), 并且清空暂存区. 此时该文件的状态是 Unmodified.</p>
-<p>下次修改该文件时, 其状态为 Modified, 并且会显示相比上次修改的差异.</p>
-<p>重复上述 add、commit 的过程, 这一系列提交便构成了该文件的变更历史.<br>
-<!-- -->至此我们便有了版本管理.</p>
-<p>接下来分析一下不同阶段下的撤销方式</p>
-<ol>
-<li class="">撤销当前工作区的修改: <code>git restore</code> 或 <code>git checkout -- </code> 或 <code>git stash</code></li>
-<li class="">撤销 add: <code>git restore --staged</code> 或 <code>git reset HEAD</code></li>
-<li class="">撤销 commit: <code>git reset --soft HEAD~</code> 仅回退版本历史(恢复到 commit 之前)</li>
-<li class="">"撤销" push: <code>git revert HEAD</code> 将创建一个新的提交, 直接 push 就行</li>
-<li class="">撤销任意操作: 通过 <code>git reflog</code> 找到当时的状态 id, 再通过 reset 恢复, 例如 <code>git reset --hard HEAD@{1}</code></li>
-</ol>
-<p><a href="https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things" target="_blank" rel="noopener noreferrer" class="">Git - Undoing Things</a></p>]]></content>
-        <category label="Git" term="Git"/>
     </entry>
 </feed>
