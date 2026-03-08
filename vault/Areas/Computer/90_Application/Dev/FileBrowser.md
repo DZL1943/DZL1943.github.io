@@ -42,3 +42,12 @@ userDefaults:
         download: true                        # allow downloading files
 
 ```
+
+[Access Control](https://filebrowserquantum.com/en/docs/access-control/rules/)
+
+- User scope: User’s won’t see any info or access for a source without adding a source scope for the user. You must enable a user to have access to a source. This can be default for new users via defaultEnabled: true in source config, or by manually adding a source for a user via user management.
+- DenyByDefault config: When a user has a source scope, by default all files are accessible unless denyByDefault: true is set. If denyByDefault is set, a user can still see metadata about the source, but won’t have access to browse or modify files.
+- Access rules: The “user/group” access rule logic applies as mentioned below.
+    - Allow
+    - Deny
+    - DenyAll
