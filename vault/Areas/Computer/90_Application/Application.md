@@ -71,6 +71,8 @@ sidebar_position: 1
 - 电子阅读器 Book Reader
     - Koodo
     - Readest
+- 音乐播放器 Music Player
+    - VOX
 - 媒体播放器 Media Player
     - IINA
     - Kodi
