@@ -53,8 +53,8 @@ userDefaults:
     - DenyAll
 
 用户目录相关的两个关键配置
-- defaultUserScope: This is the directory path that a user is given access to by default. This is also the parent directory path used if you enable `createUserDir`. For example if the source is `/`, and you configure `defaultUserScope: /users` and also enable `createUserDir`, then a user named `graham` will have a scope directory created at `/users/graham` and that will be their root directory. Defaults to root of index `/`. Should match folders under path. Used when `createUserDir` is `false`. This restricts where new users can access within the source. Include the leading slash.
-- createUserDir: Create a user directory for each user under `defaultUserScope` + `/`+ `username`. Default: `false`. When enabled:
+- `defaultUserScope`: This is the directory path that a user is given access to by default. This is also the parent directory path used if you enable `createUserDir`. For example if the source is `/`, and you configure `defaultUserScope: /users` and also enable `createUserDir`, then a user named `graham` will have a scope directory created at `/users/graham` and that will be their root directory. Defaults to root of index `/`. Should match folders under path. Used when `createUserDir` is `false`. This restricts where new users can access within the source. Include the leading slash.
+- `createUserDir`: Create a user directory for each user under `defaultUserScope` + `/`+ `username`. Default: `false`. When enabled:
     - Creates `{defaultUserScope}/{username}` on user creation
     - Updates user scope to their personal directory
     - Directory persists even if user is deleted
