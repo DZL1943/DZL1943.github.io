@@ -92,6 +92,8 @@ sidebar_position: 1
     - FolderSync
 - 文件共享 File Sharing
     - SFTPGo
+    - Filestash
+    - copyparty
     - Cloudreve
     - Cyberduck
 - 文件备份 Backup
