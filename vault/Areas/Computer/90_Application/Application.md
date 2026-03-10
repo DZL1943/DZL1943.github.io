@@ -91,6 +91,8 @@ sidebar_position: 1
     - FreeFileSync
     - FolderSync
 - 文件共享 File Sharing
+    - SFTPGo
+    - Cloudreve
     - Cyberduck
 - 文件备份 Backup
     - Kopia
