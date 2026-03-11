@@ -822,3 +822,12 @@ https://github.com/doomemacs/doomemacs
 
 -  https://github.com/emacs-tw/awesome-emacs
 
+## 安卓版
+
+https://ftp.gnu.org/gnu/emacs/android/termux/  
+https://sourceforge.net/projects/android-ports-for-gnu-emacs/
+
+HOME: /data/data/org.gnu.emacs/files
+
+中文字体: https://github.com/ShmilyHTT/PingFang
+放到 ~/fonts
