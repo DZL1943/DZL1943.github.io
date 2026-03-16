@@ -388,6 +388,7 @@ sidebar_position: 1
             - [Google AI Studio](https://aistudio.google.com)
             - [SiliconFlow](https://www.siliconflow.com/)
             - [OpenRouter](https://openrouter.ai/)
+            - AnyRouter/AgentRouter
             - [Glama](https://glama.ai/)
     - Client & Agent
         - Chat
