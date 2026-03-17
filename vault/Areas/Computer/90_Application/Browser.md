@@ -16,15 +16,16 @@ aliases: [浏览器]
         - [ ] Opera
         - [ ] Vivaldi
         - [ ] ~~Brave: 夹带私货~~
+        - [ ] [Helium](https://github.com/imputnet/helium)
     - Firefox 系
         - [ ] [Firefox](https://www.firefox.com)
         - [ ] [LibreWolf](https://librewolf.net/): 基于 Firefox 最新版, 自带隐私保护功能
-        - [ ] Floorp: 基于 Firefox ESR, 自带侧边栏
         - [x] [Zen](https://zen-browser.app/)
+        - [ ] Floorp: 基于 Firefox ESR, 自带侧边栏
         - [ ] Tor: 基于 Firefox ESR
     - Safari
         - [x] Safari: 内存占用低
-        - [ ] Orion
+        - [ ] [Orion](https://orionbrowser.com/)
 - 移动端
     - iOS
         - [ ] Safari
