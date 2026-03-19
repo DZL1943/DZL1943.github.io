@@ -46,5 +46,6 @@
 - Python
 - VSCode
 - [Windows Terminal](https://github.com/microsoft/terminal): 选 msixbundle 的那个
+- [PowerShell](https://github.com/PowerShell/PowerShell)
 - [WSL](https://learn.microsoft.com/zh-cn/windows/wsl/install)
 - Docker
