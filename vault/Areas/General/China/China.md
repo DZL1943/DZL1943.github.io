@@ -7,6 +7,8 @@ url:
   - https://www.gov.cn/gwyzzjg/zuzhi/
   - https://en.wikipedia.org/wiki/Ministry_(government_department)
   - https://www.scopsr.gov.cn/
+aliases:
+  - 中国
 ---
 
 ## 国务院

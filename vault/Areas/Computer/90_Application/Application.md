@@ -74,6 +74,8 @@ sidebar_position: 1
 - 音乐播放器 Music Player
     - VOX
 - 媒体播放器 Media Player
+    - VLC
+    - mpv
     - IINA
     - Kodi
 - 歌词
