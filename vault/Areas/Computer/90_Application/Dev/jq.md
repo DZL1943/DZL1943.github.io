@@ -64,6 +64,8 @@ jq -C '.' extensions.json | less
 cat xxx.json | jq 'sort' | sponge xxx.json
 
 jq '.desktop.plugins | to_entries | sort_by(.key) | from_entries' .obsidian/plugins/lazy-plugins/data.json
+
+yq 'sort_keys(..)' settings.json
 ```
 
 [Sorting JSON Objects | jq ‘sort’ Function Guide](https://ioflood.com/blog/jq-sort/)
