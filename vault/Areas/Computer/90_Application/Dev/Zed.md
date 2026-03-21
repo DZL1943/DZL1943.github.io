@@ -12,6 +12,7 @@ modified: 2025-10-21T09:03
     "favorite_models": [],
     "model_parameters": []
   },
+  "auto_update": false,
   "autosave": "on_window_change",
   "buffer_font_size": 16,
   "collaboration_panel": {
@@ -38,8 +39,18 @@ modified: 2025-10-21T09:03
       "tab_size": 4
     }
   },
+  "lsp": {
+    "markdownlint": {
+      "settings": {
+        "MD007": false,
+        "MD034": false,
+        "MD041": false
+      }
+    }
+  },
   "minimap": {
-    "show": "auto"
+    "show": "never",
+    "thumb": "hover"
   },
   "notification_panel": {
     "button": false
@@ -51,20 +62,28 @@ modified: 2025-10-21T09:03
       "on_paste": false
     },
     "auto_reveal_entries": false,
-    "hide_root": true
+    "hide_root": true,
+    "scrollbar": {
+      "show": "system"
+    }
   },
   "remove_trailing_whitespace_on_save": false,
   "scrollbar": {
     "axes": {
       "horizontal": false
-    }
+    },
+    "show": "system"
   },
   "search": {
     "button": false
   },
   "soft_wrap": "editor_width",
   "status_bar": {
-    "cursor_position_button": false
+    "cursor_position_button": true
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
   },
   "tab_size": 4,
   "telemetry": {
@@ -79,7 +98,7 @@ modified: 2025-10-21T09:03
   "theme": {
     "dark": "Dracula",
     "light": "One Light",
-    "mode": "dark"
+    "mode": "system"
   },
   "title_bar": {
     "show_sign_in": false
@@ -99,6 +118,7 @@ modified: 2025-10-21T09:03
     "enabled": true
   }
 }
+
 ```
 
 ## Extensions
