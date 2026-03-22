@@ -168,7 +168,7 @@ ul > li.task-list-item[data-task="x" i],
 - [Digital Garden](https://dg-docs.ole.dev/) 插件
 - [Quartz](https://github.com/jackyzha0/quartz)
 - [Perlite]( https://github.com/secure-77/Perlite)
-- [Flowershow](https://flowershow.app/)
+- [Flowershow](https://flowershow.app/) [Obsidian Publish Alternatives](https://flowershow.app/blog/obsidian-publish-alternatives)
 
 > [!tip] 导出、发布建议参考思源
 
