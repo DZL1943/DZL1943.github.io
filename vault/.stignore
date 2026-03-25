@@ -2,8 +2,13 @@
 
 (?d).DS_Store
 (?d).new
+*.bak
+*.swp
+*~
+~$*.*
 .git
 .trash
+.vscode
 .zettel-notes
 
 (?i)/misc/

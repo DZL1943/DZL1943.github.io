@@ -16,9 +16,16 @@ NSFW
 未命名*
 Drawing-*.md
 
+.DS_Store
 .nomedia
+.new
+*.bak
+*.swp
+*~
+~$*.*
 *.sync-conflict-*
 .stfolder/
 .stversions/
+.vscode/
 .trash/
 .obsidian*
