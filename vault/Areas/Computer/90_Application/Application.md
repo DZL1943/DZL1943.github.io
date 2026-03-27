@@ -370,8 +370,9 @@ sidebar_position: 1
         - ReSharper
     - 数据库类
         - Navicat
-        - DBeaver
+        - HeidiSQL
         - Beekeeper Studio
+        - DBeaver
         - Bytebase
     - 设计建模类
         - drawDB
