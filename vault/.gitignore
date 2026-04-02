@@ -24,7 +24,7 @@ Drawing-*.md
 *~
 ~$*.*
 *.sync-conflict-*
-.stfolder/
+.stfolder*/
 .stversions/
 .vscode/
 .trash/
