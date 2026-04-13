@@ -2,10 +2,9 @@
 ## 系统
 
 - [PowerToys](https://github.com/microsoft/PowerToys)
-    - 命令面板: win+alt+空格
 - Quicker
 - AutoHotkey
-- Everything
+- Everything, EverythingToolbar, EverythingPowerToys
 - Listary
 - 安全
     - 360
@@ -16,16 +15,13 @@
 
 - 输入法: 自带
 - 剪切板: win+v
-- 解压缩
-    - 7-Zip
-    - NanaZip
+- 解压缩: NanaZip
 - 截图: win+shift+s
 - 看图
     - [IrfanView](https://www.irfanview.com/)
     - [XnView](https://www.xnview.com/en/xnview/)
-- 文件传输
-    - LocalSend
-- 加密
+- 文件传输: LocalSend
+- 加密: Cryptomator
 - 备份
 
 ## 办公
@@ -39,7 +35,7 @@
 
 ## 开发
 
-- Chocolatey / Scoop
+- Chocolatey / Scoop / WinGet
 - Git
 - JDK
 - Node
