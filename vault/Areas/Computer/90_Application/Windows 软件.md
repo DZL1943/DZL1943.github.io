@@ -7,7 +7,7 @@
 - Everything, EverythingToolbar, EverythingPowerToys
 - Listary
 - 安全
-    - 360
+    - 360 极速版
     - 火绒
 - Sandboxie
 
@@ -22,14 +22,11 @@
     - [XnView](https://www.xnview.com/en/xnview/)
 - 文件传输: LocalSend
 - 加密: Cryptomator
-- 备份
+- 备份: Duplicat
 
 ## 办公
 
-- 浏览器
-    - (自带)Edge
-    - Chrome
-    - Firefox
+- 浏览器: 自带
 - WPS
 - 微信
 
