@@ -86,6 +86,7 @@ sidebar_position: 1
     - Free Download Manager
     - Transmission
 - 格式转换 Converter
+    - ImageMagick
 - 文件传输 Transport
     - LocalSend
 - 文件同步 Sync
@@ -99,6 +100,7 @@ sidebar_position: 1
     - Cloudreve
     - Cyberduck
 - 文件备份 Backup
+    - Duplicati
     - Kopia
 - 加密 Crypto
     - Cryptomator
@@ -150,6 +152,7 @@ sidebar_position: 1
     - Ledger
     - Beancount
     - GnuCash
+    - Money Manager Ex
 - 图片 Photo
     - immich
 - 媒体 Media
@@ -260,6 +263,7 @@ sidebar_position: 1
 - 历史 History
     - 全历史
 - 地理 Geography
+    - QGIS
 - 天文 Astronomy
 - 艺术 Arts
 - 体育 Physical
