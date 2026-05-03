@@ -21,22 +21,22 @@
     - [IrfanView](https://www.irfanview.com/)
     - [XnView](https://www.xnview.com/en/xnview/)
 - 文件传输: LocalSend
-- 加密: Cryptomator
 - 备份: Duplicat
+- 加密: Cryptomator
 
 ## 办公
 
-- 浏览器: 自带
+- Edge
 - WPS
-- 微信
+- 微信、企业微信
 
 ## 开发
 
-- Chocolatey / Scoop / WinGet
+- WinGet / Scoop / Chocolatey
 - Git
-- JDK
 - Node
 - Python
+- JDK
 - VSCode
 - [Windows Terminal](https://github.com/microsoft/terminal): 选 msixbundle 的那个
 - [PowerShell](https://github.com/PowerShell/PowerShell)
