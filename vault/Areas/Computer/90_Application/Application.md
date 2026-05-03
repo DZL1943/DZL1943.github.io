@@ -264,6 +264,7 @@ sidebar_position: 1
     - 全历史
 - 地理 Geography
     - QGIS
+    - 奥维互动地图
 - 天文 Astronomy
 - 艺术 Arts
 - 体育 Physical
@@ -279,6 +280,9 @@ sidebar_position: 1
 - 考公 Civil
     - 华图
     - 粉笔
+- 家谱
+    - Gramps
+    - Family Gem
 
 ## 创意 Creative
 
