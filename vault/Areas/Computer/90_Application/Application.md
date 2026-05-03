@@ -59,7 +59,7 @@ sidebar_position: 1
 - 剪切板 Clipboard
     - Maccy
 - 压缩 Archiver
-    - PeaZip
+    - NanaZip
     - Keka
 - 截屏 Screenshot
     - PixPin
