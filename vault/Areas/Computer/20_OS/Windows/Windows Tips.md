@@ -1,3 +1,16 @@
+## 账户
+
+- 内置
+    - Administrator：禁用
+    - DefaultAccount：禁用
+    - Guest
+    - WDAGUtilityAccount：禁用
+- 公共
+    - 管理员：隐藏
+    - 标准用户
+- 个人
+    - 标准用户
+
 ## 剪切板
 
 win+v
@@ -5,6 +18,8 @@ win+v
 ## 截屏
 
 win+shift+s
+
+## 默认输入法
 
 ## 图片压缩
 
