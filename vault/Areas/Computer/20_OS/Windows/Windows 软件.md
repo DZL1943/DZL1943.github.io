@@ -19,7 +19,7 @@
 - 截图: win+shift+s
 - 看图
     - [IrfanView](https://www.irfanview.com/)
-    - [XnView](https://www.xnview.com/en/xnview/)
+    - MissiGra
 - 文件传输: LocalSend
 - 备份: Duplicat
 - 加密: Cryptomator
