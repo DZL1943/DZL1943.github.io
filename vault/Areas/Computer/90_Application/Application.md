@@ -67,8 +67,10 @@ sidebar_position: 1
     - Snipaste
 - 录屏 Screen Recorder
     - OBS
+    - OpenScreen
     - Recordly
 - 图片查看器 Image Viewer
+    - ImageGlass
 - 电子阅读器 Book Reader
     - Koodo
     - Readest
