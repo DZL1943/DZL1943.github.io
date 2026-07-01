@@ -63,8 +63,9 @@ sidebar_position: 1
     - Keka
 - 截屏 Screenshot
     - PixPin
-    - [Shottr](https://shottr.cc)
     - Snipaste
+    - Snapzy
+    - [Shottr](https://shottr.cc)
 - 录屏 Screen Recorder
     - OBS
     - OpenScreen
