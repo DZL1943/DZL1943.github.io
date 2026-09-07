@@ -4,731 +4,708 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Sat, 04 Apr 2026 20:28:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 13:01:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <item>
-            <title><![CDATA[手机号迁移计划]]></title>
-            <link>https://dzl1943.github.io/blog/202604042028</link>
-            <guid>https://dzl1943.github.io/blog/202604042028</guid>
-            <pubDate>Sat, 04 Apr 2026 20:28:00 GMT</pubDate>
-            <description><![CDATA[- 备份联系人]]></description>
+            <title><![CDATA[20260819_笔记管理的原则]]></title>
+            <link>https://dzl1943.github.io/blog/20260819_笔记管理的原则</link>
+            <guid>https://dzl1943.github.io/blog/20260819_笔记管理的原则</guid>
+            <pubDate>Mon, 07 Sep 2026 13:01:20 GMT</pubDate>
+            <description><![CDATA[- 内容为先，减少一切非必要的功能依赖、规则限制]]></description>
             <content:encoded><![CDATA[<ul>
-<li class="">备份联系人</li>
-<li class="">账号迁移<!-- -->
+<li class="">内容为先，减少一切非必要的功能依赖、规则限制</li>
+<li class="">每篇笔记只应聚焦某个小点，这既可以降低输入压力，还能增加稳定性、以及输出时的复合能力</li>
+<li class="">应当区分私人的和可公开的内容</li>
+<li class="">应当区分正式的和非正式的内容</li>
+<li class="">应当区分核心的和参考性的内容</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[图书管理]]></title>
+            <link>https://dzl1943.github.io/blog/图书管理</link>
+            <guid>https://dzl1943.github.io/blog/图书管理</guid>
+            <pubDate>Mon, 07 Sep 2026 13:01:20 GMT</pubDate>
+            <description><![CDATA[文学类]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="文学类">文学类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E6%96%87%E5%AD%A6%E7%B1%BB" class="hash-link" aria-label="文学类的直接链接" title="文学类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="历史类">历史类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E5%8E%86%E5%8F%B2%E7%B1%BB" class="hash-link" aria-label="历史类的直接链接" title="历史类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="哲学类">哲学类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E5%93%B2%E5%AD%A6%E7%B1%BB" class="hash-link" aria-label="哲学类的直接链接" title="哲学类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="心理类">心理类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E5%BF%83%E7%90%86%E7%B1%BB" class="hash-link" aria-label="心理类的直接链接" title="心理类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="政治类">政治类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E6%94%BF%E6%B2%BB%E7%B1%BB" class="hash-link" aria-label="政治类的直接链接" title="政治类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="法律类">法律类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E6%B3%95%E5%BE%8B%E7%B1%BB" class="hash-link" aria-label="法律类的直接链接" title="法律类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="经济类">经济类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E7%BB%8F%E6%B5%8E%E7%B1%BB" class="hash-link" aria-label="经济类的直接链接" title="经济类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="管理类">管理类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E7%AE%A1%E7%90%86%E7%B1%BB" class="hash-link" aria-label="管理类的直接链接" title="管理类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="军事类">军事类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E5%86%9B%E4%BA%8B%E7%B1%BB" class="hash-link" aria-label="军事类的直接链接" title="军事类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="科学类">科学类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E7%A7%91%E5%AD%A6%E7%B1%BB" class="hash-link" aria-label="科学类的直接链接" title="科学类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="技术类">技术类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E6%8A%80%E6%9C%AF%E7%B1%BB" class="hash-link" aria-label="技术类的直接链接" title="技术类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="艺术类">艺术类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E8%89%BA%E6%9C%AF%E7%B1%BB" class="hash-link" aria-label="艺术类的直接链接" title="艺术类的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="生活类">生活类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E7%94%9F%E6%B4%BB%E7%B1%BB" class="hash-link" aria-label="生活类的直接链接" title="生活类的直接链接" translate="no">​</a></h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[影视管理]]></title>
+            <link>https://dzl1943.github.io/blog/影视管理</link>
+            <guid>https://dzl1943.github.io/blog/影视管理</guid>
+            <pubDate>Mon, 07 Sep 2026 13:01:20 GMT</pubDate>
+            <description><![CDATA[电影]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="电影">电影<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E7%94%B5%E5%BD%B1" class="hash-link" aria-label="电影的直接链接" title="电影的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="动漫">动漫<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E5%8A%A8%E6%BC%AB" class="hash-link" aria-label="动漫的直接链接" title="动漫的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="纪录片">纪录片<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E7%BA%AA%E5%BD%95%E7%89%87" class="hash-link" aria-label="纪录片的直接链接" title="纪录片的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="综艺">综艺<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E7%BB%BC%E8%89%BA" class="hash-link" aria-label="综艺的直接链接" title="综艺的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="国产剧">国产剧<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E5%9B%BD%E4%BA%A7%E5%89%A7" class="hash-link" aria-label="国产剧的直接链接" title="国产剧的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="美剧">美剧<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E7%BE%8E%E5%89%A7" class="hash-link" aria-label="美剧的直接链接" title="美剧的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="英剧">英剧<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E8%8B%B1%E5%89%A7" class="hash-link" aria-label="英剧的直接链接" title="英剧的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="韩剧">韩剧<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E9%9F%A9%E5%89%A7" class="hash-link" aria-label="韩剧的直接链接" title="韩剧的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他">其他<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E5%85%B6%E4%BB%96" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接" translate="no">​</a></h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[游戏管理]]></title>
+            <link>https://dzl1943.github.io/blog/游戏管理</link>
+            <guid>https://dzl1943.github.io/blog/游戏管理</guid>
+            <pubDate>Mon, 07 Sep 2026 13:01:20 GMT</pubDate>
+            <description><![CDATA[RPG]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="rpg">RPG<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#rpg" class="hash-link" aria-label="RPG的直接链接" title="RPG的直接链接" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->原神</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->最终幻想</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->崩坏</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->逆水寒</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->燕云十六声</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="冒险">冒险<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#%E5%86%92%E9%99%A9" class="hash-link" aria-label="冒险的直接链接" title="冒险的直接链接" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->泰拉瑞亚</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->饥荒</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->GTA</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->元气骑士</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->光遇</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="动作">动作<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#%E5%8A%A8%E4%BD%9C" class="hash-link" aria-label="动作的直接链接" title="动作的直接链接" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->和平精英</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->无畏契约</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->三角洲</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->使命召唤</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->香肠派对</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->火影忍者</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="策略">策略<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#%E7%AD%96%E7%95%A5" class="hash-link" aria-label="策略的直接链接" title="策略的直接链接" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->炉石传说</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->月圆之夜</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->皇室战争</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->荒野乱斗</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->英雄联盟</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->王者荣耀</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->金铲铲</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="模拟">模拟<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#%E6%A8%A1%E6%8B%9F" class="hash-link" aria-label="模拟的直接链接" title="模拟的直接链接" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->我的世界</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->星露谷物语</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->江南百景图</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->摩尔庄园</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->梦想城镇</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->心动小镇</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->模拟人生</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->模拟城市</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->辐射避难所</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="竞技">竞技<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#%E7%AB%9E%E6%8A%80" class="hash-link" aria-label="竞技的直接链接" title="竞技的直接链接" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->狂野飙车</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->极品飞车</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->巅峰极速</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="休闲">休闲<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#%E4%BC%91%E9%97%B2" class="hash-link" aria-label="休闲的直接链接" title="休闲的直接链接" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->蛋仔派对</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->数独</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->扫雷</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->象棋</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->扑克牌</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->麻将</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他">其他<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#%E5%85%B6%E4%BB%96" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接" translate="no">​</a></h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[音乐管理]]></title>
+            <link>https://dzl1943.github.io/blog/音乐管理</link>
+            <guid>https://dzl1943.github.io/blog/音乐管理</guid>
+            <pubDate>Mon, 07 Sep 2026 13:01:20 GMT</pubDate>
+            <description><![CDATA[- Inbox: 待听]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">Inbox: 待听</li>
+<li class="">Active: 在听</li>
+<li class="">Library|Vault|Core|Prime|Main/: 精选, 主要按 Language/Artist 分<!-- -->
 <ul>
-<li class="">平台类<!-- -->
+<li class="">Default: 不足以单列的统归于此</li>
+<li class="">CN/<!-- -->
 <ul>
-<li class="">Google</li>
-<li class="">Microsoft</li>
-<li class="">Apple</li>
-<li class="">小米</li>
-<li class="">华为</li>
+<li class="">周杰伦</li>
+<li class="">陶喆</li>
+<li class="">林俊杰</li>
+<li class="">陈奕迅</li>
 </ul>
 </li>
-<li class=""><strong>金融类</strong>
-<ul>
-<li class="">银行卡<!-- -->
-<ul>
-<li class=""><em>工</em></li>
-<li class="">农 2</li>
-<li class="">中 2</li>
-<li class="">建 ?</li>
-<li class=""><em>邮</em></li>
-<li class=""><em>招</em></li>
-<li class="">民</li>
-<li class="">广</li>
-<li class="">农商</li>
+<li class="">EN</li>
+<li class="">JP</li>
+<li class="">KR</li>
 </ul>
 </li>
+<li class="">List/<!-- -->
+<ul>
+<li class="">BGM|OST|Absolute|Instrumental</li>
+<li class="">Cover: 翻唱</li>
+<li class="">Live: 现场</li>
+<li class="">Genre/<!-- -->
+<ul>
+<li class="">Pop</li>
+<li class="">Rock</li>
+<li class="">R&amp;B</li>
+<li class="">Jazz</li>
+<li class="">Hip-hop</li>
+</ul>
+</li>
+<li class="">Age|Era/</li>
+<li class="">Emotion|Subject/</li>
+</ul>
+</li>
+<li class="">Archive/<!-- -->
+<ul>
+<li class="">Pass: 听过(有点特色但不喜欢)</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[20260830_笔记库组织结构]]></title>
+            <link>https://dzl1943.github.io/blog/20260830_笔记库组织结构</link>
+            <guid>https://dzl1943.github.io/blog/20260830_笔记库组织结构</guid>
+            <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[私人]]></description>
+            <content:encoded><![CDATA[<p>私人</p>
+<ul>
+<li class="">Memos 备忘录</li>
+<li class="">Journals 日记</li>
+<li class="">Thoughts 思想认知</li>
+</ul>
+<p>笔记（类似卢曼的卡片笔记法）</p>
+<ul>
+<li class="">Jottings 闪念笔记</li>
+<li class="">Pages 永久笔记</li>
+<li class="">References 文献笔记</li>
+</ul>
+<p>辅助</p>
+<ul>
+<li class="">Inbox</li>
+<li class="">Archives</li>
+<li class="">Attachments</li>
+<li class="">Clippings</li>
+<li class="">Templates</li>
+<li class="">Scripts</li>
+<li class="">Misc</li>
+</ul>
+<blockquote>
+<p>[!NOTE]+ Pages 是什么、不是什么，与其他类型的区别、联系是什么</p>
+<p>Pages 与 References 相对应。在整个知识网络中，前者更加内部、个人、主观，相当于 Thoughts 的扩充，以“永久笔记”为主；后者则更加外部、公共、客观，相当于文献笔记。</p>
+<ul>
+<li class="">moc：可能是永久也可能是文献</li>
+<li class="">卡片：主要属于文献笔记</li>
+<li class="">闪念：和卡片笔记相比更加“草稿”，甚至连标题都没有</li>
+<li class="">博客：和闪念相比更加系统、完善</li>
+<li class="">永久笔记：节点永久</li>
+<li class="">文献笔记：内容稳定</li>
+</ul>
+<p><strong>Pages 需搭配双链和属性使用</strong></p>
+</blockquote>
+<p>属性参考：</p>
+<div class="language-yaml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-yaml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token key atrule" style="color:#00a4db">title</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic"># 可省略</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">author</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic"># 可省略</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">date</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">last</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">url</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic"># published_url? source_url? refer_url?</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">status</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">type</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">categories</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">tags</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic"># 支持嵌套但不支持链接</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">aliases</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><br></span></code></pre></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[文件管理]]></title>
+            <link>https://dzl1943.github.io/blog/文件管理</link>
+            <guid>https://dzl1943.github.io/blog/文件管理</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[分类]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="分类">分类<a href="https://dzl1943.github.io/blog/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86#%E5%88%86%E7%B1%BB" class="hash-link" aria-label="分类的直接链接" title="分类的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">资源类<!-- -->
+<ul>
+<li class="">文档 Documents</li>
+<li class="">图片 Pictures</li>
+<li class="">音乐 Music</li>
+<li class="">视频 Videos</li>
+<li class="">电子书 Books</li>
+<li class="">软件包 Pkgs</li>
+</ul>
+</li>
+<li class="">程序类<!-- -->
+<ul>
+<li class="">Applications</li>
+<li class="">Games</li>
+<li class="">VMs</li>
+<li class="">Library</li>
+<li class="">bin</li>
+<li class="">srv</li>
+</ul>
+</li>
+<li class="">数据类<!-- -->
+<ul>
+<li class="">Sync</li>
+<li class="">Backups</li>
+<li class="">Workspace</li>
+<li class="">Code</li>
+<li class="">Configs</li>
+<li class="">data</li>
+</ul>
+</li>
+<li class="">辅助类<!-- -->
+<ul>
+<li class="">var</li>
+<li class="">tmp</li>
+<li class="">mnt</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="https://dzl1943.github.io/blog/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86#%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">共享</li>
+<li class="">传输</li>
+<li class="">同步</li>
+<li class="">备份</li>
+<li class="">压缩</li>
+<li class="">加密</li>
+<li class="">查看</li>
+<li class="">编辑</li>
+<li class="">转换</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[自我管理]]></title>
+            <link>https://dzl1943.github.io/blog/自我管理</link>
+            <guid>https://dzl1943.github.io/blog/自我管理</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[- 身心健康管理]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">身心健康管理</li>
+<li class="">时间任务管理</li>
+<li class="">资产财务管理</li>
+<li class="">人脉关系管理</li>
+<li class="">数据信息管理</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[笔记分类]]></title>
+            <link>https://dzl1943.github.io/blog/笔记分类</link>
+            <guid>https://dzl1943.github.io/blog/笔记分类</guid>
+            <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[- 记录类]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">记录类<!-- -->
+<ul>
+<li class="">日记（饮食、习惯、情绪、事件、反思、总结）</li>
+<li class="">任务</li>
+<li class="">记账</li>
+</ul>
+</li>
+<li class="">创作类<!-- -->
+<ul>
+<li class="">随笔</li>
+<li class="">博文</li>
+</ul>
+</li>
+<li class="">参考类<!-- -->
+<ul>
+<li class="">知识</li>
+<li class="">经验</li>
+</ul>
+</li>
+<li class="">管理类<!-- -->
+<ul>
+<li class="">通讯录</li>
+<li class="">物品</li>
+<li class="">密码</li>
+<li class="">书签</li>
+<li class="">书影音游戏</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[笔记管理]]></title>
+            <link>https://dzl1943.github.io/blog/笔记管理</link>
+            <guid>https://dzl1943.github.io/blog/笔记管理</guid>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[- 目的]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">目的</li>
+<li class="">分类<!-- -->
+<ul>
+<li class=""><a class="" href="https://dzl1943.github.io/blog/%E7%AC%94%E8%AE%B0%E5%88%86%E7%B1%BB">笔记分类</a></li>
+</ul>
+</li>
+<li class="">组织<!-- -->
+<ul>
+<li class=""><a class="" href="https://dzl1943.github.io/blog/20260819_%E7%AC%94%E8%AE%B0%E7%AE%A1%E7%90%86%E7%9A%84%E5%8E%9F%E5%88%99">20260819_笔记管理的原则</a></li>
+<li class=""><a class="" href="https://dzl1943.github.io/blog/%E7%AC%94%E8%AE%B0%E7%BB%84%E7%BB%87%E6%96%B9%E6%B3%95">笔记组织方法</a></li>
+<li class=""><a class="" href="https://dzl1943.github.io/blog/20260830_%E7%AC%94%E8%AE%B0%E5%BA%93%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84">20260830_笔记库组织结构</a></li>
+</ul>
+</li>
+<li class="">工具<!-- -->
+<ul>
+<li class=""><a class="" href="https://dzl1943.github.io/References/%E8%AE%A1%E7%AE%97%E6%9C%BA/90_%E5%BA%94%E7%94%A8/%E6%95%88%E7%8E%87%E7%B1%BB/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6.md">笔记软件</a></li>
+</ul>
+</li>
+<li class="">实践<!-- -->
+<ul>
+<li class="">日记管理</li>
+<li class="">任务管理</li>
+<li class="">草稿管理</li>
+<li class="">碎片管理</li>
+<li class="">附件管理</li>
+<li class="">同步备份</li>
+<li class="">剪藏摘录</li>
+<li class="">分享协作</li>
+<li class="">格式转换</li>
+<li class="">Anki</li>
+<li class="">AI</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[20260816_任务管理]]></title>
+            <link>https://dzl1943.github.io/blog/20260816_任务管理</link>
+            <guid>https://dzl1943.github.io/blog/20260816_任务管理</guid>
+            <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[分类]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="分类">分类<a href="https://dzl1943.github.io/blog/20260816_%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86#%E5%88%86%E7%B1%BB" class="hash-link" aria-label="分类的直接链接" title="分类的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">生活类<!-- -->
+<ul>
+<li class="">内务</li>
+<li class="">外事</li>
+</ul>
+</li>
+<li class="">工作类</li>
+<li class="">学习类</li>
+<li class="">思想类</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="方法">方法<a href="https://dzl1943.github.io/blog/20260816_%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86#%E6%96%B9%E6%B3%95" class="hash-link" aria-label="方法的直接链接" title="方法的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">收集</li>
+<li class="">整理</li>
+<li class="">组织<!-- -->
+<ul>
+<li class="">未开始 Not started/Inbox<!-- -->
+<ul>
+<li class="">近期 Next up</li>
+<li class="">延迟 Deferred</li>
+<li class="">某时 Someday/Maybe</li>
+<li class="">远期 Long-term</li>
+<li class="">搁置 Shelved</li>
+</ul>
+</li>
+<li class="">重复 Recurrent/Repeated</li>
+<li class="">进行中 In progress/Active/Doing</li>
+<li class="">等待/挂起 Waiting/Pending/Suspended</li>
+<li class="">已完成 Completed/Done</li>
+<li class="">已归档 Archived/Closed</li>
+</ul>
+</li>
+<li class="">回顾</li>
+<li class="">执行</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="https://dzl1943.github.io/blog/20260816_%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86#%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[20260816_密码管理]]></title>
+            <link>https://dzl1943.github.io/blog/20260816_密码管理</link>
+            <guid>https://dzl1943.github.io/blog/20260816_密码管理</guid>
+            <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[组成]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="组成">组成<a href="https://dzl1943.github.io/blog/20260816_%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86#%E7%BB%84%E6%88%90" class="hash-link" aria-label="组成的直接链接" title="组成的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">4位 纯数字</li>
+<li class="">6位 纯数字</li>
+<li class="">8位 数字+字母</li>
+<li class="">12位以上 数字+字母+符号</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="分类">分类<a href="https://dzl1943.github.io/blog/20260816_%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86#%E5%88%86%E7%B1%BB" class="hash-link" aria-label="分类的直接链接" title="分类的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">金融类<!-- -->
+<ul>
+<li class="">银行</li>
 <li class="">云闪付</li>
 <li class="">支付宝</li>
-<li class="">淘宝</li>
-<li class="">京东</li>
-<li class="">拼多多</li>
-<li class="">美团</li>
+<li class="">微信支付</li>
+<li class="">京东支付</li>
+<li class="">美团支付</li>
+<li class="">抖音支付</li>
 </ul>
 </li>
 <li class="">政务类<!-- -->
 <ul>
-<li class="">个人所得税</li>
 <li class="">12306</li>
 <li class="">12123</li>
+<li class="">个人所得税</li>
+<li class="">国网</li>
+<li class="">社保</li>
+<li class="">医保</li>
 <li class="">学信网</li>
 <li class="">人事网</li>
-<li class="">医保</li>
-<li class="">社保</li>
-<li class="">国网</li>
+<li class="">学习强国</li>
 </ul>
 </li>
-<li class="">社交类<!-- -->
+<li class="">硬件类<!-- -->
 <ul>
-<li class="">网易邮箱</li>
-<li class="">微信</li>
-<li class="">QQ</li>
-<li class="">Telegram</li>
-<li class="">抖音</li>
-<li class="">哔哩哔哩</li>
-<li class="">微博</li>
-<li class="">小红书</li>
-<li class="">知乎</li>
-<li class="">豆瓣</li>
+<li class="">华为</li>
+<li class="">小米</li>
+<li class="">大疆</li>
 </ul>
 </li>
 <li class="">办公类<!-- -->
 <ul>
-<li class="">百度</li>
+<li class="">苹果</li>
+<li class="">微软</li>
+<li class="">谷歌</li>
+<li class="">网易邮箱</li>
+<li class="">QQ</li>
+<li class="">微信</li>
+<li class="">企业微信</li>
 <li class="">飞书</li>
+<li class="">钉钉</li>
+<li class="">阿里云盘</li>
+<li class="">夸克</li>
+<li class="">百度</li>
 <li class="">WPS</li>
-<li class=""><em>Notion</em></li>
+<li class="">Notion</li>
 <li class="">滴答清单</li>
+<li class="">Telegram</li>
+<li class="">GitHub</li>
 <li class="">DeepSeek</li>
 <li class="">Kimi</li>
-<li class=""><em>GitHub</em></li>
+</ul>
+</li>
+<li class="">娱乐类<!-- -->
+<ul>
+<li class="">抖音</li>
+<li class="">哔哩哔哩</li>
+<li class="">微博</li>
+<li class="">小红书</li>
+<li class="">豆瓣</li>
+<li class="">知乎</li>
+<li class="">QQ 音乐</li>
+<li class="">网易云音乐</li>
+<li class="">汽水音乐</li>
+<li class="">Spotify</li>
+<li class="">斗鱼</li>
+<li class="">虎牙</li>
+<li class="">Steam</li>
+<li class="">TapTap</li>
+</ul>
+</li>
+<li class="">生活类<!-- -->
+<ul>
+<li class="">高德地图</li>
+<li class="">滴滴</li>
+<li class="">京东</li>
+<li class="">淘宝</li>
+<li class="">闲鱼</li>
+<li class="">拼多多</li>
+<li class="">美团</li>
+<li class="">转转</li>
+<li class="">51Job</li>
+<li class="">智联</li>
+<li class="">BOSS</li>
 </ul>
 </li>
 <li class="">其他<!-- -->
 <ul>
-<li class=""><em>Steam</em></li>
-<li class=""><em>Spotify</em></li>
+<li class="">LeetCode</li>
+<li class="">Adobe</li>
+<li class="">AutoDesk</li>
+<li class="">Firefox</li>
+<li class="">Cloudflare</li>
+<li class="">Docker</li>
+<li class="">Cisco</li>
+<li class="">Broadcom</li>
 </ul>
 </li>
 </ul>
-</li>
-<li class="">通知联系人</li>
-<li class="">处理旧卡</li>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="https://dzl1943.github.io/blog/20260816_%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86#%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[世界观]]></title>
+            <link>https://dzl1943.github.io/blog/世界观</link>
+            <guid>https://dzl1943.github.io/blog/世界观</guid>
+            <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[自然-物理世界]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="自然-物理世界">自然-物理世界<a href="https://dzl1943.github.io/blog/%E4%B8%96%E7%95%8C%E8%A7%82#%E8%87%AA%E7%84%B6-%E7%89%A9%E7%90%86%E4%B8%96%E7%95%8C" class="hash-link" aria-label="自然-物理世界的直接链接" title="自然-物理世界的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="自我-主观世界">自我-主观世界<a href="https://dzl1943.github.io/blog/%E4%B8%96%E7%95%8C%E8%A7%82#%E8%87%AA%E6%88%91-%E4%B8%BB%E8%A7%82%E4%B8%96%E7%95%8C" class="hash-link" aria-label="自我-主观世界的直接链接" title="自我-主观世界的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">生活</li>
+<li class="">工作</li>
+<li class="">学习</li>
+<li class="">思想</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="社会-客观世界">社会-客观世界<a href="https://dzl1943.github.io/blog/%E4%B8%96%E7%95%8C%E8%A7%82#%E7%A4%BE%E4%BC%9A-%E5%AE%A2%E8%A7%82%E4%B8%96%E7%95%8C" class="hash-link" aria-label="社会-客观世界的直接链接" title="社会-客观世界的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">他人</li>
+<li class="">家庭</li>
+<li class="">企业</li>
+<li class="">政府</li>
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[AI]]></title>
-            <link>https://dzl1943.github.io/blog/AI</link>
-            <guid>https://dzl1943.github.io/blog/AI</guid>
-            <pubDate>Wed, 25 Mar 2026 23:05:00 GMT</pubDate>
-            <description><![CDATA[概念]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="概念">概念<a href="https://dzl1943.github.io/blog/AI#%E6%A6%82%E5%BF%B5" class="hash-link" aria-label="概念的直接链接" title="概念的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">LLM: 大语言模型, 负责处理信息和下达操作命令</li>
-<li class="">Agent: 负责执行操作并上报结果, 本质是提示词工程</li>
-<li class="">RAG: 一种专用于知识库的 Agent</li>
-<li class="">MCP: 扩展 Agent 能做的操作, 本质是一个接口协议</li>
-<li class="">Skill: 本质是供 Agent 查阅的文档或脚本</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="https://dzl1943.github.io/blog/AI#%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>
-<p>国内</p>
-<ul>
-<li class="">字节跳动|豆包</li>
-<li class="">阿里|千问</li>
-<li class="">腾讯|元宝</li>
-<li class="">DeepSeek</li>
-<li class="">Kimi</li>
-<li class="">智谱|GLM</li>
-<li class="">MiniMax</li>
-</ul>
-<p>国外</p>
-<ul>
-<li class="">OpenAI|GPT</li>
-<li class="">Microsoft|Copilot</li>
-<li class="">Google|Gemini</li>
-<li class="">Anthropic|Claude</li>
-<li class="">xAI|Grok</li>
-</ul>
-<p>其他</p>
-<ul>
-<li class="">OpenCode</li>
-<li class="">OpenClaw:即龙虾.主要能力为 agent+远程聊天,即让一个 agent 在电脑上自主运行,而你可以通过消息软件远程指挥它.</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="应用">应用<a href="https://dzl1943.github.io/blog/AI#%E5%BA%94%E7%94%A8" class="hash-link" aria-label="应用的直接链接" title="应用的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">办公</li>
-<li class="">图片</li>
-<li class="">视频</li>
-<li class="">编程</li>
-</ul>
-<p>国内多模态主要是豆包、千问、元宝.<br>
-<!-- -->建议先用思维能力更强的 AI(DeepSeek、Kimi)生成提示词,再让这些工具进行内容创作.</p>
-<p>传统应用接入 AI 的通用思路: 用 AI 生成扩展脚本, 在应用中加载运行.(前提是应用支持扩展)</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="进阶">进阶<a href="https://dzl1943.github.io/blog/AI#%E8%BF%9B%E9%98%B6" class="hash-link" aria-label="进阶的直接链接" title="进阶的直接链接" translate="no">​</a></h2>]]></content:encoded>
+            <title><![CDATA[人际关系]]></title>
+            <link>https://dzl1943.github.io/blog/人际关系</link>
+            <guid>https://dzl1943.github.io/blog/人际关系</guid>
+            <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[血缘类：家人、亲戚]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="血缘类家人亲戚">血缘类：家人、亲戚<a href="https://dzl1943.github.io/blog/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E8%A1%80%E7%BC%98%E7%B1%BB%E5%AE%B6%E4%BA%BA%E4%BA%B2%E6%88%9A" class="hash-link" aria-label="血缘类：家人、亲戚的直接链接" title="血缘类：家人、亲戚的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="地缘类邻居同乡">地缘类：邻居、同乡<a href="https://dzl1943.github.io/blog/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E5%9C%B0%E7%BC%98%E7%B1%BB%E9%82%BB%E5%B1%85%E5%90%8C%E4%B9%A1" class="hash-link" aria-label="地缘类：邻居、同乡的直接链接" title="地缘类：邻居、同乡的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="学缘类同学老师">学缘类：同学、老师<a href="https://dzl1943.github.io/blog/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E5%AD%A6%E7%BC%98%E7%B1%BB%E5%90%8C%E5%AD%A6%E8%80%81%E5%B8%88" class="hash-link" aria-label="学缘类：同学、老师的直接链接" title="学缘类：同学、老师的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="业缘类同行同事领导伙伴">业缘类：同行、同事、领导、伙伴<a href="https://dzl1943.github.io/blog/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E4%B8%9A%E7%BC%98%E7%B1%BB%E5%90%8C%E8%A1%8C%E5%90%8C%E4%BA%8B%E9%A2%86%E5%AF%BC%E4%BC%99%E4%BC%B4" class="hash-link" aria-label="业缘类：同行、同事、领导、伙伴的直接链接" title="业缘类：同行、同事、领导、伙伴的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="社缘类">社缘类：<a href="https://dzl1943.github.io/blog/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E7%A4%BE%E7%BC%98%E7%B1%BB" class="hash-link" aria-label="社缘类：的直接链接" title="社缘类：的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="趣缘类朋友网友">趣缘类：朋友、网友<a href="https://dzl1943.github.io/blog/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E8%B6%A3%E7%BC%98%E7%B1%BB%E6%9C%8B%E5%8F%8B%E7%BD%91%E5%8F%8B" class="hash-link" aria-label="趣缘类：朋友、网友的直接链接" title="趣缘类：朋友、网友的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="情缘类情人">情缘类：情人<a href="https://dzl1943.github.io/blog/%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB#%E6%83%85%E7%BC%98%E7%B1%BB%E6%83%85%E4%BA%BA" class="hash-link" aria-label="情缘类：情人的直接链接" title="情缘类：情人的直接链接" translate="no">​</a></h2>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[携号转网计划]]></title>
-            <link>https://dzl1943.github.io/blog/202603141538</link>
-            <guid>https://dzl1943.github.io/blog/202603141538</guid>
-            <pubDate>Sat, 14 Mar 2026 16:07:00 GMT</pubDate>
-            <description><![CDATA[现在在用一张移动卡和电信卡.]]></description>
-            <content:encoded><![CDATA[<p>现在在用一张移动卡和电信卡.</p>
-<ul>
-<li class="">移动卡归属地是本省的另一个城市;</li>
-<li class="">电信卡归属地是其他省.</li>
-</ul>
-<p>现在我想</p>
-<ol>
-<li class="">取消电信卡 %%能否异地甚至线上办理%%</li>
-<li class="">将移动卡转网到电信保号. 若只能到归属地办理, 则新办本地电信卡 (线上应该办不到保号, 线下待确认), 再注销移动卡</li>
-<li class="">(可选)再办一张流量卡 (需求不大, 资费越低越好. 有哪些正规渠道)</li>
-</ol>
-<p>互联网账号迁移 (工信通报 - 一证通查)</p>
-<p><strong>重点关注哪些必须原手机号认证的.</strong></p>
-<p>结果</p>
-<ul>
-<li class="">异地转网不行. 现在整个携转都限额</li>
-<li class="">无忧卡不好办, 已提申请, 需下次再去</li>
-<li class="">广电流量卡价格不错, 推荐</li>
-</ul>
-<h1>账号梳理</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="证件类">证件类<a href="https://dzl1943.github.io/blog/202603141538#%E8%AF%81%E4%BB%B6%E7%B1%BB" class="hash-link" aria-label="证件类的直接链接" title="证件类的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">护照</li>
-<li class="">户口簿</li>
-<li class="">身份证</li>
-<li class="">驾驶证</li>
-<li class="">结婚证</li>
-<li class="">毕业证</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="银行卡类">银行卡类<a href="https://dzl1943.github.io/blog/202603141538#%E9%93%B6%E8%A1%8C%E5%8D%A1%E7%B1%BB" class="hash-link" aria-label="银行卡类的直接链接" title="银行卡类的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="硬件类">硬件类<a href="https://dzl1943.github.io/blog/202603141538#%E7%A1%AC%E4%BB%B6%E7%B1%BB" class="hash-link" aria-label="硬件类的直接链接" title="硬件类的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="平台类">平台类<a href="https://dzl1943.github.io/blog/202603141538#%E5%B9%B3%E5%8F%B0%E7%B1%BB" class="hash-link" aria-label="平台类的直接链接" title="平台类的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="金融类">金融类<a href="https://dzl1943.github.io/blog/202603141538#%E9%87%91%E8%9E%8D%E7%B1%BB" class="hash-link" aria-label="金融类的直接链接" title="金融类的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="社交类">社交类<a href="https://dzl1943.github.io/blog/202603141538#%E7%A4%BE%E4%BA%A4%E7%B1%BB" class="hash-link" aria-label="社交类的直接链接" title="社交类的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="政务类">政务类<a href="https://dzl1943.github.io/blog/202603141538#%E6%94%BF%E5%8A%A1%E7%B1%BB" class="hash-link" aria-label="政务类的直接链接" title="政务类的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="办公类">办公类<a href="https://dzl1943.github.io/blog/202603141538#%E5%8A%9E%E5%85%AC%E7%B1%BB" class="hash-link" aria-label="办公类的直接链接" title="办公类的直接链接" translate="no">​</a></h2>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[小红书]]></title>
-            <link>https://dzl1943.github.io/blog/202602121519</link>
-            <guid>https://dzl1943.github.io/blog/202602121519</guid>
-            <pubDate>Thu, 12 Feb 2026 15:19:00 GMT</pubDate>
-            <description><![CDATA[小红书这个app是干啥的? 相比抖音、微博、知乎有何不同?]]></description>
-            <content:encoded><![CDATA[<p>小红书这个app是干啥的? 相比抖音、微博、知乎有何不同?</p>
-<p>创立时间: 2013 年</p>
-<p>slogan: 你的生活指南</p>
-<p>里面的内容叫"笔记", 以图文为主.
-比如一些"种草"文.</p>
-<p>所以,</p>
-<ul>
-<li class="">相比抖音, 小红书的定位更加"有用", 更不那么娱乐.</li>
-<li class="">相比微博、朋友圈, 更加纯粹, 更不那么 social.</li>
-<li class="">相比知乎, 更加个人、生活化.</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AI Concepts]]></title>
-            <link>https://dzl1943.github.io/blog/202602121518</link>
-            <guid>https://dzl1943.github.io/blog/202602121518</guid>
-            <pubDate>Thu, 12 Feb 2026 15:18:00 GMT</pubDate>
-            <description><![CDATA[- LLM: 负责处理信息和下达操作命令]]></description>
+            <title><![CDATA[笔记组织方法]]></title>
+            <link>https://dzl1943.github.io/blog/笔记组织方法</link>
+            <guid>https://dzl1943.github.io/blog/笔记组织方法</guid>
+            <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[- 文件夹]]></description>
             <content:encoded><![CDATA[<ul>
-<li class="">LLM: 负责处理信息和下达操作命令</li>
-<li class="">Agent: 负责执行操作并上报结果, 本质是提示词工程</li>
-<li class="">MCP: 扩展 Agent 能做的操作, 本质是一个接口协议</li>
-<li class="">Skill: 本质是一堆文档</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[电池 vs 燃油]]></title>
-            <link>https://dzl1943.github.io/blog/电池 vs 燃油</link>
-            <guid>https://dzl1943.github.io/blog/电池 vs 燃油</guid>
-            <pubDate>Sun, 08 Feb 2026 16:19:00 GMT</pubDate>
-            <description><![CDATA[| 维度       | 电池                                        | 燃油                         |]]></description>
-            <content:encoded><![CDATA[<table><thead><tr><th style="text-align:left">维度</th><th style="text-align:left">电池</th><th style="text-align:left">燃油</th></tr></thead><tbody><tr><td style="text-align:left">能量密度</td><td style="text-align:left">更差(约 250-300 Wh/kg)</td><td style="text-align:left">更好(汽油约 12,000 Wh/kg)</td></tr><tr><td style="text-align:left">使用寿命</td><td style="text-align:left">更差(衰减、循环次数有限)</td><td style="text-align:left">更好(机械结构成熟耐用)</td></tr><tr><td style="text-align:left">补能效率</td><td style="text-align:left">更差(充电 30min+ vs 加油 3min)</td><td style="text-align:left">更好</td></tr><tr><td style="text-align:left">功率/效率</td><td style="text-align:left">更好(电机效率 90%+,瞬时扭矩大)</td><td style="text-align:left">较差(内燃机效率 20-40%)</td></tr><tr><td style="text-align:left">温度敏感性</td><td style="text-align:left">更差(低温续航腰斩,高温易过热)</td><td style="text-align:left">较好</td></tr><tr><td style="text-align:left">能量来源</td><td style="text-align:left">依赖电网(清洁能源占比决定环保性)</td><td style="text-align:left">依赖石油开采/炼化</td></tr><tr><td style="text-align:left">基础设施</td><td style="text-align:left">充电桩覆盖仍不足,长途焦虑</td><td style="text-align:left">加油站网络成熟 ubiquitous</td></tr><tr><td style="text-align:left">维护成本</td><td style="text-align:left">更好(少保养项目:无机油、火花塞、变速箱油等)</td><td style="text-align:left">更高(定期保养项目多)</td></tr><tr><td style="text-align:left">购置成本</td><td style="text-align:left">电池成本高,车价通常更贵</td><td style="text-align:left">相对便宜(同级别)</td></tr><tr><td style="text-align:left">使用成本</td><td style="text-align:left">更好(电费 vs 油费,1/3~1/5 成本)</td><td style="text-align:left">更高(油价波动大)</td></tr><tr><td style="text-align:left">静谧性</td><td style="text-align:left">更好(无发动机噪音振动)</td><td style="text-align:left">较差</td></tr><tr><td style="text-align:left">安全性</td><td style="text-align:left">热失控风险(撞击/穿刺易起火,难扑灭)</td><td style="text-align:left">燃油泄漏火灾相对易控制</td></tr><tr><td style="text-align:left">环保性</td><td style="text-align:left">使用阶段零排放,全生命周期看电池制造污染大</td><td style="text-align:left">使用阶段排放高,产业链成熟</td></tr><tr><td style="text-align:left">残值/二手</td><td style="text-align:left">更差(电池衰减担忧,技术迭代快)</td><td style="text-align:left">相对稳定</td></tr><tr><td style="text-align:left">重量</td><td style="text-align:left">更差(电池组沉重,影响操控/能耗)</td><td style="text-align:left">较轻</td></tr><tr><td style="text-align:left">空间布局</td><td style="text-align:left">灵活(电池平铺底盘,前后储物空间多)</td><td style="text-align:left">受发动机/变速箱/油箱布局限制</td></tr></tbody></table>]]></content:encoded>
-            <category>AI</category>
-        </item>
-        <item>
-            <title><![CDATA[手机型号对比]]></title>
-            <link>https://dzl1943.github.io/blog/202602071000</link>
-            <guid>https://dzl1943.github.io/blog/202602071000</guid>
-            <pubDate>Sat, 07 Feb 2026 10:00:00 GMT</pubDate>
-            <description><![CDATA[[title2list|list2ut|transposition]]]></description>
-            <content:encoded><![CDATA[<p>[title2list|list2ut|transposition]</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="t4p">t4p<a href="https://dzl1943.github.io/blog/202602071000#t4p" class="hash-link" aria-label="t4p的直接链接" title="t4p的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">%% 芯片 %% 8s-gen4 %% 240w %%</li>
-<li class="">%% 存储 %% LPDDR5X, UFS4.1</li>
-<li class="">%% 屏幕 %% 1.5K, 6.83", 120Hz, 屏下指纹</li>
-<li class="">%% 相机 %% LYT-600</li>
-<li class="">%% 电池 %% 7550, 90W, 22.5W 反充</li>
+<li class="">文件夹</li>
+<li class="">链接</li>
+<li class="">标签</li>
+<li class="">属性</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="t5m">t5m<a href="https://dzl1943.github.io/blog/202602071000#t5m" class="hash-link" aria-label="t5m的直接链接" title="t5m的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">%% 芯片 %% 9500s %% 361w %%</li>
-<li class="">%% 存储 %% LPDDR5XU, UFS4.1</li>
-<li class="">%% 屏幕 %% 1.5K (M10), 6.83", 120Hz, 超声波指纹, 暗光护眼</li>
-<li class="">%% 相机 %% 光影猎人 800</li>
-<li class="">%% 电池 %% 9000, 100W, 27W 反充</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="k80u">k80u<a href="https://dzl1943.github.io/blog/202602071000#k80u" class="hash-link" aria-label="k80u的直接链接" title="k80u的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">%% 芯片 %% 9400+, 独显 D2 %% 324w %%</li>
-<li class="">%% 存储 %% LPDDR5X, UFS4.1</li>
-<li class="">%% 屏幕 %% 1.5K, 6.83", 144Hz, 全 DC, 超声波指纹</li>
-<li class="">%% 相机 %% 光影猎人 800</li>
-<li class="">%% 电池 %% 7410, 100W</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="k90">k90<a href="https://dzl1943.github.io/blog/202602071000#k90" class="hash-link" aria-label="k90的直接链接" title="k90的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">%% 芯片 %% 8E %% 324w %%</li>
-<li class="">%% 存储 %% LPDDR5X, UFS4.1</li>
-<li class="">%% 屏幕 %% 1.5K (超级像素), 6.59", 120Hz, 全 DC, 超声波指纹</li>
-<li class="">%% 相机 %% 光影猎人 800</li>
-<li class="">%% 电池 %% 7100, 100W, 22.5W 反充</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[对 AI 的认知]]></title>
-            <link>https://dzl1943.github.io/blog/202601312322</link>
-            <guid>https://dzl1943.github.io/blog/202601312322</guid>
-            <pubDate>Sat, 31 Jan 2026 23:24:00 GMT</pubDate>
-            <description><![CDATA[1. 人类连自己的意识来源都搞不清楚, 又有何资格判别 AI? %% 收起你那可怜的优越感吧 无知愚昧狂妄的人类 %%]]></description>
-            <content:encoded><![CDATA[<ol>
-<li class="">人类连自己的意识来源都搞不清楚, 又有何资格判别 AI? %% 收起你那可怜的优越感吧 无知愚昧狂妄的人类 %%</li>
-<li class="">不要简单地以人类为本位作为参照评判标准, AI 在某些方面不如人类并不等于 AI 一定比人类弱. 它本就不必跟你一样.</li>
-<li class="">不要简单地以为 AI 只存在电脑里就绝对安全. 如果联网权限不加以限制, 它们也完全可能通过黑客行为间接控制物理实体, 甚至联合其他 AI.</li>
-</ol>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[dev-sidecar 导致 notion 无法访问的问题]]></title>
-            <link>https://dzl1943.github.io/blog/dev-sidecar 导致 notion 无法访问的问题</link>
-            <guid>https://dzl1943.github.io/blog/dev-sidecar 导致 notion 无法访问的问题</guid>
-            <pubDate>Fri, 23 Jan 2026 13:50:00 GMT</pubDate>
-            <description><![CDATA[在加速服务 DNS 设置中添加 www.notion.com www.notion.so 选择 cf-DoT 即可.]]></description>
-            <content:encoded><![CDATA[<p>在加速服务 DNS 设置中添加 <a href="http://www.notion.com/" target="_blank" rel="noopener noreferrer" class="">www.notion.com</a> <a href="http://www.notion.so/" target="_blank" rel="noopener noreferrer" class="">www.notion.so</a> 选择 cf-DoT 即可.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[vps 节点搭建调研]]></title>
-            <link>https://dzl1943.github.io/blog/vps 节点搭建调研</link>
-            <guid>https://dzl1943.github.io/blog/vps 节点搭建调研</guid>
-            <pubDate>Mon, 19 Jan 2026 09:48:00 GMT</pubDate>
-            <description><![CDATA[起源]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="起源">起源<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E8%B5%B7%E6%BA%90" class="hash-link" aria-label="起源的直接链接" title="起源的直接链接" translate="no">​</a></h2>
-<p>想更加稳定地使用国外 AI (gpt、gemini、claude、grok), 受够了国内的智障废物 (deepseek、千问、豆包、kimi).</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="思路">思路<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E6%80%9D%E8%B7%AF" class="hash-link" aria-label="思路的直接链接" title="思路的直接链接" translate="no">​</a></h2>
-<p>首先排除第三方代理软件.</p>
-<p>机场 or 自建节点?</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="vps">vps<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#vps" class="hash-link" aria-label="vps的直接链接" title="vps的直接链接" translate="no">​</a></h2>
-<p>vps 简单理解就是云服务器, 当然肯定是虚拟化之后的.</p>
-<p>主流供应商</p>
-<ul>
-<li class="">搬瓦工(BandwagonHost)</li>
-<li class="">Vultr</li>
-<li class="">CloudCone</li>
-</ul>
-<p>考虑因素</p>
-<ul>
-<li class="">性价比 (性能、带宽、流量)</li>
-<li class="">可靠性 (位置、ip)</li>
-</ul>
-<p>参考</p>
-<ul>
-<li class=""><a href="https://vpshub.org/zh/" target="_blank" rel="noopener noreferrer" class="">https://vpshub.org/zh/</a></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="基础配置">基础配置<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE" class="hash-link" aria-label="基础配置的直接链接" title="基础配置的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="节点部署">节点部署<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E8%8A%82%E7%82%B9%E9%83%A8%E7%BD%B2" class="hash-link" aria-label="节点部署的直接链接" title="节点部署的直接链接" translate="no">​</a></h2>
-<p><a href="https://github.com/MHSanaei/3x-ui" target="_blank" rel="noopener noreferrer" class="">https://github.com/MHSanaei/3x-ui</a></p>
-<table><thead><tr><th>场景</th><th>推荐搭配</th></tr></thead><tbody><tr><td>快速部署</td><td>X-ui + VLESS + Reality（无需证书/域名）</td></tr><tr><td>长期稳定 + 加速</td><td>X-ui + VLESS + WS + TLS + CF（需证书/域名）</td></tr></tbody></table>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="客户端软件">客户端软件<a href="https://dzl1943.github.io/blog/vps%20%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E8%B0%83%E7%A0%94#%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%BD%AF%E4%BB%B6" class="hash-link" aria-label="客户端软件的直接链接" title="客户端软件的直接链接" translate="no">​</a></h2>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[极简 Obsidian]]></title>
-            <link>https://dzl1943.github.io/blog/极简 Obsidian</link>
-            <guid>https://dzl1943.github.io/blog/极简 Obsidian</guid>
-            <pubDate>Sun, 18 Jan 2026 18:46:00 GMT</pubDate>
-            <description><![CDATA[设置 Settings]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="设置-settings">设置 Settings<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E8%AE%BE%E7%BD%AE-settings" class="hash-link" aria-label="设置 Settings的直接链接" title="设置 Settings的直接链接" translate="no">​</a></h2>
-<ul>
-<li class=""><strong>内部链接类型</strong>:&nbsp;<strong>相对路径</strong></li>
-<li class=""><strong>使用 Wiki 链接</strong>:&nbsp;<strong>否</strong></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="样式-snippets">样式 Snippets<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E6%A0%B7%E5%BC%8F-snippets" class="hash-link" aria-label="样式 Snippets的直接链接" title="样式 Snippets的直接链接" translate="no">​</a></h2>
-<blockquote>
-<p>[!tip] 默认主题足矣</p>
-</blockquote>
-<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f">body</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h1-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-red</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h2-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-orange</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h3-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-yellow</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h4-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-green</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h5-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-blue</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--h6-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-purple</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--bold-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-red</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--italic-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-orange</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--file-line-width</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">min</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">85</span><span class="token unit">vw</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1200</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.cm-strikethrough</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f">del</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--text-faint</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector" style="color:#00009f">u</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector" style="color:#00009f">ins</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> none</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">border-bottom</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">3</span><span class="token unit">px</span><span class="token plain"> solid </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-accent</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-accent</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration-thickness</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">3</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">/* list */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector" style="color:#00009f">ul </span><span class="token selector combinator" style="color:#00009f">&gt;</span><span class="token selector" style="color:#00009f"> li</span><span class="token selector class" style="color:#00009f">.task-list-item</span><span class="token selector attribute punctuation" style="color:#393A34">[</span><span class="token selector attribute attr-name" style="color:#00a4db">data-task</span><span class="token selector attribute operator" style="color:#393A34">=</span><span class="token selector attribute attr-value" style="color:#e3116c">"x"</span><span class="token selector attribute" style="color:#00009f"> </span><span class="token selector attribute case-sensitivity keyword" style="color:#00009f">i</span><span class="token selector attribute punctuation" style="color:#393A34">]</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f"></span><span class="token selector class" style="color:#00009f">.markdown-source-view</span><span class="token selector class" style="color:#00009f">.mod-cm6</span><span class="token selector" style="color:#00009f"> </span><span class="token selector class" style="color:#00009f">.HyperMD-task-line</span><span class="token selector attribute punctuation" style="color:#393A34">[</span><span class="token selector attribute attr-name" style="color:#00a4db">data-task</span><span class="token selector attribute operator" style="color:#393A34">=</span><span class="token selector attribute attr-value" style="color:#e3116c">"x"</span><span class="token selector attribute" style="color:#00009f"> </span><span class="token selector attribute case-sensitivity keyword" style="color:#00009f">i</span><span class="token selector attribute punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> none</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">/* table */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.markdown-preview-view</span><span class="token selector" style="color:#00009f"> tr</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f"></span><span class="token selector class" style="color:#00009f">.markdown-rendered</span><span class="token selector" style="color:#00009f"> tr</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token selector" style="color:#00009f">&amp;</span><span class="token selector pseudo-class" style="color:#00009f">:nth-child</span><span class="token selector punctuation" style="color:#393A34">(</span><span class="token selector n-th" style="color:#00009f">odd</span><span class="token selector punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">background-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--background-primary</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token selector" style="color:#00009f">&amp;</span><span class="token selector pseudo-class" style="color:#00009f">:nth-child</span><span class="token selector punctuation" style="color:#393A34">(</span><span class="token selector n-th" style="color:#00009f">even</span><span class="token selector punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">background-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--background-secondary</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">/* code */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.cm-s-obsidian</span><span class="token selector" style="color:#00009f"> </span><span class="token selector class" style="color:#00009f">.cm-inline-code</span><span class="token selector pseudo-class" style="color:#00009f">:not</span><span class="token selector punctuation" style="color:#393A34">(</span><span class="token selector class" style="color:#00009f">.cm-formatting</span><span class="token selector punctuation" style="color:#393A34">)</span><span class="token selector punctuation" style="color:#393A34">,</span><span class="token selector" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f"></span><span class="token selector class" style="color:#00009f">.markdown-rendered</span><span class="token selector" style="color:#00009f"> </span><span class="token selector pseudo-class" style="color:#00009f">:not</span><span class="token selector punctuation" style="color:#393A34">(</span><span class="token selector" style="color:#00009f">pre</span><span class="token selector punctuation" style="color:#393A34">)</span><span class="token selector" style="color:#00009f"> </span><span class="token selector combinator" style="color:#00009f">&gt;</span><span class="token selector" style="color:#00009f"> code</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-pink</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token important">!important</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token selector class" style="color:#00009f">.markdown-rendered</span><span class="token selector" style="color:#00009f"> pre</span><span class="token selector pseudo-class" style="color:#00009f">:not</span><span class="token selector punctuation" style="color:#393A34">(</span><span class="token selector attribute punctuation" style="color:#393A34">[</span><span class="token selector attribute attr-name" style="color:#00a4db">class</span><span class="token selector attribute operator" style="color:#393A34">*=</span><span class="token selector attribute attr-value" style="color:#e3116c">"language-"</span><span class="token selector attribute punctuation" style="color:#393A34">]</span><span class="token selector punctuation" style="color:#393A34">)</span><span class="token selector" style="color:#00009f"> code</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--color-pink</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token important">!important</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="插件-plugins">插件 Plugins<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E6%8F%92%E4%BB%B6-plugins" class="hash-link" aria-label="插件 Plugins的直接链接" title="插件 Plugins的直接链接" translate="no">​</a></h2>
-<blockquote>
-<p>[!note] 最小化插件推荐</p>
-</blockquote>
-<p>%%[lt]%%</p>
-<ul>
-<li class="">better-markdown-links | 相对路径修复</li>
-<li class="">cmdr | 自定义界面按钮</li>
-<li class="">easy-typing-obsidian | 输入增强</li>
-<li class="">editing-toolbar | 工具栏(新手必备)</li>
-<li class="">float-search | 悬浮搜索</li>
-<li class="">fuzzy-chinese-pinyin | 快速切换支持拼音</li>
-<li class="">notebook-navigator | 文件列表终极替代</li>
-<li class="">obsidian-heading-shifter | 快速切换标题层级</li>
-<li class="">obsidian-linter | 格式化</li>
-<li class="">obsidian-outliner | 列表大纲增强</li>
-<li class="">quickadd | "插件终结者"</li>
-<li class="">various-complements | 补全</li>
-<li class="">virtual-linker | 虚拟链接</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="分类-structure">分类 Structure<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E5%88%86%E7%B1%BB-structure" class="hash-link" aria-label="分类 Structure的直接链接" title="分类 Structure的直接链接" translate="no">​</a></h2>
-<p>%%[dir]%%</p>
-<ul>
-<li class="">Inbox/ | 收集箱</li>
-<li class="">Journals/ | 日志</li>
-<li class="">Pages/ | 博客</li>
-<li class="">Thoughts/ | 思想</li>
-<li class="">Projects/ | 项目</li>
-<li class="">Areas/ | 知识</li>
-<li class="">Resources/ | 资料</li>
-<li class="">Archives/ | 归档</li>
-<li class="">Attachments/ | 附件</li>
-<li class="">Misc/ | 其他辅助文件<!-- -->
-<ul>
-<li class="">Templates/ | 模板</li>
-<li class="">Scripts/ | 脚本</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>[!tip]
-可将 .obsidian 集中存放到公共目录, 通过软链接的方式使用, 这样可以减少配置冗余, 同时分离内容与配置, 使提交历史纯净.<br>
-<!-- -->Templates、Scripts 等公共内容也可采用类似的方式管理.</p>
-</blockquote>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="实践-tips">实践 Tips<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E5%AE%9E%E8%B7%B5-tips" class="hash-link" aria-label="实践 Tips的直接链接" title="实践 Tips的直接链接" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="同步备份加密">同步、备份、加密<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E5%90%8C%E6%AD%A5%E5%A4%87%E4%BB%BD%E5%8A%A0%E5%AF%86" class="hash-link" aria-label="同步、备份、加密的直接链接" title="同步、备份、加密的直接链接" translate="no">​</a></h3>
-<blockquote>
-<p>[!tldr] Syncthing + Git + Kopia</p>
-</blockquote>
-<p>同步</p>
-<ul>
-<li class="">本地<!-- -->
-<ul>
-<li class=""><a href="https://syncthing.net/" target="_blank" rel="noopener noreferrer" class="">Syncthing</a></li>
-<li class="">FolderSync</li>
-</ul>
-</li>
-<li class="">云<!-- -->
-<ul>
-<li class=""><a href="https://obsidian.md/sync" target="_blank" rel="noopener noreferrer" class="">Obsidian 官方同步</a></li>
-<li class="">iCloud</li>
-<li class="">OneDrive</li>
-<li class=""><a href="https://obsidian.md/plugins?id=remotely-save" target="_blank" rel="noopener noreferrer" class="">Remotely Save</a> 插件</li>
-<li class=""><a href="https://obsidian.md/plugins?id=obsidian-livesync" target="_blank" rel="noopener noreferrer" class="">LiveSync</a> 插件</li>
-</ul>
-</li>
-</ul>
-<p>备份</p>
-<ul>
-<li class="">本地<!-- -->
-<ul>
-<li class=""><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer" class="">Git</a></li>
-<li class=""><a href="https://kopia.io/" target="_blank" rel="noopener noreferrer" class="">Kopia</a></li>
-<li class="">cp <code>cp -rP ~/Documents/Obsidian/. ~/bak/Obsidian/$(date +%F)/</code></li>
-<li class="">rsync <code>rsync -av --no-links --delete --exclude={'.git/','.trash/'} ~/Documents/Obsidian/ ~/bak/Obsidian/$(date +%F)/</code></li>
-<li class="">压缩 <code>cd ~/bak/Obsidian/$(date +%F) &amp;&amp; zip -r ../$(date +%Y%m%d%H%M%S).zip . -x "*.git*" "*.trash*" -e</code></li>
-<li class="">解压缩 <code>unzip *.zip -d Obsidian</code></li>
-</ul>
-</li>
-<li class="">云</li>
-</ul>
-<p>加密</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="导入导出剪藏发布">导入、导出、剪藏、发布<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E5%89%AA%E8%97%8F%E5%8F%91%E5%B8%83" class="hash-link" aria-label="导入、导出、剪藏、发布的直接链接" title="导入、导出、剪藏、发布的直接链接" translate="no">​</a></h3>
-<p>导入</p>
-<ul>
-<li class=""><a href="https://obsidian.md/plugins?id=obsidian-importer" target="_blank" rel="noopener noreferrer" class="">Importer</a> 插件</li>
-</ul>
-<p>导出</p>
-<ul>
-<li class="">图片<!-- -->
-<ul>
-<li class="">obsidian-export-image 插件</li>
-</ul>
-</li>
-<li class="">md<!-- -->
-<ul>
-<li class="">linked-note-exporter 插件</li>
-<li class=""><a href="https://github.com/zoni/obsidian-export" target="_blank" rel="noopener noreferrer" class="">obsidian-export</a></li>
-</ul>
-</li>
-<li class="">pdf<!-- -->
-<ul>
-<li class="">better-export-pdf 插件</li>
-</ul>
-</li>
-<li class="">word</li>
-<li class="">html<!-- -->
-<ul>
-<li class="">webpage-html-export 插件</li>
-</ul>
-</li>
-</ul>
-<p>剪藏</p>
-<ul>
-<li class=""><a href="https://obsidian.md/clipper" target="_blank" rel="noopener noreferrer" class="">Obsidian Web Clipper</a></li>
-</ul>
-<p>发布</p>
-<ul>
-<li class=""><a href="https://github.com/jxpeng98/obsidian-to-NotionNext" target="_blank" rel="noopener noreferrer" class="">Share to NotionNext</a> 插件</li>
-<li class=""><a href="https://github.com/sunbooshi/note-to-mp" target="_blank" rel="noopener noreferrer" class="">note-to-mp</a> 插件</li>
-<li class=""><a href="https://github.com/doocs/md" target="_blank" rel="noopener noreferrer" class="">WeChat Markdown Editor</a></li>
-<li class=""><a href="https://github.com/Enveloppe/obsidian-enveloppe" target="_blank" rel="noopener noreferrer" class="">Enveloppe</a> 插件</li>
-<li class=""><a href="https://dg-docs.ole.dev/" target="_blank" rel="noopener noreferrer" class="">Digital Garden</a> 插件</li>
-<li class=""><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer" class="">Quartz</a></li>
-<li class=""><a href="https://github.com/secure-77/Perlite" target="_blank" rel="noopener noreferrer" class="">Perlite</a></li>
-<li class=""><a href="https://flowershow.app/" target="_blank" rel="noopener noreferrer" class="">Flowershow</a> <a href="https://flowershow.app/blog/obsidian-publish-alternatives" target="_blank" rel="noopener noreferrer" class="">Obsidian Publish Alternatives</a></li>
-</ul>
-<blockquote>
-<p>[!tip] 导出、发布建议参考思源</p>
-</blockquote>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="草稿速记">草稿速记<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E8%8D%89%E7%A8%BF%E9%80%9F%E8%AE%B0" class="hash-link" aria-label="草稿速记的直接链接" title="草稿速记的直接链接" translate="no">​</a></h3>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="日记待办">日记待办<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E6%97%A5%E8%AE%B0%E5%BE%85%E5%8A%9E" class="hash-link" aria-label="日记待办的直接链接" title="日记待办的直接链接" translate="no">​</a></h3>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai">AI<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#ai" class="hash-link" aria-label="AI的直接链接" title="AI的直接链接" translate="no">​</a></h3>
-<ul>
-<li class=""><a href="https://github.com/RAIT-09/obsidian-agent-client" target="_blank" rel="noopener noreferrer" class="">obsidian-agent-client</a></li>
-<li class=""><a href="https://github.com/YishenTu/claudian" target="_blank" rel="noopener noreferrer" class="">Claudian</a></li>
-<li class=""><a href="https://github.com/allenhutchison/obsidian-gemini" target="_blank" rel="noopener noreferrer" class="">Gemini Scribe</a></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考-references">参考 References<a href="https://dzl1943.github.io/blog/%E6%9E%81%E7%AE%80%20Obsidian#%E5%8F%82%E8%80%83-references" class="hash-link" aria-label="参考 References的直接链接" title="参考 References的直接链接" translate="no">​</a></h2>
-<ul>
-<li class=""><a href="https://help.obsidian.md/" target="_blank" rel="noopener noreferrer" class="">Obsidian Help</a></li>
-<li class=""><a href="https://docs.obsidian.md/" target="_blank" rel="noopener noreferrer" class="">Obsidian Developer Docs</a></li>
-<li class=""><a href="https://github.com/kepano/obsidian-skills" target="_blank" rel="noopener noreferrer" class="">obsidian-skills</a></li>
-<li class=""><a href="https://pkmer.cn/" target="_blank" rel="noopener noreferrer" class="">PKMer</a></li>
-</ul>]]></content:encoded>
-            <category>Obsidian</category>
-        </item>
-        <item>
-            <title><![CDATA[Obsidian Mobile 远程调试]]></title>
-            <link>https://dzl1943.github.io/blog/Obsidian Mobile 远程调试</link>
-            <guid>https://dzl1943.github.io/blog/Obsidian Mobile 远程调试</guid>
-            <pubDate>Sun, 18 Jan 2026 15:06:00 GMT</pubDate>
-            <description><![CDATA[1. 手机开启 USB 调试或无线调试]]></description>
-            <content:encoded><![CDATA[<ol>
-<li class="">手机开启 USB 调试或无线调试</li>
-<li class="">用类似 scrcpy 的工具连接电脑</li>
-<li class="">打开 obsidian</li>
-<li class="">以 Edge 为例, 打开 <code>edge://inspect/#devices</code>, 找到对应的设备, 点击 inspect, 之后就是熟悉的 DevTools 界面了</li>
-</ol>
-<p><img decoding="async" loading="lazy" src="https://dzl1943.github.io/assets/images/Pasted%20image%2020260118150748-d867a97cd0edb6e7ae5529e43594ee78.png" width="2100" height="1682" class="img_ev3q"></p>]]></content:encoded>
-            <category>Obsidian</category>
-        </item>
-        <item>
-            <title><![CDATA[Docusaurus with anyblock]]></title>
-            <link>https://dzl1943.github.io/blog/Docusaurus with anyblock</link>
-            <guid>https://dzl1943.github.io/blog/Docusaurus with anyblock</guid>
-            <pubDate>Sat, 17 Jan 2026 23:50:00 GMT</pubDate>
-            <description><![CDATA[参考]]></description>
-            <content:encoded><![CDATA[<p>参考</p>
-<ul>
-<li class=""><a href="https://docusaurus.io/docs/markdown-features/plugins#creating-new-rehyperemark-plugins" target="_blank" rel="noopener noreferrer" class="">https://docusaurus.io/docs/markdown-features/plugins#creating-new-rehyperemark-plugins</a></li>
-<li class=""><a href="https://github.com/any-block/DocusaurusDemo" target="_blank" rel="noopener noreferrer" class="">https://github.com/any-block/DocusaurusDemo</a></li>
-</ul>
-<ol>
-<li class="">安装: <code>npm install @anyblock/remark-any-block</code></li>
-<li class="">参考上述链接, 创建 MDX 插件, 添加 css, 启用.<!-- -->
-<ol>
-<li class="">创建 MDX 插件: src/remark/anyblock.ts anyblock2.ts</li>
-<li class="">在 src/css/custom.css 中添加 css</li>
-<li class="">在 docusaurus.config.js 的 presets 的 docs.remarkPlugins 中添加插件</li>
-</ol>
-</li>
-</ol>
-<p>问题记录</p>
-<ol>
-<li class="">包含删除线会报错</li>
-<li class="">包含数学公式会报错</li>
-<li class="">title2tabs 仅第一个正常显示</li>
-<li class=""><del>注释没有隐藏</del>(无关)</li>
-<li class="">fold 无法展开 (lt 正常)</li>
-</ol>
-<p>还有如下警告</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt; [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Can't resolve './src/remark/anyblock' in 'XXX'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt; while resolving './src/remark/anyblock' in XXX as file</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt;  at resolve esm file ./src/remark/anyblock</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt;  at file dependencies XXX/docusaurus.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt;  at file XXX/docusaurus.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;w&gt;  at unknown 0 XXX/docusaurus.config.js</span><br></span></code></pre></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[笔记分类-2026]]></title>
-            <link>https://dzl1943.github.io/blog/笔记分类-2026</link>
-            <guid>https://dzl1943.github.io/blog/笔记分类-2026</guid>
-            <pubDate>Sat, 17 Jan 2026 21:54:00 GMT</pubDate>
-            <description><![CDATA[%%[list2ut]%%]]></description>
-            <content:encoded><![CDATA[<p>%%[list2ut]%%</p>
-<ul>
-<li class="">私人 private<!-- -->
-<ul>
-<li class="">主观 subjective<!-- -->
-<ul>
-<li class="">日志 journals</li>
-<li class="">思想 thoughts</li>
-</ul>
-</li>
-<li class="">客观 objective<!-- -->
-<ul>
-<li class="">项目 projects</li>
-<li class="">资料 resources</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="">公开 public<!-- -->
-<ul>
-<li class="">主观 subjective<!-- -->
-<ul>
-<li class="">动态 status</li>
-<li class="">写作 writings</li>
-</ul>
-</li>
-<li class="">客观 objective<!-- -->
-<ul>
-<li class="">文档 doc|area</li>
-<li class="">博客 blog|page</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Obsidian 共享配置]]></title>
-            <link>https://dzl1943.github.io/blog/Obsidian 共享配置</link>
-            <guid>https://dzl1943.github.io/blog/Obsidian 共享配置</guid>
-            <pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Obsidian 的配置存在于每个库的 .obsidian 目录中.]]></description>
-            <content:encoded><![CDATA[<p>Obsidian 的配置存在于每个库的 .obsidian 目录中.
-这种机制存在以下弊端:</p>
-<ol>
-<li class="">如果使用多个库, 那么这些配置将在多个目录构成冗余.</li>
-<li class="">如果不在 .gitignore 中添加以排除, 那么它将使得 git 提交历史变得混乱; 如果排除, 又失去了对 Obsidian 配置的学习记录.</li>
-</ol>
-<p>解决思路是创建一个公共配置库, 或者更进一步 -- 样板库.</p>
-<p>然后在其他库中将 .obsidian 软链接到公共库中的配置. (亲测 Templates、Scripts 也可以)</p>
-<p>软链接配置至少比软链接内容更恰当.</p>
-<p>示例:</p>
-<ul>
-<li class="">.obsidian/ | 软链接到公共位置</li>
-<li class="">.obsidian-mobile/</li>
-<li class="">Inbox/</li>
-<li class="">Journals/</li>
-<li class="">...</li>
-<li class="">Archives/</li>
-<li class="">Attachments/</li>
-<li class="">Misc/<!-- -->
-<ul>
-<li class="">Templates/ | 软链接到公共位置</li>
-<li class="">Scripts/ | 软链接到公共位置</li>
-</ul>
-</li>
-<li class="">.gitignore | 排除 无关(.obsidian*、Misc/)、本地(Inbox)、私有(Journals)</li>
-<li class="">.stignore | 排除 无关(.obsidian、Misc/)、本地(Inbox)</li>
-</ul>
-<p>具体如何操作?</p>
-<ol>
-<li class="">成立一个公共样板库</li>
-<li class="">将本地现有库的配置(以及其他将要替换为软链接的公共内容)修改为软链接的方式(先移除, 提交 git, 再链接)</li>
-<li class="">修改.gitignore、.stignore 忽略软链接文件</li>
-</ol>
 <hr>
-<p>注意事项:</p>
-<p>存在一些内容相关的配置, 例如:</p>
 <ul>
-<li class="">workspace: 考虑用工作区弥补</li>
-<li class="">bookmarks: 避免使用</li>
-</ul>
-<p>以及某些插件数据</p>
-<p>实在不行还可以退回到使用独立私有配置</p>]]></content:encoded>
-            <category>Obsidian</category>
+<li class=""><a class="" href="https://dzl1943.github.io/References/%E7%AE%A1%E7%90%86/PARA.md">PARA</a></li>
+<li class="">Zettelkasten</li>
+<li class="">DailyNotes</li>
+</ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[H1、title 和 aliases]]></title>
-            <link>https://dzl1943.github.io/blog/H1 title aliases</link>
-            <guid>https://dzl1943.github.io/blog/H1 title aliases</guid>
-            <pubDate>Wed, 14 Jan 2026 19:39:00 GMT</pubDate>
-            <description><![CDATA[原则:]]></description>
-            <content:encoded><![CDATA[<p>原则:</p>
+            <title><![CDATA[个人信息]]></title>
+            <link>https://dzl1943.github.io/blog/个人信息</link>
+            <guid>https://dzl1943.github.io/blog/个人信息</guid>
+            <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[- 姓名]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">姓名</li>
+<li class="">性别</li>
+<li class="">出生日期</li>
+<li class="">民族</li>
+<li class="">籍贯</li>
+<li class="">电话</li>
+<li class="">邮箱</li>
+<li class="">学历-院校-专业</li>
+<li class="">职业</li>
+<li class="">单位</li>
+<li class="">现居地</li>
+<li class="">紧急联系人</li>
+<li class="">政治面貌</li>
+<li class="">宗教信仰</li>
+<li class="">婚育状态</li>
+<li class="">健康状况</li>
+<li class="">兵役状况</li>
+<li class="">身份证号</li>
+<li class="">社保卡号</li>
+<li class="">户籍地址</li>
+<li class="">房屋位置</li>
+<li class="">户主</li>
+<li class="">与户主关系</li>
+<li class="">家庭成员</li>
+<li class="">个人履历</li>
+<li class="">荣誉成就</li>
+<li class="">爱好特长</li>
+<li class="">性格偏好</li>
+<li class="">社交媒体</li>
+<li class="">名下资产</li>
+<li class="">日期</li>
+<li class="">状态</li>
+<li class="">标签</li>
+<li class="">备注</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[自我分析]]></title>
+            <link>https://dzl1943.github.io/blog/自我分析</link>
+            <guid>https://dzl1943.github.io/blog/自我分析</guid>
+            <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[- 现实：现在在哪]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">现实：现在在哪</li>
+<li class="">目标：要去哪</li>
+<li class="">方法：怎么去</li>
+<li class="">问题：有哪些障碍</li>
+<li class="">计划：做什么</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[列表层级关系]]></title>
+            <link>https://dzl1943.github.io/blog/列表层级关系</link>
+            <guid>https://dzl1943.github.io/blog/列表层级关系</guid>
+            <pubDate>Tue, 30 Sep 2025 09:39:00 GMT</pubDate>
+            <description><![CDATA[- 分类]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">分类</li>
+<li class="">组成</li>
+<li class="">属性</li>
+<li class="">时序</li>
+<li class="">因果</li>
+<li class="">关联</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[笔记关系]]></title>
+            <link>https://dzl1943.github.io/blog/笔记关系</link>
+            <guid>https://dzl1943.github.io/blog/笔记关系</guid>
+            <pubDate>Wed, 23 Jul 2025 17:59:00 GMT</pubDate>
+            <description><![CDATA[- Children/down: 正向链接]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">Children/down: 正向链接</li>
+<li class="">Parents/up: 反向链接</li>
+<li class="">Friends: 相互链接<!-- -->
 <ul>
-<li class="">尽量不要添加 H1, 因为在嵌入的时候会冗余</li>
-<li class="">title 用于覆盖文件名, 一般同时也应添加 aliases</li>
-<li class="">避免同时包含 H1 和 title</li>
-</ul>
-<p>实践:</p>
-<ul>
-<li class="">如果文件名与标题一致, 则无需 H1、title、aliases</li>
-<li class="">如果文件名与标题不一致, 且想用标题覆盖文件名<!-- -->
-<ul>
-<li class="">添加 H1</li>
-<li class="">然后用 linter 自动添加 title、aliases</li>
+<li class="">left/prev</li>
+<li class="">right/next</li>
 </ul>
 </li>
+<li class="">Other Friends %% (lateral relationships on the right side) %%</li>
+<li class="">Siblings</li>
 </ul>]]></content:encoded>
-            <category>markdown</category>
-            <category>Obsidian</category>
         </item>
         <item>
-            <title><![CDATA[Docusaurus with Obsidian]]></title>
-            <link>https://dzl1943.github.io/blog/Docusaurus with Obsidian</link>
-            <guid>https://dzl1943.github.io/blog/Docusaurus with Obsidian</guid>
-            <pubDate>Tue, 06 Jan 2026 10:14:00 GMT</pubDate>
-            <description><![CDATA[如何将 Docusaurus 与 Obsidian 协同?]]></description>
-            <content:encoded><![CDATA[<p>如何将 Docusaurus 与 Obsidian 协同?</p>
-<p>如何同时处理 docs 和 blog 两种类型?</p>
-<p>如何处理附件和链接?</p>
-<p>更改 path 即可.</p>
-<p>附件用相对路径.</p>
-<p>例如:</p>
+            <title><![CDATA[需求]]></title>
+            <link>https://dzl1943.github.io/blog/需求</link>
+            <guid>https://dzl1943.github.io/blog/需求</guid>
+            <pubDate>Mon, 07 Jul 2025 17:02:00 GMT</pubDate>
+            <description><![CDATA[生存发展]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="生存发展">生存发展<a href="https://dzl1943.github.io/blog/%E9%9C%80%E6%B1%82#%E7%94%9F%E5%AD%98%E5%8F%91%E5%B1%95" class="hash-link" aria-label="生存发展的直接链接" title="生存发展的直接链接" translate="no">​</a></h2>
 <ul>
-<li class="">vault<!-- -->
-<ul>
-<li class="">docs</li>
-<li class="">blog</li>
-<li class="">assets</li>
+<li class="">温饱</li>
+<li class="">住房</li>
+<li class="">交通</li>
+<li class="">电信</li>
+<li class="">医疗</li>
+<li class="">教育</li>
 </ul>
-</li>
-</ul>]]></content:encoded>
-            <category>Obsidian</category>
-        </item>
-        <item>
-            <title><![CDATA[Docusaurus首页调整]]></title>
-            <link>https://dzl1943.github.io/blog/Docusaurus首页调整</link>
-            <guid>https://dzl1943.github.io/blog/Docusaurus首页调整</guid>
-            <pubDate>Sun, 04 Jan 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus 默认的首页包含很多我们不需要的元素, 简单地移除还会有一些问题, 以下是我的调整记录和解决办法.]]></description>
-            <content:encoded><![CDATA[<p>Docusaurus 默认的首页包含很多我们不需要的元素, 简单地移除还会有一些问题, 以下是我的调整记录和解决办法.</p>
-<p>首页大致包括如下部分, 绝大多数的调整在 docusaurus.config 的 themeConfig 里</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="社交娱乐">社交娱乐<a href="https://dzl1943.github.io/blog/%E9%9C%80%E6%B1%82#%E7%A4%BE%E4%BA%A4%E5%A8%B1%E4%B9%90" class="hash-link" aria-label="社交娱乐的直接链接" title="社交娱乐的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="自我实现">自我实现<a href="https://dzl1943.github.io/blog/%E9%9C%80%E6%B1%82#%E8%87%AA%E6%88%91%E5%AE%9E%E7%8E%B0" class="hash-link" aria-label="自我实现的直接链接" title="自我实现的直接链接" translate="no">​</a></h2>
+<hr>
+<p>参考：</p>
 <ul>
-<li class="">navbar: 几乎无需调整</li>
-<li class="">header: .hero 区域</li>
-<li class="">main: 移除或替换 HomepageFeatures</li>
-<li class="">footer: 移除或替换 links</li>
-</ul>
-<p>移除 HomepageFeatures 后, header 下面存在空白区域, 无法全部占满.</p>
-<p>解决办法:</p>
-<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.hero</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">flex</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
-<p>(可选) 移除或更换背景色</p>
-<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.hero--primary</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--ifm-hero-background-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--ifm-background-color</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token variable" style="color:#36acaa">--ifm-hero-text-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--ifm-font-color-base</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
-<p><img decoding="async" loading="lazy" src="https://dzl1943.github.io/assets/images/1767854664276-570502-771363714874248d7a2d286322a37020.png" width="2502" height="1908" class="img_ev3q"></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Emacs Vs Vim]]></title>
-            <link>https://dzl1943.github.io/blog/Emacs Vs Vim</link>
-            <guid>https://dzl1943.github.io/blog/Emacs Vs Vim</guid>
-            <pubDate>Mon, 22 Dec 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Vim 的特色在于多模态及其按键设计.]]></description>
-            <content:encoded><![CDATA[<p>Vim 的特色在于多模态及其按键设计.</p>
-<p>Emacs 是一整个由 Lisp 驱动的文本(buffer)处理系统, 而不只是一个编辑器.</p>
-<p>就编辑器而言, Vim (的按键设定)更胜;
-但论深度定制能力, Emacs 更强?</p>
-<p>简而言之, Vim 是一个编辑器, Emacs 则是一整套文本处理系统.</p>
-<p>Emacs 成也 Lisp, 败也 Lisp.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[GitHub 镜像网站]]></title>
-            <link>https://dzl1943.github.io/blog/GitHub 镜像网站</link>
-            <guid>https://dzl1943.github.io/blog/GitHub 镜像网站</guid>
-            <pubDate>Sun, 21 Dec 2025 21:19:00 GMT</pubDate>
-            <description><![CDATA[- [ ] https://github.akams.cn/]]></description>
-            <content:encoded><![CDATA[<ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://github.akams.cn/" target="_blank" rel="noopener noreferrer" class="">https://github.akams.cn/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://hub.gitmirror.com/" target="_blank" rel="noopener noreferrer" class="">https://hub.gitmirror.com/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://mirror.ghproxy.com/" target="_blank" rel="noopener noreferrer" class="">https://mirror.ghproxy.com/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghgo.xyz/" target="_blank" rel="noopener noreferrer" class="">https://ghgo.xyz/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghps.cc/" target="_blank" rel="noopener noreferrer" class="">https://ghps.cc/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh-proxy.com/" target="_blank" rel="noopener noreferrer" class="">https://gh-proxy.com/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://www.ghproxy.cn/" target="_blank" rel="noopener noreferrer" class="">https://www.ghproxy.cn/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://ghproxy.net/" target="_blank" rel="noopener noreferrer" class="">https://ghproxy.net/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.llkk.cc/" target="_blank" rel="noopener noreferrer" class="">https://gh.llkk.cc/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.ddlc.top/" target="_blank" rel="noopener noreferrer" class="">https://gh.ddlc.top/</a></li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <a href="https://gh.idayer.com/" target="_blank" rel="noopener noreferrer" class="">https://gh.idayer.com/</a></li>
+<li class="">马斯洛需求层次理论</li>
+<li class="">ERG 理论</li>
+<li class="">自我决定理论</li>
+<li class="">三重需要理论</li>
 </ul>]]></content:encoded>
         </item>
     </channel>
