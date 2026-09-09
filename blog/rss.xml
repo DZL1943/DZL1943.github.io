@@ -4,7 +4,7 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Mon, 07 Sep 2026 13:01:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2026 18:40:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[20260819_笔记管理的原则]]></title>
             <link>https://dzl1943.github.io/blog/20260819_笔记管理的原则</link>
             <guid>https://dzl1943.github.io/blog/20260819_笔记管理的原则</guid>
-            <pubDate>Mon, 07 Sep 2026 13:01:20 GMT</pubDate>
+            <pubDate>Wed, 09 Sep 2026 18:40:48 GMT</pubDate>
             <description><![CDATA[- 内容为先，减少一切非必要的功能依赖、规则限制]]></description>
             <content:encoded><![CDATA[<ul>
 <li class="">内容为先，减少一切非必要的功能依赖、规则限制</li>
@@ -26,7 +26,7 @@
             <title><![CDATA[图书管理]]></title>
             <link>https://dzl1943.github.io/blog/图书管理</link>
             <guid>https://dzl1943.github.io/blog/图书管理</guid>
-            <pubDate>Mon, 07 Sep 2026 13:01:20 GMT</pubDate>
+            <pubDate>Wed, 09 Sep 2026 18:40:48 GMT</pubDate>
             <description><![CDATA[文学类]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="文学类">文学类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E6%96%87%E5%AD%A6%E7%B1%BB" class="hash-link" aria-label="文学类的直接链接" title="文学类的直接链接" translate="no">​</a></h2>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="历史类">历史类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E5%8E%86%E5%8F%B2%E7%B1%BB" class="hash-link" aria-label="历史类的直接链接" title="历史类的直接链接" translate="no">​</a></h2>
@@ -46,7 +46,7 @@
             <title><![CDATA[影视管理]]></title>
             <link>https://dzl1943.github.io/blog/影视管理</link>
             <guid>https://dzl1943.github.io/blog/影视管理</guid>
-            <pubDate>Mon, 07 Sep 2026 13:01:20 GMT</pubDate>
+            <pubDate>Wed, 09 Sep 2026 18:40:48 GMT</pubDate>
             <description><![CDATA[电影]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="电影">电影<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E7%94%B5%E5%BD%B1" class="hash-link" aria-label="电影的直接链接" title="电影的直接链接" translate="no">​</a></h2>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="动漫">动漫<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E5%8A%A8%E6%BC%AB" class="hash-link" aria-label="动漫的直接链接" title="动漫的直接链接" translate="no">​</a></h2>
@@ -62,7 +62,7 @@
             <title><![CDATA[游戏管理]]></title>
             <link>https://dzl1943.github.io/blog/游戏管理</link>
             <guid>https://dzl1943.github.io/blog/游戏管理</guid>
-            <pubDate>Mon, 07 Sep 2026 13:01:20 GMT</pubDate>
+            <pubDate>Wed, 09 Sep 2026 18:40:48 GMT</pubDate>
             <description><![CDATA[RPG]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="rpg">RPG<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#rpg" class="hash-link" aria-label="RPG的直接链接" title="RPG的直接链接" translate="no">​</a></h2>
 <ul class="contains-task-list containsTaskList_mC6p">
@@ -132,7 +132,7 @@
             <title><![CDATA[音乐管理]]></title>
             <link>https://dzl1943.github.io/blog/音乐管理</link>
             <guid>https://dzl1943.github.io/blog/音乐管理</guid>
-            <pubDate>Mon, 07 Sep 2026 13:01:20 GMT</pubDate>
+            <pubDate>Wed, 09 Sep 2026 18:40:48 GMT</pubDate>
             <description><![CDATA[- Inbox: 待听]]></description>
             <content:encoded><![CDATA[<ul>
 <li class="">Inbox: 待听</li>
@@ -176,6 +176,27 @@
 <li class="">Pass: 听过(有点特色但不喜欢)</li>
 </ul>
 </li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[文件传输]]></title>
+            <link>https://dzl1943.github.io/blog/文件传输</link>
+            <guid>https://dzl1943.github.io/blog/文件传输</guid>
+            <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[通用]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="通用">通用<a href="https://dzl1943.github.io/blog/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93#%E9%80%9A%E7%94%A8" class="hash-link" aria-label="通用的直接链接" title="通用的直接链接" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://pairdrop.net/" target="_blank" rel="noopener noreferrer" class="">https://pairdrop.net/</a> （Web/App）</li>
+<li class=""><a href="https://getcroc.com/" target="_blank" rel="noopener noreferrer" class="">https://getcroc.com/</a> （Web/CLI/App）</li>
+<li class=""><a href="https://localsend.org/" target="_blank" rel="noopener noreferrer" class="">LocalSend</a> （App）</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="电脑之间">电脑之间<a href="https://dzl1943.github.io/blog/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93#%E7%94%B5%E8%84%91%E4%B9%8B%E9%97%B4" class="hash-link" aria-label="电脑之间的直接链接" title="电脑之间的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">Windows 就近共享</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="手机之间">手机之间<a href="https://dzl1943.github.io/blog/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93#%E6%89%8B%E6%9C%BA%E4%B9%8B%E9%97%B4" class="hash-link" aria-label="手机之间的直接链接" title="手机之间的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">设备互联</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -680,32 +701,6 @@
 </li>
 <li class="">Other Friends %% (lateral relationships on the right side) %%</li>
 <li class="">Siblings</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[需求]]></title>
-            <link>https://dzl1943.github.io/blog/需求</link>
-            <guid>https://dzl1943.github.io/blog/需求</guid>
-            <pubDate>Mon, 07 Jul 2025 17:02:00 GMT</pubDate>
-            <description><![CDATA[生存发展]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="生存发展">生存发展<a href="https://dzl1943.github.io/blog/%E9%9C%80%E6%B1%82#%E7%94%9F%E5%AD%98%E5%8F%91%E5%B1%95" class="hash-link" aria-label="生存发展的直接链接" title="生存发展的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">温饱</li>
-<li class="">住房</li>
-<li class="">交通</li>
-<li class="">电信</li>
-<li class="">医疗</li>
-<li class="">教育</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="社交娱乐">社交娱乐<a href="https://dzl1943.github.io/blog/%E9%9C%80%E6%B1%82#%E7%A4%BE%E4%BA%A4%E5%A8%B1%E4%B9%90" class="hash-link" aria-label="社交娱乐的直接链接" title="社交娱乐的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="自我实现">自我实现<a href="https://dzl1943.github.io/blog/%E9%9C%80%E6%B1%82#%E8%87%AA%E6%88%91%E5%AE%9E%E7%8E%B0" class="hash-link" aria-label="自我实现的直接链接" title="自我实现的直接链接" translate="no">​</a></h2>
-<hr>
-<p>参考：</p>
-<ul>
-<li class="">马斯洛需求层次理论</li>
-<li class="">ERG 理论</li>
-<li class="">自我决定理论</li>
-<li class="">三重需要理论</li>
 </ul>]]></content:encoded>
         </item>
     </channel>
