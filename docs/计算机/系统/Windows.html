@@ -11,8 +11,8 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.19d167d2.css">
-<script src="/assets/js/runtime~main.29be04b6.js" defer="defer"></script>
-<script src="/assets/js/main.6ed45903.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.91473a89.js" defer="defer"></script>
+<script src="/assets/js/main.400dac34.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -115,90 +115,12 @@
 </li>
 <li class="">附件</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="软件">软件<a href="#软件" class="hash-link" aria-label="软件的直接链接" title="软件的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">工具类<!-- -->
-<ul>
-<li class="">输入法: 自带</li>
-<li class="">剪切板: win+v</li>
-<li class="">快捷启动<!-- -->
-<ul>
-<li class=""><a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener noreferrer" class="">PowerToys</a></li>
-<li class="">Quicker</li>
-<li class="">AutoHotkey</li>
-<li class="">Everything, EverythingToolbar, EverythingPowerToys</li>
-<li class="">Listary</li>
-</ul>
-</li>
-<li class="">解压缩: NanaZip</li>
-<li class="">截图: win+shift+s</li>
-<li class="">看图<!-- -->
-<ul>
-<li class=""><a href="https://www.irfanview.com/" target="_blank" rel="noopener noreferrer" class="">IrfanView</a></li>
-<li class="">MissiGra</li>
-</ul>
-</li>
-<li class="">录屏</li>
-<li class="">文件传输: LocalSend</li>
-<li class="">共享：FileBrowser, SFTPGo</li>
-<li class="">同步：Syncthing</li>
-<li class="">备份: Duplicati</li>
-<li class="">加密: Cryptomator</li>
-<li class="">安全<!-- -->
-<ul>
-<li class="">360 极速版</li>
-<li class="">火绒</li>
-</ul>
-</li>
-<li class="">沙箱：Sandboxie</li>
-<li class="">虚拟机：VMWare Workstation</li>
-</ul>
-</li>
-<li class="">办公类<!-- -->
-<ul>
-<li class="">Edge 浏览器</li>
-<li class="">WPS</li>
-<li class="">微信、企业微信</li>
-</ul>
-</li>
-<li class="">开发类<!-- -->
-<ul>
-<li class="">WinGet / Scoop / Chocolatey</li>
-<li class="">Git</li>
-<li class="">Node</li>
-<li class="">Python</li>
-<li class="">JDK</li>
-<li class="">VSCode</li>
-<li class=""><a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener noreferrer" class="">Windows Terminal</a>: 选 msixbundle 的那个</li>
-<li class=""><a href="https://github.com/PowerShell/PowerShell" target="_blank" rel="noopener noreferrer" class="">PowerShell</a></li>
-<li class=""><a href="https://learn.microsoft.com/zh-cn/windows/wsl/install" target="_blank" rel="noopener noreferrer" class="">WSL</a></li>
-<li class="">Docker</li>
-<li class="">数据库客户端：HeidiSQL</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>[!NOTE]+ Windows7 兼容版本</p>
-<ul>
-<li class="">Chrome 109</li>
-<li class="">Firefox 115</li>
-<li class="">VSCode 1.70.3</li>
-<li class="">Obsidian 1.1.6</li>
-<li class="">Syncthing 1.25.0</li>
-<li class="">Localsend 1.10.0</li>
-<li class="">Git 2.35.2</li>
-<li class="">Node 13.14</li>
-<li class="">JDK 8u202</li>
-<li class="">Python 3.8</li>
-<li class="">Rust 1.77.2</li>
-<li class="">Docker</li>
-</ul>
-</blockquote>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tips">Tips<a href="#tips" class="hash-link" aria-label="Tips的直接链接" title="Tips的直接链接" translate="no">​</a></h2>
 <ul>
-<li class="">截屏 <code>win+shift+s</code></li>
-<li class="">GameBbar录屏 <code>win+g</code></li>
 <li class="">剪切板历史 <code>win+v</code></li>
+<li class="">截屏 <code>win+shift+s</code></li>
+<li class="">GameBar录屏 <code>win+g</code></li>
+<li class="">就近共享</li>
 <li class="">快捷方式修复</li>
 </ul>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="命令行">命令行<a href="#命令行" class="hash-link" aria-label="命令行的直接链接" title="命令行的直接链接" translate="no">​</a></h3>
@@ -206,6 +128,8 @@
 <li class="">文件管理<!-- -->
 <ul>
 <li class="">软链接 <code>mklink /D Link Target</code></li>
+<li class="">一次创建多个文件夹 <code>mkdir 文件夹A, 文件夹B, 文件夹C</code></li>
+<li class="">文件名批量加后缀 <code>Get-ChildItem -File | Rename-Item -NewName { $_.BaseName + &quot;.jpg&quot; }</code></li>
 </ul>
 </li>
 <li class="">进程管理<!-- -->
@@ -227,6 +151,6 @@
 <p>查询 <code>wsl -l -v</code></p>
 <p>安装 <code>wsl --install</code></p>
 <p>运行 <code>wsl</code></p>
-<p>停止：<code>wsl --shutdown</code></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-09-09T18:40:48.000Z" itemprop="dateModified">2026年9月9日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/计算机/系统/Linux/软件包格式"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">软件包格式</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/计算机/系统/Windows帐户管理"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Windows帐户管理</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#版本" class="table-of-contents__link toc-highlight">版本</a></li><li><a href="#界面" class="table-of-contents__link toc-highlight">界面</a></li><li><a href="#设置" class="table-of-contents__link toc-highlight">设置</a></li><li><a href="#系统组件" class="table-of-contents__link toc-highlight">系统组件</a></li><li><a href="#软件" class="table-of-contents__link toc-highlight">软件</a></li><li><a href="#tips" class="table-of-contents__link toc-highlight">Tips</a><ul><li><a href="#命令行" class="table-of-contents__link toc-highlight">命令行</a></li><li><a href="#安全模式" class="table-of-contents__link toc-highlight">安全模式</a></li><li><a href="#wsl" class="table-of-contents__link toc-highlight">WSL</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.</div></div></div></footer></div>
+<p>停止：<code>wsl --shutdown</code></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-09-12T01:23:35.000Z" itemprop="dateModified">2026年9月12日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/计算机/系统/Linux/软件包格式"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">软件包格式</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/计算机/系统/Windows帐户管理"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Windows帐户管理</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#版本" class="table-of-contents__link toc-highlight">版本</a></li><li><a href="#界面" class="table-of-contents__link toc-highlight">界面</a></li><li><a href="#设置" class="table-of-contents__link toc-highlight">设置</a></li><li><a href="#系统组件" class="table-of-contents__link toc-highlight">系统组件</a></li><li><a href="#tips" class="table-of-contents__link toc-highlight">Tips</a><ul><li><a href="#命令行" class="table-of-contents__link toc-highlight">命令行</a></li><li><a href="#安全模式" class="table-of-contents__link toc-highlight">安全模式</a></li><li><a href="#wsl" class="table-of-contents__link toc-highlight">WSL</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.</div></div></div></footer></div>
 </body>
 </html>

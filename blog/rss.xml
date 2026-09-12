@@ -4,15 +4,59 @@
         <title>Welcome Blog</title>
         <link>https://dzl1943.github.io/blog</link>
         <description>Welcome Blog</description>
-        <lastBuildDate>Wed, 09 Sep 2026 18:40:48 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Sep 2026 01:23:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <item>
+            <title><![CDATA[20260216_热水器工作模式]]></title>
+            <link>https://dzl1943.github.io/blog/20260216_热水器工作模式</link>
+            <guid>https://dzl1943.github.io/blog/20260216_热水器工作模式</guid>
+            <pubDate>Sat, 12 Sep 2026 01:23:35 GMT</pubDate>
+            <description><![CDATA[热水器工作模式]]></description>
+            <content:encoded><![CDATA[<p>热水器工作模式</p>
+<ul>
+<li class="">加热</li>
+<li class="">保温: 点击"中温保温"按钮切换保温(40°)和加热</li>
+<li class="">预约: 点击"预约"按钮切换预约1、2、1且2、加热</li>
+</ul>
+<p>手动的问题</p>
+<ul>
+<li class="">手动启停麻烦, 容易忘记开和关</li>
+<li class="">晚上关闭后早上可能无热水可用(热水都被用掉了或因"动态增容"稀释了)</li>
+</ul>
+<p>解决办法: 预约+手动</p>
+<ul>
+<li class="">先用预约保证早晚有基础热度</li>
+<li class="">如需大量用水, 再手动切至加热模式, <strong>用后记得恢复预约模式</strong></li>
+</ul>
+<p>频繁恢复预约模式略显麻烦, 替代办法是只恢复到保温状态.<br>
+<!-- -->即晚上提前一小时开启加热, 直到所有人用完再切至保温(不是关闭), 中间时间不需要动(所以不要提前太早). 这样即使早上没有预约也有基本热度.</p>
+<p><strong>关键是用水过程中要保持加热, 如此才能避免用后热度急剧降低.</strong></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[20260721_摄影入门]]></title>
+            <link>https://dzl1943.github.io/blog/20260721_摄影入门</link>
+            <guid>https://dzl1943.github.io/blog/20260721_摄影入门</guid>
+            <pubDate>Sat, 12 Sep 2026 01:23:35 GMT</pubDate>
+            <description><![CDATA[- 横屏、竖屏]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">横屏、竖屏</li>
+<li class="">九宫格</li>
+<li class="">景别：特近中全远</li>
+<li class="">拍摄高度：平拍、俯拍、仰拍</li>
+<li class="">拍摄方向：正、背、侧、斜侧</li>
+<li class="">光线：顺、逆、侧</li>
+<li class="">构图：三分法、对角线、水平/垂直</li>
+<li class="">运镜：推、拉、摇、移、跟、升、降</li>
+<li class="">剪辑：音乐、字幕</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[20260819_笔记管理的原则]]></title>
             <link>https://dzl1943.github.io/blog/20260819_笔记管理的原则</link>
             <guid>https://dzl1943.github.io/blog/20260819_笔记管理的原则</guid>
-            <pubDate>Wed, 09 Sep 2026 18:40:48 GMT</pubDate>
+            <pubDate>Sat, 12 Sep 2026 01:23:35 GMT</pubDate>
             <description><![CDATA[- 内容为先，减少一切非必要的功能依赖、规则限制]]></description>
             <content:encoded><![CDATA[<ul>
 <li class="">内容为先，减少一切非必要的功能依赖、规则限制</li>
@@ -23,10 +67,23 @@
 </ul>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[20260827_跳闸排查思路]]></title>
+            <link>https://dzl1943.github.io/blog/20260827_跳闸排查思路</link>
+            <guid>https://dzl1943.github.io/blog/20260827_跳闸排查思路</guid>
+            <pubDate>Sat, 12 Sep 2026 01:23:35 GMT</pubDate>
+            <description><![CDATA[1. 断所有分闸，合总闸，确定总闸、总线路是否正常]]></description>
+            <content:encoded><![CDATA[<ol>
+<li class="">断所有分闸，合总闸，确定总闸、总线路是否正常</li>
+<li class="">逐一合分闸，确定故障分路</li>
+<li class="">断开分路内所有电器，合分闸，确定分闸线路是否正常</li>
+<li class="">逐一插电器，确定故障电器</li>
+</ol>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[图书管理]]></title>
             <link>https://dzl1943.github.io/blog/图书管理</link>
             <guid>https://dzl1943.github.io/blog/图书管理</guid>
-            <pubDate>Wed, 09 Sep 2026 18:40:48 GMT</pubDate>
+            <pubDate>Sat, 12 Sep 2026 01:23:35 GMT</pubDate>
             <description><![CDATA[文学类]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="文学类">文学类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E6%96%87%E5%AD%A6%E7%B1%BB" class="hash-link" aria-label="文学类的直接链接" title="文学类的直接链接" translate="no">​</a></h2>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="历史类">历史类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E5%8E%86%E5%8F%B2%E7%B1%BB" class="hash-link" aria-label="历史类的直接链接" title="历史类的直接链接" translate="no">​</a></h2>
@@ -46,7 +103,7 @@
             <title><![CDATA[影视管理]]></title>
             <link>https://dzl1943.github.io/blog/影视管理</link>
             <guid>https://dzl1943.github.io/blog/影视管理</guid>
-            <pubDate>Wed, 09 Sep 2026 18:40:48 GMT</pubDate>
+            <pubDate>Sat, 12 Sep 2026 01:23:35 GMT</pubDate>
             <description><![CDATA[电影]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="电影">电影<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E7%94%B5%E5%BD%B1" class="hash-link" aria-label="电影的直接链接" title="电影的直接链接" translate="no">​</a></h2>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="动漫">动漫<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E5%8A%A8%E6%BC%AB" class="hash-link" aria-label="动漫的直接链接" title="动漫的直接链接" translate="no">​</a></h2>
@@ -62,7 +119,7 @@
             <title><![CDATA[游戏管理]]></title>
             <link>https://dzl1943.github.io/blog/游戏管理</link>
             <guid>https://dzl1943.github.io/blog/游戏管理</guid>
-            <pubDate>Wed, 09 Sep 2026 18:40:48 GMT</pubDate>
+            <pubDate>Sat, 12 Sep 2026 01:23:35 GMT</pubDate>
             <description><![CDATA[RPG]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="rpg">RPG<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#rpg" class="hash-link" aria-label="RPG的直接链接" title="RPG的直接链接" translate="no">​</a></h2>
 <ul class="contains-task-list containsTaskList_mC6p">
@@ -132,7 +189,7 @@
             <title><![CDATA[音乐管理]]></title>
             <link>https://dzl1943.github.io/blog/音乐管理</link>
             <guid>https://dzl1943.github.io/blog/音乐管理</guid>
-            <pubDate>Wed, 09 Sep 2026 18:40:48 GMT</pubDate>
+            <pubDate>Sat, 12 Sep 2026 01:23:35 GMT</pubDate>
             <description><![CDATA[- Inbox: 待听]]></description>
             <content:encoded><![CDATA[<ul>
 <li class="">Inbox: 待听</li>
@@ -179,25 +236,13 @@
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[文件传输]]></title>
-            <link>https://dzl1943.github.io/blog/文件传输</link>
-            <guid>https://dzl1943.github.io/blog/文件传输</guid>
-            <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[通用]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="通用">通用<a href="https://dzl1943.github.io/blog/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93#%E9%80%9A%E7%94%A8" class="hash-link" aria-label="通用的直接链接" title="通用的直接链接" translate="no">​</a></h2>
-<ul>
-<li class=""><a href="https://pairdrop.net/" target="_blank" rel="noopener noreferrer" class="">https://pairdrop.net/</a> （Web/App）</li>
-<li class=""><a href="https://getcroc.com/" target="_blank" rel="noopener noreferrer" class="">https://getcroc.com/</a> （Web/CLI/App）</li>
-<li class=""><a href="https://localsend.org/" target="_blank" rel="noopener noreferrer" class="">LocalSend</a> （App）</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="电脑之间">电脑之间<a href="https://dzl1943.github.io/blog/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93#%E7%94%B5%E8%84%91%E4%B9%8B%E9%97%B4" class="hash-link" aria-label="电脑之间的直接链接" title="电脑之间的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">Windows 就近共享</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="手机之间">手机之间<a href="https://dzl1943.github.io/blog/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93#%E6%89%8B%E6%9C%BA%E4%B9%8B%E9%97%B4" class="hash-link" aria-label="手机之间的直接链接" title="手机之间的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">设备互联</li>
-</ul>]]></content:encoded>
+            <title><![CDATA[必应锁屏壁纸保存方法]]></title>
+            <link>https://dzl1943.github.io/blog/必应锁屏壁纸保存方法</link>
+            <guid>https://dzl1943.github.io/blog/必应锁屏壁纸保存方法</guid>
+            <pubDate>Mon, 07 Sep 2026 16:36:00 GMT</pubDate>
+            <description><![CDATA[路径：%LOCALAPPDATA%\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets]]></description>
+            <content:encoded><![CDATA[<p>路径：<code>%LOCALAPPDATA%\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets</code></p>
+<p>重命名：<code>Get-ChildItem -File | Rename-Item -NewName { $_.BaseName + ".jpg" }</code></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[20260830_笔记库组织结构]]></title>
@@ -250,44 +295,31 @@
             <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[分类]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="分类">分类<a href="https://dzl1943.github.io/blog/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86#%E5%88%86%E7%B1%BB" class="hash-link" aria-label="分类的直接链接" title="分类的直接链接" translate="no">​</a></h2>
+<p>程序类</p>
 <ul>
-<li class="">资源类<!-- -->
-<ul>
-<li class="">文档 Documents</li>
-<li class="">图片 Pictures</li>
-<li class="">音乐 Music</li>
-<li class="">视频 Videos</li>
-<li class="">电子书 Books</li>
-<li class="">软件包 Pkgs</li>
+<li class="">应用</li>
+<li class="">游戏</li>
+<li class="">虚拟机</li>
+<li class="">库</li>
+<li class="">脚本</li>
+<li class="">服务</li>
+<li class="">配置</li>
+<li class="">应用数据</li>
 </ul>
-</li>
-<li class="">程序类<!-- -->
+<p>用户类（位于用户目录中）</p>
 <ul>
-<li class="">Applications</li>
-<li class="">Games</li>
-<li class="">VMs</li>
-<li class="">Library</li>
-<li class="">bin</li>
-<li class="">srv</li>
+<li class="">工作空间</li>
+<li class="">同步</li>
+<li class="">备份</li>
 </ul>
-</li>
-<li class="">数据类<!-- -->
+<p>资源类（可共享）</p>
 <ul>
-<li class="">Sync</li>
-<li class="">Backups</li>
-<li class="">Workspace</li>
-<li class="">Code</li>
-<li class="">Configs</li>
-<li class="">data</li>
-</ul>
-</li>
-<li class="">辅助类<!-- -->
-<ul>
-<li class="">var</li>
-<li class="">tmp</li>
-<li class="">mnt</li>
-</ul>
-</li>
+<li class="">文档</li>
+<li class="">图片</li>
+<li class="">音乐</li>
+<li class="">视频</li>
+<li class="">电子书</li>
+<li class="">软件包</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="https://dzl1943.github.io/blog/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86#%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>
 <ul>
@@ -300,20 +332,6 @@
 <li class="">查看</li>
 <li class="">编辑</li>
 <li class="">转换</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[自我管理]]></title>
-            <link>https://dzl1943.github.io/blog/自我管理</link>
-            <guid>https://dzl1943.github.io/blog/自我管理</guid>
-            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[- 身心健康管理]]></description>
-            <content:encoded><![CDATA[<ul>
-<li class="">身心健康管理</li>
-<li class="">时间任务管理</li>
-<li class="">资产财务管理</li>
-<li class="">人脉关系管理</li>
-<li class="">数据信息管理</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -558,28 +576,6 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="https://dzl1943.github.io/blog/20260816_%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86#%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[世界观]]></title>
-            <link>https://dzl1943.github.io/blog/世界观</link>
-            <guid>https://dzl1943.github.io/blog/世界观</guid>
-            <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[自然-物理世界]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="自然-物理世界">自然-物理世界<a href="https://dzl1943.github.io/blog/%E4%B8%96%E7%95%8C%E8%A7%82#%E8%87%AA%E7%84%B6-%E7%89%A9%E7%90%86%E4%B8%96%E7%95%8C" class="hash-link" aria-label="自然-物理世界的直接链接" title="自然-物理世界的直接链接" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="自我-主观世界">自我-主观世界<a href="https://dzl1943.github.io/blog/%E4%B8%96%E7%95%8C%E8%A7%82#%E8%87%AA%E6%88%91-%E4%B8%BB%E8%A7%82%E4%B8%96%E7%95%8C" class="hash-link" aria-label="自我-主观世界的直接链接" title="自我-主观世界的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">生活</li>
-<li class="">工作</li>
-<li class="">学习</li>
-<li class="">思想</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="社会-客观世界">社会-客观世界<a href="https://dzl1943.github.io/blog/%E4%B8%96%E7%95%8C%E8%A7%82#%E7%A4%BE%E4%BC%9A-%E5%AE%A2%E8%A7%82%E4%B8%96%E7%95%8C" class="hash-link" aria-label="社会-客观世界的直接链接" title="社会-客观世界的直接链接" translate="no">​</a></h2>
-<ul>
-<li class="">他人</li>
-<li class="">家庭</li>
-<li class="">企业</li>
-<li class="">政府</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[人际关系]]></title>
             <link>https://dzl1943.github.io/blog/人际关系</link>
             <guid>https://dzl1943.github.io/blog/人际关系</guid>
@@ -656,17 +652,21 @@
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[自我分析]]></title>
-            <link>https://dzl1943.github.io/blog/自我分析</link>
-            <guid>https://dzl1943.github.io/blog/自我分析</guid>
-            <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[- 现实：现在在哪]]></description>
-            <content:encoded><![CDATA[<ul>
-<li class="">现实：现在在哪</li>
-<li class="">目标：要去哪</li>
-<li class="">方法：怎么去</li>
-<li class="">问题：有哪些障碍</li>
-<li class="">计划：做什么</li>
+            <title><![CDATA[20260212_小红书]]></title>
+            <link>https://dzl1943.github.io/blog/20260212_小红书</link>
+            <guid>https://dzl1943.github.io/blog/20260212_小红书</guid>
+            <pubDate>Thu, 12 Feb 2026 15:19:00 GMT</pubDate>
+            <description><![CDATA[小红书这个app是干啥的? 相比抖音、微博、知乎有何不同?]]></description>
+            <content:encoded><![CDATA[<p>小红书这个app是干啥的? 相比抖音、微博、知乎有何不同?</p>
+<p>创立时间: 2013 年</p>
+<p>slogan: 你的生活指南</p>
+<p>里面的内容叫"笔记", 以图文为主.
+比如一些"种草"文.</p>
+<p>所以,</p>
+<ul>
+<li class="">相比抖音, 小红书的定位更加"有用", 更不那么娱乐.</li>
+<li class="">相比微博、朋友圈, 更加纯粹, 更不那么 social.</li>
+<li class="">相比知乎, 更加个人、生活化.</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -682,25 +682,6 @@
 <li class="">时序</li>
 <li class="">因果</li>
 <li class="">关联</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[笔记关系]]></title>
-            <link>https://dzl1943.github.io/blog/笔记关系</link>
-            <guid>https://dzl1943.github.io/blog/笔记关系</guid>
-            <pubDate>Wed, 23 Jul 2025 17:59:00 GMT</pubDate>
-            <description><![CDATA[- Children/down: 正向链接]]></description>
-            <content:encoded><![CDATA[<ul>
-<li class="">Children/down: 正向链接</li>
-<li class="">Parents/up: 反向链接</li>
-<li class="">Friends: 相互链接<!-- -->
-<ul>
-<li class="">left/prev</li>
-<li class="">right/next</li>
-</ul>
-</li>
-<li class="">Other Friends %% (lateral relationships on the right side) %%</li>
-<li class="">Siblings</li>
 </ul>]]></content:encoded>
         </item>
     </channel>
