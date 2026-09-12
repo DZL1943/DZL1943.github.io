@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[9067],{19187(e){e.exports=JSON.parse('{"tags":[{"label":"AI","permalink":"/docs/tags/ai","count":6},{"label":"linker-exclude","permalink":"/docs/tags/linker-exclude","count":1},{"label":"excalidraw","permalink":"/docs/tags/excalidraw","count":2}]}')}}]);
