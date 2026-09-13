@@ -11,8 +11,8 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.19d167d2.css">
-<script src="/assets/js/runtime~main.27709957.js" defer="defer"></script>
-<script src="/assets/js/main.c9dbd3e8.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.174918a0.js" defer="defer"></script>
+<script src="/assets/js/main.24576e8d.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -23,14 +23,79 @@
 <p><strong>关键认知</strong>：Excel 中几乎所有操作最终都落位到单元格或区域上。理解单元格的寻址、引用和计算机制，是掌握 Excel 的核心。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="二单元格核心操作对象">二、单元格：核心操作对象<a href="#二单元格核心操作对象" class="hash-link" aria-label="二、单元格：核心操作对象的直接链接" title="二、单元格：核心操作对象的直接链接" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="21-地址系统">2.1 地址系统<a href="#21-地址系统" class="hash-link" aria-label="2.1 地址系统的直接链接" title="2.1 地址系统的直接链接" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>引用形式</th><th>写法</th><th>示例</th></tr></thead><tbody><tr><td><strong>A1 样式</strong></td><td>列字母 + 行数字</td><td><code>A1</code>、<code>B2</code>、<code>AA100</code></td></tr><tr><td><strong>R1C1 样式</strong></td><td>R行C列</td><td><code>R1C1</code>（=A1）、<code>R[1]C[-1]</code>（相对引用）</td></tr><tr><td><strong>跨表引用</strong></td><td>表名!地址</td><td><code>Sheet2!A1</code>、<code>&#x27;1月&#x27;!B3</code>（表名含空格需加单引号）</td></tr><tr><td><strong>跨簿引用</strong></td><td>[簿名]表名!地址</td><td><code>[数据.xlsx]Sheet1!$A$1</code></td></tr></tbody></table>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="22-数据类型">2.2 数据类型<a href="#22-数据类型" class="hash-link" aria-label="2.2 数据类型的直接链接" title="2.2 数据类型的直接链接" translate="no">​</a></h3>
 <p>Excel 单元格存储的不是&quot;文字&quot;，而是<strong>带类型的数据</strong>：</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>类型</th><th>特征</th><th>注意</th></tr></thead><tbody><tr><td><strong>文本</strong></td><td>左对齐；公式中需用引号 <code>&quot;&quot;</code></td><td>数字前加单引号 <code>&#x27;001</code> 强制转文本</td></tr><tr><td><strong>数值</strong></td><td>右对齐；参与算术运算</td><td>超过 15 位有效数字会精度丢失（身份证号需设文本）</td></tr><tr><td><strong>日期/时间</strong></td><td>本质是序列号（1900-1-1 = 1）</td><td>日期是整数，时间是小数；可直接加减</td></tr><tr><td><strong>布尔值</strong></td><td><code>TRUE</code> = 1，<code>FALSE</code> = 0</td><td>可直接参与计算：<code>=TRUE+1</code> → 2</td></tr><tr><td><strong>错误值</strong></td><td><code>#VALUE!</code> <code>#REF!</code> 等</td><td>具有传染性，需用错误处理函数隔离</td></tr></tbody></table>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="23-格式-vs-内容">2.3 格式 vs. 内容<a href="#23-格式-vs-内容" class="hash-link" aria-label="2.3 格式 vs. 内容的直接链接" title="2.3 格式 vs. 内容的直接链接" translate="no">​</a></h3>
 <p><strong>核心区分</strong>：单元格看到的 ≠ 单元格存储的。</p>
 <ul>
-<li class=""><strong>格式</strong>（Format）：决定显示样子，不改变底层值<!-- -->
+<li class=""><strong>格式</strong>（Format）：决定显示样子，不改变底层值
 <ul>
 <li class="">例：单元格值是 <code>0.75</code>，格式设为百分比 → 显示 <code>75%</code>，但值仍是 0.75</li>
 <li class="">例：格式设为 <code>&quot;第&quot;0&quot;名&quot;</code> → 输入 <code>3</code> 显示 <code>第3名</code></li>
@@ -41,6 +106,31 @@
 <p><strong>陷阱</strong>：<code>SUM</code> 等函数读取的是<strong>底层值</strong>，不是显示值。文本型数字不参与求和。</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="24-引用类型">2.4 引用类型<a href="#24-引用类型" class="hash-link" aria-label="2.4 引用类型的直接链接" title="2.4 引用类型的直接链接" translate="no">​</a></h3>
 <p>这是公式系统的基石。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>类型</th><th>写法</th><th>拖动/复制时的行为</th></tr></thead><tbody><tr><td><strong>相对引用</strong></td><td><code>A1</code></td><td>行列均随位置偏移</td></tr><tr><td><strong>绝对引用</strong></td><td><code>$A$1</code></td><td>行列均锁定，不偏移</td></tr><tr><td><strong>混合引用</strong></td><td><code>$A1</code> 或 <code>A$1</code></td><td>锁定列/行中的一个，另一个偏移</td></tr></tbody></table>
 <p><strong>切换快捷键</strong>：<code>F4</code> 循环切换 <code>A1</code> → <code>$A$1</code> → <code>A$1</code> → <code>$A1</code> → <code>A1</code></p>
 <p><strong>应用场景</strong>：</p>
@@ -69,6 +159,56 @@
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">:（区域）&gt; ,（联合）&gt; 空格（交叉）    ← 引用运算符</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">-（负号）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">%（百分比）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">^（乘方）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">* /（乘除）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">+ -（加减）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&amp;（文本连接）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">= &gt; &lt; &gt;= &lt;= &lt;&gt;（比较）</span><br></span></code></pre></div></div>
 <p><strong>括号 <code>()</code> 可强制改变优先级。</strong></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="33-函数分类速查">3.3 函数分类速查<a href="#33-函数分类速查" class="hash-link" aria-label="3.3 函数分类速查的直接链接" title="3.3 函数分类速查的直接链接" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>类别</th><th>代表函数</th><th>用途</th></tr></thead><tbody><tr><td><strong>数学统计</strong></td><td><code>SUM</code> <code>AVERAGE</code> <code>MAX</code> <code>MIN</code> <code>COUNT</code> <code>COUNTA</code> <code>SUMIF</code> <code>SUMIFS</code> <code>COUNTIF</code> <code>COUNTIFS</code></td><td>聚合计算、条件求和计数</td></tr><tr><td><strong>逻辑判断</strong></td><td><code>IF</code> <code>AND</code> <code>OR</code> <code>NOT</code> <code>IFS</code> <code>SWITCH</code></td><td>条件分支</td></tr><tr><td><strong>查找引用</strong></td><td><code>VLOOKUP</code> <code>HLOOKUP</code> <code>INDEX</code> <code>MATCH</code> <code>XLOOKUP</code> <code>OFFSET</code> <code>INDIRECT</code></td><td>跨表/跨区域取值</td></tr><tr><td><strong>文本处理</strong></td><td><code>LEFT</code> <code>RIGHT</code> <code>MID</code> <code>LEN</code> <code>FIND</code> <code>SUBSTITUTE</code> <code>TEXT</code> <code>CONCAT</code> <code>TEXTJOIN</code></td><td>字符串截取、拼接、格式化</td></tr><tr><td><strong>日期时间</strong></td><td><code>TODAY</code> <code>NOW</code> <code>DATE</code> <code>YEAR</code> <code>MONTH</code> <code>DAY</code> <code>DATEDIF</code> <code>EOMONTH</code> <code>WORKDAY</code></td><td>日期计算、工作日推算</td></tr><tr><td><strong>财务</strong></td><td><code>PV</code> <code>FV</code> <code>PMT</code> <code>NPV</code> <code>IRR</code></td><td>现值、终值、年金、收益率</td></tr><tr><td><strong>信息判断</strong></td><td><code>ISBLANK</code> <code>ISNUMBER</code> <code>ISTEXT</code> <code>ISERROR</code> <code>IFERROR</code></td><td>类型检查、错误隔离</td></tr><tr><td><strong>动态数组</strong></td><td><code>FILTER</code> <code>SORT</code> <code>UNIQUE</code> <code>SEQUENCE</code> <code>XLOOKUP</code> <code>LET</code></td><td>Excel 365 新函数，返回溢出数组</td></tr></tbody></table>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="34-核心函数组合模式">3.4 核心函数组合模式<a href="#34-核心函数组合模式" class="hash-link" aria-label="3.4 核心函数组合模式的直接链接" title="3.4 核心函数组合模式的直接链接" translate="no">​</a></h3>
 <p><strong>① 安全查找：INDEX + MATCH</strong></p>
@@ -101,15 +241,152 @@
 <li class="">公式自动返回一个<strong>溢出区域</strong>（Spill Range），无需三键</li>
 <li class="">溢出区域下方不能有数据，否则报 <code>#SPILL!</code></li>
 </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>动态数组函数</th><th>作用</th></tr></thead><tbody><tr><td><code>FILTER</code></td><td>按条件筛选区域</td></tr><tr><td><code>SORT</code> / <code>SORTBY</code></td><td>排序</td></tr><tr><td><code>UNIQUE</code></td><td>去重</td></tr><tr><td><code>SEQUENCE</code></td><td>生成数字序列</td></tr><tr><td><code>XLOOKUP</code></td><td>新一代查找，替代 VLOOKUP+INDEX/MATCH</td></tr><tr><td><code>LET</code></td><td>定义变量，简化复杂公式</td></tr></tbody></table>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="36-常见错误值">3.6 常见错误值<a href="#36-常见错误值" class="hash-link" aria-label="3.6 常见错误值的直接链接" title="3.6 常见错误值的直接链接" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>错误值</th><th>含义</th><th>常见原因</th></tr></thead><tbody><tr><td><code>#VALUE!</code></td><td>值错误</td><td>公式中用了错误的数据类型</td></tr><tr><td><code>#REF!</code></td><td>引用错误</td><td>引用的单元格/区域被删除</td></tr><tr><td><code>#NAME?</code></td><td>名称错误</td><td>函数名拼写错误，或自定义名称不存在</td></tr><tr><td><code>#DIV/0!</code></td><td>除零错误</td><td>除数为 0 或空单元格</td></tr><tr><td><code>#N/A</code></td><td>找不到</td><td>查找函数未匹配到值</td></tr><tr><td><code>#NUM!</code></td><td>数字错误</td><td>数值超出范围或迭代不收敛</td></tr><tr><td><code>#NULL!</code></td><td>交集错误</td><td>区域间无交集（如 <code>=SUM(A1:B2 C3:D4)</code>）</td></tr><tr><td><code>#SPILL!</code></td><td>溢出错误</td><td>动态数组结果区域被占用</td></tr></tbody></table>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="四数据工具">四、数据工具<a href="#四数据工具" class="hash-link" aria-label="四、数据工具的直接链接" title="四、数据工具的直接链接" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="41-数据验证data-validation">4.1 数据验证（Data Validation）<a href="#41-数据验证data-validation" class="hash-link" aria-label="4.1 数据验证（Data Validation）的直接链接" title="4.1 数据验证（Data Validation）的直接链接" translate="no">​</a></h3>
 <p>限制单元格可输入的内容，从源头控制数据质量。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>验证类型</th><th>示例</th></tr></thead><tbody><tr><td>整数/小数</td><td>只能输入 0–100 的整数</td></tr><tr><td>序列</td><td>下拉列表选择（来源：<code>男,女</code> 或引用区域）</td></tr><tr><td>日期</td><td>只能输入 2024-1-1 到 2024-12-31 的日期</td></tr><tr><td>文本长度</td><td>身份证号必须 18 位</td></tr><tr><td>自定义</td><td>用公式判断，如 <code>=COUNTIF($A$1:$A$100,A1)=1</code>（防重复）</td></tr></tbody></table>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="42-条件格式conditional-formatting">4.2 条件格式（Conditional Formatting）<a href="#42-条件格式conditional-formatting" class="hash-link" aria-label="4.2 条件格式（Conditional Formatting）的直接链接" title="4.2 条件格式（Conditional Formatting）的直接链接" translate="no">​</a></h3>
 <p>根据单元格值自动改变显示格式，本质是<strong>格式规则</strong>而非改值。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>规则类型</th><th>用途</th></tr></thead><tbody><tr><td>突出显示单元格</td><td>大于/小于/等于/包含某值</td></tr><tr><td>最前/最后规则</td><td>前 10 项、高于平均值</td></tr><tr><td>数据条/色阶/图标集</td><td>可视化大小关系</td></tr><tr><td>使用公式确定</td><td>如 <code>=A1&gt;B1</code> 则标红；行内隔行填色 <code>=MOD(ROW(),2)=0</code></td></tr></tbody></table>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="43-数据透视表pivottable">4.3 数据透视表（PivotTable）<a href="#43-数据透视表pivottable" class="hash-link" aria-label="4.3 数据透视表（PivotTable）的直接链接" title="4.3 数据透视表（PivotTable）的直接链接" translate="no">​</a></h3>
 <p>对大规模数据进行<strong>快速汇总与多维分析</strong>的工具。</p>
@@ -123,6 +400,71 @@
 <p><strong>本质</strong>：不修改源数据，生成一个动态汇总视图。源数据更新后需<strong>刷新</strong>（右键 → 刷新 或 <code>Alt+F5</code>）。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="五速查">五、速查<a href="#五速查" class="hash-link" aria-label="五、速查的直接链接" title="五、速查的直接链接" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="快捷键">快捷键<a href="#快捷键" class="hash-link" aria-label="快捷键的直接链接" title="快捷键的直接链接" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>操作</th><th>快捷键</th></tr></thead><tbody><tr><td>编辑单元格</td><td><code>F2</code></td></tr><tr><td>绝对/相对引用切换</td><td><code>F4</code></td></tr><tr><td>自动求和</td><td><code>Alt+=</code></td></tr><tr><td>插入当前日期</td><td><code>Ctrl+;</code></td></tr><tr><td>插入当前时间</td><td><code>Ctrl+Shift+;</code></td></tr><tr><td>填充向下</td><td><code>Ctrl+D</code></td></tr><tr><td>填充向右</td><td><code>Ctrl+R</code></td></tr><tr><td>选中当前数据区域</td><td><code>Ctrl+Shift+8</code> 或 <code>Ctrl+A</code></td></tr><tr><td>定位到边缘</td><td><code>Ctrl+方向键</code></td></tr><tr><td>选中到边缘</td><td><code>Ctrl+Shift+方向键</code></td></tr><tr><td>插入新工作表</td><td><code>Shift+F11</code></td></tr><tr><td>打开名称管理器</td><td><code>Ctrl+F3</code></td></tr><tr><td>创建数据透视表</td><td><code>Alt+N+V</code></td></tr><tr><td>显示公式（非结果）</td><td><code>Ctrl+`</code></td></tr></tbody></table>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="问题排查路径">问题排查路径<a href="#问题排查路径" class="hash-link" aria-label="问题排查路径的直接链接" title="问题排查路径的直接链接" translate="no">​</a></h3>
 <ol>
@@ -133,6 +475,6 @@
 <li class=""><strong>性能问题</strong> → 避免整列引用（如 <code>A:A</code>），尽量限定区域；减少 <code>VOLATILE</code> 函数（<code>NOW</code>、<code>RAND</code>、<code>INDIRECT</code>、<code>OFFSET</code>）的过度使用</li>
 </ol>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="标准工作流">标准工作流<a href="#标准工作流" class="hash-link" aria-label="标准工作流的直接链接" title="标准工作流的直接链接" translate="no">​</a></h3>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">规划表结构（字段设计、数据类型）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 输入/导入数据</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 设置数据验证（防脏数据）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 写公式计算</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 条件格式高亮关键信息</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 数据透视表汇总分析</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 图表可视化</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 保护/分享</span><br></span></code></pre></div></div></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-09-12T13:03:59.000Z" itemprop="dateModified">2026年9月12日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/计算机/应用/效率类/Notion版本历史"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">Notion版本历史</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/计算机/应用/效率类/Office-Word"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Office-Word</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#一层级模型" class="table-of-contents__link toc-highlight">一、层级模型</a></li><li><a href="#二单元格核心操作对象" class="table-of-contents__link toc-highlight">二、单元格：核心操作对象</a><ul><li><a href="#21-地址系统" class="table-of-contents__link toc-highlight">2.1 地址系统</a></li><li><a href="#22-数据类型" class="table-of-contents__link toc-highlight">2.2 数据类型</a></li><li><a href="#23-格式-vs-内容" class="table-of-contents__link toc-highlight">2.3 格式 vs. 内容</a></li><li><a href="#24-引用类型" class="table-of-contents__link toc-highlight">2.4 引用类型</a></li><li><a href="#25-名称管理器name-manager" class="table-of-contents__link toc-highlight">2.5 名称管理器（Name Manager）</a></li></ul></li><li><a href="#三公式系统" class="table-of-contents__link toc-highlight">三、公式系统</a><ul><li><a href="#31-公式的本质" class="table-of-contents__link toc-highlight">3.1 公式的本质</a></li><li><a href="#32-运算符优先级" class="table-of-contents__link toc-highlight">3.2 运算符优先级</a></li><li><a href="#33-函数分类速查" class="table-of-contents__link toc-highlight">3.3 函数分类速查</a></li><li><a href="#34-核心函数组合模式" class="table-of-contents__link toc-highlight">3.4 核心函数组合模式</a></li><li><a href="#35-数组公式与动态数组" class="table-of-contents__link toc-highlight">3.5 数组公式与动态数组</a></li><li><a href="#36-常见错误值" class="table-of-contents__link toc-highlight">3.6 常见错误值</a></li></ul></li><li><a href="#四数据工具" class="table-of-contents__link toc-highlight">四、数据工具</a><ul><li><a href="#41-数据验证data-validation" class="table-of-contents__link toc-highlight">4.1 数据验证（Data Validation）</a></li><li><a href="#42-条件格式conditional-formatting" class="table-of-contents__link toc-highlight">4.2 条件格式（Conditional Formatting）</a></li><li><a href="#43-数据透视表pivottable" class="table-of-contents__link toc-highlight">4.3 数据透视表（PivotTable）</a></li></ul></li><li><a href="#五速查" class="table-of-contents__link toc-highlight">五、速查</a><ul><li><a href="#快捷键" class="table-of-contents__link toc-highlight">快捷键</a></li><li><a href="#问题排查路径" class="table-of-contents__link toc-highlight">问题排查路径</a></li><li><a href="#标准工作流" class="table-of-contents__link toc-highlight">标准工作流</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.</div></div></div></footer></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">规划表结构（字段设计、数据类型）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 输入/导入数据</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 设置数据验证（防脏数据）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 写公式计算</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 条件格式高亮关键信息</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 数据透视表汇总分析</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 图表可视化</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    → 保护/分享</span><br></span></code></pre></div></div></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-09-13T14:00:37.000Z" itemprop="dateModified">2026年9月13日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/计算机/应用/效率类/Notion版本历史"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">Notion版本历史</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/计算机/应用/效率类/Office-Word"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Office-Word</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#一层级模型" class="table-of-contents__link toc-highlight">一、层级模型</a></li><li><a href="#二单元格核心操作对象" class="table-of-contents__link toc-highlight">二、单元格：核心操作对象</a><ul><li><a href="#21-地址系统" class="table-of-contents__link toc-highlight">2.1 地址系统</a></li><li><a href="#22-数据类型" class="table-of-contents__link toc-highlight">2.2 数据类型</a></li><li><a href="#23-格式-vs-内容" class="table-of-contents__link toc-highlight">2.3 格式 vs. 内容</a></li><li><a href="#24-引用类型" class="table-of-contents__link toc-highlight">2.4 引用类型</a></li><li><a href="#25-名称管理器name-manager" class="table-of-contents__link toc-highlight">2.5 名称管理器（Name Manager）</a></li></ul></li><li><a href="#三公式系统" class="table-of-contents__link toc-highlight">三、公式系统</a><ul><li><a href="#31-公式的本质" class="table-of-contents__link toc-highlight">3.1 公式的本质</a></li><li><a href="#32-运算符优先级" class="table-of-contents__link toc-highlight">3.2 运算符优先级</a></li><li><a href="#33-函数分类速查" class="table-of-contents__link toc-highlight">3.3 函数分类速查</a></li><li><a href="#34-核心函数组合模式" class="table-of-contents__link toc-highlight">3.4 核心函数组合模式</a></li><li><a href="#35-数组公式与动态数组" class="table-of-contents__link toc-highlight">3.5 数组公式与动态数组</a></li><li><a href="#36-常见错误值" class="table-of-contents__link toc-highlight">3.6 常见错误值</a></li></ul></li><li><a href="#四数据工具" class="table-of-contents__link toc-highlight">四、数据工具</a><ul><li><a href="#41-数据验证data-validation" class="table-of-contents__link toc-highlight">4.1 数据验证（Data Validation）</a></li><li><a href="#42-条件格式conditional-formatting" class="table-of-contents__link toc-highlight">4.2 条件格式（Conditional Formatting）</a></li><li><a href="#43-数据透视表pivottable" class="table-of-contents__link toc-highlight">4.3 数据透视表（PivotTable）</a></li></ul></li><li><a href="#五速查" class="table-of-contents__link toc-highlight">五、速查</a><ul><li><a href="#快捷键" class="table-of-contents__link toc-highlight">快捷键</a></li><li><a href="#问题排查路径" class="table-of-contents__link toc-highlight">问题排查路径</a></li><li><a href="#标准工作流" class="table-of-contents__link toc-highlight">标准工作流</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.</div></div></div></footer></div>
 </body>
 </html>

@@ -11,8 +11,8 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.19d167d2.css">
-<script src="/assets/js/runtime~main.27709957.js" defer="defer"></script>
-<script src="/assets/js/main.c9dbd3e8.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.174918a0.js" defer="defer"></script>
+<script src="/assets/js/main.24576e8d.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -28,7 +28,7 @@
 <ul>
 <li class="">User scope: User’s won’t see any info or access for a source without adding a source scope for the user. You must enable a user to have access to a source. This can be default for new users via defaultEnabled: true in source config, or by manually adding a source for a user via user management.</li>
 <li class="">DenyByDefault config: When a user has a source scope, by default all files are accessible unless denyByDefault: true is set. If denyByDefault is set, a user can still see metadata about the source, but won’t have access to browse or modify files.</li>
-<li class="">Access rules: The “user/group” access rule logic applies as mentioned below.<!-- -->
+<li class="">Access rules: The “user/group” access rule logic applies as mentioned below.
 <ul>
 <li class="">Allow</li>
 <li class="">Deny</li>
@@ -39,7 +39,7 @@
 <p>用户目录</p>
 <ul>
 <li class="">不(自动)创建用户目录: 例如仅限 Inbox 目录都有完整权限</li>
-<li class="">创建用户目录: 这将导致用户只能看到自己的目录?<!-- -->
+<li class="">创建用户目录: 这将导致用户只能看到自己的目录?
 <ul>
 <li class="">在 source 外创建</li>
 <li class="">在 source 中创建</li>
@@ -50,7 +50,7 @@
 <p>用户目录相关的两个关键配置</p>
 <ul>
 <li class=""><code>defaultUserScope</code>: This is the directory path that a user is given access to by default. This is also the parent directory path used if you enable <code>createUserDir</code>. For example if the source is <code>/</code>, and you configure <code>defaultUserScope: /users</code> and also enable <code>createUserDir</code>, then a user named <code>graham</code> will have a scope directory created at <code>/users/graham</code> and that will be their root directory. Defaults to root of index <code>/</code>. Should match folders under path. Used when <code>createUserDir</code> is <code>false</code>. This restricts where new users can access within the source. Include the leading slash.</li>
-<li class=""><code>createUserDir</code>: Create a user directory for each user under <code>defaultUserScope</code> + <code>/</code>+ <code>username</code>. Default: <code>false</code>. When enabled:<!-- -->
+<li class=""><code>createUserDir</code>: Create a user directory for each user under <code>defaultUserScope</code> + <code>/</code>+ <code>username</code>. Default: <code>false</code>. When enabled:
 <ul>
 <li class="">Creates <code>{defaultUserScope}/{username}</code> on user creation</li>
 <li class="">Updates user scope to their personal directory</li>
@@ -63,6 +63,6 @@
 <li class="">admin: 全部权限</li>
 <li class="">user: 公共目录可以查看、新增, 不允许修改、删除; 特定目录拥有完整权限</li>
 <li class="">public: 仅能够查看公共目录</li>
-</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-09-12T13:03:59.000Z" itemprop="dateModified">2026年9月12日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/计算机/应用/工具类/Fcitx"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">Fcitx</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/计算机/应用/工具类/Hammerspoon"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Hammerspoon</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#原版" class="table-of-contents__link toc-highlight">原版</a></li><li><a href="#quantum" class="table-of-contents__link toc-highlight">Quantum</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.</div></div></div></footer></div>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-09-13T14:00:37.000Z" itemprop="dateModified">2026年9月13日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/计算机/应用/工具类/Fcitx"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">Fcitx</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/计算机/应用/工具类/Hammerspoon"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Hammerspoon</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#原版" class="table-of-contents__link toc-highlight">原版</a></li><li><a href="#quantum" class="table-of-contents__link toc-highlight">Quantum</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.</div></div></div></footer></div>
 </body>
 </html>

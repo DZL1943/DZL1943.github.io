@@ -11,8 +11,8 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.19d167d2.css">
-<script src="/assets/js/runtime~main.27709957.js" defer="defer"></script>
-<script src="/assets/js/main.c9dbd3e8.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.174918a0.js" defer="defer"></script>
+<script src="/assets/js/main.24576e8d.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -23,19 +23,19 @@
 <div class="language-rust codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-rust codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">fn</span><span class="token plain"> </span><span class="token function-definition function" style="color:#d73a49">main</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token comment" style="color:#999988;font-style:italic">//println!(&quot;Hello, world!&quot;);</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">for</span><span class="token plain"> c </span><span class="token keyword" style="color:#00009f">in</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Hello 世界!\n&quot;</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">chars</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token macro property" style="color:#36acaa">print!</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">&quot;{}&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> c</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="词法">词法<a href="#词法" class="hash-link" aria-label="词法的直接链接" title="词法的直接链接" translate="no">​</a></h2>
 <ul>
-<li class="">注释<!-- -->
+<li class="">注释
 <ul>
 <li class="">行 <code>//</code></li>
 <li class="">块 <code>/* */</code></li>
 </ul>
 </li>
-<li class="">文档注释<!-- -->
+<li class="">文档注释
 <ul>
 <li class="">行 <code>///</code></li>
 <li class="">块 <code>/** */</code></li>
 </ul>
 </li>
-<li class="">包、模块注释<!-- -->
+<li class="">包、模块注释
 <ul>
 <li class="">行 <code>//!</code></li>
 <li class="">块 <code>/*! */</code></li>
@@ -47,7 +47,7 @@
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="变量">变量<a href="#变量" class="hash-link" aria-label="变量的直接链接" title="变量的直接链接" translate="no">​</a></h2>
 <ul>
-<li class="">let<!-- -->
+<li class="">let
 <ul>
 <li class="">mut <strong>默认是不可变的</strong></li>
 </ul>
@@ -79,9 +79,9 @@
 <p>&#x27;static</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="数据类型">数据类型<a href="#数据类型" class="hash-link" aria-label="数据类型的直接链接" title="数据类型的直接链接" translate="no">​</a></h2>
 <ul>
-<li class="">标量<!-- -->
+<li class="">标量
 <ul>
-<li class="">整数<!-- -->
+<li class="">整数
 <ul>
 <li class="">有符号例如 i32 i64</li>
 <li class="">无符号例如 u32 u64</li>
@@ -92,7 +92,7 @@
 <li class="">字符 char</li>
 </ul>
 </li>
-<li class="">复合<!-- -->
+<li class="">复合
 <ul>
 <li class="">元组 <code>(,)</code></li>
 <li class="">数组 <code>[,]</code></li>
@@ -125,14 +125,14 @@
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="控制流">控制流<a href="#控制流" class="hash-link" aria-label="控制流的直接链接" title="控制流的直接链接" translate="no">​</a></h2>
 <ul>
-<li class="">条件<!-- -->
+<li class="">条件
 <ul>
 <li class="">if/else if</li>
 </ul>
 </li>
-<li class="">循环<!-- -->
+<li class="">循环
 <ul>
-<li class="">loop<!-- -->
+<li class="">loop
 <ul>
 <li class="">break 可以返回值</li>
 <li class="">支持标签</li>
@@ -164,7 +164,7 @@
 <ul>
 <li class="">引用(&amp; 和 &amp;mut)</li>
 <li class="">裸指针(<code>*const</code> 和 <code>*mut</code>)</li>
-<li class="">智能指针<!-- -->
+<li class="">智能指针
 <ul>
 <li class=""><code>Box&lt;T&gt;</code>，可以将值分配到堆上</li>
 <li class=""><code>Rc&lt;T&gt;</code>，引用计数类型，允许多所有权存在</li>
@@ -177,7 +177,57 @@
 <li class=""><code>Deref</code> 可以让智能指针像引用那样工作，这样你就可以写出同时支持智能指针和引用的代码，例如 <code>*T</code></li>
 <li class=""><code>Drop</code> 允许你指定智能指针超出作用域后自动执行的代码，例如做一些数据清除等收尾工作</li>
 </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>Rust 规则</th><th>智能指针带来的额外规则</th></tr></thead><tbody><tr><td>一个数据只有一个所有者</td><td>Rc/Arc 让一个数据可以拥有多个所有者</td></tr><tr><td>要么多个不可变借用，要么一个可变借用</td><td>RefCell 实现编译期可变、不可变引用共存</td></tr><tr><td>违背规则导致编译错误</td><td>违背规则导致运行时 panic</td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table><thead><tr><th>Weak</th><th>Rc</th></tr></thead><tbody><tr><td>不计数</td><td>引用计数</td></tr><tr><td>不拥有所有权</td><td>拥有值的所有权</td></tr><tr><td>不阻止值被释放(drop)</td><td>所有权计数归零，才能 drop</td></tr><tr><td>引用的值存在返回 Some，不存在返回 None</td><td>引用的值必定存在</td></tr><tr><td>通过 upgrade 取到 <code>Option&lt;Rc&lt;T&gt;&gt;</code>，然后再取值</td><td>通过 Deref 自动解引用，取值无需任何操作</td></tr></tbody></table>
 <p><code>Weak</code> 通过 <code>use std::rc::Weak</code> 来引入，它具有以下特点:</p>
 <ul>
@@ -208,11 +258,11 @@
 <li class=""><em>crate root</em> 是一个源文件，Rust 编译器以它为起始点，并构成你的 crate 的根模块. ==对于一个库 crate 而言是 <em>src/lib.rs</em>，对于一个二进制 crate 而言是 <em>src/main.rs</em>==</li>
 </ul>
 </li>
-<li class="">package<!-- -->
+<li class="">package
 <ul>
 <li class=""><em>包</em>（<em>package</em>）是提供一系列功能的一个或者多个 crate</li>
 <li class="">一个包会包含一个 <em>Cargo.toml</em> 文件</li>
-<li class="">包中可以包含至多一个库 crate(library crate)。包中可以包含任意多个二进制 crate(binary crate)，但是必须至少包含一个 crate（无论是库的还是二进制的）。<!-- -->
+<li class="">包中可以包含至多一个库 crate(library crate)。包中可以包含任意多个二进制 crate(binary crate)，但是必须至少包含一个 crate（无论是库的还是二进制的）。
 <ul>
 <li class="">通过将文件放在 <em>src/bin</em> 目录下，一个包可以拥有多个二进制 crate</li>
 </ul>
@@ -245,7 +295,7 @@
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="文档和参考资料">文档和参考资料<a href="#文档和参考资料" class="hash-link" aria-label="文档和参考资料的直接链接" title="文档和参考资料的直接链接" translate="no">​</a></h2>
 <ul>
-<li class="">Official<!-- -->
+<li class="">Official
 <ul>
 <li class=""><a href="https://doc.rust-lang.org/book/" target="_blank" rel="noopener noreferrer" class="">https://doc.rust-lang.org/book/</a>
 <ul>
@@ -266,13 +316,13 @@
 </li>
 </ul>
 </li>
-<li class="">UnOfficial<!-- -->
+<li class="">UnOfficial
 <ul>
 <li class=""><a href="https://course.rs/about-book.html" target="_blank" rel="noopener noreferrer" class="">https://course.rs/about-book.html</a></li>
 <li class=""><a href="https://zh.practice.rs/why-exercise.html" target="_blank" rel="noopener noreferrer" class="">https://zh.practice.rs/why-exercise.html</a></li>
 </ul>
 </li>
-<li class="">Others<!-- -->
+<li class="">Others
 <ul>
 <li class=""><a href="https://lborb.github.io/book/title-page.html" target="_blank" rel="noopener noreferrer" class="">https://lborb.github.io/book/title-page.html</a></li>
 <li class=""><a href="https://github.com/rust-unofficial/awesome-rust" target="_blank" rel="noopener noreferrer" class="">https://github.com/rust-unofficial/awesome-rust</a></li>
@@ -281,6 +331,6 @@
 <li class=""><a href="https://rust-unofficial.github.io/too-many-lists/" target="_blank" rel="noopener noreferrer" class="">简介 - 使用太多的链表学习 Rust (rust-unofficial.github.io)</a></li>
 </ul>
 </li>
-</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-09-12T13:03:59.000Z" itemprop="dateModified">2026年9月12日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/计算机/编程/Python/uv"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">uv</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/计算机/编程/Rust/Rust GUI框架"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Rust GUI框架</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#hello-world" class="table-of-contents__link toc-highlight">hello-world</a></li><li><a href="#词法" class="table-of-contents__link toc-highlight">词法</a></li><li><a href="#变量" class="table-of-contents__link toc-highlight">变量</a></li><li><a href="#作用域所有权生命周期" class="table-of-contents__link toc-highlight">作用域、所有权、生命周期</a></li><li><a href="#数据类型" class="table-of-contents__link toc-highlight">数据类型</a></li><li><a href="#结构体" class="table-of-contents__link toc-highlight">结构体</a></li><li><a href="#枚举和模式匹配" class="table-of-contents__link toc-highlight">枚举和模式匹配</a></li><li><a href="#collections" class="table-of-contents__link toc-highlight">collections</a></li><li><a href="#控制流" class="table-of-contents__link toc-highlight">控制流</a></li><li><a href="#函数" class="table-of-contents__link toc-highlight">函数</a></li><li><a href="#错误处理" class="table-of-contents__link toc-highlight">错误处理</a></li><li><a href="#泛型" class="table-of-contents__link toc-highlight">泛型</a></li><li><a href="#trait" class="table-of-contents__link toc-highlight">trait</a></li><li><a href="#指针" class="table-of-contents__link toc-highlight">指针</a></li><li><a href="#并发-concurrent" class="table-of-contents__link toc-highlight">并发 (Concurrent)</a></li><li><a href="#模块" class="table-of-contents__link toc-highlight">模块</a></li><li><a href="#宏" class="table-of-contents__link toc-highlight">宏</a></li><li><a href="#工具链" class="table-of-contents__link toc-highlight">工具链</a></li><li><a href="#生态" class="table-of-contents__link toc-highlight">生态</a></li><li><a href="#文档和参考资料" class="table-of-contents__link toc-highlight">文档和参考资料</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.</div></div></div></footer></div>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-09-13T14:00:37.000Z" itemprop="dateModified">2026年9月13日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/计算机/编程/Python/uv"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">uv</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/计算机/编程/Rust/Rust GUI框架"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Rust GUI框架</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#hello-world" class="table-of-contents__link toc-highlight">hello-world</a></li><li><a href="#词法" class="table-of-contents__link toc-highlight">词法</a></li><li><a href="#变量" class="table-of-contents__link toc-highlight">变量</a></li><li><a href="#作用域所有权生命周期" class="table-of-contents__link toc-highlight">作用域、所有权、生命周期</a></li><li><a href="#数据类型" class="table-of-contents__link toc-highlight">数据类型</a></li><li><a href="#结构体" class="table-of-contents__link toc-highlight">结构体</a></li><li><a href="#枚举和模式匹配" class="table-of-contents__link toc-highlight">枚举和模式匹配</a></li><li><a href="#collections" class="table-of-contents__link toc-highlight">collections</a></li><li><a href="#控制流" class="table-of-contents__link toc-highlight">控制流</a></li><li><a href="#函数" class="table-of-contents__link toc-highlight">函数</a></li><li><a href="#错误处理" class="table-of-contents__link toc-highlight">错误处理</a></li><li><a href="#泛型" class="table-of-contents__link toc-highlight">泛型</a></li><li><a href="#trait" class="table-of-contents__link toc-highlight">trait</a></li><li><a href="#指针" class="table-of-contents__link toc-highlight">指针</a></li><li><a href="#并发-concurrent" class="table-of-contents__link toc-highlight">并发 (Concurrent)</a></li><li><a href="#模块" class="table-of-contents__link toc-highlight">模块</a></li><li><a href="#宏" class="table-of-contents__link toc-highlight">宏</a></li><li><a href="#工具链" class="table-of-contents__link toc-highlight">工具链</a></li><li><a href="#生态" class="table-of-contents__link toc-highlight">生态</a></li><li><a href="#文档和参考资料" class="table-of-contents__link toc-highlight">文档和参考资料</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DZL1943. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.</div></div></div></footer></div>
 </body>
 </html>
