@@ -2,42 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dzl1943.github.io/blog</id>
     <title>Welcome Blog</title>
-    <updated>2026-09-14T11:17:31.000Z</updated>
+    <updated>2026-09-22T11:43:19.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dzl1943.github.io/blog"/>
     <subtitle>Welcome Blog</subtitle>
     <icon>https://dzl1943.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[20260216_热水器工作模式]]></title>
-        <id>https://dzl1943.github.io/blog/20260216_热水器工作模式</id>
-        <link href="https://dzl1943.github.io/blog/20260216_热水器工作模式"/>
-        <updated>2026-09-14T11:17:31.000Z</updated>
-        <summary type="html"><![CDATA[热水器工作模式]]></summary>
-        <content type="html"><![CDATA[<p>热水器工作模式</p>
-<ul>
-<li class="">加热</li>
-<li class="">保温: 点击"中温保温"按钮切换保温(40°)和加热</li>
-<li class="">预约: 点击"预约"按钮切换预约1、2、1且2、加热</li>
-</ul>
-<p>手动的问题</p>
-<ul>
-<li class="">手动启停麻烦, 容易忘记开和关</li>
-<li class="">晚上关闭后早上可能无热水可用(热水都被用掉了或因"动态增容"稀释了)</li>
-</ul>
-<p>解决办法: 预约+手动</p>
-<ul>
-<li class="">先用预约保证早晚有基础热度</li>
-<li class="">如需大量用水, 再手动切至加热模式, <strong>用后记得恢复预约模式</strong></li>
-</ul>
-<p>频繁恢复预约模式略显麻烦, 替代办法是只恢复到保温状态.<br>
-即晚上提前一小时开启加热, 直到所有人用完再切至保温(不是关闭), 中间时间不需要动(所以不要提前太早). 这样即使早上没有预约也有基本热度.</p>
-<p><strong>关键是用水过程中要保持加热, 如此才能避免用后热度急剧降低.</strong></p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[20260721_摄影入门]]></title>
         <id>https://dzl1943.github.io/blog/20260721_摄影入门</id>
         <link href="https://dzl1943.github.io/blog/20260721_摄影入门"/>
-        <updated>2026-09-14T11:17:31.000Z</updated>
+        <updated>2026-09-22T11:43:19.000Z</updated>
         <summary type="html"><![CDATA[- 横屏、竖屏]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class="">横屏、竖屏</li>
@@ -55,7 +29,7 @@
         <title type="html"><![CDATA[20260819_笔记管理的原则]]></title>
         <id>https://dzl1943.github.io/blog/20260819_笔记管理的原则</id>
         <link href="https://dzl1943.github.io/blog/20260819_笔记管理的原则"/>
-        <updated>2026-09-14T11:17:31.000Z</updated>
+        <updated>2026-09-22T11:43:19.000Z</updated>
         <summary type="html"><![CDATA[- 内容为先，减少一切非必要的功能依赖、规则限制]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class="">内容为先，减少一切非必要的功能依赖、规则限制</li>
@@ -66,23 +40,10 @@
 </ul>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[20260827_跳闸排查思路]]></title>
-        <id>https://dzl1943.github.io/blog/20260827_跳闸排查思路</id>
-        <link href="https://dzl1943.github.io/blog/20260827_跳闸排查思路"/>
-        <updated>2026-09-14T11:17:31.000Z</updated>
-        <summary type="html"><![CDATA[1. 断所有分闸，合总闸，确定总闸、总线路是否正常]]></summary>
-        <content type="html"><![CDATA[<ol>
-<li class="">断所有分闸，合总闸，确定总闸、总线路是否正常</li>
-<li class="">逐一合分闸，确定故障分路</li>
-<li class="">断开分路内所有电器，合分闸，确定分闸线路是否正常</li>
-<li class="">逐一插电器，确定故障电器</li>
-</ol>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[图书管理]]></title>
         <id>https://dzl1943.github.io/blog/图书管理</id>
         <link href="https://dzl1943.github.io/blog/图书管理"/>
-        <updated>2026-09-14T11:17:31.000Z</updated>
+        <updated>2026-09-22T11:43:19.000Z</updated>
         <summary type="html"><![CDATA[文学类]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="文学类">文学类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E6%96%87%E5%AD%A6%E7%B1%BB" class="hash-link" aria-label="文学类的直接链接" title="文学类的直接链接" translate="no">​</a></h2>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="历史类">历史类<a href="https://dzl1943.github.io/blog/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86#%E5%8E%86%E5%8F%B2%E7%B1%BB" class="hash-link" aria-label="历史类的直接链接" title="历史类的直接链接" translate="no">​</a></h2>
@@ -102,7 +63,7 @@
         <title type="html"><![CDATA[影视管理]]></title>
         <id>https://dzl1943.github.io/blog/影视管理</id>
         <link href="https://dzl1943.github.io/blog/影视管理"/>
-        <updated>2026-09-14T11:17:31.000Z</updated>
+        <updated>2026-09-22T11:43:19.000Z</updated>
         <summary type="html"><![CDATA[电影]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="电影">电影<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E7%94%B5%E5%BD%B1" class="hash-link" aria-label="电影的直接链接" title="电影的直接链接" translate="no">​</a></h2>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="动漫">动漫<a href="https://dzl1943.github.io/blog/%E5%BD%B1%E8%A7%86%E7%AE%A1%E7%90%86#%E5%8A%A8%E6%BC%AB" class="hash-link" aria-label="动漫的直接链接" title="动漫的直接链接" translate="no">​</a></h2>
@@ -118,7 +79,7 @@
         <title type="html"><![CDATA[游戏管理]]></title>
         <id>https://dzl1943.github.io/blog/游戏管理</id>
         <link href="https://dzl1943.github.io/blog/游戏管理"/>
-        <updated>2026-09-14T11:17:31.000Z</updated>
+        <updated>2026-09-22T11:43:19.000Z</updated>
         <summary type="html"><![CDATA[RPG]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="rpg">RPG<a href="https://dzl1943.github.io/blog/%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86#rpg" class="hash-link" aria-label="RPG的直接链接" title="RPG的直接链接" translate="no">​</a></h2>
 <ul class="contains-task-list containsTaskList_mC6p">
@@ -188,7 +149,7 @@
         <title type="html"><![CDATA[音乐管理]]></title>
         <id>https://dzl1943.github.io/blog/音乐管理</id>
         <link href="https://dzl1943.github.io/blog/音乐管理"/>
-        <updated>2026-09-14T11:17:31.000Z</updated>
+        <updated>2026-09-22T11:43:19.000Z</updated>
         <summary type="html"><![CDATA[- Inbox: 待听]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class="">Inbox: 待听</li>
@@ -233,15 +194,6 @@
 </ul>
 </li>
 </ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[必应锁屏壁纸保存方法]]></title>
-        <id>https://dzl1943.github.io/blog/必应锁屏壁纸保存方法</id>
-        <link href="https://dzl1943.github.io/blog/必应锁屏壁纸保存方法"/>
-        <updated>2026-09-07T16:36:00.000Z</updated>
-        <summary type="html"><![CDATA[路径：%LOCALAPPDATA%\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets]]></summary>
-        <content type="html"><![CDATA[<p>路径：<code>%LOCALAPPDATA%\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets</code></p>
-<p>重命名：<code>Get-ChildItem -File | Rename-Item -NewName { $_.BaseName + ".jpg" }</code></p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[20260830_笔记库组织结构]]></title>
@@ -344,12 +296,11 @@
 <ul>
 <li class="">日记（饮食、习惯、情绪、事件、反思、总结）</li>
 <li class="">任务</li>
-<li class="">记账</li>
 </ul>
 </li>
 <li class="">创作类
 <ul>
-<li class="">随笔</li>
+<li class="">闪念</li>
 <li class="">博文</li>
 </ul>
 </li>
@@ -362,6 +313,7 @@
 <li class="">管理类
 <ul>
 <li class="">通讯录</li>
+<li class="">记账</li>
 <li class="">物品</li>
 <li class="">密码</li>
 <li class="">书签</li>
@@ -479,7 +431,11 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="方法">方法<a href="https://dzl1943.github.io/blog/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86#%E6%96%B9%E6%B3%95" class="hash-link" aria-label="方法的直接链接" title="方法的直接链接" translate="no">​</a></h2>
 <p>收集、整理、组织、回顾、执行</p>
 <ul>
-<li class="">描述</li>
+<li class="">参与者</li>
+<li class="">计划时间</li>
+<li class="">实际时间</li>
+<li class="">地点</li>
+<li class="">描述：做什么（起因、经过、结果）</li>
 <li class="">状态
 <ul>
 <li class="">待定 Inbox</li>
@@ -500,11 +456,8 @@
 </ul>
 </li>
 <li class="">优先级</li>
-<li class="">责任人</li>
 <li class="">分类</li>
 <li class="">备注</li>
-<li class="">开始时间</li>
-<li class="">结束时间</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="工具">工具<a href="https://dzl1943.github.io/blog/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86#%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="工具的直接链接" title="工具的直接链接" translate="no">​</a></h2>
 <ul>
@@ -528,6 +481,7 @@
 <li class="">12位以上 数字+字母+符号</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="分类">分类<a href="https://dzl1943.github.io/blog/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86#%E5%88%86%E7%B1%BB" class="hash-link" aria-label="分类的直接链接" title="分类的直接链接" translate="no">​</a></h2>
+<p>%%[list2table]%%</p>
 <ul>
 <li class="">金融类
 <ul>
@@ -712,6 +666,144 @@
 </ul>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[日记管理]]></title>
+        <id>https://dzl1943.github.io/blog/日记管理</id>
+        <link href="https://dzl1943.github.io/blog/日记管理"/>
+        <updated>2025-10-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[内容]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="内容">内容<a href="https://dzl1943.github.io/blog/%E6%97%A5%E8%AE%B0%E7%AE%A1%E7%90%86#%E5%86%85%E5%AE%B9" class="hash-link" aria-label="内容的直接链接" title="内容的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">状态</li>
+<li class="">事项</li>
+<li class="">随感</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="分类">分类<a href="https://dzl1943.github.io/blog/%E6%97%A5%E8%AE%B0%E7%AE%A1%E7%90%86#%E5%88%86%E7%B1%BB" class="hash-link" aria-label="分类的直接链接" title="分类的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">时间戳笔记：适合记录随感杂记</li>
+<li class="">日记：纯粹记录当天及有关自身的一切（非流水账）</li>
+<li class="">周记：适合任务计划</li>
+<li class="">月记：适合记录思想状态</li>
+<li class="">季记：总结复盘</li>
+<li class="">年记：适合汇总</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="组织">组织<a href="https://dzl1943.github.io/blog/%E6%97%A5%E8%AE%B0%E7%AE%A1%E7%90%86#%E7%BB%84%E7%BB%87" class="hash-link" aria-label="组织的直接链接" title="组织的直接链接" translate="no">​</a></h2>
+<p>按周期</p>
+<ul>
+<li class="">Daily/</li>
+<li class="">Weekly/</li>
+<li class="">Monthly/</li>
+<li class="">Quarterly/</li>
+<li class="">Yearly/</li>
+</ul>
+<p>按年份
+%% moment 格式 %%</p>
+<ul>
+<li class="">YYYY/
+<ul>
+<li class="">YYYY-MM-DD</li>
+<li class="">GGGG-[W]WW</li>
+<li class="">YYYY-MM</li>
+<li class="">YYYY-[Q]Q</li>
+<li class="">YYYY</li>
+</ul>
+</li>
+</ul>
+<p>%% luxon 格式 %%</p>
+<ul>
+<li class="">yyyy/
+<ul>
+<li class="">yyyy-MM-dd</li>
+<li class="">kkkk-'W'WW</li>
+<li class="">yyyy-MM</li>
+<li class="">yyyy-'Q'q</li>
+<li class="">yyyy</li>
+</ul>
+</li>
+</ul>
+<p>按年份和周期</p>
+<p>按年-季-月-周-日</p>
+<p>方案一</p>
+<ul>
+<li class="">年
+<ul>
+<li class="">季
+<ul>
+<li class="">月
+<ul>
+<li class="">日</li>
+</ul>
+</li>
+<li class="">周</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>方案二</p>
+<ul>
+<li class="">年
+<ul>
+<li class="">季
+<ul>
+<li class="">周</li>
+</ul>
+</li>
+<li class="">月
+<ul>
+<li class="">日</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="实践">实践<a href="https://dzl1943.github.io/blog/%E6%97%A5%E8%AE%B0%E7%AE%A1%E7%90%86#%E5%AE%9E%E8%B7%B5" class="hash-link" aria-label="实践的直接链接" title="实践的直接链接" translate="no">​</a></h2>
+<p>借助 Anyblock 实现日记表格</p>
+<p>列表表格</p>
+<p>[list2lt]</p>
+<ul>
+<li class="">2026-09-18
+<ul>
+<li class="">事项 1 | 备注
+<ul>
+<li class="">1</li>
+<li class="">2</li>
+</ul>
+</li>
+<li class="">事项 2</li>
+</ul>
+</li>
+<li class="">2026-09-19</li>
+</ul>
+<p>二维表格</p>
+<p>[list2ut]</p>
+<ul>
+<li class="">日期
+<ul>
+<li class="">第二列</li>
+<li class="">第三列</li>
+<li class="">第四列</li>
+</ul>
+</li>
+<li class="">2026-09-18
+<ul>
+<li class="">总结：xxx
+<ul>
+<li class="">1</li>
+<li class="">2</li>
+<li class="">3</li>
+</ul>
+</li>
+<li class="">备注：xxx
+<ul>
+<li class="">1</li>
+<li class="">2</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[列表层级关系]]></title>
         <id>https://dzl1943.github.io/blog/列表层级关系</id>
         <link href="https://dzl1943.github.io/blog/列表层级关系"/>
@@ -725,5 +817,106 @@
 <li class="">因果</li>
 <li class="">关联</li>
 </ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[笔记关系]]></title>
+        <id>https://dzl1943.github.io/blog/笔记关系</id>
+        <link href="https://dzl1943.github.io/blog/笔记关系"/>
+        <updated>2025-07-23T17:59:00.000Z</updated>
+        <summary type="html"><![CDATA[- Children/down: 正向链接]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li class="">Children/down: 正向链接</li>
+<li class="">Parents/up: 反向链接</li>
+<li class="">Friends: 相互链接
+<ul>
+<li class="">left/prev</li>
+<li class="">right/next</li>
+</ul>
+</li>
+<li class="">Other Friends %% (lateral relationships on the right side) %%</li>
+<li class="">Siblings</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[20241210_提问的艺术]]></title>
+        <id>https://dzl1943.github.io/blog/20241210_提问的艺术</id>
+        <link href="https://dzl1943.github.io/blog/20241210_提问的艺术"/>
+        <updated>2024-12-10T19:20:00.000Z</updated>
+        <summary type="html"><![CDATA[[!info]- 目的、作用、意义]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>[!info]- 目的、作用、意义</p>
+<ul>
+<li class="">增加提问成本, 过滤低质问题</li>
+<li class="">引导规范提问, 增进质量体验</li>
+</ul>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="流程规范">流程规范<a href="https://dzl1943.github.io/blog/20241210_%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF#%E6%B5%81%E7%A8%8B%E8%A7%84%E8%8C%83" class="hash-link" aria-label="流程规范的直接链接" title="流程规范的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">提问前
+<ul>
+<li class="">尝试自行解决, 比如搜索、AI、阅读相关文档</li>
+<li class="">根据自身能力、需求重要性评估是否提问 (太基础或太小众的问题是不受欢迎的)</li>
+</ul>
+</li>
+<li class=""><strong>提问时</strong> (填写下表)
+<ul>
+<li class=""><code>&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;</code></li>
+<li class="">需求背景: 为什么会有这个问题? 原始需求是什么?</li>
+<li class="">过程现象: 做了哪些尝试? 过程、现象是什么?</li>
+<li class="">问题诉求: 需要什么帮助、解决什么问题?</li>
+<li class="">补充说明</li>
+</ul>
+</li>
+<li class="">提问后
+<ul>
+<li class="">对问题进行梳理总结</li>
+<li class="">对相关人员予以感谢</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>[!tip] 检验标准: 能否直接复制到 AI 中提问</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="注意事项">注意事项<a href="https://dzl1943.github.io/blog/20241210_%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" class="hash-link" aria-label="注意事项的直接链接" title="注意事项的直接链接" translate="no">​</a></h2>
+<p>%% 若违背, 提问将不予理会 %%</p>
+<ol>
+<li class="">不要问无意义、低质、容易引发争议或敏感类问题</li>
+<li class="">不要问过于基础或小众的问题, 除非你展现足够的解决意愿</li>
+<li class="">不要问远超你能力范围的问题</li>
+<li class="">表述清晰有条理, 信息充足</li>
+<li class="">态度诚恳, 保持礼貌</li>
+<li class="">及时对相关回复予以反馈, 禁止随意 @ 他人</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="解决办法">解决办法<a href="https://dzl1943.github.io/blog/20241210_%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF#%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95" class="hash-link" aria-label="解决办法的直接链接" title="解决办法的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="">切换默认主题, 关闭 css 片段</li>
+<li class="">切换安全模式(禁用所有插件)</li>
+<li class="">重启应用</li>
+<li class="">重装应用</li>
+<li class="">重启系统</li>
+<li class="">重装系统</li>
+<li class="">更换硬件</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="faq">FAQ<a href="https://dzl1943.github.io/blog/20241210_%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF#faq" class="hash-link" aria-label="FAQ的直接链接" title="FAQ的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考">参考<a href="https://dzl1943.github.io/blog/20241210_%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF#%E5%8F%82%E8%80%83" class="hash-link" aria-label="参考的直接链接" title="参考的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">markdown 文档 <a href="https://www.markdownguide.org/" target="_blank" rel="noopener noreferrer" class="">https://www.markdownguide.org/</a></li>
+<li class="">obsidian 文档 <a href="https://help.obsidian.md/" target="_blank" rel="noopener noreferrer" class="">https://help.obsidian.md/</a></li>
+<li class="">obsidian 论坛 <a href="https://forum.obsidian.md/" target="_blank" rel="noopener noreferrer" class="">https://forum.obsidian.md/</a></li>
+<li class="">pkmer 社区 <a href="https://pkmer.cn/" target="_blank" rel="noopener noreferrer" class="">https://pkmer.cn/</a></li>
+<li class=""><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way" target="_blank" rel="noopener noreferrer" class="">GitHub - ryanhanwu/How-To-Ask-Questions-The-Smart-Way</a></li>
+</ul>
+<h1>后记</h1>
+<p>为什么说只能水群不能当真?</p>
+<ol>
+<li class="">群聊不适合深度交流, 只能水 (这可能是唯一收获)</li>
+<li class="">群成员素质不一, 不能当真 (轻则不悦, 重则退群)
+<ol>
+<li class="">能够把内容一次性描述清楚的不多</li>
+<li class="">能够尊重他人回复的不多, 表达感谢的极少</li>
+</ol>
+</li>
+</ol>
+<p>问题描述不清楚、不充分的, 直接默认素质一般, 不予理会.</p>]]></content>
     </entry>
 </feed>
